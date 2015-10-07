@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery.columnizer.js"></script>
+<script>
+		$(function(){
+			$('#section-cities').columnize({		width:250, lastNeverTallest: false});
+			$('#section-participants').columnize({	width:250, lastNeverTallest: true});
+			$('#section-projects').columnize({		width:380, lastNeverTallest: true});
+		});
+</script>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+</head>
+<body>
+  <div id="index">
+    <div id="section-header">
+		<h2><a href="#">About (Typojanchi)</a></h2>
+		<div id="lang-en"><a href="#">EN</a></div>
+		<div id="lang-ko"><a href="#">한글</a></div>
+    </div>
+    <div id="section-cities">
+    	<ul class="index-list">
+			<li><a href="#">Seoul, KR</a></li>
+			<li><a href="#">London, UK</a></li>
+			<li><a href="#">Auckland, NZ</a></li>
+			<li><a href="#">Stockholm, SE</a></li>
+			<li><a href="#">Amsterdam, NL</a></li>
+			<li><a href="#">Tokyo,JP</a></li>
+			<li><a href="#">Osaka, JP</a></li>
+			<li><a href="#">Berlin, DE</a></li>
+			<li><a href="#">Rotterdam, NL</a></li>
+			<li><a href="#">Porto, PT</a></li>
+			<li><a href="#">Beijing, CN</a></li>
+			<li><a href="#">Paris, FR</a></li>
+			<li><a href="#">Derby, UK</a></li>
+			<li><a href="#">Gunpo, KR</a></li>
+			<li><a href="#">Los Angeles, US</a></li>
+			<li><a href="#">Mexico City, MX</a></li>
+			<li><a href="#">Chicago, US</a></li>
+			<li><a href="#">Hong Kong</a></li>
+			<li><a href="#">Taipei, TW</a></li>
+			<li><a href="#">Bangkok, TH</a></li>
+			<li><a href="#">Ho Chi Minh, VN</a></li>
+			<li><a href="#">Singapore</a></li>
+			<li><a href="#">Basel, CH</a></li>
+			<li><a href="#">Montreuil, FR</a></li>
+			<li><a href="#">Homer, US</a></li>
+			<li><a href="#">Daegu, KR</a></li>
+			<li><a href="#">New York, US</a></li>
+			<li><a href="#">Paju, KR</a></li>
+			<li><a href="#">New Haven, US</a></li>
+			<li><a href="#">Ghent, UK</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+	</div>
+	<div id="section-participants">
+		<ul class="index-list dontsplit">
+			<li><a href="#">(1)</a></li>
+			<li><a href="#">Catherine Griffiths</a></li>
+			<li><a href="#">Doosup Kim</a></li>
+			<li><a href="#">Byungil Choi</a></li>
+			<li><a href="#">Daniel Eatock</a></li>
+			<li><a href="#">Joon Soo Ha</a></li>
+			<li><a href="#">Research and Development</a></li>
+			<li><a href="#">Sandra Kassenaar &amp; Bart de Baets</a></li>
+			<li><a href="#">Dongwan Kook </a></li>
+			<li><a href="#">Kyuhyung Cho</a></li>
+			<li><a href="#">Hyounyoul Joe</a></li>
+			<li><a href="#">Dainippon Type</a></li>
+			<li><a href="#">Yuma Harada + Shohei Iida</a></li>
+			<li><a href="#">Roman Wilhelm</a></li>
+			<li><a href="#">Studio Spass</a></li>
+			<li><a href="#">R2</a></li>
+			<li><a href="#">Till Wiedeck</a></li>
+			<li><a href="#">Wang Ziyuan</a></li>
+			<li><a href="#">Brownfox</a></li>
+			<li><a href="#">Leslie David</a></li>
+			<li><a href="#">TYMOTE/CEKAI</a></li>
+			<li><a href="#">Wu Fan</a></li>
+			<li><a href="#">Elodie Boyer</a></li>
+			<li><a href="#">Rejane Dal Bello</a></li>
+			<li><a href="#">Yi Jisung</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(2)</a></li>
+			<li><a href="#">Laura Joan</a></li>
+			<li><a href="#">Jörg Schwertfeger</a></li>
+			<li><a href="#">Andrew Brash</a></li>
+			<li><a href="#">Summer Studio</a></li>
+			<li><a href="#">Sebastian Koseda</a></li>
+			<li><a href="#">Jonas Berthod</a></li>
+			<li><a href="#">Kyuha Shim</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(3)</a></li>
+			<li><a href="#">Javin Mo</a></li>
+			<li><a href="#">Hung Chang-Lien</a></li>
+			<li><a href="#">Li Shaobo</a></li>
+			<li><a href="#">Prabda Yoon</a></li>
+			<li><a href="#">Giang Nguyen</a></li>
+			<li><a href="#">Sean Kelvin Khoo</a></li>
+			<li><a href="#">Makoto Morimura</a></li>
+			<li><a href="#">ShinShin</a></li>
+			<li><a href="#">Shunya Hagiwara</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(4)</a></li>
+			<li><a href="#">Ludovic Balland </a></li>
+			<li><a href="#">Siggi Eggertsson</a></li>
+			<li><a href="#">Helmo</a></li>
+			<li><a href="#">Keetra Dean Dixon</a></li>
+			<li><a href="#">Aaron Nieh</a></li>
+			<li><a href="#">Richard Niessen</a></li>
+			<li><a href="#">Jaemin Lee</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(5)</a></li>
+			<li><a href="#">Takeout Drawing</a></li>
+			<li><a href="#">Post Poetics</a></li>
+			<li><a href="#">Second Hotel</a></li>
+			<li><a href="#">Thanks Books</a></li>
+			<li><a href="#">Your Mind</a></li>
+			<li><a href="#">Pinokio</a></li>
+			<li><a href="#">Yri Cafe</a></li>
+			<li><a href="#">1984</a></li>
+			<li><a href="#">Veronica Effect</a></li>
+			<li><a href="#">Book by Book</a></li>
+			<li><a href="#">The Book Society</a></li>
+			<li><a href="#">Round About</a></li>
+			<li><a href="#">Gagarin</a></li>
+			<li><a href="#">Art Sonje Center</a></li>
+			<li><a href="#">Zagmachi</a></li>
+			<li><a href="#">Haja Center</a></li>
+			<li><a href="#">Ilmin Museum of Art</a></li>
+			<li><a href="#">Small House Big Door</a></li>
+			<li><a href="#">In the Paper</a></li>
+			<li><a href="#">KCDF gallery</a></li>
+			<li><a href="#">Things We Love</a></li>
+			<li><a href="#">Epoca</a></li>
+			<li><a href="#">Kobalt shop</a></li>
+			<li><a href="#">Aladin</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(6)</a></li>
+			<li><a href="#">Mano Ahn</a></li>
+			<li><a href="#">Mingoo Yoon</a></li>
+			<li><a href="#">Ordinary People</a></li>
+			<li><a href="#">Joowon Han, Sejoong Kim</a></li>
+			<li><a href="#">Marvin Lee + Eli Park </a></li>
+			<li><a href="#">Corners</a></li>
+			<li><a href="#">Ban Yoon Jung</a></li>
+			<li><a href="#">Lara Lee + Oui Kim</a></li>
+			<li><a href="#">Shin Dokho</a></li>
+			<li><a href="#">Jae Jeon</a></li>
+			<li><a href="#">Jin Jung</a></li>
+			<li><a href="#">Moon Jang</a></li>
+			<li><a href="#">Hoon Kim</a></li>
+			<li><a href="#">Park Chanshin</a></li>
+			<li><a href="#">Donghwan Kim</a></li>
+			<li><a href="#">Uk Kim</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(7)</a></li>
+			<li><a href="#">PaTI</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(8)</a></li>
+			<li><a href="#">Doosung Paper</a></li>
+			<li><a href="#">Design Methods</a></li>
+			<li><a href="#">Bongkyu Song</a></li>
+			<li><a href="#">Mathew Kneebone</a></li>
+			<li><a href="#">Team Thursday</a></li>
+			<li><a href="#">Clark Corp</a></li>
+			<li><a href="#">Burger + Stadel + Walsh</a></li>
+			<li><a href="#">Akiko Masunaga</a></li>
+			<li><a href="#">Hyojun Shim + Keith Wong</a></li>
+			<li><a href="#">Gang Moonsick</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(9)</a></li>
+			<li><a href="#">Kim Garden x Standardstandard</a></li>
+			<li><a href="#">Works</a></li>
+			<li><a href="#">Fritz Park</a></li>
+			<li><a href="#">Hyung-chul Kim</a></li>
+			<li><a href="#">Jot</a></li>
+			<li><a href="#">MYKC</a></li>
+			<li><a href="#">Youngha Park</a></li>
+			<li><a href="#">Baemin</a></li>
+			<li><a href="#">Sparks Edition</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(10)</a></li>
+			<li><a href="#">Everyday Practice</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(11)</a></li>
+			<li><a href="#">Zero Lab</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(12)</a></li>
+			<li><a href="#">E Roon Kang</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(13)</a></li>
+			<li><a href="#">Nolgong</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(14)</a></li>
+			<li><a href="#">Dappertutto Studio</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(15)</a></li>
+			<li><a href="#">Workroom</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(16)</a></li>
+			<li><a href="#">Rebel9</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+		<ul class="index-list dontsplit">
+			<li><a href="#">(17)</a></li>
+			<li><a href="#">Ohyun Kwon</a></li>
+			<li><a href="#">Sunhee Yang</a></li>
+			<li><a href="#">Jiwon Yu</a></li>
+			<li class="removeiflast">&nbsp;</li>
+		</ul>
+    </div>
+    <div id="section-projects">
+    	<ul class="index-list">
+			<li><a href="#">(1) Main Exhibition</a></li>
+			<li><a href="#">(2) Six Images. Six Texts.</a></li>
+			<li><a href="#">(3) Asia City Text/ure</a></li>
+			<li><a href="#">(4) (&nbsp;&nbsp;&nbsp;) on the Walls</a></li>
+			<li><a href="#">(5) Seoul (&nbsp;&nbsp;&nbsp;) Soul</a></li>
+			<li><a href="#">(6) Jongno (&nbsp;&nbsp;&nbsp;) ga</a></li>
+			<li><a href="#">(7) (&nbsp;&nbsp;&nbsp;) house</a></li>
+			<li><a href="#">(8) Everyday Life in the City</a></li>
+			<li><a href="#">(9) C(&nbsp;&nbsp;&nbsp;) T(&nbsp;&nbsp;&nbsp;) Welcomes You</a></li>
+			<li><a href="#">(10) Workshop: A City without (&nbsp;&nbsp;&nbsp;)</a></li>
+			<li><a href="#">(11) Exhibition Space</a></li>
+			<li><a href="#">(12) Website</a></li>
+			<li><a href="#">(13) Video Documentation</a></li>
+			<li><a href="#">(14) Docent Project</a></li>
+			<li><a href="#">(15) Opening Performance</a></li>
+			<li><a href="#">(16) Archiving App</a></li>
+			<li><a href="#">(17) City Letter Reportage</a></li>
+		</ul>
+    </div>
+  </div>
+</body>
