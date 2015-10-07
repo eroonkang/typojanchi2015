@@ -5,17 +5,12 @@
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/jquery.columnizer.js"></script>
 <script src="js/retina.min.js"></script>
+<script src="js/smart-underline.js"></script>
 <script>
 		$(function(){
 			$('#section-cities').columnize({		width:250, lastNeverTallest: false});
 			$('#section-participants').columnize({	width:250, lastNeverTallest: true});
 			$('#section-projects').columnize({		width:380, lastNeverTallest: true});
-		});
-
-		$('#artwork').masonry({
-		  // options
-		  //itemSelector: '.grid-item',
-		  columnWidth: 1000
 		});
 </script>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen">

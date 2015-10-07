@@ -57,7 +57,12 @@ body{
 a {
 	text-decoration: none;
 	color: #000;
+	position:relative;
 }
+a:hover {
+	border-bottom: 1px solid;
+}
+
 
 /* ---------------------------------------------- */
 /* list */
