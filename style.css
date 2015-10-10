@@ -49,10 +49,26 @@ table {
 
 /* ---------------------------------------------- */
 
+@font-face {
+  font-family: 'FoundersGroteskTextWeb';
+  src: url('webfonts/FoundersGroteskTextWeb-Regular.eot'); /* IE9 Compat Modes */
+  src: url('webfonts/FoundersGroteskTextWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfonts/FoundersGroteskTextWeb-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+}
+@font-face {
+  font-family: 'FoundersGroteskTextWeb';
+  src: url('webfonts/FoundersGroteskTextWeb-RegularItalic.eot'); /* IE9 Compat Modes */
+  src: url('webfonts/FoundersGroteskTextWeb-RegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfonts/FoundersGroteskTextWeb-RegularItalic.woff') format('woff'); /* Pretty Modern Browsers */
+  font-style: italic, oblique;
+}
+
+
 body{
-	font-family: helvetica, arial, sans-serif;
-	font-size:21px;
-	line-height: 27px;
+	font-family: 'FoundersGroteskTextWeb', arial, sans-serif;
+	font-size:22px;
+	line-height: 1.15em;
+	//letter-spacing: -0.01em;
 }
 a {
 	text-decoration: none;
@@ -100,6 +116,7 @@ a:hover {
 	text-indent: -1.2em;
 	padding-right:1em;	
 }
+
 
 /* ---------------------------------------------- */
 /* content */
