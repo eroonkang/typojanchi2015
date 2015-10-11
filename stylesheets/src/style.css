@@ -2,12 +2,7 @@ body {
   font-family: 'FoundersGroteskTextWeb', arial, sans-serif;
   font-size: 22px;
   line-height: 1.15em;
-}
-
-body {
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #000;
+  background-color: #FFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

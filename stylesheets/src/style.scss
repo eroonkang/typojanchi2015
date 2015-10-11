@@ -1,51 +1,29 @@
-$base_font_size       : 16px; // px;
-$base_line_height     : 20px; // px
-$background-color: #000;
+$base_font_size       : 22px; // px;
+$base_line_height     : 1.15em; // px
+$background-color: #FFF;
+$text_color: #000;
 
-$text_color: #fff22d;
 
-
-body{
+@mixin regular_type {
   font-family: 'FoundersGroteskTextWeb', arial, sans-serif;
-  font-size:22px;
-  line-height: 1.15em;
-  //letter-spacing: -0.01em;
+  font-style:   normal;
+}
+
+@mixin italic_type {
+  font-family: 'FoundersGroteskTextWeb', arial, sans-serif;
+  font-style:  italic;
 }
 
 
 body {
+  font-family: 'FoundersGroteskTextWeb', arial, sans-serif;
   font-size: $base_font_size;
   line-height: $base_line_height;
   background-color: $background-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  // overflow-x:hidden;
-  // overflow-y:hidden;
 }
 
-@mixin light_type {
-  font-family: 'Lyon Display Web', Times, serif;
-  font-weight:  300;
-  font-style:   normal;
-  font-stretch: normal;
-}
-
-@mixin regular_type {
-  font-family: 'Lyon Display Web', Times,  serif;
-  font-weight:  400;
-  font-style:   normal;
-  font-stretch: normal;
-}
-
-@mixin sans_type {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.8em;
-  line-height:1.3em;
-  color:white;
-  font-style:   normal;
-  font-stretch: normal;
-}
 a {
   text-decoration: none;
   color: #000;

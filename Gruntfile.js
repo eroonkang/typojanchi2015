@@ -14,8 +14,7 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {                         // Dictionary of files
-          'stylesheets/src/style.css': 'stylesheets/src/style.scss',   
-          'stylesheets/src/blog.css': 'stylesheets/src/blog.scss',      // 'destination': 'source'
+          'stylesheets/src/style.css': 'stylesheets/src/style.scss'
         }
       }
     },
@@ -29,17 +28,6 @@ module.exports = function(grunt) {
             'javascripts/src/vendor/underscore-min.js',
             'javascripts/src/vendor/backbone-min.js',
             'javascripts/src/vendor/retina.min.js',
-            'javascripts/src/vendor/chroma.min.js',
-            'javascripts/src/vendor/paper-full.min.js',
-            'javascripts/src/vendor/slick.min.js',
-            'javascripts/src/vendor/papaparse.min.js',
-            'javascripts/src/vendor/js.cookie.js',
-            'javascripts/src/vendor/moment.js',
-            'javascripts/src/vendor/bowser.min.js',
-            'javascripts/src/vendor/jquery.one-click-outside.js',
-            'javascripts/src/vendor/imagesloaded.pkgd.min.js',
-            'javascripts/src/vendor/jquery.blink.js',
-            'javascripts/src/vendor/TweenMax.min.js',
             'javascripts/src/WY.js',
             'javascripts/src/utils.js',
             'javascripts/src/models/*.js',
@@ -47,8 +35,7 @@ module.exports = function(grunt) {
           ],
           'stylesheets/dist/application.css': ['stylesheets/src/reset.css', 
                                                'stylesheets/src/fonts.css', 
-                                               'stylesheets/src/style.css',
-                                               'stylesheets/src/blog.css']
+                                               'stylesheets/src/style.css']
         }
       },
     },
