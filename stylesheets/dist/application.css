@@ -1,0 +1,2293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2013 Schwartzco Inc.
+        License: 1507-HWJKDI     
+*/
+
+@font-face {
+  font-family: "tcfs";
+  src: url('../../fonts/tcfs.eot?93341368');
+  src: url('../../fonts/tcfs.eot?93341368#iefix') format('embedded-opentype'),
+       url('../../fonts/tcfs.woff?93341368') format('woff'),
+       url('../../fonts/tcfs.ttf?93341368') format('truetype'),
+       url('../../fonts/tcfs.svg?93341368#tcfs') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'tcfs';
+    src: url('../font/tcfs.svg?93341368#tcfs') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "tcfs";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-arrow_01_right:before { content: '\e800'; } /* '' */
+.icon-close:before { content: '\e801'; } /* '' */
+.icon-hamburger:before { content: '\e802'; } /* '' */
+.icon-link:before { content: '\e803'; } /* '' */
+.icon-arrow_02_left:before { content: '\e804'; } /* '' */
+.icon-arrow_02_right:before { content: '\e805'; } /* '' */
+.icon-question_mark:before { content: '\e806'; } /* '' */
+.icon-up:before { content: '\e807'; } /* '' */
+.icon-arrow_03_right:before { content: '\e808'; } /* '' */
+.icon-top:before { content: '\e809'; } /* '' */
+.icon-play:before { content: '\e80a'; } /* '' */
+
+
+@font-face {
+  font-family: "Lyon Display Web";
+  src: url('../../fonts/LyonDisplay-LightItalic-Web.eot');
+  src: url('../../fonts/LyonDisplay-LightItalic-Web.eot?#iefix') format('embedded-opentype'),
+     url('../../fonts/LyonDisplay-LightItalic-Web.woff') format('woff'),
+     url('../../fonts/LyonDisplay-LightItalic-Web.ttf') format('truetype'),
+     url('../../fonts/LyonDisplay-LightItalic-Web.svg#Lyon Display Web') format('svg');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+
+@font-face {
+  font-family: "Lyon Display Web";
+  src: url('../../fonts/LyonDisplay-RegularItalic-Web.eot');
+  src: url('../../fonts/LyonDisplay-RegularItalic-Web.eot?#iefix') format('embedded-opentype'),
+     url('../../fonts/LyonDisplay-RegularItalic-Web.woff') format('woff'),
+     url('../../fonts/LyonDisplay-RegularItalic-Web.ttf') format('truetype'),
+     url('../../fonts/LyonDisplay-RegularItalic-Web.svg#Lyon Display Web') format('svg');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@charset "UTF-8";
+body {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, div, p {
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 16px;
+  color: #fff22d;
+}
+
+a {
+  text-decoration: none;
+  color: #fff22d;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+a.link {
+  color: white;
+}
+
+.triangle-isosceles {
+  position: relative;
+  padding: 6px 10px;
+  margin: 1em 0 3em;
+  color: #000;
+  background: #fff22d;
+}
+.triangle-isosceles .tip {
+  display: none;
+}
+
+/* Variant : for top positioned triangle
+------------------------------------------ */
+.triangle-isosceles.top {
+  background-color: #fff22d;
+}
+
+/* creates triangle */
+.triangle-isosceles:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  /* value = - border-top-width - border-bottom-width */
+  left: 50px;
+  /* controls horizontal position */
+  border-width: 15px 15px 0;
+  /* vary these values to change the angle of the vertex */
+  border-style: solid;
+  border-color: #fff22d;
+  /* reduce the damage in FF3.0 */
+  display: block;
+  width: 0;
+}
+
+/* Variant : top
+------------------------------------------ */
+.triangle-isosceles.top:after {
+  top: -15px;
+  /* value = - border-top-width - border-bottom-width */
+  right: 20px;
+  /* controls horizontal position */
+  bottom: auto;
+  left: auto;
+  border-width: 0 15px 15px;
+  /* vary these values to change the angle of the vertex */
+  border-color: #fff22d transparent;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+br.clearing {
+  clear: both !important;
+}
+
+.l-apple-box--half {
+  height: 10px;
+}
+
+.l-apple-box--lab {
+  height: 4px;
+}
+
+.l-apple-box--lead {
+  height: 10.6px;
+}
+
+.l-apple-box--quarter {
+  height: 5px;
+}
+
+.l-apple-box--three-quarters {
+  height: 15px;
+}
+
+.l-apple-box {
+  height: 20px;
+}
+
+.l-apple-box--double {
+  height: 40px;
+}
+
+.color_circle {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.come-in {
+  -moz-transform: translateY(150px);
+  -webkit-transform: translateY(150px);
+  -o-transform: translateY(150px);
+  -ms-transform: translateY(150px);
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+  /* So they look staggered */
+}
+
+@keyframes come-in {
+  to {
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.mobile {
+  display: none;
+}
+
+div.menu_modal {
+  display: none;
+  width: 95%;
+  height: 95%;
+  left: 2.5%;
+  top: 2.5%;
+  background-color: #fff22d;
+  position: fixed;
+  z-index: 9999999;
+  z-index: 100005;
+}
+div.menu_modal .close_btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+div.menu_modal .menu_area {
+  width: 800px;
+  margin: 40px auto;
+  padding-bottom: 40px;
+  border-bottom: 3px solid black;
+}
+div.menu_modal .menu_area .available {
+  font-size: 1.4em;
+  font-family: sans-serif;
+  font-style: normal;
+}
+div.menu_modal .menu_area.last {
+  border: none;
+}
+div.menu_modal .menu_area .products_menu_area {
+  width: 80%;
+  margin: 0 auto;
+}
+div.menu_modal .menu_area .available_in_us_paragraph {
+  margin-top: 40px;
+}
+div.menu_modal .menu {
+  float: left;
+  width: 25%;
+  margin-top: 30px;
+}
+div.menu_modal .menu a {
+  color: black;
+  font-size: 1.2em;
+}
+div.menu_modal .menu a .available {
+  font-size: 1em;
+}
+div.menu_modal h2 {
+  font-family: 'Lyon Display Web', Times,  serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 3.0em;
+  text-align: center;
+  line-height: 1.2;
+  color: black;
+}
+div.menu_modal p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  color: black;
+  font-size: 0.7em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+div.landing_modal {
+  height: 600px;
+  display: none;
+  position: relative;
+  background-color: #fff22d;
+}
+div.landing_modal .big_circle {
+  display: none;
+  width: 1px;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #7700FF;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+}
+div.landing_modal .back_to_form_area {
+  display: none;
+  text-align: center;
+  margin: 0 auto;
+}
+div.landing_modal .back_to_form_area a.back_to_form_btn {
+  border: 2px solid black;
+  padding: 10px 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  color: black;
+  font-size: 0.85em;
+}
+div.landing_modal .start_to_paint_area {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  padding: 10px 15px;
+  z-index: 100000;
+}
+div.landing_modal .start_to_paint_area a.start_to_paint_btn {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  color: white;
+  font-size: 0.85em;
+}
+div.landing_modal .logo_area {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+div.landing_modal .bottom_area {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  text-align: center;
+  z-index: 100000;
+}
+div.landing_modal .bottom_area p {
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 1.0em;
+  color: black;
+}
+div.landing_modal .desc_area {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+div.landing_modal .desc_area h3 {
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: black;
+  font-size: 3.0em;
+  text-align: center;
+  line-height: 1.4;
+}
+div.landing_modal .desc_area .wait_area {
+  display: none;
+  text-align: center;
+}
+div.landing_modal .desc_area .wait_area span.border_area {
+  position: relative;
+  text-align: center;
+  padding: 15px 64px 15px 40px;
+  border: 2px solid black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  color: black;
+  font-size: 0.85em;
+}
+div.landing_modal .desc_area .wait_area span.border_area span.underline {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+div.landing_modal .desc_area .wait_area span.border_area .dot {
+  color: black;
+  font-size: 2.5em;
+  margin: 0;
+  position: absolute;
+  top: 16px;
+  right: 29px;
+}
+div.landing_modal .desc_area div.text_form_area {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+div.landing_modal .desc_area div.text_form_area input.text_field {
+  border: none;
+  background-color: #fff22d;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: black;
+  width: 100%;
+  font-size: 10.2em;
+  text-align: center;
+  outline: none;
+}
+div.landing_modal .desc_area div.text_form_area input.text_field::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: black;
+}
+div.landing_modal .desc_area div.text_form_area input.text_field:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: black;
+  opacity: 1;
+}
+div.landing_modal .desc_area div.text_form_area input.text_field::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: black;
+  opacity: 1;
+}
+div.landing_modal .desc_area div.text_form_area input.text_field:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+}
+div.landing_modal .desc_area div.text_form_area a.question_submit_btn {
+  position: absolute;
+  right: 0;
+  bottom: 60px;
+}
+div.landing_modal .desc_area .center_wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section.tag_search_area {
+  height: 100px;
+  position: relative;
+}
+section.tag_search_area.fixed_menu {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100004;
+  background-color: black;
+}
+section.tag_search_area .date_balloon {
+  display: none;
+  position: absolute;
+  left: 219px;
+  top: 105px;
+  z-index: 500;
+}
+section.tag_search_area .date_balloon .text_area {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  color: black;
+}
+section.tag_search_area .question_area a.balloon_btn {
+  background-color: black;
+}
+section.tag_search_area .balloon_right {
+  display: none;
+  position: absolute;
+  right: 17px;
+  top: 105px;
+  z-index: 10001;
+  width: 373px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  color: black;
+  padding: 20px;
+}
+section.tag_search_area .balloon_right p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  color: black;
+  line-height: 1.4;
+  font-size: 0.9em;
+}
+section.tag_search_area .keyword {
+  border-bottom: 1px solid #fff22d;
+  padding-bottom: 3px;
+  font-size: 1.5em;
+}
+section.tag_search_area .color_list_area {
+  position: absolute;
+  bottom: 10px;
+  right: 45px;
+  background-color: black;
+}
+section.tag_search_area .color_list_area .before_date_balloon {
+  position: absolute;
+  display: none;
+  left: 219px;
+  top: 105px;
+  width: 185px;
+  text-align: center;
+  z-index: 500;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  color: black;
+}
+section.tag_search_area .color_list_area .color_circle {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+section.tag_search_area .color_list_area .question_area {
+  margin-left: 30px;
+}
+section.tag_search_area .form_area {
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
+}
+section.tag_search_area .form_area nav {
+  float: left;
+  margin-right: 20px;
+  z-index: 5;
+}
+section.tag_search_area .form_area nav i.icon-hamburger {
+  font-size: 2.0em;
+}
+section.tag_search_area .form_area nav p {
+  font-family: 'Lyon Display Web', Times,  serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  color: black;
+}
+section.tag_search_area .form_area a.balloon_btn {
+  display: none;
+  float: left;
+  margin: 0;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+section.tag_search_area .form_area h3 {
+  float: left;
+  margin-top: 6px;
+}
+section.tag_search_area .form_area h3 a.pop_question_btn {
+  font-size: 1.5em;
+}
+section.tag_search_area .form_area .arrow_area {
+  display: none;
+  float: left;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+section.tag_search_area .form_area .text_form_area {
+  float: left;
+  margin-top: -8px;
+  margin-left: 10px;
+}
+section.tag_search_area .form_area .text_form_area input.text_field {
+  border: none;
+  background-color: black;
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 2.0em;
+  outline: none;
+}
+
+section.picture_nav_area {
+  position: relative;
+  height: 1300px;
+  overflow: hidden;
+}
+section.picture_nav_area .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+section.picture_nav_area .bg.bgwidth {
+  width: 100%;
+}
+section.picture_nav_area .bg.bgheight {
+  height: 100%;
+}
+section.picture_nav_area .product_name_area {
+  background-color: #fff22d;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  color: black;
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  font-size: 2.0em;
+  line-height: 1.1;
+  z-index: 9999;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  display: none;
+  top: 300px;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+section.picture_nav_area h1 {
+  position: absolute;
+  left: 50%;
+  top: 25px;
+  z-index: 51;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+section.picture_nav_area h2 {
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 130px;
+  width: 100%;
+  font-size: 18.0em;
+  line-height: 1.1;
+  z-index: 10000;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+section.products_area {
+  position: relative;
+  padding: 75px 0;
+  z-index: 99999;
+}
+section.products_area .editors_pick_area {
+  z-index: 100003;
+}
+section.products_area .editors_pick_area h2 {
+  text-align: center;
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 2.8em;
+  margin-bottom: 30px;
+}
+section.products_area .editors_pick_area p {
+  text-align: center;
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 1.6em;
+  line-height: 1.6;
+}
+section.products_area .product {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 50px;
+  height: 695px;
+}
+section.products_area .product a:hover {
+  opacity: 1;
+}
+section.products_area .product.odd {
+  width: 50%;
+}
+section.products_area .product.odd .odd_container {
+  width: 66.4%;
+}
+section.products_area .product.odd .odd_container.three {
+  float: right;
+}
+section.products_area .product.odd .odd_container.four {
+  float: left;
+}
+section.products_area .product img.product_img {
+  width: 100%;
+}
+section.products_area .product p {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+}
+section.products_area .product p.title {
+  font-weight: 800;
+}
+
+section.influencers_area {
+  height: 1200px;
+  overflow: hidden;
+  position: relative;
+}
+section.influencers_area .background_img.bgwidth {
+  width: 100%;
+}
+section.influencers_area .background_img.bgheight {
+  height: 100%;
+}
+section.influencers_area .slider_area {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  z-index: 5;
+}
+section.influencers_area .slider_area ul li {
+  margin-bottom: 40px;
+}
+section.influencers_area .slider_area ul li:before {
+  content: "○";
+  font-size: 1.7em;
+  margin-right: 10px;
+  display: block;
+  font-style: normal;
+  float: left;
+}
+section.influencers_area .slider_area ul li.active:before {
+  content: "●";
+  font-size: 1.7em;
+  margin-right: 10px;
+  display: block;
+  float: left;
+  font-style: normal;
+}
+section.influencers_area .slider_area ul li.last {
+  margin: 0;
+}
+section.influencers_area .slider_area ul li a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 0.8em;
+}
+section.influencers_area .slider_area ul li.active a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  color: #fff22d;
+  font-size: 0.8em;
+}
+section.influencers_area .arrow {
+  position: absolute;
+  top: 19%;
+  z-index: 2;
+}
+section.influencers_area .arrow a i {
+  font-size: 2.2em;
+  color: #fff22d;
+}
+section.influencers_area .arrow.left {
+  left: 25px;
+}
+section.influencers_area .arrow.right {
+  right: 25px;
+}
+section.influencers_area .carousel {
+  height: 100%;
+}
+section.influencers_area .carousel .relative_area {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+section.influencers_area .carousel.c1 .desc_area {
+  position: absolute;
+  left: 50%;
+  margin-left: -410px;
+  width: 820px;
+  top: 70px;
+  z-index: 2;
+}
+section.influencers_area .carousel.c1 .desc_area h3 {
+  font-family: 'Lyon Display Web', Times,  serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 2.8em;
+  line-height: 1.2;
+  text-align: center;
+}
+section.influencers_area .carousel.c1 .desc_area p {
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+section.influencers_area .carousel.c1 .desc_area p.slide_area {
+  font-size: 1.2em;
+}
+section.influencers_area .carousel.c1 .desc_area p.read_stories_area {
+  margin-top: 20px;
+}
+section.influencers_area .carousel.c1 .desc_area p.read_stories_area a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+section.influencers_area .carousel.c1 .desc_area p.read_stories_area a i {
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+section.influencers_area .carousel.c1 .desc_area p.read_stories_area a span.text {
+  vertical-align: middle;
+  font-size: 0.6em;
+}
+
+section.instagram_area {
+  background-color: #fff22d;
+  height: 950px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+section.instagram_area .image_container {
+  height: 600px;
+  margin-top: 70px;
+}
+section.instagram_area .image_container .insta_btn {
+  margin-right: 88px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0;
+}
+section.instagram_area .image_container .insta_btn img {
+  width: 600px;
+}
+section.instagram_area .title_area {
+  padding: 30px 0;
+  text-align: center;
+}
+section.instagram_area .title_area h3 {
+  color: black;
+  font-family: 'Lyon Display Web', Times,  serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 2.0em;
+  line-height: 1.6;
+}
+section.instagram_area .title_area p, section.instagram_area .title_area a {
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: black;
+  font-size: 1.0em;
+  line-height: 1.6;
+}
+
+section.about_area {
+  background-color: black;
+  position: relative;
+  height: 1350px;
+  overflow: hidden;
+}
+section.about_area div.about_image {
+  position: absolute;
+  z-index: 4;
+}
+section.about_area div.about_image.image_01 {
+  right: 7%;
+  top: 11%;
+}
+section.about_area div.about_image.image_01 img {
+  width: 481px;
+}
+section.about_area div.about_image.image_02 {
+  left: 1%;
+  top: 33%;
+}
+section.about_area div.about_image.image_02 img {
+  width: 480px;
+}
+section.about_area div.about_image.image_03 {
+  right: 4%;
+  top: 67%;
+}
+section.about_area div.about_image.image_03 img {
+  width: 485px;
+}
+section.about_area .title_area {
+  margin: 0 auto;
+  width: 680px;
+  text-align: center;
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+section.about_area .title_area h3 {
+  color: #fff22d;
+  font-family: 'Lyon Display Web', Times,  serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 2.8em;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+section.about_area .title_area p {
+  font-family: 'Lyon Display Web', Times,  serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 1.45em;
+  line-height: 2.3;
+}
+section.about_area .title_area p.photo_credit {
+  margin-top: 30px;
+  font-size: 0.8em;
+}
+
+section.store_locator_area {
+  margin-top: 300px;
+  background-color: black;
+}
+section.store_locator_area .title_area {
+  margin: 0 auto;
+  padding: 60px 0;
+  width: 750px;
+  text-align: center;
+}
+section.store_locator_area .title_area h3 {
+  color: #fff22d;
+  font-family: 'Lyon Display Web', Times,  serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 3.0em;
+  line-height: 1.3;
+}
+section.store_locator_area .title_area p {
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+section.store_locator_area .title_area .center_wrapper {
+  width: 542px;
+  margin: 0 auto;
+}
+section.store_locator_area .stores_area {
+  width: 750px;
+  margin: 0 auto;
+}
+section.store_locator_area .stores_area .continent {
+  border-right: 1px solid #fff22d;
+  float: left;
+  width: 249px;
+}
+section.store_locator_area .stores_area .continent .continent_name {
+  float: left;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  margin-right: 35px;
+  margin-left: 45px;
+  color: #fff22d;
+}
+section.store_locator_area .stores_area .continent .continent_name.first {
+  margin-left: 0;
+  height: 200px;
+}
+section.store_locator_area .stores_area .continent .countries {
+  float: left;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  margin-right: 32px;
+  color: #fff22d;
+  line-height: 1.6;
+}
+section.store_locator_area .stores_area .continent .countries.second {
+  margin-left: 15px;
+}
+section.store_locator_area .stores_area .continent.last {
+  border: none;
+}
+
+section.mailing_list_area {
+  margin-top: 200px;
+  background-color: black;
+}
+section.mailing_list_area .title_area {
+  margin: 0 auto;
+  padding: 60px 0;
+  width: 750px;
+  text-align: center;
+}
+section.mailing_list_area .title_area h3 {
+  color: #fff22d;
+  font-family: 'Lyon Display Web', Times,  serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 3.2em;
+  line-height: 1.3;
+}
+section.mailing_list_area .title_area p {
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 1.3em;
+  line-height: 2.3;
+}
+section.mailing_list_area .title_area input.text_field {
+  border: none;
+  background-color: black;
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 1.2em;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+section.mailing_list_area .title_area div.text_form_area {
+  border-bottom: 1px solid #fff22d;
+  margin-left: 12px;
+  margin-top: 3px;
+  position: relative;
+}
+section.mailing_list_area .title_area div.text_form_area .arrow_area {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+section.mailing_list_area .title_area .center_wrapper {
+  width: 542px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: black;
+}
+footer .title_area {
+  padding: 60px 0;
+  text-align: center;
+}
+footer .title_area h3 {
+  color: #fff22d;
+  font-family: 'Lyon Display Web', Times,  serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin-top: 40px;
+}
+footer .title_area p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+footer .title_area p strong {
+  font-weight: bold;
+}
+
+canvas#circle_draw {
+  position: absolute;
+  top: 700px;
+  left: -400px;
+  z-index: 50;
+}
+
+@media (max-width: 768px) {
+  section.tag_search_area .form_area h3 a.pop_question_btn {
+    font-size: 1.3em;
+  }
+
+  section.picture_nav_area h2 {
+    font-size: 10.0em;
+  }
+
+  section.products_area .product {
+    height: 500px;
+  }
+  section.products_area .product p {
+    width: 85%;
+  }
+}
+@media (max-width: 414px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  div.menu_modal .menu_area {
+    width: 80%;
+    border-bottom-width: 1px;
+    padding-bottom: 11px;
+    margin: 20px auto;
+  }
+  div.menu_modal .menu_area .available_in_us_paragraph {
+    margin-top: 10px;
+  }
+  div.menu_modal .menu_area .products_menu_area {
+    margin-top: 10px;
+  }
+  div.menu_modal .menu_area .products_menu_area .menu {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  div.menu_modal .menu_area .products_menu_area .menu a {
+    font-size: 0.8em;
+  }
+  div.menu_modal h2 {
+    font-size: 1.8em;
+  }
+
+  section.tag_search_area .date_balloon {
+    left: 44px;
+    top: 83px;
+  }
+  section.tag_search_area .date_balloon:after {
+    display: none;
+  }
+  section.tag_search_area .date_balloon .tip {
+    display: block;
+    content: "";
+    position: absolute;
+    border-width: 15px 15px 0;
+    /* vary these values to change the angle of the vertex */
+    border-style: solid;
+    border-color: #fff22d;
+    /* reduce the damage in FF3.0 */
+    display: block;
+    width: 0;
+    top: -15px;
+    /* value = - border-top-width - border-bottom-width */
+    right: 20px;
+    /* controls horizontal position */
+    bottom: auto;
+    left: auto;
+    border-width: 0 15px 15px;
+    /* vary these values to change the angle of the vertex */
+    border-color: #fff22d transparent;
+  }
+
+  section.tag_search_area .balloon_right {
+    right: 17px;
+    top: 153px;
+    width: 264px;
+  }
+
+  div.landing_modal .desc_area {
+    width: 93%;
+  }
+  div.landing_modal .desc_area h3 {
+    font-size: 1.4em;
+  }
+  div.landing_modal .desc_area .wait_area span.border_area {
+    padding: 16px 40px 15px 20px;
+    font-size: 0.6em;
+  }
+  div.landing_modal .desc_area .wait_area span.border_area:after {
+    right: 19px;
+  }
+  div.landing_modal .desc_area .center_wrapper {
+    width: 100%;
+  }
+  div.landing_modal .desc_area .center_wrapper div.text_form_area {
+    width: 100%;
+    height: auto;
+  }
+  div.landing_modal .desc_area .center_wrapper div.text_form_area input.text_field {
+    width: 100%;
+    font-size: 2.6em;
+  }
+  div.landing_modal .desc_area .center_wrapper div.text_form_area a.question_submit_btn {
+    bottom: 7px;
+  }
+  div.landing_modal .desc_area .center_wrapper div.text_form_area a.question_submit_btn .arrow {
+    width: 20px;
+    height: 15px;
+  }
+  div.landing_modal .bottom_area {
+    width: 100%;
+  }
+  div.landing_modal .bottom_area p {
+    font-size: 1.4em;
+  }
+
+  section.tag_search_area {
+    height: 80px;
+  }
+  section.tag_search_area .color_list_area {
+    display: none;
+  }
+  section.tag_search_area .keyword {
+    font-size: 1.3em;
+  }
+  section.tag_search_area .form_area {
+    bottom: initial;
+    left: -8px;
+    top: 8px;
+    width: 100%;
+  }
+  section.tag_search_area .form_area .question_area a.balloon_btn {
+    margin-top: 5px;
+  }
+  section.tag_search_area .form_area nav {
+    margin-right: 0;
+  }
+  section.tag_search_area .form_area nav i.icon-hamburger {
+    font-size: 4.0em;
+  }
+  section.tag_search_area .form_area h3 {
+    float: left;
+    margin: 8px 0 0 -6px;
+    width: 282px;
+  }
+  section.tag_search_area .form_area h3 a.pop_question_btn {
+    font-size: 1.3em;
+  }
+  section.tag_search_area .form_area .arrow_area {
+    float: left;
+    margin-left: -4px;
+    margin-top: 5px;
+    display: none;
+  }
+  section.tag_search_area .form_area .text_form_area {
+    float: none;
+    margin: 0;
+  }
+
+  canvas#circle_draw {
+    top: 600px;
+  }
+
+  section.picture_nav_area {
+    height: 600px;
+  }
+  section.picture_nav_area h2 {
+    font-size: 4.7em;
+  }
+
+  div.menu_modal .menu a {
+    font-size: 1.2em;
+  }
+
+  section.products_area {
+    padding-top: 50px;
+  }
+  section.products_area .editors_pick_area h2 {
+    font-size: 1.3em;
+    margin-bottom: 9px;
+  }
+  section.products_area .editors_pick_area p {
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  section.products_area .product {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+  section.products_area .product.odd {
+    width: 100%;
+  }
+  section.products_area .product.odd .odd_container {
+    width: 100%;
+  }
+  section.products_area .product.odd .odd_container.three {
+    float: none;
+  }
+  section.products_area .product.odd .odd_container.four {
+    float: none;
+  }
+
+  section.influencers_area {
+    height: 545px;
+  }
+  section.influencers_area .carousel_container .carousel.c1 .desc_area {
+    left: 0;
+    top: 20px;
+    height: 545px;
+    width: 100%;
+    margin-left: 0;
+  }
+  section.influencers_area .carousel_container .carousel.c1 .desc_area h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  section.influencers_area .carousel_container .carousel.c1 .desc_area p {
+    font-size: 1em;
+    line-height: 1.2;
+    padding: 0 30px;
+  }
+  section.influencers_area .carousel_container .carousel.c1 .desc_area p.slide_area {
+    font-size: 0.8em;
+  }
+  section.influencers_area .arrow.left {
+    left: 0;
+    top: 80px;
+    bottom: initial;
+  }
+  section.influencers_area .arrow.right {
+    right: 0;
+    top: 80px;
+    bottom: initial;
+  }
+  section.influencers_area .background_img {
+    height: 545px;
+    width: auto !important;
+  }
+  section.influencers_area .slider_area {
+    left: 10px;
+    bottom: 20px;
+  }
+  section.influencers_area .slider_area ul li {
+    margin-bottom: 15px;
+  }
+
+  section.instagram_area {
+    height: 500px;
+  }
+  section.instagram_area .title_area h3 {
+    font-size: 1.5em;
+  }
+  section.instagram_area .title_area p {
+    line-height: 1.2;
+  }
+  section.instagram_area .image_container {
+    height: 300px;
+    margin-top: 40px;
+  }
+  section.instagram_area .image_container .insta_btn {
+    width: 250px;
+    margin-right: 90px;
+  }
+  section.instagram_area .image_container .insta_btn img {
+    width: 100%;
+  }
+  section.instagram_area .arrow_container {
+    position: absolute;
+    top: 59.5%;
+    z-index: 20;
+  }
+  section.instagram_area .arrow_container.left {
+    left: 10px;
+  }
+  section.instagram_area .arrow_container.right {
+    right: 10px;
+  }
+
+  section.about_area {
+    height: 1080px;
+    overflow-x: hidden;
+  }
+  section.about_area .title_area {
+    width: 88%;
+    padding: 30px 0;
+  }
+  section.about_area .title_area h3 {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+  }
+  section.about_area .title_area p {
+    line-height: 1.5;
+    font-size: 1em;
+    padding: 0 20px;
+  }
+  section.about_area div.about_image.image_01 {
+    right: 0;
+    top: 18%;
+  }
+  section.about_area div.about_image.image_01 img {
+    width: 182px;
+  }
+  section.about_area div.about_image.image_02 {
+    left: -100px;
+    top: 33%;
+  }
+  section.about_area div.about_image.image_02 img {
+    width: 230px;
+  }
+  section.about_area div.about_image.image_03 {
+    right: -178px;
+    top: 51%;
+  }
+  section.about_area div.about_image.image_03 img {
+    width: 288px;
+  }
+
+  section.store_locator_area {
+    margin-top: 70px;
+  }
+  section.store_locator_area .title_area {
+    padding: 22px 0;
+    width: 100%;
+  }
+  section.store_locator_area .title_area h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    line-height: 1.3;
+  }
+  section.store_locator_area .title_area p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  section.store_locator_area .stores_area {
+    width: 213px;
+    margin: 0 auto;
+  }
+  section.store_locator_area .stores_area .continent {
+    border: none;
+    border-bottom: 1px solid #fff22d;
+  }
+  section.store_locator_area .stores_area .continent .continent_name {
+    width: 112px;
+    margin: 10px 20px 10px 0;
+    text-align: right;
+  }
+  section.store_locator_area .stores_area .continent .continent_name.first {
+    height: auto;
+  }
+  section.store_locator_area .stores_area .continent .countries {
+    margin: 8px 0 10px 0;
+  }
+
+  section.mailing_list_area {
+    margin-top: 50px;
+  }
+  section.mailing_list_area .title_area {
+    width: 88%;
+  }
+  section.mailing_list_area .title_area h3 {
+    font-size: 1.2em;
+  }
+  section.mailing_list_area .title_area p {
+    font-size: 1.1em;
+  }
+  section.mailing_list_area .title_area .center_wrapper {
+    width: 90%;
+  }
+  section.mailing_list_area .title_area .fl.desc_area {
+    float: none;
+  }
+  section.mailing_list_area .title_area .fl.text_form_area {
+    float: none;
+  }
+  section.mailing_list_area .title_area .fl.arrow_area {
+    display: none;
+  }
+  section.mailing_list_area .title_area input.text_field {
+    width: 100%;
+  }
+
+  footer .title_area {
+    padding: 60px 22px;
+  }
+  footer .title_area h3 {
+    font-size: 1.5em;
+    line-height: 1.2;
+    margin-top: 12px;
+  }
+}
+@media (max-width: 375px) {
+  section.instagram_area .image_container .insta_btn {
+    margin-right: 70px;
+  }
+
+  section.tag_search_area .form_area h3 {
+    width: 282px;
+  }
+  section.tag_search_area .form_area h3 a.pop_question_btn {
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 320px) {
+  section.tag_search_area .form_area h3 {
+    width: 221px;
+  }
+  section.tag_search_area .form_area h3 a.pop_question_btn {
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+section.blog--welcome_area {
+  height: 1000px;
+  position: relative;
+  overflow-y: hidden;
+}
+section.blog--welcome_area .bg {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+section.blog--welcome_area .bg.bgwidth {
+  width: 100%;
+}
+section.blog--welcome_area .bg.bgheight {
+  height: 100%;
+}
+section.blog--welcome_area .logo_area {
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+section.blog--welcome_area .close_area {
+  z-index: 10000;
+  position: fixed;
+  top: 35px;
+  left: 50px;
+}
+section.blog--welcome_area .close_area a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #fff22d;
+}
+section.blog--welcome_area .close_area a i.icon-close {
+  font-size: 2.5em;
+  color: #fff22d;
+}
+section.blog--welcome_area .close_area a .label {
+  position: absolute;
+  width: 172px;
+  left: 50px;
+  top: 9px;
+}
+section.blog--welcome_area .close_area.black a {
+  color: black;
+}
+section.blog--welcome_area .close_area.black a i.icon-close {
+  color: black;
+}
+section.blog--welcome_area .welcome_text_area {
+  position: absolute;
+  z-index: 2;
+  bottom: 65px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+section.blog--welcome_area .welcome_text_area .vol {
+  font-family: 'Lyon Display Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  text-align: center;
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 1;
+}
+section.blog--welcome_area .welcome_text_area h1 {
+  font-family: 'Lyon Display Web';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 6em;
+  text-align: center;
+  line-height: 1.6;
+}
+section.blog--welcome_area .welcome_text_area p {
+  font-family: 'Lyon Display Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  color: #fff22d;
+  font-size: 1.5em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+section.blog--big_quote_area {
+  position: relative;
+  height: 1380px;
+  background-color: #fff22d;
+}
+section.blog--big_quote_area .image {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  z-index: 1;
+}
+section.blog--big_quote_area .image img {
+  width: 900px;
+}
+section.blog--big_quote_area .desc {
+  position: absolute;
+  right: 50px;
+  top: 190px;
+  z-index: 2;
+  width: 623px;
+  padding: 50px;
+  background-color: black;
+}
+section.blog--big_quote_area .desc p {
+  font-family: 'Lyon Display Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 2.4em;
+  line-height: 1.2;
+  color: #fff22d;
+  margin-bottom: 65px;
+}
+
+section.blog--big_title_area {
+  background-color: #fff22d;
+}
+section.blog--big_title_area h2 {
+  font-family: 'Lyon Display Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 4.0em;
+  text-align: center;
+  color: black;
+  line-height: 1.3;
+}
+
+section.blog--images_area {
+  position: relative;
+  overflow: hidden;
+}
+section.blog--images_area .image {
+  position: absolute;
+}
+section.blog--images_area .image .caption_area {
+  margin-top: 7px;
+  font-family: 'Lyon Display Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 1em;
+  color: black;
+}
+section.blog--images_area.image_area_01 {
+  background-color: #fff22d;
+  height: 1581px;
+}
+section.blog--images_area.image_area_01 .image.image_01 {
+  left: 153px;
+  top: 268px;
+  z-index: 1;
+}
+section.blog--images_area.image_area_01 .image.image_01 img {
+  width: 543px;
+}
+section.blog--images_area.image_area_01 .image.image_02 {
+  right: 50px;
+  top: 68px;
+  z-index: 3;
+}
+section.blog--images_area.image_area_01 .image.image_02 img {
+  width: 724px;
+}
+section.blog--images_area.image_area_01 .image.image_03 {
+  left: 50px;
+  top: 919px;
+  z-index: 2;
+}
+section.blog--images_area.image_area_01 .image.image_03 img {
+  width: 552px;
+}
+section.blog--images_area.image_area_02 {
+  background-color: #fff22d;
+  height: 1600px;
+}
+section.blog--images_area.image_area_02 .image.image_01 {
+  left: 50px;
+  top: 100px;
+}
+section.blog--images_area.image_area_02 .image.image_01 img {
+  width: 726px;
+}
+section.blog--images_area.image_area_02 .image.image_02 {
+  right: 50px;
+  top: 900px;
+}
+section.blog--images_area.image_area_02 .image.image_02 img {
+  width: 724px;
+}
+section.blog--images_area.image_area_03 {
+  background-color: #fff22d;
+  height: 1600px;
+}
+section.blog--images_area.image_area_03 .image.image_01 {
+  left: 50px;
+  top: 500px;
+}
+section.blog--images_area.image_area_03 .image.image_01 img {
+  width: 550px;
+}
+section.blog--images_area.image_area_03 .image.image_02 {
+  left: 650px;
+  top: 100px;
+}
+section.blog--images_area.image_area_03 .image.image_02 img {
+  width: 725px;
+}
+section.blog--images_area.image_area_03 .image.image_03 {
+  right: 50px;
+  top: 1111px;
+}
+section.blog--images_area.image_area_03 .image.image_03 img {
+  width: 535px;
+}
+
+section.blog--desc_area {
+  background-color: #fff22d;
+  padding: 50px;
+}
+section.blog--desc_area div.paragraph {
+  float: left;
+  width: 50%;
+}
+section.blog--desc_area div.paragraph .padding_wrapper {
+  padding-right: 50px;
+}
+section.blog--desc_area div.paragraph.last .padding_wrapper {
+  padding: 0;
+}
+section.blog--desc_area div.paragraph p {
+  font-family: 'Lyon Display Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 1.4em;
+  line-height: 1.6;
+  color: black;
+  margin-bottom: 50px;
+}
+
+section.blog--carousel_area {
+  position: relative;
+  overflow: hidden;
+}
+section.blog--carousel_area .blog--carousel_image {
+  display: none;
+}
+section.blog--carousel_area .prev_btn_area {
+  position: absolute;
+  z-index: 2;
+  width: 50%;
+  left: 0;
+  height: 100%;
+  cursor: url(../../images/instagram_desktop_arrow_left.png), w-resize;
+}
+section.blog--carousel_area .next_btn_area {
+  position: absolute;
+  z-index: 2;
+  width: 50%;
+  left: 50%;
+  height: 100%;
+  cursor: url(../../images/instagram_desktop_arrow_right.png), e-resize;
+}
+
+section.blog--products_title_area {
+  background-color: #fff22d;
+}
+section.blog--products_title_area .top_btn_area {
+  margin: 100px 50px 300px 0;
+  float: right;
+  position: relative;
+  width: 120px;
+}
+section.blog--products_title_area .top_btn_area a .label {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  color: black;
+}
+section.blog--products_title_area .top_btn_area a i.icon-top {
+  color: black;
+  position: absolute;
+  right: 0;
+  font-size: 2.2em;
+  top: 12px;
+}
+section.blog--products_title_area h2 {
+  text-align: center;
+  font-family: 'Lyon Display Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 3.0em;
+  color: black;
+  line-height: 1.4;
+  padding-bottom: 120px;
+}
+
+section.blog--products_area {
+  background-color: #fff22d;
+}
+section.blog--products_area .product {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 50px;
+}
+section.blog--products_area .product a:hover {
+  opacity: 1;
+}
+section.blog--products_area .product.odd {
+  width: 50%;
+}
+section.blog--products_area .product.odd .odd_container {
+  width: 66.4%;
+}
+section.blog--products_area .product.odd .odd_container.three {
+  float: right;
+}
+section.blog--products_area .product.odd .odd_container.four {
+  float: left;
+}
+section.blog--products_area .product img.product_img {
+  width: 100%;
+}
+section.blog--products_area .product p {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  color: white;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: black;
+}
+section.blog--products_area .product p.title {
+  font-weight: 800;
+}
+section.blog--products_area .product p.desc {
+  font-weight: bold;
+}
+
+section.blog--video_area h3 {
+  font-family: 'Lyon Display Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 4.0em;
+  color: #fff22d;
+  text-align: center;
+  padding-top: 300px;
+  line-height: 1.4;
+}
+section.blog--video_area p {
+  font-family: 'Lyon Display Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 1.5em;
+  color: #fff22d;
+  text-align: center;
+  line-height: 1.4;
+  padding-bottom: 100px;
+}
+section.blog--video_area .movie_area {
+  position: relative;
+  height: 1000px;
+  overflow: hidden;
+  display: none;
+}
+section.blog--video_area .preview_movie_area {
+  position: relative;
+  height: 1000px;
+  overflow: hidden;
+}
+section.blog--video_area .preview_movie_area div.play_btn_area {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+section.blog--video_area .preview_movie_area div.play_btn_area a.play_btn i {
+  font-size: 8.0em;
+  color: #fff22d;
+}
+
+@media (max-width: 768px) {
+  section.blog--welcome_area {
+    height: 736px;
+    overflow-x: hidden;
+  }
+  section.blog--welcome_area .close_area {
+    left: 7px;
+    top: 16px;
+  }
+  section.blog--welcome_area .close_area a .label {
+    display: none;
+  }
+  section.blog--welcome_area .close_area a i.icon-close {
+    font-size: 2.5em;
+  }
+  section.blog--welcome_area .logo_area {
+    top: 17px;
+  }
+  section.blog--welcome_area .welcome_text_area {
+    width: 90vw;
+  }
+  section.blog--welcome_area .welcome_text_area h1 {
+    font-size: 3.5em;
+  }
+  section.blog--welcome_area .welcome_text_area p {
+    font-size: 1.3em;
+    line-height: 1.3;
+  }
+
+  section.blog--big_quote_area {
+    height: auto;
+  }
+  section.blog--big_quote_area .image {
+    position: initial;
+    padding: 20px;
+    top: auto;
+    left: auto;
+  }
+  section.blog--big_quote_area .image img {
+    width: 100%;
+  }
+  section.blog--big_quote_area .desc {
+    position: initial;
+    right: auto;
+    top: auto;
+    z-index: 2;
+    width: auto;
+    padding: 20px;
+  }
+
+  section.blog--big_title_area {
+    padding: 50px 0;
+  }
+  section.blog--big_title_area h2 {
+    font-size: 2.5em;
+    padding: 0 30px;
+    line-height: 1.3;
+  }
+
+  section.blog--images_area {
+    height: auto !important;
+  }
+  section.blog--images_area.image_area_01 {
+    padding-top: 50px;
+  }
+  section.blog--images_area .image {
+    position: initial;
+    padding: 20px !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+  }
+  section.blog--images_area .image img {
+    width: 100% !important;
+  }
+
+  section.blog--desc_area {
+    padding: 20px;
+  }
+  section.blog--desc_area div.paragraph {
+    float: none;
+    width: 100%;
+  }
+  section.blog--desc_area div.paragraph .padding_wrapper {
+    padding: 0;
+  }
+
+  section.blog--carousel_area .prev_btn_area, section.blog--carousel_area .next_btn_area {
+    display: none;
+  }
+
+  section.blog--products_title_area .top_btn_area {
+    display: none;
+  }
+  section.blog--products_title_area h2 {
+    padding-top: 50px;
+    font-size: 1.2em;
+    padding-bottom: 31px;
+  }
+
+  section.blog--products_area .product {
+    float: none;
+    width: 100%;
+  }
+  section.blog--products_area .product.odd {
+    width: 100%;
+  }
+  section.blog--products_area .product.odd .odd_container {
+    width: 100%;
+  }
+  section.blog--products_area .product.odd .odd_container.three {
+    float: none;
+  }
+  section.blog--products_area .product.odd .odd_container.four {
+    float: none;
+  }
+
+  section.blog--video_area h3 {
+    font-size: 2.0em;
+    padding-top: 100px;
+  }
+  section.blog--video_area p {
+    font-size: 1.0em;
+    padding-bottom: 30px;
+  }
+  section.blog--video_area .preview_movie_area div.play_btn_area a.play_btn i {
+    font-size: 4.0em;
+  }
+}
+@media (max-width: 320px) {
+  section.blog--welcome_area .logo_area {
+    top: 22px;
+    width: 155px;
+  }
+  section.blog--welcome_area .logo_area img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=blog.css.map */

@@ -1,0 +1,148 @@
+$base_font_size       : 16px; // px;
+$base_line_height     : 20px; // px
+$background-color: #000;
+
+$text_color: #fff22d;
+
+
+body{
+  font-family: 'FoundersGroteskTextWeb', arial, sans-serif;
+  font-size:22px;
+  line-height: 1.15em;
+  //letter-spacing: -0.01em;
+}
+
+
+body {
+  font-size: $base_font_size;
+  line-height: $base_line_height;
+  background-color: $background-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  // overflow-x:hidden;
+  // overflow-y:hidden;
+}
+
+@mixin light_type {
+  font-family: 'Lyon Display Web', Times, serif;
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+@mixin regular_type {
+  font-family: 'Lyon Display Web', Times,  serif;
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+@mixin sans_type {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  line-height:1.3em;
+  color:white;
+  font-style:   normal;
+  font-stretch: normal;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  position:relative;
+}
+a:hover {
+  border-bottom: 1px solid;
+}
+
+
+/* ---------------------------------------------- */
+/* list */
+/* ---------------------------------------------- */
+
+#index {
+  width:100%;
+}
+#section-header h2 {
+  width:50%;
+  text-align: center;
+  margin: 15px auto 0 auto;
+}
+#lang-en {
+  position:absolute;
+  top: 15px;
+  left:30px;
+}
+#lang-ko {
+  position:absolute;
+  top: 15px;
+  right:30px;
+}
+#section-header {
+  padding: 0 0 0.5em 0;
+}
+#section-cities, #section-participants, #section-projects {
+  margin: 0 30px;
+  padding: 0.5em 0;
+  border-top:1px solid;
+}
+
+.index-list li{
+  margin-left:1.2em;
+  text-indent: -1.2em;
+  padding-right:1em;  
+}
+
+
+/* ---------------------------------------------- */
+/* content */
+/* ---------------------------------------------- */
+#content {
+  background-color: #000;
+  color:#fff;
+  padding:30px;
+}
+#content a {
+  color:#fff; 
+}
+#artwork {
+  float:left;
+  width:750px; //threecols
+}
+.cols {
+  float:left;
+  margin: 0 30px 0 0;
+}
+.single {
+  width:220px;
+}
+.double {
+  width:470px;
+}
+.triple {
+  width:720px;
+}
+.participant {
+  text-transform: uppercase;
+}
+p.description {
+  margin:1em 0;
+}
+.artwork-photo {
+  margin:2em 0;
+  border:1px solid;
+}
+.artwork-photo:hover {
+  margin:2em 0;
+  border:1px solid #000;
+}
+
+.artwork-photo img {
+  display: block;
+  opacity: 0;
+}
+.artwork-photo img:hover {
+  opacity: 1;
+}
+
+
