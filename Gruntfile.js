@@ -24,10 +24,10 @@ module.exports = function(grunt) {
         files: {
           'javascripts/dist/application.js': [
             'javascripts/src/vendor/jquery.js',
-            'javascripts/src/vendor/jquery-ui.js',
             'javascripts/src/vendor/underscore-min.js',
             'javascripts/src/vendor/backbone-min.js',
             'javascripts/src/vendor/retina.min.js',
+            'javascripts/src/vendor/js-yaml.min.js',
             'javascripts/src/WY.js',
             'javascripts/src/utils.js',
             'javascripts/src/models/*.js',

@@ -1,0 +1,9 @@
+<% _.each(projects, function(project){ %>
+  <ul class="index-list dontsplit">
+    <li><a href="#"><%= project.idx %></a></li>
+    <% _.each(project.project_artists, function(artist) { %>
+      <li><a href="#"><%= artist.full_name_en %></a></li>
+    <% }); %>
+    <li class="removeiflast">&nbsp;</li>
+  </ul>
+<% }); %>
