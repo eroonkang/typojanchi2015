@@ -1,11 +1,14 @@
+
 projects:
+
 -
+
   idx: 1
   project_name_en: Main Exhibition
   project_name_kr: 본전시
 
-  curator_name_en: John Doe
-  curator_name_kr: 홍길동
+  curator_name_en: 
+  curator_name_kr: 
 
   project_artists: 
   - 
@@ -73,16 +76,16 @@ projects:
     full_name_kr: R2
     url: ./projects/artworks/1-r2.yml
   - 
-    full_name_en: Andrew Brash
+    full_name_en: Rejane Dal Bello
     full_name_kr: 앤드류 브라쉬
     url: ./projects/artworks/1-rejane-dal-bello.yml
   - 
-    name_ko: 
-    name_en:
+    name_ko: 로만 빌헬름
+    name_en: Roman Wilhelm
     url: ./projects/artworks/1-roman-wilhelm.yml
   - 
-    full_name_en: Roman Wilhelm
-    full_name_kr: 로만 빌헬름
+    full_name_en: Sandra Kassenaar & Bart de Baets
+    full_name_kr: 산드라 카서나르 & 바르 데 바트
     url: ./projects/artworks/1-sandra-kassenaar-n-bart-de-baets.yml
   - 
     full_name_en: StudioSpass
@@ -108,170 +111,871 @@ projects:
   # CURATOR -----------------------------------------
 
   project_desc_en: >
-   Lorem ipsum dolor sit amet, *consectetur* adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-   Excepteur sint occaecat cupidatat non proident, [sunt](http://example.net/) in culpa qui officia deserunt mollit anim id est laborum.
-
+   
 
   project_desc_kr: >
-   사면·감형 및 복권에 관한 사항은 *법률로* 정한다. [국회의원은](http://example.net/) 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.
+   국내외에서 도시와 문자문화에 대한 연구를 해온 작가를 10-15명정도 초대한다.
 
-   예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 모든 국민은 자기의 행위가 아닌 친족의 행위로 인하여 불이익한 처우를 받지 아니한다.
-
-   중앙선거관리위원회는 법령의 범위안에서 선거관리·국민투표관리 또는 정당사무에 관한 규칙을 제정할 수 있으며, 법률에 저촉되지 아니하는 범위안에서 내부규율에 관한 규칙을 제정할 수 있다.
 
   # CURATOR -----------------------------------------
 
   curator_bio_en: >
-   Lorem ipsum dolor sit amet, *consectetur* adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-   Excepteur sint occaecat cupidatat non proident, [sunt](http://example.net/) in culpa qui officia deserunt mollit anim id est laborum.
+  
 
   curator_bio_kr: >
-   사면·감형 및 복권에 관한 사항은 *법률로* 정한다. [국회의원은](http://example.net/) 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.
+   
 
-   예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 모든 국민은 자기의 행위가 아닌 친족의 행위로 인하여 불이익한 처우를 받지 아니한다.
-
-   중앙선거관리위원회는 법령의 범위안에서 선거관리·국민투표관리 또는 정당사무에 관한 규칙을 제정할 수 있으며, 법률에 저촉되지 아니하는 범위안에서 내부규율에 관한 규칙을 제정할 수 있다.
 -
   idx: 2
-  project_name_en: Special Exhibition
-  project_name_kr: 특별전시
+  project_name_en: Six images. Six texts.
+  project_name_kr: 여섯 개의 이미지와 여섯 개의 텍스트
 
-  curator_name_en: John Doe
-  curator_name_kr: 홍길동
+  curator_name_en: Adrian Shaughnessy
+  curator_name_kr: 아드리안 쇼네시 + 안병학
 
   project_artists: 
   - 
-    full_name_en: Brownfox
-    full_name_kr: 브라운폭스
-    url: ./projects/artworks/1-brownfox.yml
-  - 
-    full_name_en: Byungil Choi
-    full_name_kr: 최병일
-    url: ./projects/artworks/1-byoungil-choi.yml
-  - 
-    full_name_en: Catherine Griffiths
-    full_name_kr: 캐서린 그리피스
-    url: ./projects/artworks/1-catherine-griffiths.yml
-  - 
-    full_name_en: Dainippon Type Organization
-    full_name_kr: 다이니폰
-    url: ./projects/artworks/1-dainippon.yml
-  - 
-    full_name_en: Daniel Eatock
-    full_name_kr: 다니엘 이톡
-    url: ./projects/artworks/1-daniel-eatock.yml
-  - 
-    full_name_en: Dongwan Kook
-    full_name_kr: 국동완
-    url: ./projects/artworks/1-dongwan-kook.yml
-  - 
-    full_name_en: Doosup Kim
-    full_name_kr: 김두섭
-    url: ./projects/artworks/1-doosup-kim.yml
-  - 
-    full_name_en: Elodie Boyer
-    full_name_kr: 엘로디 보이어
-    url: ./projects/artworks/1-elodie-boyer.yml
-  - 
-    full_name_en: Hyoun Youl Joe
-    full_name_kr: 조현열
-    url: ./projects/artworks/1-hyounyoul-joe.yml
-  - 
-    full_name_en: Jisung Yi
-    full_name_kr: 이지성
-    url: ./projects/artworks/1-jisung-yi.yml
-  - 
-    full_name_en: Joon Soo Ha
-    full_name_kr: 하준수
-    url: ./projects/artworks/1-joonsoo-ha.yml
-  - 
-    full_name_en: Kota Iguchi (TYMOTE / CEKAI)
-    full_name_kr: 코타 이구치(티모테/세카이)
-    url: ./projects/artworks/1-kota-iguchi.yml
-  - 
-    full_name_en: Kyuhyung Cho
-    full_name_kr: 조규형
-    url: ./projects/artworks/1-kyuhyung-cho.yml
-  - 
-    full_name_en: Leslie David
-    full_name_kr: 레슬리 데이비드
-    url: ./projects/artworks/1-leslie-david.yml
-  - 
-    full_name_en: Research and Development
-    full_name_kr: 리서치 앤 디벨롭먼트
-    url: ./projects/artworks/1-r-n-d.yml
-  - 
-    full_name_en: R2
-    full_name_kr: R2
-    url: ./projects/artworks/1-r2.yml
-  - 
     full_name_en: Andrew Brash
     full_name_kr: 앤드류 브라쉬
-    url: ./projects/artworks/1-rejane-dal-bello.yml
+    url: ./projects/artworks/2-andrew-brash.yml
   - 
-    name_ko: 
-    name_en:
-    url: ./projects/artworks/1-roman-wilhelm.yml
+    full_name_en: Jonas Berthod
+    full_name_kr: 요나스 베르도
+    url: ./projects/artworks/2-jonas-berthod.yml
   - 
-    full_name_en: Roman Wilhelm
-    full_name_kr: 로만 빌헬름
-    url: ./projects/artworks/1-sandra-kassenaar-n-bart-de-baets.yml
+    full_name_en: Jorg Schwerteger
+    full_name_kr: 요르그 슈베트페거
+    url: ./projects/artworks/2-jorg-schwerteger.yml
   - 
-    full_name_en: StudioSpass
-    full_name_kr: 스튜디오 스파스
-    url: ./projects/artworks/1-studio-spass.yml
+    full_name_en: Kyuha Shim
+    full_name_kr: 심규하
+    url: ./projects/artworks/2-kyuha-shim.yml
   - 
-    full_name_en: Till Wiedeck
-    full_name_kr: 틸 비덱
-    url: ./projects/artworks/1-till-wiedeck.yml
+    full_name_en: Laura Joan
+    full_name_kr: 로라 조앙
+    url: ./projects/artworks/2-laura-joan.yml
   - 
-    full_name_en: Wang Ziyuan
-    full_name_kr: 왕쯔위안
-    url: ./projects/artworks/1-wang-ziyuan.yml
+    full_name_en: Sebastian Koseda
+    full_name_kr: 세바스찬 코세다
+    url: ./projects/artworks/2-sebastian-koseda.yml
   - 
-    full_name_en: Wu Fan
-    full_name_kr: 우 판
-    url: ./projects/artworks/1-wu-fan.yml
-  - 
-    full_name_en: Yuma Harada+Shohei Iida
-    full_name_kr: 유마 하라다+쇼헤이 이다
-    url: ./projects/artworks/1-yuma-harada-n-shohei-iida.yml
+    full_name_en: Summer Studio(Carolina Dahl & Minna Sakaria)
+    full_name_kr: 썸머 스튜디오(민나 사카리아 & 캐롤리나 달)
+    url: ./projects/artworks/2-summer-studio-carolina-dahl-n-minna-sakaria.yml
 
-  # CURATOR -----------------------------------------
+
+
+# CURATOR -----------------------------------------
 
   project_desc_en: >
-   Lorem ipsum dolor sit amet, *consectetur* adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-   Excepteur sint occaecat cupidatat non proident, [sunt](http://example.net/) in culpa qui officia deserunt mollit anim id est laborum.
-
+   To embody the spirit of Typojanchi, I have commissioned six recent graduates from the Royal College of Art to design six giant banners documenting their response to a specific urban location found on Google Maps. Each designer has received a link to a different city. Each has been invited to respond in any way they choose. There is no brief. No instructions. Merely the opportunity to respond to an urban environment using typography, colour and form.
+   It is appropriate that typography–or perhaps more accurately, letterforms–should be used to map urban environments. The written word has been part of the urban landscape since Roman times – perhaps even earlier in other cultures. Today, we have reached a sort of typographic apotheoses. The urban environment is unthinkable without its festooning in typographic messaging.
+   The British designer Edward Wright noted that there were three kinds of urban ‘writing’: Glyptic – where letters are incised into buildings or moulded from them; Calligraphic – where letters are drawn or painted onto surfaces; and Tectonic – where letters are independent of structural support and appear suspended free from any architectural attachment. Wright was writing in the 1950s, but his analysis still holds. Today, we might add a fourth category – the Liquid. This is a type of lettering, usually electronic, that appears to defy physics and lives either in the air, or indeed, embeds itself into the structure of buildings.
+   For the graphic designer, typography offers an instantly readable code to any urban environment. The tensions, preoccupations and psychology of a city can be read like a phrenologist reading bumps on a person’s head. It is the invisible made visible. It is this manifesting of the invisible that our six designers have sought to reveal. Using new technology – in this case Google Maps – they have travelled the globe and created slices of urban reality that will hang in the gallery in Seoul offering visitors a poetic distillation of a journey. But these are no touristic postcards: they are urban locations hidden in the recesses of Google Maps.
+   In addition, I have prepared individual texts that reflect my own experiences of the six cities in question. My reflections are based on the physical, non-virtual experience of visiting these metropolises: they are recollections of the transformative experience of visiting Tokyo, Chicago, Mexico City, New York, Los Angeles, and the city I live in, London. These texts form the content for a book to be accompanied by images from the six banners.
+   Finally, a generative screen-based work will seek to pull together all the elements that go to make up the banners and the texts; it will be a fluid, protean evocation of urban life – almost indistinguishable from the real thing.
 
   project_desc_kr: >
-   사면·감형 및 복권에 관한 사항은 *법률로* 정한다. [국회의원은](http://example.net/) 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.
-
-   예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 모든 국민은 자기의 행위가 아닌 친족의 행위로 인하여 불이익한 처우를 받지 아니한다.
-
-   중앙선거관리위원회는 법령의 범위안에서 선거관리·국민투표관리 또는 정당사무에 관한 규칙을 제정할 수 있으며, 법률에 저촉되지 아니하는 범위안에서 내부규율에 관한 규칙을 제정할 수 있다.
-
-  # CURATOR -----------------------------------------
+   타이포잔치의 정신을 구현하기 위해, 나는 영국왕립미술대학의 최근 여섯 졸업생에게 구글 지도로부터 찾은 특정 도시들에 대한 그들의 대응을 이미지로 기록하는 여섯개의 대형 배너 제작을 의뢰했다. 각 디자이너는 서로 다른 도시로 연결된 링크를 부여받았고, 그들이 선택한 어떤 방식으로든 자유롭게 대응하도록 요구받았다. 아무런 설명도, 어떠한 가이드라인도 없었다. 그저 타이포그라피와 컬러, 그리고 형태만을 이용한 도시와 환경에대한 그들의 대응만이 있었을 뿐...
+   타이포그라피가, 아니 더 정확히는 글자 그 자체가 도시 환경을 지도화하는데 쓰여야 하는 것에 감사할 일이다. 문자언어는 로마 이래 또는 이보다 더 오래 전 유사 이래 도시 지형의 일부가 되어 왔다. 오늘 우리는 일종의 타이포그라치적 정점을 경험한다. 타이포그라피적 메시지들로의 장식 없는 도시환경은 더 이상 상상할 수 없다. 영국 디자이너 에드워드 라이트는 3가지 종류의 도시 글쓰기에 대해 언급했다. 첫째는 조각으로 글자가 건물에 새겨지거나 찍혀진 형태, 둘째는 캘리그라피로 글자가 표면 위에 그려지거나 칠해진 형태, 그리고 마지막으로 글자가 건축구조물의 지지로부터 독립적으로 구축되어 건물의 부속물로부터도 자유롭게 매달린 형태로 나타나는 형식이 그것이다. 라이트는 1950년대 작가다. 하지만 그의 분석은 아직 유효하다. 오늘 우리는 어쩌면 그 네번째 범주를 추가하고 있는지도 모른다. 액체성. 그것은 특정 서체로 쓰여지고 인쇄된, 대개는 전자적이고, 물리학을 거스르며 대기 속을 유영하는, 사실은 건물들 사이에 스스로 단단히 틀어박힌 무엇이다.
+   그라픽 디자이너에게 타이포그라피는 어떤 도시환경도 즉각적으로 해독 가능한 코드를 제공한다. 그 긴장, 뇌리를 사로는 집착, 그리고 도시의 심리학은 마치 관상학자가 누군가의 얼굴을 통해 읽어내는 것처럼 도시를 감각적으로 읽어내게 한다. 보이지 않는 것을 보이게 하는 힘이다.
+   우리의 여섯 디자이너가 드러내는 것은 보이지 않는 것에 대한 표명이다. 구글지도를 통해 세계를 여행하며 그들이 만들어낸 도시 현실의 단면은 서울의 전시장에 걸려 방문객에게 여행의 시적 증류를 제공할 것이다. 하지만 이 작품들은 여행자의 우편엽서가 아니다. 이들은 그저 구글지도로 상징되는 테크놀로지의 오지 속에 숨겨진 도시적 장소들일 뿐이다.
+   여기에 덧붙여, 나는 여섯 도시에 대한 질문을 담은 나 자신의 경험을 반영한 개인적 글쓰기를 더하고자 한다. 나의 글쓰기는 물리적이다. 이들 도시를 방문한 나의 실질적 경험에 기초한다. 도쿄, 시카고, 멕시코시티, 뉴욕, 로스앤젤레스, 그리고 내가 사는 런던과 관련된 변화하는 경험에 대한 회상이다. 이들 글쓰기는 여섯 디자이너들에 의해 생산된 배너로부터 추출된 이미지들과 함께 책으로 엮인다.
+   끝으로 여섯 이미지를 만들기 위해 사용된 모든 이미지의 부분과 요소(여섯 디자이너의 가상의 도시 경험 과정), 그리고 모든 글쓰기의 조각들이 모여 시스템을 활용한 생성 방식의 영상 이미지로 모아진다. 그것은 아마도 현실과 비현실을 구분하기 어렵게 넘나들며, 유기체적이며 끊임 없이 변화하는 도시 삶에 대한 환기가 될 것이다.
+  
+# CURATOR -----------------------------------------
 
   curator_bio_en: >
-   Lorem ipsum dolor sit amet, *consectetur* adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+   Adrian Shaughnessy - Special Exhibition Director
+   Adrian Shaughnessy spent fifteen years as creative director of Intro, the design studio he co-founded in 1988 in London. During his time at Intro, the studio won numerous awards, and at the turn of the new century employed 40 people. It was an early adopter of digital technology, and a pioneer of digital motion graphics within graphic design.
+   In 2004, Shaughnessy left to pursue an interest in writing and lecturing, and to work as an independent design consultant. Today he runs ShaughnessyWorks, a consultancy combining design and editorial direction. He has written and art directed numerous books on design. His book How to be a Graphic Designer Without Losing Your Soul, published in 2005, has sold 80,000 copies to date, and has been issued in numerous foreign language editions, including Japanese.
+   Shaughnessy writes regularly for all the leading graphic design journals including Eye (UK), Creative Review (UK), Etapes (France) and Print (USA). Between 2004 and 2010, he had a monthly column in Design Week. He is also a contributing writer to Design Observer. _In 2010 he was elected to AGI (Alliance Graphique Internationale), the invitation-only organisation of the world’s leading graphic designers. He hosts an occasional series of one-hour radio shows on Resonance FM called Graphic Design on the Radio.
+   In 2012, Shaughnessy received an Honorary Degree from UCA (University of the Creative Arts). In 2009, he was awarded a Visiting Professorship at the Royal College of Art, London. The following year he was appointed Senior Tutor on the College’s visual communication programme. In addition, Shaughnessy lectures around the world.
+   Shaughnessy is co-founder of the publishing company Unit Editions. The company has published a wide range of graphic design books. Shaughnessy is the author of monographs on Herb Lubalin, Ken Garland, FHK Henrion and Lance Wyman.
+  
+  curator_bio_kr: >
 
-   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
-   Excepteur sint occaecat cupidatat non proident, [sunt](http://example.net/) in culpa qui officia deserunt mollit anim id est laborum.
+-
+  idx: 3
+  project_name_en: Asia City Text/ure
+  project_name_kr: 
+
+  curator_name_en: Goto Testsuya
+  curator_name_kr: 고토데쓰야
+
+  project_artists: 
+  - 
+    full_name_en: Giang Nguyen
+    full_name_kr: 
+    url: ./projects/artworks/3-giang-nguyen.yml
+  - 
+    full_name_en: Hagiwara Shunya
+    full_name_kr: 하기와라 슌야
+    url: ./projects/artworks/3-hagiwara-shunya.yml
+  - 
+    full_name_en: Hung Chang-Lien
+    full_name_kr: 
+    url: ./projects/artworks/3-hung-changlien.yml
+  - 
+    full_name_en: Javin Mo
+    full_name_kr: 자빈 모
+    url: ./projects/artworks/3-javin-mo.yml
+  - 
+    full_name_en: Li Shaobo
+    full_name_kr: 리 사오보
+    url: ./projects/artworks/3-li-shaobo.yml
+
+    full_name_en: Morimura Makoto
+    full_name_kr: 모리무라 마코토
+    url: ./projects/artworks/3-morimura-makoto.yml
+  - 
+    full_name_en: Prabda Yoon
+    full_name_kr: 
+    url: ./projects/artworks/3-prabda-yoon.yml
+
+  - 
+    full_name_en: Sean Kelvin Khoo
+    full_name_kr: 
+    url: ./projects/artworks/3-sean-kelvin-khoo.yml
+
+  - 
+    full_name_en: ShinShin
+    full_name_kr: 신신
+    url: ./projects/artworks/3-shinshin.yml
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: >
+  
+  curator_bio_kr: >
+   
+-
+  idx: 4
+  project_name_en: ( ) ON THE WALLS
+  project_name_kr: 도시문자 포스터전 
+
+  curator_name_en: Jaemin Lee
+  curator_name_kr: 이재민
+
+  project_artists: 
+  - 
+    full_name_en: Aaron Nieh
+    full_name_kr: 에런 니에
+    url: ./projects/artworks/4-aaron-nieh.yml
+  - 
+    full_name_en: Helmo
+    full_name_kr: 엘모
+    url: ./projects/artworks/4-helmo.yml
+  - 
+    full_name_en: Jaemin Lee
+    full_name_kr: 이재민
+    url: ./projects/artworks/4-jaemin-lee.yml
+  - 
+    full_name_en: Keetra Dean Dixon
+    full_name_kr: 키트라 딘 딕슨
+    url: ./projects/artworks/4-keetra-deandixon.yml
+  - 
+    full_name_en: Ludovic Balland
+    full_name_kr: 루도빅 발랑
+    url: ./projects/artworks/4-ludovic-balland.yml
+
+    full_name_en: Richard Niessen
+    full_name_kr: 리하르트 니선
+    url: ./projects/artworks/4-richard-niessen.yml
+  - 
+    full_name_en: Siggi Eggertsson
+    full_name_kr: 지기 에거슨
+    url: ./projects/artworks/4-siggi-eggertsson.yml
+
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: >
+   Jaemin Lee has been working as a graphic designer at STUDIO FNT which he founded in 2006. He teaches graphic design at Seoul National University, University of Seoul, and has also participated in many exhibitions including <CREATIVE©ITIES>, <The 2nd ShangHai Biennial of Asia Graphic Design 2013>, <TYPOJANCHI 2011: Seoul International Typography Biennale>, <Connected Project in Graphic Design Festival Breda>, etc. He designed numerous posters for cultural and artistic events such as exhibitions and concerts. Since 2011, he actively worked with Junglim Foundation which deals with projects that explore meaningful exchanges with architecture, culture and arts. These include, but are not limited to, publication, education, forum, exhibition and research.
 
   curator_bio_kr: >
-   사면·감형 및 복권에 관한 사항은 *법률로* 정한다. [국회의원은](http://example.net/) 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.
+   
 
-   예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 모든 국민은 자기의 행위가 아닌 친족의 행위로 인하여 불이익한 처우를 받지 아니한다.
+-
+  idx: 5
+  project_name_en: THIS IS SEOUL ( ) SOUL
+  project_name_kr: 도시문자 엽서전 
 
-   중앙선거관리위원회는 법령의 범위안에서 선거관리·국민투표관리 또는 정당사무에 관한 규칙을 제정할 수 있으며, 법률에 저촉되지 아니하는 범위안에서 내부규율에 관한 규칙을 제정할 수 있다.
+  curator_name_en: 
+  curator_name_kr: 이기섭
+
+  project_artists: 
+  - 
+    full_name_en: 1984
+    full_name_kr: 1984
+    url: ./projects/artworks/5-1984.yml
+  - 
+    full_name_en: Aladin
+    full_name_kr: 알라딘
+    url: ./projects/artworks/5-aladin.yml
+  - 
+    full_name_en: Art Sonje
+    full_name_kr: 아트선재센터
+    url: ./projects/artworks/5-artsonje.yml
+  - 
+    full_name_en: Book by Book
+    full_name_kr: 북바이북
+    url: ./projects/artworks/5-bookbybook.yml
+  - 
+    full_name_en: Book Society
+    full_name_kr: 북소사이어티
+    url: ./projects/artworks/5-booksociety.yml
+  -
+    full_name_en: Cheong gye 200/20
+    full_name_kr: 청계상가 200/20
+    url: ./projects/artworks/5-cheonggye200.yml
+  - 
+    full_name_en: Daelim 800/40
+    full_name_kr: 대림상가 800/40
+    url: ./projects/artworks/5-daelim800.yml
+  - 
+    full_name_en: DDP
+    full_name_kr: DDP 살림터
+    url: ./projects/artworks/5-ddp.yml
+  - 
+    full_name_en: Doosung In the Paper
+    full_name_kr: 두성 인더페이퍼
+    url: ./projects/artworks/5-doosung.yml
+  - 
+    full_name_en: Epoca
+    full_name_kr: 에포카
+    url: ./projects/artworks/5-epoca.yml
+  - 
+    full_name_en: Eum Art Book
+    full_name_kr: 이음책방
+    url: ./projects/artworks/5-eumbook.yml
+  - 
+    full_name_en: Gagarin
+    full_name_kr: 가가린
+    url: ./projects/artworks/5-gagarin.yml
+  -
+    full_name_en: Haja Center
+    full_name_kr: 하자센터
+    url: ./projects/artworks/5-hajacenter.yml
+  - 
+    full_name_en: Ilmin Museum of Art
+    full_name_kr: 일민미술관
+    url: ./projects/artworks/5-ilmin.yml
+  - 
+    full_name_en: KCDF Gallery
+    full_name_kr: KCDF 갤러리
+    url: ./projects/artworks/5-kcdf-gallery.yml
+  - 
+    full_name_en: Kobalt shop
+    full_name_kr: 코발트숍
+    url: ./projects/artworks/5-kobalt.yml
+  - 
+    full_name_en: Pinocchio
+    full_name_kr: 피노키오
+    url: ./projects/artworks/5-pinocchio.yml
+  -
+    full_name_en: Post Poetics
+    full_name_kr: 포스트포에틱스
+    url: ./projects/artworks/5-postpoetics.yml
+  - 
+    full_name_en: Round About
+    full_name_kr: 라운드어바웃
+    url: ./projects/artworks/5-roundabout.yml
+  - 
+    full_name_en: Second Hotel
+    full_name_kr: 세컨호텔
+    url: ./projects/artworks/5-secondhotel.yml
+  - 
+    full_name_en: Sewoon 300/20
+    full_name_kr: 세운상가 300/20
+    url: ./projects/artworks/5-sewoon300.yml
+  - 
+    full_name_en: Small House Big Door
+    full_name_kr: 스몰하우스빅도어
+    url: ./projects/artworks/5-smallhousebigdoor.yml
+  -
+    full_name_en: Songpa
+    full_name_kr: 송파주민문화발전소 다락
+    url: ./projects/artworks/5-songpa.yml
+  - 
+    full_name_en: Takeout Drawing
+    full_name_kr: 테이크아웃드로잉
+    url: ./projects/artworks/5-takeoutdrawing.yml
+  - 
+    full_name_en: Thanks Books
+    full_name_kr: 땡스북스
+    url: ./projects/artworks/5-thanksbooks.yml
+  - 
+    full_name_en: TWL (Things We Love) 
+    full_name_kr: TWL
+    url: ./projects/artworks/5-twl.yml
+  - 
+    full_name_en: Veronica Effect
+    full_name_kr: 베로니카 이펙트
+    url: ./projects/artworks/5-veronica-effect.yml
+  -
+    full_name_en: Your Mind
+    full_name_kr: 유어마인드
+    url: ./projects/artworks/5-yourmind.yml
+  -
+    full_name_en: Yricafe
+    full_name_kr: 이리카페
+    url: ./projects/artworks/5-yricafe.yml
+  - 
+    full_name_en: Zagmachi
+    full_name_kr: 자그마치
+    url: ./projects/artworks/5-zagmachi.yml
+
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: >
+
+  curator_bio_kr: >
+
+-
+  idx: 6
+  project_name_en: JONGNO ( ) GA
+  project_name_kr: 일상 타이포그래피 - 종로 ( ) 가 
+
+  curator_name_en: 
+  curator_name_kr: 크리스 로
+
+  project_artists: 
+  - 
+    full_name_en: Hongdan (Ban Yoon Jung)
+    full_name_kr: 홍단 (반윤정)
+    url: ./projects/artworks/6-ban-yoon-jung.yml
+  - 
+    full_name_en: Joowon Han + Sejoong Kim (COM)
+    full_name_kr: 한주원 + 김세중(COM)
+    url: ./projects/artworks/6-com.yml
+  - 
+    full_name_en: Corners
+    full_name_kr: 코우너스
+    url: ./projects/artworks/6-corners.yml
+  - 
+    full_name_en: Hoon Kim
+    full_name_kr: 김정훈
+    url: ./projects/artworks/6-hoon-kim.yml
+  - 
+    full_name_en: Jae Jeon
+    full_name_kr: 전재운
+    url: ./projects/artworks/6-jae-jeon.yml
+  -
+    full_name_en: Jin Jung
+    full_name_kr: 정진열
+    url: ./projects/artworks/6-jin-jung.yml
+  - 
+    full_name_en: Lara Lee + Oui Kim
+    full_name_kr: 이송은 + 김성욱
+    url: ./projects/artworks/6-lara-lee-n-oui-kim.yml
+  - 
+    full_name_en: Mano Ahn
+    full_name_kr: 안마노
+    url: ./projects/artworks/6-mano-ahn.yml
+  - 
+    full_name_en: Marvin Lee + Eli Park Sorensen
+    full_name_kr: 이마빈 + Eli Park
+    url: ./projects/artworks/6-marvin-lee-n-eli-park.yml
+  - 
+    full_name_en: Mingoo Yoon
+    full_name_kr: 윤민구
+    url: ./projects/artworks/6-mingoo-yoon.yml
+  - 
+    full_name_en: Moon Jang
+    full_name_kr: 장문정
+    url: ./projects/artworks/6-moon-jang.yml
+  - 
+    full_name_en: Ordinary people
+    full_name_kr: 오디너리 피플
+    url: ./projects/artworks/6-ordinary-people.yml
+  -
+    full_name_en: Park Chan Shin
+    full_name_kr: 박찬신
+    url: ./projects/artworks/6-park-chanshin.yml
+  - 
+    full_name_en: Uk Kim
+    full_name_kr: 김욱
+    url: ./projects/artworks/6-uk-kim.yml
+
+
+# CURATOR -----------------------------------------
+
+project_desc_en: >
+project_desc_kr: >
+
+
+# CURATOR -----------------------------------------
+ curator_bio_en: >
+ curator_bio_kr: >
+   
+
+
+-
+  idx: 7
+  project_name_en: ( ) Home 
+  project_name_kr: ( ) 집 : 문자벽돌 
+
+  curator_name_en: 
+  curator_name_kr: 최문경
+
+  project_artists: 
+  - 
+    full_name_en: PaTi
+    full_name_kr: 파티
+    url: ./projects/artworks/7-pati.yml
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: >
+
+  curator_bio_kr: >
+
+-
+  idx: 8
+  project_name_en: C(   )T(   ) Welcomes You
+  project_name_kr: 
+
+  curator_name_en: 
+  curator_name_kr: 조현
+
+  project_artists: 
+  - 
+    full_name_en: Akiko Masunaga
+    full_name_kr: 
+    url: ./projects/artworks/8-akiko-masunaga.yml
+  - 
+    full_name_en: Bongkyu Song
+    full_name_kr: 송봉규
+    url: ./projects/artworks/8-bongkyu-song.yml
+  - 
+    full_name_en: Burger + Stadel + Wal
+    full_name_kr: 
+    url: ./projects/artworks/8-burger-stadel-wal.yml
+  - 
+    full_name_en: Clark Corp
+    full_name_kr: 
+    url: ./projects/artworks/8-clark-corp.yml
+  - 
+    full_name_en: Design Methods
+    full_name_kr: 디자인 메소드
+    url: ./projects/artworks/8-design-methods.yml
+  -
+    full_name_en: Doosungpaper Design Lab
+    full_name_kr: 두성종이 디자인연구소
+    url: ./projects/artworks/8-doosung.yml
+  - 
+    full_name_en: Gang Moonsick
+    full_name_kr: 강문식
+    url: ./projects/artworks/8-gang-moonsick.yml
+  - 
+    full_name_en: Hyojun Shim + Keith Wong
+    full_name_kr: 심효준 + Keite Wong
+    url: ./projects/artworks/8-hyojun-shim-n-wong.yml
+  - 
+    full_name_en: Mathew Kneebone
+    full_name_kr: 
+    url: ./projects/artworks/8-mathew-kneebone.yml
+  - 
+    full_name_en: Team Thursday
+    full_name_kr: 
+    url: ./projects/artworks/8-team-thursday.yml
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: >
+
+  curator_bio_kr: >
+
+
+-
+  idx: 9
+  project_name_en: 
+  project_name_kr: 도시언어유희
+
+  curator_name_en: 
+  curator_name_kr: 박경식
+
+  project_artists: 
+  - 
+    full_name_en: Fritz K. Park
+    full_name_kr: 박경식
+    url: ./projects/artworks/9-fritz-park.yml
+  - 
+    full_name_en: Hyung-chul Kim
+    full_name_kr: 김형철
+    url: ./projects/artworks/9-hyungchul-kim.yml
+  - 
+    full_name_en: Jot
+    full_name_kr: 좋
+    url: ./projects/artworks/9-jot.yml
+  - 
+    full_name_en: kimgarden x Standardstandard
+    full_name_kr: 김가든 x Standardstandard
+    url: ./projects/artworks/9-kimgarden-standard.yml
+  - 
+    full_name_en: MYKC
+    full_name_kr: 마이케이씨
+    url: ./projects/artworks/9-mykc.yml
+  -
+    full_name_en: Works
+    full_name_kr: 워크스
+    url: ./projects/artworks/9-sparks-edition.yml
+  - 
+    full_name_en: Gang Moonsick
+    full_name_kr: 강문식
+    url: ./projects/artworks/9-works.yml
+  - 
+    full_name_en: Youngha Park
+    full_name_kr: 박영하
+    url: ./projects/artworks/9-youngha-park.yml
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: > 
+  Fritz K. Park studied Communication Design at the Milwaukee Institute of Art & Design at Milwaukee WI., USA (BFA) and received his MFA in Design Management at Hongik-IDAS in Seoul, Korea. 
+  He wears many hats. His fedora is principal of one-man graphic design studio N&Co. specialising in design consultancy, branding and print, while the Stetson he interchanges with a hard hat when he lectures on typography, editorial design and design process at Samsung Art & Design Institute, Konkuk University among many other schools. His green eyeshade is his thinking cap for when he writes or edits work based on design and cultural trends, or when he does translation work in varying capacities. With so many hats*, Fritz has worked with many talented individuals as well as for many renown clients such as Interbrand, Designesprit, Design House, gColon, KT, Hyundai/Kia, Asiana Airlines, Songdo IBD, 5by50, DY and Pacific Star, among others. He has presented papers at ATyPI (Association Typographique International) as well as for the Korean Society of Typography. Of special note is his Windsor cap (seasonal) which he saves for exhibition and show openings he has participated in throughout the years. In his free time, he likes to go hiking (bucket hat), or watch horror movies (face guard visor). He collects comic books and vintage Tetsujin 28 figures and memorabilia (magnifier visor with LED lighting). Fritz lives on the outskirts of Seoul with his wife and three boys.
+
+
+  curator_bio_kr: >
+  박경식은 미국 위스콘신주 밀워키에서 커뮤니케이션 디자인 전공, 국제 디자인 전문대학원(IDAS)에서 디자인경영을 공부했다. 현재, 앤엔코라는 1일 그래픽 디자인 스튜디오 대표로 일하고 있으며, 타이포그래피 계간지 <ㅎ>의 편집장으로 일하고 있다. 또한, 삼성디자인학교와 건국대학교에서 각각 2008년, 2006년부터 줄곧 강의하고 있다. 여러 학회에서 논문 발표하였고, 최근 2012년홍콩에서 ATyPI 학회에 참여했다. 현재 한국 타이포그래피 학회 회원이며 학회지 <글자씨>에 기고하고 있다.
+  그는 현재 서울 동부 끝자락에서 아내와 아들 셋이서 작은 연립에 거주하고 있다. 여가로 산타기, 공포영화 관람, 미국 만화 수집 그리고 철인28호 피규어를 모은다.
+
+
+
+-
+  idx: 10
+  project_name_en: 
+  project_name_kr: 결여의 도시
+
+  curator_name_en: 
+  curator_name_kr: 민병걸
+
+  project_artists: 
+  - 
+    full_name_en: Everyday Practice
+    full_name_kr: 일상의실천 
+    url: ./projects/artworks/10-everyday-practice.yml
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: > 
+
+
+  curator_bio_kr: >
+
+-
+  idx: 11
+  project_name_en: City Letter Reportage
+  project_name_kr: 도시문자 르포르타주
+
+  curator_name_en: 
+  curator_name_kr: 
+
+  project_artists: 
+  - 
+    full_name_en: Gute Form 
+    full_name_kr:  
+    url: ./projects/artworks/11-cityletter.yml
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: > 
+
+
+  curator_bio_kr: >
+
+-
+  idx: 12
+  project_name_en: Exhibition Space
+  project_name_kr: 전시공간 프로젝트
+
+  curator_name_en: 
+  curator_name_kr: 
+
+  project_artists: 
+  - 
+    full_name_en: Zero Lab
+    full_name_kr: 제로랩
+    url: ./projects/artworks/12-zero-lab.yml
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: > 
+
+
+  curator_bio_kr: >
+
+-
+  idx: 13
+  project_name_en: Website
+  project_name_kr: artwork_name_kr: 웹사이트프로젝트 
+
+  curator_name_en: 
+  curator_name_kr: 
+
+  project_artists: 
+  - 
+    full_name_en: E Roon Kang
+    full_name_kr: 강이룬
+    url: ./projects/artworks/13-eroonkang.yml
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: > 
+
+
+  curator_bio_kr: >
+
+
+-
+  idx: 14
+  project_name_en: Docent + Video projects
+  project_name_kr: Guide to C( )T(   )
+
+  curator_name_en: 
+  curator_name_kr: 
+
+  project_artists: 
+  - 
+    full_name_en: Nolgong
+    full_name_kr: 놀공발전소
+    url: ./projects/artworks/14-nolgong.yml
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: > 
+
+
+  curator_bio_kr: >
+
+
+
+-
+  idx: 15
+  project_name_en: Opening Performance
+  project_name_kr: 개막식 공연 프로젝트
+
+  curator_name_en: 
+  curator_name_kr: 
+
+  project_artists: 
+  - 
+    full_name_en: Dappertutto Studio
+    full_name_kr: 다페르튜토 스튜디오
+    url: ./projects/artworks/15-dappertutto.yml
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: > 
+
+
+  curator_bio_kr: >
+
+
+-
+  idx: 16
+  project_name_en: Newsletter Project
+  project_name_kr: 뉴스레터 프로젝트
+
+  curator_name_en: 
+  curator_name_kr: 
+
+  project_artists: 
+  - 
+    full_name_en: 
+    full_name_kr: 임경용 + 신신 
+    url: ./projects/artworks/
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: > 
+
+
+  curator_bio_kr: >
+
+-
+  idx: 17
+  project_name_en: Document Project
+  project_name_kr: 도큐먼트 프로젝트
+
+  curator_name_en: 
+  curator_name_kr: 
+
+  project_artists: 
+  - 
+    full_name_en: Workroom(Kyeongsoo Lee, Hwalsung  Park)
+    full_name_kr: 워크룸
+    url: ./projects/artworks/17-workroom.yml
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: > 
+
+
+  curator_bio_kr: >
+
+
+-
+  idx: 18
+  project_name_en: Archiving App
+  project_name_kr: 아카이빙앱 프로젝트
+
+  curator_name_en: Rebel9
+  curator_name_kr: 
+
+  project_artists: 
+  - 
+    full_name_en: Rebel9
+    full_name_kr: 
+    url: ./projects/artworks/18-rebel9.yml
+
+
+
+
+# CURATOR -----------------------------------------
+
+  project_desc_en: >
+
+  project_desc_kr: >
+  
+# CURATOR -----------------------------------------
+
+  curator_bio_en: > 
+
+
+  curator_bio_kr: >
+
+
+
+
+
+
+
+

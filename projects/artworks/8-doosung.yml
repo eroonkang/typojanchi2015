@@ -1,4 +1,4 @@
-full_name_en: Doosungpaper Design Lab.
+full_name_en: Doosungpaper Design Lab
 full_name_kr: 두성종이 디자인연구소
 origin_city_en: 서울
 origin_city_kr: Seoul
@@ -27,6 +27,9 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+# ARTWORK -----------------------------------------------
+
+
 artwork_desc_en: >
  City Welcomes You.
  Hotels in the cities where we're visiting as a stranger always "WELCOME" you, but it's just "THAT MUCH" of welcoming. Suites-provided depending on the amount of your payment. "You and me" seem to share its entrance, but definitely enjoy "DIFFERENT" things and services. If you want better service, you need to pay more. You could enjoy more and better if you pay more. It's quite obvious in the capitalist society we're living in. Familiar, but not delightful experience, our "WELCOME" just starts at this point of experience. 
@@ -43,3 +46,12 @@ artwork_desc_kr: >
  이방인이 되어 방문한 도시에서 경험하는 호텔은 우리를 “환영”하고 있지만 내가 지불하는 만큼 ‘그 정도’의 환영이었다. 지불 금액에 따라 차등 배정되는 객실. 호텔의 입구만 같을 뿐 ‘너와 나’는 ‘다른 것’을 제공받고 있다. 더 나은 더 높은 더 좋은 서비스를 원한다면 그만큼의 추가요금이 필요하다. 지불하는 만큼 더 누릴 수 있다. 이러한 상호작용은 자본주의 사회에서 우리가 경험할 수 있는 ‘흔한 것’이다. 흔하지만 반갑지 않은 경험, 그 경험에서 우리의 WELCOME이 시작 되었다.
  도시에 방문한 당신을 환영합니다.더 “환영” 받고 싶다면 조금 더 지불하면 됩니다. 당신이 지불하는 만큼 우리는 당신을 환영합니다.
  we are welcoming you!
+
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ Doosung Paper's design lab is an attachment institution of Doosung Paper. Established in 2009, it researches and develops the design system and identity of Doosung Paper, Korean traditional color tones as well as modern color tones, develops surface finishing of specialty papers, and develops paper stationery. It consists of graphic design research team, online communication design team, and design consortium team. By performing variety of activities such as designing the overall color and space of the Doosung Paper building, businesses related to designs and hosting consortiums with other design firms, designing paper products such as the Paper Goods series, participating various domestics and overseas exhibitions, and hosting in-house design seminars, they take an important role in transforming and innovating Doosung Paper.
+
+participant_bio_kr: >
+ 두성종이 부설 디자인연구소는 두성종이의 디자인 체계와 정체성 확립을 위한 연구 개발과 한국전통색상과 모던색상의 연구개발, 특수지의 표면가공 연구, 종이제품 개발 등을 위해 2009년 설립되었습니다. 그래픽디자인연구파트, 온라인 커뮤니케이션디자인파트, 디자인컨소시엄파트로 구성되어있으며 두성종이의 전체적인 공간 및 컬러디자인, 디자인관련 외부기업 및 단체와의 컨소시엄을 통한 디자인사업 진행, 페이퍼 굿즈 시리즈 등 종이상품 디자인, 국내·외 전시 및 박람회 참여, 사내 디자인교육 등의 활동을 통해 두성종이의 변화와 혁신을 주도하고 있습니다.

@@ -7,7 +7,7 @@ origin_country_kr: 일본
 origin_lat: 434.69373
 origin_lng: 135.50216
 
-artwork_name_en: 
+artwork_name_en: Passage_Relation（経過と関係）
 artwork_name_kr: 
 artwork_year: 2015
 
@@ -27,9 +27,26 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+# ARTWORK -----------------------------------------------
+
+
+
 artwork_desc_en: >
  
  
 
 artwork_desc_kr: >
+ Passage_Relation(경과와 관계) 
+ 호텔과 비지터를 연결하는 것, 그것은 비지터가 체류하는 "시간"입니다. 비지터는 체류하는 동안 호텔이 집과 같이 편안하기를 바라면서도 가족과 같은 집분위기를 바라는 것이 아니라 비지터의 필요에 세심한 배려로 응해주기를 원합니다. 그래서 마중하는 측인 호텔의 환영(welcome)은 결코 화려한 환영이 아니라 비지터 곁에 바싹 붙는 것이라 생각합니다. 저는 쌍방을 잇는 '시간'과 호텔측이 따르는 모습을 '메시지'로서 시각화하여 시간의 경과와 함께 따르는 모습이 변화해가는 양상을 평면구상으로서 시도한 프로트타입을 작성하였습니다.
  
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ My works is based branding design. My activities are wide.
+ Involved institutions: company, private, social, administrative, designers associationetc, etc.
+ I experiencing a lecturer, a lecture and a workshop a lot. The prize-winning number in domestic and foreign competition.
+ Lecturer: Osaka University of Arts Junior College
+
+
+participant_bio_kr: >

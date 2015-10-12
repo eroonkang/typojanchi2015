@@ -27,6 +27,9 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+ # ARTWORK -----------------------------------------------
+
+
 artwork_desc_en: >
 
  
@@ -34,3 +37,14 @@ artwork_desc_en: >
 
 artwork_desc_kr: >
  
+
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ DESIGN METHODS is a creative design studio in Seoul, comprised of two industrial designers and two graphic designers, approaching to the context of wider aspects. The studio is working on diverse range of industrial fields including product, furniture, space, digital media and brands.
+ The design attitude and process are strongly focused on continuos exploring and embraces new archetype, materiality, technology and simplicity.
+
+participant_bio_kr: >
+ DESIGN METHODS는 보다 넓은 시각의 탐구적 접근과 실험적인 프로세를 통해 새로운 유형의 디자인 결과물을 생산하고자 디자인 전반에서 활동하는 4인의 디자이너가 모여 설립한 산업디자인 스튜디오입니다. 영국 런던 디자인 뮤지엄의 Design of Year, 100% 디자인 런던 Blueprint Awards, 미국산업디자인협회 IDEA, 독일 디자인 협회 Pure Talents Contest, 한국 Korea Design Awards, 등 세계적 권위의 기관들로 부터 수상과 재능을 인정을 받아왔으며, 현재 제품, 가구, 공간, 디지털 미디어 그리고 브랜딩 등 다양한 분야의 산업과의 협력을 통해 활동하고 있습니다.
+

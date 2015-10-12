@@ -7,7 +7,7 @@ origin_country_kr: 벨기에
 origin_lat: 51.05434
 origin_lng: 3.71742
 
-artwork_name_en: 
+artwork_name_en: Mechanical Systems Drawing
 artwork_name_kr: 
 artwork_year: 2015
 
@@ -27,10 +27,29 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+ # ARTWORK -----------------------------------------------
+
+
 artwork_desc_en: >
+ Mechanical Systems Drawing is an ongoing project that investigates how we acquire knowledge through the language of technical drawing. The project is a collection of pencil drawings that visualises my research into the history of electricity, whilst also questioning our ability to formally analyse the conventions of technical drawing which are often used to explain and build technology. 
+
+ My drawings are representations of my own works in progress of which are often in a prototype stage. The drawings when assembled together insinuate individual parts of a single complex machine. Similar to built technology, instructional drawing serves as a means to an end, falling in line with the concept of black-boxing, as defined by Bruno Latour who states that “technical work is made invisible by its own success [because when] a machine runs efficiently, when a matter of fact is settled, one need focus only on its inputs and outputs and not on its internal complexity."
+
+ To show a relationship between domestic technology and the city, the drawings made for Typojanchi 2015 will depict common devices found in hotel rooms (including lighting, television, and fans) as well as culturally specific technologies around the city of Seoul.
 
  
  
 
 artwork_desc_kr: >
  
+
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ Mathew Kneebone (AU 1982) is an artist making work in a range of media, including drawing, electronics, sound, and performance. Kneebone is interested in the historical development of electrical technology created by engineers for end-users. His work addresses this relationship through examples of innovation, planned obsolescence, black boxing, and user level anxieties, of which manifest as both real and superstitious. His tracing and re-invention of these technologies often bring to light a disturbing conflation of technological histories and theories. 
+
+ Kneebone has recently exhibited his first solo show, Faith in Machines at 019 in Ghent, which looks at the history of the gremlin as an example of how superstition has been used to account for unexplained technical problems. He has a forthcoming exhibition at Sitterwerk in St. Gallen (CH), where for the occasion a collection of his drawings will be published through Dent De Leone (UK).
+
+
+participant_bio_kr: >

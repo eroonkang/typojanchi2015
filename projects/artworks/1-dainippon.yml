@@ -1,7 +1,7 @@
 full_name_en: Dainippon Type Organization
 full_name_kr: 다이니폰
 origin_city_en: Tokyo
-origin_city_kr: 도
+origin_city_kr: 도쿄
 origin_country_en: Japan
 origin_country_kr: 일본
 origin_lat: 35.6649963
@@ -27,6 +27,8 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+ # ARTWORK -----------------------------------------------
+
 artwork_desc_en: >
  City surrounding us has always wearing a Typography. We – Dainippon Type Organization – also continue to work around the Typography.
 
@@ -39,3 +41,11 @@ artwork_desc_en: >
 
 artwork_desc_kr: >
  
+
+ 
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ Hidechika and Tsukada Tetsuya set up an experimental typography group called Dainippon Type Organization in 1993, and have been pursuing new ideas of typographic characters by playfully deconstructing, recombining and restructuring letterform. They have held solo exhibitions in London, Barcelona and Tokyo, and participated in group exhibitions around the world, including in Singapore, Hong Kong and Korea. Their monograph, Type Card Play Book, was published in 2003 to accompany a ten-year anniversary exhibition in Barcelona. in 2014 October, launched “Site of the type by the type for the type” type.center.
+
+participant_bio_kr: >

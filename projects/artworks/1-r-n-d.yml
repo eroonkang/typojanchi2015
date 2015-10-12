@@ -13,8 +13,8 @@ artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
 venue_name_kr: 문화역서울284
-venue_detail_en: 
-venue_detail_kr: 
+venue_detail_en: 3F
+venue_detail_kr: 3층
 venue_city_en: Seoul
 venue_city_kr: 서울
 venue_country_en: KR
@@ -26,6 +26,8 @@ venue_lng: 126.9716173
 # - image1.jpg 
 # - image2.jpg 
 # - image3.jpg 
+
+# ARTWORK -----------------------------------------------
 
 artwork_desc_en: >
  The city is a structure whose character is shaped in tune with the needs and desires of its inhabitants. It never reaches a final form but is in constant change – a mix of the old and the new, of order and chaos, of things that work and things that don’t.  In this environment of continuous transformation, citizens are in need of well-functioning systems in order function efficiently, to work, and to feel secure.
@@ -49,3 +51,10 @@ artwork_desc_en: >
 
 artwork_desc_kr: >
  
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ “Research and Development are not lazy yet avoid doing very much. Like a well educated person who can say a great deal without saying very much, they employ an economy of means. A straight line drawn freehand using a pencil with a sharp point, a definite solution, fixed with purpose and preci- sion, very specific. There are many reds and many tones of gray, they always select the exact right one. This is subjective, but the results resonate with a purposeful authoritative objectiveness that leaves the viewer in no doubt they made the right choice.” — Daniel Eatock, excerpt from Book, published by Eastside Projects as part of Book Show, 2010
+
+
+participant_bio_kr: >

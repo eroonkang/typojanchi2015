@@ -7,7 +7,7 @@ origin_country_kr: 미국
 origin_lat: 40.69854
 origin_lng: -73.9753
 
-artwork_name_en: 
+artwork_name_en: Small Case Big Night
 artwork_name_kr: 
 artwork_year: 2015
 
@@ -27,6 +27,10 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+# ARTWORK -----------------------------------------------
+
+
+
 artwork_desc_en: >
  A welcoming gesture is one of the fundamental ways of establishing goodwill between people. There are the universal basics of hospitality; providing for a guest's needs, making them feel comfortable and secure, treating them with respect. 
 
@@ -41,3 +45,13 @@ artwork_desc_en: >
 
 artwork_desc_kr: >
  
+
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ Clark Corp (est. 2012)
+ A research initiative that hosts participartory events at the intersection of identity, behavioral studies and systems design. Previous shows include an installation in the tellers of a defunct Citibank in Midtown NYC in 2014.
+
+
+participant_bio_kr: >

@@ -27,6 +27,8 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+ # ARTWORK -----------------------------------------------
+
 artwork_desc_en: >
  Being surrounded by letters and images from existing graphic languages makes that when visiting places the usual touristic sights aren't our main priority. Artists, designers-or just the two of us — look at the things around us and store'em, in the hope they inspire our design and art work back home in studio.
 
@@ -35,8 +37,13 @@ artwork_desc_en: >
  It’s a work in which the actual size of things stands for the sometimes problematic relation with inspira- tion. Inspiration is confused with plain old copying, the issue finding ways of appropriating it, one way or the other is an issue worth ponder- ing over.
 
 artwork_desc_kr: >
- 사면·감형 및 복권에 관한 사항은 *법률로* 정한다. [국회의원은](http://example.net/) 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.
 
- 예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 모든 국민은 자기의 행위가 아닌 친족의 행위로 인하여 불이익한 처우를 받지 아니한다.
 
- 중앙선거관리위원회는 법령의 범위안에서 선거관리·국민투표관리 또는 정당사무에 관한 규칙을 제정할 수 있으며, 법률에 저촉되지 아니하는 범위안에서 내부규율에 관한 규칙을 제정할 수 있다.
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ ￼Bart de Baets (Knokke, 1979) is an Amsterdam based graphic designer. Since 2006, he has been working for various cultural clients such as W139, de Appel, The New Institute, Amsterdam Fund for the Arts, Paradiso, and events as The Weight of Colour and A New Divide? Recently, Bart designed the record sleeve for Australian noise band Total Con- trol, titled Typical System. In 2011, him and Sandra Kassenaar traveled to Cairo where they produced Success and Uncertainty, a poster series that was shown in the Amsterdam art book shop San Serriffe a year later. With Rustan Söderling he writes, edits and designs Dark and Stormy, a fanzine that appears twice a year. Bart teaches at the Gerrit Rietveld Academy in Amsterdam and at the Royal Academy in The Hague.
+ ￼Sandra Kassenaar (Johannesburg, 1982) lives in Amsterdam where she runs a small graphic design studio. She graduat- ed with an MA from the Werkplaats Typografie in Arnhem in 2007. She was nominated for the Dutch Design Award for the project ‘Success and Uncertainty’ (in collaboration with Bart de Baets) and in 2013 the book ‘As if an entrance is over there’ for artist Edward Clydesdale Thomson was selected as one of the ‘Best verzorgde Boeken 2013’ (Best Books 2013). Over the years Sandra has worked for The New Institute, Piet Zwart Instituut, Kunsthuis Syb Maress and Bureau Europa. Besides running her own studio, Sandra regularly teaches at the graphic design department of the Willem De Kooning Academy in Rotterdam.
+
+participant_bio_kr: >

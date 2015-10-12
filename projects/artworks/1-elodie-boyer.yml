@@ -27,6 +27,8 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+ # ARTWORK -----------------------------------------------
+
 artwork_desc_en: >
  LETTERS AND LETTERS: CITY SIGNS AND EPISTLES
  Lettres du Havre book plays on the dual meaning of the word “letters”: typefaces, signs, logotypes on the one hand, and fictional letters (love letters, letters to relatives, professional letters, administrative letters…) on the other hand, in order to investigate the role of identities in a city, the evolution of brand design and signage, the interactions between social state and graphic signs.
@@ -41,3 +43,10 @@ artwork_desc_en: >
 
 artwork_desc_kr: >
  
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+
+
+participant_bio_kr: >

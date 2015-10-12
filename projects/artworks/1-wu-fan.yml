@@ -13,8 +13,8 @@ artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
 venue_name_kr: 문화역서울284
-venue_detail_en: 
-venue_detail_kr: 
+venue_detail_en: 3F 
+venue_detail_kr: 3층 
 venue_city_en: Seoul
 venue_city_kr: 서울
 venue_country_en: KR
@@ -27,10 +27,26 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+# ARTWORK -----------------------------------------------
+
 artwork_desc_en: >
  An Inquiry Manifesto
  This Inquiry Manifesto is part of the result of an interdisciplinary graphic design research project: Next City= ? =Nature. In this Manifesto we did not declare a static idea about future urban life; instead we sought to keep the plurality, complexity and contradiction of the answers. We are happy to explore and know this plural world through different Questions, and to see the process of raising questions via the specific method of Inquiry as a push force to the development of contemporary world, a force depicted by the Inquiry Manifesto.
  
  3000 Questions
  This is a book of questions but without answers. And the only thing about these questions in common is the inquiry of people’s situation. Inquiry is a fundamental way whereby man gets to know the world and explore himself. Inquiry itself is also an important part of human knowledge. This is a book that transcends borders, of ambitious collection and a chattering Utopian realist text, with which we attempt to measure the borders and outlines of human thinking, to depict human conditions in this real world, and to construct a second reality of our world in a text with an irrational yet logical language.
+
 artwork_desc_kr: >
+
+
+
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ Wu Fan  is an independent designer originally from China. He received B.F.A. in graphic design from Central Academy of Fine Arts of Beijing in 2005, and an M.F.A. in graphic design from Yale University School of Art, U.S. in 2008. He won Phelps Berdan Memorial Prize given for distinction in art in Yale, 2008. As a professional graphic designer, Mr.Wu focus on critical thinking and methodical research for contemporary visual design and works on cuttingedge projects in virtually graphic media: print [2D], environmental design & installations [3D], time basis graphics[4D]. At the same time,  Mr.Wu worked variously as a researcher, designer and teacher at  Icograda World Design Congress 2009 Beijing, Greengaged-China, and China Central Academy of Fine Arts Beijing. Mr. Wu was a teaching assistant for first-year graduate core studio at Yale Art School 2007 and was appointed to the faculty at the China Central Academy of Fine Arts (CAFA ), Beijing, in 2009. He is currently lecturer in graphic design at School of Design CAFA.
+
+
+
+participant_bio_kr: >
+

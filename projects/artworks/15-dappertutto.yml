@@ -1,5 +1,5 @@
-full_name_en: Ohyun Kwon + Sunhee Yang + Jiwon Yu
-full_name_kr: 
+full_name_en: Dappertutto Studio
+full_name_kr: 다페르튜토 스튜디오
 origin_city_en: Seoul
 origin_city_kr: 서울
 origin_country_en: KR
@@ -7,8 +7,8 @@ origin_country_kr: 한국
 origin_lat: 37.55583
 origin_lng: 126.97161
 
-artwork_name_en: City Letter Reportage
-artwork_name_kr: 
+artwork_name_en: Opening Performance
+artwork_name_kr: 개막식 공연 프로젝트
 artwork_year: 2015
 
 venue_name_en: Seoul284
@@ -27,7 +27,19 @@ venue_lng: 126.97161
 # - image2.jpg 
 # - image3.jpg 
 
+# ARTWORK -----------------------------------------------
+
+
+
 artwork_desc_en: >
 
 
 artwork_desc_kr: >
+ 
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+
+
+participant_bio_kr: >

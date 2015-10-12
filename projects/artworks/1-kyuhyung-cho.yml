@@ -1,7 +1,7 @@
 full_name_en: Kyuhyung Cho
 full_name_kr: 조규형
 origin_city_en: Stockholm
-origin_city_kr: 스톡홀
+origin_city_kr: 스톡홀롬
 origin_country_en: Sweden
 origin_country_kr: 스웨덴
 origin_lat: 59.2741461
@@ -27,6 +27,8 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+# ARTWORK -----------------------------------------------
+
 artwork_desc_en: >
  
 
@@ -36,3 +38,11 @@ artwork_desc_kr: >
  문서에 기록된 문자들은 그들의 이야기를 지키기 위해, 제자리를 묵묵히 지키고 있다. 빼곡히 정렬된 문자의 모습은 오늘날, 도시에서 삶을 살아내는 우리의 모습과 닮아있다. 도시에게 그리고 문자에게는 다양한 이야기로 가득 채워진 해프닝이 필요하다. 
 
  본 프로젝트에는 도시의 이야기를 영감으로 만들어질 '도시의 삶'이라는 문자를 기반으로  2015년 9월에 발표한 100개의 그림서체가 만들어내는 즐겁고 비밀스러운 해프닝을 담을 계획이다.  
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ He runs his own design studio based in Stockholm. He has incorporated both a typographical approach and a eastern/western perspective into various design fields such as typography, illustration, textile and furniture design for both commercial and non-commercial context which resulted in the creation of new and unexpected design solution, receiving tremendous attention from the public and the media. Kyuhyung defines himself as a graphic designer while he believes that his multi-discipline projects based on typographical approach will contribute to the expansion of the concept of graphic design as well as becoming a positive stimulus in the diversification of graphic design.
+
+
+participant_bio_kr: >

@@ -27,6 +27,8 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+# ARTWORK -----------------------------------------------
+
 artwork_desc_en: >
  
  Kanji City is a video piece that expresses the landscape  with The kanji (the logographic Chinese characters that are used in the modern Japanese)
@@ -34,4 +36,10 @@ artwork_desc_en: >
  Push pedals of a bicycle, also  move in conjunction with the image.Three screens will allow for more spatial images.
 
 artwork_desc_kr: >
- 
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+
+
+participant_bio_kr: >

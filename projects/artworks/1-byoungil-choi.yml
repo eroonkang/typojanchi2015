@@ -13,8 +13,8 @@ artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
 venue_name_kr: 문화역서울284
-venue_detail_en: 
-venue_detail_kr: 
+venue_detail_en:  3F
+venue_detail_kr:  3층
 venue_city_en: Seoul
 venue_city_kr: 서울
 venue_country_en: KR
@@ -27,8 +27,18 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+# ARTWORK -----------------------------------------------
+
 artwork_desc_en: >
  
 
 artwork_desc_kr: >
  정밀하게 반복되는 기계의 움직임 안에서 생성되는 불규칙함. 거울위의 글자들은 흔적을 남기며 계속 주변을 끊임없이 담고는 있지만 온전한 모습은 아니다. 사람들이 일상생활을 영위하는 도시의 글자들도 유사한 방법으로 생성되고 사라져 간다.
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+
+
+participant_bio_kr: >
+ 영화, 비디오 작업을 주로 했으나 2001년 크랜부룩 아카데미 오브 아트 2D Design의 석사학위 논문작업을 시작으로 현재는 설치작업을 주로 하고 있다. 크랜부룩에서의 논문작업은 현실과 가상의 경계에 관한 내용이었다. 2004년부터 현재까지 건국대학교 예술디자인 대학 커뮤니케이션 디자인 학과에서 교수로 재직하고 있다. 시각적인 대상 자체보다는 대상을 인지하는 시각적인 과정에 관한 것이 작업의 주된 소재이다. 주로 개인전을 통해서 작품을 발표하였으며 비디오, 프로그래밍, 기계, 거울 등을 주로 사용하여 작업한다.

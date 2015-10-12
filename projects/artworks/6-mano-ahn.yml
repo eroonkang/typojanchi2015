@@ -27,8 +27,20 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+ # ARTWORK -----------------------------------------------
+
+
+
 artwork_desc_en: >
  
 
 artwork_desc_kr: >
  디자이너로서 간판이라는 매체를 다룰 때 직면해야 하는 과제(단순화와 정보 전달)를 넘어선 표현적 가능성에 대한 탐구. 그래픽디자인의 전통적인 기법인 실루엣팅(Sillouetting)과 레이저커팅시트를 위한 필수조건인 벡터라이징(Vectorizing)을 활용한 조형적 실험.
+
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+
+
+participant_bio_kr: >

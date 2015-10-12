@@ -7,8 +7,8 @@ origin_country_kr: 대한민국
 origin_lat: 37.55277
 origin_lng: 126.92078
 
-artwork_name_en: 
-artwork_name_kr: 
+artwork_name_en: the modular 
+artwork_name_kr: 모듈러
 artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
@@ -27,10 +27,33 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
+# ARTWORK -----------------------------------------------
+
 artwork_desc_en: >
+  The modular is made for universal uses for daily uses. the modular is structured like typographic idea. Almost languages, especially Hangul is made by vowel & consonant like puzzle. We can make every sound and letter with 19 vowel & 21 consonant. that is very smart way to make and build various letter and word. We are need to file almost small thing on the desk, on the kitchen, the living room and everywhere. the modular can be various trey for the every single need in daily life. from small bar type modular can be used as very simple way to organize small object. and mid triangle modular can be very unique way to manage small object on it. the biggest diamond modular is not only the base of other modular - but also used as a biggest system for organize big things. 
 
  
  
 
 artwork_desc_kr: >
+ 모듈러는 일상에서 다양한 사용성을 가진다. 모듈러는 글씨가 만들어지는 구조와 원리를 이용해서 만들어졌다. 대부분의 언어가 가지는 - 특별히 한글이 가지는 모음과 자음의 퍼즐같이 구성되는 원리처럼 제품을 구성하게 된다. 우리는 한글의  19개의 모음과 21개의 자음을 통해 모든 소리를 만들어 낼수 있는 것처럼,  모듈러는 몇개의 기본 모듈을 통해 많은 구성을 만들어 낼 수 있다.우리는 일상에서 작은 사물들을 정리 혹은 파일링을 하게 된다. 가장 기본적인 도형인 원, 일자형, 삼각형, 정사각형, 마름모, 평행 사변형으로 구성된  6개의 각기 다른 모듈이지만 다양한 조합을 통해 주방, 거실, 호텔의 로비, 객실, 화장실, 샵, 책상위, 식탁위에서 작은 소품들을 쉽게 정리 할 수 있는 사용성을 가지게 된다.  
+
+
+# PARTICIPANT -----------------------------------------------
+
+participant_bio_en: >
+ BongKyu Son  BongKyu Song was graduated from Kookmin University, majored in Industrial Design. He worked for Samsung Electronics Mobile Communication Division as a product designer. While working at Samsung, he lead the design for the first tablet, the galaxy tab. In 2008, he independently estabilised a design studio, SDESIGNUNIT. In this design studio, mainly he designed product, lighting, furniture design and also ran a research about the interaction between the object and the environment. In 2007 to 2008, he directed and exhibited the project, "the undesigned objects- UNDESIGNED". In 2012, he directed the exhibition, Sulhwa Culture which Amore Pacific supervised. Not only that but also worked with the Global clients including BMW, Audi, Samsung Electronics, Siemens, Kimberly-Clark Professional, Dell and etc, mainly ran projects for product design, brand strategy which was based on design identity and advance design. Also, he worked for brand's design consulting with Amore Pacific, Daerim Industry, Coway/Cosmetic, CJ, LG, Design House, KT, SK, Jeil Industry, Seoul Arts Center and more clients. 
+ He received several awards from varies of international design competitions including IF, Red dot, IDEA and Good design Japan. Moreover, his were introduced at exhibition and posted up on media in Italy(Super Studio), Germany(Cebit), Japan(100% Tokyo), U.K(TENT London) and France(Masion&Objet it has KCDF and Musée des arts décoratifs de Paris), ICFF(Singapore Design Fair). Currently, he is leading SWBK and Matter & Matter as a co founder. Mainly consulting on product concept development to brand design strategy and leading a consulting for service design section as well. 
+ In 2009, he was selected as the Next Generation Design leader by KIDP. And Currently he is instructing students for industrial design major at Kookmin University and Hongik University. He was also invited as a guest speaker to give lecture at Seoul Natioanl University, Seoul Design Plaza, Ehwa University, Sejong University, Gaewon University, Pechakucha, KIDP and Samsung Design Membership. 
+ He became an advisory member of Seoul Design Committee, since 2012. In 2013, he processed a design consulting under supervision of Cultural Heritage Administration for creating a cultural and modern design with Traditional Crafts Artists. In 2013, he was selected as the Design Jury for Audi Design Competition. In 2012, he was selected as a "Top 10 designers that represent Korea" from Jung-Ang News, "the Designer of Living Design in 2012" from Mdesign and in 2013, he was selected as "the young leader whom will lead Korea" from Forbes Korea.
+
+
+participant_bio_kr: >
+ 국민대 공업디자인과를 졸업하고, 현재 SWBK의 대표로 산업디자인을 베이스로 하여 다양한 분야의 디자인 전략 컨설팅을 수행하고 있다. 2006년 삼성전자에서 글로벌 스마트폰의 제품 디자이너로 근무하면서 안드로이드 최초의 태블릿인 갤럭시 탭 디자인을 Lead 하였다. 2008년 디자인 스튜디오 SDESIGNUNIT을 설립해 생활 제품, 조명, 가구 디자인과 사물과 환경에 연관성에 대한 리서치를 진행했으며, 2007-2008 “디자인 되지 않은 사물들-UNDESIGNED” 프로젝트를 기획/전시 하였고, 2012년에는 아모레 퍼시픽에서 주관하는 설화 문화전 프로젝트 전시 아트 디렉팅을 하였다. 또한 2008년에는 가구를 기반으로 한 라이프 스타일 브랜드인 Matter & Matter를 런칭 하여 운영하고 있다.
+ BMW, AUDI, Siemens, Kimberly-Clark Professional, Samsung Electronics, Dell, Lenovo 등의  글로벌 클라이언트와 디자인과 브랜드 전략을 기반으로한 디자인 아이덴티티와 선행 디자인 프로젝트를 수행 하였으며,  아모레 퍼시픽, 대림 산업, 코웨이/코스메틱, CJ, LG Electronics, Design House, KT, SK, 제일 모직, 예술의 전당, POSCO  등의 클라이언트와 브랜드 경험을 기반으로 한 산업 디자인 컨설팅을 수행하였다. 
+ iF, IDEA, Red-dot, Good design Japan 국제적인 디자인 어워드에서 수상 하였으며, Frame(Netherlands), Gestalten(Gernamy),  ICON(U.K) 등의 디자인 미디어에 소개되었다. 현재는 SWBK와 Matter&Matter 공동 대표로써 산업 디자인 전략부터 브랜드 디자인 전략 및 서비스 디자인 분야의 컨설팅을 리드 하고 있다.
+ 2009년 KIDP에서 차세대 디자인 리더로 선정 되었으며, 국민대, 홍익대에서 Industrial Design 및 삼차원을 기반으로한 디자인 방법론을 가르치고 있다. 서울 대학교, 이화여자 대학교, 세종대학교, 건국 대학교, 계원 대학교, 페차쿠자, KIDP, 삼성 디자인 멤버쉽, 서울 디자인 플라자, KCDF, CA 등에서 객원 강연을 하였다. 
+ 2012 년부터 서울시 디자인 자문위원으로 활동하고 있으며, 2013년 부터는 문화재청에서 주관하는 전통 공예 이수자들과 함께 전통 공예의 현대적 디자인에 대한 컨설팅을 진행 하였다. 2013년에는 아우디 디자인 공모전의 심사위원 및 멘토로 위촉되었고. 2014년에는 KCDF에서 주관하는 현대 상품 개발/한지 공예 디자인의 심사위원 및 멘토로써 활동하고 있다. 2013년에는 랑콤과 메세나 코리아에서 후원하는 K-Action Junior 멘토로써 활약 하였다.  2012년 중앙일보 선정 대한민국 대표 K-디자이너 10인, 그리고 월간 디자인, 2012 리빙 부문 올해의 디자이너, 2013년 포브스 코리아의 대한민국을 이끌 젊은 리더로 선정되었다. 
+
+
  
