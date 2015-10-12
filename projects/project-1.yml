@@ -1,0 +1,66 @@
+project_name_en: John Doe
+project_name_kr: 홍길동
+
+curator_name_en: John Doe
+curator_name_kr: 홍길동
+
+project_artists: 
+- 1-brownfox.yml
+- 1-byoungil-choi.yml
+- 1-catherine-griffiths.yml
+- 1-dainippon.yml
+- 1-daniel-eatock.yml
+- 1-dongwan-kook.yml
+- 1-doosup-kim.yml
+- 1-elodie-boyer.yml
+- 1-hyounyoul-joe.yml
+- 1-jisung-yi.yml
+- 1-joonsoo-ha.yml
+- 1-kota-iguchi.yml
+- 1-kyuhyung-cho.yml
+- 1-leslie-david.yml
+- 1-r-n-d.yml
+- 1-r2.yml
+- 1-rejane-dal-bello.yml
+- 1-roman-wilhelm.yml
+- 1-sandra-kassenaar-n-bart-de-baets.yml
+- 1-studio-spass.yml
+- 1-till-wiedeck.yml
+- 1-wang-ziyuan.yml
+- 1-wu-fan.yml
+- 1-yuma-harada-n-shohei-iida.yml
+
+# CURATOR -----------------------------------------
+
+project_desc_en: >
+ Lorem ipsum dolor sit amet, *consectetur* adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+
+ Excepteur sint occaecat cupidatat non proident, [sunt](http://example.net/) in culpa qui officia deserunt mollit anim id est laborum.
+
+
+project_desc_kr: >
+ 사면·감형 및 복권에 관한 사항은 *법률로* 정한다. [국회의원은](http://example.net/) 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.
+
+ 예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 모든 국민은 자기의 행위가 아닌 친족의 행위로 인하여 불이익한 처우를 받지 아니한다.
+
+ 중앙선거관리위원회는 법령의 범위안에서 선거관리·국민투표관리 또는 정당사무에 관한 규칙을 제정할 수 있으며, 법률에 저촉되지 아니하는 범위안에서 내부규율에 관한 규칙을 제정할 수 있다.
+
+# CURATOR -----------------------------------------
+
+curator_bio_en: >
+ Lorem ipsum dolor sit amet, *consectetur* adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+
+ Excepteur sint occaecat cupidatat non proident, [sunt](http://example.net/) in culpa qui officia deserunt mollit anim id est laborum.
+
+curator_bio_kr: >
+ 사면·감형 및 복권에 관한 사항은 *법률로* 정한다. [국회의원은](http://example.net/) 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.
+
+ 예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 모든 국민은 자기의 행위가 아닌 친족의 행위로 인하여 불이익한 처우를 받지 아니한다.
+
+ 중앙선거관리위원회는 법령의 범위안에서 선거관리·국민투표관리 또는 정당사무에 관한 규칙을 제정할 수 있으며, 법률에 저촉되지 아니하는 범위안에서 내부규율에 관한 규칙을 제정할 수 있다.
+
+ 
