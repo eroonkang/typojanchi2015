@@ -528,22 +528,21 @@ projects:
     url: ./projects/artworks/6-uk-kim.yml
 
 
-# PROJECT -----------------------------------------
+  # PROJECT -----------------------------------------
 
-project_desc_en: >
-project_desc_kr: >
+  project_desc_en: >
+  project_desc_kr: >
 
 
-# CURATOR -----------------------------------------
- curator_bio_en: >
- curator_bio_kr: >
+  # CURATOR -----------------------------------------
+  curator_bio_en: >
+  curator_bio_kr: >
    
-
 
 -
   idx: 7
-  project_name_en: ( ) Home 
-  project_name_kr: ( ) 집 : 문자벽돌 
+  project_name_en: "( ) Home"
+  project_name_kr: "( ) 집 : 문자벽돌"
 
   curator_name_en: 
   curator_name_kr: 최문경
@@ -639,7 +638,7 @@ project_desc_kr: >
   project_name_en: 
   project_name_kr: 도시언어유희
 
-  curator_name_en: 
+  curator_name_en: Fritz K. Park
   curator_name_kr: 박경식
 
   project_artists: 
@@ -687,13 +686,11 @@ project_desc_kr: >
 # CURATOR -----------------------------------------
 
   curator_bio_en: > 
-  Fritz K. Park studied Communication Design at the Milwaukee Institute of Art & Design at Milwaukee WI., USA (BFA) and received his MFA in Design Management at Hongik-IDAS in Seoul, Korea. 
-  He wears many hats. His fedora is principal of one-man graphic design studio N&Co. specialising in design consultancy, branding and print, while the Stetson he interchanges with a hard hat when he lectures on typography, editorial design and design process at Samsung Art & Design Institute, Konkuk University among many other schools. His green eyeshade is his thinking cap for when he writes or edits work based on design and cultural trends, or when he does translation work in varying capacities. With so many hats*, Fritz has worked with many talented individuals as well as for many renown clients such as Interbrand, Designesprit, Design House, gColon, KT, Hyundai/Kia, Asiana Airlines, Songdo IBD, 5by50, DY and Pacific Star, among others. He has presented papers at ATyPI (Association Typographique International) as well as for the Korean Society of Typography. Of special note is his Windsor cap (seasonal) which he saves for exhibition and show openings he has participated in throughout the years. In his free time, he likes to go hiking (bucket hat), or watch horror movies (face guard visor). He collects comic books and vintage Tetsujin 28 figures and memorabilia (magnifier visor with LED lighting). Fritz lives on the outskirts of Seoul with his wife and three boys.
+    Fritz K. Park studied Communication Design at the Milwaukee Institute of Art & Design at Milwaukee WI., USA (BFA) and received his MFA in Design Management at Hongik-IDAS in Seoul, Korea. He wears many hats. His fedora is principal of one-man graphic design studio N&Co. specialising in design consultancy, branding and print, while the Stetson he interchanges with a hard hat when he lectures on typography, editorial design and design process at Samsung Art & Design Institute, Konkuk University among many other schools. His green eyeshade is his thinking cap for when he writes or edits work based on design and cultural trends, or when he does translation work in varying capacities. With so many hats*, Fritz has worked with many talented individuals as well as for many renown clients such as Interbrand, Designesprit, Design House, gColon, KT, Hyundai/Kia, Asiana Airlines, Songdo IBD, 5by50, DY and Pacific Star, among others. He has presented papers at ATyPI (Association Typographique International) as well as for the Korean Society of Typography. Of special note is his Windsor cap (seasonal) which he saves for exhibition and show openings he has participated in throughout the years. In his free time, he likes to go hiking (bucket hat), or watch horror movies (face guard visor). He collects comic books and vintage Tetsujin 28 figures and memorabilia (magnifier visor with LED lighting). Fritz lives on the outskirts of Seoul with his wife and three boys.
 
 
   curator_bio_kr: >
-  박경식은 미국 위스콘신주 밀워키에서 커뮤니케이션 디자인 전공, 국제 디자인 전문대학원(IDAS)에서 디자인경영을 공부했다. 현재, 앤엔코라는 1일 그래픽 디자인 스튜디오 대표로 일하고 있으며, 타이포그래피 계간지 <ㅎ>의 편집장으로 일하고 있다. 또한, 삼성디자인학교와 건국대학교에서 각각 2008년, 2006년부터 줄곧 강의하고 있다. 여러 학회에서 논문 발표하였고, 최근 2012년홍콩에서 ATyPI 학회에 참여했다. 현재 한국 타이포그래피 학회 회원이며 학회지 <글자씨>에 기고하고 있다.
-  그는 현재 서울 동부 끝자락에서 아내와 아들 셋이서 작은 연립에 거주하고 있다. 여가로 산타기, 공포영화 관람, 미국 만화 수집 그리고 철인28호 피규어를 모은다.
+    박경식은 미국 위스콘신주 밀워키에서 커뮤니케이션 디자인 전공, 국제 디자인 전문대학원(IDAS)에서 디자인경영을 공부했다. 현재, 앤엔코라는 1일 그래픽 디자인 스튜디오 대표로 일하고 있으며, 타이포그래피 계간지 <ㅎ>의 편집장으로 일하고 있다. 또한, 삼성디자인학교와 건국대학교에서 각각 2008년, 2006년부터 줄곧 강의하고 있다. 여러 학회에서 논문 발표하였고, 최근 2012년홍콩에서 ATyPI 학회에 참여했다. 현재 한국 타이포그래피 학회 회원이며 학회지 <글자씨>에 기고하고 있다. 그는 현재 서울 동부 끝자락에서 아내와 아들 셋이서 작은 연립에 거주하고 있다. 여가로 산타기, 공포영화 관람, 미국 만화 수집 그리고 철인28호 피규어를 모은다.
 
 
 
@@ -790,7 +787,7 @@ project_desc_kr: >
 -
   idx: 13
   project_name_en: Website
-  project_name_kr: artwork_name_kr: 웹사이트프로젝트 
+  project_name_kr: 웹사이트프로젝트 
 
   curator_name_en: 
   curator_name_kr: 
