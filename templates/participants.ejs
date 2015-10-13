@@ -1,13 +1,13 @@
 <% _.each(projects, function(project){ %>
   <ul class="index-list dontsplit">
-    <li><a href="#"><%= project.idx %></a></li>
+    <li><a href="#">(<%= project.idx %>)</a></li>
     <% _.each(project.project_artists, function(artist) { %>
       <li>
         <a href="#">
           <% if (WY.constants.locale == "ko") { %>
-            <%= artist.full_name_kr %>
+            <span lang="ko"><%= artist.full_name_kr %></span>
           <% } else { %>
-            <%= artist.full_name_en %>
+            <span lang="en"><%= artist.full_name_en %></span>
           <% } %>
         </a>
       </li>

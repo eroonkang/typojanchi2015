@@ -4,9 +4,9 @@
       <a href="#">
         (<%= project.idx %>) 
         <% if (WY.constants.locale == "ko") { %>
-          <%= project.project_name_kr %>
+          <span lang="ko"><%= project.project_name_kr %></span>
         <% } else { %>
-          <%= project.project_name_en %>
+          <span lang="en"><%= project.project_name_en %></span>
         <% } %>
       </a>
     </li>

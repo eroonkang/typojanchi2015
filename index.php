@@ -67,7 +67,8 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/js-yaml.min.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/retina.min.js"></script>  
   <script src="<? echo $home_url; ?>/javascripts/src/WY.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>  
+  <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/kerning.js"></script>
 
   <!-- models -->
   <script src="<? echo $home_url; ?>/javascripts/src/models/template_loader.js"></script>

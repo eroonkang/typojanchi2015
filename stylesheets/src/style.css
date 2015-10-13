@@ -1,5 +1,6 @@
 body {
-  font-family: 'FoundersGroteskTextWeb', arial, sans-serif;
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+  font-style: normal;
   font-size: 22px;
   line-height: 1.15em;
   background-color: #FFF;
@@ -53,8 +54,8 @@ a:hover {
 }
 
 .index-list li {
-  margin-left: 1.2em;
-  text-indent: -1.2em;
+  margin-left: 1em;
+  text-indent: -1em;
   padding-right: 1em;
 }
 
