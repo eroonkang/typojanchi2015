@@ -14,99 +14,99 @@ projects:
   - 
     full_name_en: Brownfox
     full_name_kr: 브라운폭스
-    url: ./projects/artworks/1-brownfox.yml
+    url: /projects/artworks/1-brownfox.yml
   - 
     full_name_en: Byungil Choi
     full_name_kr: 최병일
-    url: ./projects/artworks/1-byoungil-choi.yml
+    url: /projects/artworks/1-byoungil-choi.yml
   - 
     full_name_en: Catherine Griffiths
     full_name_kr: 캐서린 그리피스
-    url: ./projects/artworks/1-catherine-griffiths.yml
+    url: /projects/artworks/1-catherine-griffiths.yml
   - 
     full_name_en: Dainippon Type Organization
     full_name_kr: 다이니폰
-    url: ./projects/artworks/1-dainippon.yml
+    url: /projects/artworks/1-dainippon.yml
   - 
     full_name_en: Daniel Eatock
     full_name_kr: 다니엘 이톡
-    url: ./projects/artworks/1-daniel-eatock.yml
+    url: /projects/artworks/1-daniel-eatock.yml
   - 
     full_name_en: Dongwan Kook
     full_name_kr: 국동완
-    url: ./projects/artworks/1-dongwan-kook.yml
+    url: /projects/artworks/1-dongwan-kook.yml
   - 
     full_name_en: Doosup Kim
     full_name_kr: 김두섭
-    url: ./projects/artworks/1-doosup-kim.yml
+    url: /projects/artworks/1-doosup-kim.yml
   - 
     full_name_en: Elodie Boyer
     full_name_kr: 엘로디 보이어
-    url: ./projects/artworks/1-elodie-boyer.yml
+    url: /projects/artworks/1-elodie-boyer.yml
   - 
     full_name_en: Hyoun Youl Joe
     full_name_kr: 조현열
-    url: ./projects/artworks/1-hyounyoul-joe.yml
+    url: /projects/artworks/1-hyounyoul-joe.yml
   - 
     full_name_en: Jisung Yi
     full_name_kr: 이지성
-    url: ./projects/artworks/1-jisung-yi.yml
+    url: /projects/artworks/1-jisung-yi.yml
   - 
     full_name_en: Joon Soo Ha
     full_name_kr: 하준수
-    url: ./projects/artworks/1-joonsoo-ha.yml
+    url: /projects/artworks/1-joonsoo-ha.yml
   - 
     full_name_en: Kota Iguchi (TYMOTE / CEKAI)
     full_name_kr: 코타 이구치(티모테/세카이)
-    url: ./projects/artworks/1-kota-iguchi.yml
+    url: /projects/artworks/1-kota-iguchi.yml
   - 
     full_name_en: Kyuhyung Cho
     full_name_kr: 조규형
-    url: ./projects/artworks/1-kyuhyung-cho.yml
+    url: /projects/artworks/1-kyuhyung-cho.yml
   - 
     full_name_en: Leslie David
     full_name_kr: 레슬리 데이비드
-    url: ./projects/artworks/1-leslie-david.yml
+    url: /projects/artworks/1-leslie-david.yml
   - 
     full_name_en: Research and Development
     full_name_kr: 리서치 앤 디벨롭먼트
-    url: ./projects/artworks/1-r-n-d.yml
+    url: /projects/artworks/1-r-n-d.yml
   - 
     full_name_en: R2
     full_name_kr: R2
-    url: ./projects/artworks/1-r2.yml
+    url: /projects/artworks/1-r2.yml
   - 
     full_name_en: Rejane Dal Bello
     full_name_kr: 앤드류 브라쉬
-    url: ./projects/artworks/1-rejane-dal-bello.yml
+    url: /projects/artworks/1-rejane-dal-bello.yml
   - 
     name_ko: 로만 빌헬름
     name_en: Roman Wilhelm
-    url: ./projects/artworks/1-roman-wilhelm.yml
+    url: /projects/artworks/1-roman-wilhelm.yml
   - 
     full_name_en: Sandra Kassenaar & Bart de Baets
     full_name_kr: 산드라 카서나르 & 바르 데 바트
-    url: ./projects/artworks/1-sandra-kassenaar-n-bart-de-baets.yml
+    url: /projects/artworks/1-sandra-kassenaar-n-bart-de-baets.yml
   - 
     full_name_en: StudioSpass
     full_name_kr: 스튜디오 스파스
-    url: ./projects/artworks/1-studio-spass.yml
+    url: /projects/artworks/1-studio-spass.yml
   - 
     full_name_en: Till Wiedeck
     full_name_kr: 틸 비덱
-    url: ./projects/artworks/1-till-wiedeck.yml
+    url: /projects/artworks/1-till-wiedeck.yml
   - 
     full_name_en: Wang Ziyuan
     full_name_kr: 왕쯔위안
-    url: ./projects/artworks/1-wang-ziyuan.yml
+    url: /projects/artworks/1-wang-ziyuan.yml
   - 
     full_name_en: Wu Fan
     full_name_kr: 우 판
-    url: ./projects/artworks/1-wu-fan.yml
+    url: /projects/artworks/1-wu-fan.yml
   - 
     full_name_en: Yuma Harada+Shohei Iida
     full_name_kr: 유마 하라다+쇼헤이 이다
-    url: ./projects/artworks/1-yuma-harada-n-shohei-iida.yml
+    url: /projects/artworks/1-yuma-harada-n-shohei-iida.yml
 
   # PROJECT -----------------------------------------
 
@@ -137,31 +137,31 @@ projects:
   - 
     full_name_en: Andrew Brash
     full_name_kr: 앤드류 브라쉬
-    url: ./projects/artworks/2-andrew-brash.yml
+    url: /projects/artworks/2-andrew-brash.yml
   - 
     full_name_en: Jonas Berthod
     full_name_kr: 요나스 베르도
-    url: ./projects/artworks/2-jonas-berthod.yml
+    url: /projects/artworks/2-jonas-berthod.yml
   - 
     full_name_en: Jorg Schwerteger
     full_name_kr: 요르그 슈베트페거
-    url: ./projects/artworks/2-jorg-schwerteger.yml
+    url: /projects/artworks/2-jorg-schwerteger.yml
   - 
     full_name_en: Kyuha Shim
     full_name_kr: 심규하
-    url: ./projects/artworks/2-kyuha-shim.yml
+    url: /projects/artworks/2-kyuha-shim.yml
   - 
     full_name_en: Laura Joan
     full_name_kr: 로라 조앙
-    url: ./projects/artworks/2-laura-joan.yml
+    url: /projects/artworks/2-laura-joan.yml
   - 
     full_name_en: Sebastian Koseda
     full_name_kr: 세바스찬 코세다
-    url: ./projects/artworks/2-sebastian-koseda.yml
+    url: /projects/artworks/2-sebastian-koseda.yml
   - 
     full_name_en: Summer Studio(Carolina Dahl & Minna Sakaria)
     full_name_kr: 썸머 스튜디오(민나 사카리아 & 캐롤리나 달)
-    url: ./projects/artworks/2-summer-studio-carolina-dahl-n-minna-sakaria.yml
+    url: /projects/artworks/2-summer-studio-carolina-dahl-n-minna-sakaria.yml
 
 
 
@@ -208,41 +208,41 @@ projects:
   - 
     full_name_en: Giang Nguyen
     full_name_kr: 
-    url: ./projects/artworks/3-giang-nguyen.yml
+    url: /projects/artworks/3-giang-nguyen.yml
   - 
     full_name_en: Hagiwara Shunya
     full_name_kr: 하기와라 슌야
-    url: ./projects/artworks/3-hagiwara-shunya.yml
+    url: /projects/artworks/3-hagiwara-shunya.yml
   - 
     full_name_en: Hung Chang-Lien
     full_name_kr: 
-    url: ./projects/artworks/3-hung-changlien.yml
+    url: /projects/artworks/3-hung-changlien.yml
   - 
     full_name_en: Javin Mo
     full_name_kr: 자빈 모
-    url: ./projects/artworks/3-javin-mo.yml
+    url: /projects/artworks/3-javin-mo.yml
   - 
     full_name_en: Li Shaobo
     full_name_kr: 리 사오보
-    url: ./projects/artworks/3-li-shaobo.yml
+    url: /projects/artworks/3-li-shaobo.yml
 
     full_name_en: Morimura Makoto
     full_name_kr: 모리무라 마코토
-    url: ./projects/artworks/3-morimura-makoto.yml
+    url: /projects/artworks/3-morimura-makoto.yml
   - 
     full_name_en: Prabda Yoon
     full_name_kr: 
-    url: ./projects/artworks/3-prabda-yoon.yml
+    url: /projects/artworks/3-prabda-yoon.yml
 
   - 
     full_name_en: Sean Kelvin Khoo
     full_name_kr: 
-    url: ./projects/artworks/3-sean-kelvin-khoo.yml
+    url: /projects/artworks/3-sean-kelvin-khoo.yml
 
   - 
     full_name_en: ShinShin
     full_name_kr: 신신
-    url: ./projects/artworks/3-shinshin.yml
+    url: /projects/artworks/3-shinshin.yml
 
 
 
@@ -271,31 +271,31 @@ projects:
   - 
     full_name_en: Aaron Nieh
     full_name_kr: 에런 니에
-    url: ./projects/artworks/4-aaron-nieh.yml
+    url: /projects/artworks/4-aaron-nieh.yml
   - 
     full_name_en: Helmo
     full_name_kr: 엘모
-    url: ./projects/artworks/4-helmo.yml
+    url: /projects/artworks/4-helmo.yml
   - 
     full_name_en: Jaemin Lee
     full_name_kr: 이재민
-    url: ./projects/artworks/4-jaemin-lee.yml
+    url: /projects/artworks/4-jaemin-lee.yml
   - 
     full_name_en: Keetra Dean Dixon
     full_name_kr: 키트라 딘 딕슨
-    url: ./projects/artworks/4-keetra-deandixon.yml
+    url: /projects/artworks/4-keetra-deandixon.yml
   - 
     full_name_en: Ludovic Balland
     full_name_kr: 루도빅 발랑
-    url: ./projects/artworks/4-ludovic-balland.yml
+    url: /projects/artworks/4-ludovic-balland.yml
 
     full_name_en: Richard Niessen
     full_name_kr: 리하르트 니선
-    url: ./projects/artworks/4-richard-niessen.yml
+    url: /projects/artworks/4-richard-niessen.yml
   - 
     full_name_en: Siggi Eggertsson
     full_name_kr: 지기 에거슨
-    url: ./projects/artworks/4-siggi-eggertsson.yml
+    url: /projects/artworks/4-siggi-eggertsson.yml
 
 
 
@@ -327,123 +327,123 @@ projects:
   - 
     full_name_en: 1984
     full_name_kr: 1984
-    url: ./projects/artworks/5-1984.yml
+    url: /projects/artworks/5-1984.yml
   - 
     full_name_en: Aladin
     full_name_kr: 알라딘
-    url: ./projects/artworks/5-aladin.yml
+    url: /projects/artworks/5-aladin.yml
   - 
     full_name_en: Art Sonje
     full_name_kr: 아트선재센터
-    url: ./projects/artworks/5-artsonje.yml
+    url: /projects/artworks/5-artsonje.yml
   - 
     full_name_en: Book by Book
     full_name_kr: 북바이북
-    url: ./projects/artworks/5-bookbybook.yml
+    url: /projects/artworks/5-bookbybook.yml
   - 
     full_name_en: Book Society
     full_name_kr: 북소사이어티
-    url: ./projects/artworks/5-booksociety.yml
+    url: /projects/artworks/5-booksociety.yml
   -
     full_name_en: Cheong gye 200/20
     full_name_kr: 청계상가 200/20
-    url: ./projects/artworks/5-cheonggye200.yml
+    url: /projects/artworks/5-cheonggye200.yml
   - 
     full_name_en: Daelim 800/40
     full_name_kr: 대림상가 800/40
-    url: ./projects/artworks/5-daelim800.yml
+    url: /projects/artworks/5-daelim800.yml
   - 
     full_name_en: DDP
     full_name_kr: DDP 살림터
-    url: ./projects/artworks/5-ddp.yml
+    url: /projects/artworks/5-ddp.yml
   - 
     full_name_en: Doosung In the Paper
     full_name_kr: 두성 인더페이퍼
-    url: ./projects/artworks/5-doosung.yml
+    url: /projects/artworks/5-doosung.yml
   - 
     full_name_en: Epoca
     full_name_kr: 에포카
-    url: ./projects/artworks/5-epoca.yml
+    url: /projects/artworks/5-epoca.yml
   - 
     full_name_en: Eum Art Book
     full_name_kr: 이음책방
-    url: ./projects/artworks/5-eumbook.yml
+    url: /projects/artworks/5-eumbook.yml
   - 
     full_name_en: Gagarin
     full_name_kr: 가가린
-    url: ./projects/artworks/5-gagarin.yml
+    url: /projects/artworks/5-gagarin.yml
   -
     full_name_en: Haja Center
     full_name_kr: 하자센터
-    url: ./projects/artworks/5-hajacenter.yml
+    url: /projects/artworks/5-hajacenter.yml
   - 
     full_name_en: Ilmin Museum of Art
     full_name_kr: 일민미술관
-    url: ./projects/artworks/5-ilmin.yml
+    url: /projects/artworks/5-ilmin.yml
   - 
     full_name_en: KCDF Gallery
     full_name_kr: KCDF 갤러리
-    url: ./projects/artworks/5-kcdf-gallery.yml
+    url: /projects/artworks/5-kcdf-gallery.yml
   - 
     full_name_en: Kobalt shop
     full_name_kr: 코발트숍
-    url: ./projects/artworks/5-kobalt.yml
+    url: /projects/artworks/5-kobalt.yml
   - 
     full_name_en: Pinocchio
     full_name_kr: 피노키오
-    url: ./projects/artworks/5-pinocchio.yml
+    url: /projects/artworks/5-pinocchio.yml
   -
     full_name_en: Post Poetics
     full_name_kr: 포스트포에틱스
-    url: ./projects/artworks/5-postpoetics.yml
+    url: /projects/artworks/5-postpoetics.yml
   - 
     full_name_en: Round About
     full_name_kr: 라운드어바웃
-    url: ./projects/artworks/5-roundabout.yml
+    url: /projects/artworks/5-roundabout.yml
   - 
     full_name_en: Second Hotel
     full_name_kr: 세컨호텔
-    url: ./projects/artworks/5-secondhotel.yml
+    url: /projects/artworks/5-secondhotel.yml
   - 
     full_name_en: Sewoon 300/20
     full_name_kr: 세운상가 300/20
-    url: ./projects/artworks/5-sewoon300.yml
+    url: /projects/artworks/5-sewoon300.yml
   - 
     full_name_en: Small House Big Door
     full_name_kr: 스몰하우스빅도어
-    url: ./projects/artworks/5-smallhousebigdoor.yml
+    url: /projects/artworks/5-smallhousebigdoor.yml
   -
     full_name_en: Songpa
     full_name_kr: 송파주민문화발전소 다락
-    url: ./projects/artworks/5-songpa.yml
+    url: /projects/artworks/5-songpa.yml
   - 
     full_name_en: Takeout Drawing
     full_name_kr: 테이크아웃드로잉
-    url: ./projects/artworks/5-takeoutdrawing.yml
+    url: /projects/artworks/5-takeoutdrawing.yml
   - 
     full_name_en: Thanks Books
     full_name_kr: 땡스북스
-    url: ./projects/artworks/5-thanksbooks.yml
+    url: /projects/artworks/5-thanksbooks.yml
   - 
     full_name_en: TWL (Things We Love) 
     full_name_kr: TWL
-    url: ./projects/artworks/5-twl.yml
+    url: /projects/artworks/5-twl.yml
   - 
     full_name_en: Veronica Effect
     full_name_kr: 베로니카 이펙트
-    url: ./projects/artworks/5-veronica-effect.yml
+    url: /projects/artworks/5-veronica-effect.yml
   -
     full_name_en: Your Mind
     full_name_kr: 유어마인드
-    url: ./projects/artworks/5-yourmind.yml
+    url: /projects/artworks/5-yourmind.yml
   -
     full_name_en: Yricafe
     full_name_kr: 이리카페
-    url: ./projects/artworks/5-yricafe.yml
+    url: /projects/artworks/5-yricafe.yml
   - 
     full_name_en: Zagmachi
     full_name_kr: 자그마치
-    url: ./projects/artworks/5-zagmachi.yml
+    url: /projects/artworks/5-zagmachi.yml
 
 
 
@@ -473,59 +473,59 @@ projects:
   - 
     full_name_en: Hongdan (Ban Yoon Jung)
     full_name_kr: 홍단 (반윤정)
-    url: ./projects/artworks/6-ban-yoon-jung.yml
+    url: /projects/artworks/6-ban-yoon-jung.yml
   - 
     full_name_en: Joowon Han + Sejoong Kim (COM)
     full_name_kr: 한주원 + 김세중(COM)
-    url: ./projects/artworks/6-com.yml
+    url: /projects/artworks/6-com.yml
   - 
     full_name_en: Corners
     full_name_kr: 코우너스
-    url: ./projects/artworks/6-corners.yml
+    url: /projects/artworks/6-corners.yml
   - 
     full_name_en: Hoon Kim
     full_name_kr: 김정훈
-    url: ./projects/artworks/6-hoon-kim.yml
+    url: /projects/artworks/6-hoon-kim.yml
   - 
     full_name_en: Jae Jeon
     full_name_kr: 전재운
-    url: ./projects/artworks/6-jae-jeon.yml
+    url: /projects/artworks/6-jae-jeon.yml
   -
     full_name_en: Jin Jung
     full_name_kr: 정진열
-    url: ./projects/artworks/6-jin-jung.yml
+    url: /projects/artworks/6-jin-jung.yml
   - 
     full_name_en: Lara Lee + Oui Kim
     full_name_kr: 이송은 + 김성욱
-    url: ./projects/artworks/6-lara-lee-n-oui-kim.yml
+    url: /projects/artworks/6-lara-lee-n-oui-kim.yml
   - 
     full_name_en: Mano Ahn
     full_name_kr: 안마노
-    url: ./projects/artworks/6-mano-ahn.yml
+    url: /projects/artworks/6-mano-ahn.yml
   - 
     full_name_en: Marvin Lee + Eli Park Sorensen
     full_name_kr: 이마빈 + Eli Park
-    url: ./projects/artworks/6-marvin-lee-n-eli-park.yml
+    url: /projects/artworks/6-marvin-lee-n-eli-park.yml
   - 
     full_name_en: Mingoo Yoon
     full_name_kr: 윤민구
-    url: ./projects/artworks/6-mingoo-yoon.yml
+    url: /projects/artworks/6-mingoo-yoon.yml
   - 
     full_name_en: Moon Jang
     full_name_kr: 장문정
-    url: ./projects/artworks/6-moon-jang.yml
+    url: /projects/artworks/6-moon-jang.yml
   - 
     full_name_en: Ordinary people
     full_name_kr: 오디너리 피플
-    url: ./projects/artworks/6-ordinary-people.yml
+    url: /projects/artworks/6-ordinary-people.yml
   -
     full_name_en: Park Chan Shin
     full_name_kr: 박찬신
-    url: ./projects/artworks/6-park-chanshin.yml
+    url: /projects/artworks/6-park-chanshin.yml
   - 
     full_name_en: Uk Kim
     full_name_kr: 김욱
-    url: ./projects/artworks/6-uk-kim.yml
+    url: /projects/artworks/6-uk-kim.yml
 
 
   # PROJECT -----------------------------------------
@@ -551,7 +551,7 @@ projects:
   - 
     full_name_en: PaTi
     full_name_kr: 파티
-    url: ./projects/artworks/7-pati.yml
+    url: /projects/artworks/7-pati.yml
 
 
 
@@ -580,43 +580,43 @@ projects:
   - 
     full_name_en: Akiko Masunaga
     full_name_kr: 
-    url: ./projects/artworks/8-akiko-masunaga.yml
+    url: /projects/artworks/8-akiko-masunaga.yml
   - 
     full_name_en: Bongkyu Song
     full_name_kr: 송봉규
-    url: ./projects/artworks/8-bongkyu-song.yml
+    url: /projects/artworks/8-bongkyu-song.yml
   - 
     full_name_en: Burger + Stadel + Wal
     full_name_kr: 
-    url: ./projects/artworks/8-burger-stadel-wal.yml
+    url: /projects/artworks/8-burger-stadel-wal.yml
   - 
     full_name_en: Clark Corp
     full_name_kr: 
-    url: ./projects/artworks/8-clark-corp.yml
+    url: /projects/artworks/8-clark-corp.yml
   - 
     full_name_en: Design Methods
     full_name_kr: 디자인 메소드
-    url: ./projects/artworks/8-design-methods.yml
+    url: /projects/artworks/8-design-methods.yml
   -
     full_name_en: Doosungpaper Design Lab
     full_name_kr: 두성종이 디자인연구소
-    url: ./projects/artworks/8-doosung.yml
+    url: /projects/artworks/8-doosung.yml
   - 
     full_name_en: Gang Moonsick
     full_name_kr: 강문식
-    url: ./projects/artworks/8-gang-moonsick.yml
+    url: /projects/artworks/8-gang-moonsick.yml
   - 
     full_name_en: Hyojun Shim + Keith Wong
     full_name_kr: 심효준 + Keite Wong
-    url: ./projects/artworks/8-hyojun-shim-n-wong.yml
+    url: /projects/artworks/8-hyojun-shim-n-wong.yml
   - 
     full_name_en: Mathew Kneebone
     full_name_kr: 
-    url: ./projects/artworks/8-mathew-kneebone.yml
+    url: /projects/artworks/8-mathew-kneebone.yml
   - 
     full_name_en: Team Thursday
     full_name_kr: 
-    url: ./projects/artworks/8-team-thursday.yml
+    url: /projects/artworks/8-team-thursday.yml
 
 
 
@@ -645,35 +645,35 @@ projects:
   - 
     full_name_en: Fritz K. Park
     full_name_kr: 박경식
-    url: ./projects/artworks/9-fritz-park.yml
+    url: /projects/artworks/9-fritz-park.yml
   - 
     full_name_en: Hyung-chul Kim
     full_name_kr: 김형철
-    url: ./projects/artworks/9-hyungchul-kim.yml
+    url: /projects/artworks/9-hyungchul-kim.yml
   - 
     full_name_en: Jot
     full_name_kr: 좋
-    url: ./projects/artworks/9-jot.yml
+    url: /projects/artworks/9-jot.yml
   - 
     full_name_en: kimgarden x Standardstandard
     full_name_kr: 김가든 x Standardstandard
-    url: ./projects/artworks/9-kimgarden-standard.yml
+    url: /projects/artworks/9-kimgarden-standard.yml
   - 
     full_name_en: MYKC
     full_name_kr: 마이케이씨
-    url: ./projects/artworks/9-mykc.yml
+    url: /projects/artworks/9-mykc.yml
   -
     full_name_en: Works
     full_name_kr: 워크스
-    url: ./projects/artworks/9-sparks-edition.yml
+    url: /projects/artworks/9-sparks-edition.yml
   - 
     full_name_en: Gang Moonsick
     full_name_kr: 강문식
-    url: ./projects/artworks/9-works.yml
+    url: /projects/artworks/9-works.yml
   - 
     full_name_en: Youngha Park
     full_name_kr: 박영하
-    url: ./projects/artworks/9-youngha-park.yml
+    url: /projects/artworks/9-youngha-park.yml
 
 
 
@@ -706,7 +706,7 @@ projects:
   - 
     full_name_en: Everyday Practice
     full_name_kr: 일상의실천 
-    url: ./projects/artworks/10-everyday-practice.yml
+    url: /projects/artworks/10-everyday-practice.yml
 
 
 
@@ -736,7 +736,7 @@ projects:
   - 
     full_name_en: Gute Form 
     full_name_kr:  
-    url: ./projects/artworks/11-cityletter.yml
+    url: /projects/artworks/11-cityletter.yml
 
 
 
@@ -766,7 +766,7 @@ projects:
   - 
     full_name_en: Zero Lab
     full_name_kr: 제로랩
-    url: ./projects/artworks/12-zero-lab.yml
+    url: /projects/artworks/12-zero-lab.yml
 
 
 
@@ -796,7 +796,7 @@ projects:
   - 
     full_name_en: E Roon Kang
     full_name_kr: 강이룬
-    url: ./projects/artworks/13-eroonkang.yml
+    url: /projects/artworks/13-eroonkang.yml
 
 
 
@@ -827,7 +827,7 @@ projects:
   - 
     full_name_en: Nolgong
     full_name_kr: 놀공발전소
-    url: ./projects/artworks/14-nolgong.yml
+    url: /projects/artworks/14-nolgong.yml
 
 
 
@@ -859,7 +859,7 @@ projects:
   - 
     full_name_en: Dappertutto Studio
     full_name_kr: 다페르튜토 스튜디오
-    url: ./projects/artworks/15-dappertutto.yml
+    url: /projects/artworks/15-dappertutto.yml
 
 
 
@@ -890,7 +890,7 @@ projects:
   - 
     full_name_en: 
     full_name_kr: 임경용 + 신신 
-    url: ./projects/artworks/
+    url: /projects/artworks/
 
 
 
@@ -920,7 +920,7 @@ projects:
   - 
     full_name_en: Workroom(Kyeongsoo Lee, Hwalsung  Park)
     full_name_kr: 워크룸
-    url: ./projects/artworks/17-workroom.yml
+    url: /projects/artworks/17-workroom.yml
 
 
 
@@ -951,7 +951,7 @@ projects:
   - 
     full_name_en: Rebel9
     full_name_kr: 
-    url: ./projects/artworks/18-rebel9.yml
+    url: /projects/artworks/18-rebel9.yml
 
 
 

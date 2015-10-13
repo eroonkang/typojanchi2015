@@ -1,5 +1,14 @@
 <ul class="index-list">
   <% _.each(projects, function (project) { %>
-    <li><a href="#">(<%= project.idx %>) <%= project.project_name_en %></a></li>
+    <li>
+      <a href="#">
+        (<%= project.idx %>) 
+        <% if (WY.constants.locale == "ko") { %>
+          <%= project.project_name_kr %>
+        <% } else { %>
+          <%= project.project_name_en %>
+        <% } %>
+      </a>
+    </li>
   <% }); %>
 </ul>

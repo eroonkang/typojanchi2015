@@ -16,12 +16,13 @@ WY.models.ProjectsManager = (function(){
     load: function(){
       $.ajax({
         type: 'GET',
-        url: './projects/projects.yml',
+        url: WY.constants.home_url + '/projects/projects.yml',
         success: this.load_complete_handler
       });
     },
 
     load_complete_handler: function(data){
+      debugger;
       this.data = jsyaml.load(data);
       this.trigger('load_complete', {data: this.data});
     },

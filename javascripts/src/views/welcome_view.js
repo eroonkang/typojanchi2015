@@ -6,6 +6,9 @@ WY.views.welcome_view = (function(){
       screen_height;
       
   function welcome_view(params){
+    WY.constants.locale = params.locale;
+    WY.constants.home_url = params.home_url;
+
     $('#section-cities').columnize({    width:250, lastNeverTallest: false});
 
     init();
@@ -26,11 +29,11 @@ WY.views.welcome_view = (function(){
       lists: [
         {
           name: 'participants',
-          url: './templates/participants.ejs'
+          url: WY.constants.home_url + '/templates/participants.ejs'
         },
         {
           name: 'projects',
-          url: './templates/projects.ejs' 
+          url: WY.constants.home_url + '/templates/projects.ejs' 
         }
       ]
     });
