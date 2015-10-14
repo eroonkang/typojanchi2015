@@ -1,24 +1,24 @@
 full_name_en: Kyuha Shim
-full_name_kr: 심규하
+full_name_ko: 심규하
 origin_city_en: London
-origin_city_kr: 런던
+origin_city_ko: 런던
 origin_country_en: UK
-origin_country_kr: 영국
+origin_country_ko: 영국
 origin_lat: 51.5011441
 origin_lng: -0.1792847
 
 artwork_name_en: Real-time Cities
-artwork_name_kr: 
+artwork_name_ko: 
 artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
-venue_name_kr: 문화역서울284
+venue_name_ko: 문화역서울284
 venue_detail_en: 3F
-venue_detail_kr: 3층
+venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_kr: 서울
+venue_city_ko: 서울
 venue_country_en: KR
-venue_country_kr: 한국
+venue_country_ko: 한국
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 
@@ -33,7 +33,7 @@ venue_lng: 126.9716173
 artwork_desc_en: >
  The system will utilise both texts (written by Adrian) and poster designs (done by six students) as inputs for the semantic analysis, and they will be integrated with real-time data of each city collected via online APIs in order to draw cohesive and iterative pictures of each city in real-time. 
 
-artwork_desc_kr: >
+artwork_desc_ko: >
 
 
 # PARTICIPANT -----------------------------------------------
@@ -41,4 +41,4 @@ artwork_desc_kr: >
 participant_bio_en: >
  Kyuha Shim(Q) is a computational designer, researcher and lecturer based in London. Q works in the integrative and interdisciplinary realm of art, design and technology, with particular interest in the language of systematic and playful patterns in design & computation. Central to his practice is the use of data as the primary medium in creating a complete, narrative system informed and driven by integrated processes of visualisation, fabrication and installation.
 
-participant_bio_kr: >
+participant_bio_ko: >

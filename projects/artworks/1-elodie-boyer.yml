@@ -1,24 +1,24 @@
 full_name_en: Elodie Boyer
-full_name_kr: 엘로디 보이어
+full_name_ko: 엘로디 보이어
 origin_city_en: Paris
-origin_city_kr: 파리
+origin_city_ko: 파리
 origin_country_en: France
-origin_country_kr: 프랑스
+origin_country_ko: 프랑스
 origin_lat: 48.8676177
 origin_lng: 2.3393482
 
 artwork_name_en: Lettres du Havre - Identités réelles et missives imaginaires
-artwork_name_kr: 
+artwork_name_ko: 
 artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
-venue_name_kr: 문화역서울284
+venue_name_ko: 문화역서울284
 venue_detail_en: 3F
-venue_detail_kr: 3층
+venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_kr: 서울
+venue_city_ko: 서울
 venue_country_en: KR
-venue_country_kr: 한국
+venue_country_ko: 한국
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 
@@ -41,7 +41,7 @@ artwork_desc_en: >
  Lettres du Havre is made by state of the art book manufacturers (LenoirSchuring and Patist in the Netherlands) using unique techniques. 
 
 
-artwork_desc_kr: >
+artwork_desc_ko: >
  
 
 # PARTICIPANT -----------------------------------------------
@@ -49,4 +49,4 @@ artwork_desc_kr: >
 participant_bio_en: >
 
 
-participant_bio_kr: >
+participant_bio_ko: >

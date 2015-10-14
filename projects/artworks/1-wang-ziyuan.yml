@@ -1,24 +1,24 @@
 full_name_en: Wang Ziyuan
-full_name_kr: 왕쯔위안
+full_name_ko: 왕쯔위안
 origin_city_en: Beijing
-origin_city_kr: 베이징
+origin_city_ko: 베이징
 origin_country_en: China
-origin_country_kr: 중국
+origin_country_ko: 중국
 origin_lat: 39.984809
 origin_lng: 116.46319
 
 artwork_name_en: Untitled
-artwork_name_kr: 
+artwork_name_ko: 
 artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
-venue_name_kr: 문화역서울284
+venue_name_ko: 문화역서울284
 venue_detail_en: 3F
-venue_detail_kr: 3층
+venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_kr: 서울
+venue_city_ko: 서울
 venue_country_en: KR
-venue_country_kr: 한국
+venue_country_ko: 한국
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 
@@ -39,7 +39,7 @@ artwork_desc_en: >
 
  By reconstructing these elements, Chinese typography also indicate that people in Chinese cities will live a new life, Wandering between traditional and modern times. 
 
-artwork_desc_kr: >
+artwork_desc_ko: >
  
 
 # PARTICIPANT -----------------------------------------------
@@ -49,4 +49,4 @@ participant_bio_en: >
 
 
 
-participant_bio_kr: >
+participant_bio_ko: >

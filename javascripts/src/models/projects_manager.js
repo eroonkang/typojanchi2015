@@ -22,8 +22,8 @@ WY.models.ProjectsManager = (function(){
     },
 
     load_complete_handler: function(data){
-      debugger;
       this.data = jsyaml.load(data);
+      WY.constants.projects_data = this.data;
       this.trigger('load_complete', {data: this.data});
     },
 

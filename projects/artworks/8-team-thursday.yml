@@ -1,24 +1,24 @@
 full_name_en: Team Thursday
-full_name_kr: 
+full_name_ko: 
 origin_city_en: Rotterdam
-origin_city_kr: 로테르담 
+origin_city_ko: 로테르담 
 origin_country_en: Netherlands
-origin_country_kr: 네덜란드
+origin_country_ko: 네덜란드
 origin_lat: 51.91606
 origin_lng: 4.4653
 
 artwork_name_en: Untitled
-artwork_name_kr: 
+artwork_name_ko: 
 artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
-venue_name_kr: 문화역서울284
+venue_name_ko: 문화역서울284
 venue_detail_en: 
-venue_detail_kr: 
+venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_kr: 서울
+venue_city_ko: 서울
 venue_country_en: KR
-venue_country_kr: 한국
+venue_country_ko: 한국
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 
@@ -37,7 +37,7 @@ artwork_desc_en: >
  
  
 
-artwork_desc_kr: >
+artwork_desc_ko: >
 
 
 # PARTICIPANT -----------------------------------------------
@@ -49,4 +49,4 @@ participant_bio_en: >
 
 
 
-participant_bio_kr: >
+participant_bio_ko: >

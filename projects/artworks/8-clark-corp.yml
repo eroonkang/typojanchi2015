@@ -1,24 +1,24 @@
 full_name_en: Clark Corp
-full_name_kr: 
+full_name_ko: 
 origin_city_en: New York
-origin_city_kr: 뉴욕
+origin_city_ko: 뉴욕
 origin_country_en: USA
-origin_country_kr: 미국
+origin_country_ko: 미국
 origin_lat: 40.69854
 origin_lng: -73.9753
 
 artwork_name_en: Small Case Big Night
-artwork_name_kr: 
+artwork_name_ko: 
 artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
-venue_name_kr: 문화역서울284
+venue_name_ko: 문화역서울284
 venue_detail_en: 
-venue_detail_kr: 
+venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_kr: 서울
+venue_city_ko: 서울
 venue_country_en: KR
-venue_country_kr: 한국
+venue_country_ko: 한국
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 
@@ -43,7 +43,7 @@ artwork_desc_en: >
  
  
 
-artwork_desc_kr: >
+artwork_desc_ko: >
  
 
 
@@ -54,4 +54,4 @@ participant_bio_en: >
  A research initiative that hosts participartory events at the intersection of identity, behavioral studies and systems design. Previous shows include an installation in the tellers of a defunct Citibank in Midtown NYC in 2014.
 
 
-participant_bio_kr: >
+participant_bio_ko: >

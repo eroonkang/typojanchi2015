@@ -1,24 +1,24 @@
 full_name_en: Till Wiedeck
-full_name_kr: 틸 비덱
+full_name_ko: 틸 비덱
 origin_city_en: Berlin
-origin_city_kr: 베를린
+origin_city_ko: 베를린
 origin_country_en: Germany
-origin_country_kr: 독일
+origin_country_ko: 독일
 origin_lat: 52.4944016
 origin_lng: 13.4373723
 
 artwork_name_en: Wall installation + poster giveaway
-artwork_name_kr: 
+artwork_name_ko: 
 artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
-venue_name_kr: 문화역서울284
+venue_name_ko: 문화역서울284
 venue_detail_en: 3F
-venue_detail_kr: 3층
+venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_kr: 서울
+venue_city_ko: 서울
 venue_country_en: KR
-venue_country_kr: 한국
+venue_country_ko: 한국
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 
@@ -40,7 +40,7 @@ artwork_desc_en: >
 
  Alongside the spacial structure we would like to create a bespoke giveaway poster going hand in hand with the installation. It transfers the three dimensional piece back onto a flat surface.
 
-artwork_desc_kr: >
+artwork_desc_ko: >
  
 
 # PARTICIPANT -----------------------------------------------
@@ -48,4 +48,4 @@ artwork_desc_kr: >
 participant_bio_en: >
 
 
-participant_bio_kr: >
+participant_bio_ko: >

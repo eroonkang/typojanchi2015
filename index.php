@@ -4,7 +4,7 @@ include 'route.php';
 
 $route = new Route();
 $locale = 'ko';
-$artwork = '';
+$artwork_permalink = '';
 $home_url = "/typojanchi2015";
 
 $route->add('/', function() {
@@ -20,16 +20,16 @@ $route->add('/en', function() {
 
 
 
-$route->add('/ko/.+', function($artwork_permalink) {
-  global $locale, $artwork;
+$route->add('/ko/.+', function($name) {
+  global $locale, $artwork_permalink;
   $locale = "ko";
-  $artwork = $artwork_permalink;
+  $artwork_permalink = $name;
 });
 
-$route->add('/en/.+', function($artwork_permalink) {
-  global $locale, $artwork;
+$route->add('/en/.+', function($name) {
+  global $locale, $artwork_permalink;
   $locale = "en";
-  $artwork = $artwork_permalink;
+  $artwork_permalink = $name;
 });
 
 $route->submit();
@@ -39,7 +39,7 @@ $route->submit();
 <!DOCTYPE html>
 <head>
 
-  <title><? echo $locale." ".$artwork; ?></title>
+  <title>Typojanchi 2015</title>
   <meta charset="utf-8"></meta>
 
 
@@ -73,6 +73,7 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/models/template_loader.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/participants_manager.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/projects_manager.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/models/artwork_manager.js"></script>
 
   <!-- views -->
   <script src="<? echo $home_url; ?>/javascripts/src/views/welcome_view.js"></script>
@@ -131,63 +132,15 @@ $route->submit();
     <iframe width="98%" height="700px" frameBorder="0" src="https://a.tiles.mapbox.com/v4/eroon26.36545472.html?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw"></iframe>
   </div>
   <div id="content">
-    <div class="cols single">
-      <ul class="index-list">
-      <li><a href="#">(1)</a></li>
-      <li><a href="#">— Catherine Griffiths</a></li>
-      <li><a href="#">Doosup Kim</a></li>
-      <li><a href="#">Byungil Choi</a></li>
-      <li><a href="#">Daniel Eatock</a></li>
-      <li><a href="#">Joon Soo Ha</a></li>
-      <li><a href="#">Research and Development</a></li>
-      <li><a href="#">Sandra Kassenaar &amp; Bart de Baets</a></li>
-      <li><a href="#">Dongwan Kook </a></li>
-      <li><a href="#">Kyuhyung Cho</a></li>
-      <li><a href="#">Hyounyoul Joe</a></li>
-      <li><a href="#">Dainippon Type</a></li>
-      <li><a href="#">Yuma Harada + Shohei Iida</a></li>
-      <li><a href="#">Roman Wilhelm</a></li>
-      <li><a href="#">Studio Spass</a></li>
-      <li><a href="#">R2</a></li>
-      <li><a href="#">Till Wiedeck</a></li>
-      <li><a href="#">Wang Ziyuan</a></li>
-      <li><a href="#">Brownfox</a></li>
-      <li><a href="#">Leslie David</a></li>
-      <li><a href="#">TYMOTE/CEKAI</a></li>
-      <li><a href="#">Wu Fan</a></li>
-      <li><a href="#">Elodie Boyer</a></li>
-      <li><a href="#">Rejane Dal Bello</a></li>
-      <li><a href="#">Yi Jisung</a></li>
-      <li class="removeiflast">&nbsp;</li>
-    </ul>
+   
   </div>
-  <div id="artwork">
-    <div class="cols triple">
-      <h3 class="participant">Catherine Griffiths</h3>
-      <h4 class="artwork">AEIOU—Constructed/Projected, 2005</h4>
-      <p class="description">
-        AEIOU—Constructed/Projected is the fourth work in the Vowel series. Constructed/Projected is a new work made in response to C(&nbsp;&nbsp;&nbsp;)T(&nbsp;&nbsp;&nbsp;), and the Biennale theme of city and typography. Layers of interaction involving collected numbers, letters, words, phrases—found and constructed—with the human body, are presented as a short film, with objects propped and stacked, nearby.
-      </p>
-      <p class="venue">
-        <a href="#">Culture Station Seoul 284, Seoul, KR</a>
-      </p>
-    </div>
-    <div class="cols triple artwork-photo">
-      <img src="<? echo $home_url; ?>/images/img.jpg">
-      <!-- need to remove gap here on the right side -->
-    </div>
-  </div>
-  <div class="cols single">
-    — <br/>
-    <a href="#">Auckland, NZ</a>
-  </div>
-  <div style="clear: both;"></div>
 
   <script>
     $(document).ready(function(e){
       WY.views.welcome_view({
         home_url: "<? echo $home_url; ?>",
-        locale: "<? echo $locale ?>"
+        locale: "<? echo $locale ?>",
+        artwork_permalink: "<? echo $artwork_permalink ?>"
       });
     });
   </script>

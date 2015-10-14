@@ -16,6 +16,13 @@ Math.radians = function(degrees) {
 Math.degrees = function(radians) {
   return radians * 180 / Math.PI;
 };
+
+function make_url(filename){
+
+  var extracted_url = filename.match(/[^\/]*$/)[0];
+  return WY.constants.home_url + "/" + WY.constants.locale + "/" + extracted_url.substring(0, extracted_url.length - 4);
+}
+
 function constrain(v, min, max){
   if( v < min )
     v = min;
