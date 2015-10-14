@@ -5,18 +5,13 @@ $text_color: #000;
 
 
 @mixin regular_type {
-  font-family: 'FoundersGroteskTextWeb', arial, sans-serif;
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
   font-style:   normal;
-}
-
-@mixin italic_type {
-  font-family: 'FoundersGroteskTextWeb', arial, sans-serif;
-  font-style:  italic;
 }
 
 
 body {
-  font-family: 'FoundersGroteskTextWeb', arial, sans-serif;
+  @include regular_type;
   font-size: $base_font_size;
   line-height: $base_line_height;
   background-color: $background-color;
@@ -66,8 +61,8 @@ a:hover {
 }
 
 .index-list li{
-  margin-left:1.2em;
-  text-indent: -1.2em;
+  margin-left:1em;
+  text-indent: -1em;
   padding-right:1em;  
 }
 
