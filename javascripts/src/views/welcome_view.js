@@ -65,6 +65,8 @@ WY.views.welcome_view = (function(){
       participants_manager.init();
       projects_manager.init();
       artwork_manager.update();
+
+      ko_type_adjust();
     });
 
 
@@ -77,6 +79,17 @@ WY.views.welcome_view = (function(){
     });
 
     template_loader.load();
+  }
+
+  function ko_type_adjust(){
+    var rex = new RegExp("([a-zA-Z0-9_]+\.?[a-zA-Z0-9_]+)", "gm");
+
+    $(":lang(ko)").each(function(){
+        var $this = $(this);
+        var content = $this.html();
+        $this.html(content.replace(rex, "<span class='en-within-ko'>$1</span>"));
+    });
+
   }
   return welcome_view;
 })();
