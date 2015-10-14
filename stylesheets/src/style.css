@@ -8,6 +8,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:lang(ko) {
+  font-size: 0.9em;
+}
+
 a {
   text-decoration: none;
   color: #000;

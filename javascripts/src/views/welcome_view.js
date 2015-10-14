@@ -9,10 +9,11 @@ WY.views.welcome_view = (function(){
     WY.constants.locale = params.locale;
     WY.constants.home_url = params.home_url;
 
-    $('#section-cities').columnize({    width:250, lastNeverTallest: false});
-
+    $('#section-cities').columnize({ width:250, lastNeverTallest: false});
+    
     init();
     init_resize();
+
   }
 
   function init_resize(){
@@ -60,6 +61,5 @@ WY.views.welcome_view = (function(){
 
     template_loader.load();
   }
-
   return welcome_view;
 })();

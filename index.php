@@ -68,7 +68,7 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/retina.min.js"></script>  
   <script src="<? echo $home_url; ?>/javascripts/src/WY.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/kerning.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/kerning.js"></script>
 
   <!-- models -->
   <script src="<? echo $home_url; ?>/javascripts/src/models/template_loader.js"></script>
@@ -83,8 +83,8 @@ $route->submit();
   <div id="index">
   <div id="section-header">
     <h2><a href="#">About (Typojanchi)</a></h2>
-    <div id="lang-en"><a href="<? echo $home_url; ?>/en">EN</a></div>
-    <div id="lang-ko"><a href="<? echo $home_url; ?>/ko">한글</a></div>
+    <div id="lang-en" lang="en"><a href="<? echo $home_url; ?>/en">EN</a></div>
+    <div id="lang-ko" lang="ko"><a href="<? echo $home_url; ?>/ko">한글</a></div>
   </div>
   <div id="section-cities">
     <ul class="index-list">
