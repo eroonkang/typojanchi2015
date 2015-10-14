@@ -8,7 +8,7 @@ WY.models.TemplateLoader = (function(){
 
   TemplateLoader.prototype = {
     load: function(){
-      var expectedFiles = this.lists.length
+      var expectedFiles = this.lists.length;
 
       var loadedFiles = 0;
 

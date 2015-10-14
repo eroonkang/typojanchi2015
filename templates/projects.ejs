@@ -3,11 +3,7 @@
     <li>
       <a href="#">
         (<%= project.idx %>) 
-        <% if (WY.constants.locale == "ko") { %>
-          <span lang="ko"><%= project.project_name_kr %></span>
-        <% } else { %>
-          <span lang="en"><%= project.project_name_en %></span>
-        <% } %>
+        <%= project["project_name_" + WY.constants.locale] %>
       </a>
     </li>
   <% }); %>

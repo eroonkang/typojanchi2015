@@ -1,0 +1,34 @@
+<div class="cols single">
+  <ul class="index-list">
+    <li><a href="#"><%= project.idx %></a></li>
+    <% _.each(project.project_artists, function(artist) { %>
+      <li>
+        <a href="<%= make_url(artist.url) %>">
+          <%= artist["full_name_" + WY.constants.locale] %>
+        </a>
+      </li>
+    <% }); %>
+    <li class="removeiflast">&nbsp;</li>
+  </ul>
+</div>
+<div id="artwork">
+  <div class="cols triple">
+    <h3 class="participant"><%= artwork["full_name_" + WY.constants.locale] %></h3>
+    <h4 class="artwork"><%= artwork["artwork_name_" + WY.constants.locale] %>, <%= artwork.artwork_year %></h4>
+    <p class="description">
+      <%= artwork["artwork_desc_" + WY.constants.locale] %>
+    </p>
+    <p class="venue">
+      <a href="#"><%= artwork["venue_name_" + WY.constants.locale] %>, <%= artwork["venue_city_" + WY.constants.locale] %>, <%= artwork["venue_country_" + WY.constants.locale] %></a>
+    </p>
+  </div>
+  <div class="cols triple artwork-photo">
+    <img src="<%= WY.constants.home_url %>/images/img.jpg">
+    <!-- need to remove gap here on the right side -->
+  </div>
+</div>
+<div class="cols single">
+  — <br/>
+  <a href="#"><%= artwork["origin_city_" + WY.constants.locale] %>, <%= artwork["origin_country_" + WY.constants.locale] %></a>
+</div>
+<div style="clear: both;"></div>

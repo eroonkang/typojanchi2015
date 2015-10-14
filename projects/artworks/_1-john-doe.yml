@@ -1,24 +1,24 @@
 full_name_en: John Doe
-full_name_kr: 홍길동
+full_name_ko: 홍길동
 origin_city_en: Seoul
-origin_city_kr: 서울
+origin_city_ko: 서울
 origin_country_en: KR
-origin_country_kr: 한국
+origin_country_ko: 한국
 origin_lat: 000.000
 origin_lng: 000.000
 
 artwork_name_en: Lorem ipsum
-artwork_name_kr: 국회의 의결을 얻어야 한다
+artwork_name_ko: 국회의 의결을 얻어야 한다
 artwork_year: 2015
 
 venue_name_en: Culture Station Seoul 284
-venue_name_kr: 문화역서울284
+venue_name_ko: 문화역서울284
 venue_detail_en: 3F
-venue_detail_kr: 3층
+venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_kr: 서울
+venue_city_ko: 서울
 venue_country_en: KR
-venue_country_kr: 한국
+venue_country_ko: 한국
 venue_lat: 000.000
 venue_lng: 000.000
 
@@ -37,7 +37,7 @@ artwork_desc_en: >
  Excepteur sint occaecat cupidatat non proident, [sunt](http://example.net/) in culpa qui officia deserunt mollit anim id est laborum.
 
 
-artwork_desc_kr: >
+artwork_desc_ko: >
  사면·감형 및 복권에 관한 사항은 *법률로* 정한다. [국회의원은](http://example.net/) 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.
 
  예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 모든 국민은 자기의 행위가 아닌 친족의 행위로 인하여 불이익한 처우를 받지 아니한다.
@@ -54,7 +54,7 @@ participant_bio_en: >
  Excepteur sint occaecat cupidatat non proident, [sunt](http://example.net/) in culpa qui officia deserunt mollit anim id est laborum.
 
 
-participant_bio_kr: >
+participant_bio_ko: >
  사면·감형 및 복권에 관한 사항은 *법률로* 정한다. [국회의원은](http://example.net/) 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.
 
  예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 모든 국민은 자기의 행위가 아닌 친족의 행위로 인하여 불이익한 처우를 받지 아니한다.
