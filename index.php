@@ -84,8 +84,8 @@ $route->submit();
   <div id="index">
   <div id="section-header">
     <h2><a href="#">About (Typojanchi)</a></h2>
-    <div id="lang-en" lang="en"><a href="<? echo $home_url; ?>/en">EN</a></div>
-    <div id="lang-ko" lang="ko"><a href="<? echo $home_url; ?>/ko">한글</a></div>
+    <div id="lang-en"><a href="<? echo $home_url; ?>/en">EN</a></div>
+    <div id="lang-ko"><a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</span></a></div>
   </div>
   <div id="section-cities">
     <ul class="index-list">
