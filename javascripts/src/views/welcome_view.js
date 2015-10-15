@@ -3,6 +3,7 @@ WY.views.welcome_view = (function(){
       participants_manager,
       projects_manager,
       artwork_manager,
+      map_manager,
       screen_width, 
       screen_height,
       artwork_permalink;
@@ -58,6 +59,12 @@ WY.views.welcome_view = (function(){
       el: $("#content"),
       artwork_permalink: artwork_permalink
     });
+
+    map_manager = new WY.models.MapManager({
+      el_name: "map-container"
+    });
+
+    map_manager.init();
 
 
     projects_manager.on('load_complete', function(e){

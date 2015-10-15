@@ -29,6 +29,7 @@ module.exports = function(grunt) {
             'javascripts/src/vendor/retina.min.js',
             'javascripts/src/vendor/js-yaml.min.js',
             'javascripts/src/vendor/kerning.js',
+            'javascripts/src/vendor/leaflet-src.js',
             'javascripts/src/WY.js',
             'javascripts/src/utils.js',
             'javascripts/src/models/*.js',
@@ -36,6 +37,7 @@ module.exports = function(grunt) {
           ],
           'stylesheets/dist/application.css': ['stylesheets/src/reset.css', 
                                                'stylesheets/src/fonts.css', 
+                                               'stylesheets/src/leaflet.css',
                                                'stylesheets/src/style.css']
         }
       },

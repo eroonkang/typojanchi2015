@@ -66,15 +66,17 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.columnizer.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/js-yaml.min.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/retina.min.js"></script>  
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/leaflet-src.js"></script>  
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/kerning.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/WY.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/kerning.js"></script>
 
   <!-- models -->
   <script src="<? echo $home_url; ?>/javascripts/src/models/template_loader.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/participants_manager.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/projects_manager.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/artwork_manager.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/models/map_manager.js"></script>
 
   <!-- views -->
   <script src="<? echo $home_url; ?>/javascripts/src/views/welcome_view.js"></script>
@@ -130,7 +132,6 @@ $route->submit();
   </div>
   </div><!--index-->
   <div id="map-container">
-    <iframe width="98%" height="700px" frameBorder="0" src="https://a.tiles.mapbox.com/v4/eroon26.36545472.html?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw"></iframe>
   </div>
   <div id="content">
    
