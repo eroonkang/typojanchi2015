@@ -1,0 +1,591 @@
+---
+- full_name_en: Brownfox
+  full_name_ko: "브라운폭스"
+  origin_lat: 52.53724
+  origin_lng: 13.27313
+  url: "/projects/artworks/1-brownfox.yml"
+- full_name_en: Byungil Choi
+  full_name_ko: "최병일"
+  origin_lat: 37.5419711
+  origin_lng: 127.0767285
+  url: "/projects/artworks/1-byoungil-choi.yml"
+- full_name_en: Catherine Griffiths
+  full_name_ko: "캐서린 그리피스"
+  origin_lat: -36.9822566
+  origin_lng: 174.5056067
+  url: "/projects/artworks/1-catherine-griffiths.yml"
+- full_name_en: Dainippon Type Organization
+  full_name_ko: "다이니폰"
+  origin_lat: 35.6649963
+  origin_lng: 139.6998842
+  url: "/projects/artworks/1-dainippon.yml"
+- full_name_en: Daniel Eatock
+  full_name_ko: "다니엘 이톡"
+  origin_lat: 51.5559472
+  origin_lng: -0.0566919
+  url: "/projects/artworks/1-daniel-eatock.yml"
+- full_name_en: Dongwan Kook
+  full_name_ko: "국동완"
+  origin_lat: 37.5204282
+  origin_lng: 126.8773277
+  url: "/projects/artworks/1-dongwan-kook.yml"
+- full_name_en: Doosup Kim
+  full_name_ko: "김두섭"
+  origin_lat: 37.5488217
+  origin_lng: 126.9176773
+  url: "/projects/artworks/1-doosup-kim.yml"
+- full_name_en: Elodie Boyer
+  full_name_ko: "엘로디 보이어"
+  origin_lat: 48.8676177
+  origin_lng: 2.3393482
+  url: "/projects/artworks/1-elodie-boyer.yml"
+- full_name_en: Hyoun Youl Joe
+  full_name_ko: "조현열"
+  origin_lat: 37.5469821
+  origin_lng: 126.9075424
+  url: "/projects/artworks/1-hyounyoul-joe.yml"
+- full_name_en: Jisung Yi
+  full_name_ko: "이지성"
+  origin_lat: 37.3509913
+  origin_lng: 126.9308979
+  url: "/projects/artworks/1-jisung-yi.yml"
+- full_name_en: Joon Soo Ha
+  full_name_ko: "하준수"
+  origin_lat: 37.6114463
+  origin_lng: 126.9985496
+  url: "/projects/artworks/1-joonsoo-ha.yml"
+- full_name_en: Kota Iguchi (TYMOTE / CEKAI)
+  full_name_ko: "코타 이구치(티모테/세카이)"
+  origin_lat: 35.6644151
+  origin_lng: 139.67885
+  url: "/projects/artworks/1-kota-iguchi.yml"
+- full_name_en: Kyuhyung Cho
+  full_name_ko: "조규형"
+  origin_lat: 59.2741461
+  origin_lng: 17.8914313
+  url: "/projects/artworks/1-kyuhyung-cho.yml"
+- full_name_en: Leslie David
+  full_name_ko: "레슬리 데이비드"
+  origin_lat: 48.8884959
+  origin_lng: 2.35288
+  url: "/projects/artworks/1-leslie-david.yml"
+- full_name_en: Research and Development
+  full_name_ko: "리서치 앤 디벨롭먼트"
+  origin_lat: 59.3171064
+  origin_lng: 18.0679202
+  url: "/projects/artworks/1-r-n-d.yml"
+- full_name_en: R2
+  full_name_ko: R2
+  origin_lat: 41.167137
+  origin_lng: -8.6690546
+  url: "/projects/artworks/1-r2.yml"
+- full_name_en: Rejane Dal Bello
+  full_name_ko: "레얀느 달 벨로"
+  origin_lat: 52.91746
+  origin_lng: -1.49821
+  url: "/projects/artworks/1-rejane-dal-bello.yml"
+- full_name_en: Roman Wilhelm
+  full_name_ko: "로만 빌헬름"
+  origin_lat: 52.4835
+  origin_lng: 13.4314
+  url: "/projects/artworks/1-roman-wilhelm.yml"
+- full_name_en: Sandra Kassenaar & Bart de Baets
+  full_name_ko: "산드라 카서나르 & 바르 데 바트"
+  origin_lat: 52.3646128
+  origin_lng: 4.9254973
+  url: "/projects/artworks/1-sandra-kassenaar-n-bart-de-baets.yml"
+- full_name_en: StudioSpass
+  full_name_ko: "스튜디오 스파스"
+  origin_lat: 51.91487
+  origin_lng: 4.4763308
+  url: "/projects/artworks/1-studio-spass.yml"
+- full_name_en: Till Wiedeck
+  full_name_ko: "틸 비덱"
+  origin_lat: 52.4944016
+  origin_lng: 13.4373723
+  url: "/projects/artworks/1-till-wiedeck.yml"
+- full_name_en: Wang Ziyuan
+  full_name_ko: "왕쯔위안"
+  origin_lat: 39.984809
+  origin_lng: 116.46319
+  url: "/projects/artworks/1-wang-ziyuan.yml"
+- full_name_en: Wu Fan
+  full_name_ko: "우 판"
+  origin_lat: 39.9813129
+  origin_lng: 116.4664164
+  url: "/projects/artworks/1-wu-fan.yml"
+- full_name_en: Yuma Harada + Shohei Iida
+  full_name_ko: "유마 하라다+쇼헤이 이다"
+  origin_lat: 34.6903772
+  origin_lng: 135.5121698
+  url: "/projects/artworks/1-yuma-harada-n-shohei-iida.yml"
+- full_name_en: Everyday Practice
+  full_name_ko: "일상의실천"
+  origin_lat: 37.53844
+  origin_lng: 126.99032
+  url: "/projects/artworks/10-everyday-practice.yml"
+- full_name_en: Gute Form
+  full_name_ko: 
+  origin_lat: 37.55583
+  origin_lng: 126.97161
+  url: "/projects/artworks/11-cityletter.yml"
+- full_name_en: Zero Lab
+  full_name_ko: "제로랩"
+  origin_lat: 37.54564
+  origin_lng: 126.98544
+  url: "/projects/artworks/12-zero-lab.yml"
+- full_name_en: E Roon Kang
+  full_name_ko: "강이룬"
+  origin_lat: 40.68772
+  origin_lng: -73.97977
+  url: "/projects/artworks/13-eroonkang.yml"
+- full_name_en: Nolgong
+  full_name_ko: "놀공발전소"
+  origin_lat: 37.5527
+  origin_lng: 126.91259
+  url: "/projects/artworks/14-nolgong.yml"
+- full_name_en: Dappertutto Studio
+  full_name_ko: "다페르튜토 스튜디오"
+  origin_lat: 37.55583
+  origin_lng: 126.97161
+  url: "/projects/artworks/15-dappertutto.yml"
+- full_name_en: Workroom(Kyeongsoo Lee, Hwalsung  Park)
+  full_name_ko: "워크룸"
+  origin_lat: 37.5527
+  origin_lng: 126.91259
+  url: "/projects/artworks/17-workroom.yml"
+- full_name_en: Rebel9
+  full_name_ko: 
+  origin_lat: 37.55583
+  origin_lng: 126.97161
+  url: "/projects/artworks/18-rebel9.yml"
+- full_name_en: Andrew Brash
+  full_name_ko: "앤드류 브라쉬"
+  origin_lat: 51.5011441
+  origin_lng: -0.1792847
+  url: "/projects/artworks/2-andrew-brash.yml"
+- full_name_en: Jonas Berthod
+  full_name_ko: "요나스 베르도"
+  origin_lat: 51.5011441
+  origin_lng: -0.1792847
+  url: "/projects/artworks/2-jonas-berthod.yml"
+- full_name_en: Jorg Schwerteger
+  full_name_ko: "요르그 슈베트페거"
+  origin_lat: 51.5011441
+  origin_lng: -0.1792847
+  url: "/projects/artworks/2-jorg-schwerteger.yml"
+- full_name_en: Kyuha Shim
+  full_name_ko: "심규하"
+  origin_lat: 51.5011441
+  origin_lng: -0.1792847
+  url: "/projects/artworks/2-kyuha-shim.yml"
+- full_name_en: Laura Joan
+  full_name_ko: "로라 조앙"
+  origin_lat: 51.5011441
+  origin_lng: -0.1792847
+  url: "/projects/artworks/2-laura-joan.yml"
+- full_name_en: Sebastian Koseda
+  full_name_ko: "세바스찬 코세다"
+  origin_lat: 51.5011441
+  origin_lng: -0.1792847
+  url: "/projects/artworks/2-sebastian-koseda.yml"
+- full_name_en: Summer Studio(Carolina Dahl & Minna Sakaria)
+  full_name_ko: "썸머 스튜디오(민나 사카리아 & 캐롤리나 달)"
+  origin_lat: 51.5011441
+  origin_lng: -0.1792847
+  url: "/projects/artworks/2-summer-studio-carolina-dahl-n-minna-sakaria.yml"
+- full_name_en: Giang Nguyen
+  full_name_ko: 
+  origin_lat: 10.768451
+  origin_lng: 106.6943626
+  url: "/projects/artworks/3-giang-nguyen.yml"
+- full_name_en: Hagiwara Shunya
+  full_name_ko: "하기와라 슌야"
+  origin_lat: 35.68948
+  origin_lng: 139.6917
+  url: "/projects/artworks/3-hagiwara-shunya.yml"
+- full_name_en: Hung Chang-Lien
+  full_name_ko: 
+  origin_lat: 25.0172264
+  origin_lng: 121.506378
+  url: "/projects/artworks/3-hung-changlien.yml"
+- full_name_en: Javin Mo
+  full_name_ko: "자빈 모"
+  origin_lat: 22.2878416
+  origin_lng: 114.1469555
+  url: "/projects/artworks/3-javin-mo.yml"
+- full_name_en: Li Shaobo
+  full_name_ko: "리 사오보"
+  origin_lat: 39.984369
+  origin_lng: 116.465065
+  url: "/projects/artworks/3-li-shaobo.yml"
+- full_name_en: Morimura Makoto
+  full_name_ko: "모리무라 마코토"
+  origin_lat: 34.684731
+  origin_lng: 135.459683
+  url: "/projects/artworks/3-morimura-makoto.yml"
+- full_name_en: Prabda Yoon
+  full_name_ko: 
+  origin_lat: 13.7375926
+  origin_lng: 100.5718787
+  url: "/projects/artworks/3-prabda-yoon.yml"
+- full_name_en: Sean Kelvin Khoo
+  full_name_ko: 
+  origin_lat: 1.316912
+  origin_lng: 103.8812698
+  url: "/projects/artworks/3-sean-kelvin-khoo.yml"
+- full_name_en: ShinShin
+  full_name_ko: "신신"
+  origin_lat: 37.40405
+  origin_lng: 127.24725
+  url: "/projects/artworks/3-shinshin.yml"
+- full_name_en: Aaron Nieh
+  full_name_ko: "에런 니에"
+  origin_lat: 25.06109
+  origin_lng: 121.55861
+  url: "/projects/artworks/4-aaron-nieh.yml"
+- full_name_en: Helmo
+  full_name_ko: "엘모"
+  origin_lat: 48.85661
+  origin_lng: 2.43646
+  url: "/projects/artworks/4-helmo.yml"
+- full_name_en: Jaemin Lee
+  full_name_ko: "이재민"
+  origin_lat: 37.57613
+  origin_lng: 126.9996
+  url: "/projects/artworks/4-jaemin-lee.yml"
+- full_name_en: Keetra Dean Dixon
+  full_name_ko: "키트라 딘 딕슨"
+  origin_lat: 59.69993
+  origin_lng: -151.43849
+  url: "/projects/artworks/4-keetra-deandixon.yml"
+- full_name_en: Ludovic Balland
+  full_name_ko: "루도빅 발랑"
+  origin_lat: 47.55436
+  origin_lng: 7.58397
+  url: "/projects/artworks/4-ludovic-balland.yml"
+- full_name_en: Richard Niessen
+  full_name_ko: "리하르트 니선"
+  origin_lat: 52.35703
+  origin_lng: 4.90692
+  url: "/projects/artworks/4-richard-niessen.yml"
+- full_name_en: Siggi Eggertsson
+  full_name_ko: "지기 에거슨"
+  origin_lat: 52.51251
+  origin_lng: 13.45141
+  url: "/projects/artworks/4-siggi-eggertsson.yml"
+- full_name_en: 1984
+  full_name_ko: 1984
+  origin_lat: 37.55734
+  origin_lng: 126.92297
+  url: "/projects/artworks/5-1984.yml"
+- full_name_en: Aladin
+  full_name_ko: "알라딘"
+  origin_lat: 37.50166
+  origin_lng: 127.02636
+  url: "/projects/artworks/5-aladin.yml"
+- full_name_en: Art Sonje
+  full_name_ko: "아트선재센터"
+  origin_lat: 37.57943
+  origin_lng: 126.98182
+  url: "/projects/artworks/5-artsonje.yml"
+- full_name_en: Book by Book
+  full_name_ko: "북바이북"
+  origin_lat: 37.57635
+  origin_lng: 126.89613
+  url: "/projects/artworks/5-bookbybook.yml"
+- full_name_en: Book Society
+  full_name_ko: "북소사이어티"
+  origin_lat: 37.57927
+  origin_lng: 126.97267
+  url: "/projects/artworks/5-booksociety.yml"
+- full_name_en: Cheong gye 200/20
+  full_name_ko: "청계상가 200/20"
+  origin_lat: 37.56793
+  origin_lng: 126.99533
+  url: "/projects/artworks/5-cheonggye200.yml"
+- full_name_en: Daelim 800/40
+  full_name_ko: "대림상가 800/40"
+  origin_lat: 37.56708
+  origin_lng: 126.99543
+  url: "/projects/artworks/5-daelim800.yml"
+- full_name_en: DDP
+  full_name_ko: DDP 살림터
+  origin_lat: 37.56672
+  origin_lng: 127.0095
+  url: "/projects/artworks/5-ddp.yml"
+- full_name_en: Doosung In the Paper
+  full_name_ko: "두성 인더페이퍼"
+  origin_lat: 37.56577
+  origin_lng: 126.99907
+  url: "/projects/artworks/5-doosung.yml"
+- full_name_en: Epoca
+  full_name_ko: "에포카"
+  origin_lat: 37.5216
+  origin_lng: 127.02338
+  url: "/projects/artworks/5-epoca.yml"
+- full_name_en: Eum Art Book
+  full_name_ko: "이음책방"
+  origin_lat: 37.5838
+  origin_lng: 127.00269
+  url: "/projects/artworks/5-eumbook.yml"
+- full_name_en: Gagarin
+  full_name_ko: "가가린"
+  origin_lat: 37.57944
+  origin_lng: 126.97276
+  url: "/projects/artworks/5-gagarin.yml"
+- full_name_en: Haja Center
+  full_name_ko: "하자센터"
+  origin_lat: 37.52515
+  origin_lng: 126.90327
+  url: "/projects/artworks/5-hajacenter.yml"
+- full_name_en: Ilmin Museum of Art
+  full_name_ko: "일민미술관"
+  origin_lat: 37.56983
+  origin_lng: 126.97764
+  url: "/projects/artworks/5-ilmin.yml"
+- full_name_en: KCDF Gallery
+  full_name_ko: KCDF 갤러리
+  origin_lat: 37.57399
+  origin_lng: 126.98414
+  url: "/projects/artworks/5-kcdf-gallery.yml"
+- full_name_en: Kobalt shop
+  full_name_ko: "코발트숍"
+  origin_lat: 37.52034
+  origin_lng: 127.02122
+  url: "/projects/artworks/5-kobalt.yml"
+- full_name_en: Pinocchio
+  full_name_ko: "피노키오"
+  origin_lat: 37.56225
+  origin_lng: 126.92656
+  url: "/projects/artworks/5-pinocchio.yml"
+- full_name_en: Post Poetics
+  full_name_ko: "포스트포에틱스"
+  origin_lat: 37.53606
+  origin_lng: 127.00012
+  url: "/projects/artworks/5-postpoetics.yml"
+- full_name_en: Round About
+  full_name_ko: "라운드어바웃"
+  origin_lat: 37.57897
+  origin_lng: 126.97251
+  url: "/projects/artworks/5-roundabout.yml"
+- full_name_en: Second Hotel
+  full_name_ko: "세컨호텔"
+  origin_lat: 37.53515
+  origin_lng: 127.00037
+  url: "/projects/artworks/5-secondhotel.yml"
+- full_name_en: Sewoon 300/20
+  full_name_ko: "세운상가 300/20"
+  origin_lat: 37.56924
+  origin_lng: 126.99522
+  url: "/projects/artworks/5-sewoon300.yml"
+- full_name_en: Small House Big Door
+  full_name_ko: "스몰하우스빅도어"
+  origin_lat: 37.5669
+  origin_lng: 126.98188
+  url: "/projects/artworks/5-smallhousebigdoor.yml"
+- full_name_en: Songpa
+  full_name_ko: "송파주민문화발전소 다락"
+  origin_lat: 37.50566
+  origin_lng: 127.10871
+  url: "/projects/artworks/5-songpa.yml"
+- full_name_en: Takeout Drawing
+  full_name_ko: "테이크아웃드로잉"
+  origin_lat: 37.53924
+  origin_lng: 126.98737
+  url: "/projects/artworks/5-takeoutdrawing.yml"
+- full_name_en: Thanks Books
+  full_name_ko: "땡스북스"
+  origin_lat: 37.55109
+  origin_lng: 126.92022
+  url: "/projects/artworks/5-thanksbooks.yml"
+- full_name_en: TWL (Things We Love)
+  full_name_ko: TWL
+  origin_lat: 37.57609
+  origin_lng: 126.9996
+  url: "/projects/artworks/5-twl.yml"
+- full_name_en: Veronica Effect
+  full_name_ko: "베로니카 이펙트"
+  origin_lat: 37.55059
+  origin_lng: 126.9208
+  url: "/projects/artworks/5-veronica-effect.yml"
+- full_name_en: Your Mind
+  full_name_ko: "유어마인드"
+  origin_lat: 37.55546
+  origin_lng: 126.93009
+  url: "/projects/artworks/5-yourmind.yml"
+- full_name_en: Yricafe
+  full_name_ko: "이리카페"
+  origin_lat: 37.54582
+  origin_lng: 126.92158
+  url: "/projects/artworks/5-yricafe.yml"
+- full_name_en: Zagmachi
+  full_name_ko: "자그마치"
+  origin_lat: 37.54263
+  origin_lng: 127.05675
+  url: "/projects/artworks/5-zagmachi.yml"
+- full_name_en: Hongdan (Ban Yoon Jung)
+  full_name_ko: "홍단 (반윤정)"
+  origin_lat: 37.55095
+  origin_lng: 127.04462
+  url: "/projects/artworks/6-ban-yoon-jung.yml"
+- full_name_en: Joowon Han + Sejoong Kim (COM)
+  full_name_ko: "한주원 + 김세중(COM)"
+  origin_lat: 37.5295
+  origin_lng: 127.00021
+  url: "/projects/artworks/6-com.yml"
+- full_name_en: Corners
+  full_name_ko: "코우너스"
+  origin_lat: 37.56335
+  origin_lng: 126.97972
+  url: "/projects/artworks/6-corners.yml"
+- full_name_en: Hoon Kim
+  full_name_ko: "김정훈"
+  origin_lat: 40.72583
+  origin_lng: -73.99688
+  url: "/projects/artworks/6-hoon-kim.yml"
+- full_name_en: Jae Jeon
+  full_name_ko: "전재운"
+  origin_lat: 37.5527
+  origin_lng: 126.92503
+  url: "/projects/artworks/6-jae-jeon.yml"
+- full_name_en: Jin Jung
+  full_name_ko: "정진열"
+  origin_lat: 37.53448
+  origin_lng: 127.00799
+  url: "/projects/artworks/6-jin-jung.yml"
+- full_name_en: Lara Lee + Oui Kim
+  full_name_ko: "이송은 + 김성욱"
+  origin_lat: 35.81549
+  origin_lng: 128.5138
+  url: "/projects/artworks/6-lara-lee-n-oui-kim.yml"
+- full_name_en: Mano Ahn
+  full_name_ko: "안마노"
+  origin_lat: 37.57389
+  origin_lng: 126.93525
+  url: "/projects/artworks/6-mano-ahn.yml"
+- full_name_en: Marvin Lee + Eli Park Sorensen
+  full_name_ko: "이마빈 + Eli Park"
+  origin_lat: 37.55056
+  origin_lng: 126.92539
+  url: "/projects/artworks/6-marvin-lee-n-eli-park.yml"
+- full_name_en: Mingoo Yoon
+  full_name_ko: "윤민구"
+  origin_lat: 37.56158
+  origin_lng: 126.90546
+  url: "/projects/artworks/6-mingoo-yoon.yml"
+- full_name_en: Moon Jang
+  full_name_ko: "장문정"
+  origin_lat: 37.56512
+  origin_lng: 127.00623
+  url: "/projects/artworks/6-moon-jang.yml"
+- full_name_en: Ordinary people
+  full_name_ko: "오디너리 피플"
+  origin_lat: 37.54564
+  origin_lng: 126.92034
+  url: "/projects/artworks/6-ordinary-people.yml"
+- full_name_en: Park Chan Shin
+  full_name_ko: "박찬신"
+  origin_lat: 37.56339
+  origin_lng: 126.91836
+  url: "/projects/artworks/6-park-chanshin.yml"
+- full_name_en: Uk Kim
+  full_name_ko: "김욱"
+  origin_lat: 37.55111
+  origin_lng: 126.92017
+  url: "/projects/artworks/6-uk-kim.yml"
+- full_name_en: "( ) Home"
+  full_name_ko: "( ) 집 : 문자벽돌"
+  origin_lat: 37.70824
+  origin_lng: 126.68672
+  url: "/projects/artworks/7-Pati.yml"
+- full_name_en: Akiko Masunaga
+  full_name_ko: 
+  origin_lat: 434.69373
+  origin_lng: 135.50216
+  url: "/projects/artworks/8-akiko-masunaga.yml"
+- full_name_en: Bongkyu Song
+  full_name_ko: "송봉규"
+  origin_lat: 37.55277
+  origin_lng: 126.92078
+  url: "/projects/artworks/8-bongkyu-song.yml"
+- full_name_en: Burger + Stadel + Wal
+  full_name_ko: 
+  origin_lat: 47.56922
+  origin_lng: 7.59573
+  url: "/projects/artworks/8-burger-stadel-wal.yml"
+- full_name_en: Clark Corp
+  full_name_ko: 
+  origin_lat: 40.69854
+  origin_lng: -73.9753
+  url: "/projects/artworks/8-clark-corp.yml"
+- full_name_en: Design Methods
+  full_name_ko: "디자인 메소드"
+  origin_lat: 37.53437
+  origin_lng: 127.00646
+  url: "/projects/artworks/8-design-methods.yml"
+- full_name_en: Doosungpaper Design Lab
+  full_name_ko: "두성종이 디자인연구소"
+  origin_lat: 37.49218
+  origin_lng: 127.02034
+  url: "/projects/artworks/8-doosung.yml"
+- full_name_en: Gang Moonsick
+  full_name_ko: "강문식"
+  origin_lat: 41.30832
+  origin_lng: -72.93294
+  url: "/projects/artworks/8-gang-moonsick.yml"
+- full_name_en: Hyojun Shim + Keith Wong
+  full_name_ko: "심효준 + Keite Wong"
+  origin_lat: 37.56406
+  origin_lng: 126.91396
+  url: "/projects/artworks/8-hyojun-shim-n-wong.yml"
+- full_name_en: Mathew Kneebone
+  full_name_ko: 
+  origin_lat: 51.05434
+  origin_lng: 3.71742
+  url: "/projects/artworks/8-mathew-kneebone.yml"
+- full_name_en: Team Thursday
+  full_name_ko: 
+  origin_lat: 51.91606
+  origin_lng: 4.4653
+  url: "/projects/artworks/8-team-thursday.yml"
+- full_name_en: Fritz K. Park
+  full_name_ko: "박경식"
+  origin_lat: 37.58209
+  origin_lng: 126.97276
+  url: "/projects/artworks/9-fritz-park.yml"
+- full_name_en: Hyung-chul Kim
+  full_name_ko: "김형철"
+  origin_lat: 37.51044
+  origin_lng: 127.057
+  url: "/projects/artworks/9-hyungchul-kim.yml"
+- full_name_en: Jot
+  full_name_ko: "좋"
+  origin_lat: 37.53601
+  origin_lng: 126.96902
+  url: "/projects/artworks/9-jot.yml"
+- full_name_en: kimgarden x Standardstandard
+  full_name_ko: "김가든 x Standardstandard"
+  origin_lat: 37.57363
+  origin_lng: 126.99054
+  url: "/projects/artworks/9-kimgarden-standard.yml"
+- full_name_en: MYKC
+  full_name_ko: "마이케이씨"
+  origin_lat: 37.58209
+  origin_lng: 126.97276
+  url: "/projects/artworks/9-mykc.yml"
+- full_name_en: Sparks Edition
+  full_name_ko: "스팍스 에디션"
+  origin_lat: 37.61006
+  origin_lng: 126.99507
+  url: "/projects/artworks/9-sparks-edition.yml"
+- full_name_en: Works
+  full_name_ko: "워크스"
+  origin_lat: 37.57363
+  origin_lng: 126.99054
+  url: "/projects/artworks/9-works.yml"
+- full_name_en: Youngha Park
+  full_name_ko: "박영하"
+  origin_lat: 37.41566
+  origin_lng: 126.98234
+  url: "/projects/artworks/9-youngha-park.yml"
