@@ -3,7 +3,7 @@ body {
   font-style: normal;
   font-size: 22px;
   line-height: 1.1em;
-  background-color: white;
+  background-color: #FFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -132,3 +132,5 @@ p.description {
   width: 100%;
   height: 700px;
 }
+
+/*# sourceMappingURL=style.css.map */

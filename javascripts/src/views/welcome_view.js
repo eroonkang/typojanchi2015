@@ -64,7 +64,6 @@ WY.views.welcome_view = (function(){
       el_name: "map-container"
     });
 
-    map_manager.init();
 
 
     projects_manager.on('load_complete', function(e){
@@ -72,6 +71,7 @@ WY.views.welcome_view = (function(){
       participants_manager.init();
       projects_manager.init();
       artwork_manager.update();
+      map_manager.init();
 
       ko_type_adjust();
     });

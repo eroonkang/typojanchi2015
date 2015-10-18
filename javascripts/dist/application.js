@@ -20407,8 +20407,11 @@ WY.models.MapManager = (function(){
   function MapManager(params){
     this.el_name = params.el_name;
     this.map;
+    this.data;
+    this.markers = [];
 
     _.extend(this, Backbone.Events);
+    _.bindAll(this, "load_complete_handler");
   }
 
   MapManager.prototype = {
@@ -20421,6 +20424,36 @@ WY.models.MapManager = (function(){
 
       this.map.scrollWheelZoom.disable();
 
+      this.load();
+    },
+
+    load: function(){
+      $.ajax({
+        type: 'GET',
+        url: WY.constants.home_url + '/projects/locations.yml',
+        success: this.load_complete_handler
+      })
+    },
+
+    load_complete_handler: function(data){
+      this.data = jsyaml.load(data);
+      
+      _.each(this.data, _.bind(function(artwork){
+
+        var marker = L.circleMarker([artwork.origin_lat, artwork.origin_lng], {
+          color: "#000000",
+          fillColor: "#000000",
+          weight: 0
+        });
+        marker.features = artwork;
+
+        marker.on('click', _.bind(function(e){
+          var popup = L.popup({autoPan: false}).setContent(_.template("<p><%= full_name_en %></p>")(marker.features));
+          popup.setLatLng(L.latLng([marker.features.origin_lat, marker.features.origin_lng])).openOn(this.map);
+        }, this));
+        marker.addTo(this.map);
+
+      }, this));
 
     }
   };
@@ -20600,7 +20633,6 @@ WY.views.welcome_view = (function(){
       el_name: "map-container"
     });
 
-    map_manager.init();
 
 
     projects_manager.on('load_complete', function(e){
@@ -20608,6 +20640,7 @@ WY.views.welcome_view = (function(){
       participants_manager.init();
       projects_manager.init();
       artwork_manager.update();
+      map_manager.init();
 
       ko_type_adjust();
     });
