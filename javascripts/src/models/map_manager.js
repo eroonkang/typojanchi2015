@@ -45,7 +45,7 @@ WY.models.MapManager = (function(){
         }).setRadius(7);
         marker.features = artwork;
 
-        marker.on('click', _.bind(function(e){
+        marker.on('mouseover', _.bind(function(e){
           var popup = L.popup({autoPan: false}).setContent(_.template("<p><%= full_name_en %></p>")(marker.features));
           popup.setLatLng(L.latLng([marker.features.origin_lat, marker.features.origin_lng])).openOn(this.map);
         }, this));
