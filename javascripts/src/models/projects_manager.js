@@ -4,6 +4,7 @@ WY.models.ProjectsManager = (function(){
     this.tmpl;
     this.inner_dom;
     this.data;
+    this.appended;
 
     _.extend(this, Backbone.Events);
     _.bindAll(this, "load_complete_handler");
@@ -33,9 +34,10 @@ WY.models.ProjectsManager = (function(){
     },
 
     append_dom: function(){
-      if (!_.isUndefined(this.inner_dom)){
+      if (!_.isUndefined(this.inner_dom) && !this.appended){
         this.el.append(this.inner_dom);
         this.el.columnize({    width:380, lastNeverTallest: true});    
+        this.appended = true;
       }
     }
   };

@@ -6,7 +6,8 @@ WY.views.welcome_view = (function(){
       map_manager,
       screen_width, 
       screen_height,
-      artwork_permalink;
+      artwork_permalink,
+      cities_appended = false;
       
   function welcome_view(params){
     WY.constants.locale = params.locale;
@@ -110,7 +111,10 @@ WY.views.welcome_view = (function(){
     $('#index').show();
     participants_manager.append_dom();
     projects_manager.append_dom();
-    $('#section-cities').columnize({    width:250, lastNeverTallest: false});
+    if (!cities_appended) {
+      $('#section-cities').columnize({    width:250, lastNeverTallest: false});
+      cities_appended = true;
+    }
   }
 
   return welcome_view;

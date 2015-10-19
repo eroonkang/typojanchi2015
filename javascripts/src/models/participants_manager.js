@@ -4,6 +4,7 @@ WY.models.ParticipantsManager = (function(){
     this.tmpl;
     this.inner_dom;
     this.data;
+    this.appended = false;
   }
 
   ParticipantsManager.prototype = {
@@ -20,9 +21,10 @@ WY.models.ParticipantsManager = (function(){
     },
 
     append_dom: function(){
-      if (!_.isUndefined(this.inner_dom)){
+      if (!_.isUndefined(this.inner_dom) && !this.appended){
         this.el.append(this.inner_dom);
         this.el.columnize({  width:250, lastNeverTallest: true});
+        this.appended = true;
       }
     }
   };
