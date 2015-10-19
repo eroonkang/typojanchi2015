@@ -11,7 +11,7 @@ WY.models.MapManager = (function(){
 
   MapManager.prototype = {
     init: function(){
-      this.map = L.map(this.el_name).setView([51.505, -0.09], 3);
+      this.map = L.map(this.el_name).setView([37.5558393, 126.9716173], 13);
 
       L.tileLayer('https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw', {
         attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -37,9 +37,12 @@ WY.models.MapManager = (function(){
 
         var marker = L.circleMarker([artwork.origin_lat, artwork.origin_lng], {
           color: "#000000",
-          fillColor: "#000000",
-          weight: 0
-        });
+          stroke: true,
+          opacity:1,
+          weight: 1.5,
+          fillColor: "#ffffff",
+          fillOpacity: 1,
+        }).setRadius(7);
         marker.features = artwork;
 
         marker.on('click', _.bind(function(e){

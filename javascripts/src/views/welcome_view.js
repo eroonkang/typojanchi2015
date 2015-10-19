@@ -18,12 +18,17 @@ WY.views.welcome_view = (function(){
     init();
     init_resize();
 
+    $('h1').click(function(){
+      show_index();
+    });
+
   }
 
   function init_resize(){
     $(window).resize(function(e){
       screen_width = $(window).width();
       screen_height = $(window).height();
+      set_map_height();
     });
 
     $(window).trigger('resize');
@@ -71,8 +76,8 @@ WY.views.welcome_view = (function(){
       participants_manager.init();
       projects_manager.init();
       artwork_manager.update();
+      set_map_height();
       map_manager.init();
-
       ko_type_adjust();
     });
 
@@ -96,7 +101,15 @@ WY.views.welcome_view = (function(){
         var content = $this.html();
         $this.html(content.replace(rex, "<span class='en-within-ko'>$1</span>"));
     });
-
   }
+
+  function set_map_height(){
+    $('#map-container').css("height",screen_height);
+  }
+
+  function show_index(){
+    $('#index').show();
+  }
+
   return welcome_view;
 })();

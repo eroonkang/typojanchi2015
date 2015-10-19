@@ -43,6 +43,7 @@ a:hover {
 
 #index {
   width:100%;
+  display:none;
 }
 #section-header h2 {
   width:50%;
@@ -127,8 +128,30 @@ p.description {
 }
 
 
+/* ---------------------------------------------- */
+/* map area */
+/* ---------------------------------------------- */
 #map-container {
   width:100%;
   height:700px;
 }
+#map-overlays {
+  position:absolute;
+  width:100%;
+  bottom:40px;
 
+  h1 {
+    text-align: center;
+  }
+  img.left{
+    position:absolute;
+    left: 40px;
+    bottom:0px;
+  }
+  img.right{
+    position:absolute;
+    right:40px;
+    bottom:0px;
+  }
+
+}
