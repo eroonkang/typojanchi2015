@@ -2,6 +2,7 @@ WY.models.ProjectsManager = (function(){
   function ProjectsManager(params){
     this.el = params.el;
     this.tmpl;
+    this.inner_dom;
     this.data;
 
     _.extend(this, Backbone.Events);
@@ -28,8 +29,14 @@ WY.models.ProjectsManager = (function(){
     },
 
     init: function(){
-      this.el.append($(this.tmpl(this.data)));
-      this.el.columnize({    width:380, lastNeverTallest: true});
+      this.inner_dom = $(this.tmpl(this.data));
+    },
+
+    append_dom: function(){
+      if (!_.isUndefined(this.inner_dom)){
+        this.el.append(this.inner_dom);
+        this.el.columnize({    width:380, lastNeverTallest: true});    
+      }
     }
   };
 

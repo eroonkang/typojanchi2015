@@ -20468,6 +20468,7 @@ WY.models.ParticipantsManager = (function(){
   function ParticipantsManager(params){
     this.el = params.el;
     this.tmpl;
+    this.inner_dom;
     this.data;
   }
 
@@ -20481,8 +20482,14 @@ WY.models.ParticipantsManager = (function(){
     },
 
     init: function(){
-      this.el.append($(this.tmpl(this.data)));
-      this.el.columnize({  width:250, lastNeverTallest: true});
+      this.inner_dom = $(this.tmpl(this.data))
+    },
+
+    append_dom: function(){
+      if (!_.isUndefined(this.inner_dom)){
+        this.el.append(this.inner_dom);
+        this.el.columnize({  width:250, lastNeverTallest: true});
+      }
     }
   };
 
@@ -20493,6 +20500,7 @@ WY.models.ProjectsManager = (function(){
   function ProjectsManager(params){
     this.el = params.el;
     this.tmpl;
+    this.inner_dom;
     this.data;
 
     _.extend(this, Backbone.Events);
@@ -20519,8 +20527,14 @@ WY.models.ProjectsManager = (function(){
     },
 
     init: function(){
-      this.el.append($(this.tmpl(this.data)));
-      this.el.columnize({    width:380, lastNeverTallest: true});
+      this.inner_dom = $(this.tmpl(this.data));
+    },
+
+    append_dom: function(){
+      if (!_.isUndefined(this.inner_dom)){
+        this.el.append(this.inner_dom);
+        this.el.columnize({    width:380, lastNeverTallest: true});    
+      }
     }
   };
 
@@ -20585,7 +20599,6 @@ WY.views.welcome_view = (function(){
     WY.constants.home_url = params.home_url;
 
     artwork_permalink = params.artwork_permalink;
-    $('#section-cities').columnize({    width:250, lastNeverTallest: false});
 
     init();
     init_resize();
@@ -20681,6 +20694,9 @@ WY.views.welcome_view = (function(){
 
   function show_index(){
     $('#index').show();
+    participants_manager.append_dom();
+    projects_manager.append_dom();
+    $('#section-cities').columnize({    width:250, lastNeverTallest: false});
   }
 
   return welcome_view;

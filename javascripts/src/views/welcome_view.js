@@ -13,7 +13,6 @@ WY.views.welcome_view = (function(){
     WY.constants.home_url = params.home_url;
 
     artwork_permalink = params.artwork_permalink;
-    $('#section-cities').columnize({    width:250, lastNeverTallest: false});
 
     init();
     init_resize();
@@ -109,6 +108,9 @@ WY.views.welcome_view = (function(){
 
   function show_index(){
     $('#index').show();
+    participants_manager.append_dom();
+    projects_manager.append_dom();
+    $('#section-cities').columnize({    width:250, lastNeverTallest: false});
   }
 
   return welcome_view;
