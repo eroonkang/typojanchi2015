@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
    watch: {
       scripts: {
-        files: ['javascripts/src/models/*.js', 'javascripts/src/views/*.js', 'stylesheets/src/*.scss', 'stylesheets/src/fonts.css'],
+        files: ['javascripts/src/models/*.js', 'javascripts/src/views/*.js', 'stylesheets/src/*.css', 'stylesheets/src/*.scss', 'stylesheets/src/fonts.css'],
         tasks: ['sass', 'concat']
       },
     },
