@@ -18,7 +18,6 @@ WY.models.MapManager = (function(){
       }).addTo(this.map);
 
       this.map.scrollWheelZoom.disable();
-      var oms = new OverlappingMarkerSpiderfier(this.map);
 
       this.load();
     },
@@ -46,10 +45,11 @@ WY.models.MapManager = (function(){
         }).setRadius(7);
         marker.features = artwork;
 
-        marker.on('mouseover', _.bind(function(e){
-          var popup = L.popup({autoPan: false}).setContent(_.template("<%= full_name_ko %>")(marker.features));
-          popup.setLatLng(L.latLng([marker.features.origin_lat, marker.features.origin_lng])).openOn(this.map);
-        }, this));
+        // marker.on('mouseover', _.bind(function(e){
+        //   var popup = L.popup({autoPan: false}).setContent(_.template("<%= full_name_ko %>")(marker.features));
+        //   popup.setLatLng(L.latLng([marker.features.origin_lat, marker.features.origin_lng])).openOn(this.map);
+        // }, this));
+
         marker.addTo(this.map);
 
       }, this));
