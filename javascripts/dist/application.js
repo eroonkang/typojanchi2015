@@ -20499,8 +20499,9 @@ WY.models.MapManager = (function(){
         marker.features = artwork;
 
         this.oms.addListener('click', _.bind(function(_marker){
+          // debugger;
           var popup = L.popup({autoPan: false}).setContent(this.artwork_popup_tmpl(_marker.features));
-          popup.setLatLng(L.latLng([_marker.lat, _marker.lng])).openOn(this.map);
+          popup.setLatLng(_marker._latlng).openOn(this.map);
         }, this));
         
         this.map.addLayer(marker);
