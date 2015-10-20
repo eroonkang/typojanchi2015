@@ -144,6 +144,11 @@ p.description {
 }
 #map-overlays h1 {
   text-align: center;
+  /*    text-shadow:
+       -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+         1px 1px 0 #fff;*/
 }
 #map-overlays img.left {
   position: absolute;

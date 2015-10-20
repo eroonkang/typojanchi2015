@@ -198,7 +198,9 @@
 
 /* general typography */
 .leaflet-container {
-	font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+	font-size: 1.1em;
+	font-size: 14px;
 	}
 
 
@@ -390,14 +392,19 @@
 .leaflet-popup-content-wrapper {
 	padding: 1px;
 	text-align: left;
-	border-radius: 0px;
+	border: 2px solid #000;
+	background: #fff;
+	color:#000;
+	border-radius: 2px;
+	}
+.leaflet-popup-content-wrapper:hover {
+	border: 2px solid #000;
+	background: #000;
+	color:#fff;
 	}
 .leaflet-popup-content {
-	margin: 13px 19px;
-	line-height: 1.4;
-	}
-.leaflet-popup-content p {
-	margin: 18px 0;
+	margin: 0.2em 0.65em;
+	text-align: center;
 	}
 .leaflet-popup-tip-container {
 	margin: 0 auto;
@@ -407,23 +414,10 @@
 	overflow: hidden;
 	}
 .leaflet-popup-tip {
-	width: 17px;
-	height: 17px;
-	padding: 1px;
-
+	width: 0px;
+	height: 14px;
 	margin: -10px auto 0;
-
-	-webkit-transform: rotate(45deg);
-	   -moz-transform: rotate(45deg);
-	    -ms-transform: rotate(45deg);
-	     -o-transform: rotate(45deg);
-	        transform: rotate(45deg);
-	}
-.leaflet-popup-content-wrapper,
-.leaflet-popup-tip {
-	background: white;
-
-	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+	border:1px solid;
 	}
 .leaflet-container a.leaflet-popup-close-button {
 	position: absolute;
@@ -438,6 +432,7 @@
 	text-decoration: none;
 	font-weight: bold;
 	background: transparent;
+	display: none;
 	}
 .leaflet-container a.leaflet-popup-close-button:hover {
 	color: #999;
