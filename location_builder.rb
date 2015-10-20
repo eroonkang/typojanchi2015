@@ -1,7 +1,8 @@
 require 'yaml'
 
 locations = {}
-locations['artist_locations'] = []
+locations['artists'] = []
+locations['artworks'] = []
 
 
 Dir["./projects/artworks/*.yml"].each do |filename|
@@ -15,14 +16,19 @@ Dir["./projects/artworks/*.yml"].each do |filename|
   artist_l['url'] = filename[1..filename.length]
 
   artwork_l = {}
-  artwork_l['full_name_en'] = artwork["full_name_en"]
-  artwork_l['full_name_ko'] = artwork["full_name_ko"]
-  artwork_l['origin_lat'] = artwork["origin_lat"]
-  artwork_l['origin_lng'] = artwork["origin_lng"]
+  artwork_l['venue_name_en'] = artwork["venue_name_en"]
+  artwork_l['venue_name_ko'] = artwork["venue_name_ko"]
+
+  artwork_l['artwork_name_en'] = artwork["artwork_name_en"]
+  artwork_l['artwork_name_ko'] = artwork["artwork_name_ko"]
+
+  artwork_l['venue_lat'] = artwork["venue_lat"]
+  artwork_l['venue_lng'] = artwork["venue_lng"]
   artwork_l['url'] = filename[1..filename.length]
 
 
-  locations['artist_locations'] << artist_l
+  locations['artists'] << artist_l
+  locations['artworks'] << artwork_l
 end
 
 File.open('./projects/locations.yml', 'w') {|f| f.write locations.to_yaml } #Store
