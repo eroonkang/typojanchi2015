@@ -32,10 +32,12 @@ WY.models.MapManager = (function(){
 
     load_complete_handler: function(data){
       this.data = jsyaml.load(data);
+      this.artist_popup_tmpl = _.template("<%= full_name_" + WY.constants.locale + " %>");
+      this.artwork_popup_tmpl = _.template("<%= artwork_name_" + WY.constants.locale + " %>");
       
-      _.each(this.data, _.bind(function(artwork){
+      _.each(this.data.artists, _.bind(function(artist){
 
-        var marker = L.circleMarker([artwork.origin_lat, artwork.origin_lng], {
+        var marker = L.circleMarker([artist.origin_lat, artist.origin_lng], {
           color: "#000000",
           stroke: true,
           opacity:1,
@@ -43,13 +45,33 @@ WY.models.MapManager = (function(){
           fillColor: "#ffffff",
           fillOpacity: 1,
         }).setRadius(7);
+        marker.features = artist;
+
+        marker.on('mouseover', _.bind(function(e){
+          var popup = L.popup({autoPan: false}).setContent(this.artist_popup_tmpl(marker.features));
+          popup.setLatLng(L.latLng([marker.features.origin_lat, marker.features.origin_lng])).openOn(this.map);
+        }, this));
+
+        marker.addTo(this.map);
+
+      }, this));
+
+      _.each(this.data.artworks, _.bind(function(artwork){
+
+        var marker = L.circleMarker([artwork.venue_lat, artwork.venue_lng], {
+          color: "#000000",
+          stroke: true,
+          opacity:1,
+          weight: 1.5,
+          fillColor: "#000000",
+          fillOpacity: 1,
+        }).setRadius(7);
         marker.features = artwork;
 
-        // marker.on('mouseover', _.bind(function(e){
-        //   var popup = L.popup({autoPan: false}).setContent(_.template("<%= full_name_ko %>")(marker.features));
-        //   popup.setLatLng(L.latLng([marker.features.origin_lat, marker.features.origin_lng])).openOn(this.map);
-        // }, this));
-
+        marker.on('mouseover', _.bind(function(e){
+          var popup = L.popup({autoPan: false}).setContent(this.artwork_popup_tmpl(marker.features));
+          popup.setLatLng(L.latLng([marker.features.venue_lat, marker.features.venue_lng])).openOn(this.map);
+        }, this));
         marker.addTo(this.map);
 
       }, this));
