@@ -18,6 +18,7 @@ WY.models.MapManager = (function(){
       }).addTo(this.map);
 
       this.map.scrollWheelZoom.disable();
+      var oms = new OverlappingMarkerSpiderfier(this.map);
 
       this.load();
     },

@@ -30,6 +30,7 @@ module.exports = function(grunt) {
             'javascripts/src/vendor/js-yaml.min.js',
             'javascripts/src/vendor/kerning.js',
             'javascripts/src/vendor/leaflet-src.js',
+            'javascripts/src/vendor/oms.min.js',
             'javascripts/src/WY.js',
             'javascripts/src/utils.js',
             'javascripts/src/models/*.js',

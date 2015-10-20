@@ -68,6 +68,7 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/retina.min.js"></script>  
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/leaflet-src.js"></script>  
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/kerning.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/oms.min.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/WY.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>
 
