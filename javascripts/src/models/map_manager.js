@@ -4,6 +4,7 @@ WY.models.MapManager = (function(){
     this.map;
     this.data;
     this.markers = [];
+    this.oms;
 
     _.extend(this, Backbone.Events);
     _.bindAll(this, "load_complete_handler");
@@ -18,6 +19,10 @@ WY.models.MapManager = (function(){
       }).addTo(this.map);
 
       this.map.scrollWheelZoom.disable();
+      this.map.doubleClickZoom.disable();
+      this.oms = new OverlappingMarkerSpiderfier(this.map, {
+        keepSpiderfied: true
+      });
 
       this.load();
     },
@@ -68,11 +73,16 @@ WY.models.MapManager = (function(){
         }).setRadius(7);
         marker.features = artwork;
 
-        marker.on('mouseover', _.bind(function(e){
-          var popup = L.popup({autoPan: false}).setContent(this.artwork_popup_tmpl(marker.features));
-          popup.setLatLng(L.latLng([marker.features.venue_lat, marker.features.venue_lng])).openOn(this.map);
+        this.oms.addListener('click', _.bind(function(_marker){
+          var popup = L.popup({autoPan: false}).setContent(this.artwork_popup_tmpl(_marker.features));
+          popup.setLatLng(L.latLng([_marker.lat, _marker.lng])).openOn(this.map);
         }, this));
-        marker.addTo(this.map);
+        
+        this.map.addLayer(marker);
+        this.oms.addMarker(marker); 
+
+        // marker.addTo(this.map);
+
 
       }, this));
 
