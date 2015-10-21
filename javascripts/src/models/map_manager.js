@@ -87,6 +87,8 @@ WY.models.MapManager = (function(){
 
       }, this));
 
+      this.oms.trigger('click');
+
     }
   };
 
