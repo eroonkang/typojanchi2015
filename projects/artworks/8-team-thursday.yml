@@ -1,5 +1,5 @@
 full_name_en: Team Thursday
-full_name_ko: 
+full_name_ko: 팀 서즈데이
 origin_city_en: Rotterdam
 origin_city_ko: 로테르담 
 origin_country_en: Netherlands
@@ -7,9 +7,27 @@ origin_country_ko: 네덜란드
 origin_lat: 51.91606
 origin_lng: 4.4653
 
-artwork_name_en: Untitled
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ Team Thursday is a Rotterdam based graphic design studio founded in 2010 by Loes van Esch and Simone Trum. Our work ranges from print to spatial design, with a conceptual and energetic approach and a strong visual language. We focus on the design of identities in the broad sense: from corporate identities to overall design concepts for cultural events. The process (or action) action plays an important role in our work. This translates into a special interest for tactility and analog printing techniques, but can also evolve in a spatial design or an activity. 
+
+participant_bio_ko: >
+ 팀 서즈데이는 루스 판에스와 시모너 트륌이 2010년에 로테르담에 설립한 그래픽 디자인 스튜디오이다. 전통적인 인쇄 기법의 아날로그적 촉감에 특별한 관심을 가진 이들의 작업은 개념적 접근방식에 기반한 강렬한 시각언어를 선보인다. 기업 아이데티티부터 문화 행사 전반의 디자인 개념에 이르는 다양한 작업을 하는 한편, 아른험의 아르테즈 미술대학교, 로스앤젤레스의 오티스 미술디자인대학 등에서 워크숍과 세미나를 진행해오고 있다.
+
+artworks:
+-
+  artwork_name_en: Untitled
+  artwork_name_ko: 미정
+  artwork_year: 2015
+  artwork_medium_en: Printed cotton cloth and wooden stick, 250*250cm
+  artwork_medium_ko: 광목에 날염, 나무막대, 250*250cm
+  artwork_desc_en: >
+   Traveling can be very exhausting; a hotel room is the place to take some time for yourself to process all new experiences. For this occasion we made a bed sheet that can easily be turned into a tent, so the traveler can create his own personal zone in a generic place like a hotel room.  
+
+  artwork_desc_ko: >
+   호텔 방은 새로운 도시를 탐험하기 전, 잠시 시간을 가지는 공간이다. 팀 서즈데이는 지친 여행객들이 좀 더 개인적인 공간에서 쉴 수 있도록 텐트로 바뀌는 침대 시트를 제안한다.
+
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -28,25 +46,3 @@ venue_lng: 126.9716173
 # - image3.jpg 
 
 
- # ARTWORK -----------------------------------------------
-
-
-artwork_desc_en: >
- Traveling can be very exhausting; a hotel room is the place to take some time for yourself to process all new experiences. For this occasion we made a bed sheet that can easily be turned into a tent, so the traveler can create his own personal zone in a generic place like a hotel room.  
-
- 
- 
-
-artwork_desc_ko: >
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Team Thursday is a Rotterdam based graphic design studio founded in 2010 by Loes van Esch and Simone Trum.
-
- Our work ranges from print to spatial design, with a conceptual and energetic approach and a strong visual language. We focus on the design of identities in the broad sense: from corporate identities to overall design concepts for cultural events. The process (or action) action plays an important role in our work. This translates into a special interest for tactility and analog printing techniques, but can also evolve in a spatial design or an activity. 
-
-
-
-participant_bio_ko: >

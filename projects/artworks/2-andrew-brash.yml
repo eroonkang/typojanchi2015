@@ -7,9 +7,22 @@ origin_country_ko: 영국
 origin_lat: 51.5011441
 origin_lng: -0.1792847
 
-artwork_name_en: 
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+
+
+participant_bio_ko: >
+ 앤드루 브래시는 문화적 클라이언트를 위한 디자인과 리서치 형태의 협업을 결합하는 작업을 하는 그래픽 디자이너이다. 이는 책, 그래픽 오브제 및 아이덴티티, 설치, 제안, 강연 및 심포지엄의 형태를 띤다. 그의 작업은 일반적으로 정치, 미학 이데올로기, 그리고 시각적 형태를 다루며, 최근 이를 시각적 공간 정체성 탐구에 적용한 ‘엑스트라무로스’라는, 이미지 생산과 도시 환경 사이의 순환적 관계를 조사하는 리서치 프로젝트를 진행했다.
+
+artworks:
+-
+  artwork_name_en: 
+  artwork_name_ko: 
+  artwork_year: 
+  artwork_medium_en:
+  artwork_medium_ko: 
+  artwork_desc_en: >
+  artwork_desc_ko: >
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -28,16 +41,3 @@ venue_lng: 126.9716173
 # - image3.jpg 
 
 
- # ARTWORK -----------------------------------------------
-
-artwork_desc_en: >
-
-artwork_desc_ko: >
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
-
-
-participant_bio_ko: >

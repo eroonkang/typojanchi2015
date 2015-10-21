@@ -7,9 +7,26 @@ origin_country_ko: 일본
 origin_lat: 35.6649963
 origin_lng: 139.6998842
 
-artwork_name_en: No Future Without “          ” (Seoul/Tokyo)
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ Hidechika and Tsukada Tetsuya set up an experimental typography group called Dainippon Type Organization in 1993, and have been pursuing new ideas of typographic characters by playfully deconstructing, recombining and restructuring letterform. They have held solo exhibitions in London, Barcelona and Tokyo, and participated in group exhibitions around the world, including in Singapore, Hong Kong and Korea. Their monograph, Type Card Play Book, was published in 2003 to accompany a ten-year anniversary exhibition in Barcelona. in 2014 October, launched “Site of the type by the type for the type” type.center.
+
+participant_bio_ko: >
+ 1993년 히데치카 이지마와 츠카다 테츠야가 만든 타이포그래피 그룹 다이니폰 타입 조합은 글자의 형태를 해체, 결합, 재구축한 유희적인 타이포그래피를 통해 실험적인 타이포그래피를 추구한다. 런던, 바르셀로나, 도쿄에서 전시를 가졌으며 싱가포르, 홍콩, 한국을 비롯해 세계 여러 나라의 전시에 참여했다. 2003년 바르셀로나에서 열린 10주년 전시 기념과 함께 모노그래프 《글자 카드 놀이 책》을 출간했으며 2014년 10월 “타입의, 타입에 의한, 타입을 위한 사이트”인 ‘type.center’를 론칭했다
+
+artworks:
+-
+  artwork_name_en: No Future Without “   ” (Seoul/Tokyo)
+  artwork_name_ko: “   ” 없는 미래는 없다(서울/도쿄)
+  artwork_year: 2015
+  artwork_medium_en: Print, Movie
+  artwork_medium_ko: 포스터, 비디오
+  artwork_desc_en: >
+   City surrounding us has always wearing a Typography. We – Dainippon Type Organization – also continue to work around the Typography. If this character is gone from the world, it will become what the world? 2005, Dainippon Type Organization has produced works that were left off the characters from the city of Tokyo. After 10 years, this time we'll leave off the letter from the city of Seoul in the same way.When Seoul and Tokyo become next to each other without letters, what really look how?This Installation, also flow Karaoke video that was made for this. Karaoke no vocal accompaniment only, it also like a city vanished in character.
+
+  artwork_desc_ko: >
+   우리를 둘러싼 도시는 늘 타이포그래피라는 옷을 입고 있다. 이러한 도시에서 문자가 모두 사라진다면, 어떤 모습일까. 다이니폰 타입 조합은 문자가 제거된 도쿄와 서울의 모습을 나란히 배치한다. 그 옆에는 영상과 함께 녹음된 반주가 흘러나온다. 관람객들은 목소리가 사라진 반주를 들으며, 특징이 사라진 생경한 도시 풍경과 만나게 된다.
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,25 +44,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
- # ARTWORK -----------------------------------------------
-
-artwork_desc_en: >
- City surrounding us has always wearing a Typography. We – Dainippon Type Organization – also continue to work around the Typography.
-
- If this character is gone from the world, it will become what the world?
-
- 2005, Dainippon Type Organization has produced works that were left off the characters from the city of Tokyo.
-
- After 10 years, this time we'll leave off the letter from the city of Seoul in the same way.When Seoul and Tokyo become next to each other without letters, what really look how?This Installation, also flow Karaoke video that was made for this. Karaoke no vocal accompaniment only, it also like a city vanished in character.
- 
-
-artwork_desc_ko: >
- 
-
- 
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Hidechika and Tsukada Tetsuya set up an experimental typography group called Dainippon Type Organization in 1993, and have been pursuing new ideas of typographic characters by playfully deconstructing, recombining and restructuring letterform. They have held solo exhibitions in London, Barcelona and Tokyo, and participated in group exhibitions around the world, including in Singapore, Hong Kong and Korea. Their monograph, Type Card Play Book, was published in 2003 to accompany a ten-year anniversary exhibition in Barcelona. in 2014 October, launched “Site of the type by the type for the type” type.center.
-
-participant_bio_ko: >

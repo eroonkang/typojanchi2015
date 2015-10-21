@@ -7,9 +7,26 @@ origin_country_ko: 독일
 origin_lat: 52.51251
 origin_lng: 13.45141
 
-artwork_name_en: Späti
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ Siggi Eggertsson was born in Akureyri, a small town on the north coast of Iceland. He first showed an interest in Graphic Design at the age of 14 when he became involved in local design programs creating posters for jazz concerts and art exhibitions. When he turned 18, his vision started to expand beyond his remote home, so he applied to the Iceland Academy of Arts in Reykjavik to study Graphic Design. During his first year he met the typographer Atli Hilmarsson and they began working together on design briefs. Here Siggi Eggertsson developed not only as a typographer and designer but also, increasingly, as an Illustrator and image maker in his own right. In 2005 he moved to New York to work at the Karlssonwilker design studio followed by a move to Berlin to study in the Kunsthochschule Berlin-Weissensee.
+ Early in 2007 Siggi moved to London to become part of the Big Active family and contribute to publications like Dazed and Confused, The New York Times and Arkitip plus commercial work with H&M, Stussy and various music projects. In 2008 Siggi moved back to Berlin, where he still lives and works. Siggi has a unique and complete visual identity; his approach to work takes in his design background, which results in work of hidden depth and sense of purpose. 
+
+
+participant_bio_ko: >
+ 아이슬란드 북쪽의 작은 해안 마을 아쿠레이리에서 태어난 시기 에게르트손은 열네 살 때 지방의 한 디자인 프로그램에 참여하며 그래픽디자인에 관심을 갖게 되었다. 아이슬란드의 수도 레이캬비크에 위치한 아이슬란드 아카데미 오브 아트에 입학한 첫해 타이포그래퍼 아틀리 힐마르손을 만난 이래 그는 타이포그래퍼이자 디자이너, 일러스트레이터, 이미지 제작자로 자신을 자리매김해왔다. 졸업 후 2005년 뉴욕으로 건너가 카를손빌커 디자인 스튜디오에서 일했으며, 뒤이어 베를린-바이센제 예술학교에서 공부했다. 2007년 런던으로 이주한 그는 디자인 스튜디오 빅 액터스에서 일하며 《데이즈드 앤드 컴퓨즈드》, 《뉴욕 타임스》, 《아키팁》 같은 잡지에 기고하는 한편, H&M, 스투시를 비롯해 다양한 뮤직 프로젝트를 수행했다. 현재 베를린을 기반으로 활동하고 있는 그의 디자인 접근법은 숨겨진 깊이와 명확한 목표를 지닌 결과물로 귀결된다.
+
+artworks:
+-
+  artwork_name_en: Späti
+  artwork_name_ko: 스패티
+  artwork_year: 2015
+  artwork_medium_en: Silk screen on paper, 106.7*160cm
+  artwork_medium_ko: 실크스크린, 160*106.7cm
+  artwork_desc_en: > 
+   What is a spätkauf? Basically, it’s a convenience store. A 7-11 of sorts. They’re not specific to Berlin, but in Berlin, there’s at least a späti on every street. People typically stop in a späti on their way out, on their way home, or on their way anywhere. In a city where public drinking isn’t policed, beers-to-go are popular. And often a part of just about any night out on the town—whether you’re clubbing or just hanging out with friends.
+
+  artwork_desc_ko: > 
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,21 +44,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
-
-# ARTWORK -----------------------------------------------
-
-
-artwork_desc_en: >
- What is a spätkauf? Basically, it’s a convenience store. A 7-11 of sorts. They’re not specific to Berlin, but in Berlin, there’s at least a späti on every street. People typically stop in a späti on their way out, on their way home, or on their way anywhere. In a city where public drinking isn’t policed, beers-to-go are popular. And often a part of just about any night out on the town—whether you’re clubbing or just hanging out with friends.
-
-artwork_desc_ko: >
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Siggi Eggertsson was born in Akureyri, a small town on the north coast of Iceland. He first showed an interest in Graphic Design at the age of 14 when he became involved in local design programs creating posters for jazz concerts and art exhibitions. When he turned 18, his vision started to expand beyond his remote home, so he applied to the Iceland Academy of Arts in Reykjavik to study Graphic Design. During his first year he met the typographer Atli Hilmarsson and they began working together on design briefs. Here Siggi Eggertsson developed not only as a typographer and designer but also, increasingly, as an Illustrator and image maker in his own right. In 2005 he moved to New York to work at the Karlssonwilker design studio followed by a move to Berlin to study in the Kunsthochschule Berlin-Weissensee.
- Early in 2007 Siggi moved to London to become part of the Big Active family and contribute to publications like Dazed and Confused, The New York Times and Arkitip plus commercial work with H&M, Stussy and various music projects. In 2008 Siggi moved back to Berlin, where he still lives and works. Siggi has a unique and complete visual identity; his approach to work takes in his design background, which results in work of hidden depth and sense of purpose. 
-
-
-participant_bio_ko: >

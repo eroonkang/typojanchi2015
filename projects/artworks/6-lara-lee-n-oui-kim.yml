@@ -1,15 +1,33 @@
 full_name_en: Lara Lee + Oui Kim
 full_name_ko: 이송은 + 김성욱
-origin_city_en: Daegu
-origin_city_ko: 대구광역시
+origin_city_en: Seoul
+origin_city_ko: 서울
 origin_country_en: South Korea
 origin_country_ko: 대한민국
 origin_lat: 35.81549
 origin_lng: 128.5138
 
-artwork_name_en: Signage 13
-artwork_name_ko: 간판 13
-artwork_year: 2015
+participant_bio_en: >
+
+
+participant_bio_ko: >
+ 이송은
+ 국민대학교 시각디자인학과를 졸업하고 영국 왕립예술학교에서 애니메이션으로 석사 학위를 받았다. ‘라라 리’라는 이름으로 애니메이터, 일러스트레이터, 감독 활동을 하고 있다. 뉴욕 아트디렉터즈 클럽 어워드, 빅토리아앨버트 미술관 일러스트레이션 어워드 등을 수상했다.
+
+ 김성욱 
+ 서울을 기반으로 OUI 스튜디오를 운영하며 뮤직비디오, 프로젝션 맵핑, 애니메이션 등을 연출하고 있다. 최근 작업으로 2015년 혁오의 <ohio>, <와리가리(warigari)>, 프라이머리의 <아끼지 마(don’t be shy)> 뮤직비디오와 베이퍼웨이브 형식의 3D 애니메이션으로 제작된 <섬(island)>, <풋 마이 핸즈 온 유(put my hands on you)> 같은 실험적인 영상들이 있다.
+
+artworks:
+-
+  artwork_name_en: Signage 13
+  artwork_name_ko: 간판 13 
+  artwork_year: 
+  artwork_medium_en: Video loop, approx. 60 sec, Projection, 130cm x 50cm,
+  artwork_medium_ko: 비디오, 약 60초, 프로젝션, 130cm x 50cm
+  artwork_desc_en: >
+  artwork_desc_ko: >
+   인적 없는 새벽 거리에서, 간판 위의 텍스트는 텅 빈 메아리 같은 외침이 된다. 이는 텍스트를 읽을 이유가 부재하는 경우도 마찬가지다. 종로 ( )가 전시 공간에는 가게가 없다. 몸체는 두고 부품(기호)만 떼어 온 공간이다. 따라서 이 작업은 종로 거리에서 흔히 접하는 상업용 간판의 어지럽고 일방적인 목소리를 갤러리로 탈바꿈한 오랜 서울역사에 고립시킴으로써 제가 살던 거리와 가게에서 떨어져 나온 간판이 어떤 물건이 되는지 탐색하려는 의도를 품는다. 간판이 길거리에서 외치던 흔한 단어-그러나 전시장의 관객들에게는 실제적 의미가 없어진 단어-를 골라, 아무것도 프린트되지 않은 회전 입간판 위로 그 상(像)을 띄운다. 영상은 처음과 끝의 경계가 없이 반복되며, 무한히 제자리를 떠돈다. 투사된 이미지는 3차원 공간에 흩어져 존재하는 글자들이며, 이는 입간판 위로 완전히 달라붙기를 거부한다. 현재의 삶에 바로 맞닿아 있던 입간판들을 정돈된 전시장 안에 위치시키는 순간, 이 작은 공간은 어느 미래에 존재하는 가상의 박물관이 될 수도 있다. 끊어진 맥락 속에 있는 이 ‘과거’의 물건은 ‘미래’의 관객들에게 무엇을 환기하며, 어떻게 대화하는가?
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -28,37 +46,4 @@ venue_lng: 126.9716173
 # - image3.jpg 
 
 
- # ARTWORK -----------------------------------------------
 
-
-
-artwork_desc_en: >
- Texts on signage in the street shout out to no one in particular and become an empty echo when there's no one around. It is the same when there is no good reason for anybody to read the text on the signage because it is out of context. In the particular environment that Jongno( )Ga exhibition creates, there is signage but it has no commercial functionality. The gallery is a space full of symbols, words and signs but the bodies that they belonged to, or were connected to, are absent, left behind somewhere. 
- What happens to a piece of street furniture when it is hijacked from where it used to belong and placed in a sterile gallery space as if it were exhibited in a future museum of antiquities from the contemporary world? What might decontextualised symbols and signage evoke to this ‘future’ audience?
- These loud and one-directional voices, which were once intended to be immediate and commercial, might initiate a different kind of conversation with the audience, if indeed they can ever actually generate any dialogue. 
-
-
-
-artwork_desc_ko: >
- 간판을 읽을 사람이 없는 새벽 거리에서, 간판 위의 텍스트는 텅빈 메아리같은 외침이 된다. 이는 텍스트를 읽을 이유가 부재하는 경우에도 마찬가지다. 종로 ( )가 전시 공간에는 가게가 없다. 몸체는 두고 부품(기호)만 떼어 온 공간이다. 따라서 이 작업은 종로 거리에서 흔히 접하게 되는 상업용 간판의 어지럽고 일방적인 목소리를 갤러리로 탈바꿈한 오랜 서울역사에 고립시킴으로서 제가 살던 거리와 가게에서 떨어져 나온 간판이 어떤 물건이 되는지를 탐색하려 한다.
- 현재의 삶에 바로 맞닿아 있던 입간판들을 정돈된 전시장 안에 위치시키는 순간, 문화역 서울284 안 이 작은 공간은 어느 미래에 존재하는 가상의 박물관이 될 수도 있다.  끊어진 맥락 속에 있는 이 '과거'의 물건은 '미래'의 관객들에게 무엇을 환기하며, 어떻게 대화하는가? 
- 나는 간판이 길거리에서 외치던 흔한 단어 - 그러나 전시장의 관객들에게는 실제적 의미가 없어진 단어 - 를 골라, 아무것도 프린트되지 않은 회전 입간판 위로 그 상(像)을 띄우고자 한다. 영상은 처음과 끝의 경계가 없이 반복되며, 무한히 제자리를 떠돈다. 투사된 이미지는 3차원의 공간에 흩어져 존재하는 글자들이며, 이는 읽을 수 있다가 없다가를 반복하며 입간판 위로 완전히 달라붙기를 거부한다. 
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
-
-
-participant_bio_ko: >
- Lara Lee 애니메이션 상영 (International screenings at);
-
- 그라픽스, 앤트워프, 벨기에, 2014 (Grafixx, Antwerp, 2014)
- 소닥 애니메이션 페스티벌, 사우스다코타 주, 2013 (SoDak Animation Festival, South Dakota, 2013)
- 메이킹 트랙스 - 월리긱 시네마, 런던, 2013 (Making Tracks - Whirlygig Cinema, Rio Cinema, London, 2013)
- 픽토플라즈마 베를린 페스티벌, 베를린, 2012 (Pictoplasma Berlin Festival, Babylon, Berlin, 2012)
- 국제 디자인 협회 타이페이 회의, 2011 (IDA Congress, Taipei, 2011)
- 어도비 디자인 어워드 갤러리, 뉴욕, 2011 (Adobe Design Achievement Awards  Gallery, New York, 2011)
-
- 김성욱 
-
- 서울을 기반으로OUI스튜디오를 운영하며 뮤직비디오, 프로젝션 맵핑, 애니메이션 등을 연출하고 있다.최근 작업으로는 2015년 ohio 숏필름, warigari , don’t be shy 뮤직비디오와 베이퍼웨이브 형식의 3D 애니메이션으로 제작된 island, put my hands on you 같은 실험적인 영상을 제작하였다.

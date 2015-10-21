@@ -1,5 +1,5 @@
-full_name_en: "( ) Home"
-full_name_ko: "( ) 집 : 문자벽돌"
+full_name_en: PaTi
+full_name_ko: 파주타이포그라피학교
 origin_city_en: Paju
 origin_city_ko: 파주
 origin_country_en: South Korea
@@ -7,9 +7,24 @@ origin_country_ko: 대한민국
 origin_lat: 37.70824
 origin_lng: 126.68672
 
-artwork_name_en: Typography City Exhibition
-artwork_name_ko: 문자도시전
-artwork_year: 2015
+participant_bio_en: >
+
+
+participant_bio_ko: >
+ 파주 타이포그라피 교육 협동조합이 만든 ‘파주타이포그라피학교(파티)’는 2013년 봄, 파주에서 움을 튼 디자인 배움터이다. 그래픽 디자이너 안상수와 여러 스승들이 뜻을 모아 만든 파티는 우리 제다움(정체성)에 바탕을 둔 교육을 추구하며, 독창적인 배움틀과 국내외 네트워크를 통해 새롭고 바른 디자인 교육을 실천하고 있다. 부설 연구소로 ‘디자인 인문 연구소’와 ‘디지털 디자인 연구소’운영하고 있다.
+
+
+artworks:
+-
+  artwork_name_en: 책 벽돌
+  artwork_name_ko: Book Bricks
+  artwork_year: 2015
+  artwork_medium_en: Mixed media
+  artwork_medium_ko: 혼합 매체
+  artwork_desc_en: >
+  artwork_desc_ko: >
+
+
 
 venue_name_en: PaTi 
 venue_name_ko: 파티
@@ -27,22 +42,3 @@ venue_lng: 126.68672
 # - image2.jpg 
 # - image3.jpg 
 
-
-# ARTWORK -----------------------------------------------
-
-
-artwork_desc_en: >
- 
- 
-
-artwork_desc_ko: >
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
-
-
-participant_bio_ko: >
- 파티. 파주타이포그라피학PaTI. Paju Typography Institute
- 파주타이포그라피교육 협동조합이 만든 ‘파주타이포그라피학교(파티)’는 2013년 봄, 파주에서 움을튼 디자인 배움터입니다. 그래픽디자이너 날개 안상수와 여러 스승들이 뜻을 모아 만든 파티는 우리 제다움(정체성)에 바탕을 둔 교육을 추구하며, 독창적인 배움틀과 국내외 네트워크를 통해 새롭고 바른 디자인 교육을 실천합니다. 배움 과정은 현재 4년제 바탕 과정인 ‘한배곳’과 2년제 심화 과정인 ‘더배곳’ 이 있습니다. 또한 파티 안에는 부설 연구소인 ‘디자인인문연구소’와 ‘디지털디자인연구소’를 운영하고 있으며, 디자인 실무를 기획하고 연구하는 디자인 연구소가 마련되어있어 여러 실무 프로젝트들을 진행하여 재원을 마련하고 있습니다.

@@ -7,9 +7,22 @@ origin_country_ko: 대한민국
 origin_lat: 37.53437
 origin_lng: 127.00646
 
-artwork_name_en: 
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ DESIGN METHODS is a creative design studio in Seoul, comprised of two industrial designers and two graphic designers, approaching to the context of wider aspects. The studio is working on diverse range of industrial fields including product, furniture, space, digital media and brands. The design attitude and process are strongly focused on continuos exploring and embraces new archetype, materiality, technology and simplicity.
+
+participant_bio_ko: >
+ 2012년 설립된 디자인 메소즈는 탐구적 접근과 실험적 프로세스를 통해 새로운 유형의 디자인 결과물을 생산하고자 디자인 전반에서 활동하는 네 명의 디자이너(김기현, 문석진, 이상필, 남정모)가 모여 설립한 산업디자인 스튜디오이다. 영국 런던 디자인 뮤지엄의 ‘올해의 디자인(Design of Year)’, 100% 디자인 런던 ‘블루프린트 어워드(Blueprint Awards)’, 미국 산업디자인협회 ‘IDEA’, 독일 디자인협회 ‘퓨어 탤런트 콘테스트(Pure Talents Contest)’, 한국 ‘코리아 디자인 어워드(Korea Design Awards)’ 등 세계적인 디자인 어워드에서 수상했으며, 현재 제품, 가구, 공간, 디지털 미디어, 브랜딩 등 다양한 분야에서 활동하고 있다.
+
+artworks:
+-
+  artwork_name_en: 
+  artwork_name_ko: 
+  artwork_year: 
+  artwork_medium_en:
+  artwork_medium_ko: 
+  artwork_desc_en: >
+  artwork_desc_ko: >
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -26,25 +39,4 @@ venue_lng: 126.9716173
 # - image1.jpg 
 # - image2.jpg 
 # - image3.jpg 
-
- # ARTWORK -----------------------------------------------
-
-
-artwork_desc_en: >
-
- 
- 
-
-artwork_desc_ko: >
- 
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- DESIGN METHODS is a creative design studio in Seoul, comprised of two industrial designers and two graphic designers, approaching to the context of wider aspects. The studio is working on diverse range of industrial fields including product, furniture, space, digital media and brands.
- The design attitude and process are strongly focused on continuos exploring and embraces new archetype, materiality, technology and simplicity.
-
-participant_bio_ko: >
- DESIGN METHODS는 보다 넓은 시각의 탐구적 접근과 실험적인 프로세를 통해 새로운 유형의 디자인 결과물을 생산하고자 디자인 전반에서 활동하는 4인의 디자이너가 모여 설립한 산업디자인 스튜디오입니다. 영국 런던 디자인 뮤지엄의 Design of Year, 100% 디자인 런던 Blueprint Awards, 미국산업디자인협회 IDEA, 독일 디자인 협회 Pure Talents Contest, 한국 Korea Design Awards, 등 세계적 권위의 기관들로 부터 수상과 재능을 인정을 받아왔으며, 현재 제품, 가구, 공간, 디지털 미디어 그리고 브랜딩 등 다양한 분야의 산업과의 협력을 통해 활동하고 있습니다.
 

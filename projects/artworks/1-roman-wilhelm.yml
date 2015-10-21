@@ -7,9 +7,30 @@ origin_country_ko: 독일
 origin_lat: 52.4835
 origin_lng: 13.4314
 
-artwork_name_en: Typographic Entanglement (Berlinistanbulhongkongshanghaibeijing…)
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ Roman Wilhelm *1976 in Germany
+
+ Roman studied visual communication at Burg Giebichenstein University of Art and Design Halle, and under Prof. Fred Smeijers (typeface design master class) at the Academy of Visual Arts in Leipzig, Germany. Since 2005 he is an art director for INSIDE A Communications AG, Berlin & Beijing. He has been teaching and conducting workshops at diverse art and design institutions in Germany, Italy, Poland, China and Korea. From 2008 to 2013, he was a member of the Multilingual Typography Research Group (general lead: Prof. Dr. Ruedi Baur) at the Zurich University of the Arts, later at HEAD Geneva, Switzerland. He was an artist in residence at the Hong Kong Baptist University, Academy of Visual Arts in 2015. His first digital Chinese typeface “Laowai Sung (老外宋)” has been published by Arphic (文鼎), Taiwan, in 2015. Being a fluent Chinese speaker, Roman uses his language skills as much as possible during his frequent teaching and research stays in China. In 2008, he became a founding member of “Shanghai Flaneur”, a walking think-tank on the city of Shanghai, where he has been developing guided city labs on Shanghai’s role in the history and present of Asian typography and media, leading him to curate and edit a special issue of the Germany “Typotopografie” (typo-topography) magazine exclusively focusing on Shanghai.
+
+
+participant_bio_ko: >
+ 1976년 독일에서 태어난 로만 빌헬름은 할레 미술디자인 대학에서 시각 커뮤니케이션을 공부했으며 라이프니치 시각예술 아카데미에서 프레트 스메이여르스의 지도하에 글꼴 디자인 마스터 과정을 마쳤다. 2005년부터 베를린과 베이징에 있는 인사이드 에이의 아트 디렉터로 일하고 있으며 독일, 이탈리아, 폴란드, 중국, 한국 등의 여러 예술 및 디자인 기관에서 워크숍을 진행했다. 능숙한 중국어를 기반으로 중국에서 강의와 리서치를 진행하는 그는 2008년 아시아 타이포그래피와 미디어의 역사 속에서 상하이라는 도시의 역할을 연구 개발하는 ‘상하이 산책자’를 공동 창립했다. 2015년 외국인으로서는 처음으로 ‘외국인체(老外宋)’(2015)라는 중국어 글꼴을 타이완에서 출시했다.
+
+artworks:
+-
+  artwork_name_en: Typographic Entanglement (Berlinistanbulhongkongshanghaibeijing…)
+  artwork_name_ko: 타이포그래피 직조망(베를린이스탄불홍콩상하이베이징...)
+  artwork_year: 2015
+  artwork_medium_en: Mixed media, 250*450cm (wall poster)
+  artwork_medium_ko: 혼합매체, 250*450cm(월 포스터)
+  artwork_desc_en: >
+   In history, different writing systems evolved alongside the languages they used to visualize, in cultural contexts connected to certain geographic spaces (such as the Chinese or Korean scripts). But parallel to that development, expansion politics also brought writing systems to new places, where they too continued to evolve (such as the Greek script in Ptolemaic Egypt, the Latin script throughout the Roman empire or – different – in Vietnam). The metropolis of the 20th and 21st century brings about a very different idea of culture space, re-contextualizing all sorts of languages and scripts on signboards alongside each other, making this transcultural mix more defining for the perception of the city than alleged “native” elements of visual culture. In Berlin, all the Turkish and Arabic shops, supermarkets, bars and restaurants alongside Sonnenallee and Karl-Marx-Straße (Neukölln district) make you feel like in Istanbul or Jerusalem, but alongside other signals of visual culture (be it German shops or Vietnamese restaurants), they define that specific part of Berlin, attracting tourists from all over the world. Urban typography seems to warp geographic space. If typographic signals in urban space were voices, then how would these voices sound together? This visual investigation starts at Berlin’s Oranien street in Kreuzberg district, where German shopfronts and letterings coexist with the Turkish. The nearby “Hong Kong Shop” is not run by Chinese, same for the “China Box” noodle store. However, these little visual hints trigger a reflection on the visual culture of Chinese cities where I frequently stay: Hong Kong, Shanghai and Beijing. The samples shown here reflect recent visual researches I did in the context of different art and design projects, all reflecting political or cultural urban space, or the cultural universe of writing and type.
+   Despite the different city names, the whole works reflects a mindmap of an urban space in Berlin that I am walking around in, carrying all my visual cultural notions, connotations and memories with me whereever I go, showing the tense entanglement in the fabric of urban typography. This collection has been planned as a highly individual, Berlin-based visual menu for a typo banquet (잔치). A booklet shaped like a city map accompanies the wall poster, providing more information and translations of the respective content. The adjacent musical piece “The Fabric of Entanglement (Berlinistanbulhongkongshanghaibeijing…)” consists of five parts, according to the poster. The music is based on on-site recordings of urban noise (Muzak) and is meant to lift the visual experience on a more real-time basis.
+
+  artwork_desc_ko: >
+   역사적으로 각 문화권의 문자 체계는 특정한 지리적 공간 및 문화적 맥락과 결부되어 진화해왔다. 하지만 지리적 팽창과 함께 탄생한 21세기 메트로폴리스에서는 다양한 종류의 언어와 문자 체계들이 뒤섞여 서로를 재맥락화한다. 가령 베를린의 크로이베르크 지구 오라니엔 거리에는 독일어와 영어, 터키어가 혼재하며 다문화적 혼성을 만들어낸다. 작가가 거닐었던 도시 공간의 마인드맵을 반영한 이 다섯 도시의 타이포그래피들은 지리적 공간을 뒤틀고 도시에 대한 인식을 재정의하는 듯하다. 만약 도시의 타이포그래피가 목소리를 가지고 있다면, 이들의 합창은 어떻게 들릴까? 현지의 도시 소음을 녹음해 다섯 부분으로 구성한 사운드 작품은 이러한 시각 경험에 현장감을 더해준다. 또한 함께 전시된 소책자는 도시의 지도처럼 각 포스터의 내용에 대한 더 많은 정보를 제공한다.
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,31 +48,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
-# ARTWORK -----------------------------------------------
-
-artwork_desc_en: >
- In history, different writing systems evolved alongside the languages they used to visualize, in cultural contexts connected to certain geographic spaces (such as the Chinese or Korean scripts). But parallel to that development, expansion politics also brought writing systems to new places, where they too continued to evolve (such as the Greek script in Ptolemaic Egypt, the Latin script throughout the Roman empire or – different – in Vietnam). The metropolis of the 20th and 21st century brings about a very different idea of culture space, re-contextualizing all sorts of languages and scripts on signboards alongside each other, making this transcultural mix more defining for the perception of the city than alleged “native” elements of visual culture.
-
- In Berlin, all the Turkish and Arabic shops, supermarkets, bars and restaurants alongside Sonnenallee and Karl-Marx-Straße (Neukölln district) make you feel like in Istanbul or Jerusalem, but alongside other signals of visual culture (be it German shops or Vietnamese restaurants), they define that specific part of Berlin, attracting tourists from all over the world. 
-
- Urban typography seems to warp geographic space. If typographic signals in urban space were voices, then how would these voices sound together?
-
- This visual investigation starts at Berlin’s Oranien street in Kreuzberg district, where German shopfronts and letterings coexist with the Turkish. The nearby “Hong Kong Shop” is not run by Chinese, same for the “China Box” noodle store. However, these little visual hints trigger a reflection on the visual culture of Chinese cities where I frequently stay: Hong Kong, Shanghai and Beijing. The samples shown here reflect recent visual researches I did in the context of different art and design projects, all reflecting political or cultural urban space, or the cultural universe of writing and type.
-
- Despite the different city names, the whole works reflects a mindmap of an urban space in Berlin that I am walking around in, carrying all my visual cultural notions, connotations and memories with me whereever I go, showing the tense entanglement in the fabric of urban typography. This collection has been planned as a highly individual, Berlin-based visual menu for a typo banquet (잔치).
-
- A booklet shaped like a city map accompanies the wall poster, providing more information and translations of the respective content.
-
- The adjacent musical piece “The Fabric of Entanglement (Berlinistanbulhongkongshanghaibeijing…)” consists of five parts, according to the poster. The music is based on on-site recordings of urban noise (Muzak) and is meant to lift the visual experience on a more real-time basis.
-
-artwork_desc_ko: >
- 
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Roman Wilhelm *1976 in Germany
-
- Roman studied visual communication at Burg Giebichenstein University of Art and Design Halle, and under Prof. Fred Smeijers (typeface design master class) at the Academy of Visual Arts in Leipzig, Germany. Since 2005 he is an art director for INSIDE A Communications AG, Berlin & Beijing. He has been teaching and conducting workshops at diverse art and design institutions in Germany, Italy, Poland, China and Korea. From 2008 to 2013, he was a member of the Multilingual Typography Research Group (general lead: Prof. Dr. Ruedi Baur) at the Zurich University of the Arts, later at HEAD Geneva, Switzerland. He was an artist in residence at the Hong Kong Baptist University, Academy of Visual Arts in 2015. His first digital Chinese typeface “Laowai Sung (老外宋)” has been published by Arphic (文鼎), Taiwan, in 2015. Being a fluent Chinese speaker, Roman uses his language skills as much as possible during his frequent teaching and research stays in China. In 2008, he became a founding member of “Shanghai Flaneur”, a walking think-tank on the city of Shanghai, where he has been developing guided city labs on Shanghai’s role in the history and present of Asian typography and media, leading him to curate and edit a special issue of the Germany “Typotopografie” (typo-topography) magazine exclusively focusing on Shanghai.
-
-
-participant_bio_ko: >

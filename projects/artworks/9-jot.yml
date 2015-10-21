@@ -7,9 +7,32 @@ origin_country_ko: 한국
 origin_lat: 37.53601
 origin_lng: 126.96902
 
-artwork_name_en: Black Letter Swag
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+
+
+participant_bio_ko: >
+ 스튜디오 좋의 디자이너 송재원은 서울대학교 시각디자인 학과를 졸업하여 현재 제일기획 아트디렉터로 재직 중이다. 보해양조의 아홉시 반, 잎새주, 맥심 카누, 휴롬 등의 캠페인을 담당하였으며, 아홉시반 캠페인으로 2014년 대한민국 광고대상 온라인 부문 금상을 수상하였다. 스튜디오 좋의 카피라이터 남우리는 홍익대학교 건축 대학을 졸업하여 역시 제일기획의 카피라이터로 재직 중이다. 삼성전자의 GalaxyS, Galaxy Note, Gear의 글로벌 캠페인, 아모레 퍼시픽의 라네즈, 마몽드 등의 캠페인을 담당하였으며 2013년 칸 국제 광고제 Younglion Film 부문에 한국 대표로 선발되었다. 평소 만들고 싶던 광고 형식의 컨텐츠를 광고주 허락없이 작업하여 페이스북 "좋대로 만드는 광고" 페이지에 연재하고 있다.
+
+
+artworks:
+-
+  artwork_name_en: The Birth of Yongsan Swag 
+  artwork_name_ko: 용산 스웩체의 탄생
+  artwork_year: 2015
+  artwork_medium_en: Wood, 1500x50cm
+  artwork_medium_ko: 나무, 1500x50cm
+  artwork_desc_en: >
+  artwork_desc_ko: >
+   스웩(swag)은 래퍼들이 자기를 과시하거나 상대방을 멸시하는 랩 기법이다. 좋대로 작업하는 팀은 자기 과시를 직접 디자인한 스웩체에 덧입혀 보여준다.
+   우린 말이야
+   아직 이십대인데
+   삼성 다니고
+   용산에 전셋집이 있고
+   엄청난 서체 만들어서
+   이렇게 전시까지 하지
+   잇츠 용산 스웩 
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,29 +50,5 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
- # ARTWORK -----------------------------------------------
 
 
-
-artwork_desc_en: >
-
-
-artwork_desc_ko: >
- I'm Black-hole 모든 시선 다 swallow
- 나쁘지만 매혹적인 God’s Black swan
- It's Black mail, 나는 Blacker like 히틀러
- Haters 다 Black out It’s Black letter swag
-
- 투애니원 따먹어서 승리했어 Blackjack
- 좋밥들은 I don't care, 내가 제일 잘 나가
- 흑백논리 개 헛소리 Black은 상대 안 해 여백
- Haters 다 Black out It’s Black letter swag
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
-
-
-participant_bio_ko: >
- 스튜디오 좋의 디자이너 송재원은 서울대학교 시각디자인 학과를 졸업하여 현재 제일기획 아트디렉터로 재직 중이다. 보해양조의 아홉시 반, 잎새주, 맥심 카누, 휴롬 등의 캠페인을 담당하였으며, 아홉시반 캠페인으로 2014년 대한민국 광고대상 온라인 부문 금상을 수상하였다. 스튜디오 좋의 카피라이터 남우리는 홍익대학교 건축 대학을 졸업하여 역시 제일기획의 카피라이터로 재직 중이다. 삼성전자의 GalaxyS, Galaxy Note, Gear의 글로벌 캠페인, 아모레 퍼시픽의 라네즈, 마몽드 등의 캠페인을 담당하였으며 2013년 칸 국제 광고제 Younglion Film 부문에 한국 대표로 선발되었다. 평소 만들고 싶던 광고 형식의 컨텐츠를 광고주 허락없이 작업하여 페이스북 "좋대로 만드는 광고" 페이지에 연재하고 있다.

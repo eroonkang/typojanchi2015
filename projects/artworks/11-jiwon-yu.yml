@@ -1,0 +1,43 @@
+full_name_en: Jiwon Yu
+full_name_ko: 유지원
+origin_city_en: Seoul
+origin_city_ko: 서울
+origin_country_en: KR
+origin_country_ko: 한국
+origin_lat: 37.55583
+origin_lng: 126.97161
+
+participant_bio_en: >
+
+
+participant_bio_ko: >
+ 책과 글자를 좋아하는 디자이너. 서울대학교 산업디자인학과에서 시각디자인을 전공하고 민음사에서 북 디자이너로 일했다. 독일 국제학술교류처 DAAD로부터 예술 장학금을 받으며, 라이프치히 그래픽서적예술대학에서 타이포그래피를 전공하고, 홍익대학교 메타디자인 전문인력양성 사업단 BK 연구 교수를 지냈다. 이후 홍익대학교 시각디자인과 겸임 교수로 타이포그래피와 편집 디자인을 가르치는 동시에, 타이포그래피 연구 및 전시, 북 디자인, 저술과 번역을 한다. 
+
+artworks:
+-
+  artwork_name_en: City Letter Reportage
+  artwork_name_ko: 도시문자 르포르타주
+  artwork_year: 2015
+  artwork_medium_en:
+  artwork_medium_ko: 
+  artwork_desc_en: >
+  artwork_desc_ko: >
+
+
+
+venue_name_en: Seoul284
+venue_name_ko: 문화역 서울 284
+venue_detail_en: 
+venue_detail_ko: 
+venue_city_en: Seoul
+venue_city_ko: 서울
+venue_country_en: KR
+venue_country_ko: 한국
+venue_lat: 37.55583
+venue_lng: 126.97161
+
+# photos: 
+# - image1.jpg 
+# - image2.jpg 
+# - image3.jpg 
+

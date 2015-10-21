@@ -7,9 +7,25 @@ origin_country_ko: 영국
 origin_lat: 51.5011441
 origin_lng: -0.1792847
 
-artwork_name_en: Real-time Cities
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ Kyuha Shim(Q) is a computational designer, researcher and lecturer based in London. Q works in the integrative and interdisciplinary realm of art, design and technology, with particular interest in the language of systematic and playful patterns in design & computation. Central to his practice is the use of data as the primary medium in creating a complete, narrative system informed and driven by integrated processes of visualisation, fabrication and installation.
+
+participant_bio_ko: >
+
+artworks:
+-
+  artwork_name_en: Real-time Cities
+  artwork_name_ko: 실시간 도시들
+  artwork_year: 2015
+  artwork_medium_en: Media installation
+  artwork_medium_ko: 미디어 설치
+  artwork_desc_en: >
+   The system will utilise both texts (written by Adrian) and poster designs (done by six students) as inputs for the semantic analysis, and they will be integrated with real-time data of each city collected via online APIs in order to draw cohesive and iterative pictures of each city in real-time. 
+
+  artwork_desc_ko: >
+   심규하는 런던을 기반으로 연구 및 강의 활동을 하는 디자이너이다. 컴퓨터 계산을 활용한 그의 작업은 미술과 디자인, 그리고 기술이 통합된 학제간 영역에 위치하며, 특히 디자인과 컴퓨터에 있어서 체계적이고 유희적인 언어에 관심을 갖는다. 그는 시각화와 구조화, 그리고 설치가 통합되는 과정에서 도출되는 완전한 내러티브 시스템을 만들어내는 주된 매체로 정보를 이용하는 데 중점을 둔다.
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,18 +43,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
- # ARTWORK -----------------------------------------------
-
-
-artwork_desc_en: >
- The system will utilise both texts (written by Adrian) and poster designs (done by six students) as inputs for the semantic analysis, and they will be integrated with real-time data of each city collected via online APIs in order to draw cohesive and iterative pictures of each city in real-time. 
-
-artwork_desc_ko: >
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Kyuha Shim(Q) is a computational designer, researcher and lecturer based in London. Q works in the integrative and interdisciplinary realm of art, design and technology, with particular interest in the language of systematic and playful patterns in design & computation. Central to his practice is the use of data as the primary medium in creating a complete, narrative system informed and driven by integrated processes of visualisation, fabrication and installation.
-
-participant_bio_ko: >

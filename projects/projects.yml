@@ -56,8 +56,8 @@ projects:
     full_name_ko: 하준수
     url: /projects/artworks/1-joonsoo-ha.yml
   - 
-    full_name_en: Kota Iguchi (TYMOTE / CEKAI)
-    full_name_ko: 코타 이구치(티모테/세카이)
+    full_name_en: Kota Iguchi 
+    full_name_ko: 코타 이구치
     url: /projects/artworks/1-kota-iguchi.yml
   - 
     full_name_en: Kyuhyung Cho
@@ -70,7 +70,7 @@ projects:
   - 
     full_name_en: Research and Development
     full_name_ko: 리서치 앤 디벨롭먼트
-    url: /projects/artworks/1-r-n-d.yml
+    url: /projects/artworks/1-research-n-development.yml
   - 
     full_name_en: R2
     full_name_ko: R2
@@ -104,9 +104,14 @@ projects:
     full_name_ko: 우 판
     url: /projects/artworks/1-wu-fan.yml
   - 
-    full_name_en: Yuma Harada+Shohei Iida
-    full_name_ko: 유마 하라다+쇼헤이 이다
+    full_name_en: Yuma Harada + Shohei Iida
+    full_name_ko: 유마 하라다 + 쇼헤이 이다
     url: /projects/artworks/1-yuma-harada-n-shohei-iida.yml
+
+  - 
+    full_name_en: Why Not Associates and Gordon Young
+    full_name_ko: 
+    url: /projects/artworks/1-why-not-n-gordon-young.yml
 
   # PROJECT -----------------------------------------
 
@@ -159,9 +164,9 @@ projects:
     full_name_ko: 세바스찬 코세다
     url: /projects/artworks/2-sebastian-koseda.yml
   - 
-    full_name_en: Summer Studio(Carolina Dahl & Minna Sakaria)
-    full_name_ko: 썸머 스튜디오(민나 사카리아 & 캐롤리나 달)
-    url: /projects/artworks/2-summer-studio-carolina-dahl-n-minna-sakaria.yml
+    full_name_en: Summer Studio
+    full_name_ko: 썸머 스튜디오
+    url: /projects/artworks/2-summer-studio.yml
 
 
 
@@ -194,6 +199,11 @@ projects:
    Shaughnessy is co-founder of the publishing company Unit Editions. The company has published a wide range of graphic design books. Shaughnessy is the author of monographs on Herb Lubalin, Ken Garland, FHK Henrion and Lance Wyman.
   
   curator_bio_ko: >
+   안병학-
+   홍익대학교에서 시각디자인을 전공하고, 동 대학원에서 타이포그래피로, 영국 왕립미술 학교에서 비주얼커뮤니케이션으로 석사 학위를 받았다. 디자인 사이를 운영했으며 현재는 홍익대학교 교수로 재직하며 독립 디자이너로 활동하고 있다.
+   
+   에이드리언 쇼너시-
+   디자이너이자 저술가이다. 1989년 디자인 스튜디오 인트로Intro를 공동 설립해 15년 동안 아트 디렉터로 일했다. 현재는 인트로를 떠나 쇼네시웍스ShaughnessyWorks를 운영하며 디자인과 아트 디렉팅, 편집에 대한 컨설팅 일을 하고 있다. 『영혼을 잃지 않는 디자이너 되기How to be a Graphic Designer Without Losing Your Soul』를 비롯해 다수의 책을 썼으며, 직접 디자인과 시각문화에 대한 책을 내는 유니트 에디션스(Unit Editions)를 공동 설립하기도 했다. 디자인 잡지 《아이》, 《디자인 위크》, 《크리에이티브 리뷰》, 디자인 블로그 ‘디자인 옵서버’ 등에 글을 쓰고 세계 곳곳을 돌아다니며 강연을 하고 있다.
 
 
 -
@@ -207,7 +217,7 @@ projects:
   project_artists: 
   - 
     full_name_en: Giang Nguyen
-    full_name_ko: 
+    full_name_ko: 장응우옌
     url: /projects/artworks/3-giang-nguyen.yml
   - 
     full_name_en: Hagiwara Shunya
@@ -215,15 +225,15 @@ projects:
     url: /projects/artworks/3-hagiwara-shunya.yml
   - 
     full_name_en: Hung Chang-Lien
-    full_name_ko: 
+    full_name_ko: 훙창롄
     url: /projects/artworks/3-hung-changlien.yml
   - 
     full_name_en: Javin Mo
     full_name_ko: 자빈 모
     url: /projects/artworks/3-javin-mo.yml
   - 
-    full_name_en: Li Shaobo
-    full_name_ko: 리 사오보
+    full_name_en: Li Shaobo + Liu Jingsha
+    full_name_ko: 리샤오보 + 류징샤
     url: /projects/artworks/3-li-shaobo.yml
 
     full_name_en: Morimura Makoto
@@ -231,12 +241,12 @@ projects:
     url: /projects/artworks/3-morimura-makoto.yml
   - 
     full_name_en: Prabda Yoon
-    full_name_ko: 
+    full_name_ko: 프랍다 윤
     url: /projects/artworks/3-prabda-yoon.yml
 
   - 
     full_name_en: Sean Kelvin Khoo
-    full_name_ko: 
+    full_name_ko: 숀 켈빈 쿠
     url: /projects/artworks/3-sean-kelvin-khoo.yml
 
   - 
@@ -258,6 +268,7 @@ projects:
   curator_bio_en: >
   
   curator_bio_ko: >
+   고토 테츠야는 일본 오사카에 거주하는 그래픽 디자이너이다. 대안적인 사무 공간인 “OOO(아웃 오브 오피스)”와 다학제적 에이전시 “OOO 프로젝트”를 함께 운영하고 있다. 그래픽 디자이너일 뿐만 아니라 편집자, 저술자, 큐레이터의 업무를 병행하고 있다. 일본 타이포그래피 학회지인 《타이포그래픽스 티아이:》 263호부터 270호까지 편집장을 지내며 아시아의 그래픽 디자인과 타이포그래피 씬을 소개하는 글을 기고했다. 현재 일본 《아이디어》지에 ‘엘로우 페이지’라는 제목으로 아시아 그래픽 디자인 씬을 소개하는 글을 정기적으로 기고하고 있다.
    
 -
   idx: 4
@@ -313,6 +324,7 @@ projects:
    Jaemin Lee has been working as a graphic designer at STUDIO FNT which he founded in 2006. He teaches graphic design at Seoul National University, University of Seoul, and has also participated in many exhibitions including <CREATIVE©ITIES>, <The 2nd ShangHai Biennial of Asia Graphic Design 2013>, <TYPOJANCHI 2011: Seoul International Typography Biennale>, <Connected Project in Graphic Design Festival Breda>, etc. He designed numerous posters for cultural and artistic events such as exhibitions and concerts. Since 2011, he actively worked with Junglim Foundation which deals with projects that explore meaningful exchanges with architecture, culture and arts. These include, but are not limited to, publication, education, forum, exhibition and research.
 
   curator_bio_ko: >
+   그래픽 디자이너. 서울대학교를 졸업하고 2006년 스튜디오 fnt를 설립했다. 두 차례의 개인전을 비롯해 《제2회 상하이 아시아 그래픽디자인 비엔날레》, 《타이포잔치 2011》 등의 전시에 참여했으며 다양한 문화 행사와 공연을 위한 작업을 해오고 있다. 2011년부터 정림문화재단과 함께 건축, 문화, 예술 사이에서 북 디자인뿐 아니라 교육, 포럼, 전시, 리서치 등을 포함하는 의미 있는 활동을 하고 있다. 서울대학교, 서울시립대학교 등에서 그래픽 디자인을 가르치고 있다. 
    
 
 -
@@ -471,12 +483,12 @@ projects:
 
   project_artists: 
   - 
-    full_name_en: Hongdan (Ban Yoon Jung)
-    full_name_ko: 홍단 (반윤정)
+    full_name_en: Hongdan 
+    full_name_ko: 홍단 
     url: /projects/artworks/6-ban-yoon-jung.yml
   - 
-    full_name_en: Joowon Han + Sejoong Kim (COM)
-    full_name_ko: 한주원 + 김세중(COM)
+    full_name_en: Joowon Han + Sejoong Kim 
+    full_name_ko: 한주원 + 김세중
     url: /projects/artworks/6-com.yml
   - 
     full_name_en: Corners
@@ -504,7 +516,7 @@ projects:
     url: /projects/artworks/6-mano-ahn.yml
   - 
     full_name_en: Marvin Lee + Eli Park Sorensen
-    full_name_ko: 이마빈 + Eli Park
+    full_name_ko: 이마빈 + 일리 박 소렌슨
     url: /projects/artworks/6-marvin-lee-n-eli-park.yml
   - 
     full_name_en: Mingoo Yoon
@@ -526,7 +538,15 @@ projects:
     full_name_en: Uk Kim
     full_name_ko: 김욱
     url: /projects/artworks/6-uk-kim.yml
+  - 
+    full_name_en: Shin Dockho
+    full_name_ko: 신덕호
+    url: /projects/artworks/6-shin-dockho.yml
 
+  - 
+    full_name_en: Dongwhan Kim
+    full_name_ko: 김동환
+    url: /projects/artworks/6-dongwhan-kim.yml
 
   # PROJECT -----------------------------------------
 
@@ -537,12 +557,14 @@ projects:
   # CURATOR -----------------------------------------
   curator_bio_en: >
   curator_bio_ko: >
+   그래픽 디자이너. 홍익대학교 교수. 미국에서 태어나고 자란 교포 2세로, 버클리 대학교에서 건축을 전공하고 로드아일랜드 디자인학교에서 그래픽디자인으로 석사 학위를 받았다. 2010년부터 한국에 거주하며 디자인 글쓰기 및 타이포그래피 리서치 작업을 하는 한편 학생들과 함께 한국 시각문화를 탐구하는 ‘온돌’ 프로젝트를 진행해 오고 있다. '디자이너의 행복'과 '디지털 공예'라는 주제로 연구하고 작업해 오고 있다.
    
 
 -
   idx: 7
-  project_name_en: "( ) Home"
-  project_name_ko: "( ) 집 : 문자벽돌"
+  project_name_en: Book Bricks
+  project_name_ko: 책 벽돌
+
 
   curator_name_en: 
   curator_name_ko: 최문경
@@ -550,7 +572,7 @@ projects:
   project_artists: 
   - 
     full_name_en: PaTi
-    full_name_ko: 파티
+    full_name_ko: 파주타이포그라피학교
     url: /projects/artworks/7-pati.yml
 
 
@@ -567,6 +589,7 @@ projects:
   curator_bio_en: >
 
   curator_bio_ko: >
+   그래픽 디자이너. 로드아일랜드 디자인학교에서 그래픽디자인, 스위스 바젤 디자인학교에서 타이포그래피를 전공했다. 잡지 《디플러스》에 연재됐던 ‘타이포그래피 투모로우’를 기획하여 국내외 타이포그래퍼들의 다양한 생각을 소개하였고, 옮긴 책으로 《타이포그래피 교과서》(2010), 《당신이 읽는 동안(While You're Reading)》(2013)이 있다. 홍익대학교와 한국예술종합학교에서 타이포그래피를 가르쳤고, 현재 파주타이포그라피학교 스승으로 일하고 있다.
 
 -
   idx: 8
@@ -579,7 +602,7 @@ projects:
   project_artists: 
   - 
     full_name_en: Akiko Masunaga
-    full_name_ko: 
+    full_name_ko: 마수나가 아키코
     url: /projects/artworks/8-akiko-masunaga.yml
   - 
     full_name_en: Bongkyu Song
@@ -587,11 +610,11 @@ projects:
     url: /projects/artworks/8-bongkyu-song.yml
   - 
     full_name_en: Burger + Stadel + Wal
-    full_name_ko: 
+    full_name_ko: 부르게르 + 슈타델 + 월시
     url: /projects/artworks/8-burger-stadel-wal.yml
   - 
     full_name_en: Clark Corp
-    full_name_ko: 
+    full_name_ko: 클라크 코프
     url: /projects/artworks/8-clark-corp.yml
   - 
     full_name_en: Design Methods
@@ -607,17 +630,26 @@ projects:
     url: /projects/artworks/8-gang-moonsick.yml
   - 
     full_name_en: Hyojun Shim + Keith Wong
-    full_name_ko: 심효준 + Keite Wong
+    full_name_ko: 심효준 + 키스 웡
     url: /projects/artworks/8-hyojun-shim-n-wong.yml
   - 
     full_name_en: Mathew Kneebone
-    full_name_ko: 
+    full_name_ko: 매슈 니본
     url: /projects/artworks/8-mathew-kneebone.yml
   - 
     full_name_en: Team Thursday
-    full_name_ko: 
+    full_name_ko: 팀 서즈데이
     url: /projects/artworks/8-team-thursday.yml
 
+  - 
+    full_name_en: Daeki Shim
+    full_name_ko: 심대기
+    url: /projects/artworks/8-daeki-shim.yml
+
+  - 
+    full_name_en: Choongho Lee
+    full_name_ko: 이충호
+    url: /projects/artworks/8-choongho-lee.yml
 
 
 # PROJECT -----------------------------------------
@@ -656,7 +688,7 @@ projects:
     url: /projects/artworks/9-jot.yml
   - 
     full_name_en: kimgarden x Standardstandard
-    full_name_ko: 김가든 x Standardstandard
+    full_name_ko: 김가든 x 스탠다드스탠다드
     url: /projects/artworks/9-kimgarden-standard.yml
   - 
     full_name_en: MYKC
@@ -735,8 +767,13 @@ projects:
   project_artists: 
   - 
     full_name_en: Gute Form 
-    full_name_ko:  
-    url: /projects/artworks/11-cityletter.yml
+    full_name_ko: 구트폼
+    url: /projects/artworks/11-guteform.yml
+
+  - 
+    full_name_en: Jiwon Yu 
+    full_name_ko: 유지원
+    url: /projects/artworks/11-jiwon-yu.yml
 
 
 
@@ -818,7 +855,7 @@ projects:
 -
   idx: 14
   project_name_en: Docent + Video projects
-  project_name_ko: Guide to C( )T(   )
+  project_name_ko: 도슨트 프로젝트
 
   curator_name_en: 
   curator_name_ko: 
@@ -888,9 +925,9 @@ projects:
 
   project_artists: 
   - 
-    full_name_en: 
-    full_name_ko: 임경용 + 신신 
-    url: /projects/artworks/
+    full_name_en: Mediabus x Shinshin
+    full_name_ko: 미디어버스 x 신신
+    url: /projects/artworks/16-mediabus-shinshin.yml
 
 
 
@@ -907,51 +944,21 @@ projects:
 
 
   curator_bio_ko: >
+
 
 -
   idx: 17
-  project_name_en: Document Project
-  project_name_ko: 도큐먼트 프로젝트
-
-  curator_name_en: 
-  curator_name_ko: 
-
-  project_artists: 
-  - 
-    full_name_en: Workroom(Kyeongsoo Lee, Hwalsung  Park)
-    full_name_ko: 워크룸
-    url: /projects/artworks/17-workroom.yml
-
-
-
-
-# PROJECT -----------------------------------------
-
-  project_desc_en: >
-
-  project_desc_ko: >
-  
-# CURATOR -----------------------------------------
-
-  curator_bio_en: > 
-
-
-  curator_bio_ko: >
-
-
--
-  idx: 18
   project_name_en: Archiving App
   project_name_ko: 아카이빙앱 프로젝트
 
   curator_name_en: Rebel9
-  curator_name_ko: 
+  curator_name_ko: 레벨나인
 
   project_artists: 
   - 
     full_name_en: Rebel9
-    full_name_ko: 
-    url: /projects/artworks/18-rebel9.yml
+    full_name_ko: 레벨나인
+    url: /projects/artworks/17-rebel9.yml
 
 
 

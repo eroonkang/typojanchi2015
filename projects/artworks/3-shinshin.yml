@@ -7,9 +7,21 @@ origin_country_ko: 대한민국
 origin_lat: 37.40405
 origin_lng: 127.24725
 
-artwork_name_en: Asia City Text/ure
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+
+participant_bio_ko: >
+ 신해옥과 신동혁은 서울에서 활동하는 그래픽 디자이너다. 두 사람은 단국대학교 시각디자인과를 졸업했고, 이후 문화 예술 분야에서 디자이너로서 큐레이터, 편집자, 현대 미술가 등과 협업하며 일하고 있다. 여러 디자인, 미술 전시에 참여했고 자기 주도적인 작업도 병행한다. 최근 작업으로는 <사물학 II: 제작자들의 도시>(국립현대미술관, 2015), <제록스 프로젝트>(백남준아트센터, 2015), <타이포잔치 2015 뉴스레터 프로젝트> 등이 있다.
+
+artworks:
+-
+  artwork_name_en: 
+  artwork_name_ko: 
+  artwork_year: 
+  artwork_medium_en:
+  artwork_medium_ko: 
+  artwork_desc_en: >
+  artwork_desc_ko: >
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,17 +39,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
-# ARTWORK -----------------------------------------------
-
-
-artwork_desc_en: >
-
-artwork_desc_ko: >
-
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
-
-participant_bio_ko: >

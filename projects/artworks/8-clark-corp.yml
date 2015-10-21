@@ -1,5 +1,5 @@
 full_name_en: Clark Corp
-full_name_ko: 
+full_name_ko: 클라크 코프
 origin_city_en: New York
 origin_city_ko: 뉴욕
 origin_country_en: USA
@@ -7,9 +7,28 @@ origin_country_ko: 미국
 origin_lat: 40.69854
 origin_lng: -73.9753
 
-artwork_name_en: Small Case Big Night
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ A research initiative that hosts participartory events at the intersection of identity, behavioral studies and systems design. Previous shows include an installation in the tellers of a defunct Citibank in Midtown NYC in 2014.
+
+
+participant_bio_ko: >
+ 클라크 코프는 뉴욕에 거주는 독일 출신의 작가 크리스 뵈프켄이 정체성, 행동 연구, 시스템 디자인이 교차하는 지점에서 참여적 이벤트를 제안하는 리서치 프로젝트이다. 2014년 뉴욕의 미드타운에 있는 문 닫은 시티은행 창구에서 설치 프로젝트를 진행한 바 있다.
+
+artworks:
+-
+  artwork_name_en: Small Case Big Night
+  artwork_name_ko: 작은 상자, 굉장한 밤
+  artwork_year: 2015
+  artwork_medium_en: Pocket safe, 3pieces, each 24*16.5*4.5cm
+  artwork_medium_ko: 손금고, 3개, 24*16.5*4.5cm
+  artwork_desc_en: >
+   A welcoming gesture is one of the fundamental ways of establishing goodwill between people. There are the universal basics of hospitality; providing for a guest's needs, making them feel comfortable and secure, treating them with respect. If etiquette requires providing for the comfort and security of one's guests, perhaps a deeper sort of welcome comes when a host invites them to transcend their comfort and routine and try on a new experience. Even when visiting a very different place, the environments designed for travelers are often a sea of similarity: airports, bus stations, taxis, hotels; these spaces are designed to work for the broadest set of people and therefore show little variation from place to place. But one of the most profound aspects of visiting another culture is the ability of the experience to stretch your perspective - the traveller, separated from their normal life and set of cultural expectations, is free to try on novel ways of acting and prioritizing. For us, the best hosts makes their guests welcome by opening up their own lives, allowing the visitor to see what it might be like to live as another. In the context of the hotel, we've attempted to translate this sharing of perspectives into three sets of objects. A riff on traditional hotel welcome objects (shoehorn, soap, chocolate, minibar snacks etc.), our welcome cases are designed not just to meet basic needs or satisfy late night munchies, but to direct experience: a guest chooses one of three numbered envelopes; inside they find a single word representing the direction we hope to take their evening, and the code to one of the three cases. The themes of the three cases are Hedonism, Tranquility and Voyeurism, and the objects in them have been chosen to facilitate a multi-faceted experience around those themes, all within the confines of the room. Our aim is that these objects will serve as a proxy host, offering a tasting menu of possible experience and suggesting a perspective around which to frame the guest's activities. As the visitor explores the city, and when they return to their home, we hope that they might consider taking this perspective with them. Enjoy your stay! -ClarkCorp
+  
+  artwork_desc_ko: >
+   여행의 묘미는 아무래도 익숙한 일상에서 벗어나 새로운 시선을 접하는 데 있을 것이다. 그러나 아무리 낯선 도시라 해도 공항이나 버스 역, 택시, 호텔 같은 공간들은 엇비슷한 형태로 디자인된다. 환대의 방식 역시 마찬가지이다. 그러나 작가가 제안하는 호텔의 환대 방식은 조금 다르다. 호텔을 찾은 손님은 세 개의 번호가 붙은 봉투 가운데 하나를 고르고, 그에 따라 다른 상자를 건네받는다. 봉투 안에는 단어 하나와 상자를 열 수 있는 번호가 들어 있고, 상자를 열면 해당 단어(향락, 평온, 관음증)에 맞는 사물 세트가 나타난다. 다음날 아침, 손님은 각자 다른 경험, 다른 기억을 가진 채 호텔 문을 나선다.
+
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,31 +46,5 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
-# ARTWORK -----------------------------------------------
 
 
-
-artwork_desc_en: >
- A welcoming gesture is one of the fundamental ways of establishing goodwill between people. There are the universal basics of hospitality; providing for a guest's needs, making them feel comfortable and secure, treating them with respect. 
-
- If etiquette requires providing for the comfort and security of one's guests, perhaps a deeper sort of welcome comes when a host invites them to transcend their comfort and routine and try on a new experience. Even when visiting a very different place, the environments designed for travelers are often a sea of similarity: airports, bus stations, taxis, hotels; these spaces are designed to work for the broadest set of people and therefore show little variation from place to place. But one of the most profound aspects of visiting another culture is the ability of the experience to stretch your perspective - the traveller, separated from their normal life and set of cultural expectations, is free to try on novel ways of acting and prioritizing. For us, the best hosts makes their guests welcome by opening up their own lives, allowing the visitor to see what it might be like to live as another. 
-
- In the context of the hotel, we've attempted to translate this sharing of perspectives into three sets of objects. A riff on traditional hotel welcome objects (shoehorn, soap, chocolate, minibar snacks etc.), our welcome cases are designed not just to meet basic needs or satisfy late night munchies, but to direct experience: a guest chooses one of three numbered envelopes; inside they find a single word representing the direction we hope to take their evening, and the code to one of the three cases. The themes of the three cases are Hedonism, Tranquility and Voyeurism, and the objects in them have been chosen to facilitate a multi-faceted experience around those themes, all within the confines of the room. Our aim is that these objects will serve as a proxy host, offering a tasting menu of possible experience and suggesting a perspective around which to frame the guest's activities. As the visitor explores the city, and when they return to their home, we hope that they might consider taking this perspective with them.
-
- Enjoy your stay! -ClarkCorp
-
- 
- 
-
-artwork_desc_ko: >
- 
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Clark Corp (est. 2012)
- A research initiative that hosts participartory events at the intersection of identity, behavioral studies and systems design. Previous shows include an installation in the tellers of a defunct Citibank in Midtown NYC in 2014.
-
-
-participant_bio_ko: >

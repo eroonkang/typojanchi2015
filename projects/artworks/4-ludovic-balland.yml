@@ -7,9 +7,21 @@ origin_country_ko: 스위스
 origin_lat: 47.55436
 origin_lng: 7.58397
 
-artwork_name_en: Basel, Warsaw, Venice
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+
+participant_bio_ko: >
+
+artworks:
+-
+  artwork_name_en: Basel, Warsaw, Venice
+  artwork_name_ko: 바젤, 바르샤바, 베니스
+  artwork_year: 2015
+  artwork_medium_en: Poster, 160*106.7cm
+  artwork_medium_ko: 포스터, 160*106.7cm
+  artwork_desc_en: >
+   
+  artwork_desc_ko: >
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,19 +39,4 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
-# ARTWORK -----------------------------------------------
 
-
-artwork_desc_en: >
- We decided to work with three of our posters, which were made for three different cities. From each poster we extracted all graphic elements. These three layers were all scaled proportionally and then put on top of each other. The resulting composition resembles a dense urban construct, a typographic city.
-
-artwork_desc_ko: >
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Ludovic Balland teaches at the University of Art and Design in Lausanne (ECAL), Master and Bachelor. He held several Workshops acaross Europe and the US, including: "Swiss Institute", Milano; "California Institute of the Arts (CalArts)", Valencia; "Zuercher Hochschule der Kuenste", Bremen; "Universitaet der Kuenste", Berlin; "Eracom", Lausanne. 
-
-
-participant_bio_ko: >

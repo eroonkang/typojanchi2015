@@ -7,9 +7,26 @@ origin_country_ko: 미국
 origin_lat: 41.30832
 origin_lng: -72.93294
 
-artwork_name_en: ...
-artwork_name_ko: ...
-artwork_year: 2015
+participant_bio_en: >
+ Moonsick Gang is currently studies garphic design in Yale University Schoo of Art and graduated from Gerrit Rietveld Academie, Amsterdam and Kaywon School of Art and Design. He has exhibited at the Brno International Biennial of Graphic Design in 2012, 2014 and Typojanchi 2013.
+
+
+participant_bio_ko: >
+ 1986년생. 계원예술대학교, 네덜란드 암스테르담의 헤릿 리트벌트 아카데미를 졸었했으며, 현재 예일 미술대학원에서 그래픽디자인을 전공하고 있다. 2012, 2014 브르노 비엔날레, 타이포잔치 2013에 참여했다.
+
+artworks:
+-
+  artwork_name_en: Door hanger
+  artwork_name_ko: 문걸이
+  artwork_year: 2015
+  artwork_medium_en: Chocolate and eye mask, 12.5*125cm
+  artwork_medium_ko: 초콜릿, 아이 마스크, 12.5*125cm
+  artwork_desc_en: >
+   […] ‘…’ is about providing the ‘moment’ for each visitor as three dots or three chocolates, or Ellipses” […] (Each of three chocolates contains a Korean alcohol based ‘whisky bonbon’, made for this project.)
+
+  artwork_desc_ko: >
+   <.>은 하나의 점, 혹은 마침표로 문 앞에 걸어 놓음으로써 <...>의 ‘순간’을 보장한다. <...>은 세 개의 점, 혹은 세 개의 초콜릿 또는 줄임표로서 방문자에게 어떠한 ‘순간’을 제공한다. (세 개의 초콜릿은 이번 프로젝트를 위해 위스키 봉봉의 제작 방식을 기초로 각 초콜릿마다 다른 한국 술을 넣어 제작되었다.)
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,27 +44,4 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
- # ARTWORK -----------------------------------------------
 
-
-artwork_desc_en: >
- […] ‘…’ is about providing the ‘moment’ for each visitor as three dots or three chocolates, or Ellipses” […]
- (Each of three chocolates contains a Korean alcohol based ‘whisky bonbon’, made for this project.)
- 
- 
-
-artwork_desc_ko: >
- […] “<...> 은 세개의 점, 혹은 세개의 초콜렛 또는 줄임표로써 방문자에게 어떠한 ‘순간’을 제공한다” […]
-
- (세개의 초콜렛은 이번 프로젝트를 위해 위스키봉봉의 제작 방식을 기초로 각 초콜렛 마다 다른 한국의 술을 넣어 제작되었다.)
-
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Moonsick Gang is currently studies garphic design in Yale University Schoo of Art and graduated from Gerrit Rietveld Academie, Amsterdam and Kaywon School of Art and Design. He has exhibited at the Brno International Biennial of Graphic Design in 2012, 2014 and Typojanchi 2013.
-
-
-participant_bio_ko: >
- 1986년생. 현재 예일미술대학원에서 그래픽디자인을 전공하고 있고, 네덜란드 암스테르담의 헤릿 리트벨트 아카제미, 계원예술대학교를 졸업했다. 2012, 2014 브르노 비엔날레, 타이포잔치 2013에 참여했다.

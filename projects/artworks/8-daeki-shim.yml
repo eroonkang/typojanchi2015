@@ -1,0 +1,54 @@
+full_name_en: Daeki Shim
+full_name_ko: 심대기
+origin_city_en: 서울
+origin_city_ko: Seoul
+origin_country_en: South Korea
+origin_country_ko: 대한민국
+origin_lat: 37.55277
+origin_lng: 126.92078
+
+participant_bio_en: >
+ Mr. Dae Ki Shim is a co-founer and graphic designer at D. A & Company. He received a bachelor degree in graphic design from Central Saint Martins, University of the Arts London and master degree in anthropology focusing on design education, visual & material culture and digital transition from University College London, University of London. His design works have been shown in Fold Gallery, Slade School of Fine Art, Shoreditch Town Hall, Left Bank, UCL Quad, Round House, London Design Festival in UK and PS 35 Gallery in New York and Zero One Design Center, Seoul Citizens Hall, Sejong Art Center, π Room Gallery in Korea and among others. Recently, his work titled ‘Now & Here’ has invited to 2015 Asia Next which is the Poster Experimental Design Exhibition in China, Taiwan and Korea. Moerover, he also curated and directed several design exhibitions such as the exhibition titled ‘How is it going?’ at Zero One Design Center in Seoul, KR and ‘Between the First Show’and ‘Between #2’ in London, UK. His works were selected in Korea Design Awards, Red Dot Award and among others. Most recently, his work was awarded in the Grand Prize from the 10th exhibition of the Korean Society of Typography in June 2015. He was also appointed lecturer in design at Seoul Women’s University in 2014 & 2015.
+
+participant_bio_ko: >
+
+artworks:
+-
+  artwork_name_en: 1. F 13 FF 
+  artwork_name_ko: 1. 4 13 44
+  artwork_year: 2015
+  artwork_medium_en: Book, 16pages, 23.5*16.5cm
+  artwork_medium_ko: 책, 16쪽, 23.5*16.5cm
+  artwork_desc_en: >
+  artwork_desc_ko: >
+   서울의 대표적인 관문 인천국제공항에는 “4, 13, 44번 탑승구가 존재하지 않는다”는 말이 인터넷에 떠돈다. 하지만 이 허구 같은 내용은 사실이다.
+
+-
+  artwork_name_en: 2. Virtual and Actua
+  artwork_name_ko: 2. 가상과 실재
+  artwork_year: 2015
+  artwork_medium_en: Book, 16pages, 23.5*16.5cm
+  artwork_medium_ko: 책, 16쪽, 23.5*16.5cm
+  artwork_desc_en: > 
+  artwork_desc_ko: > 
+   우리는 일반적으로 인터넷이라는 매체를 통해서 ‘경험된 경험’을 경험한다. 하지만 인류학자 크리스토퍼 틸리(christopher tilley)가 말했듯 그 ‘장소’의 경험과 기억은 결코 동일하게 반복되지 않는다.
+
+
+
+
+venue_name_en: Culture Station Seoul 284
+venue_name_ko: 문화역서울284
+venue_detail_en: 
+venue_detail_ko: 
+venue_city_en: Seoul
+venue_city_ko: 서울
+venue_country_en: KR
+venue_country_ko: 한국
+venue_lat: 37.5558393
+venue_lng: 126.9716173
+
+# photos: 
+# - image1.jpg 
+# - image2.jpg 
+# - image3.jpg 
+

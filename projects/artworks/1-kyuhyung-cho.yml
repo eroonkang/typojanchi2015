@@ -7,9 +7,25 @@ origin_country_ko: 스웨덴
 origin_lat: 59.2741461
 origin_lng: 17.8914313
 
-artwork_name_en: Happening (Pictograph Font in the city)
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ He runs his own design studio based in Stockholm. He has incorporated both a typographical approach and a eastern/western perspective into various design fields such as typography, illustration, textile and furniture design for both commercial and non-commercial context which resulted in the creation of new and unexpected design solution, receiving tremendous attention from the public and the media. Kyuhyung defines himself as a graphic designer while he believes that his multi-discipline projects based on typographical approach will contribute to the expansion of the concept of graphic design as well as becoming a positive stimulus in the diversification of graphic design.
+
+
+participant_bio_ko: >
+ 스톡홀름에서 디자인 스튜디오를 운영하는 조규형은 타이포그래피와 일러스트레이션, 텍스타일과 가구 디자인 등 상업과 비상업을 가리지 않는 다양한 영역에서 활동한다. 타이포그래피적 접근과 동서양의 관점이 결합된 그의 디자인 결과물은 대중과 매체에서 큰 관심을 받고 있다. 그래픽 디자이너로서 그는 이러한 다학제적 프로젝트를 통해 그래픽 디자인 개념을 확장시킴과 동시에 다양성을 넓히는 데 긍정적인 자극을 주고자 한다.
+
+artworks:
+-
+  artwork_name_en: Happening (Pictograph Font in the city)
+  artwork_name_ko: 해프닝 (도시의 그림 서체)
+  artwork_year: 2015
+  artwork_medium_en: Mixed media
+  artwork_medium_ko: 혼합 매체
+  artwork_desc_en: >
+
+  artwork_desc_ko: > 
+   조규형은 도시를 동시대 객체 간의 사건을 위한 무대로 보고, 문자와 사용자의 상호작용이 만드는 해프닝을 시도한다. 그는 우리의 이야기와 모습을 담은 한글 그림 서체 100종과 로만 알파벳 50종을 공개하고, 키보드를 누르는 장단에 따라 문자의 형태와 조합이 ‘변신’하도록 사용자에게 역할을 부여함으로써 ‘기록하는’ 문자에서 ‘경험하는’ 문자로의 진화를 시도한다. ‘한글과 로만 알파벳’ 그림 서체를 등장인물로 하는 이 한 편의 연극 무대는 열린 가능성을 가진 그림문자로서, 그리고 현 도시의 문화를 담아내는 시각언어로서 문자를 인식할 수 있는 기회를 제공한다.
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,22 +43,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
-# ARTWORK -----------------------------------------------
-
-artwork_desc_en: >
- 
-
-artwork_desc_ko: >
- 2011년과  2015년 발표한 그림서체는 그림과 이야기를 담은 문자로 이루어진 서체이다. 문자를 정보전달을 하는 도구가 아닌 Performer로, 스크린을 무대로, 키보드를 악기로 해석하여, 사용자와 문자가 함께 만들어 가는 일종의 공연 프로젝트이다. 
-
- 문서에 기록된 문자들은 그들의 이야기를 지키기 위해, 제자리를 묵묵히 지키고 있다. 빼곡히 정렬된 문자의 모습은 오늘날, 도시에서 삶을 살아내는 우리의 모습과 닮아있다. 도시에게 그리고 문자에게는 다양한 이야기로 가득 채워진 해프닝이 필요하다. 
-
- 본 프로젝트에는 도시의 이야기를 영감으로 만들어질 '도시의 삶'이라는 문자를 기반으로  2015년 9월에 발표한 100개의 그림서체가 만들어내는 즐겁고 비밀스러운 해프닝을 담을 계획이다.  
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- He runs his own design studio based in Stockholm. He has incorporated both a typographical approach and a eastern/western perspective into various design fields such as typography, illustration, textile and furniture design for both commercial and non-commercial context which resulted in the creation of new and unexpected design solution, receiving tremendous attention from the public and the media. Kyuhyung defines himself as a graphic designer while he believes that his multi-discipline projects based on typographical approach will contribute to the expansion of the concept of graphic design as well as becoming a positive stimulus in the diversification of graphic design.
-
-
-participant_bio_ko: >

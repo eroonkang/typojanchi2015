@@ -7,9 +7,27 @@ origin_country_ko: 뉴질랜드
 origin_lat: -36.9822566
 origin_lng: 174.5056067
 
-artwork_name_en: AEIOU—Constructed/Projected 
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ Catherine Griffiths (b.1966) lives and works in Auckland, and sometimes Paris. She is an independent designer and typographer. Her work is a mix of typographic installations in public and private spaces, visual communication design, self-publishing, and occasional writing on design. She works with artists, architects and designers, scientists and engineers, assists students, lectures and hosts occasional workshops, including the compact typ gr ph c series. Projects of note include the Wellington Writers Walk, a series of large-scale concrete text sculptures, her ongoing Vowel series (‘AEIOU’, ‘Sound Tracks’, ‘Fifth Movement’), TypeSHED11—New Zealand’s first ever international typography symposium, and the design (and build) of a small house and two studios. Recent work includes a mirror-faced, brass-backed ‘O’ suspended in space, the design of a small park, and twice being short-listed on teams for the Venice Architecture Biennale (New Zealand 2014, and Australia for 2016). She contributed the letter ‘U’ to the Fitchburg Alphabet Project, with 25 other international typographers. In November, ‘Body of Work’, a new edition from Vapour Momenta Books, the pocket-sized publishing arm of Catherine and photographer Bruce Connew, will be released.
+
+
+participant_bio_ko: >
+ 캐서린 그리피스는 오클랜드를 기반으로 활동하는 디자이너이자 타이포그래퍼다. 가끔씩 파리를 오가는 그녀의 작업은 타이포그래피 설치, 커뮤니케이션 디자인, 공간 디자인, 자가 출판, 디자인 저술을 아우른다. 작가와 건축가, 과학자, 엔지니어 등 다양한 분야의 사람들과 일하며 강의하고, ‘typ gr ph c’ 시리즈와 같은 비정기 워크숍을 진행하기도 한다. 주요 작업으로 대형 콘크리트 조각 연작인 〈웰링턴 작가 산책로〉, 현재도 진행 중인 ‘모음(母音)’ 연작(<아에이오우>, <사운드 트랙>, <다섯 번째 움직임>), 뉴질랜드에서 열린 첫 번째 국제 타이포그래피 심포지엄이었던 〈TypeSHED11> 등이 있다. 최근 사진가 브루스 커뉴와 함께 작업한 최신작 《보디 오브 웍스》는 소책자 형태로 곧 출간될 예정이다.
+
+artworks:
+-
+  artwork_name_en: AEIOU—Constructed/Projected 
+  artwork_name_ko: 아에이오우—구조화된/투사된
+  artwork_year: 2015
+  artwork_medium_en: Timber, copper pipe, film, reflective paper, rope, 290*280*268cm, 
+  artwork_medium_ko: 목재, 동 파이프, 영상, 반사 종이, 밧줄, 290*280*268cm,
+  artwork_desc_en: >
+   AEIOU—Constructed/Projected is the fourth work in the Vowel series. Constructed/Projected is a new work made in response to C(   )T(   ), and the Biennale theme of city and typography. Layers of interaction involving collected numbers, letters, words, phrases—found and constructed—with the human body, are presented as a short film, with objects* propped and stacked, nearby.
+
+  artwork_desc_ko: >
+   캐서린 그리피스가 진행하는 ‘모음(母音)’ 연작 중 네 번째 작품에 해당하는 <아에이오우—구조화된/투사된>은 수집된 숫자와 문자, 단어, 문장들이 인간의 신체와 상호작용하는 레이어를 형성한다. 지지대 옆에서 상영되는 단편 영화를 비롯해 각 모음을 상징하는 재료들의 구조물은 이번 타이포잔치 주제인 ‘도시와 타이포그래피’ 개념에 대한 작가의 해석이 담겨 있다.
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,18 +45,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
-# ARTWORK -----------------------------------------------
-
-artwork_desc_en: >
- AEIOU—Constructed/Projected is the fourth work in the Vowel series. Constructed/Projected is a new work made in response to C(   )T(   ), and the Biennale theme of city and typography. Layers of interaction involving collected numbers, letters, words, phrases—found and constructed—with the human body, are presented as a short film, with objects* propped and stacked, nearby.
-
-
-artwork_desc_ko: >
- 
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Catherine Griffiths (b.1966) lives and works in Auckland, and sometimes Paris. She is an independent designer and typographer. Her work is a mix of typographic installations in public and private spaces, visual communication design, self-publishing, and occasional writing on design. She works with artists, architects and designers, scientists and engineers, assists students, lectures and hosts occasional workshops, including the compact typ gr ph c series. Projects of note include the Wellington Writers Walk, a series of large-scale concrete text sculptures, her ongoing Vowel series (‘AEIOU’, ‘Sound Tracks’, ‘Fifth Movement’), TypeSHED11—New Zealand’s first ever international typography symposium, and the design (and build) of a small house and two studios. Recent work includes a mirror-faced, brass-backed ‘O’ suspended in space, the design of a small park, and twice being short-listed on teams for the Venice Architecture Biennale (New Zealand 2014, and Australia for 2016). She contributed the letter ‘U’ to the Fitchburg Alphabet Project, with 25 other international typographers. In November, ‘Body of Work’, a new edition from Vapour Momenta Books, the pocket-sized publishing arm of Catherine and photographer Bruce Connew, will be released.
-
-
-participant_bio_ko: >

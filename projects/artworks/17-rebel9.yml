@@ -1,0 +1,44 @@
+full_name_en: Rebel9
+full_name_ko: 레벨나인
+origin_city_en: Seoul
+origin_city_ko: 서울
+origin_country_en: KR
+origin_country_ko: 한국
+origin_lat: 37.55583
+origin_lng: 126.97161
+participant_bio_en: >
+
+
+participant_bio_ko: >
+ 2013년 설립된 레벨나인은 문화 자원의 가치를 새롭게 하는 리빙 랩(Living Lab)이다. 문화 자원에 대한 연구를 바탕으로, 아카이브 활용과 관련된 데이터 기반 프로젝트를 지향한다. ‘아카이브와 데이터(Archive & Data)’, ‘문화 공간과 박물관(Cultural Space & Museum)’, ‘창조적 미디어(Creative Media)’를 키워드로 문화재청, 콘텐츠진흥원, 서울여자대학교, 카이스트(KAIST), 문화체육관광부 등 다양한 기관과 협업을 통해 아카이브 시스템 개발, 전시 미디어 등의 프로젝트를 수행하고 있다.
+
+artworks:
+-
+  artwork_name_en: N-S-E-W, CITY COMPASS
+  artwork_name_ko: 동-서-남-북 도시 나침반
+  artwork_year: 2015
+  artwork_medium_en: Mobile Application (iOS)
+  artwork_medium_ko: 모바일 어플리케이션((iOS)
+  artwork_desc_en: >
+  artwork_desc_ko: >
+    <ㄴ-ㅠ-ㅅ-ㅡ 도시 나침반> 프로젝트는 2015 타이포잔치에 참여한 작가들의 정보를 바탕으로, 도시와 그 도시를 해석하는 작가의 관계를 아카이브한다. 타이포잔치의 여타 프로젝트가 ‘도시-작가’ 사이에서 생성된 ‘결과물’을 조명한다면, 이 프로젝트는 작가 개개인의 도시 경험을 매개로 하여 관람객과 그 도시들을 잇는다.타이포잔치를 통해 전 세계에서 모인 작가들은 ‘도시와 타이포그래피’라는 주제에 따라 저마다의 방식으로 세계 여느 도시로 달려가 문화적 흔적을 창조한다. 그러나 제인 제이콥스(Jane Jacobs)가 《미국 대도시의 죽음과 삶(The Death and Life of Great American Cities)》(1961)에서 지적했듯, 우리가 무언가 새로움을 창조할 때에 도시는 역으로 우리에게 새로운 공간적 경험을 주는 주체가 된다. 즉 작가가 도시를 새롭게 창조할 때, 그 도시 역시 한 명의 작가를 길러내는 것이다. 전시장을 찾은 관람객은 작가들과 관련된 도시 정보가 데이터베이스 시스템으로 구축된, 나침반이 탑재된 모바일 애플리케이션을 통해 위치 기반의 도시 인포그래픽 경험과 마주치게 된다. 이 프로젝트는 작가(의 정보)로 작가(와 작품)를 설명한다는 점에서 ‘메타적’ 성격을 띠며, 동시에 ‘탈공간적’ 성격을 지닌다. 즉 문화역서울 284라는 전시 공간을 벗어나 타이포잔치에 참여한 작가 개인의 경험이 깃든 도시로 떠나는 가상의 여행을 제안한다.
+
+
+
+
+venue_name_en: Seoul284
+venue_name_ko: 문화역 서울 284
+venue_detail_en: 
+venue_detail_ko: 
+venue_city_en: Seoul
+venue_city_ko: 서울
+venue_country_en: KR
+venue_country_ko: 한국
+venue_lat: 37.55583
+venue_lng: 126.97161
+
+# photos: 
+# - image1.jpg 
+# - image2.jpg 
+# - image3.jpg 
+

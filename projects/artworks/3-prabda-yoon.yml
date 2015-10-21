@@ -1,15 +1,28 @@
 full_name_en: Prabda Yoon
-full_name_ko: 
+full_name_ko: 프랍다 윤
 origin_city_en: Bangkok
 origin_city_ko: 방콕
 origin_country_en: Thailand
-origin_country_ko: 태국
+origin_country_ko: 타이 
 origin_lat: 13.7375926
 origin_lng: 100.5718787
 
-artwork_name_en: Asia City Text/ure
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ Born in Bangkok in 1973. Prabda is a writer, editor, translator, publisher and designer. He studied graphic design in New York City at Parsons School of Design and the Cooper Union. Since 2000 he has been prolific as a book cover designer, working for numerous publishers in Thailand.
+
+participant_bio_ko: >
+ 1973년 방콕에서 태어난 프랍다 윤은 저자이자 편집자, 번역가, 출판인이자 디자이너이다. 파슨스 디자인 스쿨과 쿠퍼 유니온에서 그래픽 디자인을 공부한 그는 2000년 이래 타이의 수많은 출판사들과 일하며 북 디자이너로 왕성하게 작업하고 있다.
+
+artworks:
+-
+  artwork_name_en: 
+  artwork_name_ko: 
+  artwork_year: 
+  artwork_medium_en:
+  artwork_medium_ko: 
+  artwork_desc_en: >
+  artwork_desc_ko: >
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -26,18 +39,3 @@ venue_lng: 126.9716173
 # - image1.jpg 
 # - image2.jpg 
 # - image3.jpg 
-
-# ARTWORK -----------------------------------------------
-
-artwork_desc_en: >
-
-artwork_desc_ko: >
-
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Born in Bangkok in 1973. Prabda is a writer, editor, translator, publisher and designer. He studied graphic design in New York City at Parsons School of Design and the Cooper Union. Since 2000 he has been prolific as a book cover designer, working for numerous publishers in Thailand.
-
-participant_bio_ko: >

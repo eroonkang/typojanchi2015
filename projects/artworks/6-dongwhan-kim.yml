@@ -1,11 +1,11 @@
-full_name_en: Burger + Stadel + Wal
-full_name_ko: 부르게르+슈타델+월시
-origin_city_en: Basel
-origin_city_ko: 바젤
-origin_country_en: Switzerland
-origin_country_ko: 스위스
-origin_lat: 47.56922
-origin_lng: 7.59573
+full_name_en: Dongwhan Kim	
+full_name_ko: 김동환
+origin_city_en: Seoul
+origin_city_ko: 서울
+origin_country_en: South Korea
+origin_country_ko: 대한민국
+origin_lat: 37.56339
+origin_lng: 126.91836
 
 participant_bio_en: >
 
@@ -17,11 +17,11 @@ artworks:
   artwork_name_en: 
   artwork_name_ko: 
   artwork_year: 2015
-  artwork_medium_en:
+  artwork_medium_en: 
   artwork_medium_ko: 
   artwork_desc_en: >
   artwork_desc_ko: >
-
+  
 
 
 

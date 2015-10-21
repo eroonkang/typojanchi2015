@@ -7,9 +7,21 @@ origin_country_ko: 한국
 origin_lat: 37.54564
 origin_lng: 126.98544
 
-artwork_name_en: Exhibition Space
-artwork_name_ko: 전시공간 프로젝트
-artwork_year: 2015
+participant_bio_en: >
+
+participant_bio_ko: >
+
+
+artworks:
+-
+  artwork_name_en: Exhibition Space
+  artwork_name_ko: 전시공간 프로젝트
+  artwork_year: 2015
+  artwork_medium_en:
+  artwork_medium_ko: 
+  artwork_desc_en: >
+  artwork_desc_ko: >
+
 
 venue_name_en: Seoul284
 venue_name_ko: 문화역 서울 284
@@ -27,19 +39,4 @@ venue_lng: 126.97161
 # - image2.jpg 
 # - image3.jpg 
 
-# ARTWORK -----------------------------------------------
 
-
-artwork_desc_en: >
-
-
-artwork_desc_ko: >
-
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
-
-
-participant_bio_ko: >

@@ -7,9 +7,27 @@ origin_country_ko: 프랑스
 origin_lat: 48.8676177
 origin_lng: 2.3393482
 
-artwork_name_en: Lettres du Havre - Identités réelles et missives imaginaires
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+
+
+participant_bio_ko: >
+ 1972년 출생한 엘로디 부아예는 파리 르아브르에 거주하며 기업 브랜딩과 디자인 경영을 전문으로 하는 자문 회사를 운영하고 있다. 또한 파리 소르본 대학교 그랑제콜에서 학생들을 가르친다. 작가인 장 세기와 함께 작업한 《아브르의 글자/편지》는 2013년 유럽 디자인 어워드 북 레이아웃 부문에서 금상을 수상했다.
+
+
+artworks:
+-
+  artwork_name_en: Lettres du Havre
+  artwork_name_ko: 아브르의 레터들
+  artwork_year: 2012
+  artwork_medium_en: Book, 24*17cm
+  artwork_medium_ko: 책, 24*17cm
+  artwork_desc_en: >
+   Lettres du Havre book plays on the dual meaning of the word “letters”: typefaces, signs, logotypes on the one hand, and fictional letters (love letters, letters to relatives, professional letters, administrative letters…) on the other hand, in order to investigate the role of identities in a city, the evolution of brand design and signage, the interactions between social state and graphic signs. As a result, one hundred imaginary letters are inspired by a selection of one hundred photographs of signs located in Le Havre. The signs are organised in five chapters and analysed accordingly: industry, public service, independent shops, franchise, seaside and temporary signs. The outcome looks like a big picture of Le Havre in 2011-2012 composed by a collection of zooms, both visual and social since the human contemporary issues are all raised in the letters (crisis, election, Europe, eternal family rivalries, love, hate, jealousy, administrative nonsense…). Lettres du Havre can also be seen as two books woven into one.
+
+  artwork_desc_ko: >
+   <아브르의 레터들>에서 ‘레터’는 중의적 의미를 지닌다. 말 그대로 간판이나 로고타입에 쓰인 ‘글자’라는 뜻을 지니는 한편 연인이나 친지가 보내는, 혹은 직업상, 행정상 보내는 ‘편지’라는 뜻도 있다. 프랑스의 아브르에 있는 백 개의 거리 문자를 담은 이 책은 그로부터 영감을 받은 백 통의 편지이기도 한 것이다. 이 편지들은 위기, 선거, 사랑, 증오, 질투와 같은 주제를 담고 있다. 결과적으로 이 책은 도시 정체성과 브랜드 디자인의 진화, 혹은 거리의 그래픽 신호 사이의 상호작용을 조사하는 사회학적 연구임과 동시에 2011~2012년 사이 아름다운 해안 도시 아브르의 모습을 담은 거대한 아카이브라 할 수 있다.
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,26 +45,4 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
- # ARTWORK -----------------------------------------------
 
-artwork_desc_en: >
- LETTERS AND LETTERS: CITY SIGNS AND EPISTLES
- Lettres du Havre book plays on the dual meaning of the word “letters”: typefaces, signs, logotypes on the one hand, and fictional letters (love letters, letters to relatives, professional letters, administrative letters…) on the other hand, in order to investigate the role of identities in a city, the evolution of brand design and signage, the interactions between social state and graphic signs.
- As a result, one hundred imaginary letters are inspired by a selection of one hundred photographs of signs located in Le Havre. The signs are organised in five chapters and analysed accordingly: industry, public service, independent shops, franchise, seaside and temporary signs. The outcome looks like a big picture of Le Havre in 2011-2012 composed by a collection of zooms, both visual and social since the human contemporary issues are all raised in the letters (crisis, election, Europe, eternal family rivalries, love, hate, jealousy, administrative nonsense…). Lettres du Havre can also be seen as two books woven into one.
- 
- A VISUAL AND SOCIAL ARCHIVE
- To broaden the debate, the authors Elodie Boyer and Jean Segui have solicited a contribution from four experts who bring a new vision to the investigation: Valérie Patrin-Leclère, semiotician born in Le Havre and researcher at the University of Sorbonne, Paris; Bernd Hilpert, architect and signage designer, Manager of unit-design in Frankfurt; Patrick Doan, graphic designer based in Amsterdam, teaching at ESAD in Amiens; Arie Lenoir, printer and Manager of LenoirSchuring printing office in Amsterdam.
- Lettres du Havre is aimed at all kinds of readers: experts interested in evolution of branding and signage, decision makers willing to understand the impact of signs and the relationship between signage and architecture, graphic designers searching for an alternative collection of signs or interested in book design, people fond of Le Havre city, readers of letters looking for a good laugh and curious about human nature.
- Lettres du Havre can be seen as an alternative city guide, an archive on Le Havre and the French society today, an essay on brands in the city and city branding, a collection of endangered signs, a tribute to Le Havre.
- Lettres du Havre is made by state of the art book manufacturers (LenoirSchuring and Patist in the Netherlands) using unique techniques. 
-
-
-artwork_desc_ko: >
- 
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
-
-
-participant_bio_ko: >

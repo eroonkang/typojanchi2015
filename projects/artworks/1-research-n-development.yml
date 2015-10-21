@@ -1,0 +1,47 @@
+full_name_en: Research and Development
+full_name_ko: 리서치 앤 디벨롭먼트
+origin_city_en: Stockholm
+origin_city_ko: 스톡홀롬
+origin_country_en: Sweden
+origin_country_ko: 스웨덴
+origin_lat: 59.3171064 
+origin_lng: 18.0679202
+
+participant_bio_en: >
+ “Research and Development are not lazy yet avoid doing very much. Like a well educated person who can say a great deal without saying very much, they employ an economy of means. A straight line drawn freehand using a pencil with a sharp point, a definite solution, fixed with purpose and preci- sion, very specific. There are many reds and many tones of gray, they always select the exact right one. This is subjective, but the results resonate with a purposeful authoritative objectiveness that leaves the viewer in no doubt they made the right choice.” — Daniel Eatock, excerpt from Book, published by Eastside Projects as part of Book Show, 2010
+
+
+participant_bio_ko: >
+ 2002년 다니엘 올손과 요나스 토포소가 공동 설립한 리서치 앤드 디벨럽먼트는 다양한 작가, 건축가, 큐레이터, 평론가, 미술관 및 문화 기관과 협업하고 있다. 대니얼 이톡의 말에 따르자면 그들은 “게으르진 않지만 그렇다고 너무 열심히 일하지도 않는다. 마치 떠벌리지 않고도 많은 말을 할 수 있는 교양 있는 사람처럼, 효율을 추구한다. 날카롭게 벼려진 연필로 스윽 직선을 긋듯, 설정된 목표를 위한 매우 정교하고 명쾌한 해법을 제시한다. 여러 톤의 빨간색과 회색이 섞여 있어도 그들은 항상 올바른 색을 골라낼 줄 안다. 물론 주관적인 판단이겠지만, 그 결과물은 무게감 있는 객관성으로 가득하기 때문에 보는 사람으로서는 옳은 판단이라고 믿을 수밖에 없다.”
+
+artworks:
+-
+  artwork_name_en: R&D-Project for Typojanchi
+  artwork_name_ko: R&D-타이포잔치를 위한 프로젝트
+  artwork_year: 2015
+  artwork_medium_en: DMixed media
+  artwork_medium_ko: 혼합 매체
+  artwork_desc_en: >
+   The city is a structure whose character is shaped in tune with the needs and desires of its inhabitants. It never reaches a final form but is in constant change – a mix of the old and the new, of order and chaos, of things that work and things that don’t.  In this environment of continuous transformation, citizens are in need of well-functioning systems in order function efficiently, to work, and to feel secure. With our proposal for Typojanchi 2015, we want to focus on the authoritative experience such systems transmit in public places – in this case the former gateway to Seoul. By employing a familiar everyday object – the common and well-known queue management system – we want to challenge people’s habitual patterns which are so difficult to break. Most of us tend to follow instructions as prescribed. 
+   By installing the system in irrational formations, the visitors are encouraged to follow a playfully tracked path. Texts play a key role in directing the visitor beyond preconceived expectations. Through a careful play with semantics, we aim to put the visitor in awkward, paradoxical or seemingly meaningless kafkaesque situations that give rise to a kind of understated humor and awareness of the absurd. Strange, embarrassing or silly situations that arise from an impulsive behavior based on blind faith and obedience.The purpose of our intervention at the Cultural Station Seoul 284 is to invite the audience into a playful, performative, sculptural piece and give opportunity to reflect over their own automatical responses in authoritative public situations. Our goal is to raise the audience awareness of the visual language of the city with use of an underlying laconic wit. We would ideally like to have these small installations spread on several locations at the Cultural Station. Texts on signs yet to come. Daniel Olsson, Jonas Topooco
+  
+  artwork_desc_ko: >
+   도시는 거주자들의 필요와 욕망이 반영된 구조물이다. 이는 결코 최종 형태에 도달할 수 없으며, 새로움과 낡음, 질서와 혼돈이 섞이며 끊임없이 변화한다. 사람들은 도시에 적응하기 위해 효율적으로 작동하는 시스템을 필요로 하며, 대개 그 시스템이 정한 지침에 순응하며 살아간다. 리서치 앤드 디벨럽먼트는 사람들에게 익숙한 대기 행렬 시스템을 활용해 이러한 체계에 개입한다. 전시장 곳곳에 놓인 설치물에서 관람객들은 익숙하지만, 어딘가 이상한 줄서기 행렬과 마주친다. 함께 설치된 텍스트들은 관객을 일견 무의미하고 부조리한 상황으로 이끌며, 맹신과 복종을 요구하는 권위적인 공공 시스템을 돌아보는 기회를 제공한다.
+
+
+venue_name_en: Culture Station Seoul 284
+venue_name_ko: 문화역서울284
+venue_detail_en: 3F
+venue_detail_ko: 3층
+venue_city_en: Seoul
+venue_city_ko: 서울
+venue_country_en: KR
+venue_country_ko: 한국
+venue_lat: 37.5558393
+venue_lng: 126.9716173
+
+# photos: 
+# - image1.jpg 
+# - image2.jpg 
+# - image3.jpg 
+

@@ -7,9 +7,28 @@ origin_country_ko: 한국
 origin_lat: 37.61006
 origin_lng: 126.99507
 
-artwork_name_en: Floating Typing Error
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+
+
+participant_bio_ko: >
+ 스팍스 에디션(Sparks Edition)은 조각을 전공한 장준오와 커뮤니케이션 디자인을 전공한 어지혜가 공동 설립한 스튜디오로 비주얼 아이덴티티를 중심으로 다양한 분야의 시각디자인과, 아트웍 작업을 진행하고 있다. 밴드 10센치(10cm)의 앨범 아트웍과 디자인, 만화 출판사 쾅(Quang)의 비주얼 그래픽과 편집 디자인을 도맡아온 스튜디오로 디자인을 기반으로 창조적인 시각 결과물을 선보이고 있다. 
+ 현재 스펙트럼 오브젝트라는 아트웍 그룹을 만들어 문화예술 전반의 여러 아티스트들과 함께 활발히 활동하고 있다.
+
+artworks:
+-
+  artwork_name_en: Floating Typing Error
+  artwork_name_ko: 떠다니는 타이핑 오류
+  artwork_year: 2015
+  artwork_medium_en:
+  artwork_medium_ko: 
+  artwork_desc_en: >
+  artwork_desc_ko: >
+   바쁜 도시에서의 핸드폰 문자 소통은 예상치 못한 에러들을 만들어 내기도한다. 빠른속도로 써내려가는 이 문자에서는 자음과 모음 오타 하나로 난처하고 유머러스한 상황을 만들어낸다. 문자 메세지의 가벼움은 공기보다 가벼운 헬륨풍선의 형태로 표현되고 우리는 그것을 입체적으로 바라본다.
+
+
+
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -26,26 +45,5 @@ venue_lng: 126.9716173
 # - image1.jpg 
 # - image2.jpg 
 # - image3.jpg 
-
- # ARTWORK -----------------------------------------------
-
-
-artwork_desc_en: >
-
-
-artwork_desc_ko: >
- 바쁜 도시에서의 핸드폰 문자 소통은 예상치 못한 에러들을 만들어 내기도한다. 빠른속도로 써내려가는 이 문자에서는 자음과 모음 오타 하나로 난처하고 유머러스한 상황을 만들어낸다.
-
- 문자 메세지의 가벼움은 공기보다 가벼운 헬륨풍선의 형태로 표현되고 우리는 그것을 입체적으로 바라본다.
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
-
-
-participant_bio_ko: >
- 스팍스 에디션(Sparks Edition)은 조각을 전공한 장준오와 커뮤니케이션 디자인을 전공한 어지혜가 공동 설립한 스튜디오로 비주얼 아이덴티티를 중심으로 다양한 분야의 시각디자인과, 아트웍 작업을 진행하고 있다. 밴드 10센치(10cm)의 앨범 아트웍과 디자인, 만화 출판사 쾅(Quang)의 비주얼 그래픽과 편집 디자인을 도맡아온 스튜디오로 디자인을 기반으로 창조적인 시각 결과물을 선보이고 있다. 
- 현재 스펙트럼 오브젝트라는 아트웍 그룹을 만들어 문화예술 전반의 여러 아티스트들과 함께 활발히 활동하고 있다.
 
 

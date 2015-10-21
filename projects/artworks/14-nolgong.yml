@@ -6,10 +6,24 @@ origin_country_en: KR
 origin_country_ko: 한국
 origin_lat: 37.5527
 origin_lng: 126.91259
+participant_bio_en: >
 
-artwork_name_en: Docent Project
-artwork_name_ko: 도슨트 프로젝트+영상 프로젝트
-artwork_year: 2015
+
+participant_bio_ko: >
+ 2011년 설립된 놀공은 예술, 문화, 교육, 사회 공헌 분야에서 디지털과 아날로그를 접목한 게임 기반의 참여형 문화 교육 콘텐츠를 제작하는 크리에이티브 스튜디오다. 15~20년 경력을 가진 게임, 교육공학, 컴퓨터 개발 전문가들이 회사를 이끌며 주한 독일문화원, 유니세프, 세이브 더 칠드런, C Program, 하자센터, 삼성그룹, 두산그룹, 현대자동차 등 다양한 분야의 기업 및 기관과 함께 일하고 있다.
+
+artworks:
+-
+  artwork_name_en: C( ) T( ) Guide
+  artwork_name_ko: C( ) T( ) 가이드
+  artwork_year: 2015
+  artwork_medium_en:
+  artwork_medium_ko: 
+  artwork_desc_en: >
+  artwork_desc_ko: >
+   C( ) T( ) Guide 
+   방문자 A는 C(  ) T(  )에 들어선다.이곳의 소통방법은 문자와 기호뿐이다.방문자 A는 이 도시의 시민이 되기 위해 입국심사와 몇 가지 간단한 절차를 밟는다.도시에 첫발을 내디딘 시민 A.저마다 다른 표식을 한 시민들과 시선이 오가고 도시의 (    )들을 통과한다.시민 A는 자신이 가진 도구를 길잡이로 알 수 없는 상대로부터 질문을 받으며, C(  ) T(  )를 욕망하거나 추억한다. Welcome to C(  ) T(  ) 이제 당신 차례.
+
 
 venue_name_en: Seoul284
 venue_name_ko: 문화역 서울 284
@@ -27,56 +41,5 @@ venue_lng: 126.97161
 # - image2.jpg 
 # - image3.jpg 
 
-# ARTWORK -----------------------------------------------
-
-artwork_desc_en: >
 
 
-artwork_desc_ko: >
-
- C( ) T( ) Guide
- 방문자 A는 C(  ) T(  )에 들어선다.이곳의 소통방법은 문자와 기호뿐이다.
-
- 방문자 A는 이 도시의 시민이 되기 위해 입국심사와 몇 가지 간단한 절차를 밟는다.
-
- 도시에 첫발을 내디딘 시민 A.저마다 다른 표식을 한 시민들과 시선이 오가고 도시의 (    )들을 통과한다.
-
- 시민 A는 자신이 가진 도구를 길잡이로 알 수 없는 상대로부터 질문을 받으며, C(  ) T(  )를 욕망하거나 추억한다. 
-
- Welcome to C(  ) T(  ) 이제 당신 차례.
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
-
-
-participant_bio_ko: >
- 주요 연혁 및 성과
- 1. 2015년 4월-5월 신한데이타시스템 전사교육               
- 7월 부산어린이국제영화제 영화놀이터 ‘storyplaying' 진행
-
- 2. 2014년 9월   놀공 클래식 “Being Faust-Enter Mephisto” 개발, 주한독일문화원 후원   
- 2014년 11월  “Being Faust-Enter Mephisto” 홍콩, 남아프리카공화국 투어   
- 2015년 5월   “Being Faust-Enter Mephisto” 동유럽 투어(체코, 헝가리, 리투아니아)   
- 2015년 11월  “Being Faust-Enter Mephisto” 아시아 투어(일본, 말레이시아, 필리핀)
-
- 3. 2014   1월   제 5회 현대 자동차 글로벌 유스캠프 개발 및 운영   
- 2014   3월   삼성디스플레이 신입사원 교육 프로그램 개발 및 운영                 
- 삼성전자 신입사원 교육 프로그램 개발 및 운영   
- 2014   11월  두산 브랜드북 전파교육 개발 및 운영                 
- 포천시청 창의력 교육
-
- 4. 2013   2월   금융감독원 주최 대학생 따뜻한 금융캠프 개발 및 운영          
- 3월    미래에셋 ‘The NOMAD 2013’ 참가 및 교육진행          
- 4월    놀공 클래식“안나 카레니나:톨스토이가 묻습니다.” coex 정신건강박람회          
- 10월   삼성전자 신입사원 교육 프로그램 개발 및 운영
-
- 5 2012   4월    현대자동차 Creative Thinking 교육 프로그램 개발 및 운영         
- 8월    놀공클래식 “로미오와 줄리엣”(광화문 교보문고)          
- 11월   제 2회 ‘The NOLJA Festival' 
-
- 6. 2011   2월    유니세프 ‘아름다운 우리환경’ 캠프 기획 및 진행           
- 9월   삼성인력개발원 창의교육          
- 11월   제 1회 ‘The NOLJA Festival'                   
- 유니세프 <아름다운 우리 환경캠프> 개발

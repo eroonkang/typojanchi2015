@@ -7,9 +7,26 @@ origin_country_ko: 대한민국
 origin_lat: 37.56158
 origin_lng: 126.90546
 
-artwork_name_en: Original drawing in city
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ Yoon Min Goo, a dinosaur fanatic, is a graphic and typeface designer based on south korea. He majored in communication design at Konkuk University and worked as a graphic designer at studio Nontoxic. In 2002, starting from webfont Bareun Geulggol, he designed other typefaces such as young-Hunminjeongeum, Ganal-buri, Yoonseul, and others. His main interest is the modern dinosaurology, hangeul(korean alphabet) and typography. He is currently working as a researcher and as a typeface designer at Ahn Graphics Typography lab and member of Korean Society of Typography. In addition, He lecture on korean typeface design in PaTI(Paju Typography Institute) and at the same time he designs his own works.
+
+
+participant_bio_ko: >
+ 윤민구는 공룡에 빠져 있는 그래픽, 글꼴 디자이너이다. 건국대학교에서 커뮤니케이션 디자인을 전공하고 스튜디오 Nontoxic에서 그래픽 디자이너로 일했다. 2002년 웹 폰트 바른글꼴을 시작으로 또각체, 어린훈민정음, 가날부리, 윤슬체 등 다양한 한글꼴을 디자인했다. 관심사는 현대 공룡학과 글자. 안그라픽스 타이포그라피연구소에서 연구원 겸 글꼴 디자이너로 일하고 있으며, 파주 타이포그라피학교(PaTI)에서 한글꼴 디자인을 가르친다. 한국 타이포그라피학회 회원이며, 다양한 분야의 작업자들과의 협업에 관심이 많고, 개인 작업과 전시를 병행하며 1인 디자이너로도 꾸준히 활동하고 있다.
+
+artworks:
+-
+  artwork_name_en: Original drawing in city
+  artwork_name_ko: 오리지널 도시 드로잉
+  artwork_year: 2015
+  artwork_medium_en: Neon sign, 100*100cm
+  artwork_medium_ko: 네온사인, 3개, 각 100*100cm
+  artwork_desc_en: >
+  artwork_desc_ko: >
+  밤이 찾아와 거리가 어둠에 잠기면, 도시의 표층 위로 익숙한 글자들이 하나둘 떠오른다. 갖가지 색과 모양으로, 때론 자극적인 점등으로 시선을 빼앗는 간판 속 글자들은 이즈음 쏟아져 나온 수많은 한글 레터링 혹은 글꼴들과 비견될지 모른다. 근대의 거대 도시―타이포그래피를 점령한 LED―디지털 활자들 속에서 작가는 예전의 글자 장인들이 손으로 일일이 그려낸 네온사인 원도 활자를 찾아 나선다.
+
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,20 +44,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
- # ARTWORK -----------------------------------------------
-
-
-artwork_desc_en: >
- 
-
-artwork_desc_ko: >
- 거리의 밤에 건물과 배경이 잠기고 나면, 표층 위로 익숙한 글자들이 하나둘 떠오른다. 갖가지 색과 모양으로, 때론 자극적인 점등으로 시선을 빼앗는 간판 속 글자들은 이즈음 쏟아져 나온 수많은 한글 레터링 혹은 타입페이스들과 비견할지 모른다. 근대의 거대 도시―타이포그래피를 점령한 LED―디지털활자 속에서, 그가 돋움하기 전 시절의 빼어난 글자 장인들이 손과 입으로 일일이 그려낸 NEONSIGN―원도활자를 찾아 전시 참여를 권유했다.
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Yoon Min Goo, a dinosaur fanatic, is a graphic and typeface designer based on south korea. He majored in communication design at Konkuk University and worked as a graphic designer at studio Nontoxic. In 2002, starting from webfont Bareun Geulggol, he designed other typefaces such as young-Hunminjeongeum, Ganal-buri, Yoonseul, and others. His main interest is the modern dinosaurology, hangeul(korean alphabet) and typography. He is currently working as a researcher and as a typeface designer at Ahn Graphics Typography lab and member of Korean Society of Typography. In addition, He lecture on korean typeface design in PaTI(Paju Typography Institute) and at the same time he designs his own works.
-
-
-participant_bio_ko: >

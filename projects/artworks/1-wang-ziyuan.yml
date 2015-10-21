@@ -7,9 +7,28 @@ origin_country_ko: 중국
 origin_lat: 39.984809
 origin_lng: 116.46319
 
-artwork_name_en: Untitled
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ Upon graduation with a Master of Design in 1999, Wang Ziyuan started his career as a professor at China Central Academy of Fine Arts (CAFA). Since 2012  he has been a director of Studio5 in School of Design. Wang has received some important design awards including  “Best Book Design of The Year" of China in 2004, 2006 and 2011. He joined the Image design team as a core member and project director for 2008 Beijing Olympic Games:  the color system / pictogram as basic design elements for whole image. In 2009 when ICOGRADA Congress was held in Beijing, Wang curated“Beijing Typography '09”exhibition, one of the major academic events in relation to typography in China. With the jointly direction of Guest Prof. Ahn Sangsoo,  Studio5 has started a yearly research project -Chinese traditional typography re-discovering Since 2012.
+
+
+
+participant_bio_ko: >
+ 중국의 그래픽 디자이너, 중국 중앙미술학교 교수. 2004년, 2006년, 2011년 중국 ‘올해 최고의 북 디자인’을 포함해 다수의 디자인상을 수상했다. 2008년 베이징 올림픽 이미지 디자인 팀에 프로젝트 디렉터로 참여해 기본 디자인 요소로서 컬러 체계와 픽토그램 디자인을 개발했으며, 2009년 베이징에서 열린 이코그라다 총회의 주요 행사 가운데 하나였던 《베이징 타이포그래피 ’09》 큐레이터를 맡았다. 2012년 이래 디자인학교 산하 스튜디오 5의 디렉터로서 ‘중국 전통 타이포그래피 재발견’ 프로젝트를 진행해오고 있다.
+
+artworks:
+-
+  artwork_name_en: RetypoChina
+  artwork_name_ko: 
+  artwork_year: 2015
+  artwork_medium_en: offset printing and silk screen, 100x70mm
+  artwork_medium_ko: 오프셋 인쇄, 실크스크린, 100*70cm
+  artwork_desc_en: >
+   If one is about to read a city, Typography are considered as the interface of it, Words, which are different from books, City typography are connected more closely with local group's daily life and culture history. Chinese cities might differ from cities in other countries (e.g. South Korea), because of their distinct developmental stage, Rich and poor, tradition and modern are layered and mixed at one moment, which allows new possibilities of typography. I ever have travelled a lot in several remotely small towns of Shanxi province in western China, where I was fascinated by the door curtains that made by local housewives by hand in the form of “baina”(百纳）, Ladies used small pieces of remaining cloth at home or collected trimmings to sew together so that they can make kinds of new looking curtains—with modern palette and structures where also implied with words. Thus, these works turned into modern and abstract paintings. And in those small towns, the existence of words in walls, bricks, rooms and living space provided us with more imaginations for typography. By reconstructing these elements, Chinese typography also indicate that people in Chinese cities will live a new life, Wandering between traditional and modern times. 
+
+  artwork_desc_ko: >
+  도시의 타이포그래피는 지역 공동체의 역사는 물론 일상적 삶과 밀접하게 연관되어 있다. 특히 중국처럼 전통과 근대가 뒤섞여 있는 곳에서 타이포그래피는 그 자체로 지역이 가진 특수성을 고스란히 보여주는 사회적 지표가 된다. 왕츠위안은 산서성 지방의 작은 마을들을 여행하면서 집마다 문에 달린 커튼에 주목한다. 이 커튼은 집에서 쓰고 남은 천 조각을 모아 만든 것으로 다양한 색깔, 모양, 문자를 보여준다. 작가는 이 커튼을 통해 작은 공동체의 일상 속에 내재된 타이포그래피적 요소를 중국의 현실과 병치시킨다.
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,26 +46,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
- # ARTWORK -----------------------------------------------
-
-
-artwork_desc_en: >
- If one is about to read a city, Typography are considered as the interface of it, Words, which are different from books, City typography are connected more closely with local group's daily life and culture history.
-
- Chinese cities might differ from cities in other countries (e.g. South Korea), because of their distinct developmental stage, Rich and poor, tradition and modern are layered and mixed at one moment, which allows new possibilities of typography.
-
- I ever have travelled a lot in several remotely small towns of Shanxi province in western China, where I was fascinated by the door curtains that made by local housewives by hand in the form of “baina”(百纳）, Ladies used small pieces of remaining cloth at home or collected trimmings to sew together so that they can make kinds of new looking curtains—with modern palette and structures where also implied with words. Thus, these works turned into modern and abstract paintings. And in those small towns, the existence of words in walls, bricks, rooms and living space provided us with more imaginations for typography. 
-
- By reconstructing these elements, Chinese typography also indicate that people in Chinese cities will live a new life, Wandering between traditional and modern times. 
-
-artwork_desc_ko: >
- 
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Upon graduation with a Master of Design in 1999, Wang Ziyuan started his career as a professor at China Central Academy of Fine Arts (CAFA). Since 2012  he has been a director of Studio5 in School of Design. Wang has received some important design awards including  “Best Book Design of The Year" of China in 2004, 2006 and 2011. He joined the Image design team as a core member and project director for 2008 Beijing Olympic Games:  the color system / pictogram as basic design elements for whole image. In 2009 when ICOGRADA Congress was held in Beijing, Wang curated“Beijing Typography '09”exhibition, one of the major academic events in relation to typography in China. With the jointly direction of Guest Prof. Ahn Sangsoo,  Studio5 has started a yearly research project -Chinese traditional typography re-discovering Since 2012.
-
-
-
-participant_bio_ko: >

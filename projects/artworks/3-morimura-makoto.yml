@@ -7,9 +7,24 @@ origin_country_ko: 일본
 origin_lat: 34.684731
 origin_lng: 135.459683
 
-artwork_name_en: Asia City Text/ure
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+ Makoto Morimura is a contemporary artist currently living and working in Osaka, Japan.
+ He was born in Yamanashi Prefecture, Japan, in 1976, and graduated from the Osaka College of Art (Osaka, Japan) in 1997 and the Nottingham Trent University (Nottingham, England) in 2000. He has held his solo exhibition at Yamanashi Prefectural Museum of Art (Kofu, Japan), Ethan Cohen Fine Arts(New York, USA), the three konohana (Osaka, Japan) and so on. His work has also been included in many international group exhibitions.
+ Discussed the relationship between individual and society with information, Morimura has worked on several art forms such as painting, sculpture, moving image, installation and so on. In recent years, he worked with whiteouting specific letters on book and cutting out specific letters from dictionary. His work is based on his personal experiences.
+
+participant_bio_ko: >
+ 1976년 야마나시 현에서 출생한 모리무라 마코토는 오사카에 거주하며 활동하는 작가이다. 오사카 미술대학교와 영국 노팅엄 트랜트 대학교를 졸업했다. 야마나시 현 미술관, 오사카의 스리 코노하나 미술관, 뉴욕의 이선 코헨 미술관 등에서 개인전을 열었으며 많은 국제전에 참여했다. 정보를 가지고 개인과 사회 사이의 관계를 문제 삼는 그의 작업은 회화, 조각, 움직이는 이미지 등 다양한 예술 형태로 나타난다. 최근에는 개인적인 경험을 기반으로 사전에서 특정 글자를 오려 내거나 책에서 특정 글자들을 지우는 작업을 선보이고 있다.
+
+artworks:
+-
+  artwork_name_en: 
+  artwork_name_ko: 
+  artwork_year: 
+  artwork_medium_en:
+  artwork_medium_ko: 
+  artwork_desc_en: >
+  artwork_desc_ko: >
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,20 +42,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
-# ARTWORK -----------------------------------------------
-
-
-artwork_desc_en: >
-
-artwork_desc_ko: >
-
-
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
- Makoto Morimura is a contemporary artist currently living and working in Osaka, Japan.
- He was born in Yamanashi Prefecture, Japan, in 1976, and graduated from the Osaka College of Art (Osaka, Japan) in 1997 and the Nottingham Trent University (Nottingham, England) in 2000. He has held his solo exhibition at Yamanashi Prefectural Museum of Art (Kofu, Japan), Ethan Cohen Fine Arts(New York, USA), the three konohana (Osaka, Japan) and so on. His work has also been included in many international group exhibitions.
- Discussed the relationship between individual and society with information, Morimura has worked on several art forms such as painting, sculpture, moving image, installation and so on. In recent years, he worked with whiteouting specific letters on book and cutting out specific letters from dictionary. His work is based on his personal experiences.
-
-participant_bio_ko: >

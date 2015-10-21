@@ -7,9 +7,27 @@ origin_country_ko: 일본
 origin_lat: 35.6644151
 origin_lng: 139.67885
 
-artwork_name_en: Kanji city
-artwork_name_ko: 
-artwork_year: 2015
+participant_bio_en: >
+
+
+participant_bio_ko: >
+
+artworks:
+-
+  artwork_name_en: Kanji city
+  artwork_name_ko: 간지 도시
+  artwork_year: 2012
+  artwork_medium_en: Video Installation, 4min
+  artwork_medium_ko: 비디오 설치, 4분
+  artwork_desc_en: >
+   Kanji City is a video piece that expresses the landscape  with The kanji (the logographic Chinese characters that are used in the modern Japanese) The city of Kyoto is shown with various animations of kanji such as tree, river, temple and gate.Push pedals of a bicycle, also  move in conjunction with the image.Three screens will allow for more spatial images.
+
+  artwork_desc_ko: >
+   <간지 도시>는 현재 일본에서 사용하는 중국 문자를 가지고 교토 풍경을 보여주는 비디오 작품이다. 나무, 강, 절, 문과 같은 사물을 다양한 한자 애니메이션을 활용해 형상화하며, 자전거 페달에 따라 이미지가 움직인다. 세 개의 스크린은 비디오 작품에 공간감을 부여한다.
+
+
+
+
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역서울284
@@ -27,19 +45,3 @@ venue_lng: 126.9716173
 # - image2.jpg 
 # - image3.jpg 
 
-# ARTWORK -----------------------------------------------
-
-artwork_desc_en: >
- 
- Kanji City is a video piece that expresses the landscape  with The kanji (the logographic Chinese characters that are used in the modern Japanese)
- The city of Kyoto is shown with various animations of kanji such as tree, river, temple and gate. 
- Push pedals of a bicycle, also  move in conjunction with the image.Three screens will allow for more spatial images.
-
-artwork_desc_ko: >
-
-# PARTICIPANT -----------------------------------------------
-
-participant_bio_en: >
-
-
-participant_bio_ko: >

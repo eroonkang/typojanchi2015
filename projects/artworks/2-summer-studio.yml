@@ -1,0 +1,44 @@
+full_name_en: Summer Studio(Carolina Dahl & Minna Sakaria)
+full_name_ko: 썸머 스튜디오(민나 사카리아 & 캐롤리나 달)
+origin_city_en: London
+origin_city_ko: 런던
+origin_country_en: UK
+origin_country_ko: 영국
+origin_lat: 51.5011441
+origin_lng: -0.1792847
+
+participant_bio_en: >
+ Summer Studio was founded in 2014 by Carolina Dahl and Minna Sakaria while studying at the Royal College of Art in London. The studio was set up as a platform to explore independent graphic design combined with a professional visual communication practice, as a part of their final year and MA thesis. The studio’s portfolio spans type design, brand identity, print and publishing for artists as well as corporations, exhibitions and events, with work consistently beginning in typography and conceptual design. The studio’s artistic aim is to create participatory, playful design stripped from dogmatic conceptions.
+
+ 
+participant_bio_ko: >
+
+artworks:
+-
+  artwork_name_en: Mexico Glitchy
+  artwork_name_ko: 멕시코 글리치
+  artwork_year: 
+  artwork_medium_en: Banner, 350*150cm
+  artwork_medium_ko: 배너, 350*150cm
+  artwork_desc_en: >
+   Mexico Glitchy, a digitally fragmented, blurred and faulty experience of a place we have never been and do not understand.
+
+  artwork_desc_ko: >
+
+
+
+venue_name_en: Culture Station Seoul 284
+venue_name_ko: 문화역서울284
+venue_detail_en: 3F
+venue_detail_ko: 3층
+venue_city_en: Seoul
+venue_city_ko: 서울
+venue_country_en: KR
+venue_country_ko: 한국
+venue_lat: 37.5558393
+venue_lng: 126.9716173
+
+# photos: 
+# - image1.jpg 
+# - image2.jpg 
+# - image3.jpg 
