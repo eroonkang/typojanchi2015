@@ -136,8 +136,8 @@ $route->submit();
   </div>
   <div id="map-overlays">
     <h1><a href="#">Typojanchi 2015: Seoul International Typography Biennale</a></h1>
-    <img src="images/ct.png" class="left">
-    <img src="images/tj.png" class="right">
+    <img src="<? echo $home_url; ?>/images/ct.png" class="left">
+    <img src="<? echo $home_url; ?>/images/tj.png" class="right">
   </div>
   <div id="content">
    

@@ -4,8 +4,8 @@ origin_city_en: Seoul
 origin_city_ko: 서울
 origin_country_en: KR
 origin_country_ko: 한국
-origin_lat: 37.55583
-origin_lng: 126.97161
+origin_lat: 37.5558393
+origin_lng: 126.9716173
 
 participant_bio_en: >
  Gute Form is a Seoul-based design studio founded by Ohyun Kwon and Sunhee Yang in 2012. Born and raised in Berlin, Ohyun Kwon studied graphic design at the Lette Verein Berlin and has worked in Paris, Chicago & Berlin. Sunhee Yang studied fashion design at Ewha Women's University, and did her MA in graphic design at the London College of Communication. She had published a fashion magazine in London and Paris  for 3 years. Gute Form works mainly on editorial and identity projects, for example the Art Direction of Eloquence Magazine & Boda Magazine, brand design for Gana Art, Wooyoungmi, Platoon Kunsthalle, yogiyo as well as campaign designs for Hyundai Department Store & Korea National Contemporary Dance Company (KNCDC). Since 2013 Ohyun Kwon teaches visual design at the Hongik University. 
@@ -25,7 +25,7 @@ artworks:
   artwork_desc_ko: >
 
 
-venue_name_en: Seoul284
+venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역 서울 284
 venue_detail_en: 
 venue_detail_ko: 
@@ -33,8 +33,8 @@ venue_city_en: Seoul
 venue_city_ko: 서울
 venue_country_en: KR
 venue_country_ko: 한국
-venue_lat: 37.55583
-venue_lng: 126.97161
+venue_lat: 37.5558393
+venue_lng: 126.9716173
 
 # photos: 
 # - image1.jpg 

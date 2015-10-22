@@ -127,8 +127,8 @@ artists:
   url: "/projects/artworks/10-everyday-practice.yml"
 - full_name_en: Gute Form
   full_name_ko: 
-  origin_lat: 37.55583
-  origin_lng: 126.97161
+  origin_lat: 37.5558393
+  origin_lng: 126.9716173
   url: "/projects/artworks/11-cityletter.yml"
 - full_name_en: Zero Lab
   full_name_ko: "제로랩"
@@ -147,8 +147,8 @@ artists:
   url: "/projects/artworks/14-nolgong.yml"
 - full_name_en: Dappertutto Studio
   full_name_ko: "다페르튜토 스튜디오"
-  origin_lat: 37.55583
-  origin_lng: 126.97161
+  origin_lat: 37.5558393
+  origin_lng: 126.9716173
   url: "/projects/artworks/15-dappertutto.yml"
 - full_name_en: Workroom(Kyeongsoo Lee, Hwalsung  Park)
   full_name_ko: "워크룸"
@@ -157,8 +157,8 @@ artists:
   url: "/projects/artworks/17-workroom.yml"
 - full_name_en: Rebel9
   full_name_ko: 
-  origin_lat: 37.55583
-  origin_lng: 126.97161
+  origin_lat: 37.5558393
+  origin_lng: 126.9716173
   url: "/projects/artworks/18-rebel9.yml"
 - full_name_en: Andrew Brash
   full_name_ko: "앤드류 브라쉬"
@@ -759,61 +759,61 @@ artworks:
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-yuma-harada-n-shohei-iida.yml"
-- venue_name_en: Seoul284
+- venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: 'Workshop: A City without (   )'
   artwork_name_ko: "결여의 도시"
-  venue_lat: 37.55583
-  venue_lng: 126.97161
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
   url: "/projects/artworks/10-everyday-practice.yml"
-- venue_name_en: Seoul284
+- venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: City Letter Reportage
   artwork_name_ko: "도시문자 르포르타주"
-  venue_lat: 37.55583
-  venue_lng: 126.97161
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
   url: "/projects/artworks/11-cityletter.yml"
-- venue_name_en: Seoul284
+- venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: Exhibition Space
   artwork_name_ko: "전시공간 프로젝트"
-  venue_lat: 37.55583
-  venue_lng: 126.97161
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
   url: "/projects/artworks/12-zero-lab.yml"
-- venue_name_en: Seoul284
+- venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: Website
   artwork_name_ko: "웹사이트프로젝트"
-  venue_lat: 37.55583
-  venue_lng: 126.97161
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
   url: "/projects/artworks/13-eroonkang.yml"
-- venue_name_en: Seoul284
+- venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: Docent Project
   artwork_name_ko: "도슨트 프로젝트+영상 프로젝트"
-  venue_lat: 37.55583
-  venue_lng: 126.97161
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
   url: "/projects/artworks/14-nolgong.yml"
-- venue_name_en: Seoul284
+- venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: Opening Performance
   artwork_name_ko: "개막식 공연 프로젝트"
-  venue_lat: 37.55583
-  venue_lng: 126.97161
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
   url: "/projects/artworks/15-dappertutto.yml"
-- venue_name_en: Seoul284
+- venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: Document
   artwork_name_ko: "도큐먼트 프로젝트"
-  venue_lat: 37.55583
-  venue_lng: 126.97161
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
   url: "/projects/artworks/17-workroom.yml"
-- venue_name_en: Seoul284
+- venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: Archiving App
   artwork_name_ko: "아카이빙앱 프로젝트"
-  venue_lat: 37.55583
-  venue_lng: 126.97161
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
   url: "/projects/artworks/18-rebel9.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
