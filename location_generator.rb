@@ -7,11 +7,14 @@ def conv_to_permalink(filename)
 end
 
 locations = {
-  nodes: [],
+  nodes: { 
+    type: "FeatureCollection",
+    features: []
+  },
   links: []
 }
 
-idx = 1
+idx = 0
 
 Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
   artwork_yaml = YAML.load_file(filename)
@@ -21,31 +24,37 @@ Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
   # 
   
   venue_info = {
-    venue_name_ko: artwork_yaml["venue_name_ko"].to_s,
-    venue_name_en: artwork_yaml["venue_name_en"].to_s,
-    coordinates: [artwork_yaml["venue_lat"], artwork_yaml["venue_lng"]],
-    type: "Venue"
+    type: "Feature",
+    properties: {
+      venue_name_ko: artwork_yaml["venue_name_ko"].to_s,
+      venue_name_en: artwork_yaml["venue_name_en"].to_s,
+      type: "Venue"
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [artwork_yaml["venue_lat"], artwork_yaml["venue_lng"]]
+    }    
   }
 
   if conv_to_permalink(filename)[0] == "5" || conv_to_permalink(filename)[0] == "7" 
-    venue_info[:permalink] = conv_to_permalink(filename)
+    venue_info[:properties][:permalink] = conv_to_permalink(filename)
   end
   
-  if locations[:nodes].size == 0 
+  if locations[:nodes][:features].size == 0 
     
-    venue_info[:id] = idx
+    venue_info[:properties][:id] = idx
     idx = idx + 1
 
-    locations[:nodes] << venue_info
+    locations[:nodes][:features] << venue_info
   else
 
-    results = locations[:nodes].select { |node| node[:type] == "Venue" && node[:venue_name_ko] == venue_info[:venue_name_ko].to_s }
+    results = locations[:nodes][:features].select { |node| node[:properties][:type] == "Venue" && node[:properties][:venue_name_ko] == venue_info[:venue_name_ko].to_s }
 
     unless results.size > 0 
-      venue_info[:id] = idx
+      venue_info[:properties][:id] = idx
       idx = idx + 1
 
-      locations[:nodes] << venue_info
+      locations[:nodes][:features] << venue_info
     end
 
   end
@@ -63,17 +72,23 @@ Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
   unless conv_to_permalink(filename)[0] == "5"  # 엽서전은 아티스트, 아트웍 없음 
 
     artist_info = {
-      full_name_ko: artwork_yaml["full_name_ko"].to_s,
-      full_name_en: artwork_yaml["full_name_en"].to_s,
-      coordinates: [artwork_yaml["origin_lat"], artwork_yaml["origin_lng"]],
-      type: "Artist",
-      permalink: conv_to_permalink(filename),
-      id: idx
+      type: "Feature",
+      properties: {
+        full_name_ko: artwork_yaml["full_name_ko"].to_s,
+        full_name_en: artwork_yaml["full_name_en"].to_s,
+        type: "Artist",
+        permalink: conv_to_permalink(filename),
+        id: idx
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [artwork_yaml["origin_lat"], artwork_yaml["origin_lng"]]
+      } 
     }
     current_artist_id = idx 
 
     idx = idx + 1
-    locations[:nodes] << artist_info
+    locations[:nodes][:features] << artist_info
     
     #
     # Artist Node Creation End
@@ -86,21 +101,32 @@ Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
 
     artwork_yaml["artworks"].each do |artwork| 
       artwork_info = {
-        artwork_name_ko: artwork["artwork_name_ko"].to_s,
-        artwork_name_en: artwork["artwork_name_en"].to_s,
-        coordinates: [artwork_yaml["venue_lat"], artwork_yaml["venue_lng"]],
-        is_284: artwork_yaml["venue_name_ko"].to_s == "문화역 서울 284",
-        type: "Artwork",
-        permalink: conv_to_permalink(filename),
-        id: idx
+
+        type: "Feature",
+        properties: {
+          artwork_name_ko: artwork["artwork_name_ko"].to_s,
+          artwork_name_en: artwork["artwork_name_en"].to_s,
+          is_284: artwork_yaml["venue_name_ko"].to_s == "문화역 서울 284",
+          type: "Artwork",
+          permalink: conv_to_permalink(filename),
+          id: idx
+        },
+        geometry: {
+          type: "Point",
+          coordinates: [artwork_yaml["venue_lat"], artwork_yaml["venue_lng"]]
+        } 
       }
       current_artwork_id = idx
 
       idx = idx + 1
-      locations[:nodes] << artwork_info
+      locations[:nodes][:features] << artwork_info
 
       # make links between artist and artwork
-      locations[:links] << [current_artist_id, current_artwork_id]
+      locations[:links] << {
+        source: current_artist_id,
+        target: current_artwork_id,
+        value: 1 
+      }
     end
   end
   #
@@ -117,33 +143,49 @@ projects_yaml = YAML.load_file("./projects/projects.yml")
 projects_yaml["projects"].each do |project|
   
   project_info = {
-    project_name_en: project["project_name_en"],
-    project_name_ko: project["project_name_ko"],
-    id: idx
+    type: "Feature",
+    properties: {
+      project_name_en: project["project_name_en"],
+      project_name_ko: project["project_name_ko"],
+      type: "Project",
+      id: idx
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [37.5558393, 126.9716173]
+    }   
   }
   current_project_id = idx
 
   idx = idx + 1
-  locations[:nodes] << project_info
+  locations[:nodes][:features] << project_info
   
 
 
   # connecting project and artwork
   project["project_artists"].each do |artwork|
-    selected_nodes = locations[:nodes].select { |node| (node[:type] == "Artwork" || node[:type] == "Venue") && node[:permalink] == conv_to_permalink(artwork["url"])  }
+    selected_nodes = locations[:nodes][:features].select { |node| (node[:properties][:type] == "Artwork" || node[:properties][:type] == "Venue") && node[:properties][:permalink] == conv_to_permalink(artwork["url"])  }
    
     # puts selected_nodes.first.inspect
     
-    locations[:links] << [current_project_id, selected_nodes.first[:id]]
+    locations[:links] << {
+      source: current_project_id, 
+      target: selected_nodes.first[:properties][:id],
+      value: 1 
+    }
 
     unless conv_to_permalink(artwork['url'])[0] == "5" 
       artwork_yaml = YAML.load_file("." + artwork['url'])
 
-      venue_node = locations[:nodes].select { |node| (node[:type] == "Venue") && node[:venue_name_ko] == artwork_yaml['venue_name_ko'] }
+      venue_node = locations[:nodes][:features].select { |node| (node[:properties][:type] == "Venue") && node[:properties][:venue_name_ko] == artwork_yaml['venue_name_ko'] }
       byebug if venue_node.size == 0
-      venue_node_id = venue_node.first[:id]
+      venue_node_id = venue_node.first[:properties][:id]
 
-      locations[:links] << [current_project_id, venue_node_id]
+      locations[:links] << {
+        source: current_project_id, 
+        target: venue_node_id,
+        value: 1
+      }
     end
   end
 

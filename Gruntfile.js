@@ -29,6 +29,7 @@ module.exports = function(grunt) {
             'javascripts/src/vendor/retina.min.js',
             'javascripts/src/vendor/js-yaml.min.js',
             'javascripts/src/vendor/kerning.js',
+            'javascripts/src/vendor/d3.v3.min.js',
             'javascripts/src/vendor/leaflet-src.js',
             'javascripts/src/vendor/oms.min.js',
             'javascripts/src/WY.js',

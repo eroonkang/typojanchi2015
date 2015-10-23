@@ -4,8 +4,6 @@ WY.views.welcome_view = (function(){
       projects_manager,
       artwork_manager,
       map_manager,
-      screen_width, 
-      screen_height,
       artwork_permalink,
       cities_appended = false;
       
@@ -26,8 +24,8 @@ WY.views.welcome_view = (function(){
 
   function init_resize(){
     $(window).resize(function(e){
-      screen_width = $(window).width();
-      screen_height = $(window).height();
+      WY.constants.screen_width = $(window).width();
+      WY.constants.screen_height = $(window).height();
       set_map_height();
     });
 
@@ -104,7 +102,7 @@ WY.views.welcome_view = (function(){
   }
 
   function set_map_height(){
-    $('#map-container').css("height",screen_height);
+    $('#map-container').css("height", WY.constants.screen_height);
   }
 
   function show_index(){
