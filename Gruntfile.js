@@ -31,6 +31,7 @@ module.exports = function(grunt) {
             'javascripts/src/vendor/kerning.js',
             'javascripts/src/vendor/d3.v3.min.js',
             'javascripts/src/vendor/leaflet-src.js',
+            'javascripts/src/vendor/ngraph.graph.js',
             'javascripts/src/vendor/oms.min.js',
             'javascripts/src/WY.js',
             'javascripts/src/utils.js',

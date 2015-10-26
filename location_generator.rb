@@ -32,7 +32,7 @@ Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
     },
     geometry: {
       type: "Point",
-      coordinates: [artwork_yaml["venue_lat"], artwork_yaml["venue_lng"]]
+      coordinates: [artwork_yaml["venue_lng"], artwork_yaml["venue_lat"]]
     }    
   }
 
@@ -82,7 +82,7 @@ Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
       },
       geometry: {
         type: "Point",
-        coordinates: [artwork_yaml["origin_lat"], artwork_yaml["origin_lng"]]
+        coordinates: [artwork_yaml["origin_lng"], artwork_yaml["origin_lat"]]
       } 
     }
     current_artist_id = idx 
@@ -113,7 +113,7 @@ Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
         },
         geometry: {
           type: "Point",
-          coordinates: [artwork_yaml["venue_lat"], artwork_yaml["venue_lng"]]
+          coordinates: [artwork_yaml["venue_lng"], artwork_yaml["venue_lat"]]
         } 
       }
       current_artwork_id = idx
@@ -152,7 +152,7 @@ projects_yaml["projects"].each do |project|
     },
     geometry: {
       type: "Point",
-      coordinates: [37.5558393, 126.9716173]
+      coordinates: [126.9716173, 37.5558393]
     }   
   }
   current_project_id = idx
