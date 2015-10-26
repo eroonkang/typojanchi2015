@@ -108,8 +108,8 @@ WY.models.MapManager = (function(){
             }
             
           }).
-          on("click", function (d) {
-            debugger;
+          on("mouseover", function (d) {
+            
           })
           // .call(force.drag);
 
