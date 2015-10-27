@@ -37,20 +37,55 @@ WY.models.MapManager = (function(){
       this.data = data;
       this.artist_popup_tmpl = _.template("<%= full_name_" + WY.constants.locale + " %>");
       this.artwork_popup_tmpl = _.template("<%= artwork_name_" + WY.constants.locale + " %>");
-      var geojsonMarkerOptions = {
-          radius: 5,
-          fillColor: "#FFFFFF",
-          color: "#000",
-          fillOpacity: 1,
-          opacity: 1,
-      };
+      // var geojsonMarkerOptions = ;
 
 
       _.each(this.data.nodes.features, _.bind(function (node) {
-        var marker = L.circleMarker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), geojsonMarkerOptions);
+        var marker;
+
+        // 거의 주석을 달필요성을 못느낌
+        if (node.properties.type == "Venue") {
+          marker = L.circleMarker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
+            radius: 5,
+            fillColor: "#FFFFFF",
+            color: "#000",
+            fillOpacity: 1,
+            opacity: 1,
+          });
+        } else if (node.properties.type == "Project") {
+          marker = L.circleMarker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
+            radius: 5,
+            fillColor: "#FFFFFF",
+            color: "#000",
+            fillOpacity: 1,
+            opacity: 1,
+          });
+        } else if (node.properties.type == "Artwork") {
+          marker = L.circleMarker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
+            radius: 5,
+            fillColor: "#FFFFFF",
+            color: "#000",
+            fillOpacity: 1,
+            opacity: 1,
+          });
+        } else if (node.properties.type == "Artist") {
+          marker = L.circleMarker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
+            radius: 5,
+            fillColor: "#FFFFFF",
+            color: "#000",
+            fillOpacity: 1,
+            opacity: 1,
+          });
+        }
+
+
+
 
         this.graph.addNode(node.properties.id, {properties: node.properties, marker: marker});
         this.map.addLayer(marker);
+        // marker.on('click', function (e) {
+          
+        // })
         // debugger;
       }, this));
         
@@ -58,17 +93,43 @@ WY.models.MapManager = (function(){
         
         var from_latlng = this.graph.getNode(link.source).data.marker._latlng;
         var to_latlng = this.graph.getNode(link.target).data.marker._latlng;
+        var polyline;
         
+        var source = this.graph.getNode(link.source);
+        var target = this.graph.getNode(link.target);
+        // debugger;
+        if ((source.data.properties.type == "Venue" && target.data.properties.type == "Project") || 
+            (source.data.properties.type == "Project" && target.data.properties.type == "Venue")) {
+          polyline = L.polyline([from_latlng, to_latlng], {
+            color: '#555',
+            weight: 1,
+            opacity: 0.2
+          }).addTo(this.map);
+        } else if ((source.data.properties.type == "Project" && target.data.properties.type == "Artwork") || 
+                   (source.data.properties.type == "Artwork" && target.data.properties.type == "Project")) {
+          
+          polyline = L.polyline([from_latlng, to_latlng], {
+            color: '#555',
+            weight: 1,
+            opacity: 0.2
+          }).addTo(this.map);
 
-        var polyline = L.polyline([from_latlng, to_latlng], {
-          color: '#555',
-          weight: 1,
-          opacity: 0.2
-        }).addTo(this.map);
+        } else if ((source.data.properties.type == "Artwork" && target.data.properties.type == "Artist") || 
+                   (source.data.properties.type == "Artist" && target.data.properties.type == "Artwork")) {
+
+          polyline = L.polyline([from_latlng, to_latlng], {
+            color: '#555',
+            weight: 1,
+            opacity: 0.2
+          }).addTo(this.map);
+
+        } 
+
+
 
         var link = this.graph.addLink(link.source, link.target, {data: {}, line: polyline});
 
-      },this));
+      }, this));
 
     }
     
