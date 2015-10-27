@@ -21173,20 +21173,66 @@ WY.models.MapManager = (function(){
       this.data = data;
       this.artist_popup_tmpl = _.template("<%= full_name_" + WY.constants.locale + " %>");
       this.artwork_popup_tmpl = _.template("<%= artwork_name_" + WY.constants.locale + " %>");
-      var geojsonMarkerOptions = {
-          radius: 5,
-          fillColor: "#FFFFFF",
-          color: "#000",
-          fillOpacity: 1,
-          opacity: 1,
-      };
+      // var geojsonMarkerOptions = ;
 
 
       _.each(this.data.nodes.features, _.bind(function (node) {
-        var marker = L.circleMarker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), geojsonMarkerOptions);
+        var marker;
+
+        var customIcon = L.Icon.extend({
+            options: {
+                iconSize:     [40, 40],
+                iconAnchor:   [20, 20],
+                popupAnchor:  [0, 0]
+            }
+        });
+
+        var circle_w = new customIcon({iconUrl: 'images/icon-circle-w.png', iconRetinaUrl: 'images/icon-circle-w@2x.png'}),
+            diamond_w = new customIcon({iconUrl: 'images/icon-diamond-w.png', iconRetinaUrl: 'images/icon-diamond-w@2x.png'}),
+            diamond_b = new customIcon({iconUrl: 'images/icon-diamond-b.png', iconRetinaUrl: 'images/icon-diamond-b@2x.png'});
+            concentric_w = new customIcon({iconUrl: 'images/icon-concentric-w.png', iconRetinaUrl: 'images/icon-concentric-w@2x.png'});
+            scircle_b = new customIcon({iconUrl: 'images/icon-scircle-b.png', iconRetinaUrl: 'images/icon-scircle-b@2x.png'});
+            scircle_w = new customIcon({iconUrl: 'images/icon-scircle-w.png', iconRetinaUrl: 'images/icon-scircle-w@2x.png'});
+
+        // 거의 주석을 달필요성을 못느낌
+        if (node.properties.type == "Venue") {
+          marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
+            icon: concentric_w
+          });
+
+        } else if (node.properties.type == "Project") {
+          marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
+            icon: circle_w
+          });
+
+        } else if (node.properties.type == "Artwork") {
+          // marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
+          marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
+            icon: circle_w
+          });
+          
+        } else if (node.properties.type == "Artist") {
+          marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
+            icon: scircle_w
+          });
+
+          // marker = L.circleMarker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
+          //   radius: 5,
+          //   fillColor: "#000",
+          //   color: "#000",
+          //   fillOpacity: 1,
+          //   opacity: 1,
+          // });
+        }
+
+
+
 
         this.graph.addNode(node.properties.id, {properties: node.properties, marker: marker});
         this.map.addLayer(marker);
+        // marker.on('click', function (e) {
+          
+        // })
         // debugger;
       }, this));
         
@@ -21194,17 +21240,47 @@ WY.models.MapManager = (function(){
         
         var from_latlng = this.graph.getNode(link.source).data.marker._latlng;
         var to_latlng = this.graph.getNode(link.target).data.marker._latlng;
+        var polyline;
         
+        var source = this.graph.getNode(link.source);
+        var target = this.graph.getNode(link.target);
+        // debugger;
+        if ((source.data.properties.type == "Venue" && target.data.properties.type == "Project") || 
+            (source.data.properties.type == "Project" && target.data.properties.type == "Venue")) {
+          polyline = L.polyline([from_latlng, to_latlng], {
+            color: '#000',
+            weight: 1.5,
+            opacity: 1
+          }).addTo(this.map);
+        } else if ((source.data.properties.type == "Project" && target.data.properties.type == "Artwork") || 
+                   (source.data.properties.type == "Artwork" && target.data.properties.type == "Project")) {
+          
+          polyline = L.polyline([from_latlng, to_latlng], {
+            color: '#000',
+            weight: 1.5,
+            opacity: 1,
+            dashArray: "0.1, 10",
+            lineCap: "round"
+          }).addTo(this.map);
 
-        var polyline = L.polyline([from_latlng, to_latlng], {
-          color: '#555',
-          weight: 1,
-          opacity: 0.2
-        }).addTo(this.map);
+        } else if ((source.data.properties.type == "Artwork" && target.data.properties.type == "Artist") || 
+                   (source.data.properties.type == "Artist" && target.data.properties.type == "Artwork")) {
+
+          polyline = L.polyline([from_latlng, to_latlng], {
+            color: '#000',
+            weight: 2,
+            opacity: 1,
+            dashArray: "0.1, 10",
+            lineCap: "round"
+          }).addTo(this.map);
+
+        } 
+
+
 
         var link = this.graph.addLink(link.source, link.target, {data: {}, line: polyline});
 
-      },this));
+      }, this));
 
     }
     
