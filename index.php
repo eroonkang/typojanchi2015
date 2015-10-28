@@ -88,8 +88,8 @@ $route->submit();
   <div id="index">
   <div id="section-header">
     <h2><a href="#">About (Typojanchi)</a></h2>
-    <div id="lang-en"><a href="<? echo $home_url; ?>/en">EN</a></div>
-    <div id="lang-ko"><a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</span></a></div>
+    <div id="index-left"><a href="<? echo $home_url; ?>/en">EN</a> — <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a></div>
+    <div id="index-right" class="close_index"><a href="#">X</a></div>
   </div>
   <div id="section-cities">
     <ul class="index-list">
@@ -136,9 +136,18 @@ $route->submit();
   <div id="map-container">
   </div>
   <div id="map-overlays">
-    <h1><a href="#">Typojanchi 2015: Seoul International Typography Biennale</a></h1>
+    
+    <a href="#">
+      <h1>
+      <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
+      Typojanchi 2015: The 4th International Typography Biennale
+      </h1>
+    </a>
     <img src="<? echo $home_url; ?>/images/ct.png" class="left">
     <img src="<? echo $home_url; ?>/images/tj.png" class="right">
+  </div>
+  <div id="lang-control">
+    <a href="<? echo $home_url; ?>/en">EN</a> — <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a>
   </div>
   <div id="content">
    

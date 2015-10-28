@@ -20,6 +20,10 @@ WY.views.welcome_view = (function(){
       show_index();
     });
 
+    $('.close_index').click(function(){
+      hide_index();
+    });
+
   }
 
   function init_resize(){
@@ -106,13 +110,19 @@ WY.views.welcome_view = (function(){
   }
 
   function show_index(){
-    $('#index').show();
+    $('#index').slideDown('slow');
     participants_manager.append_dom();
     projects_manager.append_dom();
     if (!cities_appended) {
-      $('#section-cities').columnize({    width:250, lastNeverTallest: false});
+      $('#section-cities').columnize({ width:200, lastNeverTallest: false});
       cities_appended = true;
     }
+    $('#lang-control, #map-overlays').hide();
+  }
+
+  function hide_index(){
+    $('#index').hide();
+    $('#lang-control, #map-overlays').show();
   }
 
   return welcome_view;
