@@ -175,7 +175,7 @@ WY.models.MapManager = (function(){
 
       this.graph.forEachNode(_.bind(function(node){
         
-        if ((node.data.is("Project") && node.data.properties.project_name != "THIS IS SEOUL ( ) SOUL") || node.data.is("Artwork")) {
+        if (node.data.is("Project") || node.data.is("Artwork")) {
           
           this.graph.forEachLinkedNode(node.id, function (target_node) {
             
