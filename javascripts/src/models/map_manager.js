@@ -11,7 +11,7 @@ WY.models.MapManager = (function(){
     this.graph = createGraph();
 
     _.extend(this, Backbone.Events);
-    _.bindAll(this, "load_complete_handler");
+    _.bindAll(this, "load_complete_handler", "animate");
   }
 
   MapManager.prototype = {
@@ -22,7 +22,7 @@ WY.models.MapManager = (function(){
         attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(this.map);
 
-      // this.map.scrollWheelZoom.disable();
+      this.map.scrollWheelZoom.disable();
       this.map.doubleClickZoom.disable();
 
       this.load();
@@ -69,7 +69,7 @@ WY.models.MapManager = (function(){
           });
 
         } else if (node.properties.type == "Project") {
-          marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
+          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.001, 0.001), node.geometry.coordinates[0] + randomBetween(-0.001, 0.001)), {
             icon: circle_w,
             riseOnHover: true
           });
@@ -77,12 +77,12 @@ WY.models.MapManager = (function(){
         } else if (node.properties.type == "Artwork") {
           // marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
           marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
-            icon: circle_w,
+            icon: scircle_w,
             riseOnHover: true
           });
           
         } else if (node.properties.type == "Artist") {
-          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
+          marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
             icon: scircle_w,
             riseOnHover: true
           });
@@ -98,14 +98,15 @@ WY.models.MapManager = (function(){
 
 
 
+        var marker_node = new WY.models.MarkerNode({
+          properties: node.properties, 
+          marker: marker
+        });
 
-        var n = this.graph.addNode(node.properties.id, {properties: node.properties, marker: marker});
-        debugger;
+
+        this.graph.addNode(node.properties.id, marker_node);
+
         this.map.addLayer(marker);
-        // marker.on('click', function (e) {
-          
-        // })
-        // debugger;
       }, this));
         
       _.each(this.data.links, _.bind(function(link){ 
@@ -150,20 +151,83 @@ WY.models.MapManager = (function(){
 
 
 
-        var link = this.graph.addLink(link.source, link.target, {data: {}, line: polyline});
+        var link = this.graph.addLink(link.source, link.target, {line: polyline});
 
+        // this.animate();
       }, this));
       
-  
-      for (var i = 0; i < 100; i++) {
+      WY.dispatcher.on('start_animate', _.bind(function(e){
+        this.animate();
+      }, this));
+      
 
-        _.delay(_.bind(function(){
+    },
 
-          this.graph.forEachNode(function(node){
-            node.data.marker.setLatLng(L.latLng(node.data.marker._latlng.lat + randomBetween(-0.01, 0.01), node.data.marker._latlng.lng + randomBetween(-0.01, 0.01)))
+    animate: function () {
+      requestAnimationFrame(this.animate);
+
+
+      this.graph.forEachNode(_.bind(function(node){
+        
+        if ((node.data.is("Project") && node.data.properties.project_name != "THIS IS SEOUL ( ) SOUL") || node.data.is("Artwork")) {
+          
+          this.graph.forEachLinkedNode(node.id, function (target_node) {
+            
+            if (target_node.data.is("Project") || target_node.data.is("Artwork")) {
+              // // 두 노드간의 거리계산 
+            
+              // // if (node.data.location.distanceTo(target_node.data.location) < 0.1){
+
+              var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
+
+              var d = force.length();
+              var stretch = d - 0.001;
+
+              force.normalize();
+              // debugger;
+              force.multiplyScalar(-1 * 0.2 * stretch);
+              // debugger;
+              // if (_.isNaN(force.x)) { debugger; }
+
+              node.data.apply_force(force);
+
+              force.multiplyScalar(-1);
+              target_node.data.apply_force(force);
+
+              node.data.update();
+              target_node.data.update(); 
+            } else if (target_node.data.is("Venue")) {
+              var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
+
+              var d = force.length();
+              var stretch = d - 0.005;
+
+              force.normalize();
+              force.multiplyScalar(-1 * 0.002 * stretch);
+              // debugger;
+              if (_.isNaN(force.x)) { debugger; }
+
+              node.data.apply_force(force);
+
+              node.data.update();
+
+            }
+
           });
-        }, this), i * 100); 
-      }
+
+        }
+
+
+      }, this));
+
+  
+      this.graph.forEachLink(_.bind(function(link){
+        var source = this.graph.getNode(link.fromId);
+        var target = this.graph.getNode(link.toId);
+        link.data.line.setLatLngs([source.data.marker.getLatLng(), target.data.marker.getLatLng()]);
+      }, this));
+
+
     }
     
   };

@@ -69,6 +69,9 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/leaflet-src.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/ngraph.graph.js"></script> 
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/turf.min.js"></script>   
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/rAF.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/vector2.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/d3.v3.min.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/kerning.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/WY.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>
@@ -78,6 +81,7 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/models/participants_manager.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/projects_manager.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/artwork_manager.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/models/marker_node.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/map_manager.js"></script>
 
   <!-- views -->
