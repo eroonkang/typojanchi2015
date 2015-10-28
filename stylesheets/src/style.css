@@ -40,13 +40,13 @@ a:hover {
   margin: 15px auto 0 auto;
 }
 
-#lang-en {
+#index-left {
   position: absolute;
   top: 15px;
   left: 30px;
 }
 
-#lang-ko {
+#index-right {
   position: absolute;
   top: 15px;
   right: 30px;
@@ -147,28 +147,37 @@ p.description {
   height: 700px;
 }
 
+#lang-control {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
 #map-overlays {
   position: absolute;
   width: 100%;
-  bottom: 40px;
+  bottom: 0px;
 }
 #map-overlays h1 {
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
   text-align: center;
-  /*    text-shadow:
-       -1px -1px 0 #fff,  
-        1px -1px 0 #fff,
-        -1px 1px 0 #fff,
-         1px 1px 0 #fff;*/
+  text-shadow: -1px -1px 0px #fff,   1px -1px 0px #fff, -1px  1px 0px #fff, 1px  1px 0px #fff;
+  line-height: 1em;
+  border-radius: 2px;
+}
+#map-overlays h1:hover {
+  opacity: 0.5;
 }
 #map-overlays img.left {
   position: absolute;
-  left: 40px;
-  bottom: 0px;
+  left: 30px;
+  bottom: 30px;
 }
 #map-overlays img.right {
   position: absolute;
-  right: 40px;
-  bottom: 0px;
+  right: 30px;
+  bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -21149,13 +21149,18 @@ WY.models.MapManager = (function(){
 
   MapManager.prototype = {
     init: function(){
-      this.map = L.map(this.el_name).setView([37.5558393, 126.9716173], 14);
+      this.map = L.map(this.el_name,{
+        minZoom:5,
+        zoomControl: false
+      }).setView([37.5558393, 126.9716173], 14);
 
       L.tileLayer('https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw', {
         attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(this.map);
 
-      // this.map.scrollWheelZoom.disable();
+      new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
+
+      this.map.scrollWheelZoom.disable();
       // this.map.doubleClickZoom.disable();
 
       this.load();
@@ -21318,7 +21323,7 @@ WY.models.ParticipantsManager = (function(){
     append_dom: function(){
       if (!_.isUndefined(this.inner_dom) && !this.appended){
         this.el.append(this.inner_dom);
-        this.el.columnize({  width:250, lastNeverTallest: true});
+        this.el.columnize({  width:200, lastNeverTallest: true});
         this.appended = true;
       }
     }
@@ -21365,7 +21370,7 @@ WY.models.ProjectsManager = (function(){
     append_dom: function(){
       if (!_.isUndefined(this.inner_dom) && !this.appended){
         this.el.append(this.inner_dom);
-        this.el.columnize({    width:380, lastNeverTallest: true});    
+        this.el.columnize({ width:200, lastNeverTallest: true});    
         this.appended = true;
       }
     }
@@ -21437,6 +21442,10 @@ WY.views.welcome_view = (function(){
 
     $('h1').click(function(){
       show_index();
+    });
+
+    $('.close_index').click(function(){
+      hide_index();
     });
 
   }
@@ -21525,13 +21534,19 @@ WY.views.welcome_view = (function(){
   }
 
   function show_index(){
-    $('#index').show();
+    $('#index').slideDown('slow');
     participants_manager.append_dom();
     projects_manager.append_dom();
     if (!cities_appended) {
-      $('#section-cities').columnize({    width:250, lastNeverTallest: false});
+      $('#section-cities').columnize({ width:200, lastNeverTallest: false});
       cities_appended = true;
     }
+    $('#lang-control, #map-overlays').hide();
+  }
+
+  function hide_index(){
+    $('#index').hide();
+    $('#lang-control, #map-overlays').show();
   }
 
   return welcome_view;
