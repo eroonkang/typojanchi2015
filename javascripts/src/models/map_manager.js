@@ -69,7 +69,7 @@ WY.models.MapManager = (function(){
           });
 
         } else if (node.properties.type == "Project") {
-          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.001, 0.001), node.geometry.coordinates[0] + randomBetween(-0.001, 0.001)), {
+          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.005, 0.005), node.geometry.coordinates[0] + randomBetween(-0.005, 0.005)), {
             icon: circle_w,
             riseOnHover: true
           });
@@ -111,8 +111,8 @@ WY.models.MapManager = (function(){
         
       _.each(this.data.links, _.bind(function(link){ 
         
-        var from_latlng = this.graph.getNode(link.source).data.marker._latlng;
-        var to_latlng = this.graph.getNode(link.target).data.marker._latlng;
+        var from_latlng = this.graph.getNode(link.source).data.marker.getLatLng();
+        var to_latlng = this.graph.getNode(link.target).data.marker.getLatLng();
         var polyline;
         
         var source = this.graph.getNode(link.source);
@@ -138,13 +138,14 @@ WY.models.MapManager = (function(){
 
         } else if ((source.data.properties.type == "Artwork" && target.data.properties.type == "Artist") || 
                    (source.data.properties.type == "Artist" && target.data.properties.type == "Artwork")) {
-
+          // debugger;
           polyline = L.polyline([from_latlng, to_latlng], {
             color: '#000',
-            weight: 2,
-            opacity: 0,
-            dashArray: "0.1, 10",
-            lineCap: "round"
+            weight: 1,
+            opacity: 0.1//,
+            // dashArray
+            // dashArray: "0.1, 10",
+            // lineCap: "round"
           }).addTo(this.map);
 
         } 
