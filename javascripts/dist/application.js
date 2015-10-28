@@ -21149,7 +21149,7 @@ WY.models.MapManager = (function(){
 
   MapManager.prototype = {
     init: function(){
-      this.map = L.map(this.el_name).setView([37.5558393, 126.9716173], 13);
+      this.map = L.map(this.el_name).setView([37.5558393, 126.9716173], 14);
 
       L.tileLayer('https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw', {
         attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -21183,7 +21183,7 @@ WY.models.MapManager = (function(){
             options: {
                 iconSize:     [40, 40],
                 iconAnchor:   [20, 20],
-                popupAnchor:  [0, 0]
+                popupAnchor:  [0, 0],
             }
         });
 
@@ -21197,23 +21197,27 @@ WY.models.MapManager = (function(){
         // 거의 주석을 달필요성을 못느낌
         if (node.properties.type == "Venue") {
           marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
-            icon: concentric_w
+            icon: scircle_b,
+            riseOnHover: true
           });
 
         } else if (node.properties.type == "Project") {
           marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
-            icon: circle_w
+            icon: circle_w,
+            riseOnHover: true
           });
 
         } else if (node.properties.type == "Artwork") {
           // marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
-          marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
-            icon: circle_w
+          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
+            icon: circle_w,
+            riseOnHover: true
           });
           
         } else if (node.properties.type == "Artist") {
-          marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
-            icon: scircle_w
+          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
+            icon: scircle_w,
+            riseOnHover: true
           });
 
           // marker = L.circleMarker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
@@ -21269,7 +21273,7 @@ WY.models.MapManager = (function(){
           polyline = L.polyline([from_latlng, to_latlng], {
             color: '#000',
             weight: 2,
-            opacity: 1,
+            opacity: 0,
             dashArray: "0.1, 10",
             lineCap: "round"
           }).addTo(this.map);
