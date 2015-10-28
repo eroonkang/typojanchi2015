@@ -1,3 +1,6 @@
+// WY.constants.distances = {
+//   "13": 
+// }
 WY.models.MapManager = (function(){
   function MapManager(params){
     this.el_name = params.el_name;
@@ -20,7 +23,7 @@ WY.models.MapManager = (function(){
       }).addTo(this.map);
 
       // this.map.scrollWheelZoom.disable();
-      // this.map.doubleClickZoom.disable();
+      this.map.doubleClickZoom.disable();
 
       this.load();
     },
@@ -92,7 +95,8 @@ WY.models.MapManager = (function(){
 
 
 
-        this.graph.addNode(node.properties.id, {properties: node.properties, marker: marker});
+        var n = this.graph.addNode(node.properties.id, {properties: node.properties, marker: marker});
+        debugger;
         this.map.addLayer(marker);
         // marker.on('click', function (e) {
           
@@ -145,7 +149,17 @@ WY.models.MapManager = (function(){
         var link = this.graph.addLink(link.source, link.target, {data: {}, line: polyline});
 
       }, this));
+      
+  
+      for (var i = 0; i < 100; i++) {
 
+        _.delay(_.bind(function(){
+
+          this.graph.forEachNode(function(node){
+            node.data.marker.setLatLng(L.latLng(node.data.marker._latlng.lat + randomBetween(-0.01, 0.01), node.data.marker._latlng.lng + randomBetween(-0.01, 0.01)))
+          });
+        }, this), i * 100); 
+      }
     }
     
   };

@@ -584,6 +584,16 @@ function createGraph() {
     }
   }
 
+
+  function forEachNode(callback){
+    var i, length;
+    if (typeof callback === 'function') {
+      for (i = 0, length = nodes.length; i < length; ++i) {
+        callback(nodes[i]);
+      }
+    }
+  }
+
   function forEachLinkedNode(nodeId, callback, oriented) {
     var node = getNode(nodeId),
       i,
