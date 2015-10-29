@@ -89,58 +89,10 @@ $route->submit();
 
 </head>
 <body>
-  <div id="index">
-  <div id="section-header">
-    <h2><a href="#">About (Typojanchi)</a></h2>
-    <div id="index-left"><a href="<? echo $home_url; ?>/en">EN</a> — <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a></div>
-    <div id="index-right" class="close_index"><a href="#">X</a></div>
-  </div>
-  <div id="section-cities">
-    <ul class="index-list">
-      <li><a href="#">Seoul, KR</a></li>
-      <li><a href="#">London, UK</a></li>
-      <li><a href="#">Auckland, NZ</a></li>
-      <li><a href="#">Stockholm, SE</a></li>
-      <li><a href="#">Amsterdam, NL</a></li>
-      <li><a href="#">Tokyo,JP</a></li>
-      <li><a href="#">Osaka, JP</a></li>
-      <li><a href="#">Berlin, DE</a></li>
-      <li><a href="#">Rotterdam, NL</a></li>
-      <li><a href="#">Porto, PT</a></li>
-      <li><a href="#">Beijing, CN</a></li>
-      <li><a href="#">Paris, FR</a></li>
-      <li><a href="#">Derby, UK</a></li>
-      <li><a href="#">Gunpo, KR</a></li>
-      <li><a href="#">Los Angeles, US</a></li>
-      <li><a href="#">Mexico City, MX</a></li>
-      <li><a href="#">Chicago, US</a></li>
-      <li><a href="#">Hong Kong</a></li>
-      <li><a href="#">Taipei, TW</a></li>
-      <li><a href="#">Bangkok, TH</a></li>
-      <li><a href="#">Ho Chi Minh, VN</a></li>
-      <li><a href="#">Singapore</a></li>
-      <li><a href="#">Basel, CH</a></li>
-      <li><a href="#">Montreuil, FR</a></li>
-      <li><a href="#">Homer, US</a></li>
-      <li><a href="#">Daegu, KR</a></li>
-      <li><a href="#">New York, US</a></li>
-      <li><a href="#">Paju, KR</a></li>
-      <li><a href="#">New Haven, US</a></li>
-      <li><a href="#">Ghent, UK</a></li>
-      <li class="removeiflast">&nbsp;</li>
-    </ul>
-  </div>
-  <div id="section-participants">
-    
-  </div>
-  <div id="section-projects">
-    
-  </div>
-  </div><!--index-->
   <div id="map-container">
+    <!-- MAP -->
   </div>
   <div id="map-overlays">
-    
     <a href="#">
       <h1>
       <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
@@ -153,6 +105,55 @@ $route->submit();
   <div id="lang-control">
     <a href="<? echo $home_url; ?>/ko" class="btn-ko"><span lang="ko">한</a><a href="<? echo $home_url; ?>/en" class="btn-en">EN</a>
   </div>
+
+  <div id="index">
+    <div id="section-header">
+      <h2><a href="#">About (Typojanchi)</a></h2>
+      <!-- <div id="index-left"><a href="<? echo $home_url; ?>/en">EN</a> — <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a></div>
+      <div id="index-right" class="close_index"><a href="#">X</a></div> -->
+    </div>
+    <div id="section-cities">
+      <ul class="index-list">
+        <li><a href="#">Seoul, KR</a></li>
+        <li><a href="#">London, UK</a></li>
+        <li><a href="#">Auckland, NZ</a></li>
+        <li><a href="#">Stockholm, SE</a></li>
+        <li><a href="#">Amsterdam, NL</a></li>
+        <li><a href="#">Tokyo,JP</a></li>
+        <li><a href="#">Osaka, JP</a></li>
+        <li><a href="#">Berlin, DE</a></li>
+        <li><a href="#">Rotterdam, NL</a></li>
+        <li><a href="#">Porto, PT</a></li>
+        <li><a href="#">Beijing, CN</a></li>
+        <li><a href="#">Paris, FR</a></li>
+        <li><a href="#">Derby, UK</a></li>
+        <li><a href="#">Gunpo, KR</a></li>
+        <li><a href="#">Los Angeles, US</a></li>
+        <li><a href="#">Mexico City, MX</a></li>
+        <li><a href="#">Chicago, US</a></li>
+        <li><a href="#">Hong Kong</a></li>
+        <li><a href="#">Taipei, TW</a></li>
+        <li><a href="#">Bangkok, TH</a></li>
+        <li><a href="#">Ho Chi Minh, VN</a></li>
+        <li><a href="#">Singapore</a></li>
+        <li><a href="#">Basel, CH</a></li>
+        <li><a href="#">Montreuil, FR</a></li>
+        <li><a href="#">Homer, US</a></li>
+        <li><a href="#">Daegu, KR</a></li>
+        <li><a href="#">New York, US</a></li>
+        <li><a href="#">Paju, KR</a></li>
+        <li><a href="#">New Haven, US</a></li>
+        <li><a href="#">Ghent, UK</a></li>
+        <li class="removeiflast">&nbsp;</li>
+      </ul>
+    </div>
+    <div id="section-participants">
+      
+    </div>
+    <div id="section-projects">
+      
+    </div>
+  </div><!--index-->
   <div id="content">
    
   </div>

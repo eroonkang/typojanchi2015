@@ -78,6 +78,9 @@ WY.views.welcome_view = (function(){
       participants_manager.init();
       projects_manager.init();
       artwork_manager.update();
+      
+      participants_manager.append_dom();
+      projects_manager.append_dom();
       set_map_height();
       map_manager.init();
       ko_type_adjust();
@@ -111,8 +114,7 @@ WY.views.welcome_view = (function(){
 
   function show_index(){
     $('#index').slideDown('slow');
-    participants_manager.append_dom();
-    projects_manager.append_dom();
+
     if (!cities_appended) {
       $('#section-cities').columnize({ width:200, lastNeverTallest: false});
       cities_appended = true;

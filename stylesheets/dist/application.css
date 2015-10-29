@@ -178,16 +178,16 @@ table {
 	float: right;
 	}
 .leaflet-top .leaflet-control {
-	margin-top: 30px;
+	margin-top: 25px;
 	}
 .leaflet-bottom .leaflet-control {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	}
 .leaflet-left .leaflet-control {
-	margin-left: 30px;
+	margin-left: 25px;
 	}
 .leaflet-right .leaflet-control {
-	margin-right: 30px;
+	margin-right: 25px;
 	}
 
 
@@ -576,7 +576,6 @@ a:hover {
 /* ---------------------------------------------- */
 #index {
   width: 100%;
-  display: none;
 }
 
 #section-header h2 {
@@ -694,7 +693,7 @@ p.description {
 #lang-control {
   position: absolute;
   top: 100px;
-  left: 30px;
+  left: 25px;
   border: 2px solid;
   border-radius: 2px;
   background: #fff;

@@ -31,7 +31,6 @@ a:hover {
 /* ---------------------------------------------- */
 #index {
   width: 100%;
-  display: none;
 }
 
 #section-header h2 {
@@ -149,7 +148,7 @@ p.description {
 #lang-control {
   position: absolute;
   top: 100px;
-  left: 30px;
+  left: 25px;
   border: 2px solid;
   border-radius: 2px;
   background: #fff;
