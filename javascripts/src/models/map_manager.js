@@ -80,7 +80,7 @@ WY.models.MapManager = (function(){
 
         } else if (node.properties.type == "Artwork") {
           // marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
-          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
+          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.02, 0.02), node.geometry.coordinates[0]  + randomBetween(-0.02, 0.02)), {
             icon: scircle_w,
             riseOnHover: true
           });
@@ -161,9 +161,9 @@ WY.models.MapManager = (function(){
         // this.animate();
       }, this));
       
-      WY.dispatcher.on('start_animate', _.bind(function(e){
+      // WY.dispatcher.on('start_animate', _.bind(function(e){
         this.animate();
-      }, this));
+      // }, this));
       
 
     },
@@ -171,44 +171,43 @@ WY.models.MapManager = (function(){
     animate: function () {
       requestAnimationFrame(this.animate);
 
-
-      this.graph.forEachNode(_.bind(function(node){
-        
-        if (node.data.is("Project") || node.data.is("Artwork")) {
-          
-          this.graph.forEachLinkedNode(node.id, function (target_node) {
-            
-            if (target_node.data.is("Project") || target_node.data.is("Artwork")) {
               // // 두 노드간의 거리계산 
             
               // // if (node.data.location.distanceTo(target_node.data.location) < 0.1){
 
+              // var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
+
+              // var d = force.length();
+              // var stretch = d - 0.0001;
+
+              // force.normalize();
+              // // debugger;
+              // force.multiplyScalar(-1 * 0.0001 * stretch);
+              // // debugger;
+              // // if (_.isNaN(force.x)) { debugger; }
+
+              // node.data.apply_force(force);
+
+              // force.multiplyScalar(-1);
+              // target_node.data.apply_force(force);
+
+              // node.data.update();
+              // target_node.data.update(); 
+              // 
+      this.graph.forEachNode(_.bind(function(node){
+        
+        if (node.data.is("Project")) {
+          
+          this.graph.forEachLinkedNode(node.id, function (target_node) {
+            
+            if (target_node.data.is("Venue")) {
               var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
 
               var d = force.length();
-              var stretch = d - 0.001;
+              var stretch = d - 0.01;
 
               force.normalize();
-              // debugger;
-              force.multiplyScalar(-1 * 0.2 * stretch);
-              // debugger;
-              // if (_.isNaN(force.x)) { debugger; }
-
-              node.data.apply_force(force);
-
-              force.multiplyScalar(-1);
-              target_node.data.apply_force(force);
-
-              node.data.update();
-              target_node.data.update(); 
-            } else if (target_node.data.is("Venue")) {
-              var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
-
-              var d = force.length();
-              var stretch = d - 0.005;
-
-              force.normalize();
-              force.multiplyScalar(-1 * 0.002 * stretch);
+              force.multiplyScalar(-1 * 0.01 * stretch);
               // debugger;
               if (_.isNaN(force.x)) { debugger; }
 
@@ -216,10 +215,33 @@ WY.models.MapManager = (function(){
 
               node.data.update();
 
-            }
+            } 
 
           });
 
+
+
+        } else if (node.data.is("Artwork")) {
+           this.graph.forEachLinkedNode(node.id, function (target_node) {
+            
+            if (target_node.data.is("Project")) {
+              var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
+
+              var d = force.length();
+              var stretch = d - 0.03;
+
+              force.normalize();
+              force.multiplyScalar(-1 * 0.01 * stretch);
+              // debugger;
+              // if (_.isNaN(force.x)) { debugger; }
+
+              node.data.apply_force(force);
+
+              node.data.update();
+
+            } 
+
+          });
         }
 
 
