@@ -42,7 +42,11 @@ a:hover {
 /* ---------------------------------------------- */
 
 #index {
+  position:absolute;
+  top:0px;
+  left:0px;
   width:100%;
+  visibility: hidden;
 }
 #section-header h2 {
   width:50%;
@@ -141,6 +145,15 @@ p.description {
   stroke-width: 1.5px;
 }
 
+#map-outer {
+  position:absolute;
+  width:100%;
+  top:0;
+  left:0;
+}
+.map-down {
+  border-top:1px solid;
+}
 
 #map-container {
   width:100%;

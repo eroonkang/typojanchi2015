@@ -78,12 +78,18 @@ WY.views.welcome_view = (function(){
       participants_manager.init();
       projects_manager.init();
       artwork_manager.update();
-      
+
       participants_manager.append_dom();
       projects_manager.append_dom();
+      if (!cities_appended) {
+        $('#section-cities').columnize({ width:200, lastNeverTallest: false});
+        cities_appended = true;
+      }
+
       set_map_height();
-      map_manager.init();
       ko_type_adjust();
+      set_index_pos();
+      map_manager.init();
     });
 
 
@@ -109,22 +115,33 @@ WY.views.welcome_view = (function(){
   }
 
   function set_map_height(){
-    $('#map-container').css("height", WY.constants.screen_height);
+    $('#map-container, #map-outer').css("height", WY.constants.screen_height);
+  }
+
+  function set_index_pos(){
+    var index_height = $('#index').css("height");
+    $('#index').css("top", '-' + index_height);    
   }
 
   function show_index(){
-    $('#index').slideDown('slow');
-
-    if (!cities_appended) {
-      $('#section-cities').columnize({ width:200, lastNeverTallest: false});
-      cities_appended = true;
-    }
-    $('#lang-control, #map-overlays').hide();
+    var index_height = $('#index').css("height");
+    $('#map-outer').addClass('map-down');
+    $('#index').css('visibility','visible');
+    $('#map-outer, #index').animate({
+      top: "+=" + index_height,
+    }, 800, function() {
+      // Animation complete.
+    });
   }
 
   function hide_index(){
-    $('#index').hide();
-    $('#lang-control, #map-overlays').show();
+    var index_height = $('#index').css("height");
+    $('#map-outer').removeClass('map-down');
+    $('#map-outer, #index').animate({
+      top: "-=" + index_height,
+    }, 800, function() {
+      $('#index').css('visibility','hidden');
+    });
   }
 
   return welcome_view;

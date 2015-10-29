@@ -89,28 +89,11 @@ $route->submit();
 
 </head>
 <body>
-  <div id="map-container">
-    <!-- MAP -->
-  </div>
-  <div id="map-overlays">
-    <a href="#">
-      <h1>
-      <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
-      Typojanchi 2015: The 4th International Typography Biennale
-      </h1>
-    </a>
-    <img src="<? echo $home_url; ?>/images/ct.png" class="left">
-    <img src="<? echo $home_url; ?>/images/tj.png" class="right">
-  </div>
-  <div id="lang-control">
-    <a href="<? echo $home_url; ?>/ko" class="btn-ko"><span lang="ko">한</a><a href="<? echo $home_url; ?>/en" class="btn-en">EN</a>
-  </div>
-
   <div id="index">
     <div id="section-header">
       <h2><a href="#">About (Typojanchi)</a></h2>
-      <!-- <div id="index-left"><a href="<? echo $home_url; ?>/en">EN</a> — <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a></div>
-      <div id="index-right" class="close_index"><a href="#">X</a></div> -->
+      <div id="index-left"><a href="<? echo $home_url; ?>/en">EN</a> / <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a></div>
+      <div id="index-right" class="close_index"><a href="#">X</a></div>
     </div>
     <div id="section-cities">
       <ul class="index-list">
@@ -154,6 +137,25 @@ $route->submit();
       
     </div>
   </div><!--index-->
+  
+  <div id="map-outer">
+    <div id="map-container">
+    </div>
+    <div id="map-overlays">
+      <a href="#">
+        <h1>
+        <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
+        Typojanchi 2015: The 4th International Typography Biennale
+        </h1>
+      </a>
+      <img src="<? echo $home_url; ?>/images/ct.png" class="left">
+      <img src="<? echo $home_url; ?>/images/tj.png" class="right">
+    </div>
+    <div id="lang-control">
+      <a href="<? echo $home_url; ?>/ko" class="btn-ko"><span lang="ko">한</a><a href="<? echo $home_url; ?>/en" class="btn-en">EN</a>
+    </div>
+  </div>
+
   <div id="content">
    
   </div>
