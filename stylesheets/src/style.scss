@@ -86,8 +86,10 @@ a:hover {
   // background-color: #000;
   color:#000;
   padding:30px;
+  // display:none;
+  border-top:1px solid;
   a {
-    color:#fff; 
+    color:#000; 
   }
 }
 #artwork {
@@ -121,7 +123,6 @@ p.description {
   margin:2em 0;
   border:1px solid #000;
 }
-
 .artwork-photo img {
   display: block;
   opacity: 0;

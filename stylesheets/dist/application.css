@@ -622,9 +622,10 @@ a:hover {
 #content {
   color: #000;
   padding: 30px;
+  border-top: 1px solid;
 }
 #content a {
-  color: #fff;
+  color: #000;
 }
 
 #artwork {

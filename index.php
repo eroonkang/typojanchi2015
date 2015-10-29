@@ -154,11 +154,13 @@ $route->submit();
     <div id="lang-control">
       <a href="<? echo $home_url; ?>/ko" class="btn-ko"><span lang="ko">한</a><a href="<? echo $home_url; ?>/en" class="btn-en">EN</a>
     </div>
+    <div id="content">
+    </div>
   </div>
 
-  <div id="content">
+  
    
-  </div>
+  
 
   <script>
     $(document).ready(function(e){
