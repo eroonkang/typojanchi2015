@@ -151,7 +151,7 @@ $route->submit();
     <img src="<? echo $home_url; ?>/images/tj.png" class="right">
   </div>
   <div id="lang-control">
-    <a href="<? echo $home_url; ?>/en">EN</a> — <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a>
+    <a href="<? echo $home_url; ?>/ko" class="btn-ko"><span lang="ko">한</a><a href="<? echo $home_url; ?>/en" class="btn-en">EN</a>
   </div>
   <div id="content">
    

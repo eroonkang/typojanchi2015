@@ -17,8 +17,7 @@ WY.models.MapManager = (function(){
   MapManager.prototype = {
     init: function(){
       this.map = L.map(this.el_name,{
-        minZoom:5,
-        zoomControl: false
+        minZoom:5
       }).setView([37.5558393, 126.9716173], 14);
 
       L.tileLayer('https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw', {
@@ -26,7 +25,7 @@ WY.models.MapManager = (function(){
       }).addTo(this.map);
 
       this.map.scrollWheelZoom.disable();
-      new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
+      // new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
 
       // this.map.doubleClickZoom.disable();
 

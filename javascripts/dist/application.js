@@ -20845,6 +20845,16 @@ function createGraph() {
     }
   }
 
+
+  function forEachNode(callback){
+    var i, length;
+    if (typeof callback === 'function') {
+      for (i = 0, length = nodes.length; i < length; ++i) {
+        callback(nodes[i]);
+      }
+    }
+  }
+
   function forEachLinkedNode(nodeId, callback, oriented) {
     var node = getNode(nodeId),
       i,
@@ -20963,25 +20973,474 @@ function Link(fromId, toId, data, id) {
 },{"ngraph.events":1}]},{},[]);
 
 
-(function(){/*
- OverlappingMarkerSpiderfier
-https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet
-Copyright (c) 2011 - 2012 George MacKerron
-Released under the MIT licence: http://opensource.org/licenses/mit-license
-Note: The Leaflet maps API must be included *before* this code
-*/
-(function(){var q={}.hasOwnProperty,r=[].slice;null!=this.L&&(this.OverlappingMarkerSpiderfier=function(){function n(c,b){var a,e,g,f,d=this;this.map=c;null==b&&(b={});for(a in b)q.call(b,a)&&(e=b[a],this[a]=e);this.initMarkerArrays();this.listeners={};f=["click","zoomend"];e=0;for(g=f.length;e<g;e++)a=f[e],this.map.addEventListener(a,function(){return d.unspiderfy()})}var d,k;d=n.prototype;d.VERSION="0.2.6";k=2*Math.PI;d.keepSpiderfied=!1;d.nearbyDistance=20;d.circleSpiralSwitchover=9;d.circleFootSeparation=
-25;d.circleStartAngle=k/12;d.spiralFootSeparation=28;d.spiralLengthStart=11;d.spiralLengthFactor=5;d.legWeight=1.5;d.legColors={usual:"#222",highlighted:"#f00"};d.initMarkerArrays=function(){this.markers=[];return this.markerListeners=[]};d.addMarker=function(c){var b,a=this;if(null!=c._oms)return this;c._oms=!0;b=function(){return a.spiderListener(c)};c.addEventListener("click",b);this.markerListeners.push(b);this.markers.push(c);return this};d.getMarkers=function(){return this.markers.slice(0)};
-d.removeMarker=function(c){var b,a;null!=c._omsData&&this.unspiderfy();b=this.arrIndexOf(this.markers,c);if(0>b)return this;a=this.markerListeners.splice(b,1)[0];c.removeEventListener("click",a);delete c._oms;this.markers.splice(b,1);return this};d.clearMarkers=function(){var c,b,a,e,g;this.unspiderfy();g=this.markers;c=a=0;for(e=g.length;a<e;c=++a)b=g[c],c=this.markerListeners[c],b.removeEventListener("click",c),delete b._oms;this.initMarkerArrays();return this};d.addListener=function(c,b){var a,
-e;(null!=(e=(a=this.listeners)[c])?e:a[c]=[]).push(b);return this};d.removeListener=function(c,b){var a;a=this.arrIndexOf(this.listeners[c],b);0>a||this.listeners[c].splice(a,1);return this};d.clearListeners=function(c){this.listeners[c]=[];return this};d.trigger=function(){var c,b,a,e,g,f;b=arguments[0];c=2<=arguments.length?r.call(arguments,1):[];b=null!=(a=this.listeners[b])?a:[];f=[];e=0;for(g=b.length;e<g;e++)a=b[e],f.push(a.apply(null,c));return f};d.generatePtsCircle=function(c,b){var a,e,
-g,f,d;g=this.circleFootSeparation*(2+c)/k;e=k/c;d=[];for(a=f=0;0<=c?f<c:f>c;a=0<=c?++f:--f)a=this.circleStartAngle+a*e,d.push(new L.Point(b.x+g*Math.cos(a),b.y+g*Math.sin(a)));return d};d.generatePtsSpiral=function(c,b){var a,e,g,f,d;g=this.spiralLengthStart;a=0;d=[];for(e=f=0;0<=c?f<c:f>c;e=0<=c?++f:--f)a+=this.spiralFootSeparation/g+5E-4*e,e=new L.Point(b.x+g*Math.cos(a),b.y+g*Math.sin(a)),g+=k*this.spiralLengthFactor/a,d.push(e);return d};d.spiderListener=function(c){var b,a,e,g,f,d,h,k,l;(b=null!=
-c._omsData)&&this.keepSpiderfied||this.unspiderfy();if(b)return this.trigger("click",c);g=[];f=[];d=this.nearbyDistance*this.nearbyDistance;e=this.map.latLngToLayerPoint(c.getLatLng());l=this.markers;h=0;for(k=l.length;h<k;h++)b=l[h],this.map.hasLayer(b)&&(a=this.map.latLngToLayerPoint(b.getLatLng()),this.ptDistanceSq(a,e)<d?g.push({marker:b,markerPt:a}):f.push(b));return 1===g.length?this.trigger("click",c):this.spiderfy(g,f)};d.makeHighlightListeners=function(c){var b=this;return{highlight:function(){return c._omsData.leg.setStyle({color:b.legColors.highlighted})},
-unhighlight:function(){return c._omsData.leg.setStyle({color:b.legColors.usual})}}};d.spiderfy=function(c,b){var a,e,g,d,p,h,k,l,n,m;this.spiderfying=!0;m=c.length;a=this.ptAverage(function(){var a,b,e;e=[];a=0;for(b=c.length;a<b;a++)k=c[a],e.push(k.markerPt);return e}());d=m>=this.circleSpiralSwitchover?this.generatePtsSpiral(m,a).reverse():this.generatePtsCircle(m,a);a=function(){var a,b,k,m=this;k=[];a=0;for(b=d.length;a<b;a++)g=d[a],e=this.map.layerPointToLatLng(g),n=this.minExtract(c,function(a){return m.ptDistanceSq(a.markerPt,
-g)}),h=n.marker,p=new L.Polyline([h.getLatLng(),e],{color:this.legColors.usual,weight:this.legWeight,clickable:!1}),this.map.addLayer(p),h._omsData={usualPosition:h.getLatLng(),leg:p},this.legColors.highlighted!==this.legColors.usual&&(l=this.makeHighlightListeners(h),h._omsData.highlightListeners=l,h.addEventListener("mouseover",l.highlight),h.addEventListener("mouseout",l.unhighlight)),h.setLatLng(e),k.push(h);return k}.call(this);delete this.spiderfying;this.spiderfied=!0;
-return this.trigger("spiderfy",a,b)};d.unspiderfy=function(c){var b,a,e,d,f,k,h;null==c&&(c=null);if(null==this.spiderfied)return this;this.unspiderfying=!0;d=[];e=[];h=this.markers;f=0;for(k=h.length;f<k;f++)b=h[f],null!=b._omsData?(this.map.removeLayer(b._omsData.leg),b!==c&&b.setLatLng(b._omsData.usualPosition),a=b._omsData.highlightListeners,null!=a&&(b.removeEventListener("mouseover",a.highlight),b.removeEventListener("mouseout",a.unhighlight)),delete b._omsData,d.push(b)):
-e.push(b);delete this.unspiderfying;delete this.spiderfied;this.trigger("unspiderfy",d,e);return this};d.ptDistanceSq=function(c,b){var a,e;a=c.x-b.x;e=c.y-b.y;return a*a+e*e};d.ptAverage=function(c){var b,a,e,d,f;d=a=e=0;for(f=c.length;d<f;d++)b=c[d],a+=b.x,e+=b.y;c=c.length;return new L.Point(a/c,e/c)};d.minExtract=function(c,b){var a,d,g,f,k,h;g=k=0;for(h=c.length;k<h;g=++k)if(f=c[g],f=b(f),"undefined"===typeof a||null===a||f<d)d=f,a=g;return c.splice(a,1)[0]};d.arrIndexOf=function(c,b){var a,
-d,g,f;if(null!=c.indexOf)return c.indexOf(b);a=g=0;for(f=c.length;g<f;a=++g)if(d=c[a],d===b)return a;return-1};return n}())}).call(this);}).call(this);
-/* Mon 14 Oct 2013 10:54:59 BST */
+// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
+
+// requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
+
+// MIT license
+
+(function() {
+    var lastTime = 0;
+    var vendors = ['ms', 'moz', 'webkit', 'o'];
+    for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+        window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
+        window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame'] 
+                                   || window[vendors[x]+'CancelRequestAnimationFrame'];
+    }
+ 
+    if (!window.requestAnimationFrame)
+        window.requestAnimationFrame = function(callback, element) {
+            var currTime = new Date().getTime();
+            var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+            var id = window.setTimeout(function() { callback(currTime + timeToCall); }, 
+              timeToCall);
+            lastTime = currTime + timeToCall;
+            return id;
+        };
+ 
+    if (!window.cancelAnimationFrame)
+        window.cancelAnimationFrame = function(id) {
+            clearTimeout(id);
+        };
+}());
+/**
+ * @author mrdoob / http://mrdoob.com/
+ * @author philogb / http://blog.thejit.org/
+ * @author egraether / http://egraether.com/
+ * @author zz85 / http://www.lab4games.net/zz85/blog
+ */
+var THREE = THREE || {};
+THREE.Vector2 = function ( x, y ) {
+
+  this.x = x || 0;
+  this.y = y || 0;
+
+};
+
+THREE.Vector2.prototype = {
+
+  constructor: THREE.Vector2,
+
+  set: function ( x, y ) {
+
+    this.x = x;
+    this.y = y;
+
+    return this;
+
+  },
+
+  setX: function ( x ) {
+
+    this.x = x;
+
+    return this;
+
+  },
+
+  setY: function ( y ) {
+
+    this.y = y;
+
+    return this;
+
+  },
+
+  setComponent: function ( index, value ) {
+
+    switch ( index ) {
+
+      case 0: this.x = value; break;
+      case 1: this.y = value; break;
+      default: throw new Error( 'index is out of range: ' + index );
+
+    }
+
+  },
+
+  getComponent: function ( index ) {
+
+    switch ( index ) {
+
+      case 0: return this.x;
+      case 1: return this.y;
+      default: throw new Error( 'index is out of range: ' + index );
+
+    }
+
+  },
+
+  copy: function ( v ) {
+
+    this.x = v.x;
+    this.y = v.y;
+
+    return this;
+
+  },
+
+  add: function ( v, w ) {
+
+    if ( w !== undefined ) {
+
+      THREE.warn( 'THREE.Vector2: .add() now only accepts one argument. Use .addVectors( a, b ) instead.' );
+      return this.addVectors( v, w );
+
+    }
+
+    this.x += v.x;
+    this.y += v.y;
+
+    return this;
+
+  },
+
+  addScalar: function ( s ) {
+
+    this.x += s;
+    this.y += s;
+
+    return this;
+
+  },
+
+  addVectors: function ( a, b ) {
+
+    this.x = a.x + b.x;
+    this.y = a.y + b.y;
+
+    return this;
+
+  },
+
+  sub: function ( v, w ) {
+
+    if ( w !== undefined ) {
+
+      THREE.warn( 'THREE.Vector2: .sub() now only accepts one argument. Use .subVectors( a, b ) instead.' );
+      return this.subVectors( v, w );
+
+    }
+
+    this.x -= v.x;
+    this.y -= v.y;
+
+    return this;
+
+  },
+
+  subScalar: function ( s ) {
+
+    this.x -= s;
+    this.y -= s;
+
+    return this;
+
+  },
+
+  subVectors: function ( a, b ) {
+
+    this.x = a.x - b.x;
+    this.y = a.y - b.y;
+
+    return this;
+
+  },
+
+  multiply: function ( v ) {
+
+    this.x *= v.x;
+    this.y *= v.y;
+
+    return this;
+
+  },
+
+  multiplyScalar: function ( s ) {
+
+    this.x *= s;
+    this.y *= s;
+
+    return this;
+
+  },
+
+  divide: function ( v ) {
+
+    this.x /= v.x;
+    this.y /= v.y;
+
+    return this;
+
+  },
+
+  divideScalar: function ( scalar ) {
+
+    if ( scalar !== 0 ) {
+
+      var invScalar = 1 / scalar;
+
+      this.x *= invScalar;
+      this.y *= invScalar;
+
+    } else {
+
+      this.x = 0;
+      this.y = 0;
+
+    }
+
+    return this;
+
+  },
+
+  min: function ( v ) {
+
+    if ( this.x > v.x ) {
+
+      this.x = v.x;
+
+    }
+
+    if ( this.y > v.y ) {
+
+      this.y = v.y;
+
+    }
+
+    return this;
+
+  },
+
+  max: function ( v ) {
+
+    if ( this.x < v.x ) {
+
+      this.x = v.x;
+
+    }
+
+    if ( this.y < v.y ) {
+
+      this.y = v.y;
+
+    }
+
+    return this;
+
+  },
+
+  clamp: function ( min, max ) {
+
+    // This function assumes min < max, if this assumption isn't true it will not operate correctly
+
+    if ( this.x < min.x ) {
+
+      this.x = min.x;
+
+    } else if ( this.x > max.x ) {
+
+      this.x = max.x;
+
+    }
+
+    if ( this.y < min.y ) {
+
+      this.y = min.y;
+
+    } else if ( this.y > max.y ) {
+
+      this.y = max.y;
+
+    }
+
+    return this;
+  },
+
+  clampScalar: ( function () {
+
+    var min, max;
+
+    return function ( minVal, maxVal ) {
+
+      if ( min === undefined ) {
+
+        min = new THREE.Vector2();
+        max = new THREE.Vector2();
+
+      }
+
+      min.set( minVal, minVal );
+      max.set( maxVal, maxVal );
+
+      return this.clamp( min, max );
+
+    };
+
+  } )(),
+
+  floor: function () {
+
+    this.x = Math.floor( this.x );
+    this.y = Math.floor( this.y );
+
+    return this;
+
+  },
+
+  ceil: function () {
+
+    this.x = Math.ceil( this.x );
+    this.y = Math.ceil( this.y );
+
+    return this;
+
+  },
+
+  round: function () {
+
+    this.x = Math.round( this.x );
+    this.y = Math.round( this.y );
+
+    return this;
+
+  },
+
+  roundToZero: function () {
+
+    this.x = ( this.x < 0 ) ? Math.ceil( this.x ) : Math.floor( this.x );
+    this.y = ( this.y < 0 ) ? Math.ceil( this.y ) : Math.floor( this.y );
+
+    return this;
+
+  },
+
+  negate: function () {
+
+    this.x = - this.x;
+    this.y = - this.y;
+
+    return this;
+
+  },
+
+  dot: function ( v ) {
+
+    return this.x * v.x + this.y * v.y;
+
+  },
+
+  lengthSq: function () {
+
+    return this.x * this.x + this.y * this.y;
+
+  },
+
+  length: function () {
+
+    return Math.sqrt( this.x * this.x + this.y * this.y );
+
+  },
+
+  normalize: function () {
+
+    return this.divideScalar( this.length() );
+
+  },
+
+  distanceTo: function ( v ) {
+
+    return Math.sqrt( this.distanceToSquared( v ) );
+
+  },
+
+  distanceToSquared: function ( v ) {
+
+    var dx = this.x - v.x, dy = this.y - v.y;
+    return dx * dx + dy * dy;
+
+  },
+
+  setLength: function ( l ) {
+
+    var oldLength = this.length();
+
+    if ( oldLength !== 0 && l !== oldLength ) {
+
+      this.multiplyScalar( l / oldLength );
+    }
+
+    return this;
+
+  },
+
+  lerp: function ( v, alpha ) {
+
+    this.x += ( v.x - this.x ) * alpha;
+    this.y += ( v.y - this.y ) * alpha;
+
+    return this;
+
+  },
+
+  lerpVectors: function ( v1, v2, alpha ) {
+
+    this.subVectors( v2, v1 ).multiplyScalar( alpha ).add( v1 );
+
+    return this;
+
+  },
+
+  equals: function ( v ) {
+
+    return ( ( v.x === this.x ) && ( v.y === this.y ) );
+
+  },
+
+  fromArray: function ( array, offset ) {
+
+    if ( offset === undefined ) offset = 0;
+
+    this.x = array[ offset ];
+    this.y = array[ offset + 1 ];
+
+    return this;
+
+  },
+
+  toArray: function ( array, offset ) {
+
+    if ( array === undefined ) array = [];
+    if ( offset === undefined ) offset = 0;
+
+    array[ offset ] = this.x;
+    array[ offset + 1 ] = this.y;
+
+    return array;
+
+  },
+
+  fromAttribute: function ( attribute, index, offset ) {
+
+    if ( offset === undefined ) offset = 0;
+
+    index = index * attribute.itemSize + offset;
+
+    this.x = attribute.array[ index ];
+    this.y = attribute.array[ index + 1 ];
+
+    return this;
+
+  },
+
+  clone: function () {
+
+    return new THREE.Vector2( this.x, this.y );
+
+  }
+
+};
 
 var WY = WY || {};
 
@@ -21134,6 +21593,9 @@ WY.models.ArtworkManager = (function(){
   
   return ArtworkManager;
 })();
+// WY.constants.distances = {
+//   "13": 
+// }
 WY.models.MapManager = (function(){
   function MapManager(params){
     this.el_name = params.el_name;
@@ -21144,23 +21606,22 @@ WY.models.MapManager = (function(){
     this.graph = createGraph();
 
     _.extend(this, Backbone.Events);
-    _.bindAll(this, "load_complete_handler");
+    _.bindAll(this, "load_complete_handler", "animate");
   }
 
   MapManager.prototype = {
     init: function(){
       this.map = L.map(this.el_name,{
-        minZoom:5,
-        zoomControl: false
+        minZoom:5
       }).setView([37.5558393, 126.9716173], 14);
 
       L.tileLayer('https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw', {
         attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(this.map);
 
-      new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
-
       this.map.scrollWheelZoom.disable();
+      // new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
+
       // this.map.doubleClickZoom.disable();
 
       this.load();
@@ -21207,7 +21668,7 @@ WY.models.MapManager = (function(){
           });
 
         } else if (node.properties.type == "Project") {
-          marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
+          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.005, 0.005), node.geometry.coordinates[0] + randomBetween(-0.005, 0.005)), {
             icon: circle_w,
             riseOnHover: true
           });
@@ -21215,12 +21676,12 @@ WY.models.MapManager = (function(){
         } else if (node.properties.type == "Artwork") {
           // marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
           marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
-            icon: circle_w,
+            icon: scircle_w,
             riseOnHover: true
           });
           
         } else if (node.properties.type == "Artist") {
-          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
+          marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
             icon: scircle_w,
             riseOnHover: true
           });
@@ -21236,19 +21697,21 @@ WY.models.MapManager = (function(){
 
 
 
+        var marker_node = new WY.models.MarkerNode({
+          properties: node.properties, 
+          marker: marker
+        });
 
-        this.graph.addNode(node.properties.id, {properties: node.properties, marker: marker});
+
+        this.graph.addNode(node.properties.id, marker_node);
+
         this.map.addLayer(marker);
-        // marker.on('click', function (e) {
-          
-        // })
-        // debugger;
       }, this));
         
       _.each(this.data.links, _.bind(function(link){ 
         
-        var from_latlng = this.graph.getNode(link.source).data.marker._latlng;
-        var to_latlng = this.graph.getNode(link.target).data.marker._latlng;
+        var from_latlng = this.graph.getNode(link.source).data.marker.getLatLng();
+        var to_latlng = this.graph.getNode(link.target).data.marker.getLatLng();
         var polyline;
         
         var source = this.graph.getNode(link.source);
@@ -21274,28 +21737,143 @@ WY.models.MapManager = (function(){
 
         } else if ((source.data.properties.type == "Artwork" && target.data.properties.type == "Artist") || 
                    (source.data.properties.type == "Artist" && target.data.properties.type == "Artwork")) {
-
+          // debugger;
           polyline = L.polyline([from_latlng, to_latlng], {
             color: '#000',
-            weight: 2,
-            opacity: 0,
-            dashArray: "0.1, 10",
-            lineCap: "round"
+            weight: 1,
+            opacity: 0.1//,
+            // dashArray
+            // dashArray: "0.1, 10",
+            // lineCap: "round"
           }).addTo(this.map);
 
         } 
 
 
 
-        var link = this.graph.addLink(link.source, link.target, {data: {}, line: polyline});
+        var link = this.graph.addLink(link.source, link.target, {line: polyline});
+
+        // this.animate();
+      }, this));
+      
+      WY.dispatcher.on('start_animate', _.bind(function(e){
+        this.animate();
+      }, this));
+      
+
+    },
+
+    animate: function () {
+      requestAnimationFrame(this.animate);
+
+
+      this.graph.forEachNode(_.bind(function(node){
+        
+        if (node.data.is("Project") || node.data.is("Artwork")) {
+          
+          this.graph.forEachLinkedNode(node.id, function (target_node) {
+            
+            if (target_node.data.is("Project") || target_node.data.is("Artwork")) {
+              // // 두 노드간의 거리계산 
+            
+              // // if (node.data.location.distanceTo(target_node.data.location) < 0.1){
+
+              var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
+
+              var d = force.length();
+              var stretch = d - 0.001;
+
+              force.normalize();
+              // debugger;
+              force.multiplyScalar(-1 * 0.2 * stretch);
+              // debugger;
+              // if (_.isNaN(force.x)) { debugger; }
+
+              node.data.apply_force(force);
+
+              force.multiplyScalar(-1);
+              target_node.data.apply_force(force);
+
+              node.data.update();
+              target_node.data.update(); 
+            } else if (target_node.data.is("Venue")) {
+              var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
+
+              var d = force.length();
+              var stretch = d - 0.005;
+
+              force.normalize();
+              force.multiplyScalar(-1 * 0.002 * stretch);
+              // debugger;
+              if (_.isNaN(force.x)) { debugger; }
+
+              node.data.apply_force(force);
+
+              node.data.update();
+
+            }
+
+          });
+
+        }
+
 
       }, this));
+
+  
+      this.graph.forEachLink(_.bind(function(link){
+        var source = this.graph.getNode(link.fromId);
+        var target = this.graph.getNode(link.toId);
+        link.data.line.setLatLngs([source.data.marker.getLatLng(), target.data.marker.getLatLng()]);
+      }, this));
+
 
     }
     
   };
 
   return MapManager;
+})();
+
+WY.models.MarkerNode = (function(){
+  function MarkerNode(params){
+    this.properties = params.properties;
+    this.marker = params.marker;
+    this.location = new THREE.Vector2(this.marker.getLatLng().lng, this.marker.getLatLng().lat);
+    this.velocity = new THREE.Vector2();
+    this.acceleration = new THREE.Vector2();
+    this.damping = 0.95;
+
+    // debugger;
+  }
+
+
+  MarkerNode.prototype = {
+
+    is: function (type_name) {
+      return this.properties.type == type_name;
+    },
+
+    update: function(){
+      this.velocity.add(this.acceleration);
+      this.velocity.multiplyScalar(this.damping);
+      this.location.add(this.velocity);
+      this.acceleration.multiplyScalar(0);
+      // debugger;
+      this.marker._latlng.lat = this.location.y;
+      this.marker._latlng.lng = this.location.x;
+      this.marker.update();
+    },
+
+    apply_force: function(force){
+      
+      this.acceleration.add(force.clone());
+      // debugger;
+    }
+  };
+
+
+  return MarkerNode;
 })();
 
 WY.models.ParticipantsManager = (function(){
