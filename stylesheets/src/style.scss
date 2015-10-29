@@ -32,7 +32,6 @@ body {
 a {
   text-decoration: none;
   color: #000;
-  position:relative;
 }
 a:hover {
   border-bottom: 1px solid;
@@ -179,13 +178,17 @@ p.description {
   height:700px;
 }
 
-#lang-control {
+#lang-control, #menu-control {
   position:absolute;
-  top:100px;
-  left:25px;
+  top:70px;
+  right:25px;
   border: 2px solid;
   border-radius: 2px;
   background: #fff;
+
+  &#menu-control {
+    top:25px;
+  }
 
   a {
     display:block;
@@ -204,7 +207,7 @@ p.description {
       border-top: 1px solid;      
     }
     &.btn-ko {
-      border-top: 1px solid;
+      // border-top: 1px solid;
     }
   }
 }

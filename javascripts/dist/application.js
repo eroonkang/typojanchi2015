@@ -22059,7 +22059,7 @@ WY.views.welcome_view = (function(){
     init();
     init_resize();
 
-    $('h1').click(function(){
+    $('h1, .btn-menu, .btn-tj, .btn-ct').click(function(){
       show_index();
     });
 
@@ -22166,6 +22166,7 @@ WY.views.welcome_view = (function(){
     // flow_column('#section-participants',200);
     var index_height = $('#index').css("height");
     $('#index').css("top", '-' + index_height);    
+    console.log ("index_height:" + index_height);
   }
 
   function flow_column(elem,width){
@@ -22191,6 +22192,7 @@ WY.views.welcome_view = (function(){
 
   function show_index(){
     var index_height = $('#index').css("height");
+    console.log ("index_height:" + index_height);
     $('#map-outer').addClass('map-down');
     $('#index').css('visibility','visible');
     $('#map-outer, #index').animate({
