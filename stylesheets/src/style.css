@@ -1,8 +1,8 @@
 body {
   font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
   font-style: normal;
-  font-size: 22px;
-  line-height: 1.1em;
+  font-size: 19px;
+  line-height: 1.2em;
   background-color: #FFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,10 +10,12 @@ body {
 
 :lang(ko) {
   font-size: 0.88em;
+  letter-spacing: -0.02em;
 }
 
 .en-within-ko {
   font-size: 1.13em;
+  letter-spacing: 0em;
 }
 
 a {
@@ -69,6 +71,7 @@ a:hover {
   margin-left: 1em;
   text-indent: -1em;
   padding-right: 1em;
+  list-style-type: none;
 }
 
 /* ---------------------------------------------- */
@@ -190,8 +193,11 @@ p.description {
   background: #000;
   color: #fff;
 }
+#lang-control a.btn-en {
+  border-top: 1px solid;
+}
 #lang-control a.btn-ko {
-  border-bottom: 1px solid;
+  border-top: 1px solid;
 }
 
 #map-overlays {

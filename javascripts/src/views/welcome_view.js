@@ -82,7 +82,7 @@ WY.views.welcome_view = (function(){
       participants_manager.append_dom();
       projects_manager.append_dom();
       if (!cities_appended) {
-        $('#section-cities').columnize({ width:200, lastNeverTallest: false});
+        $('#section-cities').columnize({ width:200, lastNeverTallest: true});
         cities_appended = true;
       }
 
@@ -90,6 +90,7 @@ WY.views.welcome_view = (function(){
       ko_type_adjust();
       set_index_pos();
       map_manager.init();
+
     });
 
 
@@ -119,8 +120,30 @@ WY.views.welcome_view = (function(){
   }
 
   function set_index_pos(){
+    // flow_column('#section-participants',200);
     var index_height = $('#index').css("height");
     $('#index').css("top", '-' + index_height);    
+  }
+
+  function flow_column(elem,width){
+    //setup
+    var container_width = parseFloat($(elem).css('width'));
+    var col_count = Math.floor(container_width/width);
+    var li_width = Math.round(container_width / col_count * 100)/100 + 'px';
+
+    //set width
+    $(elem+' li').each(function(i) {
+      console.log('iterating: ' + i);
+      $(this).css({
+        width: li_width
+      });
+    });
+
+    console.log (
+      ' container_width: ' + container_width +
+      ', col_count: ' + col_count +
+      ', width_percent: ' + li_width
+    );
   }
 
   function show_index(){
@@ -129,7 +152,8 @@ WY.views.welcome_view = (function(){
     $('#index').css('visibility','visible');
     $('#map-outer, #index').animate({
       top: "+=" + index_height,
-    }, 800, function() {
+      easing: 'swing'
+    }, 500, function() {
       // Animation complete.
     });
   }
@@ -139,7 +163,8 @@ WY.views.welcome_view = (function(){
     $('#map-outer').removeClass('map-down');
     $('#map-outer, #index').animate({
       top: "-=" + index_height,
-    }, 800, function() {
+      easing: 'swing'
+    }, 500, function() {
       $('#index').css('visibility','hidden');
     });
   }
