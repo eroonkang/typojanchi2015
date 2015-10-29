@@ -8,10 +8,16 @@ WY.models.MarkerNode = (function(){
     this.damping = 0.95;
 
     // debugger;
+    this.init();
   }
 
 
   MarkerNode.prototype = {
+    init: function(){
+
+      
+
+    },
 
     is: function (type_name) {
       return this.properties.type == type_name;

@@ -71,7 +71,7 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/turf.min.js"></script>   
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/rAF.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/vector2.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/d3.v3.min.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.history.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/kerning.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/WY.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>

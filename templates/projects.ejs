@@ -1,7 +1,7 @@
 <ul class="index-list">
   <% _.each(projects, function (project) { %>
     <li>
-      <a href="#">
+      <a href="<%= url_from_project_name(project.idx, project.project_name_en) %> " class="project_btn">
         (<%= project.idx %>) 
         <%= project["project_name_" + WY.constants.locale] %>
       </a>

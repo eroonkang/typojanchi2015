@@ -42,8 +42,13 @@ WY.models.MapManager = (function(){
 
     load_complete_handler: function(data){
       this.data = data;
-      this.artist_popup_tmpl = _.template("<%= full_name_" + WY.constants.locale + " %>");
-      this.artwork_popup_tmpl = _.template("<%= artwork_name_" + WY.constants.locale + " %>");
+      this.popup_tmpl = {
+        'Artist': _.template('<a href="<%= url_from_permalink(permalink) %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
+        'Artwork': _.template('<a href="<%= url_from_permalink(permalink) %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
+        'Project': _.template('<a href="<%= url_from_project_name(idx, project_name_en) %>" class="popup_btn"><%= project_name_' + WY.constants.locale + ' %></a>'),
+        'Venue': _.template('<a href="<%= url_from_permalink(permalink) %>" class="popup_btn"><%= venue_name_' + WY.constants.locale +  ' %></a>')
+      }
+
       // var geojsonMarkerOptions = ;
 
 
@@ -58,12 +63,12 @@ WY.models.MapManager = (function(){
             }
         });
 
-        var circle_w = new customIcon({iconUrl: 'images/icon-circle-w.png', iconRetinaUrl: 'images/icon-circle-w@2x.png'}),
-            diamond_w = new customIcon({iconUrl: 'images/icon-diamond-w.png', iconRetinaUrl: 'images/icon-diamond-w@2x.png'}),
-            diamond_b = new customIcon({iconUrl: 'images/icon-diamond-b.png', iconRetinaUrl: 'images/icon-diamond-b@2x.png'});
-            concentric_w = new customIcon({iconUrl: 'images/icon-concentric-w.png', iconRetinaUrl: 'images/icon-concentric-w@2x.png'});
-            scircle_b = new customIcon({iconUrl: 'images/icon-scircle-b.png', iconRetinaUrl: 'images/icon-scircle-b@2x.png'});
-            scircle_w = new customIcon({iconUrl: 'images/icon-scircle-w.png', iconRetinaUrl: 'images/icon-scircle-w@2x.png'});
+        var circle_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-circle-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-circle-w@2x.png'}),
+            diamond_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-diamond-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-diamond-w@2x.png'}),
+            diamond_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-diamond-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-diamond-b@2x.png'});
+            concentric_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-concentric-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-concentric-w@2x.png'});
+            scircle_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-b@2x.png'});
+            scircle_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-w@2x.png'});
 
         // 거의 주석을 달필요성을 못느낌
         if (node.properties.type == "Venue") {
@@ -91,14 +96,8 @@ WY.models.MapManager = (function(){
             riseOnHover: true
           });
 
-          // marker = L.circleMarker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
-          //   radius: 5,
-          //   fillColor: "#000",
-          //   color: "#000",
-          //   fillOpacity: 1,
-          //   opacity: 1,
-          // });
         }
+
 
 
 
@@ -111,6 +110,22 @@ WY.models.MapManager = (function(){
         this.graph.addNode(node.properties.id, marker_node);
 
         this.map.addLayer(marker);
+
+        marker.on('mouseover', _.bind(function(e){
+
+          var popup = L.popup({
+                          closeOnCilck: true
+                        })
+                       .setLatLng(e.latlng)
+                       .setContent(this.popup_tmpl[node.properties.type](node.properties))
+                       .openOn(this.map);
+
+        }, this));
+
+
+
+
+
       }, this));
         
       _.each(this.data.links, _.bind(function(link){ 
@@ -158,42 +173,22 @@ WY.models.MapManager = (function(){
 
         var link = this.graph.addLink(link.source, link.target, {line: polyline});
 
-        // this.animate();
       }, this));
       
-      // WY.dispatcher.on('start_animate', _.bind(function(e){
-        this.animate();
-      // }, this));
+      this.animate();
       
+      $("body").on("click", ".popup_btn", function(e){
+        e.preventDefault();
+
+        History.pushState({}, "타이퍼잔치", $(e.target).attr('href'));
+
+      });
 
     },
 
     animate: function () {
       requestAnimationFrame(this.animate);
 
-              // // 두 노드간의 거리계산 
-            
-              // // if (node.data.location.distanceTo(target_node.data.location) < 0.1){
-
-              // var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
-
-              // var d = force.length();
-              // var stretch = d - 0.0001;
-
-              // force.normalize();
-              // // debugger;
-              // force.multiplyScalar(-1 * 0.0001 * stretch);
-              // // debugger;
-              // // if (_.isNaN(force.x)) { debugger; }
-
-              // node.data.apply_force(force);
-
-              // force.multiplyScalar(-1);
-              // target_node.data.apply_force(force);
-
-              // node.data.update();
-              // target_node.data.update(); 
-              // 
       this.graph.forEachNode(_.bind(function(node){
         
         if (node.data.is("Project")) {
@@ -208,13 +203,10 @@ WY.models.MapManager = (function(){
 
               force.normalize();
               force.multiplyScalar(-1 * 0.01 * stretch);
-              // debugger;
-              if (_.isNaN(force.x)) { debugger; }
 
               node.data.apply_force(force);
 
               node.data.update();
-
             } 
 
           });
@@ -232,8 +224,6 @@ WY.models.MapManager = (function(){
 
               force.normalize();
               force.multiplyScalar(-1 * 0.01 * stretch);
-              // debugger;
-              // if (_.isNaN(force.x)) { debugger; }
 
               node.data.apply_force(force);
 

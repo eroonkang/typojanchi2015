@@ -209,7 +209,7 @@ projects:
 -
   idx: 3
   project_name_en: Asia City Text/ure
-  project_name_ko: 
+  project_name_ko: 아시아 도시 텍스트/쳐
 
   curator_name_en: Goto Testsuya
   curator_name_ko: 고토데쓰야
@@ -329,7 +329,7 @@ projects:
 
 -
   idx: 5
-  project_name_en: "THIS IS SEOUL ( ) SOUL"
+  project_name_en: THIS IS SEOUL ( ) SOUL
   project_name_ko: 도시문자 엽서전 
 
   curator_name_en: 
@@ -594,7 +594,7 @@ projects:
 -
   idx: 8
   project_name_en: C(   )T(   ) Welcomes You
-  project_name_ko: 
+  project_name_ko: 시티 웰컴스 유
 
   curator_name_en: 
   curator_name_ko: 조현
@@ -667,7 +667,7 @@ projects:
 
 -
   idx: 9
-  project_name_en: 
+  project_name_en: City Linguistic Playfulness
   project_name_ko: 도시언어유희
 
   curator_name_en: Fritz K. Park
@@ -728,7 +728,7 @@ projects:
 
 -
   idx: 10
-  project_name_en: 
+  project_name_en: City of Deficiency
   project_name_ko: 결여의 도시
 
   curator_name_en: 

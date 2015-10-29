@@ -135,6 +135,20 @@ p.description {
 /* map area */
 /* ---------------------------------------------- */
 
+
+.leaflet-popup-content-wrapper  {
+  a {
+    color:black;
+  }
+
+  &:hover {
+    a {
+      color:white;
+    }
+  }
+}
+
+
 .link {
   stroke: #AAA;
   stroke-opacity: .3;

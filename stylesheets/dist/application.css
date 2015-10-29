@@ -679,6 +679,13 @@ p.description {
 /* ---------------------------------------------- */
 /* map area */
 /* ---------------------------------------------- */
+.leaflet-popup-content-wrapper a {
+  color: black;
+}
+.leaflet-popup-content-wrapper:hover a {
+  color: white;
+}
+
 .link {
   stroke: #AAA;
   stroke-opacity: .3;

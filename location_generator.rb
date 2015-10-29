@@ -148,6 +148,7 @@ projects_yaml["projects"].each do |project|
       project_name_en: project["project_name_en"],
       project_name_ko: project["project_name_ko"],
       type: "Project",
+      idx: project["idx"],
       id: idx
     },
     geometry: {

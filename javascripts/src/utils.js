@@ -17,6 +17,22 @@ Math.degrees = function(radians) {
   return radians * 180 / Math.PI;
 };
 
+function url_from_project_name(idx, project_name_en){
+  return WY.constants.home_url + "/" + WY.constants.locale + "/" + idx + "-" + conv_to_slug(project_name_en);
+}
+
+function conv_to_slug(txt)
+{
+    return txt
+        .toLowerCase()
+        .replace(/[^\w ]+/g,'')
+        .replace(/ +/g,'-');
+}
+
+function url_from_permalink(permalink) {
+  return WY.constants.home_url + "/" + WY.constants.locale + "/" + permalink;
+}
+
 function make_url(filename){
 
   var extracted_url = filename.match(/[^\/]*$/)[0];
