@@ -34,6 +34,18 @@ WY.models.DetailPageManager = (function(){
 
     load_complete_handler: function(data){
 
+      // hide_index()f를 부르고 싶은데 방법이 없다.
+      // if (index_opened) {
+      //   hide_index();
+      // }
+      // else {
+      //   this.scrollTop(0);
+      // }
+
+      // set mat height도 마찬가지
+      $('#map-container, #map-outer').css("height", WY.constants.screen_height/2);
+
+
       this.data = jsyaml.load(data);
       // debugger;
    

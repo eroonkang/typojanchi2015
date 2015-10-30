@@ -5,7 +5,9 @@ WY.views.welcome_view = (function(){
       detail_page_manager,
       map_manager,
       permalink,
-      cities_appended = false;
+      cities_appended = false,
+      index_opened = false,
+      content_opened = false;
       
   function welcome_view(params){
     WY.constants.locale = params.locale;
@@ -168,27 +170,32 @@ WY.views.welcome_view = (function(){
 
 
   function show_index(){
-    var index_height = $('#index').css("height");
-    console.log ("index_height:" + index_height);
-    $('#map-outer').addClass('map-down');
-    $('#index').css('visibility','visible');
-    $('#map-outer, #index').animate({
-      top: "+=" + index_height,
-      easing: 'swing'
-    }, 500, function() {
-      // Animation complete.
-    });
+    if (!index_opened){
+      var index_height = $('#index').css("height");
+      console.log ("index_height:" + index_height);
+      $('#map-outer').addClass('map-down');
+      $('#index').css('visibility','visible');
+      $('#map-outer, #index').animate({
+        top: "+=" + index_height,
+        easing: 'swing'
+      }, 500, function() {
+        index_opened = true;
+      });
+    }
   }
 
   function hide_index(){
-    var index_height = $('#index').css("height");
-    $('#map-outer').removeClass('map-down');
-    $('#map-outer, #index').animate({
-      top: "-=" + index_height,
-      easing: 'swing'
-    }, 500, function() {
-      $('#index').css('visibility','hidden');
-    });
+    if (index_opened){
+      var index_height = $('#index').css("height");
+      $('#map-outer').removeClass('map-down');
+      $('#map-outer, #index').animate({
+        top: "-=" + index_height,
+        easing: 'swing'
+      }, 500, function() {
+        $('#index').css('visibility','hidden');
+        index_opened = false;
+      });
+    }
   }
 
   return welcome_view;
