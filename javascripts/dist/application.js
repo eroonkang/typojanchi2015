@@ -21589,7 +21589,7 @@ WY.models.ArtworkManager = (function(){
     load_complete_handler: function(data){
 
       this.data = jsyaml.load(data);
-
+      // debugger;
    
       this.title = this.data["artwork_name_" + WY.constants.locale] + " by " + 
                   this.data["full_name_" + WY.constants.locale] +
@@ -22058,6 +22058,7 @@ WY.views.welcome_view = (function(){
 
     init();
     init_resize();
+    init_history();
 
     $('h1, .btn-menu, .btn-tj, .btn-ct').click(function(){
       show_index();
@@ -22189,6 +22190,17 @@ WY.views.welcome_view = (function(){
       ', width_percent: ' + li_width
     );
   }
+
+  function init_history(){
+    History.Adapter.bind(window,'statechange',function(){ // Note: We are using statechange instead of popstate
+      var state = History.getState(); // Note: We are using History.getState() instead of event.state
+      // debugger;
+      
+    });
+
+  }
+
+
 
   function show_index(){
     var index_height = $('#index').css("height");
