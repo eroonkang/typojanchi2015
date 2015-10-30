@@ -45,7 +45,11 @@ WY.models.ProjectsManager = (function(){
 
     project_btn_click_handler: function(e){
       e.preventDefault();
-      History.pushState({}, null, $(e.target).attr('href'));
+
+      History.pushState({
+        permalink: $(e.currentTarget).data('permalink')
+      }, "Loading...", $(e.currentTarget).attr('href'));
+
     }
   };
 

@@ -1,7 +1,7 @@
 <ul class="index-list">
   <% _.each(projects, function (project) { %>
     <li>
-      <a href="<%= url_from_project_name(project.idx, project.project_name_en) %> " class="project_btn">
+      <a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="project_btn">
         (<%= project.idx %>) 
       	 <% if (WY.constants.locale == "ko") { %>
             <span lang="ko"><%= project["project_name_" + WY.constants.locale] %></span>

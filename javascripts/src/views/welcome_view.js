@@ -51,6 +51,10 @@ WY.views.welcome_view = (function(){
         {
           name: 'artwork',
           url: WY.constants.home_url + '/templates/artwork.ejs'
+        },
+        {
+          name: 'project',
+          url: WY.constants.home_url + "/templates/project.ejs"
         }
       ]
     });
@@ -98,7 +102,10 @@ WY.views.welcome_view = (function(){
     template_loader.on('load_complete', function(e){
       participants_manager.init_tmpl(e.tmpl.participants);
       projects_manager.init_tmpl(e.tmpl.projects);
-      detail_page_manager.init_tmpl(e.tmpl.artwork);
+      detail_page_manager.init_tmpl({
+        artwork: e.tmpl.artwork, 
+        project: e.tmpl.project
+      });
 
       projects_manager.load();
     });

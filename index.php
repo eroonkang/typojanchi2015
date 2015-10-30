@@ -5,7 +5,7 @@ include 'route.php';
 
 $route = new Route();
 $locale = 'ko';
-$artwork_permalink = '';
+$permalink = '';
 $home_url = "/typojanchi2015";
 
 $route->add('/', function() {
@@ -22,15 +22,15 @@ $route->add('/en', function() {
 
 
 $route->add('/ko/.+', function($name) {
-  global $locale, $artwork_permalink;
+  global $locale, $permalink;
   $locale = "ko";
-  $artwork_permalink = $name;
+  $permalink = $name;
 });
 
 $route->add('/en/.+', function($name) {
-  global $locale, $artwork_permalink;
+  global $locale, $permalink;
   $locale = "en";
-  $artwork_permalink = $name;
+  $permalink = $name;
 });
 
 $route->submit();
@@ -172,7 +172,7 @@ $route->submit();
       WY.views.welcome_view({
         home_url: "<? echo $home_url; ?>",
         locale: "<? echo $locale ?>",
-        artwork_permalink: "<? echo $artwork_permalink ?>"
+        permalink: "<? echo $permalink ?>"
       });
     });
   </script>

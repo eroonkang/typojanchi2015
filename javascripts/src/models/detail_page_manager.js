@@ -4,7 +4,7 @@ WY.models.DetailPageManager = (function(){
     this.permalink = params.permalink;
     this.project_id;
     this.data;
-    this.tmpl;
+    this.tmpl
 
     _.bindAll(this, "load_complete_handler");
   }
@@ -23,7 +23,7 @@ WY.models.DetailPageManager = (function(){
         return false; 
       }
 
-      this.project_id = Number(this.permalink.substring(0, 1));
+      this.project_id = Number(this.permalink.split("-")[0]);
 
       $.ajax({
         type: 'GET',
@@ -37,14 +37,16 @@ WY.models.DetailPageManager = (function(){
       this.data = jsyaml.load(data);
       // debugger;
    
-      this.title = this.data["artwork_name_" + WY.constants.locale] + " by " + 
-                  this.data["full_name_" + WY.constants.locale] +
-                  ":: Typojanchi 2015";
+      
+      this.title = _.isUndefined(this.data.type) ? this.data["full_name_" + WY.constants.locale] : this.data["project_name_" + WY.constants.locale];
+      this.title += " :: Typojanchi 2015";
 
       $("title").text(this.title);
       
-      this.el.empty().append($(this.tmpl({
-        artwork: this.data,
+      var type = _.isUndefined(this.data.type) ? "artwork" : this.data.type.toLowerCase();
+      // debugger;
+      this.el.empty().append($(this.tmpl[type]({
+        detail: this.data,
         project: WY.constants.projects_data.projects[this.project_id - 1]
       })));
 
