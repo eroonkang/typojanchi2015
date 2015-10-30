@@ -15,7 +15,7 @@ WY.models.MapManager = (function(){
   }
 
   MapManager.prototype = {
-    init: function(){
+  init: function(){
       this.map = L.map(this.el_name,{
         minZoom:5
       }).setView([37.5558393, 126.9716173], 14);
@@ -43,10 +43,10 @@ WY.models.MapManager = (function(){
     load_complete_handler: function(data){
       this.data = data;
       this.popup_tmpl = {
-        'Artist': _.template('<a href="<%= url_from_permalink(permalink) %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
-        'Artwork': _.template('<a href="<%= url_from_permalink(permalink) %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
-        'Project': _.template('<a href="<%= url_from_project_name(idx, project_name_en) %>" class="popup_btn"><%= project_name_' + WY.constants.locale + ' %></a>'),
-        'Venue': _.template('<a href="<%= url_from_permalink(permalink) %>" class="popup_btn"><%= venue_name_' + WY.constants.locale +  ' %></a>')
+        'Artist': _.template('<a href="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
+        'Artwork': _.template('<a href="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
+        'Project': _.template('<a href="<%= url_from_project_name(idx, project_name_en) %>" data-permalink="<%= idx + "-" + conv_to_slug(project_name_en) %>" class="popup_btn"><%= project_name_' + WY.constants.locale + ' %></a>'),
+        'Venue': _.template('<a href="javascript:void(0)"><%= venue_name_' + WY.constants.locale +  ' %></a>')
       }
 
       // var geojsonMarkerOptions = ;
@@ -111,6 +111,7 @@ WY.models.MapManager = (function(){
 
         this.map.addLayer(marker);
 
+        // if (node.properties.permalink == undefined) { debugger; }
         marker.on('mouseover', _.bind(function(e){
 
           var popup = L.popup({
@@ -180,7 +181,9 @@ WY.models.MapManager = (function(){
       $("body").on("click", ".popup_btn", function(e){
         e.preventDefault();
 
-        History.pushState({}, "타이퍼잔치", $(e.target).attr('href'));
+        History.pushState({
+          permalink: $(e.target).data('permalink')
+        }, "Loading...", $(e.target).attr('href'));
 
       });
 
@@ -226,7 +229,6 @@ WY.models.MapManager = (function(){
               force.multiplyScalar(-1 * 0.01 * stretch);
 
               node.data.apply_force(force);
-
               node.data.update();
 
             } 

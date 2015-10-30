@@ -26,6 +26,14 @@ WY.models.ParticipantsManager = (function(){
         this.el.columnize({ width:200, lastNeverTallest: true});
         this.appended = true;
       }
+
+      this.el.find(".participant_change_btn").click(function(e){
+        e.preventDefault();
+        // debugger;
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
     }
   };
 

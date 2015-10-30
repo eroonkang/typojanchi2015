@@ -81,7 +81,7 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/models/template_loader.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/participants_manager.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/projects_manager.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/models/artwork_manager.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/models/detail_page_manager.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/marker_node.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/map_manager.js"></script>
 

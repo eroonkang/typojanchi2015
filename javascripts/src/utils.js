@@ -17,6 +17,12 @@ Math.degrees = function(radians) {
   return radians * 180 / Math.PI;
 };
 
+function extract_permalink_from_url(url) {
+  var extracted_url = url.match(/[^\/]*$/)[0]
+
+  return extracted_url.substring(0, extracted_url.length - 4);
+}
+
 function url_from_project_name(idx, project_name_en){
   return WY.constants.home_url + "/" + WY.constants.locale + "/" + idx + "-" + conv_to_slug(project_name_en);
 }

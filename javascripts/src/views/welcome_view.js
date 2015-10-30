@@ -2,16 +2,16 @@ WY.views.welcome_view = (function(){
   var template_loader,
       participants_manager,
       projects_manager,
-      artwork_manager,
+      detail_page_manager,
       map_manager,
-      artwork_permalink,
+      permalink,
       cities_appended = false;
       
   function welcome_view(params){
     WY.constants.locale = params.locale;
     WY.constants.home_url = params.home_url;
 
-    artwork_permalink = params.artwork_permalink;
+    permalink = params.permalink;
 
     init();
     init_resize();
@@ -63,9 +63,9 @@ WY.views.welcome_view = (function(){
     });
 
 
-    artwork_manager = new WY.models.ArtworkManager({
+    detail_page_manager = new WY.models.DetailPageManager({
       el: $("#content"),
-      artwork_permalink: artwork_permalink
+      permalink: permalink
     });
 
     map_manager = new WY.models.MapManager({
@@ -78,7 +78,7 @@ WY.views.welcome_view = (function(){
       participants_manager.init_data(e.data);
       participants_manager.init();
       projects_manager.init();
-      artwork_manager.update();
+      detail_page_manager.update();
 
       participants_manager.append_dom();
       projects_manager.append_dom();
@@ -98,7 +98,7 @@ WY.views.welcome_view = (function(){
     template_loader.on('load_complete', function(e){
       participants_manager.init_tmpl(e.tmpl.participants);
       projects_manager.init_tmpl(e.tmpl.projects);
-      artwork_manager.init_tmpl(e.tmpl.artwork);
+      detail_page_manager.init_tmpl(e.tmpl.artwork);
 
       projects_manager.load();
     });
@@ -149,10 +149,11 @@ WY.views.welcome_view = (function(){
   }
 
   function init_history(){
-    History.Adapter.bind(window,'statechange',function(){ // Note: We are using statechange instead of popstate
-      var state = History.getState(); // Note: We are using History.getState() instead of event.state
-      // debugger;
-      
+    History.Adapter.bind(window, 'statechange', function(){ 
+      var state = History.getState(); 
+      var permalink = state.data.permalink; 
+
+      detail_page_manager.update(permalink);
     });
 
   }

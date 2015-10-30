@@ -3,7 +3,7 @@
     <li class="dontend"><a href="#">(<%= project.idx %>)</a></li>
     <% _.each(project.project_artists, function(artist) { %>
       <li>
-        <a href="<%= make_url(artist.url) %>">
+        <a href="<%= make_url(artist.url) %>" data-permalink="<%= extract_permalink_from_url(artist.url) %>" class="participant_change_btn">
           <% if (WY.constants.locale == "ko") { %>
             <span lang="ko"><%= artist.full_name_ko %></span>
           <% } else { %>
