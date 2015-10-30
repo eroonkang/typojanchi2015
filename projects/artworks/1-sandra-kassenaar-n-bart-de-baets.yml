@@ -17,8 +17,8 @@ participant_bio_ko: >
 
 artworks:
 -
-  artwork_name_en: Sandra Kassenaar & Bart de Baets
-  artwork_name_ko: 산드라 카서나르 & 바르 데 바트
+  artwork_name_en: Sandra Kassenaar &amp; Bart de Baets
+  artwork_name_ko: 산드라 카서나르 &amp; 바르 데 바트
   artwork_year: 2015
   artwork_medium_en: Photo print on mesh
   artwork_medium_ko: 메시에 사진 출력

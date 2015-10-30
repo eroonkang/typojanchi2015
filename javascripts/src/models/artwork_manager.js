@@ -35,7 +35,7 @@ WY.models.ArtworkManager = (function(){
     load_complete_handler: function(data){
 
       this.data = jsyaml.load(data);
-
+      // debugger;
    
       this.title = this.data["artwork_name_" + WY.constants.locale] + " by " + 
                   this.data["full_name_" + WY.constants.locale] +
