@@ -128,10 +128,9 @@ $route->submit();
         <li><a href="#">Paju, KR</a></li>
         <li><a href="#">New Haven, US</a></li>
         <li><a href="#">Ghent, UK</a></li>
-        <li class="removeiflast">&nbsp;</li>
       </ul>
     </div>
-    <div id="section-participants">
+    <div id="section-participants" class="index-list">
       
     </div>
     <div id="section-projects">
@@ -145,21 +144,28 @@ $route->submit();
     <div id="map-overlays">
       <a href="#">
         <h1>
-        <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
-        Typojanchi 2015: The 4th International Typography Biennale
+          <!-- <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
+          Typojanchi 2015: The 4th International Typography Biennale -->
+          <img src="<? echo $home_url; ?>/images/typojanchi-h1.png">    
         </h1>
       </a>
-      <img src="<? echo $home_url; ?>/images/ct.png" class="left">
-      <img src="<? echo $home_url; ?>/images/tj.png" class="right">
+      <a href="#" class="btn-ct"><img src="<? echo $home_url; ?>/images/ct.png" class="left"></a>
+      <a href="#" class="btn-tj"><img src="<? echo $home_url; ?>/images/tj.png" class="right"></a>
+    </div>
+    <div id="menu-control">
+      <a href="#" class="btn-menu">&frasl;</a>
     </div>
     <div id="lang-control">
-      <a href="<? echo $home_url; ?>/ko" class="btn-ko"><span lang="ko">한</a><a href="<? echo $home_url; ?>/en" class="btn-en">EN</a>
+      <a href="<? echo $home_url; ?>/ko" class="btn-ko"><span lang="ko">한</a>
+      <a href="<? echo $home_url; ?>/en" class="btn-en">EN</a>
+    </div>
+    <div id="content">
     </div>
   </div>
 
-  <div id="content">
+  
    
-  </div>
+  
 
   <script>
     $(document).ready(function(e){

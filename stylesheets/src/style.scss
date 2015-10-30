@@ -1,5 +1,5 @@
-$base_font_size       : 22px; // px;
-$base_line_height     : 1.1em; // px
+$base_font_size       : 19px; // px;
+$base_line_height     : 1.2em; // px
 $background-color: #FFF;
 $text_color: #000;
 
@@ -21,16 +21,17 @@ body {
 
 :lang(ko){
   font-size: 0.88em;
+  letter-spacing:-0.02em;
 }
 
 .en-within-ko{
   font-size: 1.13em;
+  letter-spacing: 0em;
 }
 
 a {
   text-decoration: none;
   color: #000;
-  position:relative;
 }
 a:hover {
   border-bottom: 1px solid;
@@ -76,6 +77,8 @@ a:hover {
   margin-left:1em;
   text-indent: -1em;
   padding-right:1em;  
+  list-style-type: none;
+  // font-size:20px;
 }
 
 
@@ -86,8 +89,10 @@ a:hover {
   // background-color: #000;
   color:#000;
   padding:30px;
+  // display:none;
+  border-top:1px solid;
   a {
-    color:#fff; 
+    color:#000; 
   }
 }
 #artwork {
@@ -121,7 +126,6 @@ p.description {
   margin:2em 0;
   border:1px solid #000;
 }
-
 .artwork-photo img {
   display: block;
   opacity: 0;
@@ -174,13 +178,18 @@ p.description {
   height:700px;
 }
 
-#lang-control{
+#lang-control, #menu-control {
   position:absolute;
-  top:100px;
-  left:25px;
+  top:70px;
+  right:25px;
   border: 2px solid;
   border-radius: 2px;
   background: #fff;
+
+  &#menu-control {
+    top:25px;
+  }
+
   a {
     display:block;
     width:26px;
@@ -195,10 +204,10 @@ p.description {
       color:#fff;
     }
     &.btn-en {
-      
+      border-top: 1px solid;      
     }
     &.btn-ko {
-      border-bottom: 1px solid;
+      // border-top: 1px solid;
     }
   }
 }

@@ -36,7 +36,7 @@ WY.models.ProjectsManager = (function(){
     append_dom: function(){
       if (!_.isUndefined(this.inner_dom) && !this.appended){
         this.el.append(this.inner_dom);
-        this.el.columnize({ width:200, lastNeverTallest: true});    
+        this.el.columnize({ width:400, lastNeverTallest: true});    
         this.appended = true;
       }
 

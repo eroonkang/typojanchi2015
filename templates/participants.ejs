@@ -1,6 +1,6 @@
 <% _.each(projects, function(project){ %>
-  <ul class="index-list dontsplit">
-    <li><a href="#">(<%= project.idx %>)</a></li>
+  <!-- <ul class="index-list dontsplit"> -->
+    <li class="dontend"><a href="#">(<%= project.idx %>)</a></li>
     <% _.each(project.project_artists, function(artist) { %>
       <li>
         <a href="<%= make_url(artist.url) %>">
@@ -12,6 +12,6 @@
         </a>
       </li>
     <% }); %>
-    <li class="removeiflast">&nbsp;</li>
-  </ul>
+    <li class="removeiflast removeiffirst">&nbsp;</li>
+  <!-- </ul> -->
 <% }); %>
