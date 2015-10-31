@@ -17,7 +17,7 @@ WY.models.MapManager = (function(){
   MapManager.prototype = {
   init: function(){
       this.map = L.map(this.el_name,{
-        minZoom:5
+        minZoom: 5
       }).setView([37.5558393, 126.9716173], 14);
 
       L.tileLayer('https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw', {
@@ -176,7 +176,7 @@ WY.models.MapManager = (function(){
 
       }, this));
       
-      this.animate();
+      // this.animate();
       
       $("body").on("click", ".popup_btn", function(e){
         e.preventDefault();
@@ -247,6 +247,12 @@ WY.models.MapManager = (function(){
       }, this));
 
 
+    },
+
+    city_pan_to: function(latlng) {
+      console.log(latlng);
+      this.map.panTo(latlng);
+      this.map.setZoom(13);
     },
 
     set_map_height: function(height){

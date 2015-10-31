@@ -84,6 +84,7 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/models/detail_page_manager.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/marker_node.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/map_manager.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/models/cities_manager.js"></script>
 
   <!-- views -->
   <script src="<? echo $home_url; ?>/javascripts/src/views/welcome_view.js"></script>
@@ -98,36 +99,36 @@ $route->submit();
     </div>
     <div id="section-cities">
       <ul class="index-list">
-        <li><a href="#">Seoul, KR</a></li>
-        <li><a href="#">London, UK</a></li>
-        <li><a href="#">Auckland, NZ</a></li>
-        <li><a href="#">Stockholm, SE</a></li>
-        <li><a href="#">Amsterdam, NL</a></li>
-        <li><a href="#">Tokyo,JP</a></li>
-        <li><a href="#">Osaka, JP</a></li>
-        <li><a href="#">Berlin, DE</a></li>
-        <li><a href="#">Rotterdam, NL</a></li>
-        <li><a href="#">Porto, PT</a></li>
-        <li><a href="#">Beijing, CN</a></li>
-        <li><a href="#">Paris, FR</a></li>
-        <li><a href="#">Derby, UK</a></li>
-        <li><a href="#">Gunpo, KR</a></li>
-        <li><a href="#">Los Angeles, US</a></li>
-        <li><a href="#">Mexico City, MX</a></li>
-        <li><a href="#">Chicago, US</a></li>
-        <li><a href="#">Hong Kong</a></li>
-        <li><a href="#">Taipei, TW</a></li>
-        <li><a href="#">Bangkok, TH</a></li>
-        <li><a href="#">Ho Chi Minh, VN</a></li>
-        <li><a href="#">Singapore</a></li>
-        <li><a href="#">Basel, CH</a></li>
-        <li><a href="#">Montreuil, FR</a></li>
-        <li><a href="#">Homer, US</a></li>
-        <li><a href="#">Daegu, KR</a></li>
-        <li><a href="#">New York, US</a></li>
-        <li><a href="#">Paju, KR</a></li>
-        <li><a href="#">New Haven, US</a></li>
-        <li><a href="#">Ghent, UK</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Seoul, KR</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">London, UK</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Auckland, NZ</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Stockholm, SE</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Amsterdam, NL</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Tokyo, JP</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Osaka, JP</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Berlin, DE</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Rotterdam, NL</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Porto, PT</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Beijing, CN</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Paris, FR</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Derby, UK</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Gunpo, KR</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Los Angeles, US</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Mexico City, MX</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Chicago, US</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Hong Kong</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Taipei, TW</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Bangkok, TH</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Ho Chi Minh, VN</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Singapore</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Basel, CH</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Montreuil, FR</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Homer, US</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Daegu, KR</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">New York, US</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Paju, KR</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">New Haven, US</a></li>
+        <li><a href="javascript:void(0)" class="city_btn">Ghent, UK</a></li>
       </ul>
     </div>
     <div id="section-participants" class="index-list">

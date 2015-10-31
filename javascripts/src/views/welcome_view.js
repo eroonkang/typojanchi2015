@@ -4,6 +4,7 @@ WY.views.welcome_view = (function(){
       projects_manager,
       detail_page_manager,
       map_manager,
+      cities_manager,
       permalink,
       cities_appended = false,
       index_opened = false,
@@ -73,6 +74,10 @@ WY.views.welcome_view = (function(){
       el_name: "map-container"
     });
 
+    cities_manager = new WY.models.CitiesManager({
+      el: $("#section-cities")
+    });
+
 
 
     projects_manager.on('load_complete', function(e){
@@ -92,7 +97,11 @@ WY.views.welcome_view = (function(){
       set_index_pos();
       map_manager.init();
       map_manager.set_map_height(WY.constants.screen_height);
-
+      cities_manager.init();
+      cities_manager.on('city_pan_to', function(e){
+        hide_index();  
+        map_manager.city_pan_to(e.latlng);
+      });
     });
 
 
@@ -153,7 +162,7 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-      // hide_index(); 
+      hide_index(); 
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
       map_manager.update_bound(permalink);
       detail_page_manager.update(permalink);
