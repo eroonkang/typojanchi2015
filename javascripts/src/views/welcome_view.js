@@ -17,13 +17,8 @@ WY.views.welcome_view = (function(){
     init_resize();
     init_history();
 
-    $('h1, .btn-menu, .btn-tj, .btn-ct').click(function(){
-      show_index();
-    });
-
-    $('.close_index').click(function(){
-      hide_index();
-    });
+    $('h1, .btn-menu, .btn-tj, .btn-ct').click(show_index);
+    $('.close_index').click(hide_index);
 
   }
 
@@ -31,7 +26,7 @@ WY.views.welcome_view = (function(){
     $(window).resize(function(e){
       WY.constants.screen_width = $(window).width();
       WY.constants.screen_height = $(window).height();
-      set_map_height();
+      // map_manager.set_map_height(permalink.length == 0 ? WY.constants.screen_height : WY.constants.screen_height * 0.5);
     });
 
     $(window).trigger('resize');
@@ -91,10 +86,10 @@ WY.views.welcome_view = (function(){
         cities_appended = true;
       }
 
-      set_map_height();
       ko_type_adjust();
       set_index_pos();
       map_manager.init();
+      map_manager.set_map_height(WY.constants.screen_height);
 
     });
 
@@ -123,9 +118,6 @@ WY.views.welcome_view = (function(){
     });
   }
 
-  function set_map_height(){
-    $('#map-container, #map-outer').css("height", WY.constants.screen_height);
-  }
 
   function set_index_pos(){
     // flow_column('#section-participants',200);
@@ -158,8 +150,10 @@ WY.views.welcome_view = (function(){
   function init_history(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
-      var permalink = state.data.permalink; 
-
+      permalink = state.data.permalink;
+      // hide_index(); 
+      map_manager.set_map_height(WY.constants.screen_height * 0.5);
+      map_manager.update_bound(permalink);
       detail_page_manager.update(permalink);
     });
 

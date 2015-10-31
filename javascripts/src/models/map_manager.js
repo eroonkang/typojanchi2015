@@ -247,8 +247,18 @@ WY.models.MapManager = (function(){
       }, this));
 
 
+    },
+
+    set_map_height: function(height){
+      $('#map-container, #map-outer').height(height);
+      this.map.invalidateSize();
+    },
+
+    update_bound: function(permalink){
+      // this.fitBounds(
+      var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
+      // debugger;
     }
-    
   };
 
   return MapManager;

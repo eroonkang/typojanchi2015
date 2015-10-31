@@ -214,6 +214,10 @@ function createGraph() {
       return links;
     },
 
+    getAllNodes: function(){
+      return nodes;
+    },
+
     /**
      * Gets all links (inbound and outbound) from the node with given id.
      * If node with given id is not found null is returned.
@@ -224,7 +228,6 @@ function createGraph() {
      *   otherwise null is returned.
      */
     getLinks: getLinks,
-
     /**
      * Invokes callback on each node of the graph.
      *
