@@ -108,6 +108,18 @@ WY.views.welcome_view = (function(){
       });
     });
 
+    detail_page_manager.on('load_complete', function(e){
+
+      if (index_opened) {
+        hide_index();
+      }
+      else {
+        $(window).scrollTop(0);
+      }
+
+      map_manager.set_map_height(WY.constants.screen_height * 0.5);
+    });
+
 
     template_loader.on('load_complete', function(e){
       participants_manager.init_tmpl(e.tmpl.participants);

@@ -6,6 +6,12 @@ def conv_to_permalink(filename)
   /^(.+\/)*(.+)\.(.+)$/.match(filename)[2].downcase
 end
 
+
+
+projects_name_yaml = YAML.load_file("./projects/projects.yml")
+
+projects_ymls = projects_name_yaml["projects"].map {|project| "./projects/artworks/" + project["idx"].to_s + "-" + project["project_name_en"].downcase.gsub(/[^\w ]+/, '').gsub(/ +/, '-') + ".yml" }
+
 locations = {
   nodes: { 
     type: "FeatureCollection",
@@ -16,7 +22,7 @@ locations = {
 
 idx = 0
 
-Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
+(Dir["./projects/artworks/*.yml"] - projects_ymls).each_with_index do |filename, i|
   artwork_yaml = YAML.load_file(filename)
 
   #
@@ -147,6 +153,7 @@ projects_yaml["projects"].each do |project|
     properties: {
       project_name_en: project["project_name_en"],
       project_name_ko: project["project_name_ko"],
+      permalink: "#{project["idx"]}-#{project["project_name_en"].downcase.gsub(/[^\w ]+/, '').gsub(/ +/, '-')}",
       type: "Project",
       idx: project["idx"],
       id: idx

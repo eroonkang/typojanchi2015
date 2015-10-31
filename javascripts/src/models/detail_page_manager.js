@@ -4,8 +4,9 @@ WY.models.DetailPageManager = (function(){
     this.permalink = params.permalink;
     this.project_id;
     this.data;
-    this.tmpl
+    this.tmpl;
 
+    _.extend(this, Backbone.Events);
     _.bindAll(this, "load_complete_handler");
   }
 
@@ -34,18 +35,6 @@ WY.models.DetailPageManager = (function(){
 
     load_complete_handler: function(data){
 
-      // hide_index()f를 부르고 싶은데 방법이 없다.
-      // if (index_opened) {
-      //   hide_index();
-      // }
-      // else {
-      //   this.scrollTop(0);
-      // }
-
-      // set mat height도 마찬가지
-      $('#map-container, #map-outer').css("height", WY.constants.screen_height/2);
-
-
       this.data = jsyaml.load(data);
       // debugger;
    
@@ -54,7 +43,7 @@ WY.models.DetailPageManager = (function(){
       this.title += " :: Typojanchi 2015";
 
       $("title").text(this.title);
-      debugger;
+      // debugger;
       var type = _.isUndefined(this.data.type) ? "artwork" : this.data.type.toLowerCase();
       // debugger;
       this.el.empty().append($(this.tmpl[type]({
@@ -71,6 +60,7 @@ WY.models.DetailPageManager = (function(){
       });
 
 
+      this.trigger('load_complete');
     }
 
   };
