@@ -20475,6 +20475,10 @@ function createGraph() {
       return links;
     },
 
+    getAllNodes: function(){
+      return nodes;
+    },
+
     /**
      * Gets all links (inbound and outbound) from the node with given id.
      * If node with given id is not found null is returned.
@@ -20485,7 +20489,6 @@ function createGraph() {
      *   otherwise null is returned.
      */
     getLinks: getLinks,
-
     /**
      * Invokes callback on each node of the graph.
      *
@@ -21562,6 +21565,71 @@ function randomBetween(low, high) {
   return Math.random() * diff + low;
 }
 
+WY.constants.cities_locations = {
+  seoul: [37.5665350,126.9779690],
+  london: [51.5073510,-0.1277580],
+  auckland: [-36.8484600,174.7633320],
+  stockholm: [59.3293230,18.0685810],
+  amsterdam: [52.3702160,4.8951680],
+  tokyo: [35.6894870,139.6917060],
+  osaka: [34.6937380,135.5021650],
+  berlin: [52.5200070,13.4049540],
+  rotterdam: [51.9244200,4.4777330],
+  porto: [41.1579440,-8.6291050],
+  beijing: [39.9042110,116.4073950],
+  paris: [48.8566140,2.3522220],
+  derby: [52.9225300,-1.4746190],
+  gunpo: [37.3616700,126.9351740],
+  los_angeles: [34.0522340,-118.2436850],
+  mexico_city: [19.4326080,-99.1332080],
+  chicago: [41.8781140,-87.6297980],
+  hong_kong: [22.3964280,114.1094970],
+  taipei: [25.0329690,121.5654180],
+  bangkok: [13.7563310,100.5017650],
+  ho_chi_minh: [10.8230990,106.6296640],
+  singapore: [1.3520830,103.8198360],
+  basel: [47.5595990,7.5885760],
+  montreuil: [48.8638120,2.4484510],
+  homer: [59.6425000,-151.5483330],
+  daegu: [35.8714350,128.6014450],
+  new_york: [40.7127840,-74.0059410],
+  paju: [37.70824,126.68672],
+  new_haven: [41.3082740,-72.9278840],
+  ghent: [51.0543420,3.7174240]
+}
+
+WY.models.CitiesManager = (function(){
+  function CitiesManager(params){
+    this.el = params.el;
+
+    _.extend(this, Backbone.Events);
+    _.bindAll(this, "city_btn_click_handler");
+  }
+
+  CitiesManager.prototype = {
+    init: function(){
+      this.el.find(".city_btn").click(this.city_btn_click_handler);
+    },
+
+    city_btn_click_handler: function(e){
+      var dict_name = this.slug_underscore($(e.target).text());
+      console.log(dict_name);
+      var latlng = L.latLng(WY.constants.cities_locations[dict_name]);
+
+      this.trigger('city_pan_to', {latlng: latlng});
+    },
+
+    slug_underscore: function(name) {
+      return name.split(',')[0]
+        .toLowerCase()
+        .replace(/[^\w ]+/g,'')
+        .replace(/ +/g,'_');
+    }
+  };
+
+  return CitiesManager;
+})();
+
 WY.models.DetailPageManager = (function(){
   function DetailPageManager(params){
     this.el = params.el;
@@ -21618,7 +21686,7 @@ WY.models.DetailPageManager = (function(){
       this.title += " :: Typojanchi 2015";
 
       $("title").text(this.title);
-      
+      debugger;
       var type = _.isUndefined(this.data.type) ? "artwork" : this.data.type.toLowerCase();
       // debugger;
       this.el.empty().append($(this.tmpl[type]({
@@ -21661,7 +21729,7 @@ WY.models.MapManager = (function(){
   MapManager.prototype = {
   init: function(){
       this.map = L.map(this.el_name,{
-        minZoom:5
+        minZoom: 5
       }).setView([37.5558393, 126.9716173], 14);
 
       L.tileLayer('https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw', {
@@ -21690,7 +21758,7 @@ WY.models.MapManager = (function(){
         'Artist': _.template('<a href="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
         'Artwork': _.template('<a href="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
         'Project': _.template('<a href="<%= url_from_project_name(idx, project_name_en) %>" data-permalink="<%= idx + "-" + conv_to_slug(project_name_en) %>" class="popup_btn"><%= project_name_' + WY.constants.locale + ' %></a>'),
-        'Venue': _.template('<a href="javascript:void(0)"><%= venue_name_' + WY.constants.locale +  ' %></a>')
+        'Venue': _.template('<a href="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= venue_name_' + WY.constants.locale +  ' %></a>')
       }
 
       // var geojsonMarkerOptions = ;
@@ -21820,7 +21888,7 @@ WY.models.MapManager = (function(){
 
       }, this));
       
-      this.animate();
+      // this.animate();
       
       $("body").on("click", ".popup_btn", function(e){
         e.preventDefault();
@@ -21891,8 +21959,24 @@ WY.models.MapManager = (function(){
       }, this));
 
 
+    },
+
+    city_pan_to: function(latlng) {
+      console.log(latlng);
+      this.map.panTo(latlng);
+      this.map.setZoom(13);
+    },
+
+    set_map_height: function(height){
+      $('#map-container, #map-outer').height(height);
+      this.map.invalidateSize();
+    },
+
+    update_bound: function(permalink){
+      // this.fitBounds(
+      var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
+      // debugger;
     }
-    
   };
 
   return MapManager;
@@ -22094,6 +22178,7 @@ WY.views.welcome_view = (function(){
       projects_manager,
       detail_page_manager,
       map_manager,
+      cities_manager,
       permalink,
       cities_appended = false,
       index_opened = false,
@@ -22109,13 +22194,8 @@ WY.views.welcome_view = (function(){
     init_resize();
     init_history();
 
-    $('h1, .btn-menu, .btn-tj, .btn-ct').click(function(){
-      show_index();
-    });
-
-    $('.close_index').click(function(){
-      hide_index();
-    });
+    $('h1, .btn-menu, .btn-tj, .btn-ct').click(show_index);
+    $('.close_index').click(hide_index);
 
   }
 
@@ -22123,7 +22203,7 @@ WY.views.welcome_view = (function(){
     $(window).resize(function(e){
       WY.constants.screen_width = $(window).width();
       WY.constants.screen_height = $(window).height();
-      set_map_height();
+      // map_manager.set_map_height(permalink.length == 0 ? WY.constants.screen_height : WY.constants.screen_height * 0.5);
     });
 
     $(window).trigger('resize');
@@ -22147,6 +22227,10 @@ WY.views.welcome_view = (function(){
         {
           name: 'project',
           url: WY.constants.home_url + "/templates/project.ejs"
+        },
+        {
+          name: 'venue',
+          url: WY.constants.home_url + "/templates/venue.ejs"
         }
       ]
     });
@@ -22168,6 +22252,10 @@ WY.views.welcome_view = (function(){
       el_name: "map-container"
     });
 
+    cities_manager = new WY.models.CitiesManager({
+      el: $("#section-cities")
+    });
+
 
 
     projects_manager.on('load_complete', function(e){
@@ -22183,11 +22271,15 @@ WY.views.welcome_view = (function(){
         cities_appended = true;
       }
 
-      set_map_height();
       ko_type_adjust();
       set_index_pos();
       map_manager.init();
-
+      map_manager.set_map_height(WY.constants.screen_height);
+      cities_manager.init();
+      cities_manager.on('city_pan_to', function(e){
+        hide_index();  
+        map_manager.city_pan_to(e.latlng);
+      });
     });
 
 
@@ -22196,7 +22288,8 @@ WY.views.welcome_view = (function(){
       projects_manager.init_tmpl(e.tmpl.projects);
       detail_page_manager.init_tmpl({
         artwork: e.tmpl.artwork, 
-        project: e.tmpl.project
+        project: e.tmpl.project,
+        venue: e.tmpl.venue
       });
 
       projects_manager.load();
@@ -22215,9 +22308,6 @@ WY.views.welcome_view = (function(){
     });
   }
 
-  function set_map_height(){
-    $('#map-container, #map-outer').css("height", WY.constants.screen_height);
-  }
 
   function set_index_pos(){
     // flow_column('#section-participants',200);
@@ -22250,8 +22340,10 @@ WY.views.welcome_view = (function(){
   function init_history(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
-      var permalink = state.data.permalink; 
-
+      permalink = state.data.permalink;
+      hide_index(); 
+      map_manager.set_map_height(WY.constants.screen_height * 0.5);
+      map_manager.update_bound(permalink);
       detail_page_manager.update(permalink);
     });
 

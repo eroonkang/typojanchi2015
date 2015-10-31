@@ -199,31 +199,42 @@ p.description {
   border-top: 1px solid;
 }
 
-#map-overlays {
+.map-overlays.btn-logo {
   position: absolute;
-  width: 100%;
-  bottom: 0px;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
 }
-#map-overlays h1 {
+.map-overlays.btn-logo h1 {
   margin: 0 auto;
-  padding: 30px 0 30px 0;
+  padding: 10px 0;
   text-align: center;
   text-shadow: -1px -1px 0px #fff,   1px -1px 0px #fff, -1px  1px 0px #fff, 1px  1px 0px #fff;
   line-height: 1em;
   border-radius: 2px;
 }
-#map-overlays h1:hover {
+.map-overlays.btn-logo:hover {
   opacity: 0.5;
+  border: none;
 }
-#map-overlays img.left {
+.map-overlays.btn-ct {
   position: absolute;
   left: 30px;
   bottom: 30px;
 }
-#map-overlays img.right {
+.map-overlays.btn-ct:hover {
+  opacity: 0.5;
+  border: none;
+}
+.map-overlays.btn-tj {
   position: absolute;
   right: 30px;
   bottom: 30px;
+}
+.map-overlays.btn-tj:hover {
+  opacity: 0.5;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

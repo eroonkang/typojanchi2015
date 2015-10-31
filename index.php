@@ -142,17 +142,16 @@ $route->submit();
   <div id="map-outer">
     <div id="map-container">
     </div>
-    <div id="map-overlays">
-      <a href="#">
-        <h1>
-          <!-- <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
-          Typojanchi 2015: The 4th International Typography Biennale -->
-          <img src="<? echo $home_url; ?>/images/typojanchi-h1.png">    
-        </h1>
-      </a>
-      <a href="#" class="btn-ct"><img src="<? echo $home_url; ?>/images/ct.png" class="left"></a>
-      <a href="#" class="btn-tj"><img src="<? echo $home_url; ?>/images/tj.png" class="right"></a>
-    </div>
+    <a href="#" class="map-overlays btn-logo">
+      <h1>
+        <!-- <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
+        Typojanchi 2015: The 4th International Typography Biennale -->
+        <img src="<? echo $home_url; ?>/images/typojanchi-h1.png">    
+      </h1>
+    </a>
+    <a href="#" class="map-overlays btn-ct"><img src="<? echo $home_url; ?>/images/ct.png" class="left"></a>
+    <a href="#" class="map-overlays btn-tj"><img src="<? echo $home_url; ?>/images/tj.png" class="right"></a>
+
     <div id="menu-control">
       <a href="#" class="btn-menu">&frasl;</a>
     </div>
