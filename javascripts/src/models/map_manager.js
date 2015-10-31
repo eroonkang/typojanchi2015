@@ -86,7 +86,7 @@ WY.models.MapManager = (function(){
         } else if (node.properties.type == "Artwork") {
           // marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
           marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.02, 0.02), node.geometry.coordinates[0]  + randomBetween(-0.02, 0.02)), {
-            icon: scircle_w,
+            icon: circle_w,
             riseOnHover: true
           });
           

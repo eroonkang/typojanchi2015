@@ -21450,6 +21450,10 @@ WY.constants = WY.constants || {};
 WY.dispatcher = WY.dispatcher || _.extend({}, Backbone.Events);
 
 var createGraph = require('ngraph.graph');
+String.prototype.capitalize = function() {
+  return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
 Number.prototype.number_with_delimiter = function(delimiter) {
     var number = this + '', delimiter = delimiter || ',';
     var split = number.split('.');
@@ -21468,6 +21472,12 @@ Math.radians = function(degrees) {
 Math.degrees = function(radians) {
   return radians * 180 / Math.PI;
 };
+
+function extract_permalink_from_url(url) {
+  var extracted_url = url.match(/[^\/]*$/)[0]
+
+  return extracted_url.substring(0, extracted_url.length - 4);
+}
 
 function url_from_project_name(idx, project_name_en){
   return WY.constants.home_url + "/" + WY.constants.locale + "/" + idx + "-" + conv_to_slug(project_name_en);
@@ -21552,54 +21562,77 @@ function randomBetween(low, high) {
   return Math.random() * diff + low;
 }
 
-WY.models.ArtworkManager = (function(){
-  function ArtworkManager(params){
+WY.models.DetailPageManager = (function(){
+  function DetailPageManager(params){
     this.el = params.el;
-    this.artwork_permalink = params.artwork_permalink;
+    this.permalink = params.permalink;
     this.project_id;
     this.data;
-    this.tmpl;
+    this.tmpl
 
     _.bindAll(this, "load_complete_handler");
   }
 
-  ArtworkManager.prototype = {
+  DetailPageManager.prototype = {
     init_tmpl: function(tmpl){
       this.tmpl = tmpl;
     },
 
-    update: function(artwork_permalink){
-      if (!_.isUndefined(artwork_permalink)) {
-        this.artwork_permalink = artwork_permalink;
+    update: function(permalink){
+      if (!_.isUndefined(permalink)) {
+        this.permalink = permalink;
       }
 
-      if (this.artwork_permalink == '' || _.isUndefined(this.artwork_permalink)) { 
+      if (this.permalink == '' || _.isUndefined(this.permalink)) { 
         return false; 
       }
 
-      this.project_id = Number(this.artwork_permalink.substring(0, 1));
+      this.project_id = Number(this.permalink.split("-")[0]);
 
       $.ajax({
         type: 'GET',
-        url: WY.constants.home_url + '/projects/artworks/' + this.artwork_permalink + ".yml",
+        url: WY.constants.home_url + '/projects/artworks/' + this.permalink + ".yml",
         success: this.load_complete_handler
       });
     },
 
     load_complete_handler: function(data){
 
+      // hide_index()f를 부르고 싶은데 방법이 없다.
+      // if (index_opened) {
+      //   hide_index();
+      // }
+      // else {
+      //   this.scrollTop(0);
+      // }
+
+      // set mat height도 마찬가지
+      $('#map-container, #map-outer').css("height", WY.constants.screen_height/2);
+
+
       this.data = jsyaml.load(data);
       // debugger;
    
-      this.title = this.data["artwork_name_" + WY.constants.locale] + " by " + 
-                  this.data["full_name_" + WY.constants.locale] +
-                  ":: Typojanchi 2015";
+      
+      this.title = _.isUndefined(this.data.type) ? this.data["full_name_" + WY.constants.locale] : this.data["project_name_" + WY.constants.locale];
+      this.title += " :: Typojanchi 2015";
 
       $("title").text(this.title);
-      this.el.empty().append($(this.tmpl({
-        artwork: this.data,
+      
+      var type = _.isUndefined(this.data.type) ? "artwork" : this.data.type.toLowerCase();
+      // debugger;
+      this.el.empty().append($(this.tmpl[type]({
+        detail: this.data,
         project: WY.constants.projects_data.projects[this.project_id - 1]
       })));
+
+      this.el.find(".participant_change_btn").click(function(e){
+        e.preventDefault();
+        // debugger;
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
 
 
     }
@@ -21607,7 +21640,7 @@ WY.models.ArtworkManager = (function(){
   };
 
   
-  return ArtworkManager;
+  return DetailPageManager;
 })();
 // WY.constants.distances = {
 //   "13": 
@@ -21626,7 +21659,7 @@ WY.models.MapManager = (function(){
   }
 
   MapManager.prototype = {
-    init: function(){
+  init: function(){
       this.map = L.map(this.el_name,{
         minZoom:5
       }).setView([37.5558393, 126.9716173], 14);
@@ -21654,10 +21687,10 @@ WY.models.MapManager = (function(){
     load_complete_handler: function(data){
       this.data = data;
       this.popup_tmpl = {
-        'Artist': _.template('<a href="<%= url_from_permalink(permalink) %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
-        'Artwork': _.template('<a href="<%= url_from_permalink(permalink) %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
-        'Project': _.template('<a href="<%= url_from_project_name(idx, project_name_en) %>" class="popup_btn"><%= project_name_' + WY.constants.locale + ' %></a>'),
-        'Venue': _.template('<a href="<%= url_from_permalink(permalink) %>" class="popup_btn"><%= venue_name_' + WY.constants.locale +  ' %></a>')
+        'Artist': _.template('<a href="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
+        'Artwork': _.template('<a href="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
+        'Project': _.template('<a href="<%= url_from_project_name(idx, project_name_en) %>" data-permalink="<%= idx + "-" + conv_to_slug(project_name_en) %>" class="popup_btn"><%= project_name_' + WY.constants.locale + ' %></a>'),
+        'Venue': _.template('<a href="javascript:void(0)"><%= venue_name_' + WY.constants.locale +  ' %></a>')
       }
 
       // var geojsonMarkerOptions = ;
@@ -21697,7 +21730,7 @@ WY.models.MapManager = (function(){
         } else if (node.properties.type == "Artwork") {
           // marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
           marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.02, 0.02), node.geometry.coordinates[0]  + randomBetween(-0.02, 0.02)), {
-            icon: scircle_w,
+            icon: circle_w,
             riseOnHover: true
           });
           
@@ -21722,6 +21755,7 @@ WY.models.MapManager = (function(){
 
         this.map.addLayer(marker);
 
+        // if (node.properties.permalink == undefined) { debugger; }
         marker.on('mouseover', _.bind(function(e){
 
           var popup = L.popup({
@@ -21791,7 +21825,9 @@ WY.models.MapManager = (function(){
       $("body").on("click", ".popup_btn", function(e){
         e.preventDefault();
 
-        History.pushState({}, "타이퍼잔치", $(e.target).attr('href'));
+        History.pushState({
+          permalink: $(e.target).data('permalink')
+        }, "Loading...", $(e.target).attr('href'));
 
       });
 
@@ -21837,7 +21873,6 @@ WY.models.MapManager = (function(){
               force.multiplyScalar(-1 * 0.01 * stretch);
 
               node.data.apply_force(force);
-
               node.data.update();
 
             } 
@@ -21938,6 +21973,14 @@ WY.models.ParticipantsManager = (function(){
         this.el.columnize({ width:200, lastNeverTallest: true});
         this.appended = true;
       }
+
+      this.el.find(".participant_change_btn").click(function(e){
+        e.preventDefault();
+        // debugger;
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
     }
   };
 
@@ -21991,7 +22034,11 @@ WY.models.ProjectsManager = (function(){
 
     project_btn_click_handler: function(e){
       e.preventDefault();
-      History.pushState({}, null, $(e.target).attr('href'));
+
+      History.pushState({
+        permalink: $(e.currentTarget).data('permalink')
+      }, "Loading...", $(e.currentTarget).attr('href'));
+
     }
   };
 
@@ -22045,16 +22092,18 @@ WY.views.welcome_view = (function(){
   var template_loader,
       participants_manager,
       projects_manager,
-      artwork_manager,
+      detail_page_manager,
       map_manager,
-      artwork_permalink,
-      cities_appended = false;
+      permalink,
+      cities_appended = false,
+      index_opened = false,
+      content_opened = false;
       
   function welcome_view(params){
     WY.constants.locale = params.locale;
     WY.constants.home_url = params.home_url;
 
-    artwork_permalink = params.artwork_permalink;
+    permalink = params.permalink;
 
     init();
     init_resize();
@@ -22094,6 +22143,10 @@ WY.views.welcome_view = (function(){
         {
           name: 'artwork',
           url: WY.constants.home_url + '/templates/artwork.ejs'
+        },
+        {
+          name: 'project',
+          url: WY.constants.home_url + "/templates/project.ejs"
         }
       ]
     });
@@ -22106,9 +22159,9 @@ WY.views.welcome_view = (function(){
     });
 
 
-    artwork_manager = new WY.models.ArtworkManager({
+    detail_page_manager = new WY.models.DetailPageManager({
       el: $("#content"),
-      artwork_permalink: artwork_permalink
+      permalink: permalink
     });
 
     map_manager = new WY.models.MapManager({
@@ -22121,7 +22174,7 @@ WY.views.welcome_view = (function(){
       participants_manager.init_data(e.data);
       participants_manager.init();
       projects_manager.init();
-      artwork_manager.update();
+      detail_page_manager.update();
 
       participants_manager.append_dom();
       projects_manager.append_dom();
@@ -22141,7 +22194,10 @@ WY.views.welcome_view = (function(){
     template_loader.on('load_complete', function(e){
       participants_manager.init_tmpl(e.tmpl.participants);
       projects_manager.init_tmpl(e.tmpl.projects);
-      artwork_manager.init_tmpl(e.tmpl.artwork);
+      detail_page_manager.init_tmpl({
+        artwork: e.tmpl.artwork, 
+        project: e.tmpl.project
+      });
 
       projects_manager.load();
     });
@@ -22192,10 +22248,11 @@ WY.views.welcome_view = (function(){
   }
 
   function init_history(){
-    History.Adapter.bind(window,'statechange',function(){ // Note: We are using statechange instead of popstate
-      var state = History.getState(); // Note: We are using History.getState() instead of event.state
-      // debugger;
-      
+    History.Adapter.bind(window, 'statechange', function(){ 
+      var state = History.getState(); 
+      var permalink = state.data.permalink; 
+
+      detail_page_manager.update(permalink);
     });
 
   }
@@ -22203,27 +22260,32 @@ WY.views.welcome_view = (function(){
 
 
   function show_index(){
-    var index_height = $('#index').css("height");
-    console.log ("index_height:" + index_height);
-    $('#map-outer').addClass('map-down');
-    $('#index').css('visibility','visible');
-    $('#map-outer, #index').animate({
-      top: "+=" + index_height,
-      easing: 'swing'
-    }, 500, function() {
-      // Animation complete.
-    });
+    if (!index_opened){
+      var index_height = $('#index').css("height");
+      console.log ("index_height:" + index_height);
+      $('#map-outer').addClass('map-down');
+      $('#index').css('visibility','visible');
+      $('#map-outer, #index').animate({
+        top: "+=" + index_height,
+        easing: 'swing'
+      }, 500, function() {
+        index_opened = true;
+      });
+    }
   }
 
   function hide_index(){
-    var index_height = $('#index').css("height");
-    $('#map-outer').removeClass('map-down');
-    $('#map-outer, #index').animate({
-      top: "-=" + index_height,
-      easing: 'swing'
-    }, 500, function() {
-      $('#index').css('visibility','hidden');
-    });
+    if (index_opened){
+      var index_height = $('#index').css("height");
+      $('#map-outer').removeClass('map-down');
+      $('#map-outer, #index').animate({
+        top: "-=" + index_height,
+        easing: 'swing'
+      }, 500, function() {
+        $('#index').css('visibility','hidden');
+        index_opened = false;
+      });
+    }
   }
 
   return welcome_view;
