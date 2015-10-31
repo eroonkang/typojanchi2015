@@ -1,0 +1,30 @@
+<div class="cols single">
+  <ul class="index-list">
+    <li><a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn"><span lang="<%= WY.constants.locale %>">(<%= project.idx %>)</span></a></li>
+    <% _.each(project.project_artists, function(artist) { %>
+      <li>
+        <a href="<%= make_url(artist.url) %>" data-permalink="<%= extract_permalink_from_url(artist.url) %>" class="participant_change_btn">
+          <span lang="<%= WY.constants.locale %>"><%= artist["full_name_" + WY.constants.locale] %></span>
+        </a>
+      </li>
+    <% }); %>
+    <li class="removeiflast">&nbsp;</li>
+  </ul>
+</div>
+<div id="artwork">
+  <div class="cols triple">
+    <h3 class="participant" lang="<%= WY.constants.locale %>"><%= detail["venue_name_" + WY.constants.locale] %></h3>
+    <p class="description">
+      <span lang="<%= WY.constants.locale %>"><%= project["project_desc_" + WY.constants.locale] %></span>
+    </p>
+
+    <p class="description">
+      <span lang="<%= WY.constants.locale %>"><%= project["curator_bio_" + WY.constants.locale] %></span>
+    </p>
+  </div>
+ </div>
+<div class="cols single">
+  — <br/>
+ 
+</div>
+<div style="clear: both;"></div>

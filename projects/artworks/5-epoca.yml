@@ -20,6 +20,9 @@ venue_country_ko: 한국
 venue_lat: 37.5216
 venue_lng: 127.02338
 
+
+type: "Venue"
+
 # photos: 
 # - image1.jpg 
 # - image2.jpg 

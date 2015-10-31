@@ -5,7 +5,8 @@ project_name_ko: "도시문자 엽서전"
 curator_name_en: 
 curator_name_ko: "이기섭"
 project_desc_en: ''
-project_desc_ko: ''
+project_desc_ko: "거시기가 저시기해서 저시기 한 것이다. \n"
 curator_bio_en: ''
-curator_bio_ko: ''
+curator_bio_ko: |
+  이기섭씨는 저시기 거 저시기 한 사람이다.
 type: Project

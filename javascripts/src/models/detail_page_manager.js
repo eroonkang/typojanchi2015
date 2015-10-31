@@ -54,7 +54,7 @@ WY.models.DetailPageManager = (function(){
       this.title += " :: Typojanchi 2015";
 
       $("title").text(this.title);
-      
+      debugger;
       var type = _.isUndefined(this.data.type) ? "artwork" : this.data.type.toLowerCase();
       // debugger;
       this.el.empty().append($(this.tmpl[type]({
