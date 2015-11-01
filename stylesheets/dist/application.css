@@ -682,6 +682,33 @@ p.description {
 /* ---------------------------------------------- */
 /* map area */
 /* ---------------------------------------------- */
+#map-expander {
+  position: fixed;
+  width: 100%;
+  height: 50%;
+  display: none;
+}
+
+.leaflet-popup-content-wrapper {
+  cursor: pointer;
+}
+
+.project_icon {
+  background-color: white;
+  border-radius: 40px;
+  border: 2px solid black !important;
+  color: black;
+  text-align: center;
+  padding-top: 8px;
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+  font-style: normal;
+  transition: 0.4s background-color;
+}
+.project_icon:hover {
+  background-color: black;
+  color: white;
+}
+
 .leaflet-popup-content-wrapper a {
   color: black;
 }

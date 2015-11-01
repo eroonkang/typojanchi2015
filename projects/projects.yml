@@ -307,6 +307,10 @@ projects:
     full_name_en: Siggi Eggertsson
     full_name_ko: 지기 에거슨
     url: /projects/artworks/4-siggi-eggertsson.yml
+  - 
+    full_name_en: Ludovic Balland
+    full_name_ko: 루도빅 발랑
+    url: /projects/artworks/4-ludovic-balland.yml
 
 
 
@@ -704,6 +708,10 @@ projects:
     full_name_en: Youngha Park
     full_name_ko: 박영하
     url: /projects/artworks/9-youngha-park.yml
+  - 
+    full_name_en: Sparks Edition
+    full_name_ko: 스팍스 에디션
+    url: /projects/artworks/9-sparks-edition.yml
 
 
 

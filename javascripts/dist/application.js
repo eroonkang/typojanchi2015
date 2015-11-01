@@ -21566,36 +21566,98 @@ function randomBetween(low, high) {
 }
 
 WY.constants.cities_locations = {
-  seoul: [37.5665350,126.9779690],
-  london: [51.5073510,-0.1277580],
-  auckland: [-36.8484600,174.7633320],
-  stockholm: [59.3293230,18.0685810],
-  amsterdam: [52.3702160,4.8951680],
-  tokyo: [35.6894870,139.6917060],
-  osaka: [34.6937380,135.5021650],
-  berlin: [52.5200070,13.4049540],
-  rotterdam: [51.9244200,4.4777330],
-  porto: [41.1579440,-8.6291050],
-  beijing: [39.9042110,116.4073950],
-  paris: [48.8566140,2.3522220],
-  derby: [52.9225300,-1.4746190],
-  gunpo: [37.3616700,126.9351740],
-  los_angeles: [34.0522340,-118.2436850],
-  mexico_city: [19.4326080,-99.1332080],
-  chicago: [41.8781140,-87.6297980],
-  hong_kong: [22.3964280,114.1094970],
-  taipei: [25.0329690,121.5654180],
-  bangkok: [13.7563310,100.5017650],
-  ho_chi_minh: [10.8230990,106.6296640],
-  singapore: [1.3520830,103.8198360],
-  basel: [47.5595990,7.5885760],
-  montreuil: [48.8638120,2.4484510],
-  homer: [59.6425000,-151.5483330],
-  daegu: [35.8714350,128.6014450],
-  new_york: [40.7127840,-74.0059410],
-  paju: [37.70824,126.68672],
-  new_haven: [41.3082740,-72.9278840],
-  ghent: [51.0543420,3.7174240]
+  seoul: { 
+    latlng: [37.5665350,126.9779690],
+    zoom: 13
+  },
+  london: { 
+    latlng: [51.5073510,-0.1277580],
+    zoom: 13
+  },
+  auckland: { latlng: [-36.97677533356128, 174.49172973632812],
+    zoom: 12
+  },
+  stockholm: { latlng: [59.321630202823215, 18.06804656982422],
+    zoom: 12
+  },
+  amsterdam: { latlng: [52.3702160,4.8951680],
+    zoom: 13
+  },
+  tokyo: { latlng: [35.6894870,139.6917060],
+    zoom: 13
+  },
+  osaka: { latlng: [34.6937380,135.5021650],
+    zoom: 13
+  },
+  berlin: { latlng: [52.49835418534738,13.436965942382812],
+    zoom: 13
+  },
+  rotterdam: { latlng: [51.9244200,4.4777330],
+    zoom: 13
+  },
+  porto: { latlng: [41.1579440,-8.6291050],
+    zoom: 13
+  },
+  beijing: { latlng: [39.98336816685067,116.46623611450197],
+    zoom: 15
+  },
+  paris: { latlng: [48.87058654758797,2.3788833618164062],
+    zoom: 13
+  },
+  derby: { latlng: [52.92121991858732, -1.4937973022460938],
+    zoom: 13
+  },
+  gunpo: { latlng: [37.3616700,126.9351740],
+    zoom: 13
+  },
+  los_angeles: { latlng: [34.0522340,-118.2436850],
+    zoom: 13
+  },
+  mexico_city: { latlng: [19.4326080,-99.1332080],
+    zoom: 13
+  },
+  chicago: { latlng: [41.8781140,-87.6297980],
+    zoom: 13
+  },
+  hong_kong: { latlng: [22.2878416,114.1469555],
+    zoom: 13
+  },
+  taipei: { latlng: [25.034127684732052,121.53350830078124],
+    zoom: 13
+  },
+  bangkok: { latlng: [13.7375926,100.5718787],
+    zoom: 13
+  },
+  ho_chi_minh: { latlng: [10.768451,106.6943626],
+    zoom: 13
+  },
+  singapore: { latlng: [1.316912,103.8812698],
+    zoom: 13
+  },
+  basel: { latlng: [47.5595990,7.5885760],
+    zoom: 13
+  },
+  montreuil: { latlng: [48.87024780944447,2.3860931396484375],
+    zoom: 13
+  },
+  homer: { latlng: [59.69993,-151.43849],
+    zoom: 13
+  },
+  daegu: { latlng: [35.81549,128.5138],
+    zoom: 13
+  },
+  new_york: { latlng: [40.7127840,-74.0059410],
+    zoom: 13
+  },
+  paju: { latlng: [37.709967257014945,126.68592453002928],
+    zoom: 14
+  },
+  new_haven: { latlng: [41.3082740,-72.9278840],
+    zoom: 13
+  },
+  ghent: { latlng: [51.0543420,3.7174240],
+    zoom: 13
+  }
 }
 
 WY.models.CitiesManager = (function(){
@@ -21613,10 +21675,10 @@ WY.models.CitiesManager = (function(){
 
     city_btn_click_handler: function(e){
       var dict_name = this.slug_underscore($(e.target).text());
-      console.log(dict_name);
-      var latlng = L.latLng(WY.constants.cities_locations[dict_name]);
+      var latlng = L.latLng(WY.constants.cities_locations[dict_name].latlng);
 
-      this.trigger('city_pan_to', {latlng: latlng});
+      // debugger;
+      this.trigger('city_pan_to', {latlng: latlng, zoom: WY.constants.cities_locations[dict_name].zoom});
     },
 
     slug_underscore: function(name) {
@@ -21719,9 +21781,10 @@ WY.models.MapManager = (function(){
   }
 
   MapManager.prototype = {
-  init: function(){
-      this.map = L.map(this.el_name).setView([37.5558393, 126.9716173], 14);
-
+    init: function(){
+      this.map = L.map(this.el_name).setView([37.5558393, 126.9716173], 15);
+      // WY.constants.map = this.map;
+      
       L.tileLayer('https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw', {
         attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(this.map);
@@ -21730,6 +21793,10 @@ WY.models.MapManager = (function(){
       // new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
 
       // this.map.doubleClickZoom.disable();
+      $("#map-expander").click(_.bind(function(){
+        this.set_map_height(WY.constants.screen_height);
+        this.restore_opacity_graph();
+      }, this));
 
       this.load();
     },
@@ -21745,33 +21812,51 @@ WY.models.MapManager = (function(){
     load_complete_handler: function(data){
       this.data = data;
       this.popup_tmpl = {
-        'Artist': _.template('<a href="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
-        'Artwork': _.template('<a href="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
-        'Project': _.template('<a href="<%= url_from_project_name(idx, project_name_en) %>" data-permalink="<%= idx + "-" + conv_to_slug(project_name_en) %>" class="popup_btn"><%= project_name_' + WY.constants.locale + ' %></a>'),
-        'Venue': _.template('<a href="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= venue_name_' + WY.constants.locale +  ' %></a>'),
-        '284': _.template('<a href="javascript:void(0);"><%= venue_name_' + WY.constants.locale +  ' %></a>')
+        'Artist': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
+        'Artwork': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
+        'Project': _.template('<span data-link="<%= url_from_project_name(idx, project_name_en) %>" data-permalink="<%= idx + "-" + conv_to_slug(project_name_en) %>" class="popup_btn"><%= project_name_' + WY.constants.locale + ' %></a>'),
+        'Venue': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= venue_name_' + WY.constants.locale +  ' %></a>'),
+        '284': _.template('<span data-link="javascript:void(0);"><%= venue_name_' + WY.constants.locale +  ' %></a>')
       }
 
       // var geojsonMarkerOptions = ;
 
 
+      var customIcon = L.Icon.extend({
+          options: {
+              iconSize:     [40, 40],
+              iconAnchor:   [20, 20],
+              popupAnchor:  [0, -20],
+          }
+      });
+
+      var project_icons = {};
+
+      _.each(_.range(1, 18), function(i){
+
+        var project_icon = L.divIcon({
+          className: 'project_icon',
+          html: i,
+          iconSize:     [40, 32],
+          iconAnchor:   [20, 20],
+          popupAnchor:  [0, -20],
+        });
+        
+        project_icons[i] = project_icon;
+      });
+
+
+
+      var circle_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-circle-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-circle-w@2x.png'}),
+          diamond_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-diamond-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-diamond-w@2x.png'}),
+          diamond_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-diamond-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-diamond-b@2x.png'});
+          concentric_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-concentric-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-concentric-w@2x.png'});
+          scircle_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-b@2x.png'});
+          scircle_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-w@2x.png'});
+
       _.each(this.data.nodes.features, _.bind(function (node) {
         var marker;
 
-        var customIcon = L.Icon.extend({
-            options: {
-                iconSize:     [40, 40],
-                iconAnchor:   [20, 20],
-                popupAnchor:  [0, 0],
-            }
-        });
-
-        var circle_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-circle-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-circle-w@2x.png'}),
-            diamond_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-diamond-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-diamond-w@2x.png'}),
-            diamond_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-diamond-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-diamond-b@2x.png'});
-            concentric_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-concentric-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-concentric-w@2x.png'});
-            scircle_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-b@2x.png'});
-            scircle_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-w@2x.png'});
 
         // 거의 주석을 달필요성을 못느낌
         if (node.properties.type == "Venue") {
@@ -21781,14 +21866,16 @@ WY.models.MapManager = (function(){
           });
 
         } else if (node.properties.type == "Project") {
-          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.005, 0.005), node.geometry.coordinates[0] + randomBetween(-0.005, 0.005)), {
-            icon: circle_w,
+          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0] + randomBetween(-0.01, 0.01)), {
+            icon: project_icons[node.properties.idx],
             riseOnHover: true
           });
 
+          marker.setZIndexOffset(500);
+
         } else if (node.properties.type == "Artwork") {
-          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.02, 0.02), node.geometry.coordinates[0]  + randomBetween(-0.02, 0.02)), {
-            icon: diamond_b,
+          marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
+            icon: circle_w,
             riseOnHover: true
           });
           
@@ -21815,18 +21902,25 @@ WY.models.MapManager = (function(){
 
         // if (node.properties.permalink == undefined) { debugger; }
         marker.on('mouseover', _.bind(function(e){
+          this.remove_all_popups();
 
-            var popup = L.popup({
-                          closeOnCilck: true
-                        })
-                       .setLatLng(e.latlng)
-                       .setContent(this.popup_tmpl[node.properties.type](node.properties))
-                       .openOn(this.map);
+          var popup = L.popup({
+                        closeOnCilck: true,
+                        offset: L.point([0, -10])
+                      })
+                     .setLatLng(e.latlng)
+                     .setContent(this.popup_tmpl[node.properties.type](node.properties));
 
+          this.map.addLayer(popup);
 
+          this.active_popups.push(popup);
 
         }, this));
 
+        marker.on('click', _.bind(function(e){
+          // alert("dd");
+          this.update_bound(node.properties.permalink);
+        }, this));
 
 
 
@@ -21881,56 +21975,107 @@ WY.models.MapManager = (function(){
       }, this));
       
       this.animate();
+
+      _.delay(_.bind(function(){
+        this.stop_animate();
+      }, this), 5000);
+
       
-      $("body").on("click", ".popup_btn", function(e){
+
+            
+
+      $("body").on("click", ".leaflet-popup-content-wrapper", function(e){
         e.preventDefault();
 
+        var permalink = $(e.currentTarget).find("span").data('permalink');
+        var href = $(e.currentTarget).find("span").data('link');
+
         History.pushState({
-          permalink: $(e.target).data('permalink')
-        }, "Loading...", $(e.target).attr('href'));
+          permalink: permalink
+        }, "Loading...", href);
 
       });
 
+      $("body").on("mouseover", ".leaflet-popup", function(e){
+        e.preventDefault();
+
+        $(".leaflet-popup").css({
+          "z-index": 0
+        });
+
+        $(e.currentTarget).css({
+          "z-index": 1
+        });
+
+      });
+
+      this.trigger('load_complete');
+
+    },
+    
+    stop_animate: function(){
+      cancelAnimationFrame(this.req_id);
     },
 
     animate: function () {
-      requestAnimationFrame(this.animate);
+      this.req_id = requestAnimationFrame(this.animate);
 
       this.graph.forEachNode(_.bind(function(node){
         
         if (node.data.is("Project")) {
-          
-          this.graph.forEachLinkedNode(node.id, function (target_node) {
+          // if (node.data.properties.idx == 7) { // 파티는 여기 붙을 필요없음
+            this.graph.forEachNode(function(target_node){
+              
+              if (target_node.data.is("Project")){
+                var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
+
+                var d = force.length();
+                var stretch = d - 0.007;
+
+                force.normalize();
+                force.multiplyScalar(-1 * 0.01 * stretch);
+
+                node.data.apply_force(force);
+                node.data.update();
+
+              }
+
+            });
+          // }
+
+            this.graph.forEachLinkedNode(node.id, function (target_node) {
+              
+              if (target_node.data.is("Venue")) {
+                var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
+
+                var d = force.length();
+                var stretch = d - 0.002;
+
+                force.normalize();
+                force.multiplyScalar(-1 * 0.008 * stretch);
+
+                node.data.apply_force(force);
+                node.data.update();
+
+              } 
+
+            });
             
-            if (target_node.data.is("Venue")) {
-              var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
-
-              var d = force.length();
-              var stretch = d - 0.01;
-
-              force.normalize();
-              force.multiplyScalar(-1 * 0.01 * stretch);
-
-              node.data.apply_force(force);
-
-              node.data.update();
-            } 
-
-          });
-
+          // }
 
 
         } else if (node.data.is("Artwork")) {
-           this.graph.forEachLinkedNode(node.id, function (target_node) {
+
+          this.graph.forEachLinkedNode(node.id, function (target_node) {
             
-            if (target_node.data.is("Project")) {
+            if (target_node.data.is("Project")) {// && target_node.data.properties.idx != 7) {
               var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
 
               var d = force.length();
-              var stretch = d - 0.03;
+              var stretch = d - 0.0017;
 
               force.normalize();
-              force.multiplyScalar(-1 * 0.01 * stretch);
+              force.multiplyScalar(-1 * 0.008 * stretch);
 
               node.data.apply_force(force);
               node.data.update();
@@ -21953,18 +22098,35 @@ WY.models.MapManager = (function(){
 
     },
 
-    city_pan_to: function(latlng) {
-      console.log(latlng);
+    city_pan_to: function(latlng, zoom) {
+      // console.log(latlng);
       this.map.panTo(latlng);
-      this.map.setZoom(13);
+      this.map.setZoom(zoom);
     },
 
     set_map_height: function(height){
+      if (height == WY.constants.screen_height) {
+        $("#map-expander").hide();
+      } else {
+        $("#map-expander").show();
+      }
+
       $('#map-container, #map-outer').height(height);
+      
+
       this.map.invalidateSize();
     },
 
+    remove_all_popups: function(){
+      _.each(this.active_popups, _.bind(function(popup){
+        this.map.removeLayer(popup);
+      }, this));
+
+      this.active_popups = [];
+    },
+
     update_bound: function(permalink){
+      // this.stop_animate();
       // this.fitBounds(
       var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
       // debugger;
@@ -21992,38 +22154,62 @@ WY.models.MapManager = (function(){
       ]);
 
 
-      _.each(this.active_popups, _.bind(function(popup){
-        this.map.removeLayer(popup);
-      }, this));
+      this.remove_all_popups();
 
-      this.active_popups = [];
 
       _.each(path.nodes, _.bind(function(node){
+        var popup = L.popup({
+                          closeOnCilck: true,
+                          offset: L.point([0, -10])
+                        });
 
         if (node.data.properties.venue_name_ko == "문화역 서울 284") {
-            var popup = L.popup({
-                          closeOnCilck: true
-                        })
-                       .setLatLng(node.data.marker._latlng)
-                       .setContent(this.popup_tmpl["284"](node.data.properties));
-                       // .openOn(this.map);
+          popup.setLatLng(node.data.marker._latlng)
+               .setContent(this.popup_tmpl["284"](node.data.properties));
             
 
         } else {
-
-          var popup = L.popup({
-                        closeOnCilck: true
-                      })
-                     .setLatLng(node.data.marker._latlng)
-                     .setContent(this.popup_tmpl[node.data.properties.type](node.data.properties));
-                     // .openOn(this.map);
-
+          popup.setLatLng(node.data.marker._latlng)
+               .setContent(this.popup_tmpl[node.data.properties.type](node.data.properties));
         }
 
         this.map.addLayer(popup);
         this.active_popups.push(popup);
       }, this));
 
+      this.graph.forEachNode(function(node){
+        var existed = false;
+        _.each(path.nodes, function(target_node){
+          if (node.id == target_node.id) {
+            existed = true;
+          }
+        });
+
+        if (!existed) {
+          node.data.marker.setOpacity(0.2);
+        } else {
+          node.data.marker.setOpacity(1);
+        }
+      });
+
+      this.graph.forEachLink(function(link){
+        var existed = false;
+        _.each(path.links, function(target_link){
+          if (link.id == target_link.id) {
+            existed = true;
+          }
+        });
+
+        if (!existed) {
+          link.data.line.setStyle({
+            opacity:0
+          });
+        } else {
+          link.data.line.setStyle({
+            opacity:1
+          });
+        }
+      });
     },
 
 
@@ -22071,7 +22257,7 @@ WY.models.MapManager = (function(){
       };
 
       var _graph = this.graph;
-      var want_type = "Artwork";
+      var want_type = current_node.data.properties.idx == 5 ? "Venue" : "Artwork";
 
       var result_links = _.filter(current_node.links, function(link) {
         var target_id = link.fromId == current_node.id ? link.toId : link.fromId;
@@ -22099,16 +22285,19 @@ WY.models.MapManager = (function(){
       var _graph = this.graph;
 
       function visit_and_find(node, want_type) {
-        var result_link = _.find(node.links, function(link) {
+        var result_links = _.filter(node.links, function(link) {
           var target_id = link.fromId == node.id ? link.toId : link.fromId;
           return _graph.getNode(target_id).data.properties.type == want_type;
         });
 
-        var result_node = _graph.getNode(result_link.fromId == node.id ? result_link.toId : result_link.fromId);
+        _.each(result_links, function(result_link){
+          var result_node = _graph.getNode(result_link.fromId == node.id ? result_link.toId : result_link.fromId);
 
-        path.nodes.push(result_node);
-        path.links.push(result_link);
-        return result_node;
+          path.nodes.push(result_node);
+          path.links.push(result_link);
+        });
+
+        return path.nodes[path.nodes.length - 1];
       }
 
       artwork_node = visit_and_find(current_node, "Artwork");
@@ -22116,6 +22305,29 @@ WY.models.MapManager = (function(){
       visit_and_find(project_node, "Venue");
 
       return path;
+    },
+
+    restore_opacity_graph: function(){
+      this.graph.forEachNode(function(node){
+        node.data.marker.setOpacity(1);
+      });
+
+      this.graph.forEachLink(_.bind(function(link){
+        var source = this.graph.getNode(link.fromId);
+        var target = this.graph.getNode(link.toId);
+
+        if ((source.data.properties.type == "Artwork" && target.data.properties.type == "Artist") || 
+            (source.data.properties.type == "Artist" && target.data.properties.type == "Artwork")) {
+          link.data.line.setStyle({
+            opacity: 0.1
+          });
+        } else {
+          link.data.line.setStyle({
+            opacity: 1
+          });
+        }
+
+      }, this));
     }
   };
 
@@ -22404,6 +22616,7 @@ WY.views.welcome_view = (function(){
       projects_manager.init();
       detail_page_manager.update();
 
+      
       participants_manager.append_dom();
       projects_manager.append_dom();
       if (!cities_appended) {
@@ -22418,8 +22631,14 @@ WY.views.welcome_view = (function(){
       cities_manager.init();
       cities_manager.on('city_pan_to', function(e){
         hide_index();  
-        map_manager.city_pan_to(e.latlng);
+        map_manager.city_pan_to(e.latlng, e.zoom);
       });
+    });
+
+    map_manager.on('load_complete', function(e){
+      if (permalink != '') {
+        map_manager.update_bound(permalink);  
+      }
     });
 
     detail_page_manager.on('load_complete', function(e){
@@ -22493,7 +22712,6 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-      hide_index(); 
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
       map_manager.update_bound(permalink);
       detail_page_manager.update(permalink);

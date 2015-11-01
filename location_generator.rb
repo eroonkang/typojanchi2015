@@ -160,7 +160,7 @@ projects_yaml["projects"].each do |project|
     },
     geometry: {
       type: "Point",
-      coordinates: [126.9716173, 37.5558393]
+      coordinates: project["idx"] == 7 ? [126.68672, 37.70884] : [126.9716173, 37.5558393]
     }   
   }
   current_project_id = idx
@@ -176,11 +176,15 @@ projects_yaml["projects"].each do |project|
    
     # puts selected_nodes.first.inspect
     
-    locations[:links] << {
-      source: current_project_id, 
-      target: selected_nodes.first[:properties][:id],
-      value: 1 
-    }
+    selected_nodes.each do |selected_node|
+
+      locations[:links] << {
+        source: current_project_id, 
+        target: selected_node[:properties][:id],
+        value: 1 
+      }
+    end
+
 
     unless conv_to_permalink(artwork['url'])[0] == "5" 
       artwork_yaml = YAML.load_file("." + artwork['url'])

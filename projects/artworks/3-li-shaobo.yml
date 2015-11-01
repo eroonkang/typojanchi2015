@@ -15,8 +15,8 @@ participant_bio_ko: >
 
 artworks:
 -
-  artwork_name_en: 
-  artwork_name_ko: 
+  artwork_name_en: Please Enter Title
+  artwork_name_ko: 제목 하나는 넣어주자 인간적으로
   artwork_year: 
   artwork_medium_en:
   artwork_medium_ko: 
