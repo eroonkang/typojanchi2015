@@ -107,10 +107,18 @@ WY.views.welcome_view = (function(){
         hide_index();  
         map_manager.city_pan_to(e.latlng, e.zoom);
       });
+
+      $(".about_btn").click(function(e){
+        e.preventDefault();
+
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
     });
 
     map_manager.on('load_complete', function(e){
-      if (permalink != '') {
+      if (permalink != '' && permalink != "about") {
         map_manager.update_bound(permalink);  
       }
     });
@@ -125,7 +133,9 @@ WY.views.welcome_view = (function(){
       }
 
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
-      
+      $('.map-overlays').hide();
+      $('.project-participants ul').columnize({ width:200, lastNeverTallest: true});
+      ko_type_adjust();
     });
 
 
@@ -142,6 +152,8 @@ WY.views.welcome_view = (function(){
     });
 
     template_loader.load();
+
+
   }
 
   function ko_type_adjust(){
@@ -188,7 +200,9 @@ WY.views.welcome_view = (function(){
       var state = History.getState(); 
       permalink = state.data.permalink;
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
-      map_manager.update_bound(permalink);
+      if (permalink != "about") {
+        map_manager.update_bound(permalink);
+      }
       detail_page_manager.update(permalink);
     });
 

@@ -7,7 +7,7 @@ WY.models.DetailPageManager = (function(){
     this.tmpl;
 
     _.extend(this, Backbone.Events);
-    _.bindAll(this, "load_complete_handler");
+    _.bindAll(this, "detail_load_complete_handler", "about_load_complete_handler");
   }
 
   DetailPageManager.prototype = {
@@ -24,16 +24,41 @@ WY.models.DetailPageManager = (function(){
         return false; 
       }
 
+      if (this.permalink == "about") {
+        this.update_about();
+      } else {
+        this.update_detail_page();  
+      }
+      
+    },
+
+    update_about: function(){
+      $.ajax({
+        type: 'GET',
+        url: WY.constants.home_url + "/about_" + WY.constants.locale + ".html",
+        success: this.about_load_complete_handler
+      });
+    },
+
+    update_detail_page: function(){
       this.project_id = Number(this.permalink.split("-")[0]);
 
       $.ajax({
         type: 'GET',
         url: WY.constants.home_url + '/projects/artworks/' + this.permalink + ".yml",
-        success: this.load_complete_handler
+        success: this.detail_load_complete_handler
       });
     },
 
-    load_complete_handler: function(data){
+    about_load_complete_handler: function(data){
+      $("title").text("About :: Typojanchi 2015");
+
+      this.el.empty().append($(data));
+      this.trigger('load_complete');
+    },
+
+
+    detail_load_complete_handler: function(data){
 
       this.data = jsyaml.load(data);
       // debugger;
@@ -59,8 +84,6 @@ WY.models.DetailPageManager = (function(){
         }, "Loading...", $(e.currentTarget).attr('href'));
       });
 
-      $('.map-overlays').hide();
-      $('.project-participants ul').columnize({ width:200, lastNeverTallest: true});
       this.trigger('load_complete');
     }
 
