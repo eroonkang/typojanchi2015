@@ -77,15 +77,15 @@ projects:
     url: /projects/artworks/1-r2.yml
   - 
     full_name_en: Rejane Dal Bello
-    full_name_ko: 앤드류 브라쉬
+    full_name_ko: 레얀느 달 벨로
     url: /projects/artworks/1-rejane-dal-bello.yml
   - 
     name_ko: 로만 빌헬름
     name_en: Roman Wilhelm
     url: /projects/artworks/1-roman-wilhelm.yml
   - 
-    full_name_en: Sandra Kassenaar & Bart de Baets
-    full_name_ko: 산드라 카서나르 & 바르 데 바트
+    full_name_en: Sandra Kassenaar & Bart de Baets & Tomas Laar
+    full_name_ko: 산드라 카서나르 & 바르 데 바트 & 토마스 라르
     url: /projects/artworks/1-sandra-kassenaar-n-bart-de-baets.yml
   - 
     full_name_en: StudioSpass
@@ -109,8 +109,8 @@ projects:
     url: /projects/artworks/1-yuma-harada-n-shohei-iida.yml
 
   - 
-    full_name_en: Why Not Associates and Gordon Young
-    full_name_ko: 
+    full_name_en: Why Not Associates + Gordon Young
+    full_name_ko: 와이 낫 어소시에이츠 + 고든 영
     url: /projects/artworks/1-why-not-n-gordon-young.yml
 
   # PROJECT -----------------------------------------
@@ -191,19 +191,12 @@ projects:
 # CURATOR -----------------------------------------
 
   curator_bio_en: >
-    Adrian Shaughnessy - Special Exhibition Director
-    Adrian Shaughnessy spent fifteen years as creative director of Intro, the design studio he co-founded in 1988 in London. During his time at Intro, the studio won numerous awards, and at the turn of the new century employed 40 people. It was an early adopter of digital technology, and a pioneer of digital motion graphics within graphic design.
-    In 2004, Shaughnessy left to pursue an interest in writing and lecturing, and to work as an independent design consultant. Today he runs ShaughnessyWorks, a consultancy combining design and editorial direction. He has written and art directed numerous books on design. His book How to be a Graphic Designer Without Losing Your Soul, published in 2005, has sold 80,000 copies to date, and has been issued in numerous foreign language editions, including Japanese.
-    Shaughnessy writes regularly for all the leading graphic design journals including Eye (UK), Creative Review (UK), Etapes (France) and Print (USA). Between 2004 and 2010, he had a monthly column in Design Week. He is also a contributing writer to Design Observer. _In 2010 he was elected to AGI (Alliance Graphique Internationale), the invitation-only organisation of the world’s leading graphic designers. He hosts an occasional series of one-hour radio shows on Resonance FM called Graphic Design on the Radio.
-    In 2012, Shaughnessy received an Honorary Degree from UCA (University of the Creative Arts). In 2009, he was awarded a Visiting Professorship at the Royal College of Art, London. The following year he was appointed Senior Tutor on the College’s visual communication programme. In addition, Shaughnessy lectures around the world.
-    Shaughnessy is co-founder of the publishing company Unit Editions. The company has published a wide range of graphic design books. Shaughnessy is the author of monographs on Herb Lubalin, Ken Garland, FHK Henrion and Lance Wyman.
-  
+   Adrian Shaughnessy is a designer and writer. In 1989, he co-founded the Intro design studio, and worked as an art director for fifteen years. After leaving the Intro, he now runs his own studio ShaughnessyWorks and does design, art-directing, editing, and consulting. He has authored many books including How to be a Graphic Designer Without Losing Your Soul and he co-founded Unit Editions which publishes book on design and design culture. He also writes for the design publications: Eye, Design Week, Creative Review, and design blog Design Observer and he also gives lectures all over the world.
+   Byung-hak Ahn is a graphic designer and a professor at Hongik University. He majored in Visual Communication Design at Hongik University. He received his masters degree in Typography from Hongik University and Visual Communication degree from Royal College of Art. He operated studio Designsai, and currently is working as an independent designer.
+
   curator_bio_ko: >
-    안병학-
-    홍익대학교에서 시각디자인을 전공하고, 동 대학원에서 타이포그래피로, 영국 왕립미술 학교에서 비주얼커뮤니케이션으로 석사 학위를 받았다. 디자인 사이를 운영했으며 현재는 홍익대학교 교수로 재직하며 독립 디자이너로 활동하고 있다.
-   
-    에이드리언 쇼너시-
-    디자이너이자 저술가이다. 1989년 디자인 스튜디오 인트로Intro를 공동 설립해 15년 동안 아트 디렉터로 일했다. 현재는 인트로를 떠나 쇼네시웍스ShaughnessyWorks를 운영하며 디자인과 아트 디렉팅, 편집에 대한 컨설팅 일을 하고 있다. 『영혼을 잃지 않는 디자이너 되기How to be a Graphic Designer Without Losing Your Soul』를 비롯해 다수의 책을 썼으며, 직접 디자인과 시각문화에 대한 책을 내는 유니트 에디션스(Unit Editions)를 공동 설립하기도 했다. 디자인 잡지 《아이》, 《디자인 위크》, 《크리에이티브 리뷰》, 디자인 블로그 ‘디자인 옵서버’ 등에 글을 쓰고 세계 곳곳을 돌아다니며 강연을 하고 있다.
+    안병학-홍익대학교에서 시각디자인을 전공하고, 동 대학원에서 타이포그래피로, 영국 왕립예술학교에서 비주얼커뮤니케이션으로 석사 학위를 받았다. 디자인 사이를 운영했으며 현재는 홍익대학교 교수로 재직하며 독립 디자이너로 활동하고 있다.
+    에이드리언 쇼너시-디자이너이자 저술가. 1989년 디자인 스튜디오 인트로를 공동 설립해 15년 동안 아트 디렉터로 일했다. 현재는 인트로를 떠나 쇼네시웍스를 운영하며 디자인과 아트 디렉팅, 편집에 대한 컨설팅을 하고 있다. 『영혼을 잃지 않는 디자이너 되기』를 비롯해 다수의 책을 썼으며, 직접 디자인과 시각문화에 대한 책을 내는 유니트 에디션스를 공동 설립하기도 했다. 디자인 잡지 《아이》, 《디자인 위크》, 《크리에이티브 리뷰》, 《디자인 옵서버》 등에 글을 쓰고 세계 곳곳을 돌아다니며 강연을 하고 있다.
 
 
 -
@@ -266,7 +259,8 @@ projects:
 # CURATOR -----------------------------------------
 
   curator_bio_en: >
-  
+   Tetsuya Goto is a graphic designer based in Osaka, Japan. He is running an alternative workspace named “OOO(Out Of Office).” And he also runs a multidisciplinary creative agency “OOO Projects.” Goto works not only as a graphic designer, but also as an editor, a writer, a curator and so forth. He edited typographics ti:, the publication of the Japan Typography Association, as the editor in chief from the issue 263 to 270 that introduce the graphic design and typographic scene in Asia. Goto currently writes a series of articles about the graphic design scene in Asia entitled, “Yellow Pages” in IDEA Magazine.
+
   curator_bio_ko: >
    고토 테츠야는 일본 오사카에 거주하는 그래픽 디자이너이다. 대안적인 사무 공간인 “OOO(아웃 오브 오피스)”와 다학제적 에이전시 “OOO 프로젝트”를 함께 운영하고 있다. 그래픽 디자이너일 뿐만 아니라 편집자, 저술자, 큐레이터의 업무를 병행하고 있다. 일본 타이포그래피 학회지인 《타이포그래픽스 티아이:》 263호부터 270호까지 편집장을 지내며 아시아의 그래픽 디자인과 타이포그래피 씬을 소개하는 글을 기고했다. 현재 일본 《아이디어》지에 ‘엘로우 페이지’라는 제목으로 아시아 그래픽 디자인 씬을 소개하는 글을 정기적으로 기고하고 있다.
    
@@ -307,10 +301,6 @@ projects:
     full_name_en: Siggi Eggertsson
     full_name_ko: 지기 에거슨
     url: /projects/artworks/4-siggi-eggertsson.yml
-  - 
-    full_name_en: Ludovic Balland
-    full_name_ko: 루도빅 발랑
-    url: /projects/artworks/4-ludovic-balland.yml
 
 
 
@@ -336,7 +326,7 @@ projects:
   project_name_en: THIS IS SEOUL ( ) SOUL
   project_name_ko: 도시문자 엽서전 
 
-  curator_name_en: 
+  curator_name_en: Lee Kiseob
   curator_name_ko: 이기섭
 
   project_artists: 
@@ -470,14 +460,15 @@ projects:
   project_desc_en: >
 
   project_desc_ko: >
-    거시기가 저시기해서 저시기 한 것이다. 
+     
   
 # CURATOR -----------------------------------------
 
   curator_bio_en: >
-  
+   Lee Kiseob is a graphic designer and children’s book writer. He graduated from the Department of Textile Art-Fashion Design at Hongik University College of Arts and later worked for Hong Design as a designer. He has been teaching in the Visual Communication Design Department at Seoul Women's University as an adjunct professor and also running a local book store, Thanks Books, since 2011. He has written the books, Smile Circus (2005), Laugh All (2006), InDesign, Editorial Design (2009).
+
   curator_bio_ko: >
-    이기섭씨는 저시기 거 저시기 한 사람이다.
+    그래픽 디자이너, 그림책 작가. 홍익대학교 미술대학 섬유미술학과를 졸업하고 홍디자인에서 디자이너로 일했다. 서울여자대학교 시각디자인과 겸임 교수로 학생들을 가르치고 있으며 2011년부터 동네서점 땡스북스를 운영해오고 있다. 저서로 <스마일 서커스>(2005), <모두 웃어요>(2006), <인디자인, 편집 디자인>(공저, 2009) 등이 있다.
 
 -
   idx: 6
@@ -562,6 +553,7 @@ projects:
 
   # CURATOR -----------------------------------------
   curator_bio_en: >
+   Chris Ro is a graphic designer and currently professor at Hongik University. He is a second-generation Korean-American. He studied architecture at the University of California in Berkeley and earned his MFA from the Rhode Island School of Design. He is living and working in Korea since 2010. He has organized a student research project devoted to Korean visual culture called the “Ondol” project and has published three issues so far. He is currently interested in the subjects of “Flow” and “Digital Craftmanship.” He has been involved in research within design writing, graphic design and typography. As a practitioner, he works across various media including book design, branding, advertising and motion graphics.
   curator_bio_ko: >
    그래픽 디자이너. 홍익대학교 교수. 미국에서 태어나고 자란 교포 2세로, 버클리 대학교에서 건축을 전공하고 로드아일랜드 디자인학교에서 그래픽디자인으로 석사 학위를 받았다. 2010년부터 한국에 거주하며 디자인 글쓰기 및 타이포그래피 리서치 작업을 하는 한편 학생들과 함께 한국 시각문화를 탐구하는 ‘온돌’ 프로젝트를 진행해 오고 있다. '디자이너의 행복'과 '디지털 공예'라는 주제로 연구하고 작업해 오고 있다.
    
@@ -572,7 +564,7 @@ projects:
   project_name_ko: 책 벽돌
 
 
-  curator_name_en: 
+  curator_name_en: Moonkyung Choi
   curator_name_ko: 최문경
 
   project_artists: 
@@ -593,6 +585,7 @@ projects:
 # CURATOR -----------------------------------------
 
   curator_bio_en: >
+   Moonkyung Choi is a graphic designer. She studied graphic design at Rhode Island School of Design, typography at Basel School of Design. She worked as a researcher at Hongik University and during that time, she wrote her master thesis, “A Study on Basel Design School Design Eduction.(영문 확인 필요)” She has translated books such as Typography Textbook (2010), While You're Reading (2013). Moonkyung Choi has taught typography at Hongik University and Korea National University of Arts. Currently, she teaches at Paju Typography Institute (PaTI).
 
   curator_bio_ko: >
    그래픽 디자이너. 로드아일랜드 디자인학교에서 그래픽디자인, 스위스 바젤 디자인학교에서 타이포그래피를 전공했다. 잡지 《디플러스》에 연재됐던 ‘타이포그래피 투모로우’를 기획하여 국내외 타이포그래퍼들의 다양한 생각을 소개하였고, 옮긴 책으로 《타이포그래피 교과서》(2010), 《당신이 읽는 동안(While You're Reading)》(2013)이 있다. 홍익대학교와 한국예술종합학교에서 타이포그래피를 가르쳤고, 현재 파주타이포그라피학교 스승으로 일하고 있다.
@@ -602,7 +595,7 @@ projects:
   project_name_en: C(   )T(   ) Welcomes You
   project_name_ko: 시티 웰컴스 유
 
-  curator_name_en: 
+  curator_name_en: Hyun Cho
   curator_name_ko: 조현
 
   project_artists: 
@@ -712,6 +705,10 @@ projects:
     full_name_en: Sparks Edition
     full_name_ko: 스팍스 에디션
     url: /projects/artworks/9-sparks-edition.yml
+  - 
+    full_name_en: Baemin & Kathleen Kye
+    full_name_ko: 배달의민족, 계한희
+    url: /projects/artworks/9-baemin-kathleen-kye.yml
 
 
 
@@ -737,7 +734,7 @@ projects:
   project_name_en: City of Deficiency
   project_name_ko: 결여의 도시
 
-  curator_name_en: 
+  curator_name_en: Byung-geol Min
   curator_name_ko: 민병걸
 
   project_artists: 
@@ -758,9 +755,11 @@ projects:
 # CURATOR -----------------------------------------
 
   curator_bio_en: > 
+   Byung-geol Min is a graphic designer and educator. He graduated from the Visual Communication Department, Hongik University and he got a masters degree at Masashino Art University. He worked for Ahn Graphics as a designer and noonDesign as a design director. He is a member of the graphic designer club, Jindallae. Now he teaches in the Department of Visual Communication Design at Seoul Women's University as a professor where he designs Hangul contemporarily and in three dimensions.
 
 
   curator_bio_ko: >
+   그래픽 디자이너. 홍익대학교 시각디자인과를 졸업하고 무사시노 미술대학교에서 석사 학위를 받았다. 안그라픽스 디자이너, 눈디자인 디자인 디렉터로 일했으며 진달래 동인이다. 현재 서울여자대학교 시각디자인과 교수로 학생들을 가르치며 한글의 모습을 현대적, 입체적으로 표현하는 디자인 작업을 하고 있다. 옮긴 책으로 <디자인의 디자인>(2007)이 있다.
 
 -
   idx: 11

@@ -74,7 +74,7 @@ artists:
   full_name_ko: "리서치 앤 디벨롭먼트"
   origin_lat: 59.3171064
   origin_lng: 18.0679202
-  url: "/projects/artworks/1-r-n-d.yml"
+  url: "/projects/artworks/1-research-n-development.yml"
 - full_name_en: R2
   full_name_ko: R2
   origin_lat: 41.167137
@@ -90,8 +90,8 @@ artists:
   origin_lat: 52.4835
   origin_lng: 13.4314
   url: "/projects/artworks/1-roman-wilhelm.yml"
-- full_name_en: Sandra Kassenaar & Bart de Baets
-  full_name_ko: "산드라 카서나르 & 바르 데 바트"
+- full_name_en: Sandra Kassenaar & Bart de Baets & Tomas Laar
+  full_name_ko: "산드라 카서나르 & 바르 데 바트 & 토마스 라르"
   origin_lat: 52.3646128
   origin_lng: 4.9254973
   url: "/projects/artworks/1-sandra-kassenaar-n-bart-de-baets.yml"
@@ -126,10 +126,15 @@ artists:
   origin_lng: 126.99032
   url: "/projects/artworks/10-everyday-practice.yml"
 - full_name_en: Gute Form
-  full_name_ko: 
+  full_name_ko: 구트폼
   origin_lat: 37.5558393
   origin_lng: 126.9716173
   url: "/projects/artworks/11-cityletter.yml"
+- full_name_en: Jiwon Yu
+  full_name_ko: 유지원
+  origin_lat: 37.5558393
+  origin_lng: 126.9716173
+  url: "/projects/artworks/11-jiwon-yu.yml"
 - full_name_en: Zero Lab
   full_name_ko: "제로랩"
   origin_lat: 37.54564
@@ -150,16 +155,16 @@ artists:
   origin_lat: 37.5558393
   origin_lng: 126.9716173
   url: "/projects/artworks/15-dappertutto.yml"
-- full_name_en: Workroom(Kyeongsoo Lee, Hwalsung  Park)
-  full_name_ko: "워크룸"
+- full_name_en: Mediabus x Shinshin
+  full_name_ko: 미디어버스 x 신신
   origin_lat: 37.5527
   origin_lng: 126.91259
-  url: "/projects/artworks/17-workroom.yml"
+  url: "/projects/artworks/16-mediabus-shinshin.yml"
 - full_name_en: Rebel9
-  full_name_ko: 
+  full_name_ko: 레벨나인
   origin_lat: 37.5558393
   origin_lng: 126.9716173
-  url: "/projects/artworks/18-rebel9.yml"
+  url: "/projects/artworks/17-rebel9.yml"
 - full_name_en: Andrew Brash
   full_name_ko: "앤드류 브라쉬"
   origin_lat: 51.5011441
@@ -194,9 +199,9 @@ artists:
   full_name_ko: "썸머 스튜디오(민나 사카리아 & 캐롤리나 달)"
   origin_lat: 51.5011441
   origin_lng: -0.1792847
-  url: "/projects/artworks/2-summer-studio-carolina-dahl-n-minna-sakaria.yml"
+  url: "/projects/artworks/2-summer-studio.yml"
 - full_name_en: Giang Nguyen
-  full_name_ko: 
+  full_name_ko: "장응우옌"
   origin_lat: 10.768451
   origin_lng: 106.6943626
   url: "/projects/artworks/3-giang-nguyen.yml"
@@ -206,7 +211,7 @@ artists:
   origin_lng: 139.6917
   url: "/projects/artworks/3-hagiwara-shunya.yml"
 - full_name_en: Hung Chang-Lien
-  full_name_ko: 
+  full_name_ko: "훙창롄"
   origin_lat: 25.0172264
   origin_lng: 121.506378
   url: "/projects/artworks/3-hung-changlien.yml"
@@ -215,8 +220,8 @@ artists:
   origin_lat: 22.2878416
   origin_lng: 114.1469555
   url: "/projects/artworks/3-javin-mo.yml"
-- full_name_en: Li Shaobo
-  full_name_ko: "리 사오보"
+- full_name_en: Li Shaobo + Liu Jingsha
+  full_name_ko: "리샤오보 + 류징샤"
   origin_lat: 39.984369
   origin_lng: 116.465065
   url: "/projects/artworks/3-li-shaobo.yml"
@@ -226,12 +231,12 @@ artists:
   origin_lng: 135.459683
   url: "/projects/artworks/3-morimura-makoto.yml"
 - full_name_en: Prabda Yoon
-  full_name_ko: 
+  full_name_ko: "프랍다 윤"
   origin_lat: 13.7375926
   origin_lng: 100.5718787
   url: "/projects/artworks/3-prabda-yoon.yml"
 - full_name_en: Sean Kelvin Khoo
-  full_name_ko: 
+  full_name_ko: "숀 켈빈 쿠"
   origin_lat: 1.316912
   origin_lng: 103.8812698
   url: "/projects/artworks/3-sean-kelvin-khoo.yml"
@@ -275,6 +280,7 @@ artists:
   origin_lat: 52.51251
   origin_lng: 13.45141
   url: "/projects/artworks/4-siggi-eggertsson.yml"
+
 - full_name_en: 1984
   full_name_ko: 1984
   origin_lat: 37.55734
@@ -425,8 +431,8 @@ artists:
   origin_lat: 37.54263
   origin_lng: 127.05675
   url: "/projects/artworks/5-zagmachi.yml"
-- full_name_en: Hongdan (Ban Yoon Jung)
-  full_name_ko: "홍단 (반윤정)"
+- full_name_en: Hongdan 
+  full_name_ko: "홍단"
   origin_lat: 37.55095
   origin_lng: 127.04462
   url: "/projects/artworks/6-ban-yoon-jung.yml"
@@ -466,7 +472,7 @@ artists:
   origin_lng: 126.93525
   url: "/projects/artworks/6-mano-ahn.yml"
 - full_name_en: Marvin Lee + Eli Park Sorensen
-  full_name_ko: "이마빈 + Eli Park"
+  full_name_ko: "이마빈 + 일리 박 소렌슨"
   origin_lat: 37.55056
   origin_lng: 126.92539
   url: "/projects/artworks/6-marvin-lee-n-eli-park.yml"
@@ -495,13 +501,23 @@ artists:
   origin_lat: 37.55111
   origin_lng: 126.92017
   url: "/projects/artworks/6-uk-kim.yml"
-- full_name_en: "( ) Home"
-  full_name_ko: "( ) 집 : 문자벽돌"
+- full_name_en: Shin Dockho
+  full_name_ko: "신덕호"
+  origin_lat: 35.81549
+  origin_lng: 128.5138
+  url: "/projects/artworks/6-shin-dockho.yml"
+- full_name_en: Dongwhan Kim
+  full_name_ko: "김동환"
+  origin_lat: 37.56339
+  origin_lng: 126.91836
+  url: "/projects/artworks/6-dongwhan-kim.yml"
+- full_name_en: PaTi
+  full_name_ko: "파주타이포그라피학교"
   origin_lat: 37.70824
   origin_lng: 126.68672
   url: "/projects/artworks/7-Pati.yml"
 - full_name_en: Akiko Masunaga
-  full_name_ko: 
+  full_name_ko: 마수나가 아키코
   origin_lat: 434.69373
   origin_lng: 135.50216
   url: "/projects/artworks/8-akiko-masunaga.yml"
@@ -511,12 +527,12 @@ artists:
   origin_lng: 126.92078
   url: "/projects/artworks/8-bongkyu-song.yml"
 - full_name_en: Burger + Stadel + Wal
-  full_name_ko: 
+  full_name_ko: "부르게르 + 슈타델 + 월시"
   origin_lat: 47.56922
   origin_lng: 7.59573
   url: "/projects/artworks/8-burger-stadel-wal.yml"
 - full_name_en: Clark Corp
-  full_name_ko: 
+  full_name_ko: "클라크 코프"
   origin_lat: 40.69854
   origin_lng: -73.9753
   url: "/projects/artworks/8-clark-corp.yml"
@@ -541,15 +557,25 @@ artists:
   origin_lng: 126.91396
   url: "/projects/artworks/8-hyojun-shim-n-wong.yml"
 - full_name_en: Mathew Kneebone
-  full_name_ko: 
+  full_name_ko: "매슈 니본"
   origin_lat: 51.05434
   origin_lng: 3.71742
   url: "/projects/artworks/8-mathew-kneebone.yml"
 - full_name_en: Team Thursday
-  full_name_ko: 
+  full_name_ko: "팀 서즈데이"
   origin_lat: 51.91606
   origin_lng: 4.4653
   url: "/projects/artworks/8-team-thursday.yml"
+- full_name_en: Daeki Shim
+  full_name_ko: "심대기"
+  origin_lat: 37.55277
+  origin_lng: 126.92078
+  url: "/projects/artworks/8-daeki-shim.yml"
+- full_name_en: Choongho Lee
+  full_name_ko: "이충호"
+  origin_lat: 37.55277
+  origin_lng: 126.92078
+  url: "/projects/artworks/8-choongho-lee.yml"
 - full_name_en: Fritz K. Park
   full_name_ko: "박경식"
   origin_lat: 37.58209
@@ -590,39 +616,44 @@ artists:
   origin_lat: 37.41566
   origin_lng: 126.98234
   url: "/projects/artworks/9-youngha-park.yml"
+- full_name_en: Baemin & Kathleen Kye
+  full_name_ko: "배달의민족, 계한희"
+  origin_lat: 37.61006
+  origin_lng: 126.99507
+  url: "/projects/artworks/9-baemin-kathleen-kye.yml"
 artworks:
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Formular Typeface
-  artwork_name_ko: 
+  artwork_name_ko: "포뮬러"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-brownfox.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: memoria technica
-  artwork_name_ko: 
+  artwork_name_ko: "메모리아 테크니카"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-byoungil-choi.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: AEIOU—Constructed/Projected
-  artwork_name_ko: 
+  artwork_name_ko: "아에이오우—구조화된/투사된"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-catherine-griffiths.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: No Future Without “          ” (Seoul/Tokyo)
-  artwork_name_ko: 
+  artwork_name_ko: " “   ” 없는 미래는 없다(서울/도쿄) "
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-dainippon.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Caption Poster
-  artwork_name_ko: 
+  artwork_name_ko: "캡션 포스터"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-daniel-eatock.yml"
@@ -635,85 +666,123 @@ artworks:
   url: "/projects/artworks/1-dongwan-kook.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: 
+  artwork_name_en: "Around #1"
+  artwork_name_ko: "Around #1"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/1-dongwan-kook.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Korean Showergown
+  artwork_name_ko: "한복 같은 샤워 가운"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/1-dongwan-kook.yml"
+
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Vinyl Notice
+  artwork_name_ko: "Vinyl Notice"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/1-dongwan-kook.yml"
+
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Mindful Document
+  artwork_name_ko: "Mindful Document"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/1-dongwan-kook.yml"
+
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: City and Typography... LOL
   artwork_name_ko: "도시와 문자...ㅋㅋㅋ"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-doosup-kim.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Lettres du Havre - Identités réelles et missives imaginaires
-  artwork_name_ko: 
+  artwork_name_en: Lettres du Havre
+  artwork_name_ko: "아브르의 레터들"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-elodie-boyer.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Untitled (Tentative Title)
-  artwork_name_ko: 
+  artwork_name_en: Untitled 
+  artwork_name_ko: "무제"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-hyounyoul-joe.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Namsantown Apartment
-  artwork_name_ko: 
+  artwork_name_ko: "남산타운 아파트"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-jisung-yi.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Leaving the Wisdom
-  artwork_name_ko: 
+  artwork_name_ko: "지혜를 떠나며"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-joonsoo-ha.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Kanji city
-  artwork_name_ko: 
+  artwork_name_ko: "간지 도시"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-kota-iguchi.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Happening (Pictograph Font in the city)
-  artwork_name_ko: 
+  artwork_name_ko: "해프닝 (도시의 그림 서체)"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-kyuhyung-cho.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Moulures 1 & Moulures 2
-  artwork_name_ko: 
+  artwork_name_en: Moulures 1
+  artwork_name_ko: "쇠시리 1"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/1-leslie-david.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Moulures 2
+  artwork_name_ko: "쇠시리 2"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-leslie-david.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: R&D-Project for Typojanchi
-  artwork_name_ko: 
+  artwork_name_ko: "R&D-타이포잔치를 위한 프로젝트"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
-  url: "/projects/artworks/1-r-n-d.yml"
+  url: "/projects/artworks/1-research-n-development.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Futuro
-  artwork_name_ko: 
+  artwork_name_ko: "푸투로"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-r2.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: EarthArt
-  artwork_name_ko: 
+  artwork_name_ko: "대지 미술"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-rejane-dal-bello.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Typographic Entanglement (Berlinistanbulhongkongshanghaibeijing…)
-  artwork_name_ko: 
+  artwork_name_ko: "타이포그래피 직조망(베를린이스탄불홍콩상하이베이징...)"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-roman-wilhelm.yml"
@@ -727,38 +796,52 @@ artworks:
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: City
-  artwork_name_ko: 
+  artwork_name_ko: "도시"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-studio-spass.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Wall installation + poster giveaway
-  artwork_name_ko: 
+  artwork_name_en: Ten Structural Elements
+  artwork_name_ko: "열 개의 구축적 요소"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-till-wiedeck.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Untitled
-  artwork_name_ko: 
+  artwork_name_en: RetypoChina
+  artwork_name_ko: "리타이포 차이나"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-wang-ziyuan.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: 3000 Questions/An Inquiry Manifesto
-  artwork_name_ko: 
+  artwork_name_en: 3000 Questions
+  artwork_name_ko: " 3000개의 질문 "
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-wu-fan.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Dialogue with “heccéité”（こちらのフォームですと文字化けしてしまうためメール本文に正式なものを送ります）
-  artwork_name_ko: 
+  artwork_name_en: An Inquiry Manifesto
+  artwork_name_ko: " 질의 선언문 "
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/1-wu-fan.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Dialogue with “heccéité”
+  artwork_name_ko: "‘개성원리’와의 대화"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/1-yuma-harada-n-shohei-iida.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: The Comedy Carpet Blackpool
+  artwork_name_ko: "코미디 카펫 블랙풀"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/1-why-not-n-gordon-young.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: 'Workshop: A City without (   )'
@@ -772,7 +855,14 @@ artworks:
   artwork_name_ko: "도시문자 르포르타주"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
-  url: "/projects/artworks/11-cityletter.yml"
+  url: "/projects/artworks/11-guteform.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역 서울 284"
+  artwork_name_en: City Letter Reportage
+  artwork_name_ko: "도시문자 르포르타주"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/11-jiwon-yu.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: Exhibition Space
@@ -789,8 +879,8 @@ artworks:
   url: "/projects/artworks/13-eroonkang.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
-  artwork_name_en: Docent Project
-  artwork_name_ko: "도슨트 프로젝트+영상 프로젝트"
+  artwork_name_en: C( ) T( ) Guide
+  artwork_name_ko: "C( ) T( ) 가이드"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/14-nolgong.yml"
@@ -803,176 +893,169 @@ artworks:
   url: "/projects/artworks/15-dappertutto.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
-  artwork_name_en: Document
-  artwork_name_ko: "도큐먼트 프로젝트"
+  artwork_name_en: N-S-E-W, CITY COMPASS
+  artwork_name_ko: "동-서-남-북 도시 나침반"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
-  url: "/projects/artworks/17-workroom.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역 서울 284"
-  artwork_name_en: Archiving App
-  artwork_name_ko: "아카이빙앱 프로젝트"
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/18-rebel9.yml"
+  url: "/projects/artworks/17-rebel9.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: 
-  artwork_name_ko: 
+  artwork_name_en: N. New York City
+  artwork_name_ko: "N. 뉴욕 시티"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/2-andrew-brash.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Object identity
-  artwork_name_ko: 
+  artwork_name_en: T. Tokyo
+  artwork_name_ko: "T. 도쿄"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/2-jonas-berthod.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: This is Tony, 218 Ridley Road, Dalston, London, UK
-  artwork_name_ko: 
+  artwork_name_en: L. London
+  artwork_name_ko: "L. 런던"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/2-jorg-schwerteger.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Real-time Cities
-  artwork_name_ko: 
+  artwork_name_ko: "실시간 도시들"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/2-kyuha-shim.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: FW710-105, Los Angeles
-  artwork_name_ko: 
+  artwork_name_en: L. Los Angeles
+  artwork_name_ko: "L. 로스앤젤레스"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/2-laura-joan.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Scan the divine
-  artwork_name_ko: 
+  artwork_name_en: C. Chicago
+  artwork_name_ko: "C. 시카고"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/2-sebastian-koseda.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Mexico Glitchy
-  artwork_name_ko: 
+  artwork_name_en: M. Mexico Glitchy
+  artwork_name_ko: "M. 멕시코 글리치"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
-  url: "/projects/artworks/2-summer-studio-carolina-dahl-n-minna-sakaria.yml"
+  url: "/projects/artworks/2-summer-studio.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Asia City Text/ure
-  artwork_name_ko: 
+  artwork_name_en: Saigon—The Melting Pot
+  artwork_name_ko: "사이공—용광로"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/3-giang-nguyen.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역서울284"
-  artwork_name_en: Asia City Text/ure
-  artwork_name_ko: 
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/3-hagiwara-shunya.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역서울284"
-  artwork_name_en: Asia City Text/ure
-  artwork_name_ko: 
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/3-hung-changlien.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역서울284"
-  artwork_name_en: Asia City Text/ure
-  artwork_name_ko: 
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/3-javin-mo.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역서울284"
-  artwork_name_en: Asia City Text/ure
-  artwork_name_ko: 
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/3-li-shaobo.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역서울284"
-  artwork_name_en: Asia City Text/ure
-  artwork_name_ko: 
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/3-morimura-makoto.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역서울284"
-  artwork_name_en: Asia City Text/ure
-  artwork_name_ko: 
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/3-prabda-yoon.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역서울284"
-  artwork_name_en: Asia City Text/ure
-  artwork_name_ko: 
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/3-sean-kelvin-khoo.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역서울284"
-  artwork_name_en: Asia City Text/ure
-  artwork_name_ko: 
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/3-shinshin.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역서울284"
-  artwork_name_en: Lost in Translation
-  artwork_name_ko: 
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/4-aaron-nieh.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역서울284"
-  artwork_name_en: TYPOJANCHI 2015
-  artwork_name_ko: 
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/4-helmo.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: 
   artwork_name_ko: 
   venue_lat: 37.5558393
   venue_lng: 126.9716173
+  url: "/projects/artworks/3-hagiwara-shunya.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Moji Thriving Through Time
+  artwork_name_ko: "손글씨 호황 시대"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/3-hung-changlien.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Disappearing "Text/ure"
+  artwork_name_ko: "사라지는 ‘텍스트/처’"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/3-javin-mo.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Type City
+  artwork_name_ko: "타입 시티"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/3-li-shaobo.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Townpage (Osaka-City Upstate)
+  artwork_name_ko: "타운페이지(오사카 북부)"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/3-morimura-makoto.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: City of Unintentional Absurdity
+  artwork_name_ko: "의도치 않은 부조리의 도시"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/3-prabda-yoon.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Majulah Singapura
+  artwork_name_ko: "싱가포르여 전진하라 "
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/3-sean-kelvin-khoo.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Seoulized City
+  artwork_name_ko: "서울화된 도시"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/3-shinshin.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Lost in Translation
+  artwork_name_ko: "불가역"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/4-aaron-nieh.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: TYPOJANCHI 2015
+  artwork_name_ko: "타이포잔치 2015"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/4-helmo.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: "Boulevard Solitude"
+  artwork_name_ko: "블루바드 솔리투드"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
   url: "/projects/artworks/4-jaemin-lee.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Typojanchi 2015 Poster
-  artwork_name_ko: 
+  artwork_name_en: Typojanchi 2015 
+  artwork_name_ko: "타이포잔치 2015"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/4-keetra-deandixon.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Basel, Warsaw, Venice
-  artwork_name_ko: 
+  artwork_name_ko: "바젤, 바르샤바, 베니스"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/4-ludovic-balland.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Typojanchi 2015
-  artwork_name_ko: 
+  artwork_name_ko: "타이포잔치 2015"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/4-richard-niessen.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Späti
-  artwork_name_ko: 
+  artwork_name_ko: "스패티"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/4-siggi-eggertsson.yml"
@@ -1188,7 +1271,7 @@ artworks:
   url: "/projects/artworks/5-zagmachi.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: 
+  artwork_name_en: Saemikkeul
   artwork_name_ko: "새미끌 새탁"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
@@ -1209,15 +1292,15 @@ artworks:
   url: "/projects/artworks/6-corners.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: 
-  artwork_name_ko: 
+  artwork_name_en: Eternal Exit
+  artwork_name_ko: "영원한 출구"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/6-hoon-kim.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: as found
-  artwork_name_ko: 
+  artwork_name_ko: "발견된"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/6-jae-jeon.yml"
@@ -1244,22 +1327,22 @@ artworks:
   url: "/projects/artworks/6-mano-ahn.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Untitled as of today
-  artwork_name_ko: 
+  artwork_name_en: Untitled
+  artwork_name_ko: "미정"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/6-marvin-lee-n-eli-park.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Original drawing in city
-  artwork_name_ko: 
+  artwork_name_ko: "오리지널 도시 드로잉"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/6-mingoo-yoon.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Here, Now, and Waiting
-  artwork_name_ko: 
+  artwork_name_ko: "여기, 지금, 그리고 기다림"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/6-moon-jang.yml"
@@ -1279,22 +1362,29 @@ artworks:
   url: "/projects/artworks/6-park-chanshin.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
+  artwork_name_en: No Comment
+  artwork_name_ko: "노 코멘트"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/6-shin-dockho.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
   artwork_name_en: recycle module
-  artwork_name_ko: 
+  artwork_name_ko: "리사이클링 모듈"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/6-uk-kim.yml"
 - venue_name_en: PaTi
   venue_name_ko: "파티"
-  artwork_name_en: Typography City Exhibition
-  artwork_name_ko: "문자도시전"
+  artwork_name_en: Book Bricks
+  artwork_name_ko: 책 벽돌
   venue_lat: 37.70824
   venue_lng: 126.68672
   url: "/projects/artworks/7-Pati.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Passage_Relation（経過と関係）
-  artwork_name_ko: 
+  artwork_name_en: Passage_Relation
+  artwork_name_ko: "경과와 관계"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/8-akiko-masunaga.yml"
@@ -1307,15 +1397,15 @@ artworks:
   url: "/projects/artworks/8-bongkyu-song.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: 
-  artwork_name_ko: 
+  artwork_name_en: Welcome
+  artwork_name_ko: "환영"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/8-burger-stadel-wal.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Small Case Big Night
-  artwork_name_ko: 
+  artwork_name_ko: "작은 상자, 굉장한 밤"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/8-clark-corp.yml"
@@ -1328,40 +1418,60 @@ artworks:
   url: "/projects/artworks/8-design-methods.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Extra Charge (yet-untitled)
-  artwork_name_ko: "추가요금(가제)"
+  artwork_name_en: Extra Charge
+  artwork_name_ko: "추가요금"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/8-doosung.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: "..."
+  artwork_name_en: .
+  artwork_name_ko: "."
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/8-gang-moonsick.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: ...
   artwork_name_ko: "..."
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/8-gang-moonsick.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Project 1. Intersecting point between virtuality and actuality
-    / Project 2. Morning China
-  artwork_name_ko: 
+  artwork_name_en: Intersecting point between virtuality and actuality
+  artwork_name_ko: "가상과 실재의 교차점"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/8-hyojun-shim-n-wong.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Morning China
+  artwork_name_ko: "모닝 차이나"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/8-hyojun-shim-n-wong.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Mechanical Systems Drawing
-  artwork_name_ko: 
+  artwork_name_ko: "기계 시스템 드로잉"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/8-mathew-kneebone.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: Untitled
-  artwork_name_ko: 
+  artwork_name_en: Bed Wrap
+  artwork_name_ko: "베드 랩"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/8-team-thursday.yml"
+- venue_name_en: Culture Station Seoul 284
+  venue_name_ko: "문화역서울284"
+  artwork_name_en: Baemin x KYE
+  artwork_name_ko: "배민의류"
+  venue_lat: 37.5558393
+  venue_lng: 126.9716173
+  url: "/projects/artworks/9-baemin-kathleen-kye.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Super Gap
@@ -1371,7 +1481,7 @@ artworks:
   url: "/projects/artworks/9-fritz-park.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: 
+  artwork_name_en: "Nocturnal Letter"
   artwork_name_ko: "야행성 문자"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
@@ -1379,7 +1489,7 @@ artworks:
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Black Letter Swag
-  artwork_name_ko: 
+  artwork_name_ko: "블랙레터 스웩"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/9-jot.yml"
@@ -1392,7 +1502,7 @@ artworks:
   url: "/projects/artworks/9-kimgarden-standard.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: 
+  artwork_name_en: The Chronicle of City's Desire
   artwork_name_ko: "도시 욕망 연대기"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
@@ -1400,20 +1510,20 @@ artworks:
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Floating Typing Error
-  artwork_name_ko: 
+  artwork_name_ko: "떠다니는 타이핑 오류"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/9-sparks-edition.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: 
+  artwork_name_en: A apartment of name
   artwork_name_ko: "이름있는 아파트"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/9-works.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
-  artwork_name_en: 
+  artwork_name_en: Yaminjeongeum
   artwork_name_ko: "야민정음"
   venue_lat: 37.5558393
   venue_lng: 126.9716173

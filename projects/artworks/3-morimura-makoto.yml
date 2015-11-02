@@ -17,13 +17,17 @@ participant_bio_ko: >
 
 artworks:
 -
-  artwork_name_en: 
-  artwork_name_ko: 
-  artwork_year: 
-  artwork_medium_en:
-  artwork_medium_ko: 
+  artwork_name_en: Townpage (Osaka-City Upstate)
+  artwork_name_ko: 타운페이지(오사카 북부)
+  artwork_year: 2015
+  artwork_medium_en: Map, correction fluid, line, cloth and Yellow Pages, 60.6*50.0cm
+  artwork_medium_ko: 지도, 수정액, 선, 천, 전화 번호부, 60.6*50.0cm
   artwork_desc_en: >
+   A fictional city in the U.K. “Argleton” found on Google Maps in 2008. It inspired the Makoto Morimura and he created “a fictional city that is synchronized with an actual city at close distant senses” by using maps in the advertisements on the Yellow Pages. 
+   The Yellow Pages is a collection of information dedicated to a certain area. Everybody knows what it is for, but it is never be read all the way through. Makoto restructured “a fictional city that is synchronized with an actual city at close distant senses” by cutting out all the maps on the advertisements and piecing the roads and railways differently to the actual map. 
+   Also, he erased all the text information on the map by correction fluid in order to make the fictional city anonymized. Because as the fact that many and unspecified people added information such as shops on the Google Map of “Argleton” making the city became factual, he intended to let viewers imagine detailed information of the city by erasing all the text information from “a fictional city that is synchronized with an actual city at close distant sense.
   artwork_desc_ko: >
+   2008년 영국 북서부 랭커셔에서 발견된 ‘아글레튼’은 구글 지도에만 존재하는 허구의 도시이다. 여기에서 영감을 얻은 모리무라 마코토는 전화번호부에 실린 광고 지도를 이용해 실제 도시와 결합된, 가상의 도시를 만들어낸다. 전화번호부는 특정 지역의 정보를 담고 있는 책이고, 모든 사람들이 그 책에 대해 알지만 처음부터 끝까지 읽는 사람은 없다. 모리무라 마코토는 여기에 실린 모든 지도를 오려낸 후 실제와 다른 방식으로 길과 철도 등을 이어 붙여 ‘가깝고도 먼’, ‘실제이자 가상의’ 도시를 재구축한다. 또한 수정액을 이용해 모든 텍스트를 지워 익명의 도시로 만든다. 불특정 다수의 사람들이 구글 지도에서 ‘아글레튼’에 있는 가게 정보를 추가해나가며 도시를 완성해가듯, 작가는 관람객이 상상력을 발휘해 지워진 정보를 채워나감으로써 이 ‘가깝고도 먼’ 허구의 도시가 실재와 결합되기를 바란다.
 
 
 venue_name_en: Culture Station Seoul 284

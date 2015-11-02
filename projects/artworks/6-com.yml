@@ -8,10 +8,10 @@ origin_lat: 37.5295
 origin_lng: 127.00021
 
 participant_bio_en: >
-
+ COM is a design studio made by Kim Sejoong, who majored in interior design and Han Joowon, who majored in stage art. Based on space design, they also do graphic design, furniture design, and various designs in need. They have participated in The Independent Publication Room of Library, House of Poetry, 28, Christmas Cookie Exhibition, Mr. Pavillon, Asian Music Party, 51+festival, Connection, etc.
 
 participant_bio_ko: >
- COM은 2015년 실내디자인을 전공한 김세중과 무대미술을 전공한 한주원이 의기투합해 만든 디자인 스튜디오 입니다. 공간 디자인을 기반으로, 필요에 따라 그래픽 작업과 가구 제작을 겸하며 다양한 프로젝트를 수행하고 있습니다. 2014년 계간 그래픽 <도서관 독립출판 열람실> 한국현대문학관 <시의 집>, 국립한글박물관 <28>, 워크스 <크리스마스 과자전>, KCDF <프린팅 스튜디오 쇼> 2015년 정림건축문화재단 <파빌리온 씨>, 페스티벌 봄 <아시안 뮤직 파티>, 자립음악협동생산조합 <51+>, 포스코 <이음> 등에 참여했습니다. 
+ COM은 2015년 실내 디자인을 전공한 김세중과 무대미술을 전공한 한주원이 의기투합해 만든 디자인 스튜디오다. 공간 디자인을 기반으로, 필요에 따라 그래픽 작업과 가구 제작을 겸하며 다양한 프로젝트를 수행하고 있다. 《도서관 독립 출판 열람실》, 《시의 집》, 《28》, 《크리스마스 과자전》, 《프린팅 스튜디오 쇼》, 《파빌리온 씨》, 《아시안 뮤직 파티》, 《51+》, 《이음》 등의 전시에 참여했다.	
 
 artworks:
 -
@@ -21,9 +21,10 @@ artworks:
   artwork_medium_en: Electric sign
   artwork_medium_ko: 전기 간판
   artwork_desc_en: >
+   COM build an imaginary tower at Jongno (  ) ga. This tower facade follows the floor signboard form, each floor is made with LED electronic signage. During exhibition period, COM becomes a building owner by themselves, rent each floor. A tenant pays for the fixed expenses and has the right to use the floor. This building's main goal for use is advertisement. The tenants rent this tower to advertise specific information compulsively and effectively. COM received the necessary information from the tenant, and produces signage, borrowed in method and form from LED electronic signage and played repeatedly during the exhibition.
+  
   artwork_desc_ko: >
-   COM은 종로 ( )가에 가상의 타워를 세운다. 이 타워의 파사드는 층별 안내판 형식을 따르며, 각 층은 LED 전광판으로 이루어져 있다. COM은 스스로 건물주가 되어 전시 기간 동안 실제로 각 층을 원하는 이에게 임대한다. 임차인은 정해진 비용을 지불하고 계약 기간 동안 선택한 층을 사용할 권리를 가진다. 이 건물의 주요 목적은 광고이다. 임차인은, 전시 동안 찾아오는 다수의 관객들에게 자신들이 원하는 특정 정보를 강제적이고 효과적으로 각인시키기 위해 이 가상의 타워를 임대하게 된다. COM은 임차인에게 필요한 정보를 받은 뒤 기존 LED 광고판이 가진 문법과 형식을 차용하여 광고문을 제작 후 전시 기간 동안 반복 재생한다.
-
+   COM은 종로 (  )가에 가상의 타워를 세운다. 이 타워의 파사드는 층별 안내판 형식을 따르며, 각 층은 LED 전광판으로 이루어져 있다. COM은 스스로 건물주가 되어 전시 기간 동안 실제로 각 층을 원하는 이에게 임대한다. 임차인은 정해진 비용을 지불하고 계약 기간 동안 선택한 층을 사용할 권리를 가진다. 이 건물의 주요 목적은 광고이다. 임차인은, 전시 동안 찾아오는 다수의 관객들에게 자신들이 원하는 특정 정보를 강제적이고 효과적으로 각인시키기 위해 이 가상의 타워를 임대하게 된다. COM은 임차인에게 필요한 정보를 받은 뒤 기존 LED 광고판이 가진 문법과 형식을 차용하여 광고문을 제작 후 전시 기간 동안 반복 재생한다.
 
 
 venue_name_en: Culture Station Seoul 284

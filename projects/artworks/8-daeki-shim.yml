@@ -8,9 +8,12 @@ origin_lat: 37.55277
 origin_lng: 126.92078
 
 participant_bio_en: >
- Mr. Dae Ki Shim is a co-founer and graphic designer at D. A & Company. He received a bachelor degree in graphic design from Central Saint Martins, University of the Arts London and master degree in anthropology focusing on design education, visual & material culture and digital transition from University College London, University of London. His design works have been shown in Fold Gallery, Slade School of Fine Art, Shoreditch Town Hall, Left Bank, UCL Quad, Round House, London Design Festival in UK and PS 35 Gallery in New York and Zero One Design Center, Seoul Citizens Hall, Sejong Art Center, π Room Gallery in Korea and among others. Recently, his work titled ‘Now & Here’ has invited to 2015 Asia Next which is the Poster Experimental Design Exhibition in China, Taiwan and Korea. Moerover, he also curated and directed several design exhibitions such as the exhibition titled ‘How is it going?’ at Zero One Design Center in Seoul, KR and ‘Between the First Show’and ‘Between #2’ in London, UK. His works were selected in Korea Design Awards, Red Dot Award and among others. Most recently, his work was awarded in the Grand Prize from the 10th exhibition of the Korean Society of Typography in June 2015. He was also appointed lecturer in design at Seoul Women’s University in 2014 & 2015.
+ Dae Ki Shim is a co-founder and graphic designer at D. A & Company. He received a bachelor degree in graphic design from Central Saint Martins, University of the Arts London and a masters degree in anthropology focusing on design education, visual & material culture and digital transition from University College London, University of London.
+ His design works have been shown at the Fold Gallery, Slade School of Fine Art, Shoreditch Town Hall, Left Bank, UCL Quad, Round House, London Design Festival and the PS 35 Gallery as well as the Zero One Design Center, Seoul Citizens Hall, Sejong Art Center, π Room Gallery and among others. Recently, his work titled “Now & Here” was invited to the 2015 Asia Next which is a Poster Experimental Design Exhibition in China, Taiwan and Korea. Moreover, he also curated and directed several design exhibitions such as How is it going?, Between the First Show and Between #2. His works were selected in the Korea Design Awards, Red Dot Awards among others. Most recently, his work was awarded the Grand Prize from the 10th exhibition of the Korean Society of Typography in June 2015. He was also appointed lecturer in design at Seoul Women’s University in 2014 & 2015.
 
 participant_bio_ko: >
+ 디에이앤컴퍼니의 공동 창립자이자 그래픽 디자이너 심대기는 런던 센트럴 세인트 마틴스 대학교에서 그래픽디자인을 공부하고, 런던대학교 UCL에서 디자인 교육, 시각적 및 물질적 문화, 디지털 전환에 초점을 둔 인류학 논문으로 석사 학위를 받았다. 폴드 갤러리, 슬레이드 미술학교, 쇼어디치 타운 홀, 레프트 뱅크, 라운드 하우스, 런던 디자인 페스티벌, 뉴욕 PS 35 갤러리, 제로원 디자인센터, 서울 시청, 세종문화회관 등에서 디자인 작업을 선보였으며, 최근 작업 <지금 & 여기>는 중국, 대만, 한국에서 열린 실험적인 포스터 전시회 ‘2015 아시아 넥스트’에 초대되었다. 또한 《어떠세요?》, 《첫 번째 공연 사이》, 《사이 #2》 등의 디자인 전시를 큐레이팅하기도 했다. 그의 작업은 코리아 디자인 어워드, 레드닷 어워드 등에 선정되었으며, 2015년 제10회 한국 타이포그라피학회 전시에서 그랑프리를 차지했다. 2014년부터 서울여자대학교에서 학생들을 가르치고 있다.
+
 
 artworks:
 -
@@ -20,6 +23,7 @@ artworks:
   artwork_medium_en: Book, 16pages, 23.5*16.5cm
   artwork_medium_ko: 책, 16쪽, 23.5*16.5cm
   artwork_desc_en: >
+   In the internet, this words floats, “There is no boarding gate, No. 4, 13, and 44 in the Incheon Internatonal Airport.” It seems like a rumor, but it's true.
   artwork_desc_ko: >
    서울의 대표적인 관문 인천국제공항에는 “4, 13, 44번 탑승구가 존재하지 않는다”는 말이 인터넷에 떠돈다. 하지만 이 허구 같은 내용은 사실이다.
 
@@ -30,6 +34,7 @@ artworks:
   artwork_medium_en: Book, 16pages, 23.5*16.5cm
   artwork_medium_ko: 책, 16쪽, 23.5*16.5cm
   artwork_desc_en: > 
+   We usually experience the “experienced experience” through the internet. However, as an anthropologist Christopher Tilley says, the experiences and the memories of this “space” are not repeated identically. 
   artwork_desc_ko: > 
    우리는 일반적으로 인터넷이라는 매체를 통해서 ‘경험된 경험’을 경험한다. 하지만 인류학자 크리스토퍼 틸리(christopher tilley)가 말했듯 그 ‘장소’의 경험과 기억은 결코 동일하게 반복되지 않는다.
 

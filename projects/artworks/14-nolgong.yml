@@ -7,6 +7,7 @@ origin_country_ko: 한국
 origin_lat: 37.5527
 origin_lng: 126.91259
 participant_bio_en: >
+ Nolgong is a creative studio founded in 2011. The studio makes game-based cultural participation education contents by grafting digital and analogue in the fields of arts, culture, education and social contribution. With 15 to 20 years of experienced game, educational technology, computer developing specialists leading this company, they have been working with the Goethe-Institut Korea, Unicef, Save the Children, C Program, Haja Center, Samsung Group, Doosan Group, Hyundai Motors, and various companies and organizations.
 
 
 participant_bio_ko: >
@@ -17,12 +18,44 @@ artworks:
   artwork_name_en: C( ) T( ) Guide
   artwork_name_ko: C( ) T( ) 가이드
   artwork_year: 2015
-  artwork_medium_en:
-  artwork_medium_ko: 
+  artwork_medium_en: Experiential guide program, the 1st floor concourse and whole exhibit hall, approx. 30min
+  artwork_medium_ko: 경험 가이드 프로그램, 1층 중앙 홀 및 전시관 전체, 약 30분
   artwork_desc_en: >
+   Visitor A goes into C (  ) T (  ). 
+   The only way to communicate is with typography and symbols. 
+   
+   Visitor A clears immigration and is in a simple few processes able
+   To be a citizen in this city.
+   
+   Citizen A makes the first step.
+   Exchanges glances with citizens who have all different signs
+   Passing through (  )s.
+   
+   Citizen A uses his/her tools as a guide
+   Gets questions by unknown people, 
+   Desires or recollects the C (  ) T (  ). 
+   Welcome to C (  ) T (  ) Now, it's your turn.
+
+
+
+
   artwork_desc_ko: >
-   C( ) T( ) Guide 
-   방문자 A는 C(  ) T(  )에 들어선다.이곳의 소통방법은 문자와 기호뿐이다.방문자 A는 이 도시의 시민이 되기 위해 입국심사와 몇 가지 간단한 절차를 밟는다.도시에 첫발을 내디딘 시민 A.저마다 다른 표식을 한 시민들과 시선이 오가고 도시의 (    )들을 통과한다.시민 A는 자신이 가진 도구를 길잡이로 알 수 없는 상대로부터 질문을 받으며, C(  ) T(  )를 욕망하거나 추억한다. Welcome to C(  ) T(  ) 이제 당신 차례.
+   방문자 A는 C (  ) T (  )에 들어선다.
+   이곳의 소통 방법은 문자와 기호뿐이다.
+
+   방문자 A는 이 도시의 시민이 되기 위해
+   입국 심사와 몇 가지 간단한 절차를 밟는다.
+
+   도시에 첫발을 내디딘 시민 A.
+   저마다 다른 표식을 한 시민들과 시선이 오가고
+   도시의 (  )들을 통과한다.
+
+   시민 A는 자신이 가진 도구를 길잡이로
+   알 수 없는 상대로부터 질문을 받으며,
+   C (  ) T (  )를 욕망하거나 추억한다.
+
+   Welcome to C (  ) T (  )
+   이제 당신 차례.
 
 
 venue_name_en: Culture Station Seoul 284

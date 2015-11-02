@@ -8,21 +8,24 @@ origin_lat: 10.768451
 origin_lng: 106.6943626
 
 participant_bio_en: >
- Based in Saigon aka. Ho Chi Minh City, Vietnam, Giang Nguyen is a design lecturer by day at RMIT University (Saigon South Campus, Vietnam) and a multidisciplinary designer by night. Giang graduated from Savannah College of Art & Design (Savannah, GA) – Master of Art (Graphic Design) program in 2012. He has been working both independently and in collaboration with various agencies around the world as a graphic (mostly branding), UX & UI designer. He is also a type designer at his one-man type foundry called The Sweatshoppe. At the moment, Giang is partnering with the newly formed creative collective, The Lab.
-
+ Giang Nguyen is based in Saigon aka. Ho Chi Minh City, Vietnam. He is a design lecturer by day at RMIT University (Saigon South Campus, Vietnam) and a multidisciplinary designer by night. Giang graduated from Savannah College of Art & Design (Savannah, GA) – Master of Art (Graphic Design) program in 2012. He has been working both independently and in collaboration with various agencies around the world as a graphic (mostly branding), UX & UI designer. He is also a type designer at his one-man type foundry called The Sweatshoppe. At the moment, Giang is partnering with the newly formed creative collective, The Lab.
 
 participant_bio_ko: >
  베트남의 수도 호찌민에서 활동하는 장 응우옌은 낮에는 RMIT 대학교 사이공 남 캠퍼스에서 디자인을 가르치고 밤에는 다학제적 디자이너로 살아간다. 2012년 서배너 미술 디자인 대학을 졸업한 그는 독립적으로 일하지만 동시에 전 세계 여러 에이전시들과 (주로 브랜딩 관련) 그래픽, UX & UI 디자이너로서 협업하기도 한다. 또한 그는 홀로 꾸려나가는 폰트 회사 스위트쇼페의 단 하나뿐인 글꼴 디자이너이자, 최근 만들어진 창작 집단 ‘더 랩’의 크리에이티브 디렉터이다.
 
 artworks:
 -
-  artwork_name_en: 
-  artwork_name_ko: 
-  artwork_year: 
+  artwork_name_en: Saigon—The Melting Pot
+  artwork_name_ko: 사이공—용광로
+  artwork_year: 2015
   artwork_medium_en:
   artwork_medium_ko: 
   artwork_desc_en: >
+   The typographic images document the traces of various influences of foreign cultures in Saigon / Ho Chi Minh City — from aesthetic influences of Art Deco movement dated back to the French-colonial era of early 20th century, to social, economical influences of modern day globalization.
+
   artwork_desc_ko: >
+   장응우옌은 20세기 초 프랑스 식민지 시절 유행했던 아르 데코 운동부터 오늘날 세계화가 미친 사회경제적 영향까지, 타이포그래피 이미지를 통해 다양한 외국 문화가 호찌민이라는 도시에 끼친 흔적을 추적한다.
+
 
 
 venue_name_en: Culture Station Seoul 284

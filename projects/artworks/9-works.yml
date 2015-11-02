@@ -8,7 +8,7 @@ origin_lat: 37.57363
 origin_lng: 126.99054
 
 participant_bio_en: >
-
+ Works is a graphic design studio and a retail space for design objects. Since 2012, Kookmin University Graphic Design major Park Ji-seong, Industrial Design majors Lee Harim, Lee Yeonjeong have been running this studio and store. Their major works are Snack Exhibition, Innisfree Jeju House, Classic Farm as well as various other projects.
 
 participant_bio_ko: >
  워크스는 그래픽디자인 스튜디오와 작업물을 판매하는 공간을 운영한다. 2012년부터 국민대학교에서 시각디자인을 전공한 박지성, 공업 디자인을 전공한 이연정, 이하림이 운영하고 있다. 주요 작업으로 <과자전>, <이니스프리 제주하우스>, <클래식농원> 등이 있고 워크스의 다양한 프로젝트들을 기획, 진행한다.
@@ -21,9 +21,10 @@ artworks:
   artwork_medium_en: Plastic, 90*232cm
   artwork_medium_ko: 플라스틱, 90x232cm
   artwork_desc_en: >
-  artwork_desc_ko: >
-   2015년 현재 대한민국 사회를 아우르는 단어가 있다면 두말없이 이 단어일 것이다. 정치권, 여객기 안, 백화점 주차장... 슈퍼갑이란 말은 2015년 현재 대한민국을 대표하면서도 헤어나지 못하게 꽉 잡고 있는 습성을 단적으로 표현한다. 박경식은 기득권층이나 상위에 있는 사람들의 횡포로 인해 만들어진 이 단어를 빌미로 삼아 남보다 더 높은 곳에 있다고 착각하는 이들을 끌어내릴 도구를 소개한다.
+   Since 2000, apartment branding has become a huge trend. A new way of naming an apartment complex, which reveal the characteristics of the estate with adjectives and nouns has been developed. Combined with this and the booming real estate investment craze, there is even an apartment name with over 19 letters. Through this naming frenzy is reflected the current state of the city as well as the times we live in.
 
+  artwork_desc_ko: >
+   2000년대 이후 아파트 브랜딩이 유행하면서, 브랜드 네임뿐만 아니라 아파트의 특징을 설명하는 단어와 형용사들을 나열하는 아파트 조어법이 등장하게 되었다. 이러한 아파트 과열 현상과 부동산 투자 열풍이 결합되어 현재는 이름이 열아홉 자가 넘는 아파트가 존재하게 되었다. 한국의 아파트 조어법을 통해 현재 우리 도시의 모습을 보여준다.
 
 
 venue_name_en: Culture Station Seoul 284

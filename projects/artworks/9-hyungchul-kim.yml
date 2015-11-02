@@ -8,7 +8,7 @@ origin_lat: 37.51044
 origin_lng: 127.057
 
 participant_bio_en: >
-
+ Hyung-chul Kim majored in Visual Communication Design at Dankook University. He joined Hong Design in 2003 and participated in projects for Museum of Arts at Seoul National University, the Shilla Hotels and Resorts, the Korea Craft & Design Foundation, AmorePacific, Samsung Card and Korea National University of Arts. Presently, he is an art director at Hong Design. He has also participated in: Korea International Poster Biennale, Power of the Moon—Design, Catch the Time, Wearing Hangeuk, as well as other exhibitions.
 
 participant_bio_ko: >
  단국대학교에서 시각디자인을 공부한 뒤 2003년 홍디자인에 입사하여 서울대미술관, 신라호텔, 한국공예디자인문화진흥원, 아모레퍼시픽, 삼 성카드, 한국예술종합학교 등을 위한 디자인 프로젝트를 진행해 왔다. 현재 홍디자인에서 아트디렉터로 재직 중이며 <코리아 국제포스터 비엔 날레>, <달의 힘_디자인, 시간을 낚다>, <입는한글> 등의 전시에 참여 하기도 했다.
@@ -21,6 +21,7 @@ artworks:
   artwork_medium_en: Silk screen on paper, 4piece, each 72.8*51.5cm
   artwork_medium_ko: 판화지에 실크스크린, 4개, 각 72.8*51.5cm
   artwork_desc_en: >
+   A neon sign turns on and illuminates a message in the night, sometimes making strange cryptic messages when the argon gas flickers low. During the day, it reverts back to normal allowing these weird nocturnal messages to survive longer than expected.
   artwork_desc_ko: >
    밤이 되면 불을 밝혀 메시지를 전달하는 네온사인은, 가끔씩 엉뚱한 메시지를 스스로 만들어내기도 한다. 날이 밝으면 다시 정상으로 돌아오기 때문에 이 엉뚱한 메시지는 생각보다 오랫동안 도시의 밤에만 볼 수 있는 문자로 유지된다.
 
