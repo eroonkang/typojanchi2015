@@ -27,7 +27,9 @@ WY.models.MapManager = (function(){
 
   MapManager.prototype = {
     init: function(){
-      this.map = L.map(this.el_name).setView([37.56131657517743, 126.97120428085327], 15);
+      this.map = L.map(this.el_name, {
+        zoomControl: false
+      }).setView([37.56131657517743, 126.97120428085327], 15);
       // WY.constants.map = this.map;
       // 
       L.tileLayer(this.map_address[WY.constants.locale], {
@@ -35,7 +37,7 @@ WY.models.MapManager = (function(){
       }).addTo(this.map);
 
       this.map.scrollWheelZoom.disable();
-      // new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
+      new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
 
       // this.map.doubleClickZoom.disable();
       $("#map-expander").click(_.bind(function(){
