@@ -161,12 +161,149 @@ $route->submit();
     </div>
     <div id="content">
     </div>
+    <div id="intro">
+      <div class="cols single">
+        <div class="logos">
+          <img src="<? echo $home_url; ?>/images/ct.svg" class="ct">
+        </div>
+      </div>
+      <div class="cols triple">
+        <h2>Typojanchi 2015</h2>
+        <h3>The 4th International Typography Biennale</h3>
+        <h3>November 11 — December 27, 2015</h3>
+        <p class="description">
+          The distinguishing characteristics of cities can be found in airports, train stations and public systems, such as road signs or street signs marked with symbols and letters. Such characteristics can also be found in places of natural heritage such as rivers, parks, or artifacts like buildings and monuments. However, the authentic cultural characterof cities, which might be both traditional or vernacular, is acquired and achieved from the lives of people.The resulting languages and structures which exist everywhere in the streets of the city might resemble something akin to a religious confession emanating from the lives of people.
+        </p>
+        <p class="description">
+        These days, commercial signage and street flyers all compete with public sign systems such as speed limits and directional markers.The information of newspapers and magazines has now spread to mobile screens in the palms of people. At all times, the eyes of citizens are permanently occupied. Signage located on and around buildings is static but now equipped with technology and a variety of forms by which they cover the entire facade of the cityscape.
+        </p>
+        <p class="description">
+        Typojanchi 2015 wishes to consider the city’s own typographic cultural aspects. As we mentioned above, we consider these to be authentic locations. Despite the existence of unsightly or perhaps disagreeable objects and structures, we consider these to be authentic scenes in a city. We can recognize these as meaningful components of a diverse, urban environment. And with all of these components, we embark on a celebration or ‘Janchi’(Korean for party/celebration) of typography.This is Typojanchi’s means of interpreting this era and the essential values in this generation, society and community with those who are interested in typographic culture and the city environment. Whether they are designers or artists, it is their perspectives and points of view that we hope to share with this age.
+        </p>
+      </div>
+      <div class="cols single-wider">
+        <div class="notice">
+          <h2>Typojanchi2015 Open Talk</h2>
+          <p class="description">
+            NHN Green Factory Connect Hall<br>
+            November 12–13<br>
+            3–6pm
+          </p>
+          <h3>November 12</h3>
+          <p class="description">
+            Adrian Shaughnessy, UK<br>
+            Doosup Kim, KR<br>
+            Roman Wilhelm, GE<br>
+            Asia City Text/ure<br>
+          </p>
+          <h3>November 13</h3>
+          <p class="description">
+            Catherine Griffiths, NZ<br>
+            Dainippon Typo Organiztion, JP<br>
+            Research and Development, SE<br>
+            Wang Ziyuan, CN<br>
+            Studio Spass, NL<br>
+          </p>
+          <a href="#">
+            <div class="btn">
+              Reserve a seat
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="cols hr">
+      </div>
+      <div class="cols single">
+        <div class="logos">
+          <img src="<? echo $home_url; ?>/images/tj.svg" class="tj">
+        </div>
+      </div>
+      <div class="cols single credit">
+        <h4><span class="underline">Director</span></h4>
+        <ul class="index-list">
+          <li>Kymn Kyungsun<br>Seoul National University</li>
+        </ul>
+      </div>
+
+      <div class="cols single credit">
+        <h4><span class="underline">Special Exhibition Director</span></h4>
+        <ul class="index-list">
+          <li>Adrian Shaughnessy<br>Royal College of Art</li>
+        </ul>
+      </div>
+
+      <div class="cols single credit">
+        <h4><span class="underline">Hosted By</span></h4>
+        <ul class="index-list">
+          <li>Ministry of Culture, <br> Sports and Tourism</li>
+        </ul>
+      </div>
+
+      <div class="cols single credit">
+        <h4><span class="underline">Organized By</span></h4>
+        <ul class="index-list">
+          <li>KCDF(Korean Craft and Design Foundation)</li>
+          <li>Korean Society of Typography</li>
+        </ul>
+      </div>
+      <div class="cols single">
+        &nbsp;
+      </div>
+      <div class="cols single credit">  
+        <h4><span class="underline">Curators</span></h4>
+        <ul class="index-list">
+          <li>Chris Ro<br>Hongik University </li>
+          <li>Jaemin Lee<br>Studio fnt</li>
+          <li>Kiseob Lee<br>Thanks Books</li>
+          <li>Moonkyung Choi<br>PaTI</li>
+          <li>Ahn Byung-Hak<br>Hongik University </li>
+          <li>Fritz Park<br>N&amp;Co</li>
+          <li>Goto Tetsuya<br>ooo Projects</li>
+          <li>Hyun Cho<br>S/O Project</li>
+          <li>Min Byung-Geol<br>The Korean Society of Typography Board</li>
+        </ul>
+      </div>
+      <div class="cols single credit">
+        <h4><span class="underline">Organizing Board</span></h4>
+        <ul class="index-list">
+          <li>Ahn Sang Soo<br> Chairman, Organizing Board</li>
+          <li>Lars Muller<br> Lars Müller Publishers</li>
+          <li>Neville Brody<br> Royal College of Art </li>
+          <li>Paula Scher<br> Pentagram</li>
+          <li>Wang Xu<br> wx-design</li>
+          <li>Hara Kenya<br> Hara Design Institute </li>
+          <li>Jaejun Han<br> Chairman, The Korean Society of Typography </li>
+          <li>Yongseob Kim<br> Deputy Manager, Ministry of Culture, Sports and Tourism, of Design Space and Culture </li>
+          <li>Jungchul Choi<br> Director, KCDF</li>
+        </ul>
+      </div>
+      <div class="cols single credit">
+        <h4><span class="underline">Newsletter Advisory Committee</span></h4>
+        <ul class="index-list">
+          <li>Catherine Griffiths<br>Studio Catherine Griffiths</li>
+          <li>Rob Giampietro<br>Lined &amp; Unlined </li>
+          <li>Tetsuya Goto<br>ooo Projects </li>
+          <li>Peter Bilak<br>Typotheque</li>
+        </ul>
+      </div>
+      <div class="cols single credit">
+        <h4><span class="underline">Promotion Committee</span></h4>
+        <ul class="index-list">
+          <li>Min Choi<br> Chairman, 2013 Typojanchi Director</li>
+          <li>Byungju Lee<br>2011 Typojanchi Director</li>
+          <li>Jaewan Jung<br> Yeungnam University </li>
+          <li>Jung Jin Yeol<br> Kookmin University </li>
+          <li>Seongtae Park<br> Junglim Foundation </li>
+          <li>Sujin Park<br> Ewha Womans University</li>
+        </li>
+      </div>
+    </div>
   </div>
 
   
-  <a id="map-expander">
+<!--   <a id="map-expander">
 
-  </a>
+  </a> -->
    
   
 

@@ -1,8 +1,9 @@
 body {
   font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
   font-style: normal;
+  text-rendering: optimizeLegibility;
   font-size: 19px;
-  line-height: 1.2em;
+  line-height: 1.3em;
   background-color: #FFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -99,12 +100,25 @@ a:hover {
   width: 220px;
 }
 
+.single-wider {
+  width: 345px;
+}
+
 .double {
   width: 470px;
 }
 
 .triple {
   width: 720px;
+}
+
+.quadruple {
+  width: 970px;
+}
+
+.hr {
+  width: 970px;
+  margin: 2em 0 2em 250px;
 }
 
 .participant {
@@ -122,13 +136,12 @@ h3 {
 p.description {
   margin: 1em 0;
   padding-right: 4em;
-  line-height: 1.4em;
 }
 
 p.bio {
   margin-left: 4em;
   font-size: 16px;
-  line-height: 1.4em;
+  line-height: 1.3em;
 }
 
 .artwork-photo {
@@ -148,6 +161,63 @@ p.bio {
 
 .artwork-photo img:hover {
   opacity: 1;
+}
+
+.notice {
+  font-size: 16px;
+  line-height: 1.3em;
+  margin-top: 4em;
+  border: 1px solid;
+  padding: 15px 20px 20px 20px;
+}
+.notice h2, .notice h3 {
+  display: inline;
+  border-bottom: 1px solid;
+  padding-right: 0;
+}
+.notice p {
+  padding-right: 0;
+}
+.notice .btn {
+  display: inline-block;
+  border: 1px solid;
+  padding: 0.25em 0.7em;
+}
+.notice .btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.credit {
+  font-size: 16px;
+  line-height: 1.3em;
+}
+.credit h4 {
+  display: inline-block;
+  margin: 0 0 1em 0;
+}
+.credit h4 .underline {
+  border-bottom: 1px solid;
+}
+.credit ul {
+  margin-bottom: 2em;
+}
+.credit ul li {
+  margin-bottom: 1em;
+}
+
+.logos img.ct {
+  width: 80px;
+  height: auto;
+  position: relative;
+  top: 5em;
+  left: 100px;
+}
+.logos img.tj {
+  width: 80px;
+  height: auto;
+  position: relative;
+  left: 100px;
 }
 
 /* ---------------------------------------------- */
@@ -177,6 +247,7 @@ p.bio {
   padding-top: 8px;
   font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
   font-style: normal;
+  text-rendering: optimizeLegibility;
   transition: 0.2s background-color;
 }
 .project_icon:hover {
@@ -193,6 +264,7 @@ p.bio {
   text-align: center;
   font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
   font-style: normal;
+  text-rendering: optimizeLegibility;
   transition: 0.2s background-color;
 }
 .artwork_icon:hover {
@@ -208,6 +280,7 @@ p.bio {
   text-align: center;
   font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
   font-style: normal;
+  text-rendering: optimizeLegibility;
   transition: 0.2s background-color;
 }
 .venue_icon:hover {
@@ -223,10 +296,20 @@ p.bio {
   text-align: center;
   font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
   font-style: normal;
+  text-rendering: optimizeLegibility;
   transition: 0.2s background-color;
 }
 .artist_icon:hover {
   background-color: #fff;
+}
+
+.popup-project .leaflet-popup-content-wrapper {
+  background: #000;
+  color: #fff;
+}
+.popup-project .leaflet-popup-content-wrapper:hover {
+  background: #fff;
+  color: #000;
 }
 
 .leaflet-popup-content-wrapper a {
