@@ -142,7 +142,7 @@ $route->submit();
   <div id="map-outer">
     <div id="map-container">
     </div>
-    <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" class="map-overlays btn-logo">
+    <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn map-overlays btn-logo">
       <h1>
         <!-- <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
         Typojanchi 2015: The 4th International Typography Biennale -->
@@ -168,8 +168,8 @@ $route->submit();
       </a>
     </div>
     <div id="lang-control">
-      <a href="<? echo $home_url; ?>/ko" class="btn-ko"><span lang="ko">한</a>
-      <a href="<? echo $home_url; ?>/en" class="btn-en">EN</a>
+      <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>" class="btn-ko"><span lang="ko">한</a>
+      <a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>" class="btn-en">EN</a>
     </div>
     <div id="content">
     </div>
