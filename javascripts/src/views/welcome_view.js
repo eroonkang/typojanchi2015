@@ -162,7 +162,7 @@ WY.views.welcome_view = (function(){
   }
 
   function ko_type_adjust(){
-    var rex = new RegExp("([A-Za-z0-9,.\"():-]+)(?![^<>]*>)(?![^amp]*)", "gm");
+    var rex = new RegExp("([A-Za-z0-9,.\"():&-;]+)(?![^<>&]*>)", "gm");
 
     $(":lang(ko)").each(function(){
         var $this = $(this);
