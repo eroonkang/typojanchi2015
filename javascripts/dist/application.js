@@ -21748,6 +21748,7 @@ WY.models.DetailPageManager = (function(){
       $("title").text("About :: Typojanchi 2015");
 
       this.el.empty().append($(data));
+      this.ko_type_adjust();
       this.trigger('load_complete');
     },
 
@@ -21778,10 +21779,22 @@ WY.models.DetailPageManager = (function(){
         }, "Loading...", $(e.currentTarget).attr('href'));
       });
 
+      this.ko_type_adjust();
       this.trigger('load_complete');
+    },
+
+    ko_type_adjust: function(){
+      var rex = new RegExp("([a-zA-Z0-9_]+\.?[a-zA-Z0-9_]+)", "gm");
+
+      this.el.find(":lang(ko)").each(function(){
+        var $this = $(this);
+        var content = $this.html();
+        $this.html(content.replace(rex, "<span class='en-within-ko'>$1</span>"));
+      });
     }
 
   };
+
 
   
   return DetailPageManager;
@@ -22728,7 +22741,7 @@ WY.views.welcome_view = (function(){
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
       $('.map-overlays').hide();
       $('.project-participants ul').columnize({ width:200, lastNeverTallest: true});
-      ko_type_adjust();
+      // ko_type_adjust();
     });
 
 
