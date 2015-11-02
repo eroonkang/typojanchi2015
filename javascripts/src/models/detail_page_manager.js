@@ -35,7 +35,7 @@ WY.models.DetailPageManager = (function(){
     update_about: function(){
       $.ajax({
         type: 'GET',
-        url: WY.constants.home_url + "/about_" + WY.constants.locale + ".html",
+        url: WY.constants.home_url + "/templates/about_" + WY.constants.locale + ".ejs",
         success: this.about_load_complete_handler
       });
     },
@@ -53,7 +53,8 @@ WY.models.DetailPageManager = (function(){
     about_load_complete_handler: function(data){
       $("title").text("About :: Typojanchi 2015");
 
-      this.el.empty().append($(data));
+      var tmpl = _.template(data);
+      this.el.empty().append($(tmpl()));
       this.ko_type_adjust();
       this.trigger('load_complete');
     },
