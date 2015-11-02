@@ -95,7 +95,7 @@ $route->submit();
     <div id="section-header">
       <h2><a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn">About (Typojanchi)</a></h2>
       <div id="index-left"><a href="<? echo $home_url; ?>/en">EN</a> / <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a></div>
-      <div id="index-right" class="close_index"><a href="javascript:void(0);"><img class="icon icons8-Delete" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABnElEQVRoQ+3Z4U3DMBAF4NcJYBQ2ACYpTABsAhvABB0BRmAU2AA91EhRlMjnu/fUqrJ/tokv353VnN0dLmTsLsSBATm3So6KjIqYMjCWlimx6Wl7KnIDYA/gJR2t78ZXAO8AviO3RSFEfAK4Pk7+GJm8cA0BTNoPgPsIJgphdp5mD8ZALsyEmMK9AXhuJSUK4TzLAA7MMsYHgIcWgt/3QNyYNCIDcWFKiCxEjSkjKhAVRoKoQqoYGUIByWKkCBWkFyNHKCFRjAWhhrQwNoQDsoXh5/M3dPiNHXmruyBrmPnzyBFOyBbGgnBC2O4fANwtloaj0fwP0ds0RpYsEdy7cA+zNiwYNWQNweXEwY3SNOQYJWQLMf1aWfczKkgLMa+EpTIKSBRhxVQhvQgbpgLJIiyYLKSKkGMyEBVCiumFqBEyTA/EhZBgohA3ooyJQr4A3M5aDFsXu3KiKT0yZQNIzBUAJ2JZmd9jB908kY9WhAGIYd/UPFCOtMiBayx/KwTinvaSnoqc9kkb0Qfk3MozKjIqYsrAWFqmxKan/QOGW3YzGVri7gAAAABJRU5ErkJggg==" width="24" height="24"></a></div>
+      <div id="index-right" class="close_index"><a href="javascript:void(0);" class="no-underline"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABnElEQVRoQ+3Z4U3DMBAF4NcJYBQ2ACYpTABsAhvABB0BRmAU2AA91EhRlMjnu/fUqrJ/tokv353VnN0dLmTsLsSBATm3So6KjIqYMjCWlimx6Wl7KnIDYA/gJR2t78ZXAO8AviO3RSFEfAK4Pk7+GJm8cA0BTNoPgPsIJgphdp5mD8ZALsyEmMK9AXhuJSUK4TzLAA7MMsYHgIcWgt/3QNyYNCIDcWFKiCxEjSkjKhAVRoKoQqoYGUIByWKkCBWkFyNHKCFRjAWhhrQwNoQDsoXh5/M3dPiNHXmruyBrmPnzyBFOyBbGgnBC2O4fANwtloaj0fwP0ds0RpYsEdy7cA+zNiwYNWQNweXEwY3SNOQYJWQLMf1aWfczKkgLMa+EpTIKSBRhxVQhvQgbpgLJIiyYLKSKkGMyEBVCiumFqBEyTA/EhZBgohA3ooyJQr4A3M5aDFsXu3KiKT0yZQNIzBUAJ2JZmd9jB908kY9WhAGIYd/UPFCOtMiBayx/KwTinvaSnoqc9kkb0Qfk3MozKjIqYsrAWFqmxKan/QOGW3YzGVri7gAAAABJRU5ErkJggg==" width="24" height="24"></a></div>
     </div>
     <div id="section-cities">
       <ul class="index-list">
@@ -142,18 +142,30 @@ $route->submit();
   <div id="map-outer">
     <div id="map-container">
     </div>
-    <a href="javascript:void(0);" class="map-overlays btn-logo">
+    <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" class="map-overlays btn-logo">
       <h1>
         <!-- <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
         Typojanchi 2015: The 4th International Typography Biennale -->
-        <img src="<? echo $home_url; ?>/images/typojanchi-h1.png">    
+        <img src="<? echo $home_url; ?>/images/h1_<? echo $locale; ?>.svg" class="title-<? echo $locale; ?>">
       </h1>
     </a>
-    <a href="javascript:void(0);" class="map-overlays btn-ct"><img src="<? echo $home_url; ?>/images/ct.png" class="left"></a>
-    <a href="javascript:void(0);" class="map-overlays btn-tj"><img src="<? echo $home_url; ?>/images/tj.png" class="right"></a>
+    <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" class="map-overlays btn-ct"><img src="<? echo $home_url; ?>/images/ct.svg" class="left"></a>
+    <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" class="map-overlays btn-tj"><img src="<? echo $home_url; ?>/images/tj.svg" class="right"></a>
 
     <div id="menu-control">
-      <a href="javascript:void(0);" class="btn-menu"><img class="icon icons8-Up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABlklEQVRoQ+3Z7U0DMQwG4Lcb0BGYAEagGzACTAYjsEEZASZgBNgAZJFDUZQPf1bo5Pw8pZc8thun6gE7GYedOJCQ/5bJS2TktqDfIvHREEKcC+AEIAwTCdkQVwXyBSAMEwVpEVtVhWEiICNEKMYbskKEYTwhXEQIxgsiRbhjPCAjxDuAm6Z39J65HABWyAxxB+CzgRwBvHaAZowFskLQ5r4bCK1HfcUdo4VwEGToQei5O0YD4SJmEHeMFCJBrCCuGAlEiuBA3DBciAbBhbhgOBAtQgIxY1YQC0IKMWFmECtCA1FjRhAPhBaiwvQg1Kw+StOqGzPdk+jaQR2bO0YNkfP5WdO8bvcxysgDgKdqNQ3CkpFt6R7mEcBzG4nZd2TDaBEekLbMugiatDq17ssFT1JOdbAspVW/hzJDZf0yqskVhFPLszlekOU+ErIM0e+EzAgzUH/TsrSYEcvSYgYqS0saqCwtacTy1GJGLEuLGag8taSBytKSRixPLWbE6O+DetCvvJARnZGQTfdempCLhZq50G4y8gOPao8zyaJ7CgAAAABJRU5ErkJggg==" width="20" height="20"></a>
+      <a href="<? echo $home_url; ?>/<? echo $locale; ?>" class="btn-home">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+          <path style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Bitstream Vera Sans" d="M 16 2.59375 L 15.28125 3.28125 L 2.28125 16.28125 L 3.71875 17.71875 L 5 16.4375 L 5 27 L 5 28 L 6 28 L 13 28 L 14 28 L 14 27 L 14 18 L 18 18 L 18 27 L 18 28 L 19 28 L 26 28 L 27 28 L 27 27 L 27 16.4375 L 28.28125 17.71875 L 29.71875 16.28125 L 16.71875 3.28125 L 16 2.59375 z M 16 5.4375 L 25 14.4375 L 25 26 L 20 26 L 20 17 L 20 16 L 19 16 L 13 16 L 12 16 L 12 17 L 12 26 L 7 26 L 7 14.4375 L 16 5.4375 z" color="#000" overflow="visible" font-family="Bitstream Vera Sans"/>
+        </svg>
+      </a>
+      <a href="javascript:void(0);" class="btn-menu">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24" enable-background="new 0 0 24 24">
+            <path style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Bitstream Vera Sans" d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z" color="#000" overflow="visible" enable-background="accumulate" font-family="Bitstream Vera Sans"/>
+        </svg>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+          <path style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Bitstream Vera Sans" d="M 7 5 L 7 6 L 7 26 L 7 28 L 8.59375 26.8125 L 16 21.25 L 23.40625 26.8125 L 25 28 L 25 26 L 25 6 L 25 5 L 24 5 L 8 5 L 7 5 z M 9 7 L 23 7 L 23 24 L 16.59375 19.1875 L 16 18.75 L 15.40625 19.1875 L 9 24 L 9 7 z" color="#000" overflow="visible" font-family="Bitstream Vera Sans"/>
+        </svg> -->
+      </a>
     </div>
     <div id="lang-control">
       <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>" class="btn-ko"><span lang="ko">한</a>

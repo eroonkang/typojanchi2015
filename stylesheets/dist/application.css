@@ -556,7 +556,7 @@ body {
 
 :lang(ko) {
   font-size: 0.88em;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 .en-within-ko {
@@ -571,6 +571,12 @@ a {
 
 a:hover {
   border-bottom: 1px solid;
+}
+
+a.no-underline:hover {
+  border-bottom: none;
+  opacity: .5;
+  cursor: pointer;
 }
 
 /* ---------------------------------------------- */
@@ -892,8 +898,8 @@ p.bio {
 
 #lang-control, #menu-control {
   position: absolute;
-  top: 70px;
-  right: 25px;
+  top: 100px;
+  left: 25px;
   border: 2px solid;
   border-radius: 2px;
   background: #fff;
@@ -918,8 +924,18 @@ p.bio {
 #lang-control a.btn-en, #menu-control a.btn-en {
   border-top: 1px solid;
 }
-#lang-control a.btn-menu img, #menu-control a.btn-menu img {
+#lang-control a.btn-home svg, #menu-control a.btn-home svg {
   margin-top: 3px;
+  width: 20px;
+  height: auto;
+}
+#lang-control a.btn-menu, #menu-control a.btn-menu {
+  border-top: 1px solid;
+}
+#lang-control a.btn-menu svg, #menu-control a.btn-menu svg {
+  margin-top: 3px;
+  width: 20px;
+  height: auto;
 }
 
 .map-overlays.btn-logo {
@@ -930,7 +946,7 @@ p.bio {
   -webkit-transform: translate(-50%, 0);
 }
 .map-overlays.btn-logo h1 {
-  margin: 0 auto;
+  margin: 0 auto -10px auto;
   padding: 10px 0;
   text-align: center;
   text-shadow: -1px -1px 0px #fff,   1px -1px 0px #fff, -1px  1px 0px #fff, 1px  1px 0px #fff;
@@ -941,8 +957,18 @@ p.bio {
   opacity: 0.5;
   border: none;
 }
+.map-overlays.btn-logo img.title-ko {
+  width: 700px;
+  height: auto;
+}
+.map-overlays.btn-logo img.title-en {
+  width: 700px;
+  height: auto;
+}
 .map-overlays.btn-ct {
   position: absolute;
+  width: 60px;
+  height: auto;
   left: 30px;
   bottom: 30px;
 }
@@ -951,6 +977,8 @@ p.bio {
   border: none;
 }
 .map-overlays.btn-tj {
+  width: 50px;
+  height: auto;
   position: absolute;
   right: 30px;
   bottom: 30px;
