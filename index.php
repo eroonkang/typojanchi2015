@@ -164,9 +164,9 @@ $route->submit();
   </div>
 
   
-  <a id="map-expander">
+<!--   <a id="map-expander">
 
-  </a>
+  </a> -->
    
   
 

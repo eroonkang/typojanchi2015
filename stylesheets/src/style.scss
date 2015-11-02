@@ -1,5 +1,5 @@
 $base_font_size       : 19px; // px;
-$base_line_height     : 1.2em; // px
+$base_line_height     : 1.3em; // px
 $background-color: #FFF;
 $text_color: #000;
 
@@ -7,6 +7,12 @@ $text_color: #000;
 @mixin regular_type {
   font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
   font-style:   normal;
+  text-rendering: optimizeLegibility;
+}
+
+@mixin small_type {
+  font-size: 16px;
+  line-height: 1.3em;
 }
 
 
@@ -106,11 +112,22 @@ a:hover {
 .single {
   width:220px;
 }
+.single-wider {
+  width:345px;
+}
 .double {
   width:470px;
 }
 .triple {
   width:720px;
+}
+.quadruple {
+  width:970px;
+}
+.hr {
+  width:970px;
+  margin: 2em 0 2em 250px;
+  // border-bottom:1px solid;
 }
 .participant {
   text-transform: uppercase;
@@ -124,12 +141,11 @@ h3 {
 p.description {
   margin:1em 0;
   padding-right:4em;
-  line-height: 1.4em;
+  // line-height: 1.4em;
 }
 p.bio {
   margin-left:4em;
-  font-size: 16px;
-  line-height: 1.4em;
+  @include small_type;
 }
 .artwork-photo {
   margin:2em 0;
@@ -146,7 +162,61 @@ p.bio {
 .artwork-photo img:hover {
   opacity: 1;
 }
-
+.notice {
+  @include small_type;
+  margin-top:4em;
+  border:1px solid;
+  padding: 15px 20px 20px 20px;
+  h2, h3 {
+    display: inline;
+    border-bottom: 1px solid;
+    padding-right: 0;
+  }
+  p {
+    padding-right: 0;
+  }
+  .btn {
+    display: inline-block;
+    border:1px solid;
+    padding: 0.25em 0.7em;
+    &:hover {
+      background-color: #000;
+      color:#fff;
+    }
+  }
+}
+.credit {
+  @include small_type;
+  h4 {
+    display: inline-block;
+    margin: 0 0 1em 0;
+    .underline {
+      border-bottom: 1px solid;
+    }
+  }
+  ul {
+    margin-bottom:2em;
+    li {
+      margin-bottom:1em;
+    }
+  }
+}
+.logos {
+  img.ct {
+    width:80px;
+    height:auto;
+    position:relative;
+    top:5em;
+    left:100px;
+  }
+  img.tj {
+    width:80px;
+    height:auto;
+    position:relative;
+    // top:5em;
+    left:100px;
+  }
+}
 
 /* ---------------------------------------------- */
 /* map area */
@@ -223,6 +293,17 @@ p.bio {
   transition: 0.2s background-color;
   &:hover {
     background-color: #fff;
+  }
+}
+
+.popup-project {
+  .leaflet-popup-content-wrapper{
+    background: #000;
+    color: #fff;
+    &:hover {
+      background: #fff;
+      color: #000; 
+    }
   }
 }
 
