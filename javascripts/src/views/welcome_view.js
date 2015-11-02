@@ -134,7 +134,12 @@ WY.views.welcome_view = (function(){
 
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
       $('.map-overlays').hide();
-      $('.project-participants ul').columnize({ width:200, lastNeverTallest: true});
+      $('#content-outer').css({
+        visibility: "visible",
+        position: "relative",
+        top: "0px"
+      });
+      // $('.project-participants ul').columnize({ width:200, lastNeverTallest: true});
       // ko_type_adjust();
     });
 

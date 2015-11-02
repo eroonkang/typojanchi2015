@@ -171,7 +171,9 @@ $route->submit();
       <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>" class="btn-ko"><span lang="ko">한</a>
       <a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>" class="btn-en">EN</a>
     </div>
-    <div id="content">
+    <div id="content-outer">
+      <div id="content">
+      </div>
     </div>
   </div>
 
