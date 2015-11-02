@@ -136,6 +136,9 @@ a.no-underline:hover {
 .participant {
   text-transform: uppercase;
 }
+.left-nav {
+  margin-right:2em;
+}
 h3 {
   padding-right:4em;
 }
@@ -154,18 +157,35 @@ p.bio {
 .artwork-photo {
   margin:2em 0;
   border:1px solid;
+  &:hover {
+    border:1px solid #000;
+  }
+  img {
+    display: block;
+    opacity: 0;
+    min-height: 420px;  
+    &:hover{
+      opacity: 1;
+    }
+  }
 }
-.artwork-photo:hover {
-  margin:2em 0;
-  border:1px solid #000;
+
+.project-photo {
+  margin:1em 0;
+  border:1px solid;
+  &:hover {
+    border:1px solid #000;
+  }
+  img {
+    display: block;
+    opacity: 0;
+    min-height: 420px;  
+    &:hover{
+      opacity: 1;
+    }
+  }
 }
-.artwork-photo img {
-  display: block;
-  opacity: 0;
-}
-.artwork-photo img:hover {
-  opacity: 1;
-}
+
 .notice {
   @include small_type;
   margin-top:4em;
@@ -220,6 +240,10 @@ p.bio {
     // top:5em;
     left:100px;
   }
+}
+.index-list h2 {
+  text-transform: uppercase;
+  margin-bottom: 2em;
 }
 
 /* ---------------------------------------------- */

@@ -131,6 +131,10 @@ a.no-underline:hover {
   text-transform: uppercase;
 }
 
+.left-nav {
+  margin-right: 2em;
+}
+
 h3 {
   padding-right: 4em;
 }
@@ -154,18 +158,31 @@ p.bio {
   margin: 2em 0;
   border: 1px solid;
 }
-
 .artwork-photo:hover {
-  margin: 2em 0;
   border: 1px solid #000;
 }
-
 .artwork-photo img {
   display: block;
   opacity: 0;
+  min-height: 420px;
+}
+.artwork-photo img:hover {
+  opacity: 1;
 }
 
-.artwork-photo img:hover {
+.project-photo {
+  margin: 1em 0;
+  border: 1px solid;
+}
+.project-photo:hover {
+  border: 1px solid #000;
+}
+.project-photo img {
+  display: block;
+  opacity: 0;
+  min-height: 420px;
+}
+.project-photo img:hover {
   opacity: 1;
 }
 
@@ -224,6 +241,11 @@ p.bio {
   height: auto;
   position: relative;
   left: 100px;
+}
+
+.index-list h2 {
+  text-transform: uppercase;
+  margin-bottom: 2em;
 }
 
 /* ---------------------------------------------- */

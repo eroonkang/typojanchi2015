@@ -1,6 +1,13 @@
 <div class="cols single">
-  <ul class="index-list">
-    <li><a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn"><span lang="<%= WY.constants.locale %>">(<%= project.idx %>)<br><%= project["project_name_" + WY.constants.locale] %><br></span></a></li>
+  <ul class="index-list left-nav">
+    <li><a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn"><span lang="<%= WY.constants.locale %>">(<%= project.idx %>)</span></a></li>
+    
+    <h2>
+      <a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn">
+        <span lang="<%= WY.constants.locale %>"><%= project["project_name_" + WY.constants.locale] %></span>
+      </a>
+    </h2>
+
     <% _.each(project.project_artists, function(artist) { %>
       <li>
         <a href="<%= make_url(artist.url) %>" data-permalink="<%= extract_permalink_from_url(artist.url) %>" class="participant_change_btn">
