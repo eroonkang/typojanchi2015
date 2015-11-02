@@ -27,7 +27,7 @@ WY.models.MapManager = (function(){
 
   MapManager.prototype = {
     init: function(){
-      this.map = L.map(this.el_name).setView([37.5558393, 126.9716173], 15);
+      this.map = L.map(this.el_name).setView([37.56131657517743, 126.97120428085327], 15);
       // WY.constants.map = this.map;
       // 
       L.tileLayer(this.map_address[WY.constants.locale], {

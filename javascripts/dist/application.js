@@ -21701,7 +21701,7 @@ WY.models.DetailPageManager = (function(){
     this.tmpl;
 
     _.extend(this, Backbone.Events);
-    _.bindAll(this, "load_complete_handler");
+    _.bindAll(this, "detail_load_complete_handler", "about_load_complete_handler");
   }
 
   DetailPageManager.prototype = {
@@ -21718,16 +21718,41 @@ WY.models.DetailPageManager = (function(){
         return false; 
       }
 
+      if (this.permalink == "about") {
+        this.update_about();
+      } else {
+        this.update_detail();  
+      }
+      
+    },
+
+    update_about: function(){
+      $.ajax({
+        type: 'GET',
+        url: WY.constants.home_url + "/about_" + WY.constants.locale + ".html",
+        success: this.about_load_complete_handler
+      });
+    },
+
+    update_detail_page: function(){
       this.project_id = Number(this.permalink.split("-")[0]);
 
       $.ajax({
         type: 'GET',
         url: WY.constants.home_url + '/projects/artworks/' + this.permalink + ".yml",
-        success: this.load_complete_handler
+        success: this.detail_load_complete_handler
       });
     },
 
-    load_complete_handler: function(data){
+    about_load_complete_handler: function(data){
+      $("title").text("About :: Typojanchi 2015");
+
+      this.el.empty().append($(data));
+      this.trigger('load_complete');
+    },
+
+
+    detail_load_complete_handler: function(data){
 
       this.data = jsyaml.load(data);
       // debugger;
@@ -21753,8 +21778,6 @@ WY.models.DetailPageManager = (function(){
         }, "Loading...", $(e.currentTarget).attr('href'));
       });
 
-      $('.map-overlays').hide();
-      $('.project-participants ul').columnize({ width:200, lastNeverTallest: true});
       this.trigger('load_complete');
     }
 
@@ -21792,7 +21815,7 @@ WY.models.MapManager = (function(){
 
   MapManager.prototype = {
     init: function(){
-      this.map = L.map(this.el_name).setView([37.5558393, 126.9716173], 15);
+      this.map = L.map(this.el_name).setView([37.56131657517743, 126.97120428085327], 15);
       // WY.constants.map = this.map;
       // 
       L.tileLayer(this.map_address[WY.constants.locale], {
@@ -22677,10 +22700,18 @@ WY.views.welcome_view = (function(){
         hide_index();  
         map_manager.city_pan_to(e.latlng, e.zoom);
       });
+
+      $(".about_btn").click(function(e){
+        e.preventDefault();
+
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
     });
 
     map_manager.on('load_complete', function(e){
-      if (permalink != '') {
+      if (permalink != '' && permalink != "about") {
         map_manager.update_bound(permalink);  
       }
     });
@@ -22695,7 +22726,9 @@ WY.views.welcome_view = (function(){
       }
 
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
-      
+      $('.map-overlays').hide();
+      $('.project-participants ul').columnize({ width:200, lastNeverTallest: true});
+      ko_type_adjust();
     });
 
 
@@ -22712,6 +22745,8 @@ WY.views.welcome_view = (function(){
     });
 
     template_loader.load();
+
+
   }
 
   function ko_type_adjust(){
@@ -22758,7 +22793,9 @@ WY.views.welcome_view = (function(){
       var state = History.getState(); 
       permalink = state.data.permalink;
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
-      map_manager.update_bound(permalink);
+      if (permalink != "about") {
+        map_manager.update_bound(permalink);
+      }
       detail_page_manager.update(permalink);
     });
 
