@@ -21785,11 +21785,12 @@ WY.models.DetailPageManager = (function(){
     },
 
     ko_type_adjust: function(){
-      var rex = new RegExp("([a-zA-Z0-9_]+\.?[a-zA-Z0-9_]+)", "gm");
+      var rex = new RegExp("([a-zA-Z0-9_\/]+\.?[a-zA-Z0-9_]+)(?![^<>]*>)(?![&amp;])", "gm");
 
       this.el.find(":lang(ko)").each(function(){
         var $this = $(this);
         var content = $this.html();
+        debugger;
         $this.html(content.replace(rex, "<span class='en-within-ko'>$1</span>"));
       });
     }
@@ -22764,7 +22765,7 @@ WY.views.welcome_view = (function(){
   }
 
   function ko_type_adjust(){
-    var rex = new RegExp("([a-zA-Z0-9_]+\.?[a-zA-Z0-9_]+)", "gm");
+    var rex = new RegExp("([a-zA-Z0-9_]+\.?[a-zA-Z0-9_]+)(?![^<>]*>)", "gm");
 
     $(":lang(ko)").each(function(){
         var $this = $(this);
