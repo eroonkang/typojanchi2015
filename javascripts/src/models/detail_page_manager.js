@@ -91,12 +91,12 @@ WY.models.DetailPageManager = (function(){
     },
 
     ko_type_adjust: function(){
-      var rex = new RegExp("([a-zA-Z0-9_\/]+\.?[a-zA-Z0-9_]+)(?![^<>]*>)(?![&amp;])", "gm");
+      var rex = new RegExp("([A-Za-z0-9,.\"():-]+)(?![^<>]*>)(?![^amp]*)", "gm");
 
       this.el.find(":lang(ko)").each(function(){
         var $this = $(this);
         var content = $this.html();
-        debugger;
+        // debugger;
         $this.html(content.replace(rex, "<span class='en-within-ko'>$1</span>"));
       });
     }

@@ -20,7 +20,7 @@ WY.views.welcome_view = (function(){
     init_resize();
     init_history();
 
-    $('h1, .btn-menu, .btn-tj, .btn-ct').click(show_index);
+    $('.btn-menu, .btn-tj, .btn-ct').click(show_index);
     $('.close_index').click(hide_index);
 
   }
@@ -157,7 +157,7 @@ WY.views.welcome_view = (function(){
   }
 
   function ko_type_adjust(){
-    var rex = new RegExp("([a-zA-Z0-9_]+\.?[a-zA-Z0-9_]+)(?![^<>]*>)", "gm");
+    var rex = new RegExp("([A-Za-z0-9,.\"():-]+)(?![^<>]*>)(?![^amp]*)", "gm");
 
     $(":lang(ko)").each(function(){
         var $this = $(this);
