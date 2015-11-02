@@ -20,7 +20,11 @@ WY.models.MapManager = (function(){
     init: function(){
       this.map = L.map(this.el_name).setView([37.5558393, 126.9716173], 15);
       // WY.constants.map = this.map;
+      /*
       
+      https://b.tiles.mapbox.com/v4/mathpractice.ef398e06/7/109/48@2x.png?access_token=pk.eyJ1IjoibWF0aHByYWN0aWNlIiwiYSI6ImNpZ2hhN2Y2eDg1Y2t2Ym04M3p0emMyMHIifQ.1Nnnb5bqrFXHpdjw5A132A
+      
+       */
       L.tileLayer('https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw', {
         attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(this.map);
@@ -163,6 +167,7 @@ WY.models.MapManager = (function(){
 
           var popup = L.popup({
                         closeOnCilck: true,
+                        className: "popup-" + node.properties.type.toLowerCase()
                         // offset: L.point([0, -10])
                       })
                      .setLatLng(e.latlng)
@@ -417,7 +422,8 @@ WY.models.MapManager = (function(){
       _.each(path.nodes, _.bind(function(node){
         var popup = L.popup({
                           closeOnCilck: true,
-                          offset: L.point([0, -10])
+                          offset: L.point([0, -10]),
+                          className: "popup-" + node.data.properties.type.toLowerCase()
                         });
 
         if (node.data.properties.venue_name_ko == "문화역 서울 284") {
