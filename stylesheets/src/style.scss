@@ -295,6 +295,11 @@ p.bio {
     &.btn-ko {
       // border-top: 1px solid;
     }
+    &.btn-menu {
+      img {
+        margin-top: 3px;
+      }
+    }
   }
 }
 

@@ -835,6 +835,9 @@ p.bio {
 #lang-control a.btn-en, #menu-control a.btn-en {
   border-top: 1px solid;
 }
+#lang-control a.btn-menu img, #menu-control a.btn-menu img {
+  margin-top: 3px;
+}
 
 .map-overlays.btn-logo {
   position: absolute;
