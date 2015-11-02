@@ -95,7 +95,7 @@ $route->submit();
     <div id="section-header">
       <h2><a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn">About (Typojanchi)</a></h2>
       <div id="index-left"><a href="<? echo $home_url; ?>/en">EN</a> / <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a></div>
-      <div id="index-right" class="close_index"><a href="#"><img class="icon icons8-Delete" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABnElEQVRoQ+3Z4U3DMBAF4NcJYBQ2ACYpTABsAhvABB0BRmAU2AA91EhRlMjnu/fUqrJ/tokv353VnN0dLmTsLsSBATm3So6KjIqYMjCWlimx6Wl7KnIDYA/gJR2t78ZXAO8AviO3RSFEfAK4Pk7+GJm8cA0BTNoPgPsIJgphdp5mD8ZALsyEmMK9AXhuJSUK4TzLAA7MMsYHgIcWgt/3QNyYNCIDcWFKiCxEjSkjKhAVRoKoQqoYGUIByWKkCBWkFyNHKCFRjAWhhrQwNoQDsoXh5/M3dPiNHXmruyBrmPnzyBFOyBbGgnBC2O4fANwtloaj0fwP0ds0RpYsEdy7cA+zNiwYNWQNweXEwY3SNOQYJWQLMf1aWfczKkgLMa+EpTIKSBRhxVQhvQgbpgLJIiyYLKSKkGMyEBVCiumFqBEyTA/EhZBgohA3ooyJQr4A3M5aDFsXu3KiKT0yZQNIzBUAJ2JZmd9jB908kY9WhAGIYd/UPFCOtMiBayx/KwTinvaSnoqc9kkb0Qfk3MozKjIqYsrAWFqmxKan/QOGW3YzGVri7gAAAABJRU5ErkJggg==" width="24" height="24"></a></div>
+      <div id="index-right" class="close_index"><a href="javascript:void(0);"><img class="icon icons8-Delete" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABnElEQVRoQ+3Z4U3DMBAF4NcJYBQ2ACYpTABsAhvABB0BRmAU2AA91EhRlMjnu/fUqrJ/tokv353VnN0dLmTsLsSBATm3So6KjIqYMjCWlimx6Wl7KnIDYA/gJR2t78ZXAO8AviO3RSFEfAK4Pk7+GJm8cA0BTNoPgPsIJgphdp5mD8ZALsyEmMK9AXhuJSUK4TzLAA7MMsYHgIcWgt/3QNyYNCIDcWFKiCxEjSkjKhAVRoKoQqoYGUIByWKkCBWkFyNHKCFRjAWhhrQwNoQDsoXh5/M3dPiNHXmruyBrmPnzyBFOyBbGgnBC2O4fANwtloaj0fwP0ds0RpYsEdy7cA+zNiwYNWQNweXEwY3SNOQYJWQLMf1aWfczKkgLMa+EpTIKSBRhxVQhvQgbpgLJIiyYLKSKkGMyEBVCiumFqBEyTA/EhZBgohA3ooyJQr4A3M5aDFsXu3KiKT0yZQNIzBUAJ2JZmd9jB908kY9WhAGIYd/UPFCOtMiBayx/KwTinvaSnoqc9kkb0Qfk3MozKjIqYsrAWFqmxKan/QOGW3YzGVri7gAAAABJRU5ErkJggg==" width="24" height="24"></a></div>
     </div>
     <div id="section-cities">
       <ul class="index-list">
@@ -142,18 +142,18 @@ $route->submit();
   <div id="map-outer">
     <div id="map-container">
     </div>
-    <a href="#" class="map-overlays btn-logo">
+    <a href="javascript:void(0);" class="map-overlays btn-logo">
       <h1>
         <!-- <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
         Typojanchi 2015: The 4th International Typography Biennale -->
         <img src="<? echo $home_url; ?>/images/typojanchi-h1.png">    
       </h1>
     </a>
-    <a href="#" class="map-overlays btn-ct"><img src="<? echo $home_url; ?>/images/ct.png" class="left"></a>
-    <a href="#" class="map-overlays btn-tj"><img src="<? echo $home_url; ?>/images/tj.png" class="right"></a>
+    <a href="javascript:void(0);" class="map-overlays btn-ct"><img src="<? echo $home_url; ?>/images/ct.png" class="left"></a>
+    <a href="javascript:void(0);" class="map-overlays btn-tj"><img src="<? echo $home_url; ?>/images/tj.png" class="right"></a>
 
     <div id="menu-control">
-      <a href="#" class="btn-menu"><img class="icon icons8-Up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABlklEQVRoQ+3Z7U0DMQwG4Lcb0BGYAEagGzACTAYjsEEZASZgBNgAZJFDUZQPf1bo5Pw8pZc8thun6gE7GYedOJCQ/5bJS2TktqDfIvHREEKcC+AEIAwTCdkQVwXyBSAMEwVpEVtVhWEiICNEKMYbskKEYTwhXEQIxgsiRbhjPCAjxDuAm6Z39J65HABWyAxxB+CzgRwBvHaAZowFskLQ5r4bCK1HfcUdo4VwEGToQei5O0YD4SJmEHeMFCJBrCCuGAlEiuBA3DBciAbBhbhgOBAtQgIxY1YQC0IKMWFmECtCA1FjRhAPhBaiwvQg1Kw+StOqGzPdk+jaQR2bO0YNkfP5WdO8bvcxysgDgKdqNQ3CkpFt6R7mEcBzG4nZd2TDaBEekLbMugiatDq17ssFT1JOdbAspVW/hzJDZf0yqskVhFPLszlekOU+ErIM0e+EzAgzUH/TsrSYEcvSYgYqS0saqCwtacTy1GJGLEuLGag8taSBytKSRixPLWbE6O+DetCvvJARnZGQTfdempCLhZq50G4y8gOPao8zyaJ7CgAAAABJRU5ErkJggg==" width="20" height="20"></a>
+      <a href="javascript:void(0);" class="btn-menu"><img class="icon icons8-Up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABlklEQVRoQ+3Z7U0DMQwG4Lcb0BGYAEagGzACTAYjsEEZASZgBNgAZJFDUZQPf1bo5Pw8pZc8thun6gE7GYedOJCQ/5bJS2TktqDfIvHREEKcC+AEIAwTCdkQVwXyBSAMEwVpEVtVhWEiICNEKMYbskKEYTwhXEQIxgsiRbhjPCAjxDuAm6Z39J65HABWyAxxB+CzgRwBvHaAZowFskLQ5r4bCK1HfcUdo4VwEGToQei5O0YD4SJmEHeMFCJBrCCuGAlEiuBA3DBciAbBhbhgOBAtQgIxY1YQC0IKMWFmECtCA1FjRhAPhBaiwvQg1Kw+StOqGzPdk+jaQR2bO0YNkfP5WdO8bvcxysgDgKdqNQ3CkpFt6R7mEcBzG4nZd2TDaBEekLbMugiatDq17ssFT1JOdbAspVW/hzJDZf0yqskVhFPLszlekOU+ErIM0e+EzAgzUH/TsrSYEcvSYgYqS0saqCwtacTy1GJGLEuLGag8taSBytKSRixPLWbE6O+DetCvvJARnZGQTfdempCLhZq50G4y8gOPao8zyaJ7CgAAAABJRU5ErkJggg==" width="20" height="20"></a>
     </div>
     <div id="lang-control">
       <a href="<? echo $home_url; ?>/ko" class="btn-ko"><span lang="ko">한</a>
