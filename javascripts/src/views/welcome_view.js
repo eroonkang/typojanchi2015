@@ -203,6 +203,9 @@ WY.views.welcome_view = (function(){
       if (permalink != "about") {
         map_manager.update_bound(permalink);
       }
+
+      $(".btn-ko").attr('href', WY.constants.home_url + "/ko/" + permalink);
+      $(".btn-en").attr('href', WY.constants.home_url + "/en/" + permalink);
       detail_page_manager.update(permalink);
     });
 

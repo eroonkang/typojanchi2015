@@ -156,8 +156,8 @@ $route->submit();
       <a href="javascript:void(0);" class="btn-menu"><img class="icon icons8-Up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABlklEQVRoQ+3Z7U0DMQwG4Lcb0BGYAEagGzACTAYjsEEZASZgBNgAZJFDUZQPf1bo5Pw8pZc8thun6gE7GYedOJCQ/5bJS2TktqDfIvHREEKcC+AEIAwTCdkQVwXyBSAMEwVpEVtVhWEiICNEKMYbskKEYTwhXEQIxgsiRbhjPCAjxDuAm6Z39J65HABWyAxxB+CzgRwBvHaAZowFskLQ5r4bCK1HfcUdo4VwEGToQei5O0YD4SJmEHeMFCJBrCCuGAlEiuBA3DBciAbBhbhgOBAtQgIxY1YQC0IKMWFmECtCA1FjRhAPhBaiwvQg1Kw+StOqGzPdk+jaQR2bO0YNkfP5WdO8bvcxysgDgKdqNQ3CkpFt6R7mEcBzG4nZd2TDaBEekLbMugiatDq17ssFT1JOdbAspVW/hzJDZf0yqskVhFPLszlekOU+ErIM0e+EzAgzUH/TsrSYEcvSYgYqS0saqCwtacTy1GJGLEuLGag8taSBytKSRixPLWbE6O+DetCvvJARnZGQTfdempCLhZq50G4y8gOPao8zyaJ7CgAAAABJRU5ErkJggg==" width="20" height="20"></a>
     </div>
     <div id="lang-control">
-      <a href="<? echo $home_url; ?>/ko" class="btn-ko"><span lang="ko">한</a>
-      <a href="<? echo $home_url; ?>/en" class="btn-en">EN</a>
+      <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>" class="btn-ko"><span lang="ko">한</a>
+      <a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>" class="btn-en">EN</a>
     </div>
     <div id="content">
     </div>
