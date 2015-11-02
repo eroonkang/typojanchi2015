@@ -27,7 +27,7 @@ WY.models.DetailPageManager = (function(){
       if (this.permalink == "about") {
         this.update_about();
       } else {
-        this.update_detail();  
+        this.update_detail_page();  
       }
       
     },
