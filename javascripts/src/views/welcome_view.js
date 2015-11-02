@@ -125,6 +125,7 @@ WY.views.welcome_view = (function(){
       }
 
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
+      
     });
 
 

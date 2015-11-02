@@ -59,7 +59,8 @@ WY.models.DetailPageManager = (function(){
         }, "Loading...", $(e.currentTarget).attr('href'));
       });
 
-
+      $('.map-overlays').hide();
+      $('.project-participants ul').columnize({ width:200, lastNeverTallest: true});
       this.trigger('load_complete');
     }
 

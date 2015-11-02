@@ -115,8 +115,21 @@ a:hover {
 .participant {
   text-transform: uppercase;
 }
+h3 {
+  padding-right:4em;
+}
+.project-participants h3{
+  margin-bottom:1em;
+}
 p.description {
   margin:1em 0;
+  padding-right:4em;
+  line-height: 1.4em;
+}
+p.bio {
+  margin-left:4em;
+  font-size: 16px;
+  line-height: 1.4em;
 }
 .artwork-photo {
   margin:2em 0;
@@ -145,6 +158,9 @@ p.description {
   height:50%;
 
   display: none;
+  &:hover {
+    border-bottom: none;
+  }
 }
 
 
@@ -155,17 +171,58 @@ p.description {
 .project_icon {
   background-color: white;
   border-radius: 40px;
-  // width:30px !important;
-  // height:26px !important;
-  border:2px solid black !important;
-  color:black;
+  border:1px solid black !important;
+  background-color: #000;
+  color:#fff;
   text-align:center;
   padding-top:8px;
   @include regular_type;
-  transition: 0.4s background-color;
+  transition: 0.2s background-color;
   &:hover {
-    background-color:black;
-    color:white;
+    background-color:#fff;
+    color:#000;
+  }
+}
+
+.artwork_icon {
+  background-color: white;
+  border-radius: 40px;
+  border:1px solid black !important;
+  background-color: #fff;
+  color:#000;
+  text-align:center;
+  @include regular_type;
+  transition: 0.2s background-color;
+  &:hover {
+    border:2px solid black !important;
+  }
+}
+
+.venue_icon {
+  background-color: white;
+  border-radius: 20px;
+  border:1px solid black !important;
+  background-color: #fff;
+  color:#000;
+  text-align:center;
+  @include regular_type;
+  transition: 0.2s background-color;
+  &:hover {
+    background-color: #000;
+  }
+}
+
+.artist_icon {
+  background-color: white;
+  border-radius: 20px;
+  border:1px solid black !important;
+  background-color: #000;
+  color:#000;
+  text-align:center;
+  @include regular_type;
+  transition: 0.2s background-color;
+  &:hover {
+    background-color: #fff;
   }
 }
 

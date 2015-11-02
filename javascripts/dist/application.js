@@ -21753,7 +21753,8 @@ WY.models.DetailPageManager = (function(){
         }, "Loading...", $(e.currentTarget).attr('href'));
       });
 
-
+      $('.map-overlays').hide();
+      $('.project-participants ul').columnize({ width:200, lastNeverTallest: true});
       this.trigger('load_complete');
     }
 
@@ -21836,13 +21837,34 @@ WY.models.MapManager = (function(){
 
         var project_icon = L.divIcon({
           className: 'project_icon',
-          html: i,
+          html: '(' + i + ')',
           iconSize:     [40, 32],
           iconAnchor:   [20, 20],
-          popupAnchor:  [0, -20],
+          popupAnchor:  [0, -40],
         });
         
         project_icons[i] = project_icon;
+      });
+
+      var artwork_icon = L.divIcon({
+        className: 'artwork_icon',
+        iconSize:     [40, 40],
+        iconAnchor:   [20, 20],
+        popupAnchor:  [0, -40],
+      });
+
+      var venue_icon = L.divIcon({
+        className: 'venue_icon',
+        iconSize:     [14, 14],
+        iconAnchor:   [7, 7],
+        popupAnchor:  [0, -7],
+      });
+
+      var artist_icon = L.divIcon({
+        className: 'artist_icon',
+        iconSize:     [10, 10],
+        iconAnchor:   [5, 5],
+        popupAnchor:  [0, -5],
       });
 
 
@@ -21861,7 +21883,7 @@ WY.models.MapManager = (function(){
         // 거의 주석을 달필요성을 못느낌
         if (node.properties.type == "Venue") {
           marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
-            icon: scircle_b,
+            icon: venue_icon,
             riseOnHover: true
           });
 
@@ -21875,13 +21897,13 @@ WY.models.MapManager = (function(){
 
         } else if (node.properties.type == "Artwork") {
           marker = L.marker(L.latLng(node.geometry.coordinates[1] + randomBetween(-0.01, 0.01), node.geometry.coordinates[0]  + randomBetween(-0.01, 0.01)), {
-            icon: circle_w,
+            icon: artwork_icon,
             riseOnHover: true
           });
           
         } else if (node.properties.type == "Artist") {
           marker = L.marker(L.latLng(node.geometry.coordinates[1], node.geometry.coordinates[0]), {
-            icon: scircle_w,
+            icon: artist_icon,
             riseOnHover: true
           });
 
@@ -21906,7 +21928,7 @@ WY.models.MapManager = (function(){
 
           var popup = L.popup({
                         closeOnCilck: true,
-                        offset: L.point([0, -10])
+                        // offset: L.point([0, -10])
                       })
                      .setLatLng(e.latlng)
                      .setContent(this.popup_tmpl[node.properties.type](node.properties));
@@ -21940,7 +21962,7 @@ WY.models.MapManager = (function(){
             (source.data.properties.type == "Project" && target.data.properties.type == "Venue")) {
           polyline = L.polyline([from_latlng, to_latlng], {
             color: '#000',
-            weight: 1.5,
+            weight: 1,
             opacity: 1
           }).addTo(this.map);
         } else if ((source.data.properties.type == "Project" && target.data.properties.type == "Artwork") || 
@@ -22651,6 +22673,7 @@ WY.views.welcome_view = (function(){
       }
 
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
+      
     });
 
 
