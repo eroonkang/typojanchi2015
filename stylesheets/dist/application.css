@@ -565,6 +565,7 @@ body {
 :lang(ko) {
   font-size: 0.88em;
   letter-spacing: -0.0125em;
+  word-break: keep-all;
 }
 
 .en-within-ko {
@@ -741,13 +742,14 @@ p.bio {
   border: 1px solid #000;
 }
 .artwork-photo figure:hover, .project-photo figure:hover {
-  border: 1px solid #fff;
+  border: 1px solid #000;
 }
 .artwork-photo figure img, .project-photo figure img {
-  width: 620px;
+  width: 640px;
   display: block;
   opacity: 0;
-  min-height: 420px;
+  min-height: 480px;
+  transition: 0.3s opacity;
 }
 .artwork-photo figure img:hover, .project-photo figure img:hover {
   opacity: 1;

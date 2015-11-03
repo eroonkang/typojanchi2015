@@ -28,6 +28,7 @@ body {
 :lang(ko){
   font-size: 0.88em;
   letter-spacing:-0.0125em;
+  word-break: keep-all;
 }
 
 .en-within-ko{
@@ -189,14 +190,15 @@ p.bio {
     display: inline-block;
     border:1px solid #000;
     &:hover {
-      border:1px solid #fff;
+      border:1px solid #000;
     }
 
     img {
-      width:620px;
+      width:640px;
       display: block;
       opacity: 0;
-      min-height: 420px;  
+      min-height: 480px;
+      transition: 0.3s opacity;
       &:hover{
         opacity: 1;
       }
