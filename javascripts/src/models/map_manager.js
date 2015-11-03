@@ -22,6 +22,14 @@ WY.models.MapManager = (function(){
     this.active_popups = [];
 
 
+    this.popup_offset_by_type = {
+      venue: -3,
+      project: -14,
+      artwork: -14,
+      artist: -3
+    };
+
+
     _.extend(this, Backbone.Events);
     _.bindAll(this, "load_complete_handler", "animate");
   }
@@ -68,6 +76,12 @@ WY.models.MapManager = (function(){
 
     load_complete_handler: function(data){
       this.data = data;
+
+
+      this.map.on('click', _.bind(function(e){
+        this.show_all_popups();
+      }, this));
+
       this.popup_tmpl = {
         'Artist': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
         'Artwork': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
@@ -186,7 +200,7 @@ WY.models.MapManager = (function(){
           var popup = L.popup({
                         closeOnCilck: true,
                         className: "mouse-interact-popup popup-" + node.properties.type.toLowerCase(),
-                        offset: L.point([0, -20])
+                        offset: L.point([0, this.popup_offset_by_type[node.properties.type.toLowerCase()]])
                       })
                      .setLatLng(e.latlng)
                      .setContent(this.popup_tmpl[node.properties.type](node.properties));
@@ -195,10 +209,6 @@ WY.models.MapManager = (function(){
 
           this.active_popups.push(popup);
 
-        }, this));
-
-        marker.on('mouseout', _.bind(function(e){
-          this.show_all_popups();
         }, this));
 
         marker.on('click', _.bind(function(e){
@@ -470,11 +480,10 @@ WY.models.MapManager = (function(){
 
       this.remove_all_popups();
 
-
       _.each(path.nodes, _.bind(function(node){
         var popup = L.popup({
                           closeOnClick: false,
-                          offset: L.point([0, -10]),
+                          offset: L.point([0, this.popup_offset_by_type[node.data.properties.type.toLowerCase()]]),
                           className: "popup-" + node.data.properties.type.toLowerCase()
                         });
 
