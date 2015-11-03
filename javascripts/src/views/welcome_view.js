@@ -173,31 +173,9 @@ WY.views.welcome_view = (function(){
 
 
   function set_index_pos(){
-    // flow_column('#section-participants',200);
     var index_height = $('#index').css("height");
     $('#index').css("top", '-' + index_height);    
     console.log ("index_height:" + index_height);
-  }
-
-  function flow_column(elem,width){
-    //setup
-    var container_width = parseFloat($(elem).css('width'));
-    var col_count = Math.floor(container_width/width);
-    var li_width = Math.round(container_width / col_count * 100)/100 + 'px';
-
-    //set width
-    $(elem+' li').each(function(i) {
-      console.log('iterating: ' + i);
-      $(this).css({
-        width: li_width
-      });
-    });
-
-    console.log (
-      ' container_width: ' + container_width +
-      ', col_count: ' + col_count +
-      ', width_percent: ' + li_width
-    );
   }
 
   function init_history(){

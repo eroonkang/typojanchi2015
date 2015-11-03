@@ -34,6 +34,7 @@ module.exports = function(grunt) {
             'javascripts/src/vendor/ngraph.graph.js',
             'javascripts/src/vendor/rAF.js',
             'javascripts/src/vendor/vector2.js',
+            'javascripts/src/vendor/jquery.word-break-keep-all.js',
             'javascripts/src/WY.js',
             'javascripts/src/utils.js',
             'javascripts/src/models/*.js',
