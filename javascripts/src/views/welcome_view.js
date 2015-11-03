@@ -136,6 +136,8 @@ WY.views.welcome_view = (function(){
         e.preventDefault();
 
 
+        map_manager.reset();
+
         History.pushState({
           permalink: $(e.currentTarget).data('permalink')
         }, "Loading...", $(e.currentTarget).attr('href'));
@@ -212,8 +214,8 @@ WY.views.welcome_view = (function(){
       switch (permalink) {
         case "":
           map_manager.set_detail(false);
+          
           map_manager.reset();
-
           $("title").text("Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레");
           $('#content-outer').css({
             visibility: "hidden",

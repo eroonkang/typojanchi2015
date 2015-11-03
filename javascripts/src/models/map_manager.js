@@ -1,12 +1,10 @@
-// WY.constants.distances = {
-//   "13": 
-// }
-// venue_lat: 
-// venue_lng: 
-WY.constants.balloon_force_location = new THREE.Vector2(126.9716173, 37.5758393);
+
+// WY.constants.balloon_force_location = ;
 
 WY.models.MapManager = (function(){
   function MapManager(params){
+
+
     this.el_name = params.el_name;
     this.map;
     this._is_detail = false;
@@ -38,7 +36,7 @@ WY.models.MapManager = (function(){
       this.map = L.map(this.el_name, {
         zoomControl: true
       }).setView([37.56131657517743, 126.97120428085327], 15);
-      // WY.constants.map = this.map;
+      WY.constants.map = this.map;
       
       L.tileLayer(this.map_address[WY.constants.locale], {
         attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -187,7 +185,7 @@ WY.models.MapManager = (function(){
         });
 
 
-        this.graph.addNode(node.properties.id, marker_node);
+        var g_node = this.graph.addNode(node.properties.id, marker_node);
 
         this.map.addLayer(marker);
 
@@ -198,6 +196,7 @@ WY.models.MapManager = (function(){
 
           var popup = L.popup({
                         closeOnCilck: true,
+                        autoPan: false,
                         className: "mouse-interact-popup popup-" + node.properties.type.toLowerCase(),
                         offset: L.point([0, this.popup_offset_by_type[node.properties.type.toLowerCase()]])
                       })
@@ -205,6 +204,7 @@ WY.models.MapManager = (function(){
                      .setContent(this.popup_tmpl[node.properties.type](node.properties));
 
           this.map.addLayer(popup);
+          popup.node_id = g_node.id;
 
           this.active_popups.push(popup);
 
@@ -267,15 +267,22 @@ WY.models.MapManager = (function(){
 
       }, this));
       
-      this.animate();
-
-      _.delay(_.bind(function(){
-        this.stop_animate();
-      }, this), 5000);
 
       
 
-            
+      this.map.on("zoomend", _.bind(function(e){
+        // debugger;
+        // for (var i = 0; i < 50000; i++){
+        this.stop_animate();
+        this.animate();
+  
+        // }
+        
+        _.delay(_.bind(function(){
+          this.stop_animate();
+        }, this), 3000);
+      }, this));
+
 
       $("body").on("click", ".leaflet-popup-content-wrapper", function(e){
         e.preventDefault();
@@ -304,14 +311,30 @@ WY.models.MapManager = (function(){
 
       this.trigger('load_complete');
 
+      
+      this.animate();
+
+      _.delay(_.bind(function(){
+        this.stop_animate();
+      }, this), 5000);
+
     },
     
     stop_animate: function(){
       cancelAnimationFrame(this.req_id);
+      this.req_id = undefined;
     },
 
     animate: function () {
       this.req_id = requestAnimationFrame(this.animate);
+      var zoom = constrain(this.map.getZoom(), 13, 18);
+
+      var bbz = WY.constants.balloon_by_zoom[zoom];
+
+      _.each(this.active_popups, _.bind(function(popup, i){
+        var node = this.graph.getNode(popup.node_id);
+        popup.setLatLng(node.data.marker._latlng);
+      }, this));
 
       this.graph.forEachNode(_.bind(function(node){
         
@@ -323,7 +346,7 @@ WY.models.MapManager = (function(){
                 var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
                 // debugger;
                 var d = force.length();
-                var stretch = d - 0.007;
+                var stretch = d - bbz.d_p;
 
                 force.normalize();
                 force.multiplyScalar(-1 * 0.01 * stretch);
@@ -334,10 +357,10 @@ WY.models.MapManager = (function(){
               }
             });
 
-            var balloon_force = new THREE.Vector2().subVectors(node.data.location, WY.constants.balloon_force_location);
+            var balloon_force = new THREE.Vector2().subVectors(node.data.location, bbz.upper_force);
 
             var d = balloon_force.length();
-            var stretch = d - 0.007;
+            var stretch = d - bbz.d_p;
 
             balloon_force.normalize();
             balloon_force.multiplyScalar(-1 * 0.01 * stretch);
@@ -348,36 +371,13 @@ WY.models.MapManager = (function(){
 
           }
 
-            this.graph.forEachLinkedNode(node.id, function (target_node) {
-              
-              if (target_node.data.is("Venue")) {
-                var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
-
-                var d = force.length();
-                var stretch = d - 0.002;
-
-                force.normalize();
-                force.multiplyScalar(-1 * 0.008 * stretch);
-
-                node.data.apply_force(force);
-                node.data.update();
-
-              } 
-
-            });
-            
-          // }
-
-
-        } else if (node.data.is("Artwork")) {
-
           this.graph.forEachLinkedNode(node.id, function (target_node) {
             
-            if (target_node.data.is("Project")) {// && target_node.data.properties.idx != 7) {
+            if (target_node.data.is("Venue")) {
               var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
 
               var d = force.length();
-              var stretch = d - 0.0017;
+              var stretch = d - bbz.d_pv;
 
               force.normalize();
               force.multiplyScalar(-1 * 0.008 * stretch);
@@ -388,6 +388,46 @@ WY.models.MapManager = (function(){
             } 
 
           });
+        
+
+        } else if (node.data.is("Artwork")) {
+
+          this.graph.forEachLinkedNode(node.id, _.bind(function (target_node) {
+            
+            if (target_node.data.is("Project")) {// && target_node.data.properties.idx != 7) {
+              var force = new THREE.Vector2().subVectors(node.data.location, target_node.data.location);
+
+              var d = force.length();
+              var stretch = d - bbz.d_ap;
+
+              force.normalize();
+              force.multiplyScalar(-1 * 0.008 * stretch);
+
+              node.data.apply_force(force);
+              node.data.update();
+
+              this.graph.forEachLinkedNode(target_node.id, function (other_artwork_node) {
+                if (other_artwork_node.data.properties.type == "Artwork" && other_artwork_node.id != node.id) {
+                  var force = new THREE.Vector2().subVectors(node.data.location, other_artwork_node.data.location);
+
+                  var d = force.length();
+                  var stretch = d - bbz.d_a;
+
+                  force.normalize();
+                  force.multiplyScalar(-1 * 0.008 * stretch);
+
+                  node.data.apply_force(force);
+                  node.data.update();
+                  force.multiplyScalar(-1);
+
+                  other_artwork_node.data.apply_force(force);
+                  other_artwork_node.data.update();
+                }
+              });
+
+            } 
+
+          }, this));
         }
 
 
@@ -449,7 +489,8 @@ WY.models.MapManager = (function(){
     },
 
     update_bound: function(permalink){
-      // this.stop_animate();
+      this.permalink = permalink;
+      this.stop_animate();
       // this.fitBounds(
       this.map.invalidateSize();
       var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
@@ -498,6 +539,7 @@ WY.models.MapManager = (function(){
       _.each(path.nodes, _.bind(function(node){
         var popup = L.popup({
                           closeOnClick: false,
+                          autoPan: false,
                           offset: L.point([0, this.popup_offset_by_type[node.data.properties.type.toLowerCase()]]),
                           className: "popup-" + node.data.properties.type.toLowerCase()
                         });
@@ -511,6 +553,7 @@ WY.models.MapManager = (function(){
           popup.setLatLng(node.data.marker._latlng)
                .setContent(this.popup_tmpl[node.data.properties.type](node.data.properties));
         }
+        popup.node_id = node.id;
 
         this.map.addLayer(popup);
         this.active_popups.push(popup);
@@ -550,6 +593,56 @@ WY.models.MapManager = (function(){
           });
         }
       });
+      
+
+      // this.animate();
+
+      // // _.delay(_.bind(function(){
+      // //   this.stop_animate();
+      // // }, this), 5000);
+
+      
+      // this.stop_animate();
+      // this.animate();
+
+      // _.delay(_.bind(function(){
+      //   this.stop_animate();
+      //   var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
+      //   // debugger;
+      //   var path = this.find_bound_path(node);
+
+      //   var input = {
+      //     "type": "FeatureCollection",
+      //     "features": _.map(path.nodes, function(node){
+      //       return {
+      //         "type": "Feature",
+      //         "properties": {},
+      //         "geometry": {
+      //           "type": "Point",
+      //           "coordinates": [node.data.marker._latlng.lng, node.data.marker._latlng.lat]
+      //         }
+      //       }
+      //     })
+      //   };
+
+      //   var bbox = turf.extent(input);
+      //   // var bbox_poly = turf.bboxPolygon(bbox);
+
+
+
+      //   // _.delay(_.bind(function(){
+
+      //     this.map.fitBounds([
+      //       [bbox[1], bbox[0]],
+      //       [bbox[3], bbox[2]]
+      //     ], {
+      //       // padding: [100, 100]
+      //     });
+
+      // }, this), 1500);
+
+
+
     },
 
 
@@ -674,3 +767,4 @@ WY.models.MapManager = (function(){
 
   return MapManager;
 })();
+// 

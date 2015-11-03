@@ -80,6 +80,7 @@ $route->submit();
 
   <!-- models -->
   <script src="<? echo $home_url; ?>/javascripts/src/models/template_loader.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/models/balloon_data.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/participants_manager.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/projects_manager.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/models/detail_page_manager.js"></script>

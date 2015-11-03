@@ -895,6 +895,9 @@ p.bio {
   background-color: #fff;
 }
 
+.popup-project {
+  z-index: 9999;
+}
 .popup-project .leaflet-popup-content-wrapper {
   background: #000;
   color: #fff;
