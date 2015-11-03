@@ -52,6 +52,7 @@ table {
   src: url('../../fonts/FoundersGroteskTextWeb-Regular.eot'); /* IE9 Compat Modes */
   src: url('../../fonts/FoundersGroteskTextWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../../fonts/FoundersGroteskTextWeb-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+  font-style: normal;
 }
 @font-face {
   font-family: 'FoundersGroteskTextWeb';
@@ -487,8 +488,8 @@ table {
 	}
 .leaflet-popup-tip {
 	/*position: absolute;*/
-	width: 10px;
-	height: 10px;
+	width: 9px;
+	height: 9px;
 	margin: -6px auto 0 auto;
 	border-left:2px solid;
 	border-bottom:2px solid;
