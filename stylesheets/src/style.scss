@@ -273,7 +273,7 @@ p.bio {
 .project_icon {
   background-color: white;
   border-radius: 40px;
-  border:1px solid black !important;
+  border:2px solid black !important;
   background-color: #000;
   color:#fff;
   text-align:center;
@@ -333,9 +333,13 @@ p.bio {
     background: #000;
     color: #fff;
     &:hover {
-      background: #fff;
-      color: #000; 
+      // background: #fff;
+      // color: #000;
+      text-decoration: underline;
     }
+  }
+  .leaflet-popup-tip {
+    background: #000;
   }
 }
 
@@ -486,8 +490,4 @@ p.bio {
       border:none;
     } 
   }
-}
-
-.leaflet-popup-tip {
-  height:23px;
 }

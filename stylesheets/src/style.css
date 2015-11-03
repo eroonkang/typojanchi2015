@@ -275,7 +275,7 @@ p.bio {
 .project_icon {
   background-color: white;
   border-radius: 40px;
-  border: 1px solid black !important;
+  border: 2px solid black !important;
   background-color: #000;
   color: #fff;
   text-align: center;
@@ -343,8 +343,10 @@ p.bio {
   color: #fff;
 }
 .popup-project .leaflet-popup-content-wrapper:hover {
-  background: #fff;
-  color: #000;
+  text-decoration: underline;
+}
+.popup-project .leaflet-popup-tip {
+  background: #000;
 }
 
 .leaflet-popup-content-wrapper a {
@@ -470,10 +472,6 @@ p.bio {
 .map-overlays.btn-tj:hover {
   opacity: 0.5;
   border: none;
-}
-
-.leaflet-popup-tip {
-  height: 23px;
 }
 
 /*# sourceMappingURL=style.css.map */
