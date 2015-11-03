@@ -455,6 +455,7 @@ p.bio {
   bottom: 25px;
   transform: translate(-50%, 0);
   -webkit-transform: translate(-50%, 0);
+  transition: 0.2s opacity;
 }
 .map-overlays.btn-logo h1 {
   font-size: 22px;
@@ -483,6 +484,7 @@ p.bio {
   height: auto;
   left: 30px;
   bottom: 30px;
+  transition: 0.2s opacity;
 }
 .map-overlays.btn-ct:hover {
   opacity: 0.5;
@@ -494,6 +496,7 @@ p.bio {
   position: absolute;
   right: 30px;
   bottom: 30px;
+  transition: 0.2s opacity;
 }
 .map-overlays.btn-tj:hover {
   opacity: 0.5;
