@@ -54,13 +54,7 @@ table {
        url('../../fonts/FoundersGroteskTextWeb-Regular.woff') format('woff'); /* Pretty Modern Browsers */
   font-style: normal;
 }
-@font-face {
-  font-family: 'FoundersGroteskTextWeb';
-  src: url('../../fonts/FoundersGroteskTextWeb-RegularItalic.eot'); /* IE9 Compat Modes */
-  src: url('../../fonts/FoundersGroteskTextWeb-RegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../../fonts/FoundersGroteskTextWeb-RegularItalic.woff') format('woff'); /* Pretty Modern Browsers */
-  font-style: italic, oblique;
-}
+
 @font-face {
   font-family: 'NotoSansCJKkr-Regular-2350';
   src: url('../../fonts/NotoSansCJKkr-Regular-2350.eot'); /* IE9 Compat Modes */
@@ -1004,8 +998,9 @@ p.bio {
   -webkit-transform: translate(-50%, 0);
 }
 .map-overlays.btn-logo h1 {
+  font-size: 22px;
   margin: 0 auto -10px auto;
-  padding: 10px 0;
+  padding: 10px 0 20px 0;
   text-align: center;
   text-shadow: -1px -1px 0px #fff,   1px -1px 0px #fff, -1px  1px 0px #fff, 1px  1px 0px #fff;
   line-height: 1em;
@@ -1016,11 +1011,11 @@ p.bio {
   border: none;
 }
 .map-overlays.btn-logo img.title-ko {
-  width: 650px;
+  width: 770px;
   height: auto;
 }
 .map-overlays.btn-logo img.title-en {
-  width: 650px;
+  width: 770px;
   height: auto;
 }
 .map-overlays.btn-ct {

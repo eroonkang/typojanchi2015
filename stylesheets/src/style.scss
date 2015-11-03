@@ -478,8 +478,9 @@ p.bio {
 
     h1 {
       // width:720px;
+      font-size: 22px;
       margin:0 auto -10px auto;
-      padding:10px 0;
+      padding:10px 0 20px 0;
       text-align: center;
       text-shadow:
        -1px -1px 0px #fff,  
@@ -494,11 +495,11 @@ p.bio {
       border:none;
     } 
     img.title-ko {
-      width:650px;
+      width:770px;
       height:auto;
     }
     img.title-en {
-      width:650px;
+      width:770px;
       height:auto;
     }
   }

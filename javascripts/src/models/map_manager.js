@@ -84,7 +84,7 @@ WY.models.MapManager = (function(){
       this.popup_tmpl = {
         'Artist': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
         'Artwork': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
-        'Project': _.template('<span data-link="<%= url_from_project_name(idx, project_name_en) %>" data-permalink="<%= idx + "-" + conv_to_slug(project_name_en) %>" class="popup_btn"><%= project_name_' + WY.constants.locale + ' %></a>'),
+        'Project': _.template('<span data-link="<%= url_from_project_name(idx, project_name_en) %>" data-permalink="<%= idx + "-" + conv_to_slug(project_name_en) %>" class="popup_btn"><%= "(" + idx + ") "+ project_name_' + WY.constants.locale + ' %></a>'),
         'Venue': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= venue_name_' + WY.constants.locale +  ' %></a>'),
         '284': _.template('<span data-link="javascript:void(0);"><%= venue_name_' + WY.constants.locale +  ' %></a>')
       }

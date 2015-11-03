@@ -450,8 +450,9 @@ p.bio {
   -webkit-transform: translate(-50%, 0);
 }
 .map-overlays.btn-logo h1 {
+  font-size: 22px;
   margin: 0 auto -10px auto;
-  padding: 10px 0;
+  padding: 10px 0 20px 0;
   text-align: center;
   text-shadow: -1px -1px 0px #fff,   1px -1px 0px #fff, -1px  1px 0px #fff, 1px  1px 0px #fff;
   line-height: 1em;
@@ -462,11 +463,11 @@ p.bio {
   border: none;
 }
 .map-overlays.btn-logo img.title-ko {
-  width: 650px;
+  width: 770px;
   height: auto;
 }
 .map-overlays.btn-logo img.title-en {
-  width: 650px;
+  width: 770px;
   height: auto;
 }
 .map-overlays.btn-ct {
