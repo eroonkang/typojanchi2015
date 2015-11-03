@@ -74,6 +74,7 @@ $route->submit();
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/vector2.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.history.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/kerning.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.word-break-keep-all.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/WY.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>
 
@@ -146,7 +147,8 @@ $route->submit();
       <h1>
         <!-- <span lang="ko">타이포잔치2015: 제4회 국제 타이포그래피 비엔날레</span><br>
         Typojanchi 2015: The 4th International Typography Biennale -->
-        <img src="<? echo $home_url; ?>/images/h1_<? echo $locale; ?>.svg" class="title-<? echo $locale; ?>">
+        <img src="<? echo $home_url; ?>/images/h1_ko.svg" class="title-ko">
+        <img src="<? echo $home_url; ?>/images/h1_en.svg" class="title-en">
       </h1>
     </a>
     <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn map-overlays btn-ct"><img src="<? echo $home_url; ?>/images/ct.svg" class="left"></a>

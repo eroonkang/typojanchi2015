@@ -29,7 +29,7 @@ WY.models.MapManager = (function(){
   MapManager.prototype = {
     init: function(){
       this.map = L.map(this.el_name, {
-        zoomControl: false
+        zoomControl: true
       }).setView([37.56131657517743, 126.97120428085327], 15);
       // WY.constants.map = this.map;
       
@@ -38,7 +38,7 @@ WY.models.MapManager = (function(){
       }).addTo(this.map);
 
       this.map.scrollWheelZoom.disable();
-      new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
+      // new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
 
       this.load();
     },
@@ -244,7 +244,7 @@ WY.models.MapManager = (function(){
           polyline = L.polyline([from_latlng, to_latlng], {
             color: '#000',
             weight: 1,
-            opacity: 0.1//,
+            opacity: 0//,
             // dashArray
             // dashArray: "0.1, 10",
             // lineCap: "round"
