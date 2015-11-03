@@ -21965,7 +21965,6 @@ WY.models.MapManager = (function(){
     },
 
     reset: function(){
-
       this.remove_all_popups();
       this.set_map_height(WY.constants.screen_height);
       this.restore_opacity_graph();
@@ -22084,9 +22083,10 @@ WY.models.MapManager = (function(){
 
         this.map.addLayer(marker);
 
-        // if (node.properties.permalink == undefined) { debugger; }
+
+        
         marker.on('mouseover', _.bind(function(e){
-          this.remove_all_popups();
+          this.hide_all_popups();
 
           var popup = L.popup({
                         closeOnCilck: true,
@@ -22329,17 +22329,18 @@ WY.models.MapManager = (function(){
       }, this));
     },
 
+    hide_all_popups: function(){
+      _.each(this.active_popups, _.bind(function(popup){
+        $(popup._container).hide();
+      }, this));
+    },
+
     remove_all_popups: function(){
-      if (this.is_detail()){
-        _.each(this.active_popups, _.bind(function(popup){
-          $(popup._container).hide();
-        }, this));
-      } else {
-        _.each(this.active_popups, _.bind(function(popup){
-          this.map.removeLayer(popup);
-        }, this));
-        this.active_popups = [];
-      }
+
+      _.each(this.active_popups, _.bind(function(popup){
+        this.map.removeLayer(popup);
+      }, this));
+      this.active_popups = [];
     
     },
 

@@ -1,6 +1,6 @@
 <% _.each(projects, function(project){ %>
   <!-- <ul class="index-list dontsplit"> -->
-    <li class="dontend"><a href="#">(<%= project.idx %>)</a></li>
+    <li class="dontend"><a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn">(<%= project.idx %>)</a></li>
     <% _.each(project.project_artists, function(artist) { %>
       <li>
         <a href="<%= make_url(artist.url) %>" data-permalink="<%= extract_permalink_from_url(artist.url) %>" class="participant_change_btn">
