@@ -20,7 +20,7 @@ WY.views.welcome_view = (function(){
     init_resize();
     init_history();
 
-    $('.btn-menu, .btn-tj, .btn-ct').click(show_index);
+    $('.btn-menu').click(show_index);
     $('.close_index').click(hide_index);
 
   }
@@ -115,6 +115,15 @@ WY.views.welcome_view = (function(){
           permalink: $(e.currentTarget).data('permalink')
         }, "Loading...", $(e.currentTarget).attr('href'));
       });
+
+      $(".home_btn").click(function(e){
+        e.preventDefault();
+
+
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
     });
 
     map_manager.on('load_complete', function(e){
@@ -204,14 +213,35 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-      map_manager.set_map_height(WY.constants.screen_height * 0.5);
-      if (permalink != "about") {
-        map_manager.update_bound(permalink);
-      }
 
+
+      switch (permalink) {
+        case "":
+          map_manager.reset();
+
+          $("title").text("Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레");
+          $('#content-outer').css({
+            visibility: "hidden",
+            position: "absolute",
+            top: "-10px"
+          });
+          break;
+        case "about":
+          map_manager.set_map_height(WY.constants.screen_height * 0.5);
+          detail_page_manager.update(permalink);
+          break;
+        default:
+          map_manager.set_map_height(WY.constants.screen_height * 0.5);
+          map_manager.update_bound(permalink);
+          detail_page_manager.update(permalink);
+          break;
+      }
+  
       $(".btn-ko").attr('href', WY.constants.home_url + "/ko/" + permalink);
       $(".btn-en").attr('href', WY.constants.home_url + "/en/" + permalink);
-      detail_page_manager.update(permalink);
+
+
+      
     });
 
   }

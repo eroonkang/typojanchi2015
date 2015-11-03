@@ -21859,6 +21859,14 @@ WY.models.MapManager = (function(){
       })
     },
 
+    reset: function(){
+
+      this.remove_all_popups();
+      this.set_map_height(WY.constants.screen_height);
+      this.restore_opacity_graph();
+      this.map.setView([37.56131657517743, 126.97120428085327], 15);
+    },
+
     load_complete_handler: function(data){
       this.data = data;
       this.popup_tmpl = {
@@ -21978,7 +21986,7 @@ WY.models.MapManager = (function(){
           var popup = L.popup({
                         closeOnCilck: true,
                         className: "popup-" + node.properties.type.toLowerCase(),
-                        // offset: L.point([0, -10])
+                        offset: L.point([0, -15])
                       })
                      .setLatLng(e.latlng)
                      .setContent(this.popup_tmpl[node.properties.type](node.properties));
@@ -22020,10 +22028,10 @@ WY.models.MapManager = (function(){
           
           polyline = L.polyline([from_latlng, to_latlng], {
             color: '#000',
-            weight: 1.5,
+            weight: 1,
             opacity: 1,
-            dashArray: "0.1, 10",
-            lineCap: "round"
+            // dashArray: "0.1, 10",
+            // lineCap: "round"
           }).addTo(this.map);
 
         } else if ((source.data.properties.type == "Artwork" && target.data.properties.type == "Artist") || 
@@ -22630,7 +22638,7 @@ WY.views.welcome_view = (function(){
     init_resize();
     init_history();
 
-    $('.btn-menu, .btn-tj, .btn-ct').click(show_index);
+    $('.btn-menu').click(show_index);
     $('.close_index').click(hide_index);
 
   }
@@ -22725,6 +22733,15 @@ WY.views.welcome_view = (function(){
           permalink: $(e.currentTarget).data('permalink')
         }, "Loading...", $(e.currentTarget).attr('href'));
       });
+
+      $(".home_btn").click(function(e){
+        e.preventDefault();
+
+
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
     });
 
     map_manager.on('load_complete', function(e){
@@ -22743,7 +22760,7 @@ WY.views.welcome_view = (function(){
       }
 
       map_manager.set_map_height(WY.constants.screen_height * 0.5);
-      $('.map-overlays').hide();
+      // $('.map-overlays').hide();
       $('#content-outer').css({
         visibility: "visible",
         position: "relative",
@@ -22814,14 +22831,35 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-      map_manager.set_map_height(WY.constants.screen_height * 0.5);
-      if (permalink != "about") {
-        map_manager.update_bound(permalink);
-      }
 
+
+      switch (permalink) {
+        case "":
+          map_manager.reset();
+
+          $("title").text("Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레");
+          $('#content-outer').css({
+            visibility: "hidden",
+            position: "absolute",
+            top: "-10px"
+          });
+          break;
+        case "about":
+          map_manager.set_map_height(WY.constants.screen_height * 0.5);
+          detail_page_manager.update(permalink);
+          break;
+        default:
+          map_manager.set_map_height(WY.constants.screen_height * 0.5);
+          map_manager.update_bound(permalink);
+          detail_page_manager.update(permalink);
+          break;
+      }
+  
       $(".btn-ko").attr('href', WY.constants.home_url + "/ko/" + permalink);
       $(".btn-en").attr('href', WY.constants.home_url + "/en/" + permalink);
-      detail_page_manager.update(permalink);
+
+
+      
     });
 
   }

@@ -56,6 +56,14 @@ WY.models.MapManager = (function(){
       })
     },
 
+    reset: function(){
+
+      this.remove_all_popups();
+      this.set_map_height(WY.constants.screen_height);
+      this.restore_opacity_graph();
+      this.map.setView([37.56131657517743, 126.97120428085327], 15);
+    },
+
     load_complete_handler: function(data){
       this.data = data;
       this.popup_tmpl = {
