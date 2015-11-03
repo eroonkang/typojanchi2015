@@ -48,6 +48,14 @@ a.no-underline:hover {
     cursor: pointer;
 }
 
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 /* ---------------------------------------------- */
 /* list */
 /* ---------------------------------------------- */
@@ -100,40 +108,47 @@ a.no-underline:hover {
   width:100%;
   top:-10px;
   visibility: hidden;
+  border-top:1px solid;
 }
 #content {
   color:#000;
   padding:30px;
-  border-top:1px solid;
   a {
     color:#000; 
   }
+  // width:1000px;
+  // margin: 0 auto;
 }
-#artwork {
-  float:left;
-  width:750px; //threecols
+.artwork {
+  // float:left;
+  margin-left: 240px;
+  // width:750px; //threecols
+}
+
+#intro .artwork {
+  margin-bottom:3em;
 }
 .cols {
   float:left;
   margin: 0 30px 0 0;
 }
 .single {
-  width:220px;
+  width:210px;
 }
 .single-wider {
   width:345px;
 }
 .double {
-  width:470px;
+  width:450px;
 }
 .triple {
-  width:720px;
+  width:690px;
 }
 .quadruple {
-  width:970px;
+  width:930px;
 }
 .hr {
-  width:970px;
+  width:930px;
   margin: 2em 0 2em 250px;
   // border-bottom:1px solid;
 }
@@ -141,7 +156,17 @@ a.no-underline:hover {
   text-transform: uppercase;
 }
 .left-nav {
-  margin-right:2em;
+  // margin-right:2em;
+  position:absolute;
+  .index-list {
+    li {
+      padding-right: 3em;
+    }
+    h2 {
+      text-transform: uppercase;
+      margin-bottom: 1em;
+    }
+  }
 }
 h3 {
   padding-right:4em;
@@ -155,39 +180,32 @@ p.description {
   // line-height: 1.4em;
 }
 p.bio {
-  margin-left:4em;
+  margin:1em 0 1em 0;
   @include small_type;
 }
-.artwork-photo {
-  margin:2em 0;
-  border:1px solid;
-  &:hover {
+.artwork-photo, .project-photo {
+  margin-top:2em;
+  figure {
+    display: inline-block;
     border:1px solid #000;
-  }
-  img {
-    display: block;
-    opacity: 0;
-    min-height: 420px;  
-    &:hover{
-      opacity: 1;
+    &:hover {
+      border:1px solid #fff;
+    }
+
+    img {
+      width:620px;
+      display: block;
+      opacity: 0;
+      min-height: 420px;  
+      &:hover{
+        opacity: 1;
+      }
     }
   }
 }
-
 .project-photo {
-  margin:1em 0;
-  border:1px solid;
-  &:hover {
-    border:1px solid #000;
-  }
-  img {
-    display: block;
-    opacity: 0;
-    min-height: 420px;  
-    &:hover{
-      opacity: 1;
-    }
-  }
+  margin-top:0.5em;
+  margin-bottom:2em;
 }
 
 .notice {
@@ -244,10 +262,6 @@ p.bio {
     // top:5em;
     left:100px;
   }
-}
-.index-list h2 {
-  text-transform: uppercase;
-  margin-bottom: 2em;
 }
 
 /* ---------------------------------------------- */
