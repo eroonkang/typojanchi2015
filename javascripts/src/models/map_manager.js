@@ -269,19 +269,28 @@ WY.models.MapManager = (function(){
       
 
       
-
-      this.map.on("zoomend", _.bind(function(e){
-        // debugger;
-        // for (var i = 0; i < 50000; i++){
-        this.stop_animate();
+      $(".leaflet-control-zoom a").click(_.bind(function(e){
         this.animate();
-  
-        // }
-        
+      
         _.delay(_.bind(function(){
           this.stop_animate();
         }, this), 3000);
       }, this));
+
+
+
+      // this.map.on("zoomend", _.bind(function(e){
+      //   // debugger;
+      //   // for (var i = 0; i < 50000; i++){
+      //   this.stop_animate();
+      //   this.animate();
+  
+      //   // }
+        
+      //   _.delay(_.bind(function(){
+      //     this.stop_animate();
+      //   }, this), 3000);
+      // }, this));
 
 
       $("body").on("click", ".leaflet-popup-content-wrapper", function(e){
@@ -316,6 +325,31 @@ WY.models.MapManager = (function(){
 
       _.delay(_.bind(function(){
         this.stop_animate();
+
+        if (!_.isUndefined(this.permalink)) {
+
+          var input = {
+            "type": "FeatureCollection",
+            "features": _.map(this.permalink_path.nodes, function(node){
+              return {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [node.data.marker._latlng.lng, node.data.marker._latlng.lat]
+                }
+              }
+            })
+          };
+
+          var bbox = turf.extent(input);
+
+          this.map.fitBounds([
+            [bbox[1], bbox[0]],
+            [bbox[3], bbox[2]]
+          ]);
+
+        }
       }, this), 5000);
 
     },
@@ -495,11 +529,11 @@ WY.models.MapManager = (function(){
       this.map.invalidateSize();
       var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
       // debugger;
-      var path = this.find_bound_path(node);
+      this.permalink_path = this.find_bound_path(node);
 
       var input = {
         "type": "FeatureCollection",
-        "features": _.map(path.nodes, function(node){
+        "features": _.map(this.permalink_path.nodes, function(node){
           return {
             "type": "Feature",
             "properties": {},
@@ -536,7 +570,7 @@ WY.models.MapManager = (function(){
 
       this.remove_all_popups();
 
-      _.each(path.nodes, _.bind(function(node){
+      _.each(this.permalink_path.nodes, _.bind(function(node){
         var popup = L.popup({
                           closeOnClick: false,
                           autoPan: false,
@@ -559,9 +593,9 @@ WY.models.MapManager = (function(){
         this.active_popups.push(popup);
       }, this));
 
-      this.graph.forEachNode(function(node){
+      this.graph.forEachNode(_.bind(function(node){
         var existed = false;
-        _.each(path.nodes, function(target_node){
+        _.each(this.permalink_path.nodes, function(target_node){
           if (node.id == target_node.id) {
             existed = true;
           }
@@ -572,11 +606,11 @@ WY.models.MapManager = (function(){
         // } else {
         //   node.data.marker.setOpacity(1);
         // }
-      });
+      }, this));
 
-      this.graph.forEachLink(function(link){
+      this.graph.forEachLink(_.bind(function(link){
         var existed = false;
-        _.each(path.links, function(target_link){
+        _.each(this.permalink_path.links, function(target_link){
           if (link.id == target_link.id) {
             existed = true;
           }
@@ -592,7 +626,7 @@ WY.models.MapManager = (function(){
             weight: 2,
           });
         }
-      });
+      }, this));
       
 
       // this.animate();
@@ -639,7 +673,7 @@ WY.models.MapManager = (function(){
       //       // padding: [100, 100]
       //     });
 
-      // }, this), 1500);
+      // }, this), 5100);
 
 
 
