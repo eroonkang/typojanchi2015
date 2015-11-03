@@ -1,4 +1,3 @@
-
 <?
 
 include 'route.php';
@@ -40,7 +39,7 @@ $route->submit();
 <!DOCTYPE html>
 <head>
 
-  <title>Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레</title>
+  <title>Typojanchi 2015 / 제4회 국제 타이포그래피 비엔날레</title>
   <meta charset="utf-8"></meta>
 
 

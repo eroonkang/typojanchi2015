@@ -155,6 +155,9 @@ a.no-underline:hover {
 .left-nav {
   position: absolute;
 }
+.left-nav .index-list h2 {
+  padding-right: 3em;
+}
 .left-nav .index-list li {
   padding-right: 3em;
 }
