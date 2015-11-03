@@ -21986,7 +21986,7 @@ WY.models.MapManager = (function(){
           var popup = L.popup({
                         closeOnCilck: true,
                         className: "popup-" + node.properties.type.toLowerCase(),
-                        offset: L.point([0, -15])
+                        offset: L.point([0, -20])
                       })
                      .setLatLng(e.latlng)
                      .setContent(this.popup_tmpl[node.properties.type](node.properties));
@@ -22637,9 +22637,7 @@ WY.views.welcome_view = (function(){
     init();
     init_resize();
     init_history();
-
-    $('.btn-menu').click(show_index);
-    $('.close_index').click(hide_index);
+    init_btn_events();
 
   }
 
@@ -22651,6 +22649,19 @@ WY.views.welcome_view = (function(){
     });
 
     $(window).trigger('resize');
+  }
+
+  function init_btn_events(){
+
+    $('.btn-menu').click(show_index);
+    $('.close_index').click(hide_index);
+
+    // $(".btn-home").hover(function(e){
+    //   $(".btn-home svg path").attr("color", "#FFF");
+    // }, function(e){
+    //   $(".btn-home svg path").attr("color", "#000");
+
+    // });
   }
 
   function init(){

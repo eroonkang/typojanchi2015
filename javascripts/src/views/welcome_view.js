@@ -19,9 +19,7 @@ WY.views.welcome_view = (function(){
     init();
     init_resize();
     init_history();
-
-    $('.btn-menu').click(show_index);
-    $('.close_index').click(hide_index);
+    init_btn_events();
 
   }
 
@@ -33,6 +31,19 @@ WY.views.welcome_view = (function(){
     });
 
     $(window).trigger('resize');
+  }
+
+  function init_btn_events(){
+
+    $('.btn-menu').click(show_index);
+    $('.close_index').click(hide_index);
+
+    // $(".btn-home").hover(function(e){
+    //   $(".btn-home svg path").attr("color", "#FFF");
+    // }, function(e){
+    //   $(".btn-home svg path").attr("color", "#000");
+
+    // });
   }
 
   function init(){

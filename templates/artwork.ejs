@@ -28,12 +28,11 @@
       <p class="description">
         <span lang="<%= WY.constants.locale %>"><%= work["artwork_desc_" + WY.constants.locale] %></span>
       </p>
-      <p class="venue">
-        <a href="#"><span lang="<%= WY.constants.locale %>"><%= detail["venue_name_" + WY.constants.locale] %>, <%= detail["venue_city_" + WY.constants.locale] %>, <%= detail["venue_country_" + WY.constants.locale] %></span></a>
-      </p>
     </div>
   <% }); %>
-
+  <p class="venue">
+    <a href="#"><span lang="<%= WY.constants.locale %>"><%= detail["venue_name_" + WY.constants.locale] %>, <%= detail["venue_city_" + WY.constants.locale] %>, <%= detail["venue_country_" + WY.constants.locale] %></span></a>
+  </p>
   <div class="cols triple artwork-photo">
     <img src="<%= WY.constants.home_url %>/images/img.jpg">
     <!-- need to remove gap here on the right side -->

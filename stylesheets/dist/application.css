@@ -947,6 +947,7 @@ p.bio {
   top: 25px;
 }
 #lang-control a, #menu-control a {
+  transition: 0.3s all;
   display: block;
   width: 26px;
   height: 26px;
@@ -968,6 +969,9 @@ p.bio {
   width: 20px;
   height: auto;
 }
+#lang-control a.btn-home:hover svg path, #menu-control a.btn-home:hover svg path {
+  fill: #FFF;
+}
 #lang-control a.btn-menu, #menu-control a.btn-menu {
   border-top: 1px solid;
 }
@@ -975,6 +979,9 @@ p.bio {
   margin-top: 3px;
   width: 20px;
   height: auto;
+}
+#lang-control a.btn-menu:hover svg path, #menu-control a.btn-menu:hover svg path {
+  fill: #FFF;
 }
 
 .map-overlays.btn-logo {
