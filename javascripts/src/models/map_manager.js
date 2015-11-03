@@ -175,7 +175,7 @@ WY.models.MapManager = (function(){
           var popup = L.popup({
                         closeOnCilck: true,
                         className: "popup-" + node.properties.type.toLowerCase(),
-                        offset: L.point([0, -30])
+                        offset: L.point([0, -20])
                       })
                      .setLatLng(e.latlng)
                      .setContent(this.popup_tmpl[node.properties.type](node.properties));

@@ -481,7 +481,7 @@ table {
 .leaflet-popup-tip-container {
 	margin: 0 auto;
 	width: 40px;
-	/*height: 20px;*/
+	height: 20px;
 	position: relative;
 	/*overflow: hidden;*/
 	}
@@ -828,7 +828,7 @@ p.bio {
 .project_icon {
   background-color: white;
   border-radius: 40px;
-  border: 1px solid black !important;
+  border: 2px solid black !important;
   background-color: #000;
   color: #fff;
   text-align: center;
