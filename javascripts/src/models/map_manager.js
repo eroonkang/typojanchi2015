@@ -175,7 +175,7 @@ WY.models.MapManager = (function(){
           var popup = L.popup({
                         closeOnCilck: true,
                         className: "popup-" + node.properties.type.toLowerCase(),
-                        // offset: L.point([0, -10])
+                        offset: L.point([0, -15])
                       })
                      .setLatLng(e.latlng)
                      .setContent(this.popup_tmpl[node.properties.type](node.properties));
@@ -217,10 +217,10 @@ WY.models.MapManager = (function(){
           
           polyline = L.polyline([from_latlng, to_latlng], {
             color: '#000',
-            weight: 1.5,
+            weight: 1,
             opacity: 1,
-            dashArray: "0.1, 10",
-            lineCap: "round"
+            // dashArray: "0.1, 10",
+            // lineCap: "round"
           }).addTo(this.map);
 
         } else if ((source.data.properties.type == "Artwork" && target.data.properties.type == "Artist") || 

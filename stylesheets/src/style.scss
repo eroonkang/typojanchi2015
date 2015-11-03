@@ -27,7 +27,7 @@ body {
 
 :lang(ko){
   font-size: 0.88em;
-  letter-spacing:-0.01em;
+  letter-spacing:-0.0125em;
 }
 
 .en-within-ko{
@@ -486,4 +486,8 @@ p.bio {
       border:none;
     } 
   }
+}
+
+.leaflet-popup-tip {
+  height:23px;
 }
