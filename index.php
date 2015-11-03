@@ -177,13 +177,48 @@ $route->submit();
     <div id="content-outer">
       <div id="content">
       </div>
+      <div id="footer">
+        <h2>
+          <a href="<? echo $home_url; ?>/<? echo $locale; ?>" lang="<? echo $locale; ?>">
+            <? if ($locale == 'ko') { echo "© 타이포잔치 2015"; } ?>
+            <? if ($locale == 'en') { echo "© Typojanchi 2015"; } ?>
+          </a>
+        </h2>
+        <ul>
+          <li>
+            <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" lang="<? echo $locale; ?>">
+              <? if ($locale == 'ko') { echo "소개"; } ?>
+              <? if ($locale == 'en') { echo "About"; } ?>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" lang="<? echo $locale; ?>" class="footer-participants">
+              <? if ($locale == 'ko') { echo "참여작가"; } ?>
+              <? if ($locale == 'en') { echo "Participants"; } ?>
+            </a>
+          </li>
+
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/1-main-exhibition" lang="<? echo $locale; ?>">(1)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/2-six-images-six-texts" lang="<? echo $locale; ?>">(2)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/3-asia-city-texture" lang="<? echo $locale; ?>">(3)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/4--on-the-walls" lang="<? echo $locale; ?>">(4)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-this-is-seoul-soul" lang="<? echo $locale; ?>">(5)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga" lang="<? echo $locale; ?>">(6)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/7-book-bricks" lang="<? echo $locale; ?>">(7)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-c-t-welcomes-you" lang="<? echo $locale; ?>">(8)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-city-linguistic-playfulness" lang="<? echo $locale; ?>">(9)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-city-of-deficiency" lang="<? echo $locale; ?>">(10)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-letter-reportage" lang="<? echo $locale; ?>">(11)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/12-exhibition-space" lang="<? echo $locale; ?>">(12)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-website" lang="<? echo $locale; ?>">(13)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/14-docent-video-projects" lang="<? echo $locale; ?>">(14)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/15-opening-performance" lang="<? echo $locale; ?>">(15)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" lang="<? echo $locale; ?>">(16)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-archiving-app" lang="<? echo $locale; ?>">(17)</a></li>
+        </ul>
+      </div>
     </div>
   </div>
-
-  
-<!--   <a id="map-expander">
-
-  </a> -->
    
   
 

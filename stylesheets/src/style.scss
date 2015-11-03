@@ -534,3 +534,22 @@ p.bio {
     } 
   }
 }
+
+/* ---------------------------------------------- */
+/* footer */
+/* ---------------------------------------------- */
+#footer{
+  padding:30px;
+  h2 {
+    position: absolute;
+  }
+  @include small_type;
+    ul{
+      margin-left:240px;
+      li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 1em;
+      }
+    }
+}

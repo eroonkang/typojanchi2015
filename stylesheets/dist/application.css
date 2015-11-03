@@ -1048,4 +1048,24 @@ p.bio {
   border: none;
 }
 
+/* ---------------------------------------------- */
+/* footer */
+/* ---------------------------------------------- */
+#footer {
+  padding: 30px;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+#footer h2 {
+  position: absolute;
+}
+#footer ul {
+  margin-left: 240px;
+}
+#footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -22984,6 +22984,11 @@ WY.views.welcome_view = (function(){
     $('.btn-menu').click(show_index);
     $('.close_index').click(hide_index);
 
+    $('.footer-participants').click(function(){
+      $(window).scrollTop(0);
+      show_index();
+    });
+
     // $(".btn-home").hover(function(e){
     //   $(".btn-home svg path").attr("color", "#FFF");
     // }, function(e){
