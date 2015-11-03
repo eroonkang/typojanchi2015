@@ -343,8 +343,10 @@ p.bio {
   color: #fff;
 }
 .popup-project .leaflet-popup-content-wrapper:hover {
-  background: #fff;
-  color: #000;
+  text-decoration: underline;
+}
+.popup-project .leaflet-popup-tip {
+  background: #000;
 }
 
 .leaflet-popup-content-wrapper a {
@@ -470,10 +472,6 @@ p.bio {
 .map-overlays.btn-tj:hover {
   opacity: 0.5;
   border: none;
-}
-
-.leaflet-popup-tip {
-  height: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
