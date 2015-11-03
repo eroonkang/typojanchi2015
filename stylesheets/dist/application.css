@@ -546,6 +546,7 @@ table {
 	border: 1px solid #666;
 	}
 
+@charset "UTF-8";
 body {
   font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
   font-style: normal;
@@ -704,6 +705,9 @@ a.no-underline:hover {
 }
 .left-nav .index-list li {
   padding-right: 3em;
+}
+.left-nav .index-list li.current:before {
+  content: "—";
 }
 .left-nav .index-list h2 {
   text-transform: uppercase;

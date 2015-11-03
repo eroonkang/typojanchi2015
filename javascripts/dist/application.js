@@ -22446,14 +22446,17 @@ WY.models.MapManager = (function(){
     },
 
     show_all_popups: function(){
-      _.each(this.active_popups, _.bind(function(popup, i){
+      for (var i = 0; i < this.active_popups.length; i++) {
+        var popup = this.active_popups[i];
+        
         if ($(popup._container).hasClass("mouse-interact-popup")) {
           this.map.removeLayer(popup);
           this.active_popups.splice(i, 1);
         } else {
           $(popup._container).show(); 
         }
-      }, this));
+
+      }
     },
 
     hide_all_popups: function(){

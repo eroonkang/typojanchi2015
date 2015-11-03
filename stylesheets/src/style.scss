@@ -162,6 +162,10 @@ a.no-underline:hover {
   .index-list {
     li {
       padding-right: 3em;
+      
+      &.current:before {
+        content: "—";
+      }
     }
     h2 {
       text-transform: uppercase;
