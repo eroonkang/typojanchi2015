@@ -18,10 +18,12 @@
     <li class="removeiflast">&nbsp;</li>
   </ul>
 </div>
-<% _.each(detail.artworks, function(work){ %> 
-  <div id="artwork">
+<div id="artwork">
+
+  <h3 class="participant" lang="<%= WY.constants.locale %>"><%= detail["full_name_" + WY.constants.locale] %></h3>
+
+  <% _.each(detail.artworks, function(work){ %> 
     <div class="cols triple">
-      <h3 class="participant" lang="<%= WY.constants.locale %>"><%= detail["full_name_" + WY.constants.locale] %></h3>
       <h4 class="artwork" lang="<%= WY.constants.locale %>"><%= work["artwork_name_" + WY.constants.locale] %><% if (!_.isUndefined(work.artwork_year) && !_.isNull(work.artwork_year)){ %>, <% } %><%= work.artwork_year %></h4>
       <p class="description">
         <span lang="<%= WY.constants.locale %>"><%= work["artwork_desc_" + WY.constants.locale] %></span>
@@ -30,12 +32,13 @@
         <a href="#"><span lang="<%= WY.constants.locale %>"><%= detail["venue_name_" + WY.constants.locale] %>, <%= detail["venue_city_" + WY.constants.locale] %>, <%= detail["venue_country_" + WY.constants.locale] %></span></a>
       </p>
     </div>
-    <div class="cols triple artwork-photo">
-      <img src="<%= WY.constants.home_url %>/images/img.jpg">
-      <!-- need to remove gap here on the right side -->
-    </div>
+  <% }); %>
+
+  <div class="cols triple artwork-photo">
+    <img src="<%= WY.constants.home_url %>/images/img.jpg">
+    <!-- need to remove gap here on the right side -->
   </div>
-<% }); %>
+</div>
 <div class="cols single">
   — <br/>
   <a href="#"><span lang="<%= WY.constants.locale %>"><%= detail["origin_city_" + WY.constants.locale] %>, <%= detail["origin_country_" + WY.constants.locale] %></span></a>
