@@ -21934,7 +21934,6 @@ WY.models.MapManager = (function(){
       artist: -3
     };
 
-
     _.extend(this, Backbone.Events);
     _.bindAll(this, "load_complete_handler", "animate");
   }
@@ -22357,6 +22356,7 @@ WY.models.MapManager = (function(){
     update_bound: function(permalink){
       // this.stop_animate();
       // this.fitBounds(
+      this.map.invalidateSize();
       var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
       // debugger;
       var path = this.find_bound_path(node);
@@ -22376,11 +22376,26 @@ WY.models.MapManager = (function(){
       };
 
       var bbox = turf.extent(input);
-      
-      this.map.fitBounds([
-        [bbox[1], bbox[0]],
-        [bbox[3], bbox[2]]
-      ]);
+      // var bbox_poly = turf.bboxPolygon(bbox);
+
+
+
+      // _.delay(_.bind(function(){
+
+        this.map.fitBounds([
+          [bbox[1], bbox[0]],
+          [bbox[3], bbox[2]]
+        ], {
+          padding: [100, 100]
+        });
+
+        // L.geoJson(bbox_poly, {
+        //     style: {
+        //       color: "#FF0000"
+        //     }
+        // }).addTo(this.map);
+      // }, this), 20000);
+// 
 
 
       this.remove_all_popups();
@@ -22436,7 +22451,7 @@ WY.models.MapManager = (function(){
         } else {
           link.data.line.setStyle({
             opacity:1,
-            stroke: 2,
+            weight: 2,
           });
         }
       });
@@ -22548,11 +22563,13 @@ WY.models.MapManager = (function(){
         if ((source.data.properties.type == "Artwork" && target.data.properties.type == "Artist") || 
             (source.data.properties.type == "Artist" && target.data.properties.type == "Artwork")) {
           link.data.line.setStyle({
-            opacity: 0.1
+            opacity: 0.1,
+            weight:1
           });
         } else {
           link.data.line.setStyle({
-            opacity: 1
+            opacity: 1,
+            weight:1
           });
         }
 
