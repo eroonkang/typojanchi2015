@@ -6,13 +6,7 @@
        url('../../fonts/FoundersGroteskTextWeb-Regular.woff') format('woff'); /* Pretty Modern Browsers */
   font-style: normal;
 }
-@font-face {
-  font-family: 'FoundersGroteskTextWeb';
-  src: url('../../fonts/FoundersGroteskTextWeb-RegularItalic.eot'); /* IE9 Compat Modes */
-  src: url('../../fonts/FoundersGroteskTextWeb-RegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../../fonts/FoundersGroteskTextWeb-RegularItalic.woff') format('woff'); /* Pretty Modern Browsers */
-  font-style: italic, oblique;
-}
+
 @font-face {
   font-family: 'NotoSansCJKkr-Regular-2350';
   src: url('../../fonts/NotoSansCJKkr-Regular-2350.eot'); /* IE9 Compat Modes */

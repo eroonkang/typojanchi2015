@@ -51,7 +51,7 @@ WY.models.DetailPageManager = (function(){
     },
 
     about_load_complete_handler: function(data){
-      $("title").text("About :: Typojanchi 2015");
+      $("title").text("About / Typojanchi 2015");
 
       var tmpl = _.template(data);
       this.el.empty().append($(tmpl()));
@@ -73,7 +73,7 @@ WY.models.DetailPageManager = (function(){
         this.title = this.data["venue_name_" + WY.constants.locale];
       }
 
-      this.title += " :: Typojanchi 2015, 제4회 국제 타이포그래피 비엔날레";
+      this.title += " / Typojanchi 2015, 제4회 국제 타이포그래피 비엔날레";
 
       $("title").text(this.title);
       // debugger;
