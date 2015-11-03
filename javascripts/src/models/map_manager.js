@@ -467,11 +467,11 @@ WY.models.MapManager = (function(){
           }
         });
 
-        if (!existed) {
-          node.data.marker.setOpacity(0.2);
-        } else {
-          node.data.marker.setOpacity(1);
-        }
+        // if (!existed) {
+        //   node.data.marker.setOpacity(0.2);
+        // } else {
+        //   node.data.marker.setOpacity(1);
+        // }
       });
 
       this.graph.forEachLink(function(link){

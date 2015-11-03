@@ -21785,7 +21785,7 @@ WY.models.DetailPageManager = (function(){
     },
 
     ko_type_adjust: function(){
-      var rex = new RegExp("([A-Za-z0-9,.\"():&-;]+)(?![^<>&]*>)", "gm");
+      var rex = new RegExp("([\u00FCA-Za-z0-9,.\"():&-;]+)(?![^<>&]*>)", "gm");
 
       this.el.find(":lang(ko)").each(function(){
         var $this = $(this);
@@ -22270,11 +22270,11 @@ WY.models.MapManager = (function(){
           }
         });
 
-        if (!existed) {
-          node.data.marker.setOpacity(0.2);
-        } else {
-          node.data.marker.setOpacity(1);
-        }
+        // if (!existed) {
+        //   node.data.marker.setOpacity(0.2);
+        // } else {
+        //   node.data.marker.setOpacity(1);
+        // }
       });
 
       this.graph.forEachLink(function(link){
