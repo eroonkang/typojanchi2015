@@ -99,6 +99,11 @@ WY.views.welcome_view = (function(){
       participants_manager.init_data(e.data);
       participants_manager.init();
       projects_manager.init();
+      if (permalink == "" || permalink == "about") {
+        map_manager.set_detail(false);
+      } else {
+        map_manager.set_detail(true);
+      }
       detail_page_manager.update();
 
       
@@ -228,6 +233,7 @@ WY.views.welcome_view = (function(){
 
       switch (permalink) {
         case "":
+          map_manager.set_detail(false);
           map_manager.reset();
 
           $("title").text("Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레");
@@ -238,10 +244,12 @@ WY.views.welcome_view = (function(){
           });
           break;
         case "about":
+          map_manager.set_detail(false);
           map_manager.set_map_height(WY.constants.screen_height * 0.5);
           detail_page_manager.update(permalink);
           break;
         default:
+          map_manager.set_detail(true);
           map_manager.set_map_height(WY.constants.screen_height * 0.5);
           map_manager.update_bound(permalink);
           detail_page_manager.update(permalink);

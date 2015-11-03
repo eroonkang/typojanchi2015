@@ -9,6 +9,7 @@ WY.models.MapManager = (function(){
   function MapManager(params){
     this.el_name = params.el_name;
     this.map;
+    this._is_detail = false;
     this.map_address = {
       en: "https://b.tiles.mapbox.com/v4/mathpractice.ef398e06/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoibWF0aHByYWN0aWNlIiwiYSI6ImNpZ2hhN2Y2eDg1Y2t2Ym04M3p0emMyMHIifQ.1Nnnb5bqrFXHpdjw5A132A",
       ko: 'https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw'
@@ -31,7 +32,7 @@ WY.models.MapManager = (function(){
         zoomControl: false
       }).setView([37.56131657517743, 126.97120428085327], 15);
       // WY.constants.map = this.map;
-      // 
+      
       L.tileLayer(this.map_address[WY.constants.locale], {
         attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(this.map);
@@ -39,13 +40,15 @@ WY.models.MapManager = (function(){
       this.map.scrollWheelZoom.disable();
       new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
 
-      // this.map.doubleClickZoom.disable();
-      $("#map-expander").click(_.bind(function(){
-        this.set_map_height(WY.constants.screen_height);
-        this.restore_opacity_graph();
-      }, this));
-
       this.load();
+    },
+    
+    is_detail: function(){
+      return this._is_detail;
+    },
+
+    set_detail: function(_detail){
+      this._is_detail = _detail;
     },
 
     load: function(){
@@ -182,7 +185,7 @@ WY.models.MapManager = (function(){
 
           var popup = L.popup({
                         closeOnCilck: true,
-                        className: "popup-" + node.properties.type.toLowerCase(),
+                        className: "mouse-interact-popup popup-" + node.properties.type.toLowerCase(),
                         offset: L.point([0, -20])
                       })
                      .setLatLng(e.latlng)
@@ -192,6 +195,10 @@ WY.models.MapManager = (function(){
 
           this.active_popups.push(popup);
 
+        }, this));
+
+        marker.on('mouseout', _.bind(function(e){
+          this.show_all_popups();
         }, this));
 
         marker.on('click', _.bind(function(e){
@@ -406,12 +413,29 @@ WY.models.MapManager = (function(){
       this.map.invalidateSize();
     },
 
-    remove_all_popups: function(){
-      _.each(this.active_popups, _.bind(function(popup){
-        this.map.removeLayer(popup);
+    show_all_popups: function(){
+      _.each(this.active_popups, _.bind(function(popup, i){
+        if ($(popup._container).hasClass("mouse-interact-popup")) {
+          this.map.removeLayer(popup);
+          this.active_popups.splice(i, 1);
+        } else {
+          $(popup._container).show(); 
+        }
       }, this));
+    },
 
-      this.active_popups = [];
+    remove_all_popups: function(){
+      if (this.is_detail()){
+        _.each(this.active_popups, _.bind(function(popup){
+          $(popup._container).hide();
+        }, this));
+      } else {
+        _.each(this.active_popups, _.bind(function(popup){
+          this.map.removeLayer(popup);
+        }, this));
+        this.active_popups = [];
+      }
+    
     },
 
     update_bound: function(permalink){
@@ -448,7 +472,7 @@ WY.models.MapManager = (function(){
 
       _.each(path.nodes, _.bind(function(node){
         var popup = L.popup({
-                          closeOnCilck: true,
+                          closeOnClick: false,
                           offset: L.point([0, -10]),
                           className: "popup-" + node.data.properties.type.toLowerCase()
                         });
@@ -496,7 +520,8 @@ WY.models.MapManager = (function(){
           });
         } else {
           link.data.line.setStyle({
-            opacity:1
+            opacity:1,
+            stroke: 2,
           });
         }
       });
