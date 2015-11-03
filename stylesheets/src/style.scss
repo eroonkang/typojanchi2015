@@ -412,6 +412,7 @@ p.bio {
   }
 
   a {
+    transition: 0.3s all;
     display:block;
     width:26px;
     height:26px;
@@ -431,10 +432,19 @@ p.bio {
       // border-top: 1px solid;
     }
     &.btn-home {
+      
       svg {
         margin-top: 3px;
         width:20px;
         height:auto;
+      }
+
+      &:hover {
+        svg {
+          path {
+            fill:#FFF;
+          }
+        }
       }
     }
     &.btn-menu {
@@ -444,6 +454,15 @@ p.bio {
         width:20px;
         height:auto;
       }
+      
+      &:hover {
+        svg {
+          path {
+            fill:#FFF;
+          }
+        }
+      }
+
     }
   }
 }

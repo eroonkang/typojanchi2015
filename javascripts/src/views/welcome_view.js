@@ -19,9 +19,7 @@ WY.views.welcome_view = (function(){
     init();
     init_resize();
     init_history();
-
-    $('.btn-menu, .btn-tj, .btn-ct').click(show_index);
-    $('.close_index').click(hide_index);
+    init_btn_events();
 
   }
 
@@ -33,6 +31,19 @@ WY.views.welcome_view = (function(){
     });
 
     $(window).trigger('resize');
+  }
+
+  function init_btn_events(){
+
+    $('.btn-menu').click(show_index);
+    $('.close_index').click(hide_index);
+
+    // $(".btn-home").hover(function(e){
+    //   $(".btn-home svg path").attr("color", "#FFF");
+    // }, function(e){
+    //   $(".btn-home svg path").attr("color", "#000");
+
+    // });
   }
 
   function init(){
@@ -88,6 +99,11 @@ WY.views.welcome_view = (function(){
       participants_manager.init_data(e.data);
       participants_manager.init();
       projects_manager.init();
+      if (permalink == "" || permalink == "about") {
+        map_manager.set_detail(false);
+      } else {
+        map_manager.set_detail(true);
+      }
       detail_page_manager.update();
 
       
@@ -110,6 +126,15 @@ WY.views.welcome_view = (function(){
 
       $(".about_btn").click(function(e){
         e.preventDefault();
+
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
+
+      $(".home_btn").click(function(e){
+        e.preventDefault();
+
 
         History.pushState({
           permalink: $(e.currentTarget).data('permalink')
@@ -182,14 +207,38 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-      map_manager.set_map_height(WY.constants.screen_height * 0.5);
-      if (permalink != "about") {
-        map_manager.update_bound(permalink);
-      }
 
+
+      switch (permalink) {
+        case "":
+          map_manager.set_detail(false);
+          map_manager.reset();
+
+          $("title").text("Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레");
+          $('#content-outer').css({
+            visibility: "hidden",
+            position: "absolute",
+            top: "-10px"
+          });
+          break;
+        case "about":
+          map_manager.set_detail(false);
+          map_manager.set_map_height(WY.constants.screen_height * 0.5);
+          detail_page_manager.update(permalink);
+          break;
+        default:
+          map_manager.set_detail(true);
+          map_manager.set_map_height(WY.constants.screen_height * 0.5);
+          map_manager.update_bound(permalink);
+          detail_page_manager.update(permalink);
+          break;
+      }
+  
       $(".btn-ko").attr('href', WY.constants.home_url + "/ko/" + permalink);
       $(".btn-en").attr('href', WY.constants.home_url + "/en/" + permalink);
-      detail_page_manager.update(permalink);
+
+
+      
     });
 
   }

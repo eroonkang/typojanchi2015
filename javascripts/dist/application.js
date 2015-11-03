@@ -21855,9 +21855,15 @@ WY.models.DetailPageManager = (function(){
       this.data = jsyaml.load(data);
       // debugger;
    
-      
-      this.title = _.isUndefined(this.data.type) ? this.data["full_name_" + WY.constants.locale] : this.data["project_name_" + WY.constants.locale];
-      this.title += " :: Typojanchi 2015";
+      if (_.isUndefined(this.data.type)){
+        this.title = this.data["full_name_" + WY.constants.locale];
+      } else if (this.data.type == "Project") {
+        this.title = this.data["project_name_" + WY.constants.locale];
+      } else if (this.data.type == "Venue") {
+        this.title = this.data["venue_name_" + WY.constants.locale];
+      }
+
+      this.title += " :: Typojanchi 2015, 제4회 국제 타이포그래피 비엔날레";
 
       $("title").text(this.title);
       // debugger;
@@ -21908,6 +21914,7 @@ WY.models.MapManager = (function(){
   function MapManager(params){
     this.el_name = params.el_name;
     this.map;
+    this._is_detail = false;
     this.map_address = {
       en: "https://b.tiles.mapbox.com/v4/mathpractice.ef398e06/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoibWF0aHByYWN0aWNlIiwiYSI6ImNpZ2hhN2Y2eDg1Y2t2Ym04M3p0emMyMHIifQ.1Nnnb5bqrFXHpdjw5A132A",
       ko: 'https://a.tiles.mapbox.com/v4/eroon26.36545472/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZXJvb24yNiIsImEiOiJjaWY3cWhsbnkweGVuczNrcnZoNHB4dGhoIn0.oFbWC28lxCKcOIDiffQZuw'
@@ -21930,7 +21937,7 @@ WY.models.MapManager = (function(){
         zoomControl: true
       }).setView([37.56131657517743, 126.97120428085327], 15);
       // WY.constants.map = this.map;
-      // 
+      
       L.tileLayer(this.map_address[WY.constants.locale], {
         attribution: '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(this.map);
@@ -21938,13 +21945,15 @@ WY.models.MapManager = (function(){
       this.map.scrollWheelZoom.disable();
       // new L.Control.Zoom({ position: 'topright' }).addTo(this.map);
 
-      // this.map.doubleClickZoom.disable();
-      $("#map-expander").click(_.bind(function(){
-        this.set_map_height(WY.constants.screen_height);
-        this.restore_opacity_graph();
-      }, this));
-
       this.load();
+    },
+    
+    is_detail: function(){
+      return this._is_detail;
+    },
+
+    set_detail: function(_detail){
+      this._is_detail = _detail;
     },
 
     load: function(){
@@ -21953,6 +21962,13 @@ WY.models.MapManager = (function(){
         url: WY.constants.home_url + '/projects/locations.json',
         success: this.load_complete_handler
       })
+    },
+
+    reset: function(){
+      this.remove_all_popups();
+      this.set_map_height(WY.constants.screen_height);
+      this.restore_opacity_graph();
+      this.map.setView([37.56131657517743, 126.97120428085327], 15);
     },
 
     load_complete_handler: function(data){
@@ -22067,13 +22083,14 @@ WY.models.MapManager = (function(){
 
         this.map.addLayer(marker);
 
-        // if (node.properties.permalink == undefined) { debugger; }
+
+        
         marker.on('mouseover', _.bind(function(e){
-          this.remove_all_popups();
+          this.hide_all_popups();
 
           var popup = L.popup({
                         closeOnCilck: true,
-                        className: "popup-" + node.properties.type.toLowerCase(),
+                        className: "mouse-interact-popup popup-" + node.properties.type.toLowerCase(),
                         offset: L.point([0, -20])
                       })
                      .setLatLng(e.latlng)
@@ -22083,6 +22100,10 @@ WY.models.MapManager = (function(){
 
           this.active_popups.push(popup);
 
+        }, this));
+
+        marker.on('mouseout', _.bind(function(e){
+          this.show_all_popups();
         }, this));
 
         marker.on('click', _.bind(function(e){
@@ -22297,12 +22318,30 @@ WY.models.MapManager = (function(){
       this.map.invalidateSize();
     },
 
+    show_all_popups: function(){
+      _.each(this.active_popups, _.bind(function(popup, i){
+        if ($(popup._container).hasClass("mouse-interact-popup")) {
+          this.map.removeLayer(popup);
+          this.active_popups.splice(i, 1);
+        } else {
+          $(popup._container).show(); 
+        }
+      }, this));
+    },
+
+    hide_all_popups: function(){
+      _.each(this.active_popups, _.bind(function(popup){
+        $(popup._container).hide();
+      }, this));
+    },
+
     remove_all_popups: function(){
+
       _.each(this.active_popups, _.bind(function(popup){
         this.map.removeLayer(popup);
       }, this));
-
       this.active_popups = [];
+    
     },
 
     update_bound: function(permalink){
@@ -22339,7 +22378,7 @@ WY.models.MapManager = (function(){
 
       _.each(path.nodes, _.bind(function(node){
         var popup = L.popup({
-                          closeOnCilck: true,
+                          closeOnClick: false,
                           offset: L.point([0, -10]),
                           className: "popup-" + node.data.properties.type.toLowerCase()
                         });
@@ -22387,7 +22426,8 @@ WY.models.MapManager = (function(){
           });
         } else {
           link.data.line.setStyle({
-            opacity:1
+            opacity:1,
+            stroke: 2,
           });
         }
       });
@@ -22725,9 +22765,7 @@ WY.views.welcome_view = (function(){
     init();
     init_resize();
     init_history();
-
-    $('.btn-menu, .btn-tj, .btn-ct').click(show_index);
-    $('.close_index').click(hide_index);
+    init_btn_events();
 
   }
 
@@ -22739,6 +22777,19 @@ WY.views.welcome_view = (function(){
     });
 
     $(window).trigger('resize');
+  }
+
+  function init_btn_events(){
+
+    $('.btn-menu').click(show_index);
+    $('.close_index').click(hide_index);
+
+    // $(".btn-home").hover(function(e){
+    //   $(".btn-home svg path").attr("color", "#FFF");
+    // }, function(e){
+    //   $(".btn-home svg path").attr("color", "#000");
+
+    // });
   }
 
   function init(){
@@ -22794,6 +22845,11 @@ WY.views.welcome_view = (function(){
       participants_manager.init_data(e.data);
       participants_manager.init();
       projects_manager.init();
+      if (permalink == "" || permalink == "about") {
+        map_manager.set_detail(false);
+      } else {
+        map_manager.set_detail(true);
+      }
       detail_page_manager.update();
 
       
@@ -22816,6 +22872,15 @@ WY.views.welcome_view = (function(){
 
       $(".about_btn").click(function(e){
         e.preventDefault();
+
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
+
+      $(".home_btn").click(function(e){
+        e.preventDefault();
+
 
         History.pushState({
           permalink: $(e.currentTarget).data('permalink')
@@ -22888,14 +22953,38 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-      map_manager.set_map_height(WY.constants.screen_height * 0.5);
-      if (permalink != "about") {
-        map_manager.update_bound(permalink);
-      }
 
+
+      switch (permalink) {
+        case "":
+          map_manager.set_detail(false);
+          map_manager.reset();
+
+          $("title").text("Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레");
+          $('#content-outer').css({
+            visibility: "hidden",
+            position: "absolute",
+            top: "-10px"
+          });
+          break;
+        case "about":
+          map_manager.set_detail(false);
+          map_manager.set_map_height(WY.constants.screen_height * 0.5);
+          detail_page_manager.update(permalink);
+          break;
+        default:
+          map_manager.set_detail(true);
+          map_manager.set_map_height(WY.constants.screen_height * 0.5);
+          map_manager.update_bound(permalink);
+          detail_page_manager.update(permalink);
+          break;
+      }
+  
       $(".btn-ko").attr('href', WY.constants.home_url + "/ko/" + permalink);
       $(".btn-en").attr('href', WY.constants.home_url + "/en/" + permalink);
-      detail_page_manager.update(permalink);
+
+
+      
     });
 
   }

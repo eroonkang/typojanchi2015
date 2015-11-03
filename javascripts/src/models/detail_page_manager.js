@@ -65,9 +65,15 @@ WY.models.DetailPageManager = (function(){
       this.data = jsyaml.load(data);
       // debugger;
    
-      
-      this.title = _.isUndefined(this.data.type) ? this.data["full_name_" + WY.constants.locale] : this.data["project_name_" + WY.constants.locale];
-      this.title += " :: Typojanchi 2015";
+      if (_.isUndefined(this.data.type)){
+        this.title = this.data["full_name_" + WY.constants.locale];
+      } else if (this.data.type == "Project") {
+        this.title = this.data["project_name_" + WY.constants.locale];
+      } else if (this.data.type == "Venue") {
+        this.title = this.data["venue_name_" + WY.constants.locale];
+      }
+
+      this.title += " :: Typojanchi 2015, 제4회 국제 타이포그래피 비엔날레";
 
       $("title").text(this.title);
       // debugger;
