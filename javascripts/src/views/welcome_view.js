@@ -221,7 +221,7 @@ WY.views.welcome_view = (function(){
           map_manager.set_detail(false);
           
           map_manager.reset();
-          $("title").text("Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레");
+          $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
           $('#content-outer').css({
             visibility: "hidden",
             position: "absolute",

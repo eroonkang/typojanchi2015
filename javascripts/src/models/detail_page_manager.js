@@ -73,7 +73,7 @@ WY.models.DetailPageManager = (function(){
         this.title = this.data["venue_name_" + WY.constants.locale];
       }
 
-      this.title += " / Typojanchi 2015, 제4회 국제 타이포그래피 비엔날레";
+      this.title += " / Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레";
 
       $("title").text(this.title);
       // debugger;

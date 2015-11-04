@@ -39,7 +39,7 @@ $route->submit();
 <!DOCTYPE html>
 <head>
 
-  <title>Typojanchi 2015 / 제4회 국제 타이포그래피 비엔날레</title>
+  <title>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
   <meta charset="utf-8"></meta>
 
 
@@ -150,7 +150,7 @@ $route->submit();
     </div>
     <a href="<? echo $home_url; ?>/<? echo $locale; ?>" data-permalink="" class="map-overlays btn-logo">
       <h1>
-        <span lang="ko">타이포잔치 2015: 제4회 국제 타이포그래피 비엔날레</span><br>
+        <span lang="ko">타이포잔치 2015: 4회 국제 타이포그래피 비엔날레</span><br>
         Typojanchi 2015: The 4th International Typography Biennale
         <!-- <img src="<? echo $home_url; ?>/images/h1_ko.svg" class="title-ko">
         <img src="<? echo $home_url; ?>/images/h1_en.svg" class="title-en"> -->
