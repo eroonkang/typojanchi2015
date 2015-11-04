@@ -856,13 +856,7 @@ artworks:
   venue_lat: 37.5558393
   venue_lng: 126.9716173
   url: "/projects/artworks/11-guteform.yml"
-- venue_name_en: Culture Station Seoul 284
-  venue_name_ko: "문화역 서울 284"
-  artwork_name_en: City Letter Reportage
-  artwork_name_ko: "도시문자 르포르타주"
-  venue_lat: 37.5558393
-  venue_lng: 126.9716173
-  url: "/projects/artworks/11-jiwon-yu.yml"
+
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역 서울 284"
   artwork_name_en: Exhibition Space
