@@ -214,7 +214,9 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-
+      debugger;
+      // ga('set', { page: path, title: title });
+      // ga('send', 'pageview');
 
       switch (permalink) {
         case "":
