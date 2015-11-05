@@ -189,7 +189,6 @@ WY.models.MapManager = (function(){
 
         this.map.addLayer(marker);
 
-
         
         marker.on('mouseover', _.bind(function(e){
           this.hide_all_popups();
@@ -604,11 +603,11 @@ WY.models.MapManager = (function(){
           }
         });
 
-        // if (!existed) {
-        //   node.data.marker.setOpacity(0.2);
-        // } else {
-        //   node.data.marker.setOpacity(1);
-        // }
+        if (!existed) {
+          $(node.data.marker._icon).removeClass("selected");
+        } else {
+          $(node.data.marker._icon).addClass("selected");
+        }
       }, this));
 
       this.graph.forEachLink(_.bind(function(link){
@@ -630,55 +629,6 @@ WY.models.MapManager = (function(){
           });
         }
       }, this));
-      
-
-      // this.animate();
-
-      // // _.delay(_.bind(function(){
-      // //   this.stop_animate();
-      // // }, this), 5000);
-
-      
-      // this.stop_animate();
-      // this.animate();
-
-      // _.delay(_.bind(function(){
-      //   this.stop_animate();
-      //   var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
-      //   // debugger;
-      //   var path = this.find_bound_path(node);
-
-      //   var input = {
-      //     "type": "FeatureCollection",
-      //     "features": _.map(path.nodes, function(node){
-      //       return {
-      //         "type": "Feature",
-      //         "properties": {},
-      //         "geometry": {
-      //           "type": "Point",
-      //           "coordinates": [node.data.marker._latlng.lng, node.data.marker._latlng.lat]
-      //         }
-      //       }
-      //     })
-      //   };
-
-      //   var bbox = turf.extent(input);
-      //   // var bbox_poly = turf.bboxPolygon(bbox);
-
-
-
-      //   // _.delay(_.bind(function(){
-
-      //     this.map.fitBounds([
-      //       [bbox[1], bbox[0]],
-      //       [bbox[3], bbox[2]]
-      //     ], {
-      //       // padding: [100, 100]
-      //     });
-
-      // }, this), 5100);
-
-
 
     },
 

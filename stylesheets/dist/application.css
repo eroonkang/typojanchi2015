@@ -866,6 +866,9 @@ p.bio {
   text-rendering: optimizeLegibility;
   transition: 0.2s background-color;
 }
+.artwork_icon.selected {
+  border: 2px solid black !important;
+}
 .artwork_icon:hover {
   border: 2px solid black !important;
 }

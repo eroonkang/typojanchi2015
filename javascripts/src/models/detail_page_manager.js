@@ -57,6 +57,10 @@ WY.models.DetailPageManager = (function(){
       this.el.empty().append($(tmpl()));
       this.ko_type_adjust();
       this.trigger('load_complete');
+
+      ga('set', { page: location.path, title: "About / Typojanchi 2015" });
+      ga('send', 'pageview');
+
     },
 
 
@@ -74,6 +78,9 @@ WY.models.DetailPageManager = (function(){
       }
 
       this.title += " / Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레";
+
+      ga('set', { page: location.path, title: this.title });
+      ga('send', 'pageview');
 
       $("title").text(this.title);
       // debugger;

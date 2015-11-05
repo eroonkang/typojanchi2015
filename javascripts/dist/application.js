@@ -21553,6 +21553,17 @@ String.prototype.capitalize = function() {
   return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
+function simple_format(str) {
+  str = str.replace(/\r\n?/, "\n");
+  str = $.trim(str);
+  if (str.length > 0) {
+    str = str.replace(/\n/g, '<br />');
+  }
+  return str;
+}
+
+
+
 Number.prototype.number_with_delimiter = function(delimiter) {
     var number = this + '', delimiter = delimiter || ',';
     var split = number.split('.');
@@ -21891,6 +21902,10 @@ WY.models.DetailPageManager = (function(){
       this.el.empty().append($(tmpl()));
       this.ko_type_adjust();
       this.trigger('load_complete');
+
+      ga('set', { page: location.path, title: "About / Typojanchi 2015" });
+      ga('send', 'pageview');
+
     },
 
 
@@ -21908,6 +21923,9 @@ WY.models.DetailPageManager = (function(){
       }
 
       this.title += " / Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레";
+
+      ga('set', { page: location.path, title: this.title });
+      ga('send', 'pageview');
 
       $("title").text(this.title);
       // debugger;
@@ -22137,7 +22155,6 @@ WY.models.MapManager = (function(){
         var g_node = this.graph.addNode(node.properties.id, marker_node);
 
         this.map.addLayer(marker);
-
 
         
         marker.on('mouseover', _.bind(function(e){
@@ -22553,11 +22570,11 @@ WY.models.MapManager = (function(){
           }
         });
 
-        // if (!existed) {
-        //   node.data.marker.setOpacity(0.2);
-        // } else {
-        //   node.data.marker.setOpacity(1);
-        // }
+        if (!existed) {
+          $(node.data.marker._icon).removeClass("selected");
+        } else {
+          $(node.data.marker._icon).addClass("selected");
+        }
       }, this));
 
       this.graph.forEachLink(_.bind(function(link){
@@ -22579,55 +22596,6 @@ WY.models.MapManager = (function(){
           });
         }
       }, this));
-      
-
-      // this.animate();
-
-      // // _.delay(_.bind(function(){
-      // //   this.stop_animate();
-      // // }, this), 5000);
-
-      
-      // this.stop_animate();
-      // this.animate();
-
-      // _.delay(_.bind(function(){
-      //   this.stop_animate();
-      //   var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
-      //   // debugger;
-      //   var path = this.find_bound_path(node);
-
-      //   var input = {
-      //     "type": "FeatureCollection",
-      //     "features": _.map(path.nodes, function(node){
-      //       return {
-      //         "type": "Feature",
-      //         "properties": {},
-      //         "geometry": {
-      //           "type": "Point",
-      //           "coordinates": [node.data.marker._latlng.lng, node.data.marker._latlng.lat]
-      //         }
-      //       }
-      //     })
-      //   };
-
-      //   var bbox = turf.extent(input);
-      //   // var bbox_poly = turf.bboxPolygon(bbox);
-
-
-
-      //   // _.delay(_.bind(function(){
-
-      //     this.map.fitBounds([
-      //       [bbox[1], bbox[0]],
-      //       [bbox[3], bbox[2]]
-      //     ], {
-      //       // padding: [100, 100]
-      //     });
-
-      // }, this), 5100);
-
-
 
     },
 
@@ -23161,13 +23129,15 @@ WY.views.welcome_view = (function(){
       var state = History.getState(); 
       permalink = state.data.permalink;
 
-
       switch (permalink) {
         case "":
           map_manager.set_detail(false);
-          
           map_manager.reset();
+
           $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
+          ga('set', { page: location.path, title: "Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레" });
+          ga('send', 'pageview');
+      
           $('#content-outer').css({
             visibility: "hidden",
             position: "absolute",

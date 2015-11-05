@@ -309,6 +309,7 @@ p.bio {
   }
 }
 
+
 .artwork_icon {
   background-color: white;
   border-radius: 40px;
@@ -318,6 +319,11 @@ p.bio {
   text-align:center;
   @include regular_type;
   transition: 0.2s background-color;
+
+  &.selected {
+    border:2px solid black !important;    
+  }
+
   &:hover {
     border:2px solid black !important;
   }

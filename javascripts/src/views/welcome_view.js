@@ -214,16 +214,16 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-      debugger;
-      // ga('set', { page: path, title: title });
-      // ga('send', 'pageview');
 
       switch (permalink) {
         case "":
           map_manager.set_detail(false);
-          
           map_manager.reset();
+
           $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
+          ga('set', { page: location.path, title: "Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레" });
+          ga('send', 'pageview');
+      
           $('#content-outer').css({
             visibility: "hidden",
             position: "absolute",
