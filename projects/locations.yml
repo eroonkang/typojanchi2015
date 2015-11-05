@@ -82,8 +82,8 @@ artists:
   url: "/projects/artworks/1-r2.yml"
 - full_name_en: Rejane Dal Bello
   full_name_ko: "레얀느 달 벨로"
-  origin_lat: 52.91746
-  origin_lng: -1.49821
+  origin_lat: 51.5011441
+  origin_lng: -0.1792847
   url: "/projects/artworks/1-rejane-dal-bello.yml"
 - full_name_en: Roman Wilhelm
   full_name_ko: "로만 빌헬름"
@@ -463,8 +463,8 @@ artists:
   url: "/projects/artworks/6-jin-jung.yml"
 - full_name_en: Lara Lee + Oui Kim
   full_name_ko: "이송은 + 김성욱"
-  origin_lat: 35.81549
-  origin_lng: 128.5138
+  origin_lat: 35.8154583
+  origin_lng: 128.5116234
   url: "/projects/artworks/6-lara-lee-n-oui-kim.yml"
 - full_name_en: Mano Ahn
   full_name_ko: "안마노"
@@ -503,8 +503,8 @@ artists:
   url: "/projects/artworks/6-uk-kim.yml"
 - full_name_en: Shin Dockho
   full_name_ko: "신덕호"
-  origin_lat: 35.81549
-  origin_lng: 128.5138
+  origin_lat: 37.56339
+  origin_lng: 126.91836
   url: "/projects/artworks/6-shin-dockho.yml"
 - full_name_en: Dongwhan Kim
   full_name_ko: "김동환"
@@ -583,8 +583,8 @@ artists:
   url: "/projects/artworks/9-fritz-park.yml"
 - full_name_en: Hyung-chul Kim
   full_name_ko: "김형철"
-  origin_lat: 37.51044
-  origin_lng: 127.057
+  origin_lat: 37.40405 
+  origin_lng: 127.24725
   url: "/projects/artworks/9-hyungchul-kim.yml"
 - full_name_en: Jot
   full_name_ko: "좋"
