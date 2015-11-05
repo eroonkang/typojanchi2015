@@ -188,7 +188,9 @@ p.description {
   // line-height: 1.4em;
 }
 p.bio {
-  margin:1em 0 1em 0;
+  border-top: 1px solid; 
+  margin:3em 0 1em 0;
+  padding: 1em 0 0 0;
   @include small_type;
 }
 .artwork-photo, .project-photo {

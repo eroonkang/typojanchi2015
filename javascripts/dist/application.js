@@ -22533,9 +22533,28 @@ WY.models.MapManager = (function(){
       // 아티스트일 경우 전부 
       // 베뉴일 경우 permalink path의 node타입 검사 -> project만.
 
+      var filtered_nodes;
+
+      switch(node.data.properties.type) {
+        case "Venue":
+          filtered_nodes = _.filter(this.permalink_path.nodes, function(_node){ 
+            return _node.data.properties.type == "Project";
+          });
+          break;
+        case "Project":
+
+          filtered_nodes = _.filter(this.permalink_path.nodes, function(_node){ 
+            return _node.data.properties.type == ((node.data.properties.idx >= 12 ||  node.data.properties.idx == 7) ? "Artist" : "Artwork");
+          });
+          break;
+        default:
+          filtered_nodes = this.permalink_path.nodes;
+          break;
+      }
+
       var input = {
         "type": "FeatureCollection",
-        "features": _.map(_.filter(this.permalink_path.nodes, function(node){
+        "features": _.map(filtered_nodes, function(node){
           return {
             "type": "Feature",
             "properties": {},
