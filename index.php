@@ -256,7 +256,7 @@ if ($browser_locale_detect_needed){
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-this-is-seoul-soul" data-permalink="5-this-is-seoul-soul" class="footer_btn" lang="<? echo $locale; ?>">(5)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga" data-permalink="6-jongno-ga" class="footer_btn" lang="<? echo $locale; ?>">(6)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/7-book-bricks" data-permalink="7-book-bricks" class="footer_btn" lang="<? echo $locale; ?>">(7)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-c-t-welcomes-you" data-permalink="/8-c-t-welcomes-you" class="footer_btn" lang="<? echo $locale; ?>">(8)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-c-t-welcomes-you" data-permalink="8-c-t-welcomes-you" class="footer_btn" lang="<? echo $locale; ?>">(8)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-city-linguistic-playfulness" data-permalink="9-city-linguistic-playfulness" class="footer_btn" lang="<? echo $locale; ?>">(9)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-city-of-deficiency" data-permalink="10-city-of-deficiency" class="footer_btn" lang="<? echo $locale; ?>">(10)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-letter-reportage" data-permalink="11-city-letter-reportage" class="footer_btn" lang="<? echo $locale; ?>">(11)</a></li>

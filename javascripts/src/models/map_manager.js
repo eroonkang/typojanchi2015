@@ -560,7 +560,7 @@ WY.models.MapManager = (function(){
         case "Project":
 
           filtered_nodes = _.filter(this.permalink_path.nodes, function(_node){ 
-            return _node.data.properties.type == node.data.properties.idx > 12 ? "Artist" : "Artwork";
+            return _node.data.properties.type == ((node.data.properties.idx >= 12 ||  node.data.properties.idx == 7) ? "Artist" : "Artwork");
           });
           break;
         default:
