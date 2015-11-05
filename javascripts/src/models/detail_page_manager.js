@@ -58,8 +58,21 @@ WY.models.DetailPageManager = (function(){
       this.ko_type_adjust();
       this.trigger('load_complete');
 
+      this.add_events();
       ga('set', { page: location.path, title: "About / Typojanchi 2015" });
       ga('send', 'pageview');
+
+    },
+
+    add_events: function(){
+
+      $('.footer_btn, .about_btn').click(function(e){
+        e.preventDefault();
+        // debugger;
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
 
     },
 
@@ -88,6 +101,7 @@ WY.models.DetailPageManager = (function(){
       // debugger;
       this.el.empty().append($(this.tmpl[type]({
         detail: this.data,
+        permalink: this.permalink,
         project: WY.constants.projects_data.projects[this.project_id - 1]
       })));
 
@@ -99,6 +113,9 @@ WY.models.DetailPageManager = (function(){
         }, "Loading...", $(e.currentTarget).attr('href'));
       });
 
+
+
+      this.add_events();
       this.ko_type_adjust();
       this.trigger('load_complete');
     },

@@ -728,7 +728,7 @@ WY.models.MapManager = (function(){
 
     restore_opacity_graph: function(){
       this.graph.forEachNode(function(node){
-        node.data.marker.setOpacity(1);
+        $(node.data.marker._icon).removeClass("selected");
       });
 
       this.graph.forEachLink(_.bind(function(link){

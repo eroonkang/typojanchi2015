@@ -42,13 +42,6 @@ WY.views.welcome_view = (function(){
       $(window).scrollTop(0);
       show_index();
     });
-
-    // $(".btn-home").hover(function(e){
-    //   $(".btn-home svg path").attr("color", "#FFF");
-    // }, function(e){
-    //   $(".btn-home svg path").attr("color", "#000");
-
-    // });
   }
 
   function init(){
