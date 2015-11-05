@@ -178,6 +178,9 @@ $route->submit();
       <div id="content">
       </div>
     </div>
+    <div id="footer">
+      footer goes here
+    </div>
   </div>
 
   
