@@ -15,11 +15,11 @@
   <div class="cols triple">
     <h3 class="participant" lang="<%= WY.constants.locale %>"><%= detail["venue_name_" + WY.constants.locale] %></h3>
     <p class="description">
-      <span lang="<%= WY.constants.locale %>"><%= project["project_desc_" + WY.constants.locale] %></span>
+      <span lang="<%= WY.constants.locale %>"><%= simple_format(project["project_desc_" + WY.constants.locale]) %></span>
     </p>
 
     <p class="description">
-      <span lang="<%= WY.constants.locale %>"><%= project["curator_bio_" + WY.constants.locale] %></span>
+      <span lang="<%= WY.constants.locale %>"><%= simple_format(project["curator_bio_" + WY.constants.locale]) %></span>
     </p>
   </div>
  </div>
