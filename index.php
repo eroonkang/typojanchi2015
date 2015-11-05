@@ -1,4 +1,3 @@
-
 <?
 
 include 'route.php';
@@ -40,7 +39,7 @@ $route->submit();
 <!DOCTYPE html>
 <head>
 
-  <title>Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레</title>
+  <title>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
   <meta charset="utf-8"></meta>
 
 
@@ -95,7 +94,12 @@ $route->submit();
 <body>
   <div id="index">
     <div id="section-header">
-      <h2><a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn">About (Typojanchi)</a></h2>
+      <h2>
+        <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
+          <? if ($locale == 'ko') { echo "(타이포잔치 2015) 소개"; } ?>
+          <? if ($locale == 'en') { echo "About (Typojanchi 2015)"; } ?>
+        </a>
+      </h2>
       <div id="index-left"><a href="<? echo $home_url; ?>/en">EN</a> / <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a></div>
       <div id="index-right" class="close_index"><a href="javascript:void(0);" class="no-underline"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABnElEQVRoQ+3Z4U3DMBAF4NcJYBQ2ACYpTABsAhvABB0BRmAU2AA91EhRlMjnu/fUqrJ/tokv353VnN0dLmTsLsSBATm3So6KjIqYMjCWlimx6Wl7KnIDYA/gJR2t78ZXAO8AviO3RSFEfAK4Pk7+GJm8cA0BTNoPgPsIJgphdp5mD8ZALsyEmMK9AXhuJSUK4TzLAA7MMsYHgIcWgt/3QNyYNCIDcWFKiCxEjSkjKhAVRoKoQqoYGUIByWKkCBWkFyNHKCFRjAWhhrQwNoQDsoXh5/M3dPiNHXmruyBrmPnzyBFOyBbGgnBC2O4fANwtloaj0fwP0ds0RpYsEdy7cA+zNiwYNWQNweXEwY3SNOQYJWQLMf1aWfczKkgLMa+EpTIKSBRhxVQhvQgbpgLJIiyYLKSKkGMyEBVCiumFqBEyTA/EhZBgohA3ooyJQr4A3M5aDFsXu3KiKT0yZQNIzBUAJ2JZmd9jB908kY9WhAGIYd/UPFCOtMiBayx/KwTinvaSnoqc9kkb0Qfk3MozKjIqYsrAWFqmxKan/QOGW3YzGVri7gAAAABJRU5ErkJggg==" width="24" height="24"></a></div>
     </div>
@@ -144,9 +148,9 @@ $route->submit();
   <div id="map-outer">
     <div id="map-container">
     </div>
-    <a href="<? echo $home_url; ?>/<? echo $locale; ?>" data-permalink="" class="home_btn map-overlays btn-logo">
+    <a href="<? echo $home_url; ?>/<? echo $locale; ?>" data-permalink="" class="map-overlays btn-logo">
       <h1>
-        <span lang="ko">타이포잔치 2015: 제4회 국제 타이포그래피 비엔날레</span><br>
+        <span lang="ko">타이포잔치 2015: 4회 국제 타이포그래피 비엔날레</span><br>
         Typojanchi 2015: The 4th International Typography Biennale
         <!-- <img src="<? echo $home_url; ?>/images/h1_ko.svg" class="title-ko">
         <img src="<? echo $home_url; ?>/images/h1_en.svg" class="title-en"> -->
@@ -156,7 +160,7 @@ $route->submit();
     <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn map-overlays btn-tj"><img src="<? echo $home_url; ?>/images/tj.svg" class="right"></a>
 
     <div id="menu-control">
-      <a href="<? echo $home_url; ?>/<? echo $locale; ?>" data-permalink="" class="home_btn btn-home">
+      <a href="<? echo $home_url; ?>/<? echo $locale; ?>" data-permalink="" class="btn-home">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
           <path style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Bitstream Vera Sans" d="M 16 2.59375 L 15.28125 3.28125 L 2.28125 16.28125 L 3.71875 17.71875 L 5 16.4375 L 5 27 L 5 28 L 6 28 L 13 28 L 14 28 L 14 27 L 14 18 L 18 18 L 18 27 L 18 28 L 19 28 L 26 28 L 27 28 L 27 27 L 27 16.4375 L 28.28125 17.71875 L 29.71875 16.28125 L 16.71875 3.28125 L 16 2.59375 z M 16 5.4375 L 25 14.4375 L 25 26 L 20 26 L 20 17 L 20 16 L 19 16 L 13 16 L 12 16 L 12 17 L 12 26 L 7 26 L 7 14.4375 L 16 5.4375 z" color="#000" overflow="visible" font-family="Bitstream Vera Sans"/>
         </svg>
@@ -177,16 +181,48 @@ $route->submit();
     <div id="content-outer">
       <div id="content">
       </div>
-    </div>
-    <div id="footer">
-      footer goes here
+      <div id="footer">
+        <h2>
+          <a href="<? echo $home_url; ?>/<? echo $locale; ?>" lang="<? echo $locale; ?>">
+            <? if ($locale == 'ko') { echo "© 타이포잔치 2015"; } ?>
+            <? if ($locale == 'en') { echo "© Typojanchi 2015"; } ?>
+          </a>
+        </h2>
+        <ul>
+          <li>
+            <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" lang="<? echo $locale; ?>">
+              <? if ($locale == 'ko') { echo "소개"; } ?>
+              <? if ($locale == 'en') { echo "About"; } ?>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" lang="<? echo $locale; ?>" class="footer-participants">
+              <? if ($locale == 'ko') { echo "참여작가"; } ?>
+              <? if ($locale == 'en') { echo "Participants"; } ?>
+            </a>
+          </li>
+
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/1-main-exhibition" lang="<? echo $locale; ?>">(1)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/2-six-images-six-texts" lang="<? echo $locale; ?>">(2)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/3-asia-city-texture" lang="<? echo $locale; ?>">(3)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/4--on-the-walls" lang="<? echo $locale; ?>">(4)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-this-is-seoul-soul" lang="<? echo $locale; ?>">(5)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga" lang="<? echo $locale; ?>">(6)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/7-book-bricks" lang="<? echo $locale; ?>">(7)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-c-t-welcomes-you" lang="<? echo $locale; ?>">(8)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-city-linguistic-playfulness" lang="<? echo $locale; ?>">(9)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-city-of-deficiency" lang="<? echo $locale; ?>">(10)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-letter-reportage" lang="<? echo $locale; ?>">(11)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/12-exhibition-space" lang="<? echo $locale; ?>">(12)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-website" lang="<? echo $locale; ?>">(13)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/14-docent-video-projects" lang="<? echo $locale; ?>">(14)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/15-opening-performance" lang="<? echo $locale; ?>">(15)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" lang="<? echo $locale; ?>">(16)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-archiving-app" lang="<? echo $locale; ?>">(17)</a></li>
+        </ul>
+      </div>
     </div>
   </div>
-
-  
-<!--   <a id="map-expander">
-
-  </a> -->
    
   
 
@@ -198,6 +234,16 @@ $route->submit();
         permalink: "<? echo $permalink ?>"
       });
     });
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-69712228-1', 'auto');
+    ga('send', 'pageview');
+
   </script>
 </body>
 

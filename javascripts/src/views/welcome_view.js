@@ -38,6 +38,11 @@ WY.views.welcome_view = (function(){
     $('.btn-menu').click(show_index);
     $('.close_index').click(hide_index);
 
+    $('.footer-participants').click(function(){
+      $(window).scrollTop(0);
+      show_index();
+    });
+
     // $(".btn-home").hover(function(e){
     //   $(".btn-home svg path").attr("color", "#FFF");
     // }, function(e){
@@ -209,14 +214,16 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-
+      debugger;
+      // ga('set', { page: path, title: title });
+      // ga('send', 'pageview');
 
       switch (permalink) {
         case "":
           map_manager.set_detail(false);
           
           map_manager.reset();
-          $("title").text("Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레");
+          $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
           $('#content-outer').css({
             visibility: "hidden",
             position: "absolute",

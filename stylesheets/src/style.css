@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
   font-style: normal;
@@ -154,8 +155,14 @@ a.no-underline:hover {
 .left-nav {
   position: absolute;
 }
+.left-nav .index-list h2 {
+  padding-right: 3em;
+}
 .left-nav .index-list li {
   padding-right: 3em;
+}
+.left-nav .index-list li.current:before {
+  content: "—";
 }
 .left-nav .index-list h2 {
   text-transform: uppercase;
@@ -251,14 +258,14 @@ p.bio {
 }
 
 .logos img.ct {
-  width: 80px;
+  width: 70px;
   height: auto;
   position: relative;
   top: 5em;
   left: 100px;
 }
 .logos img.tj {
-  width: 80px;
+  width: 70px;
   height: auto;
   position: relative;
   left: 100px;
@@ -451,6 +458,7 @@ p.bio {
   bottom: 25px;
   transform: translate(-50%, 0);
   -webkit-transform: translate(-50%, 0);
+  transition: 0.2s opacity;
 }
 .map-overlays.btn-logo h1 {
   font-size: 22px;
@@ -479,6 +487,7 @@ p.bio {
   height: auto;
   left: 30px;
   bottom: 30px;
+  transition: 0.2s opacity;
 }
 .map-overlays.btn-ct:hover {
   opacity: 0.5;
@@ -490,10 +499,31 @@ p.bio {
   position: absolute;
   right: 30px;
   bottom: 30px;
+  transition: 0.2s opacity;
 }
 .map-overlays.btn-tj:hover {
   opacity: 0.5;
   border: none;
+}
+
+/* ---------------------------------------------- */
+/* footer */
+/* ---------------------------------------------- */
+#footer {
+  padding: 30px;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+#footer h2 {
+  position: absolute;
+}
+#footer ul {
+  margin-left: 240px;
+}
+#footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */

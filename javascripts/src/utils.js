@@ -2,6 +2,17 @@ String.prototype.capitalize = function() {
   return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
+function simple_format(str) {
+  str = str.replace(/\r\n?/, "\n");
+  str = $.trim(str);
+  if (str.length > 0) {
+    str = str.replace(/\n/g, '<br />');
+  }
+  return str;
+}
+
+
+
 Number.prototype.number_with_delimiter = function(delimiter) {
     var number = this + '', delimiter = delimiter || ',';
     var split = number.split('.');

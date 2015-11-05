@@ -21553,6 +21553,17 @@ String.prototype.capitalize = function() {
   return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
+function simple_format(str) {
+  str = str.replace(/\r\n?/, "\n");
+  str = $.trim(str);
+  if (str.length > 0) {
+    str = str.replace(/\n/g, '<br />');
+  }
+  return str;
+}
+
+
+
 Number.prototype.number_with_delimiter = function(delimiter) {
     var number = this + '', delimiter = delimiter || ',';
     var split = number.split('.');
@@ -21907,7 +21918,7 @@ WY.models.DetailPageManager = (function(){
         this.title = this.data["venue_name_" + WY.constants.locale];
       }
 
-      this.title += " / Typojanchi 2015, 제4회 국제 타이포그래피 비엔날레";
+      this.title += " / Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레";
 
       $("title").text(this.title);
       // debugger;
@@ -22446,14 +22457,17 @@ WY.models.MapManager = (function(){
     },
 
     show_all_popups: function(){
-      _.each(this.active_popups, _.bind(function(popup, i){
+      for (var i = 0; i < this.active_popups.length; i++) {
+        var popup = this.active_popups[i];
+        
         if ($(popup._container).hasClass("mouse-interact-popup")) {
           this.map.removeLayer(popup);
           this.active_popups.splice(i, 1);
         } else {
           $(popup._container).show(); 
         }
-      }, this));
+
+      }
     },
 
     hide_all_popups: function(){
@@ -22981,6 +22995,11 @@ WY.views.welcome_view = (function(){
     $('.btn-menu').click(show_index);
     $('.close_index').click(hide_index);
 
+    $('.footer-participants').click(function(){
+      $(window).scrollTop(0);
+      show_index();
+    });
+
     // $(".btn-home").hover(function(e){
     //   $(".btn-home svg path").attr("color", "#FFF");
     // }, function(e){
@@ -23152,14 +23171,16 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-
+      debugger;
+      // ga('set', { page: path, title: title });
+      // ga('send', 'pageview');
 
       switch (permalink) {
         case "":
           map_manager.set_detail(false);
           
           map_manager.reset();
-          $("title").text("Typojanchi 2015 :: 제4회 국제 타이포그래피 비엔날레");
+          $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
           $('#content-outer').css({
             visibility: "hidden",
             position: "absolute",
