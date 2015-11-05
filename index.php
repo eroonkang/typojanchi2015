@@ -48,7 +48,7 @@ $route->add('/en/.+', function($name) {
 $route->submit();
 
 
-if (!$browser_locale_detect_needed){
+if ($browser_locale_detect_needed){
   $langs = array();
 
   if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {

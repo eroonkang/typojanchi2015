@@ -22212,7 +22212,14 @@ WY.models.MapManager = (function(){
         var source = this.graph.getNode(link.source);
         var target = this.graph.getNode(link.target);
         // debugger;
-        if ((source.data.properties.type == "Venue" && target.data.properties.type == "Project") || 
+        if ((source.data.properties.type == "Artist" && target.data.properties.type == "Project") || 
+            (source.data.properties.type == "Project" && target.data.properties.type == "Artist")) {
+          polyline = L.polyline([from_latlng, to_latlng], {
+            color: '#000',
+            weight: 1,
+            opacity: 1
+          }).addTo(this.map);
+        } else if ((source.data.properties.type == "Venue" && target.data.properties.type == "Project") || 
             (source.data.properties.type == "Project" && target.data.properties.type == "Venue")) {
           polyline = L.polyline([from_latlng, to_latlng], {
             color: '#000',
@@ -22454,6 +22461,9 @@ WY.models.MapManager = (function(){
       this.graph.forEachLink(_.bind(function(link){
         var source = this.graph.getNode(link.fromId);
         var target = this.graph.getNode(link.toId);
+
+
+        if (_.isUndefined(link.data.line)) { debugger; }
         link.data.line.setLatLngs([source.data.marker.getLatLng(), target.data.marker.getLatLng()]);
       }, this));
 
@@ -22517,9 +22527,15 @@ WY.models.MapManager = (function(){
       // debugger;
       this.permalink_path = this.find_bound_path(node);
 
+      // 노드 타입을 보고 
+      // 프로젝트일 경우 permalink_path의 node타입 검사 -> artwork만, 
+      // 아트워크일 경우 전부
+      // 아티스트일 경우 전부 
+      // 베뉴일 경우 permalink path의 node타입 검사 -> project만.
+
       var input = {
         "type": "FeatureCollection",
-        "features": _.map(this.permalink_path.nodes, function(node){
+        "features": _.map(_.filter(this.permalink_path.nodes, function(node){
           return {
             "type": "Feature",
             "properties": {},
@@ -22657,24 +22673,38 @@ WY.models.MapManager = (function(){
 
     find_project_path: function(current_node){
       var path = {
-        nodes: [current_node]
+        nodes: [current_node],
+        links: []
       };
 
+
       var _graph = this.graph;
-      var want_type = current_node.data.properties.idx == 5 ? "Venue" : "Artwork";
+    
+      function visit_and_find(node, want_type) {
+        var result_links = _.filter(node.links, function(link) {
+          var target_id = link.fromId == node.id ? link.toId : link.fromId;
+          return _graph.getNode(target_id).data.properties.type == want_type;
+        });
 
-      var result_links = _.filter(current_node.links, function(link) {
-        var target_id = link.fromId == current_node.id ? link.toId : link.fromId;
-        return _graph.getNode(target_id).data.properties.type == want_type;
+        _.each(result_links, function(result_link){
+          var result_node = _graph.getNode(result_link.fromId == node.id ? result_link.toId : result_link.fromId);
+
+          path.nodes.push(result_node);
+          path.links.push(result_link);
+        });
+
+        return path.nodes[path.nodes.length - 1];
+      }
+
+      _.each(current_node.links, function(link){
+        var result_node = _graph.getNode(link.fromId == current_node.id ? link.toId : link.fromId);
+
+        path.nodes.push(result_node);
+        path.links.push(link);
+        if (result_node.data.properties.type == "Artwork"){
+          visit_and_find(result_node, "Artist");
+        }
       });
-
-      _.each(result_links, function(link){
-        var target_id = link.fromId == current_node.id ? link.toId : link.fromId;
-        path.nodes.push(_graph.getNode(target_id));
-      });
-
-      path.links = result_links;
-
       return path;
     },
 
