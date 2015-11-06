@@ -189,7 +189,6 @@ WY.models.MapManager = (function(){
 
         this.map.addLayer(marker);
 
-
         
         marker.on('mouseover', _.bind(function(e){
           this.hide_all_popups();
@@ -229,7 +228,14 @@ WY.models.MapManager = (function(){
         var source = this.graph.getNode(link.source);
         var target = this.graph.getNode(link.target);
         // debugger;
-        if ((source.data.properties.type == "Venue" && target.data.properties.type == "Project") || 
+        if ((source.data.properties.type == "Artist" && target.data.properties.type == "Project") || 
+            (source.data.properties.type == "Project" && target.data.properties.type == "Artist")) {
+          polyline = L.polyline([from_latlng, to_latlng], {
+            color: '#000',
+            weight: 1,
+            opacity: 1
+          }).addTo(this.map);
+        } else if ((source.data.properties.type == "Venue" && target.data.properties.type == "Project") || 
             (source.data.properties.type == "Project" && target.data.properties.type == "Venue")) {
           polyline = L.polyline([from_latlng, to_latlng], {
             color: '#000',
@@ -279,20 +285,6 @@ WY.models.MapManager = (function(){
 
 
 
-      // this.map.on("zoomend", _.bind(function(e){
-      //   // debugger;
-      //   // for (var i = 0; i < 50000; i++){
-      //   this.stop_animate();
-      //   this.animate();
-  
-      //   // }
-        
-      //   _.delay(_.bind(function(){
-      //     this.stop_animate();
-      //   }, this), 3000);
-      // }, this));
-
-
       $("body").on("click", ".leaflet-popup-content-wrapper", function(e){
         e.preventDefault();
 
@@ -327,27 +319,10 @@ WY.models.MapManager = (function(){
         this.stop_animate();
 
         if (!_.isUndefined(this.permalink)) {
+          var _permalink = this.permalink;
+          var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == _permalink; });
 
-          var input = {
-            "type": "FeatureCollection",
-            "features": _.map(this.permalink_path.nodes, function(node){
-              return {
-                "type": "Feature",
-                "properties": {},
-                "geometry": {
-                  "type": "Point",
-                  "coordinates": [node.data.marker._latlng.lng, node.data.marker._latlng.lat]
-                }
-              }
-            })
-          };
-
-          var bbox = turf.extent(input);
-
-          this.map.fitBounds([
-            [bbox[1], bbox[0]],
-            [bbox[3], bbox[2]]
-          ]);
+          this.fit_bound_to_path(node);
 
         }
       }, this), 5000);
@@ -471,6 +446,9 @@ WY.models.MapManager = (function(){
       this.graph.forEachLink(_.bind(function(link){
         var source = this.graph.getNode(link.fromId);
         var target = this.graph.getNode(link.toId);
+
+
+        if (_.isUndefined(link.data.line)) { debugger; }
         link.data.line.setLatLngs([source.data.marker.getLatLng(), target.data.marker.getLatLng()]);
       }, this));
 
@@ -525,18 +503,53 @@ WY.models.MapManager = (function(){
     
     },
 
-    update_bound: function(permalink){
-      this.permalink = permalink;
-      this.stop_animate();
-      // this.fitBounds(
-      this.map.invalidateSize();
-      var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
-      // debugger;
-      this.permalink_path = this.find_bound_path(node);
+    fit_bound_to_path: function(node){
+        // 노드 타입을 보고 
+      // 프로젝트일 경우 permalink_path의 node타입 검사 -> artwork만, 
+      // 아트워크일 경우 전부
+      // 아티스트일 경우 전부 
+      // 베뉴일 경우 permalink path의 node타입 검사 -> project만.
+
+      var filtered_nodes;
+
+      switch(node.data.properties.type) {
+        case "Venue":
+          var linked_node_type = "Project"
+
+          // if (node.data.properties.idx == 5){
+          //   linked_node_type = "Project";
+          // } else {
+          //   linked_node_type = "Artwork";
+          // }
+
+          filtered_nodes = _.filter(this.permalink_path.nodes, function(_node){ 
+            return _node.data.properties.type == linked_node_type || _node.data.properties.permalink == node.data.properties.permalink;
+          });
+          break;
+        case "Project":
+          var linked_node_type;
+
+          if (node.data.properties.idx >= 12 ||  node.data.properties.idx == 7) { 
+            linked_node_type = "Artist"; 
+          } else if (node.data.properties.idx == 5){
+            linked_node_type = "Venue";
+          } else {
+            linked_node_type = "Artwork";
+          }
+
+          filtered_nodes = _.filter(this.permalink_path.nodes, function(_node){ 
+            return _node.data.properties.type == linked_node_type || _node.data.properties.permalink == node.data.properties.permalink;
+          });
+          debugger;
+          break;
+        default:
+          filtered_nodes = this.permalink_path.nodes;
+          break;
+      }
 
       var input = {
         "type": "FeatureCollection",
-        "features": _.map(this.permalink_path.nodes, function(node){
+        "features": _.map(filtered_nodes, function(node){
           return {
             "type": "Feature",
             "properties": {},
@@ -550,9 +563,6 @@ WY.models.MapManager = (function(){
 
       var bbox = turf.extent(input);
       // var bbox_poly = turf.bboxPolygon(bbox);
-
-
-
       // _.delay(_.bind(function(){
 
         this.map.fitBounds([
@@ -568,7 +578,18 @@ WY.models.MapManager = (function(){
         //     }
         // }).addTo(this.map);
       // }, this), 20000);
-// 
+      // 
+    },
+
+    update_bound: function(permalink){
+      this.permalink = permalink;
+      this.stop_animate();
+      // this.fitBounds(
+      this.map.invalidateSize();
+      var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
+      // debugger;
+      this.permalink_path = this.find_bound_path(node);
+      this.fit_bound_to_path(node);
 
 
       this.remove_all_popups();
@@ -604,11 +625,19 @@ WY.models.MapManager = (function(){
           }
         });
 
-        // if (!existed) {
-        //   node.data.marker.setOpacity(0.2);
-        // } else {
-        //   node.data.marker.setOpacity(1);
-        // }
+        if (!existed) {
+          $(node.data.marker._icon).removeClass("selected");
+          if (node.data.properties.type == "Project") {
+            node.data.marker.setZIndexOffset(500);
+          } else {
+            node.data.marker.setZIndexOffset(1);
+   
+          }
+
+        } else {
+          $(node.data.marker._icon).addClass("selected");
+          node.data.marker.setZIndexOffset(501);
+        }
       }, this));
 
       this.graph.forEachLink(_.bind(function(link){
@@ -630,55 +659,6 @@ WY.models.MapManager = (function(){
           });
         }
       }, this));
-      
-
-      // this.animate();
-
-      // // _.delay(_.bind(function(){
-      // //   this.stop_animate();
-      // // }, this), 5000);
-
-      
-      // this.stop_animate();
-      // this.animate();
-
-      // _.delay(_.bind(function(){
-      //   this.stop_animate();
-      //   var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
-      //   // debugger;
-      //   var path = this.find_bound_path(node);
-
-      //   var input = {
-      //     "type": "FeatureCollection",
-      //     "features": _.map(path.nodes, function(node){
-      //       return {
-      //         "type": "Feature",
-      //         "properties": {},
-      //         "geometry": {
-      //           "type": "Point",
-      //           "coordinates": [node.data.marker._latlng.lng, node.data.marker._latlng.lat]
-      //         }
-      //       }
-      //     })
-      //   };
-
-      //   var bbox = turf.extent(input);
-      //   // var bbox_poly = turf.bboxPolygon(bbox);
-
-
-
-      //   // _.delay(_.bind(function(){
-
-      //     this.map.fitBounds([
-      //       [bbox[1], bbox[0]],
-      //       [bbox[3], bbox[2]]
-      //     ], {
-      //       // padding: [100, 100]
-      //     });
-
-      // }, this), 5100);
-
-
 
     },
 
@@ -723,24 +703,38 @@ WY.models.MapManager = (function(){
 
     find_project_path: function(current_node){
       var path = {
-        nodes: [current_node]
+        nodes: [current_node],
+        links: []
       };
 
+
       var _graph = this.graph;
-      var want_type = current_node.data.properties.idx == 5 ? "Venue" : "Artwork";
+    
+      function visit_and_find(node, want_type) {
+        var result_links = _.filter(node.links, function(link) {
+          var target_id = link.fromId == node.id ? link.toId : link.fromId;
+          return _graph.getNode(target_id).data.properties.type == want_type;
+        });
 
-      var result_links = _.filter(current_node.links, function(link) {
-        var target_id = link.fromId == current_node.id ? link.toId : link.fromId;
-        return _graph.getNode(target_id).data.properties.type == want_type;
+        _.each(result_links, function(result_link){
+          var result_node = _graph.getNode(result_link.fromId == node.id ? result_link.toId : result_link.fromId);
+
+          path.nodes.push(result_node);
+          path.links.push(result_link);
+        });
+
+        return path.nodes[path.nodes.length - 1];
+      }
+
+      _.each(current_node.links, function(link){
+        var result_node = _graph.getNode(link.fromId == current_node.id ? link.toId : link.fromId);
+
+        path.nodes.push(result_node);
+        path.links.push(link);
+        if (result_node.data.properties.type == "Artwork"){
+          visit_and_find(result_node, "Artist");
+        }
       });
-
-      _.each(result_links, function(link){
-        var target_id = link.fromId == current_node.id ? link.toId : link.fromId;
-        path.nodes.push(_graph.getNode(target_id));
-      });
-
-      path.links = result_links;
-
       return path;
     },
 
@@ -778,7 +772,15 @@ WY.models.MapManager = (function(){
 
     restore_opacity_graph: function(){
       this.graph.forEachNode(function(node){
-        node.data.marker.setOpacity(1);
+        $(node.data.marker._icon).removeClass("selected");
+        if (node.data.properties.type == "Project") {
+
+          node.data.marker.setZIndexOffset(500);
+        } else {
+          node.data.marker.setZIndexOffset(1);
+ 
+        }
+       
       });
 
       this.graph.forEachLink(_.bind(function(link){

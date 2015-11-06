@@ -188,7 +188,9 @@ p.description {
   // line-height: 1.4em;
 }
 p.bio {
-  margin:1em 0 1em 0;
+  border-top: 1px solid; 
+  margin:3em 0 1em 0;
+  padding: 1em 0 0 0;
   @include small_type;
 }
 .artwork-photo, .project-photo {
@@ -309,6 +311,7 @@ p.bio {
   }
 }
 
+
 .artwork_icon {
   background-color: white;
   border-radius: 40px;
@@ -318,6 +321,11 @@ p.bio {
   text-align:center;
   @include regular_type;
   transition: 0.2s background-color;
+
+  &.selected {
+    border:2px solid black !important;    
+  }
+
   &:hover {
     border:2px solid black !important;
   }
