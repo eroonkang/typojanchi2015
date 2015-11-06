@@ -16,9 +16,9 @@ WY.views.welcome_view = (function(){
 
     permalink = params.permalink;
 
+    init_history();
     init();
     init_resize();
-    init_history();
     init_btn_events();
 
   }
@@ -97,12 +97,14 @@ WY.views.welcome_view = (function(){
       participants_manager.init_data(e.data);
       participants_manager.init();
       projects_manager.init();
-      if (permalink == "" || permalink == "about") {
-        map_manager.set_detail(false);
-      } else {
-        map_manager.set_detail(true);
-      }
-      detail_page_manager.update();
+      
+      cities_manager.init();
+      cities_manager.on('city_pan_to', function(e){
+        hide_index();  
+        detail_page_manager.hide();
+        map_manager.set_map_height(WY.constants.screen_height);
+        map_manager.city_pan_to(e.latlng, e.zoom);
+      });
 
       
       participants_manager.append_dom();
@@ -116,11 +118,20 @@ WY.views.welcome_view = (function(){
       set_index_pos();
       map_manager.init();
       map_manager.set_map_height(WY.constants.screen_height);
-      cities_manager.init();
-      cities_manager.on('city_pan_to', function(e){
-        hide_index();  
-        map_manager.city_pan_to(e.latlng, e.zoom);
-      });
+
+
+      if (permalink.split("-")[0] != "city") {
+
+        if (permalink == "" || permalink == "about") {
+          map_manager.set_detail(false);
+        } else {
+          map_manager.set_detail(true);
+        }
+        detail_page_manager.update();
+      } else {
+        cities_manager.city_pan(permalink);
+      }
+      
 
       $(".about_btn").click(function(e){
         e.preventDefault();
@@ -144,7 +155,7 @@ WY.views.welcome_view = (function(){
     });
 
     map_manager.on('load_complete', function(e){
-      if (permalink != '' && permalink != "about") {
+      if (permalink != '' && permalink != "about" && permalink.split("-")[0] != "city") {
         map_manager.update_bound(permalink);  
       }
     });
@@ -209,32 +220,38 @@ WY.views.welcome_view = (function(){
       var state = History.getState(); 
       permalink = state.data.permalink;
 
-      switch (permalink) {
-        case "":
-          map_manager.set_detail(false);
-          map_manager.reset();
+      if (permalink.split("-")[0] == "city") {
 
-          $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
-          ga('set', { page: location.path, title: "Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레" });
-          ga('send', 'pageview');
-      
-          $('#content-outer').css({
-            visibility: "hidden",
-            position: "absolute",
-            top: "-10px"
-          });
-          break;
-        case "about":
-          map_manager.set_detail(false);
-          map_manager.set_map_height(WY.constants.screen_height * 0.5);
-          detail_page_manager.update(permalink);
-          break;
-        default:
-          map_manager.set_detail(true);
-          map_manager.set_map_height(WY.constants.screen_height * 0.5);
-          map_manager.update_bound(permalink);
-          detail_page_manager.update(permalink);
-          break;
+        cities_manager.city_pan(permalink);
+
+      } else {
+        switch (permalink) {
+          case "":
+            map_manager.set_detail(false);
+            map_manager.reset();
+
+            $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
+            ga('set', { page: location.path, title: "Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레" });
+            ga('send', 'pageview');
+        
+            $('#content-outer').css({
+              visibility: "hidden",
+              position: "absolute",
+              top: "-10px"
+            });
+            break;
+          case "about":
+            map_manager.set_detail(false);
+            map_manager.set_map_height(WY.constants.screen_height * 0.5);
+            detail_page_manager.update(permalink);
+            break;
+          default:
+            map_manager.set_detail(true);
+            map_manager.set_map_height(WY.constants.screen_height * 0.5);
+            map_manager.update_bound(permalink);
+            detail_page_manager.update(permalink);
+            break;
+        }
       }
   
       $(".btn-ko").attr('href', WY.constants.home_url + "/ko/" + permalink);

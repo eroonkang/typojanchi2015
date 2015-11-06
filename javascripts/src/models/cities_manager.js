@@ -107,18 +107,28 @@ WY.models.CitiesManager = (function(){
     },
 
     city_btn_click_handler: function(e){
-      var dict_name = this.slug_underscore($(e.target).text());
+      e.preventDefault();
+      // debugger;
+      History.pushState({
+        permalink: $(e.currentTarget).data('permalink')
+      }, "Loading...", $(e.currentTarget).attr('href'));
+
+    },
+
+    city_pan: function(permalink){
+      var dict_name = this.slug_underscore(permalink);
       var latlng = L.latLng(WY.constants.cities_locations[dict_name].latlng);
+      $("title").text(this.el.find(".city_btn[data-permalink=" + permalink + "]").text() + " :: Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
 
       // debugger;
       this.trigger('city_pan_to', {latlng: latlng, zoom: WY.constants.cities_locations[dict_name].zoom});
     },
 
     slug_underscore: function(name) {
-      return name.split(',')[0]
-        .toLowerCase()
-        .replace(/[^\w ]+/g,'')
-        .replace(/ +/g,'_');
+      var a = name.split('-');
+      a.shift();
+
+      return a.join("_");
     }
   };
 
