@@ -21825,18 +21825,28 @@ WY.models.CitiesManager = (function(){
     },
 
     city_btn_click_handler: function(e){
-      var dict_name = this.slug_underscore($(e.target).text());
+      e.preventDefault();
+      // debugger;
+      History.pushState({
+        permalink: $(e.currentTarget).data('permalink')
+      }, "Loading...", $(e.currentTarget).attr('href'));
+
+    },
+
+    city_pan: function(permalink){
+      var dict_name = this.slug_underscore(permalink);
       var latlng = L.latLng(WY.constants.cities_locations[dict_name].latlng);
+      $("title").text(this.el.find(".city_btn[data-permalink=" + permalink + "]").text() + " :: Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
 
       // debugger;
       this.trigger('city_pan_to', {latlng: latlng, zoom: WY.constants.cities_locations[dict_name].zoom});
     },
 
     slug_underscore: function(name) {
-      return name.split(',')[0]
-        .toLowerCase()
-        .replace(/[^\w ]+/g,'')
-        .replace(/ +/g,'_');
+      var a = name.split('-');
+      a.shift();
+
+      return a.join("_");
     }
   };
 
@@ -21860,6 +21870,10 @@ WY.models.DetailPageManager = (function(){
       this.tmpl = tmpl;
     },
 
+    hide: function(){
+      this.el.hide();
+    },
+
     update: function(permalink){
       if (!_.isUndefined(permalink)) {
         this.permalink = permalink;
@@ -21869,6 +21883,8 @@ WY.models.DetailPageManager = (function(){
         return false; 
       }
 
+      this.el.show();
+      
       if (this.permalink == "about") {
         this.update_about();
       } else {
@@ -21899,9 +21915,26 @@ WY.models.DetailPageManager = (function(){
       $("title").text("About / Typojanchi 2015");
 
       var tmpl = _.template(data);
-      this.el.empty().append($(tmpl()));
+      this.el.find("#content").empty().append($(tmpl()));
       this.ko_type_adjust();
       this.trigger('load_complete');
+
+      this.add_events();
+      ga('set', { page: location.path, title: "About / Typojanchi 2015" });
+      ga('send', 'pageview');
+
+    },
+
+    add_events: function(){
+
+      $('.footer_btn, .about_btn').click(function(e){
+        e.preventDefault();
+        // debugger;
+        History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+      });
+
     },
 
 
@@ -21920,16 +21953,20 @@ WY.models.DetailPageManager = (function(){
 
       this.title += " / Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레";
 
+      ga('set', { page: location.path, title: this.title });
+      ga('send', 'pageview');
+
       $("title").text(this.title);
       // debugger;
       var type = _.isUndefined(this.data.type) ? "artwork" : this.data.type.toLowerCase();
       // debugger;
-      this.el.empty().append($(this.tmpl[type]({
+      this.el.find("#content").empty().append($(this.tmpl[type]({
         detail: this.data,
+        permalink: this.permalink,
         project: WY.constants.projects_data.projects[this.project_id - 1]
       })));
 
-      this.el.find(".participant_change_btn").click(function(e){
+      this.el.find("#content .participant_change_btn").click(function(e){
         e.preventDefault();
         // debugger;
         History.pushState({
@@ -21937,6 +21974,9 @@ WY.models.DetailPageManager = (function(){
         }, "Loading...", $(e.currentTarget).attr('href'));
       });
 
+
+
+      this.add_events();
       this.ko_type_adjust();
       this.trigger('load_complete');
     },
@@ -21944,7 +21984,7 @@ WY.models.DetailPageManager = (function(){
     ko_type_adjust: function(){
       var rex = new RegExp("([\u00FCA-Za-z0-9,.\"():&-;]+)(?![^<>&]*>)", "gm");
 
-      this.el.find(":lang(ko)").each(function(){
+      this.el.find("#content").find(":lang(ko)").each(function(){
         var $this = $(this);
         var content = $this.html();
         // debugger;
@@ -22149,7 +22189,6 @@ WY.models.MapManager = (function(){
 
         this.map.addLayer(marker);
 
-
         
         marker.on('mouseover', _.bind(function(e){
           this.hide_all_popups();
@@ -22189,7 +22228,14 @@ WY.models.MapManager = (function(){
         var source = this.graph.getNode(link.source);
         var target = this.graph.getNode(link.target);
         // debugger;
-        if ((source.data.properties.type == "Venue" && target.data.properties.type == "Project") || 
+        if ((source.data.properties.type == "Artist" && target.data.properties.type == "Project") || 
+            (source.data.properties.type == "Project" && target.data.properties.type == "Artist")) {
+          polyline = L.polyline([from_latlng, to_latlng], {
+            color: '#000',
+            weight: 1,
+            opacity: 1
+          }).addTo(this.map);
+        } else if ((source.data.properties.type == "Venue" && target.data.properties.type == "Project") || 
             (source.data.properties.type == "Project" && target.data.properties.type == "Venue")) {
           polyline = L.polyline([from_latlng, to_latlng], {
             color: '#000',
@@ -22239,20 +22285,6 @@ WY.models.MapManager = (function(){
 
 
 
-      // this.map.on("zoomend", _.bind(function(e){
-      //   // debugger;
-      //   // for (var i = 0; i < 50000; i++){
-      //   this.stop_animate();
-      //   this.animate();
-  
-      //   // }
-        
-      //   _.delay(_.bind(function(){
-      //     this.stop_animate();
-      //   }, this), 3000);
-      // }, this));
-
-
       $("body").on("click", ".leaflet-popup-content-wrapper", function(e){
         e.preventDefault();
 
@@ -22287,27 +22319,10 @@ WY.models.MapManager = (function(){
         this.stop_animate();
 
         if (!_.isUndefined(this.permalink)) {
+          var _permalink = this.permalink;
+          var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == _permalink; });
 
-          var input = {
-            "type": "FeatureCollection",
-            "features": _.map(this.permalink_path.nodes, function(node){
-              return {
-                "type": "Feature",
-                "properties": {},
-                "geometry": {
-                  "type": "Point",
-                  "coordinates": [node.data.marker._latlng.lng, node.data.marker._latlng.lat]
-                }
-              }
-            })
-          };
-
-          var bbox = turf.extent(input);
-
-          this.map.fitBounds([
-            [bbox[1], bbox[0]],
-            [bbox[3], bbox[2]]
-          ]);
+          this.fit_bound_to_path(node);
 
         }
       }, this), 5000);
@@ -22431,6 +22446,9 @@ WY.models.MapManager = (function(){
       this.graph.forEachLink(_.bind(function(link){
         var source = this.graph.getNode(link.fromId);
         var target = this.graph.getNode(link.toId);
+
+
+        if (_.isUndefined(link.data.line)) { debugger; }
         link.data.line.setLatLngs([source.data.marker.getLatLng(), target.data.marker.getLatLng()]);
       }, this));
 
@@ -22485,18 +22503,53 @@ WY.models.MapManager = (function(){
     
     },
 
-    update_bound: function(permalink){
-      this.permalink = permalink;
-      this.stop_animate();
-      // this.fitBounds(
-      this.map.invalidateSize();
-      var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
-      // debugger;
-      this.permalink_path = this.find_bound_path(node);
+    fit_bound_to_path: function(node){
+        // 노드 타입을 보고 
+      // 프로젝트일 경우 permalink_path의 node타입 검사 -> artwork만, 
+      // 아트워크일 경우 전부
+      // 아티스트일 경우 전부 
+      // 베뉴일 경우 permalink path의 node타입 검사 -> project만.
+
+      var filtered_nodes;
+
+      switch(node.data.properties.type) {
+        case "Venue":
+          var linked_node_type = "Project"
+
+          // if (node.data.properties.idx == 5){
+          //   linked_node_type = "Project";
+          // } else {
+          //   linked_node_type = "Artwork";
+          // }
+
+          filtered_nodes = _.filter(this.permalink_path.nodes, function(_node){ 
+            return _node.data.properties.type == linked_node_type || _node.data.properties.permalink == node.data.properties.permalink;
+          });
+          break;
+        case "Project":
+          var linked_node_type;
+
+          if (node.data.properties.idx >= 12 ||  node.data.properties.idx == 7) { 
+            linked_node_type = "Artist"; 
+          } else if (node.data.properties.idx == 5){
+            linked_node_type = "Venue";
+          } else {
+            linked_node_type = "Artwork";
+          }
+
+          filtered_nodes = _.filter(this.permalink_path.nodes, function(_node){ 
+            return _node.data.properties.type == linked_node_type || _node.data.properties.permalink == node.data.properties.permalink;
+          });
+          // debugger;
+          break;
+        default:
+          filtered_nodes = this.permalink_path.nodes;
+          break;
+      }
 
       var input = {
         "type": "FeatureCollection",
-        "features": _.map(this.permalink_path.nodes, function(node){
+        "features": _.map(filtered_nodes, function(node){
           return {
             "type": "Feature",
             "properties": {},
@@ -22510,9 +22563,6 @@ WY.models.MapManager = (function(){
 
       var bbox = turf.extent(input);
       // var bbox_poly = turf.bboxPolygon(bbox);
-
-
-
       // _.delay(_.bind(function(){
 
         this.map.fitBounds([
@@ -22528,7 +22578,18 @@ WY.models.MapManager = (function(){
         //     }
         // }).addTo(this.map);
       // }, this), 20000);
-// 
+      // 
+    },
+
+    update_bound: function(permalink){
+      this.permalink = permalink;
+      this.stop_animate();
+      // this.fitBounds(
+      this.map.invalidateSize();
+      var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
+      // debugger;
+      this.permalink_path = this.find_bound_path(node);
+      this.fit_bound_to_path(node);
 
 
       this.remove_all_popups();
@@ -22564,11 +22625,25 @@ WY.models.MapManager = (function(){
           }
         });
 
-        // if (!existed) {
-        //   node.data.marker.setOpacity(0.2);
-        // } else {
-        //   node.data.marker.setOpacity(1);
-        // }
+        if (!existed) {
+          $(node.data.marker._icon).removeClass("selected");
+          if (node.data.properties.type == "Project") {
+            node.data.marker.setZIndexOffset(500);
+          } else {
+            node.data.marker.setZIndexOffset(1);
+   
+          }
+
+        } else {
+          $(node.data.marker._icon).addClass("selected");
+          // node.data.marker.setZIndexOffset(501);
+          if (node.data.properties.type == "Project") {
+            node.data.marker.setZIndexOffset(502);
+          } else {
+            node.data.marker.setZIndexOffset(501);
+   
+          }
+        }
       }, this));
 
       this.graph.forEachLink(_.bind(function(link){
@@ -22590,55 +22665,6 @@ WY.models.MapManager = (function(){
           });
         }
       }, this));
-      
-
-      // this.animate();
-
-      // // _.delay(_.bind(function(){
-      // //   this.stop_animate();
-      // // }, this), 5000);
-
-      
-      // this.stop_animate();
-      // this.animate();
-
-      // _.delay(_.bind(function(){
-      //   this.stop_animate();
-      //   var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
-      //   // debugger;
-      //   var path = this.find_bound_path(node);
-
-      //   var input = {
-      //     "type": "FeatureCollection",
-      //     "features": _.map(path.nodes, function(node){
-      //       return {
-      //         "type": "Feature",
-      //         "properties": {},
-      //         "geometry": {
-      //           "type": "Point",
-      //           "coordinates": [node.data.marker._latlng.lng, node.data.marker._latlng.lat]
-      //         }
-      //       }
-      //     })
-      //   };
-
-      //   var bbox = turf.extent(input);
-      //   // var bbox_poly = turf.bboxPolygon(bbox);
-
-
-
-      //   // _.delay(_.bind(function(){
-
-      //     this.map.fitBounds([
-      //       [bbox[1], bbox[0]],
-      //       [bbox[3], bbox[2]]
-      //     ], {
-      //       // padding: [100, 100]
-      //     });
-
-      // }, this), 5100);
-
-
 
     },
 
@@ -22683,24 +22709,38 @@ WY.models.MapManager = (function(){
 
     find_project_path: function(current_node){
       var path = {
-        nodes: [current_node]
+        nodes: [current_node],
+        links: []
       };
 
+
       var _graph = this.graph;
-      var want_type = current_node.data.properties.idx == 5 ? "Venue" : "Artwork";
+    
+      function visit_and_find(node, want_type) {
+        var result_links = _.filter(node.links, function(link) {
+          var target_id = link.fromId == node.id ? link.toId : link.fromId;
+          return _graph.getNode(target_id).data.properties.type == want_type;
+        });
 
-      var result_links = _.filter(current_node.links, function(link) {
-        var target_id = link.fromId == current_node.id ? link.toId : link.fromId;
-        return _graph.getNode(target_id).data.properties.type == want_type;
+        _.each(result_links, function(result_link){
+          var result_node = _graph.getNode(result_link.fromId == node.id ? result_link.toId : result_link.fromId);
+
+          path.nodes.push(result_node);
+          path.links.push(result_link);
+        });
+
+        return path.nodes[path.nodes.length - 1];
+      }
+
+      _.each(current_node.links, function(link){
+        var result_node = _graph.getNode(link.fromId == current_node.id ? link.toId : link.fromId);
+
+        path.nodes.push(result_node);
+        path.links.push(link);
+        if (result_node.data.properties.type == "Artwork"){
+          visit_and_find(result_node, "Artist");
+        }
       });
-
-      _.each(result_links, function(link){
-        var target_id = link.fromId == current_node.id ? link.toId : link.fromId;
-        path.nodes.push(_graph.getNode(target_id));
-      });
-
-      path.links = result_links;
-
       return path;
     },
 
@@ -22738,7 +22778,15 @@ WY.models.MapManager = (function(){
 
     restore_opacity_graph: function(){
       this.graph.forEachNode(function(node){
-        node.data.marker.setOpacity(1);
+        $(node.data.marker._icon).removeClass("selected");
+        if (node.data.properties.type == "Project") {
+
+          node.data.marker.setZIndexOffset(500);
+        } else {
+          node.data.marker.setZIndexOffset(1);
+ 
+        }
+       
       });
 
       this.graph.forEachLink(_.bind(function(link){
@@ -22973,9 +23021,9 @@ WY.views.welcome_view = (function(){
 
     permalink = params.permalink;
 
+    init_history();
     init();
     init_resize();
-    init_history();
     init_btn_events();
 
   }
@@ -22999,13 +23047,6 @@ WY.views.welcome_view = (function(){
       $(window).scrollTop(0);
       show_index();
     });
-
-    // $(".btn-home").hover(function(e){
-    //   $(".btn-home svg path").attr("color", "#FFF");
-    // }, function(e){
-    //   $(".btn-home svg path").attr("color", "#000");
-
-    // });
   }
 
   function init(){
@@ -23043,7 +23084,7 @@ WY.views.welcome_view = (function(){
 
 
     detail_page_manager = new WY.models.DetailPageManager({
-      el: $("#content"),
+      el: $("#content-outer"),
       permalink: permalink
     });
 
@@ -23061,12 +23102,14 @@ WY.views.welcome_view = (function(){
       participants_manager.init_data(e.data);
       participants_manager.init();
       projects_manager.init();
-      if (permalink == "" || permalink == "about") {
-        map_manager.set_detail(false);
-      } else {
-        map_manager.set_detail(true);
-      }
-      detail_page_manager.update();
+      
+      cities_manager.init();
+      cities_manager.on('city_pan_to', function(e){
+        hide_index();  
+        detail_page_manager.hide();
+        map_manager.set_map_height(WY.constants.screen_height);
+        map_manager.city_pan_to(e.latlng, e.zoom);
+      });
 
       
       participants_manager.append_dom();
@@ -23080,11 +23123,20 @@ WY.views.welcome_view = (function(){
       set_index_pos();
       map_manager.init();
       map_manager.set_map_height(WY.constants.screen_height);
-      cities_manager.init();
-      cities_manager.on('city_pan_to', function(e){
-        hide_index();  
-        map_manager.city_pan_to(e.latlng, e.zoom);
-      });
+
+
+      if (permalink.split("-")[0] != "city") {
+
+        if (permalink == "" || permalink == "about") {
+          map_manager.set_detail(false);
+        } else {
+          map_manager.set_detail(true);
+        }
+        detail_page_manager.update();
+      } else {
+        cities_manager.city_pan(permalink);
+      }
+      
 
       $(".about_btn").click(function(e){
         e.preventDefault();
@@ -23099,6 +23151,7 @@ WY.views.welcome_view = (function(){
 
 
         map_manager.reset();
+        detail_page_manager.hide();
 
         History.pushState({
           permalink: $(e.currentTarget).data('permalink')
@@ -23107,7 +23160,7 @@ WY.views.welcome_view = (function(){
     });
 
     map_manager.on('load_complete', function(e){
-      if (permalink != '' && permalink != "about") {
+      if (permalink != '' && permalink != "about" && permalink.split("-")[0] != "city") {
         map_manager.update_bound(permalink);  
       }
     });
@@ -23171,33 +23224,39 @@ WY.views.welcome_view = (function(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
       permalink = state.data.permalink;
-      debugger;
-      // ga('set', { page: path, title: title });
-      // ga('send', 'pageview');
 
-      switch (permalink) {
-        case "":
-          map_manager.set_detail(false);
-          
-          map_manager.reset();
-          $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
-          $('#content-outer').css({
-            visibility: "hidden",
-            position: "absolute",
-            top: "-10px"
-          });
-          break;
-        case "about":
-          map_manager.set_detail(false);
-          map_manager.set_map_height(WY.constants.screen_height * 0.5);
-          detail_page_manager.update(permalink);
-          break;
-        default:
-          map_manager.set_detail(true);
-          map_manager.set_map_height(WY.constants.screen_height * 0.5);
-          map_manager.update_bound(permalink);
-          detail_page_manager.update(permalink);
-          break;
+      if (permalink.split("-")[0] == "city") {
+
+        cities_manager.city_pan(permalink);
+
+      } else {
+        switch (permalink) {
+          case "":
+            map_manager.set_detail(false);
+            map_manager.reset();
+
+            $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
+            ga('set', { page: location.path, title: "Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레" });
+            ga('send', 'pageview');
+        
+            $('#content-outer').css({
+              visibility: "hidden",
+              position: "absolute",
+              top: "-10px"
+            });
+            break;
+          case "about":
+            map_manager.set_detail(false);
+            map_manager.set_map_height(WY.constants.screen_height * 0.5);
+            detail_page_manager.update(permalink);
+            break;
+          default:
+            map_manager.set_detail(true);
+            map_manager.set_map_height(WY.constants.screen_height * 0.5);
+            map_manager.update_bound(permalink);
+            detail_page_manager.update(permalink);
+            break;
+        }
       }
   
       $(".btn-ko").attr('href', WY.constants.home_url + "/ko/" + permalink);

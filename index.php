@@ -153,65 +153,65 @@ if ($browser_locale_detect_needed){
     <div id="section-cities">
       <ul class="index-list">
         <? if ($locale == 'ko') { ?>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-amsterdam" class="city_btn" data-permalink="city-amsterdam">암스테르담, 네덜란드</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-auckland" class="city_btn" data-permalink="city-auckland">오클랜드, 뉴질랜드</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-bangkok" class="city_btn" data-permalink="city-bangkok">방콕, 태국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-basel" class="city_btn" data-permalink="city-basel">바젤, 스위스</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-beijing" class="city_btn" data-permalink="city-beijing">베이징, 중국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-berlin" class="city_btn" data-permalink="city-berlin">베를린, 독일</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-daegu" class="city_btn" data-permalink="city-daegu">대구, 한국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-ghent" class="city_btn" data-permalink="city-ghent">겐트, 벨기에</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gunpo" class="city_btn" data-permalink="city-gunpo">군포, 한국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gwacheon" class="city_btn" data-permalink="city-gwacheon">과천, 한국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gwangju" class="city_btn" data-permalink="city-gwangju">광주, 한국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-ho-chi-minh" class="city_btn" data-permalink="city-ho-chi-minh">호치민, 베트남</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-homer" class="city_btn" data-permalink="city-homer">호머, 미국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-hong-kong" class="city_btn" data-permalink="city-hong-kong">홍콩</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-kyoto" class="city_btn" data-permalink="city-kyoto">교토, 일본</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-london" class="city_btn" data-permalink="city-london">런던, 영국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-montreuil" class="city_btn" data-permalink="city-montreuil">몽트뢰유, 프랑스</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-haven" class="city_btn" data-permalink="city-new-haven">뉴헤이븐, 미국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-york" class="city_btn" data-permalink="city-new-york">뉴욕, 미국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-osaka" class="city_btn" data-permalink="city-osaka">오사카, 일본</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-paju" class="city_btn" data-permalink="city-paju">파주, 한국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-paris" class="city_btn" data-permalink="city-paris">파리, 프랑스</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-porto" class="city_btn" data-permalink="city-porto">포르토, 포르투갈</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-rotterdam" class="city_btn" data-permalink="city-rotterdam">로테르담, 네덜란드</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-seoul" class="city_btn" data-permalink="city-seoul">서울, 한국</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-singapore" class="city_btn" data-permalink="city-singapore">싱가폴</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-stockholm" class="city_btn" data-permalink="city-stockholm">스톡홀름, 스웨덴</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-taipei" class="city_btn" data-permalink="city-taipei">타이페이, 대만</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-tokyo" class="city_btn" data-permalink="city-tokyo">도쿄, 일본</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-amsterdam" class="city_btn" data-permalink="city-amsterdam">암스테르담, 네덜란드</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-auckland" class="city_btn" data-permalink="city-auckland">오클랜드, 뉴질랜드</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-bangkok" class="city_btn" data-permalink="city-bangkok">방콕, 태국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-basel" class="city_btn" data-permalink="city-basel">바젤, 스위스</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-beijing" class="city_btn" data-permalink="city-beijing">베이징, 중국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-berlin" class="city_btn" data-permalink="city-berlin">베를린, 독일</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-daegu" class="city_btn" data-permalink="city-daegu">대구, 한국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-ghent" class="city_btn" data-permalink="city-ghent">겐트, 벨기에</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gunpo" class="city_btn" data-permalink="city-gunpo">군포, 한국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gwacheon" class="city_btn" data-permalink="city-gwacheon">과천, 한국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gwangju" class="city_btn" data-permalink="city-gwangju">광주, 한국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-ho-chi-minh" class="city_btn" data-permalink="city-ho-chi-minh">호치민, 베트남</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-homer" class="city_btn" data-permalink="city-homer">호머, 미국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-hong-kong" class="city_btn" data-permalink="city-hong-kong">홍콩</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-kyoto" class="city_btn" data-permalink="city-kyoto">교토, 일본</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-london" class="city_btn" data-permalink="city-london">런던, 영국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-montreuil" class="city_btn" data-permalink="city-montreuil">몽트뢰유, 프랑스</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-haven" class="city_btn" data-permalink="city-new-haven">뉴헤이븐, 미국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-york" class="city_btn" data-permalink="city-new-york">뉴욕, 미국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-osaka" class="city_btn" data-permalink="city-osaka">오사카, 일본</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-paju" class="city_btn" data-permalink="city-paju">파주, 한국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-paris" class="city_btn" data-permalink="city-paris">파리, 프랑스</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-porto" class="city_btn" data-permalink="city-porto">포르토, 포르투갈</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-rotterdam" class="city_btn" data-permalink="city-rotterdam">로테르담, 네덜란드</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-seoul" class="city_btn" data-permalink="city-seoul">서울, 한국</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-singapore" class="city_btn" data-permalink="city-singapore">싱가폴</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-stockholm" class="city_btn" data-permalink="city-stockholm">스톡홀름, 스웨덴</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-taipei" class="city_btn" data-permalink="city-taipei">타이페이, 대만</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-tokyo" class="city_btn" data-permalink="city-tokyo">도쿄, 일본</a></li>
         <? } else { ?>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-amsterdam" class="city_btn" data-permalink="city-amsterdam">Amsterdam, NL</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-auckland" class="city_btn" data-permalink="city-auckland">Auckland, NZ</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-bangkok" class="city_btn" data-permalink="city-bangkok">Bangkok, TH</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-basel" class="city_btn" data-permalink="city-basel">Basel, CH</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-beijing" class="city_btn" data-permalink="city-beijing">Beijing, CN</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-berlin" class="city_btn" data-permalink="city-berlin">Berlin, DE</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-daegu" class="city_btn" data-permalink="city-daegu">Daegu, KR</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-ghent" class="city_btn" data-permalink="city-ghent">Ghent, BE</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gunpo" class="city_btn" data-permalink="city-gunpo">Gunpo, KR</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gwacheon" class="city_btn" data-permalink="city-gwacheon">Gwacheon, KR</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gwangju" class="city_btn" data-permalink="city-gwangju">Gwangju, KR</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-ho-chi-minh" class="city_btn" data-permalink="city-ho-chi-minh">Ho Chi Minh, VN</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-homer" class="city_btn" data-permalink="city-homer">Homer, US</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-hong-kong" class="city_btn" data-permalink="city-hong-kong">Hong Kong </a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-kyoto" class="city_btn" data-permalink="city-kyoto">Kyoto, JP</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-london" class="city_btn" data-permalink="city-london">London, UK</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-montreuil" class="city_btn" data-permalink="city-montreuil">Montreuil, FR</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-haven" class="city_btn" data-permalink="city-new-haven">New Haven, US</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-york" class="city_btn" data-permalink="city-new-york">New York, US</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-osaka" class="city_btn" data-permalink="city-osaka">Osaka, JP</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-paju" class="city_btn" data-permalink="city-paju">Paju, KR</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-paris" class="city_btn" data-permalink="city-paris">Paris, FR</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-porto" class="city_btn" data-permalink="city-porto">Porto, PT</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-rotterdam" class="city_btn" data-permalink="city-rotterdam">Rotterdam, NL</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-seoul" class="city_btn" data-permalink="city-seoul">Seoul, KR</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-singapore" class="city_btn" data-permalink="city-singapore">Singapore</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-stockholm" class="city_btn" data-permalink="city-stockholm">Stockholm, SE</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-taipei" class="city_btn" data-permalink="city-taipei">Taipei, TW</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/city-tokyo" class="city_btn" data-permalink="city-tokyo">Tokyo, JP</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-amsterdam" class="city_btn" data-permalink="city-amsterdam">Amsterdam, NL</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-auckland" class="city_btn" data-permalink="city-auckland">Auckland, NZ</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-bangkok" class="city_btn" data-permalink="city-bangkok">Bangkok, TH</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-basel" class="city_btn" data-permalink="city-basel">Basel, CH</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-beijing" class="city_btn" data-permalink="city-beijing">Beijing, CN</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-berlin" class="city_btn" data-permalink="city-berlin">Berlin, DE</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-daegu" class="city_btn" data-permalink="city-daegu">Daegu, KR</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-ghent" class="city_btn" data-permalink="city-ghent">Ghent, BE</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gunpo" class="city_btn" data-permalink="city-gunpo">Gunpo, KR</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gwacheon" class="city_btn" data-permalink="city-gwacheon">Gwacheon, KR</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-gwangju" class="city_btn" data-permalink="city-gwangju">Gwangju, KR</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-ho-chi-minh" class="city_btn" data-permalink="city-ho-chi-minh">Ho Chi Minh, VN</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-homer" class="city_btn" data-permalink="city-homer">Homer, US</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-hong-kong" class="city_btn" data-permalink="city-hong-kong">Hong Kong </a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-kyoto" class="city_btn" data-permalink="city-kyoto">Kyoto, JP</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-london" class="city_btn" data-permalink="city-london">London, UK</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-montreuil" class="city_btn" data-permalink="city-montreuil">Montreuil, FR</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-haven" class="city_btn" data-permalink="city-new-haven">New Haven, US</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-york" class="city_btn" data-permalink="city-new-york">New York, US</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-osaka" class="city_btn" data-permalink="city-osaka">Osaka, JP</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-paju" class="city_btn" data-permalink="city-paju">Paju, KR</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-paris" class="city_btn" data-permalink="city-paris">Paris, FR</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-porto" class="city_btn" data-permalink="city-porto">Porto, PT</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-rotterdam" class="city_btn" data-permalink="city-rotterdam">Rotterdam, NL</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-seoul" class="city_btn" data-permalink="city-seoul">Seoul, KR</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-singapore" class="city_btn" data-permalink="city-singapore">Singapore</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-stockholm" class="city_btn" data-permalink="city-stockholm">Stockholm, SE</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-taipei" class="city_btn" data-permalink="city-taipei">Taipei, TW</a></li>
+          <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-tokyo" class="city_btn" data-permalink="city-tokyo">Tokyo, JP</a></li>
         <? } ?>
 
 
