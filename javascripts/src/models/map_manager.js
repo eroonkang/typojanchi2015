@@ -627,8 +627,16 @@ WY.models.MapManager = (function(){
 
         if (!existed) {
           $(node.data.marker._icon).removeClass("selected");
+          if (node.data.properties.type == "Project") {
+            node.data.marker.setZIndexOffset(500);
+          } else {
+            node.data.marker.setZIndexOffset(1);
+   
+          }
+
         } else {
           $(node.data.marker._icon).addClass("selected");
+          node.data.marker.setZIndexOffset(501);
         }
       }, this));
 
@@ -765,6 +773,14 @@ WY.models.MapManager = (function(){
     restore_opacity_graph: function(){
       this.graph.forEachNode(function(node){
         $(node.data.marker._icon).removeClass("selected");
+        if (node.data.properties.type == "Project") {
+
+          node.data.marker.setZIndexOffset(500);
+        } else {
+          node.data.marker.setZIndexOffset(1);
+ 
+        }
+       
       });
 
       this.graph.forEachLink(_.bind(function(link){
