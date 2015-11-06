@@ -15,6 +15,10 @@ WY.models.DetailPageManager = (function(){
       this.tmpl = tmpl;
     },
 
+    hide: function(){
+      this.el.hide();
+    },
+
     update: function(permalink){
       if (!_.isUndefined(permalink)) {
         this.permalink = permalink;
@@ -24,6 +28,8 @@ WY.models.DetailPageManager = (function(){
         return false; 
       }
 
+      this.el.show();
+      
       if (this.permalink == "about") {
         this.update_about();
       } else {
@@ -54,7 +60,7 @@ WY.models.DetailPageManager = (function(){
       $("title").text("About / Typojanchi 2015");
 
       var tmpl = _.template(data);
-      this.el.empty().append($(tmpl()));
+      this.el.find("#content").empty().append($(tmpl()));
       this.ko_type_adjust();
       this.trigger('load_complete');
 
@@ -99,13 +105,13 @@ WY.models.DetailPageManager = (function(){
       // debugger;
       var type = _.isUndefined(this.data.type) ? "artwork" : this.data.type.toLowerCase();
       // debugger;
-      this.el.empty().append($(this.tmpl[type]({
+      this.el.find("#content").empty().append($(this.tmpl[type]({
         detail: this.data,
         permalink: this.permalink,
         project: WY.constants.projects_data.projects[this.project_id - 1]
       })));
 
-      this.el.find(".participant_change_btn").click(function(e){
+      this.el.find("#content .participant_change_btn").click(function(e){
         e.preventDefault();
         // debugger;
         History.pushState({
@@ -123,7 +129,7 @@ WY.models.DetailPageManager = (function(){
     ko_type_adjust: function(){
       var rex = new RegExp("([\u00FCA-Za-z0-9,.\"():&-;]+)(?![^<>&]*>)", "gm");
 
-      this.el.find(":lang(ko)").each(function(){
+      this.el.find("#content").find(":lang(ko)").each(function(){
         var $this = $(this);
         var content = $this.html();
         // debugger;

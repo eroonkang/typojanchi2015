@@ -79,7 +79,7 @@ WY.views.welcome_view = (function(){
 
 
     detail_page_manager = new WY.models.DetailPageManager({
-      el: $("#content"),
+      el: $("#content-outer"),
       permalink: permalink
     });
 
@@ -135,6 +135,7 @@ WY.views.welcome_view = (function(){
 
 
         map_manager.reset();
+        detail_page_manager.hide();
 
         History.pushState({
           permalink: $(e.currentTarget).data('permalink')

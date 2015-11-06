@@ -285,20 +285,6 @@ WY.models.MapManager = (function(){
 
 
 
-      // this.map.on("zoomend", _.bind(function(e){
-      //   // debugger;
-      //   // for (var i = 0; i < 50000; i++){
-      //   this.stop_animate();
-      //   this.animate();
-  
-      //   // }
-        
-      //   _.delay(_.bind(function(){
-      //     this.stop_animate();
-      //   }, this), 3000);
-      // }, this));
-
-
       $("body").on("click", ".leaflet-popup-content-wrapper", function(e){
         e.preventDefault();
 
@@ -333,27 +319,10 @@ WY.models.MapManager = (function(){
         this.stop_animate();
 
         if (!_.isUndefined(this.permalink)) {
+          var _permalink = this.permalink;
+          var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == _permalink; });
 
-          var input = {
-            "type": "FeatureCollection",
-            "features": _.map(this.permalink_path.nodes, function(node){
-              return {
-                "type": "Feature",
-                "properties": {},
-                "geometry": {
-                  "type": "Point",
-                  "coordinates": [node.data.marker._latlng.lng, node.data.marker._latlng.lat]
-                }
-              }
-            })
-          };
-
-          var bbox = turf.extent(input);
-
-          this.map.fitBounds([
-            [bbox[1], bbox[0]],
-            [bbox[3], bbox[2]]
-          ]);
+          this.fit_bound_to_path(node);
 
         }
       }, this), 5000);
@@ -534,16 +503,8 @@ WY.models.MapManager = (function(){
     
     },
 
-    update_bound: function(permalink){
-      this.permalink = permalink;
-      this.stop_animate();
-      // this.fitBounds(
-      this.map.invalidateSize();
-      var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
-      // debugger;
-      this.permalink_path = this.find_bound_path(node);
-
-      // 노드 타입을 보고 
+    fit_bound_to_path: function(node){
+        // 노드 타입을 보고 
       // 프로젝트일 경우 permalink_path의 node타입 검사 -> artwork만, 
       // 아트워크일 경우 전부
       // 아티스트일 경우 전부 
@@ -553,15 +514,33 @@ WY.models.MapManager = (function(){
 
       switch(node.data.properties.type) {
         case "Venue":
+          var linked_node_type = "Project"
+
+          // if (node.data.properties.idx == 5){
+          //   linked_node_type = "Project";
+          // } else {
+          //   linked_node_type = "Artwork";
+          // }
+
           filtered_nodes = _.filter(this.permalink_path.nodes, function(_node){ 
-            return _node.data.properties.type == "Project";
+            return _node.data.properties.type == linked_node_type || _node.data.properties.permalink == node.data.properties.permalink;
           });
           break;
         case "Project":
+          var linked_node_type;
+
+          if (node.data.properties.idx >= 12 ||  node.data.properties.idx == 7) { 
+            linked_node_type = "Artist"; 
+          } else if (node.data.properties.idx == 5){
+            linked_node_type = "Venue";
+          } else {
+            linked_node_type = "Artwork";
+          }
 
           filtered_nodes = _.filter(this.permalink_path.nodes, function(_node){ 
-            return _node.data.properties.type == ((node.data.properties.idx >= 12 ||  node.data.properties.idx == 7) ? "Artist" : "Artwork");
+            return _node.data.properties.type == linked_node_type || _node.data.properties.permalink == node.data.properties.permalink;
           });
+          debugger;
           break;
         default:
           filtered_nodes = this.permalink_path.nodes;
@@ -584,9 +563,6 @@ WY.models.MapManager = (function(){
 
       var bbox = turf.extent(input);
       // var bbox_poly = turf.bboxPolygon(bbox);
-
-
-
       // _.delay(_.bind(function(){
 
         this.map.fitBounds([
@@ -602,7 +578,18 @@ WY.models.MapManager = (function(){
         //     }
         // }).addTo(this.map);
       // }, this), 20000);
-// 
+      // 
+    },
+
+    update_bound: function(permalink){
+      this.permalink = permalink;
+      this.stop_animate();
+      // this.fitBounds(
+      this.map.invalidateSize();
+      var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == permalink; });
+      // debugger;
+      this.permalink_path = this.find_bound_path(node);
+      this.fit_bound_to_path(node);
 
 
       this.remove_all_popups();
