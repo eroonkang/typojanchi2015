@@ -360,125 +360,219 @@ projects:
 
   project_artists: 
   - 
-    full_name_en: 1984
-    full_name_ko: 1984
-    url: /projects/artworks/5-1984.yml
+    full_name_en: Daekyo Books
+    full_name_ko: 대교서적
+    url: /projects/artworks/5-daekyo.yml
   - 
-    full_name_en: Aladin
-    full_name_ko: 알라딘
-    url: /projects/artworks/5-aladin.yml
+    full_name_en: Dowon Books
+    full_name_ko: 도원서적
+    url: /projects/artworks/5-dowon.yml
   - 
-    full_name_en: Art Sonje
-    full_name_ko: 아트선재센터
-    url: /projects/artworks/5-artsonje.yml
+    full_name_en: Dongyang Books
+    full_name_ko: 동양서림
+    url: /projects/artworks/5-dongyang.yml
   - 
-    full_name_en: Book by Book
-    full_name_ko: 북바이북
-    url: /projects/artworks/5-bookbybook.yml
+    full_name_en: Yeil Book Center
+    full_name_ko: 예일문고
+    url: /projects/artworks/5-yeil.yml
   - 
-    full_name_en: Book Society
-    full_name_ko: 북소사이어티
-    url: /projects/artworks/5-booksociety.yml
+    full_name_en: Eunma Book Store
+    full_name_ko: 은마서적
+    url: /projects/artworks/5-eunma.yml
   -
-    full_name_en: Cheong gye 200/20
-    full_name_ko: 청계상가 200/20
-    url: /projects/artworks/5-cheonggye200.yml
+    full_name_en: Happy Gulgan
+    full_name_ko: 행복한 글간
+    url: /projects/artworks/5-happygulgan.yml
   - 
-    full_name_en: Daelim 800/40
-    full_name_ko: 대림상가 800/40
-    url: /projects/artworks/5-daelim800.yml
+    full_name_en: Nowon Books
+    full_name_ko: 노원문고
+    url: /projects/artworks/5-nowon.yml
   - 
-    full_name_en: DDP
-    full_name_ko: DDP 살림터
-    url: /projects/artworks/5-ddp.yml
+    full_name_en: Bulkwang Books
+    full_name_ko: 불광문고
+    url: /projects/artworks/5-bulkwang.yml
   - 
-    full_name_en: Doosung In the Paper
-    full_name_ko: 두성 인더페이퍼
-    url: /projects/artworks/5-doosung.yml
+    full_name_en: Yeonsinnae Books
+    full_name_ko: 연신내 문고
+    url: /projects/artworks/5-yeonsinnae.yml
   - 
-    full_name_en: Epoca
-    full_name_ko: 에포카
-    url: /projects/artworks/5-epoca.yml
+    full_name_en: Hangang Books
+    full_name_ko: 한강문고
+    url: /projects/artworks/5-hangang.yml
   - 
-    full_name_en: Eum Art Book
-    full_name_ko: 이음책방
-    url: /projects/artworks/5-eumbook.yml
+    full_name_en: Hatbit Books
+    full_name_ko: 햇빛문고
+    url: /projects/artworks/5-hatbit.yml
   - 
-    full_name_en: Gagarin
-    full_name_ko: 가가린
-    url: /projects/artworks/5-gagarin.yml
+    full_name_en: Hongik Books
+    full_name_ko: 홍익문고
+    url: /projects/artworks/5-hongik.yml
   -
-    full_name_en: Haja Center
-    full_name_ko: 하자센터
-    url: /projects/artworks/5-hajacenter.yml
+    full_name_en: Geunari Omyeon
+    full_name_ko: 그날이 오면
+    url: /projects/artworks/5-geunariomyeon.yml
   - 
-    full_name_en: Ilmin Museum of Art
-    full_name_ko: 일민미술관
-    url: /projects/artworks/5-ilmin.yml
+    full_name_en: Gildam Books
+    full_name_ko: 길담서원
+    url: /projects/artworks/5-gildam.yml
   - 
-    full_name_en: KCDF Gallery
-    full_name_ko: KCDF 갤러리
-    url: /projects/artworks/5-kcdf-gallery.yml
+    full_name_en: Red Books
+    full_name_ko: 레드북스
+    url: /projects/artworks/5-redbooks.yml
   - 
-    full_name_en: Kobalt shop
-    full_name_ko: 코발트숍
-    url: /projects/artworks/5-kobalt.yml
+    full_name_en: In Books
+    full_name_ko: 인서점
+    url: /projects/artworks/5-inbooks.yml
   - 
-    full_name_en: Pinocchio
-    full_name_ko: 피노키오
-    url: /projects/artworks/5-pinocchio.yml
+    full_name_en: Pulmujil
+    full_name_ko: 풀무질
+    url: /projects/artworks/5-pulmujil.yml
   -
-    full_name_en: Post Poetics
-    full_name_ko: 포스트포에틱스
-    url: /projects/artworks/5-postpoetics.yml
+    full_name_en: Proust Books
+    full_name_ko: 프루스트의 서재
+    url: /projects/artworks/5-proust.yml
   - 
-    full_name_en: Round About
-    full_name_ko: 라운드어바웃
-    url: /projects/artworks/5-roundabout.yml
+    full_name_en: Gongssi Books
+    full_name_ko: 공씨책방
+    url: /projects/artworks/5-gongssi.yml
   - 
-    full_name_en: Second Hotel
-    full_name_ko: 세컨호텔
-    url: /projects/artworks/5-secondhotel.yml
+    full_name_en: Bookself of Memories
+    full_name_ko: 기억속의 서가
+    url: /projects/artworks/5-bookself-of-memories.yml
   - 
-    full_name_en: Sewoon 300/20
-    full_name_ko: 세운상가 300/20
-    url: /projects/artworks/5-sewoon300.yml
+    full_name_en: Sumeoinneun Books
+    full_name_ko: 숨어있는 책
+    url: /projects/artworks/5-sumeoinneun.yml
   - 
-    full_name_en: Small House Big Door
-    full_name_ko: 스몰하우스빅도어
-    url: /projects/artworks/5-smallhousebigdoor.yml
+    full_name_en: 2 Sang Books
+    full_name_ko: 이상한 나라의 헌책방
+    url: /projects/artworks/5-2sangbooks.yml
   -
-    full_name_en: Songpa
-    full_name_ko: 송파주민문화발전소 다락
-    url: /projects/artworks/5-songpa.yml
+    full_name_en: Tongmunkwan
+    full_name_ko: 통문관
+    url: /projects/artworks/5-tongmunkwan.yml
   - 
-    full_name_en: Takeout Drawing
-    full_name_ko: 테이크아웃드로잉
-    url: /projects/artworks/5-takeoutdrawing.yml
-  - 
-    full_name_en: Thanks Books
-    full_name_ko: 땡스북스
-    url: /projects/artworks/5-thanksbooks.yml
-  - 
-    full_name_en: TWL (Things We Love) 
-    full_name_ko: TWL
-    url: /projects/artworks/5-twl.yml
+    full_name_en: Sangsanghaneun Pippi
+    full_name_ko: 상상하는 삐삐
+    url: /projects/artworks/5-sangsanghaneun-pippi.yml
   - 
     full_name_en: Veronica Effect
-    full_name_ko: 베로니카 이펙트
-    url: /projects/artworks/5-veronica-effect.yml
+    full_name_ko: 베로니카이펙트
+    url: /projects/artworks/5-veronica.yml
+  - 
+    full_name_en: Pinokio Books
+    full_name_ko: 책방 피노키오
+    url: /projects/artworks/5-pinokio.yml
+  - 
+    full_name_en: The Book Society
+    full_name_ko: 더북소사이어티
+    url: /projects/artworks/5-the-book-society.yml
   -
+    full_name_en: Book Stage
+    full_name_ko: 북스테이지
+    url: /projects/artworks/5-book-stage.yml
+  -
+    full_name_en: Simji Book Store
+    full_name_ko: 심지
+    url: /projects/artworks/5-simji.yml
+  - 
+    full_name_en: NOrmal A
+    full_name_ko: 노말에이
+    url: /projects/artworks/5-normala.yml
+  - 
+    full_name_en: Dasi Book Shop
+    full_name_ko: 다시서점
+    url: /projects/artworks/5-dasi.yml
+  - 
+    full_name_en: Banban Books
+    full_name_ko: 반반북스
+    url: /projects/artworks/5-banban.yml
+  - 
+    full_name_en: Storage Book and Film
+    full_name_ko: 스토리지북앤필름
+    url: /projects/artworks/5-storage-book-n-film.yml
+  - 
     full_name_en: Your Mind
     full_name_ko: 유어마인드
     url: /projects/artworks/5-yourmind.yml
   -
-    full_name_en: Yricafe
-    full_name_ko: 이리카페
-    url: /projects/artworks/5-yricafe.yml
+    full_name_en: Igot
+    full_name_ko: 이곳
+    url: /projects/artworks/5-igot.yml
   - 
-    full_name_en: Zagmachi
-    full_name_ko: 자그마치
-    url: /projects/artworks/5-zagmachi.yml
+    full_name_en: Hello Indie Books
+    full_name_ko: 헬로인디북스
+    url: /projects/artworks/5-hello-indie.yml
+  - 
+    full_name_en: Magazine Land
+    full_name_ko: 매거진랜드
+    url: /projects/artworks/5-magazine-land.yml
+  - 
+    full_name_en: IDNBOOK
+    full_name_ko: 아이디앤북
+    url: /projects/artworks/5-idnbook.yml
+  - 
+    full_name_en: Ongodang
+    full_name_ko: 온고동
+    url: /projects/artworks/5-ongodang.yml
+  -
+    full_name_en: Post Poetics
+    full_name_ko: 포스트 포에틱스
+    url: /projects/artworks/5-post-poetics.yml
+  -
+    full_name_en: Booksetong
+    full_name_ko: 북새통
+    url: /projects/artworks/5-booksetong.yml
+  -
+    full_name_en: Hanyang Toonk
+    full_name_ko: 한양툰크
+    url: /projects/artworks/5-hanyang-toonk.yml
+  -
+    full_name_en: 200/20
+    full_name_ko: 200/20
+    url: /projects/artworks/5-200-20.yml
+  -
+    full_name_en: Manil Books
+    full_name_ko: 책방 만일
+    url: /projects/artworks/5-manil.yml
+  -
+    full_name_en: Yoso Books
+    full_name_ko: 책방 요소
+    url: /projects/artworks/5-yoso.yml
+  -
+    full_name_en: 5pm Books
+    full_name_ko: 책방 오후다섯시
+    url: /projects/artworks/5-5pm-books.yml
+  -
+    full_name_en: Sunny Books
+    full_name_ko: 햇빛서점
+    url: /projects/artworks/5-sunny-books.yml
+  -
+    full_name_en: Thanks Books
+    full_name_ko: 땡스북스
+    url: /projects/artworks/5-thanks-books.yml
+  -
+    full_name_en: Eum Art Books
+    full_name_ko: 책방 이음
+    url: /projects/artworks/5-eum-art.yml
+  -
+    full_name_en: Book by Book
+    full_name_ko: 북바이북
+    url: /projects/artworks/5-book-by-book.yml
+  -
+    full_name_en: Book&Pub
+    full_name_ko: 퇴근길 책한잔
+    url: /projects/artworks/5-book-n-pub.yml
+  -
+    full_name_en: Stop for Now
+    full_name_ko: 일단멈춤
+    url: /projects/artworks/5-stop-for-now.yml
+  -
+    full_name_en: ZIMFREE
+    full_name_ko: 짐프리
+    url: /projects/artworks/5-zimfree.yml
+
+
 
 
 
