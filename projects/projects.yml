@@ -352,8 +352,10 @@ projects:
 
 -
   idx: 5
-  project_name_en: SEOUL (  ) SOUL&#58; The Bookstores of Seoul
-  project_name_ko: SEOUL (  ) SOUL&#58; 서울의 동네 서점
+  project_name_en: >
+   SEOUL (  ) SOUL: The Bookstores of Seoul
+  project_name_ko: >
+   SEOUL (  ) SOUL: 서울의 동네 서점
 
   curator_name_en: Kiseob Lee
   curator_name_ko: 이기섭
@@ -686,8 +688,10 @@ projects:
 
 -
   idx: 6
-  project_name_en: JONGNO (   ) GA&#58; THE STREET AS MEDIUM
-  project_name_ko: 종로 (  ) 가&#58; 매체로서의 거리
+  project_name_en: >
+  JONGNO (   ) GA: THE STREET AS MEDIUM
+  project_name_ko: >
+   종로 (  ) 가: 매체로서의 거리
 
   curator_name_en: Chris Ro
   curator_name_ko: 크리스 로
