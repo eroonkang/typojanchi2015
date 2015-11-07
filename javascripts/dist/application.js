@@ -23034,7 +23034,7 @@ WY.views.welcome_view = (function(){
       WY.constants.screen_width = $(window).width();
       WY.constants.screen_height = $(window).height();
       // map_manager.set_map_height(permalink.length == 0 ? WY.constants.screen_height : WY.constants.screen_height * 0.5);
-      index_height = $('#index').css("height");
+      // set_index_pos();
       // $('#map-outer').css('top','index_height');
     });
 

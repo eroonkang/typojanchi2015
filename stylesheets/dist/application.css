@@ -658,6 +658,23 @@ a.no-underline:hover {
 }
 #content-outer #content .artwork {
   margin-left: 240px;
+  float: left;
+}
+@media (max-width: 960px) {
+  #content-outer #content .artwork {
+    margin-left: 0px;
+    clear: both;
+    float: none;
+    position: relative;
+  }
+}
+#content-outer #content .artwork h2.mobile-title {
+  display: none;
+}
+@media (max-width: 960px) {
+  #content-outer #content .artwork h2.mobile-title {
+    display: block;
+  }
 }
 #content-outer #content .artwork h3 {
   padding-right: 4em;
@@ -671,6 +688,11 @@ a.no-underline:hover {
 #content-outer #content .artwork p.description {
   margin: 1em 0;
   padding-right: 4em;
+}
+@media (max-width: 700px) {
+  #content-outer #content .artwork p.description {
+    padding-right: 0em;
+  }
 }
 #content-outer #content .artwork p.bio {
   border-top: 1px solid;
@@ -692,8 +714,18 @@ a.no-underline:hover {
 #content-outer #content .cols.double {
   width: 450px;
 }
+@media (max-width: 700px) {
+  #content-outer #content .cols.double {
+    width: 100%;
+  }
+}
 #content-outer #content .cols.triple {
   width: 690px;
+}
+@media (max-width: 700px) {
+  #content-outer #content .cols.triple {
+    width: 100%;
+  }
 }
 #content-outer #content .cols.quadruple {
   width: 930px;
@@ -725,6 +757,11 @@ a.no-underline:hover {
 #content-outer #content .artwork-photo, #content-outer #content .project-photo {
   margin-top: 2em;
 }
+@media (max-width: 960px) {
+  #content-outer #content .artwork-photo, #content-outer #content .project-photo {
+    margin-top: 1em;
+  }
+}
 #content-outer #content .artwork-photo figure, #content-outer #content .project-photo figure {
   display: inline-block;
   border: 1px solid #000;
@@ -736,18 +773,27 @@ a.no-underline:hover {
   width: 640px;
   display: block;
   opacity: 0;
-  min-height: 480px;
   transition: 0.3s opacity;
 }
 #content-outer #content .artwork-photo figure img:hover, #content-outer #content .project-photo figure img:hover {
   opacity: 1;
 }
-#content-outer #content .project-photo {
-  margin-top: 0.5em;
-  margin-bottom: 2em;
+@media (max-width: 700px) {
+  #content-outer #content .artwork-photo figure img, #content-outer #content .project-photo figure img {
+    width: 100%;
+    min-height: auto;
+  }
 }
 #content-outer #content .left-nav {
   position: absolute;
+}
+@media (max-width: 960px) {
+  #content-outer #content .left-nav {
+    position: relative;
+    margin-top: 1em;
+    padding: 1em 1.25em;
+    border: 1px solid;
+  }
 }
 #content-outer #content .left-nav .index-list h2 {
   padding-right: 3em;

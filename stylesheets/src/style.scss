@@ -57,6 +57,28 @@ a.no-underline:hover {
    clear: both;
 }
 
+$phone-width: 414px;
+$smaller-width: 700px;
+$small-width: 960px;
+
+@mixin phone {
+  @media (max-width: #{$phone-width}) {
+    @content;
+  }
+}
+
+@mixin smaller {
+  @media (max-width: #{$smaller-width}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (max-width: #{$small-width}) {
+    @content;
+  }
+}
+
 /* ---------------------------------------------- */
 /* list */
 /* ---------------------------------------------- */
@@ -121,9 +143,21 @@ a.no-underline:hover {
     // margin: 0 auto;
 
     .artwork {
-      // float:left;
       margin-left: 240px;
-      // width:750px; //threecols
+      float: left;
+
+      @include small {
+        margin-left: 0px;
+        clear:both;
+        float: none;
+        position: relative;
+      }
+      h2.mobile-title {
+        display:none;
+        @include small {
+         display:block;
+        }
+      }
       h3 {
         padding-right:4em;
       }
@@ -137,6 +171,9 @@ a.no-underline:hover {
         margin:1em 0;
         padding-right:4em;
         // line-height: 1.4em;
+        @include smaller {
+          padding-right:0em;
+        }
       }
       p.bio {
         border-top: 1px solid; 
@@ -157,9 +194,15 @@ a.no-underline:hover {
       }
       &.double {
         width:450px;
+        @include smaller {
+          width: 100%;
+        }
       }
       &.triple {
         width:690px;
+        @include smaller {
+          width: 100%;
+        }
       }
       &.quadruple {
         width:930px;
@@ -192,6 +235,10 @@ a.no-underline:hover {
 
     .artwork-photo, .project-photo {
       margin-top:2em;
+      @include small {
+        margin-top:1em;
+      }
+
       figure {
         display: inline-block;
         border:1px solid #000;
@@ -203,23 +250,27 @@ a.no-underline:hover {
           width:640px;
           display: block;
           opacity: 0;
-          min-height: 480px;
+          //min-height: 480px;
           transition: 0.3s opacity;
           &:hover{
             opacity: 1;
           }
+          @include smaller {
+            width:100%;
+            min-height:auto;
+          }
         }
       }
     }
-    .project-photo {
-      margin-top:0.5em;
-      margin-bottom:2em;
-    }
 
     .left-nav {
-      // margin-right:2em;
       position:absolute;
-
+      @include small {
+        position:relative;
+        margin-top:1em;
+        padding:1em 1.25em;
+        border: 1px solid;
+      }
       .index-list {
         h2 {
           padding-right: 3em;

@@ -1,68 +1,70 @@
-<div class="cols single left-nav">
-  <ul class="index-list">
-    <li><a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn"><span lang="<%= WY.constants.locale %>">(<%= project.idx %>)</span></a></li>
-    
-    <h2>
-      <a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn">
-        <span lang="<%= WY.constants.locale %>"><%= project["project_name_" + WY.constants.locale] %></span>
-      </a>
-    </h2>
+<div class="clearfix">
+  <div class="artwork" class="clearfix">
 
-    <% _.each(project.project_artists, function(artist) { %>
-      <li class="<% if (extract_permalink_from_url(artist.url) == permalink) { %>current<% } %>">
-        <a href="<%= make_url(artist.url) %>" data-permalink="<%= extract_permalink_from_url(artist.url) %>" class="participant_change_btn">
-          <span lang="<%= WY.constants.locale %>">
-          <%= artist["full_name_" + WY.constants.locale] %></span>
+    <div class="cols triple">
+      <h3 class="participant" lang="<%= WY.constants.locale %>"><%= detail["full_name_" + WY.constants.locale] %></h3>
+
+      <% _.each(detail.artworks, function(work){ %> 
+          <h4 lang="<%= WY.constants.locale %>"><%= work["artwork_name_" + WY.constants.locale] %><% if (!_.isUndefined(work.artwork_year) && !_.isNull(work.artwork_year)){ %>, <% } %><%= work.artwork_year %></h4>
+          <p class="description">
+            <span lang="<%= WY.constants.locale %>"><%= simple_format(work["artwork_desc_" + WY.constants.locale]) %></span>
+          </p>
+          <p class="venue">
+            <a href="#"><span lang="<%= WY.constants.locale %>"><%= detail["venue_name_" + WY.constants.locale] %>, <%= detail["venue_city_" + WY.constants.locale] %>, <%= detail["venue_country_" + WY.constants.locale] %></span></a>
+          </p>
+      <% }); %>
+    </div>
+    <div class="cols single">
+      — <br/>
+      <a href="#"><span lang="<%= WY.constants.locale %>"><%= detail["origin_city_" + WY.constants.locale] %>, <%= detail["origin_country_" + WY.constants.locale] %></span></a>
+    </div>
+    <div style="clear: both;"></div>
+
+    <div class="cols triple artwork-photo">
+      <figure>
+        <img src="<%= WY.constants.home_url %>/images/img.jpg">
+      </figure>
+    </div>
+    <div class="cols triple artwork-photo">
+      <figure>
+        <img src="<%= WY.constants.home_url %>/images/img.jpg">
+      </figure>
+    </div>
+    <div class="cols triple artwork-photo">
+      <figure>
+        <img src="<%= WY.constants.home_url %>/images/img.jpg">
+      </figure>
+    </div>
+
+    <div class="cols double">  
+      <p class="description bio">
+        <span lang="<%= WY.constants.locale %>"><%= detail["participant_bio_" + WY.constants.locale] %></span>
+      </p>
+    </div>
+
+    <div style="clear: both;"></div>
+  </div>
+
+
+  <div class="single left-nav">
+    <ul class="index-list">
+      <li><a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn"><span lang="<%= WY.constants.locale %>">(<%= project.idx %>)</span></a></li>
+      
+      <h2>
+        <a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn">
+          <span lang="<%= WY.constants.locale %>"><%= project["project_name_" + WY.constants.locale] %></span>
         </a>
-      </li>
-    <% }); %>
-    <li class="removeiflast">&nbsp;</li>
-  </ul>
-</div>
+      </h2>
 
-<div class="artwork" class="clearfix">
-
-
-  <div class="cols triple">
-    <h3 class="participant" lang="<%= WY.constants.locale %>"><%= detail["full_name_" + WY.constants.locale] %></h3>
-
-    <% _.each(detail.artworks, function(work){ %> 
-        <h4 lang="<%= WY.constants.locale %>"><%= work["artwork_name_" + WY.constants.locale] %><% if (!_.isUndefined(work.artwork_year) && !_.isNull(work.artwork_year)){ %>, <% } %><%= work.artwork_year %></h4>
-        <p class="description">
-          <span lang="<%= WY.constants.locale %>"><%= simple_format(work["artwork_desc_" + WY.constants.locale]) %></span>
-        </p>
-        <p class="venue">
-          <a href="#"><span lang="<%= WY.constants.locale %>"><%= detail["venue_name_" + WY.constants.locale] %>, <%= detail["venue_city_" + WY.constants.locale] %>, <%= detail["venue_country_" + WY.constants.locale] %></span></a>
-        </p>
-    <% }); %>
+      <% _.each(project.project_artists, function(artist) { %>
+        <li class="<% if (extract_permalink_from_url(artist.url) == permalink) { %>current<% } %>">
+          <a href="<%= make_url(artist.url) %>" data-permalink="<%= extract_permalink_from_url(artist.url) %>" class="participant_change_btn">
+            <span lang="<%= WY.constants.locale %>">
+            <%= artist["full_name_" + WY.constants.locale] %></span>
+          </a>
+        </li>
+      <% }); %>
+      <li class="removeiflast">&nbsp;</li>
+    </ul>
   </div>
-  <div class="cols single">
-    — <br/>
-    <a href="#"><span lang="<%= WY.constants.locale %>"><%= detail["origin_city_" + WY.constants.locale] %>, <%= detail["origin_country_" + WY.constants.locale] %></span></a>
-  </div>
-  <div style="clear: both;"></div>
-
-  <div class="cols triple artwork-photo">
-    <figure>
-      <img src="<%= WY.constants.home_url %>/images/img.jpg">
-    </figure>
-  </div>
-  <div class="cols triple artwork-photo">
-    <figure>
-      <img src="<%= WY.constants.home_url %>/images/img.jpg">
-    </figure>
-  </div>
-  <div class="cols triple artwork-photo">
-    <figure>
-      <img src="<%= WY.constants.home_url %>/images/img.jpg">
-    </figure>
-  </div>
-
-  <div class="cols double">  
-    <p class="description bio">
-      <span lang="<%= WY.constants.locale %>"><%= detail["participant_bio_" + WY.constants.locale] %></span>
-    </p>
-  </div>
-
-  <div style="clear: both;"></div>
 </div>

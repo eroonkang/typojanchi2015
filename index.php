@@ -162,7 +162,7 @@ if ($permalink == "about"){
     <div id="section-header">
       <h2>
 
-  <? echo $yaml_data; ?>
+  <? //echo $yaml_data; ?>
         <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
           <? if ($locale == 'ko') { echo "(타이포잔치 2015) 소개"; } ?>
           <? if ($locale == 'en') { echo "About (Typojanchi 2015)"; } ?>
