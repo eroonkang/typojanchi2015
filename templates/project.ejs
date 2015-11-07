@@ -3,9 +3,6 @@
     
     <div style="clear: both;"></div>
 
-    <div class="cols triple">  
-      <h2 class="mobile-title"><a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn"><span lang="<%= WY.constants.locale %>">(<%= project.idx %>) <%= project["project_name_" + WY.constants.locale] %></span></a></h2>
-
     <!-- images -->
     <div class="cols triple project-photo">
       <figure>
@@ -18,6 +15,9 @@
       </figure>
     </div>
 
+
+    <div class="cols triple">  
+      <h2 class="mobile"><a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn"><span lang="<%= WY.constants.locale %>">(<%= project.idx %>) <%= project["project_name_" + WY.constants.locale] %></span></a></h2>
 
       <% if( WY.constants.locale == 'en'){ %>
         <h4 lang="<%= WY.constants.locale %>">Curated by <%= detail["curator_name_" + WY.constants.locale] %></h4>

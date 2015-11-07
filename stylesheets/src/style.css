@@ -236,6 +236,10 @@ a.no-underline:hover {
     min-height: auto;
   }
 }
+#content-outer #content .project-photo {
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
 #content-outer #content .left-nav {
   position: absolute;
 }
