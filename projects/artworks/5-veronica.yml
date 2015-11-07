@@ -1,25 +1,25 @@
-full_name_en: Your Mind
-full_name_ko: 유어마인드
+full_name_en: Veronica Effect
+full_name_ko: 베로니카이펙트
 origin_city_en: Seoul
 origin_city_ko: 서울
 origin_country_en: South Korea
 origin_country_ko: 대한민국
-origin_lat: 37.555469
-origin_lng: 126.927896
+origin_lat: 37.5461416
+origin_lng: 126.9109771
 
 artworks: []
 
 
-venue_name_en: Your Mind
-venue_name_ko: 유어마인드
+venue_name_en: Veronica Effect
+venue_name_ko: 베로니카이펙트
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
 venue_city_ko: 서울
 venue_country_en: KR
 venue_country_ko: 한국
-venue_lat: 37.555469
-venue_lng: 126.927896
+venue_lat: 37.5461416
+venue_lng: 126.9109771
 
 
 type: "Venue"
