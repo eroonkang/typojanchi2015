@@ -1,6 +1,7 @@
 <?
 
 include 'route.php';
+require_once "spyc.php";
 
 $route = new Route();
 $locale = 'ko';
@@ -48,6 +49,7 @@ $route->add('/en/.+', function($name) {
 $route->submit();
 
 
+
 if ($browser_locale_detect_needed){
   $langs = array();
 
@@ -80,13 +82,30 @@ if ($browser_locale_detect_needed){
 
 }
 
+$title = "";
+
+if ($permalink == "about"){
+  $title = "About /";
+} else if (split("-", $permalink[0]) == "city") {
+  $title = split("-", $permalink[1]);
+} else {
+  $yaml_data = Spyc::YAMLLoad('./projects/artworks/'.$permalink.'.yml');
+   if ($yaml_data["type"] == "Project") {
+    $title = $yaml_data["project_name_".$locale]." / ";
+  } else {
+    $title = $yaml_data["full_name_".$locale]." / ";
+  } 
+}
+
+
 
 ?>
 
 <!DOCTYPE html>
 <head>
 
-  <title>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
+  <title>
+    <? echo $title ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
   <meta charset="utf-8"></meta>
 
 
@@ -142,6 +161,8 @@ if ($browser_locale_detect_needed){
   <div id="index">
     <div id="section-header">
       <h2>
+
+  <? echo $yaml_data; ?>
         <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
           <? if ($locale == 'ko') { echo "(타이포잔치 2015) 소개"; } ?>
           <? if ($locale == 'en') { echo "About (Typojanchi 2015)"; } ?>
