@@ -6,6 +6,7 @@ WY.views.welcome_view = (function(){
       map_manager,
       cities_manager,
       permalink,
+      index_height,
       cities_appended = false,
       index_opened = false,
       content_opened = false;
@@ -28,6 +29,8 @@ WY.views.welcome_view = (function(){
       WY.constants.screen_width = $(window).width();
       WY.constants.screen_height = $(window).height();
       // map_manager.set_map_height(permalink.length == 0 ? WY.constants.screen_height : WY.constants.screen_height * 0.5);
+      index_height = $('#index').css("height");
+      // $('#map-outer').css('top','index_height');
     });
 
     $(window).trigger('resize');
@@ -209,12 +212,6 @@ WY.views.welcome_view = (function(){
   }
 
 
-  function set_index_pos(){
-    var index_height = $('#index').css("height");
-    $('#index').css("top", '-' + index_height);    
-    console.log ("index_height:" + index_height);
-  }
-
   function init_history(){
     History.Adapter.bind(window, 'statechange', function(){ 
       var state = History.getState(); 
@@ -263,11 +260,15 @@ WY.views.welcome_view = (function(){
 
   }
 
-
+  function set_index_pos(){
+    index_height = $('#index').css("height");
+    $('#index').css("top", '-' + index_height);    
+    console.log ("index_height:" + index_height);
+  }
 
   function show_index(){
     if (!index_opened){
-      var index_height = $('#index').css("height");
+      // var index_height = $('#index').css("height");
       console.log ("index_height:" + index_height);
       $('#map-outer').addClass('map-down');
       $('#index').css('visibility','visible');
@@ -282,7 +283,7 @@ WY.views.welcome_view = (function(){
 
   function hide_index(){
     if (index_opened){
-      var index_height = $('#index').css("height");
+      // var index_height = $('#index').css("height");
       $('#map-outer').removeClass('map-down');
       $('#map-outer, #index').animate({
         top: "-=" + index_height,
