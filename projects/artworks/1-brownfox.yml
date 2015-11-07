@@ -1,11 +1,11 @@
 full_name_en: Brownfox
 full_name_ko: 브라운폭스
-origin_city_en: Berlin
-origin_city_ko: 베를린
-origin_country_en: Germany
-origin_country_ko: 독일
-origin_lat: 52.53724
-origin_lng: 13.27313
+origin_city_en: Moscow
+origin_city_ko: 모스크바
+origin_country_en: Russia
+origin_country_ko: 러시아
+origin_lat: 55.7494733
+origin_lng: 37.3523199
 
 participant_bio_en: >
  Brownfox is composed of Gayaneh Bagdasaryan, Vyacheslav Kirilenko, independent Moscow-based type foundry. Brownfox offers a fresh perspective on Latin and non-Latin fonts. They have a solid track record with text fonts optimized for on-screen reading, as well as with print fonts. Their work is firmly rooted in the typographic tradition, yet is unmistakably current. They aspire to create fonts of the highest degree of craftsmanship and up to the latest technical standards. Their expertise with Cyrillics has established them as one of the leading companies worldwide to consult on Cyrillic adaptations of Latin fonts. They also consult on technical aspects of type design and offer type design and hinting services to other designers and foundries. Brownfox is the mastermind behind “Serebro Nabora,” a prominent annual international type conference held in Russia.
@@ -18,8 +18,8 @@ artworks:
   artwork_name_en: Formular Typeface
   artwork_name_ko: 포뮬러
   artwork_year: 2015
-  artwork_medium_en: Offset printing, 2 pieces
-  artwork_medium_ko: 오프셋 인쇄, 2개
+  artwork_medium_en: Print on fabric, 2 pieces, each 99*70cm
+  artwork_medium_ko: 천에 실사 출력, 2개, 각 99*70cm
   artwork_desc_en: >
     “Formular” in Russian, German and some other languages means “blank,” “template,” “form" for documents to fill in some data. The form's grid should be flexible and functional. You can add any information into the gaps or simply leave them empty. There are two similar boxes in the centre of the posters: the one is filled with pictures of Soviet architecture and graphics; the box in the second poster is empty, just crossed off by a diagonal line, like you do when you have no requested information. The rest of the space includes information about the Formular typeface.
   
