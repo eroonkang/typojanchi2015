@@ -309,7 +309,7 @@ if ($permalink == "about"){
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-a-city-without-" data-permalink="10-a-city-without-" class="footer_btn" lang="<? echo $locale; ?>">(10)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-typography-reportage" data-permalink="11-city-typography-reportage" class="footer_btn" lang="<? echo $locale; ?>">(11)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/12-exhibition-space" data-permalink="12-exhibition-space" class="footer_btn" lang="<? echo $locale; ?>">(12)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-website" data-permalink="13-website" class="footer_btn" lang="<? echo $locale; ?>">(13)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-website-project" data-permalink="13-website-project" class="footer_btn" lang="<? echo $locale; ?>">(13)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/14-docent-video-projects" data-permalink="14-docent-video-projects" class="footer_btn" lang="<? echo $locale; ?>">(14)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/15-opening-performance" data-permalink="15-opening-performance" class="footer_btn" lang="<? echo $locale; ?>">(15)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" data-permalink="16-newsletter-project" class="footer_btn" lang="<? echo $locale; ?>">(16)</a></li>
