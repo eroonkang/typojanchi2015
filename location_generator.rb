@@ -24,7 +24,6 @@ idx = 0
 
 (Dir["./projects/artworks/*.yml"] - projects_ymls).each_with_index do |filename, i|
   artwork_yaml = YAML.load_file(filename)
-
   #
   # Venues Node Creation Start
   # 
@@ -108,6 +107,8 @@ idx = 0
     if conv_to_permalink(filename).split("-")[0].to_i < 12 || conv_to_permalink(filename).split("-")[0].to_i == 7
       # puts conv_to_permalink(filename)
       
+
+      # byebug if artwork_yaml["artworks"].nil?
       artwork_yaml["artworks"].each do |artwork| 
         artwork_info = {
 
