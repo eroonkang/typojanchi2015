@@ -168,7 +168,10 @@ WY.views.welcome_view = (function(){
 
     map_manager.on('load_complete', function(e){
       if (permalink != '' && permalink != "about" && permalink.split("-")[0] != "city") {
-        map_manager.update_bound(permalink);  
+        // debugger;
+        map_manager.permalink = permalink;
+        // map_manager.update_bound(permalink);  
+        
       }
     });
 
@@ -230,7 +233,7 @@ WY.views.welcome_view = (function(){
       var state = History.getState(); 
       permalink = state.data.permalink;
 
-      if (permalink.split("-")[0] == "city") {
+      if (permalink && permalink.split("-")[0] == "city") {
 
         cities_manager.city_pan(permalink);
 

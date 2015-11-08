@@ -68,7 +68,7 @@ WY.models.MapManager = (function(){
       this.remove_all_popups();
       this.set_map_height(WY.constants.screen_height);
       this.restore_opacity_graph();
-      this.map.setView([37.56131657517743, 126.97120428085327], 15);
+      this.map.setView([37.56111657517743, 126.97120428085327], 15);
     },
 
     load_complete_handler: function(data){
@@ -84,7 +84,7 @@ WY.models.MapManager = (function(){
         'Artwork': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
         'Project': _.template('<span data-link="<%= url_from_project_name(idx, project_name_en) %>" data-permalink="<%= idx + "-" + conv_to_slug(project_name_en) %>" class="popup_btn"><%= "(" + idx + ") "+ project_name_' + WY.constants.locale + ' %></a>'),
         'Venue': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= venue_name_' + WY.constants.locale +  ' %></a>'),
-        '284': _.template('<span data-link="javascript:void(0);"><%= venue_name_' + WY.constants.locale +  ' %></a>')
+        '284': _.template('<span data-link="284"><%= venue_name_' + WY.constants.locale +  ' %></a>')
       }
 
       // var geojsonMarkerOptions = ;
@@ -192,6 +192,13 @@ WY.models.MapManager = (function(){
         
         marker.on('mouseover', _.bind(function(e){
           this.hide_all_popups();
+          var content;
+
+          if (node.properties.venue_name_ko == "문화역 서울 284"){
+            content = this.popup_tmpl['284'](node.properties);
+          } else {
+            content = this.popup_tmpl[node.properties.type](node.properties);
+          }
 
           var popup = L.popup({
                         closeOnCilck: true,
@@ -200,13 +207,17 @@ WY.models.MapManager = (function(){
                         offset: L.point([0, this.popup_offset_by_type[node.properties.type.toLowerCase()]])
                       })
                      .setLatLng(e.latlng)
-                     .setContent(this.popup_tmpl[node.properties.type](node.properties));
+                     .setContent(content);
 
           this.map.addLayer(popup);
           popup.node_id = g_node.id;
 
           this.active_popups.push(popup);
 
+        }, this));
+
+        marker.on('mouseout', _.bind(function(e){
+          this.show_all_popups();
         }, this));
 
         marker.on('click', _.bind(function(e){
@@ -290,11 +301,13 @@ WY.models.MapManager = (function(){
 
         var permalink = $(e.currentTarget).find("span").data('permalink');
         var href = $(e.currentTarget).find("span").data('link');
+        if (href != "284") {
 
-        History.pushState({
-          permalink: permalink
-        }, "Loading...", href);
+          History.pushState({
+            permalink: permalink
+          }, "Loading...", href);
 
+        }
       });
 
       $("body").on("mouseover", ".leaflet-popup", function(e){
@@ -320,9 +333,10 @@ WY.models.MapManager = (function(){
 
         if (!_.isUndefined(this.permalink)) {
           var _permalink = this.permalink;
-          var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == _permalink; });
-
-          this.fit_bound_to_path(node);
+          // var node = _.find(this.graph.getAllNodes(), function(node){ return node.data.properties.permalink == _permalink; });
+          // debugger;
+          this.update_bound(this.permalink);
+          // this.fit_bound_to_path(node);
 
         }
       }, this), 5000);
@@ -606,7 +620,6 @@ WY.models.MapManager = (function(){
           popup.setLatLng(node.data.marker._latlng)
                .setContent(this.popup_tmpl["284"](node.data.properties));
             
-
         } else {
           popup.setLatLng(node.data.marker._latlng)
                .setContent(this.popup_tmpl[node.data.properties.type](node.data.properties));

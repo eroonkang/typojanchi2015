@@ -110,15 +110,15 @@ if ($permalink == "") {
   <meta charset="utf-8"></meta>
 
 
-  <meta property="og:site_name" content="Typojanchi 2015"/> 
+  <meta property="og:site_name" content="<? echo $title; ?>Typojanchi 2015"/> 
   <meta property="og:description" content="Typojanchi 2015"/> 
   <meta name="description" content="Typojanchi 2015" />
 
-  <meta name="title" content="Typojanchi 2015"/>
-  <meta property="og:title" content="Typojanchi 2015"/>
+  <meta name="title" content="<? echo $title; ?>Typojanchi 2015"/>
+  <meta property="og:title" content="<? echo $title; ?>Typojanchi 2015"/>
 
-  <link rel="canonical" href="http://typojanchi.org/2015">
-  <meta property="og:url" content="http://typojanchi.org/2015">
+  <link rel="canonical" href="http://typojanchi.org/2015/<? echo $locale; ?>/<? echo $permalink; ?>">
+  <meta property="og:url" content="http://typojanchi.org/2015/<? echo $locale; ?>/<? echo $permalink; ?>">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
 

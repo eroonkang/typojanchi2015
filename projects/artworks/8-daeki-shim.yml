@@ -25,8 +25,8 @@ artworks:
   artwork_name_en: 1. F 13 FF 
   artwork_name_ko: 1. 4 13 44
   artwork_year: 2015
-  artwork_medium_en: Book (16pages, 23.5*16.5cm) and light (23.5*57*12cm)
-  artwork_medium_ko: 책(16쪽, 23.5*16.5cm), 조명(23.5*57*12cm)
+  artwork_medium_en: Book (16pages, 23.5x16.5cm) and light (23.5x57x12cm)
+  artwork_medium_ko: 책(16쪽, 23.5x16.5cm), 조명(23.5x57x12cm)
   artwork_desc_en: >
    At Incheon International Airport, the representative gateway to Seoul, “boarding gates 4, 13, and 44 do not exist” is a frequently spoken saying. This may seem like a rumor, but it is true. “Please come and visit us again.”
 
@@ -37,8 +37,8 @@ artworks:
   artwork_name_en: 2. Virtual and Actual
   artwork_name_ko: 2. 가상과 실재
   artwork_year: 2015
-  artwork_medium_en: Book, 16pages, 23.5*16.5cm
-  artwork_medium_ko: 책, 16쪽, 23.5*16.5cm
+  artwork_medium_en: Book, 16pages, 23.5x16.5cm
+  artwork_medium_ko: 책, 16쪽, 23.5x16.5cm
   artwork_desc_en: > 
    Through the everyday medium of social networking, we experience “experienced experiences.” However, these experiences are not repeated in the same manner every time. This project is a collaboration with designer Hyojun Shim.
    
