@@ -172,7 +172,7 @@ WY.views.welcome_view = (function(){
         $(window).scrollTop(0);
       }
 
-      map_manager.set_map_height(WY.constants.screen_height * 0.75);
+      map_manager.set_map_height(WY.constants.screen_height * 0.65);
       // $('.map-overlays').hide();
       $('#content-outer').css({
         visibility: "visible",
@@ -239,12 +239,12 @@ WY.views.welcome_view = (function(){
             break;
           case "about":
             map_manager.set_detail(false);
-            map_manager.set_map_height(WY.constants.screen_height * 0.5);
+            map_manager.set_map_height(WY.constants.screen_height * 0.65);
             detail_page_manager.update(permalink);
             break;
           default:
             map_manager.set_detail(true);
-            map_manager.set_map_height(WY.constants.screen_height * 0.5);
+            map_manager.set_map_height(WY.constants.screen_height * 0.65);
             map_manager.update_bound(permalink);
             detail_page_manager.update(permalink);
             break;

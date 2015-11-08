@@ -13,7 +13,7 @@ artworks: []
 venue_name_en: Hanyang Toonk
 venue_name_ko: 한양툰크
 venue_detail_en: 
-venue_detail_ko: 
+venue_detail_ko: 마포구 홍익로6길 67
 venue_city_en: Seoul
 venue_city_ko: 서울
 venue_country_en: KR
@@ -33,3 +33,6 @@ artwork_desc_en: >
  
 
 artwork_desc_ko: >
+ 만화서점
+ 
+ 홍대 앞 한양툰크는 문을 열고 들어가 책을 따라 구경하다보면 서점을 한 바퀴 돌 수 있게 되어 있다. 오래된 서점답게 이미 절판되어버린 책도 찾아볼 수 있다.

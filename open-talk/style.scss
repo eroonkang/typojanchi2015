@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'FoundersGroteskTextWeb';
+  src: url('fonts/FoundersGroteskTextWeb-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/FoundersGroteskTextWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/FoundersGroteskTextWeb-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansCJKkr-Regular-2350';
+  src: url('fonts/NotoSansCJKkr-Regular-2350.eot'); /* IE9 Compat Modes */
+  src: url('fonts/NotoSansCJKkr-Regular-2350.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/NotoSansCJKkr-Regular-2350.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+$base_font_size       : 19px; // px;
+$base_line_height     : 1.3em; // px
+$background-color: #FFF;
+$text_color: #000;
+
+
+@mixin regular_type {
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+  font-style:   normal;
+  text-rendering: optimizeLegibility;
+}
+
+@mixin small_type {
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+/* ==================================================================== */
+
+body {
+  @include regular_type;
+  font-size: $base_font_size;
+  line-height: $base_line_height;
+  background-color: $background-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:lang(ko){
+  font-size: 0.88em;
+  letter-spacing:-0.0125em;
+  word-break: keep-all;
+}
+
+.en-within-ko{
+  font-size: 1.13em;
+  letter-spacing: 0em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  border-bottom: 1px solid;
+}
+
+.wrapper {
+  width:840px;
+  margin: 30px 30px;
+  .notice {
+    // @include small_type;
+    // margin-top:4em;
+    // border:1px solid;
+    float:left;
+    width:220px;
+    padding: 15px 20px 20px 20px;
+    h2, h3 {
+      display: inline;
+      border-bottom: 1px solid;
+      padding-right: 0;
+    }
+    p {
+      margin:1em 0;
+      padding-right: 0;
+    }
+    .btn-wrapper {
+      display: block;
+      padding: 1em 0 5em 0;
+      &:hover {
+        border-bottom: none;
+      }
+    }
+    .btn {
+      display: inline-block;
+      border:1px solid;
+      padding: 0.25em 0.7em;
+      &:hover {
+        background-color: #000;
+        color:#fff;
+      }
+    }
+  }
+  .logos {
+    text-align: center;
+    width:200px;
+    float:left;
+    img.ct {
+      display: block;
+      position:relative;
+      top: 90px;
+      width:70px;
+      height:auto;
+      margin-left:50px;
+    }
+    img.tj {
+      display: block;
+      position:relative;
+      width:60px;
+      height:auto;
+      top: 470px;
+      margin-left:50px;
+    }
+  }
+}
+.footer {
+  font-size: 14px;
+  margin: 0 0 30px 250px;
+}

@@ -249,7 +249,7 @@ if ($permalink == "about"){
   <div id="map-outer">
     <div id="map-container">
     </div>
-    <a href="<? echo $home_url; ?>/<? echo $locale; ?>" data-permalink="" class="home_btn map-overlays btn-logo">
+    <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn map-overlays btn-logo">
       <h1>
         <span lang="ko">타이포잔치 2015: 4회 국제 타이포그래피 비엔날레</span><br>
         Typojanchi 2015: The 4th International Typography Biennale
@@ -301,13 +301,13 @@ if ($permalink == "about"){
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/2-six-images-six-texts" data-permalink="2-six-images-six-texts" class="footer_btn" lang="<? echo $locale; ?>">(2)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/3-asia-city-texture" data-permalink="3-asia-city-texture" class="footer_btn" lang="<? echo $locale; ?>">(3)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/4--on-the-walls" data-permalink="4--on-the-walls" class="footer_btn" lang="<? echo $locale; ?>">(4)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-this-is-seoul-soul" data-permalink="5-this-is-seoul-soul" class="footer_btn" lang="<? echo $locale; ?>">(5)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga" data-permalink="6-jongno-ga" class="footer_btn" lang="<? echo $locale; ?>">(6)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-seoul-soul-the-bookstores-of-seoul" data-permalink="5-seoul-soul-the-bookstores-of-seoul" class="footer_btn" lang="<? echo $locale; ?>">(5)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga-the-street-as-medium" data-permalink="6-jongno-ga-the-street-as-medium" class="footer_btn" lang="<? echo $locale; ?>">(6)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/7-book-bricks" data-permalink="7-book-bricks" class="footer_btn" lang="<? echo $locale; ?>">(7)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-c-t-welcomes-you" data-permalink="8-c-t-welcomes-you" class="footer_btn" lang="<? echo $locale; ?>">(8)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-city-linguistic-playfulness" data-permalink="9-city-linguistic-playfulness" class="footer_btn" lang="<? echo $locale; ?>">(9)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-city-of-deficiency" data-permalink="10-city-of-deficiency" class="footer_btn" lang="<? echo $locale; ?>">(10)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-letter-reportage" data-permalink="11-city-letter-reportage" class="footer_btn" lang="<? echo $locale; ?>">(11)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-city-welcomes-you" data-permalink="8-city-welcomes-you" class="footer_btn" lang="<? echo $locale; ?>">(8)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-urban-wordplay" data-permalink="9-urban-wordplay" class="footer_btn" lang="<? echo $locale; ?>">(9)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-a-city-without-" data-permalink="10-a-city-without-" class="footer_btn" lang="<? echo $locale; ?>">(10)</a></li>
+          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-typography-reportage" data-permalink="11-city-typography-reportage" class="footer_btn" lang="<? echo $locale; ?>">(11)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/12-exhibition-space" data-permalink="12-exhibition-space" class="footer_btn" lang="<? echo $locale; ?>">(12)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-website" data-permalink="13-website" class="footer_btn" lang="<? echo $locale; ?>">(13)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/14-docent-video-projects" data-permalink="14-docent-video-projects" class="footer_btn" lang="<? echo $locale; ?>">(14)</a></li>
