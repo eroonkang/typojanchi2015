@@ -23177,7 +23177,7 @@ WY.views.welcome_view = (function(){
         $(window).scrollTop(0);
       }
 
-      map_manager.set_map_height(WY.constants.screen_height * 0.5);
+      map_manager.set_map_height(WY.constants.screen_height * 0.75);
       // $('.map-overlays').hide();
       $('#content-outer').css({
         visibility: "visible",
