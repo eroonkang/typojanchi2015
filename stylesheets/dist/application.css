@@ -730,6 +730,11 @@ a.no-underline:hover {
 #content-outer #content .cols.quadruple {
   width: 930px;
 }
+@media (max-width: 1200px) {
+  #content-outer #content .cols.quadruple {
+    width: 100%;
+  }
+}
 #content-outer #content .cols .notice {
   font-size: 16px;
   line-height: 1.3em;
@@ -790,13 +795,20 @@ a.no-underline:hover {
 }
 #content-outer #content .left-nav {
   position: absolute;
+  width: 210px;
 }
 @media (max-width: 960px) {
   #content-outer #content .left-nav {
+    width: 590px;
     position: relative;
     margin-top: 1em;
-    padding: 1em 1.25em;
+    padding: 20px 25px;
     border: 1px solid;
+  }
+}
+@media (max-width: 700px) {
+  #content-outer #content .left-nav {
+    width: auto;
   }
 }
 #content-outer #content .left-nav .index-list h2 {
@@ -812,46 +824,46 @@ a.no-underline:hover {
   text-transform: uppercase;
   margin-bottom: 1em;
 }
+@media (max-width: 539px) {
+  #content-outer #content .credit {
+    width: 100% !important;
+  }
+}
+#content-outer #content .credit h4 {
+  display: inline-block;
+  margin: 0 0 1em 0;
+}
+#content-outer #content .credit h4 .underline {
+  border-bottom: 1px solid;
+}
+#content-outer #content .credit ul {
+  margin-bottom: 2em;
+}
+#content-outer #content .credit ul li {
+  margin-bottom: 1em;
+}
 
 #intro .artwork {
   margin-bottom: 3em;
+}
+#intro .logos {
+  padding-top: 110px;
+  height: 200px;
+  text-align: center;
+}
+#intro .logos img.ct {
+  width: 70px;
+  height: auto;
+}
+#intro .logos img.tj {
+  width: 60px;
+  height: auto;
+  margin-left: 100px;
 }
 
 .hr {
   width: 930px;
   margin: 2em 0 2em 250px;
-}
-
-.credit {
-  font-size: 16px;
-  line-height: 1.3em;
-}
-.credit h4 {
-  display: inline-block;
-  margin: 0 0 1em 0;
-}
-.credit h4 .underline {
-  border-bottom: 1px solid;
-}
-.credit ul {
-  margin-bottom: 2em;
-}
-.credit ul li {
-  margin-bottom: 1em;
-}
-
-.logos img.ct {
-  width: 70px;
-  height: auto;
-  position: relative;
-  top: 5em;
-  left: 100px;
-}
-.logos img.tj {
-  width: 70px;
-  height: auto;
-  position: relative;
-  left: 100px;
 }
 
 /* ---------------------------------------------- */
@@ -1097,14 +1109,30 @@ a.no-underline:hover {
 /* ---------------------------------------------- */
 #footer {
   padding: 30px;
+  height: 30px;
   font-size: 16px;
   line-height: 1.3em;
 }
 #footer h2 {
   position: absolute;
+  padding-bottom: 2em;
+}
+@media (max-width: 960px) {
+  #footer h2 {
+    position: relative;
+    margin-top: 2em;
+  }
 }
 #footer ul {
+  position: absolute;
   margin-left: 240px;
+  margin-top: 2.6em;
+}
+@media (max-width: 960px) {
+  #footer ul {
+    position: relative;
+    margin-left: 0px;
+  }
 }
 #footer ul li {
   list-style-type: none;
