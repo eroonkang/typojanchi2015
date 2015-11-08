@@ -39,11 +39,24 @@
     <div class="cols triple">  
       <h2 class="mobile"><a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn"><span lang="<%= WY.constants.locale %>">(<%= project.idx %>) <%= project["project_name_" + WY.constants.locale] %></span></a></h2>
 
-      <% if( WY.constants.locale == 'en'){ %>
-        <h4 lang="<%= WY.constants.locale %>">Curated by <%= detail["curator_name_" + WY.constants.locale] %></h4>
-      <% } else { %>
-        <h4 lang="<%= WY.constants.locale %>">큐레이터: <%= detail["curator_name_" + WY.constants.locale] %></h4>
-      <% } %>
+        <!-- 2번 프로젝트만 예외 -->
+        <% if( project.idx == 2){ %>
+
+          <% if( WY.constants.locale == 'en'){ %>
+            <h4 lang="<%= WY.constants.locale %>"><%= simple_format(detail["curator_name_" + WY.constants.locale]) %></h4>
+          <% } else { %>
+            <h4 lang="<%= WY.constants.locale %>"><%= simple_format(detail["curator_name_" + WY.constants.locale]) %></h4>
+          <% } %>
+
+        <% } else { %>
+
+          <% if( WY.constants.locale == 'en'){ %>
+            <h4 lang="<%= WY.constants.locale %>">Curated by <%= detail["curator_name_" + WY.constants.locale] %></h4>
+          <% } else { %>
+            <h4 lang="<%= WY.constants.locale %>">큐레이터: <%= detail["curator_name_" + WY.constants.locale] %></h4>
+          <% } %>        
+
+        <% } %>
 
       <p class="description">
         <span lang="<%= WY.constants.locale %>"><%= simple_format(detail["project_desc_" + WY.constants.locale]) %></span>

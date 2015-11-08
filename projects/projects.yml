@@ -135,8 +135,15 @@ projects:
   project_name_en: SIX IMAGES. SIX TEXTS.
   project_name_ko: 여섯 개의 이미지와 여섯 개의 텍스트
 
-  curator_name_en: Adrian Shaughnessy
-  curator_name_ko: 에이드리언 쇼너시 + 안병학
+  curator_name_en: >
+   Directed by Adrian Shaughnessy
+
+   Curated by Byung-hak Ahn
+
+  curator_name_ko: >
+   디렉터: 에이드리언 쇼너시
+
+   큐레이터: 안병학
 
   project_artists: 
   - 
