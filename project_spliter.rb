@@ -1,6 +1,6 @@
 require 'yaml'
 require 'json'
-
+require 'byebug'
 
 projects_yaml = YAML.load_file("./projects/projects.yml")
 
@@ -9,6 +9,7 @@ projects_yaml["projects"].each do |project|
 
   project_info = {}
   project_info["idx"] = project["idx"]
+  puts "#{project["idx"]}-#{project["project_name_en"].downcase.gsub(/[^\w ]+/, '').gsub(/ +/, '-')}"
   project_info["permalink"] = "#{project["idx"]}-#{project["project_name_en"].downcase.gsub(/[^\w ]+/, '').gsub(/ +/, '-')}"
   project_info["project_name_en"] =  project["project_name_en"]
   project_info["project_name_ko"] =  project["project_name_ko"]
