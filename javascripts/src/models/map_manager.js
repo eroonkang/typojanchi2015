@@ -287,11 +287,14 @@ WY.models.MapManager = (function(){
 
       
       $(".leaflet-control-zoom a").click(_.bind(function(e){
-        this.animate();
+        if (!this.is_detail()){
+            this.animate();
+        
+          _.delay(_.bind(function(){
+            this.stop_animate();
+          }, this), 3000);
+        }      
       
-        _.delay(_.bind(function(){
-          this.stop_animate();
-        }, this), 3000);
       }, this));
 
 
