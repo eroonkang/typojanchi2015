@@ -109,15 +109,12 @@ a.no-underline:hover {
   color: #000;
 }
 #content-outer #content .artwork {
-  margin-left: 240px;
-  float: left;
+  margin-left: 0px;
+  padding-left: 240px;
 }
 @media (max-width: 960px) {
   #content-outer #content .artwork {
-    margin-left: 0px;
-    clear: both;
-    float: none;
-    position: relative;
+    padding-left: 0px;
   }
 }
 #content-outer #content .artwork h2.mobile-title {
@@ -246,20 +243,31 @@ a.no-underline:hover {
   margin-bottom: 2em;
 }
 #content-outer #content .left-nav {
-  position: absolute;
   width: 210px;
+  float: left;
 }
 @media (max-width: 960px) {
   #content-outer #content .left-nav {
-    width: 590px;
-    position: relative;
-    margin-top: 1em;
-    padding: 20px 25px;
-    border: 1px solid;
+    display: none;
+  }
+}
+#content-outer #content .left-nav.below {
+  display: none;
+  float: none;
+  clear: both;
+  width: 590px;
+  position: relative;
+  margin-top: 1em;
+  padding: 20px 25px;
+  border: 1px solid;
+}
+@media (max-width: 960px) {
+  #content-outer #content .left-nav.below {
+    display: block !important;
   }
 }
 @media (max-width: 700px) {
-  #content-outer #content .left-nav {
+  #content-outer #content .left-nav.below {
     width: auto;
   }
 }
@@ -506,18 +514,24 @@ a.no-underline:hover {
   position: absolute;
   left: 50%;
   bottom: 25px;
-  transform: translate(-50%, 0);
-  -webkit-transform: translate(-50%, 0);
   transition: 0.2s opacity;
 }
 .map-overlays.btn-logo h1 {
+  width: 620px;
   font-size: 22px;
-  margin: 0 auto -10px auto;
+  margin: 0 0 -10px -310px;
   padding: 10px 0 20px 0;
   text-align: center;
   text-shadow: -1px -1px 0px #fff,   1px -1px 0px #fff, -1px  1px 0px #fff, 1px  1px 0px #fff;
   line-height: 1em;
   border-radius: 2px;
+}
+@media (max-width: 960px) {
+  .map-overlays.btn-logo h1 {
+    width: 360px;
+    margin: 0 0 -10px -160px;
+    font-size: 19px;
+  }
 }
 .map-overlays.btn-logo:hover {
   opacity: 0.5;
@@ -543,6 +557,11 @@ a.no-underline:hover {
   opacity: 0.5;
   border: none;
 }
+@media (max-width: 539px) {
+  .map-overlays.btn-ct {
+    display: none;
+  }
+}
 .map-overlays.btn-tj {
   width: 50px;
   height: auto;
@@ -554,6 +573,11 @@ a.no-underline:hover {
 .map-overlays.btn-tj:hover {
   opacity: 0.5;
   border: none;
+}
+@media (max-width: 539px) {
+  .map-overlays.btn-tj {
+    display: none;
+  }
 }
 
 /* ---------------------------------------------- */

@@ -266,6 +266,15 @@ WY.views.welcome_view = (function(){
     console.log ("index_height:" + index_height);
   }
 
+  // function set_footer_pos(){
+  //   var content_height = $('#content').css("height");
+  //   var nav_height = $('.left-nav').css("height");
+  //   if (content_height < nav_height) {
+  //     $('#content').css("height", nav_height);    
+  //   }
+  //   // console.log ("content_height:" + content_height + " nav_height:" + nav_height);
+  // }
+
   function show_index(){
     if (!index_opened){
       // var index_height = $('#index').css("height");

@@ -150,14 +150,10 @@ $medim-width: 1200px;
     // margin: 0 auto;
 
     .artwork {
-      margin-left: 240px;
-      float: left;
-
+      margin-left: 0px;
+      padding-left: 240px;
       @include small {
-        margin-left: 0px;
-        clear:both;
-        float: none;
-        position: relative;
+        padding-left: 0px;
       }
       h2.mobile-title {
         display:none;
@@ -278,18 +274,28 @@ $medim-width: 1200px;
     }
 
     .left-nav {
-      position:absolute;
+      // position:absolute;
       width:210px;
-
+      float: left;
       @include small {
+        display:none;
+      }
+      &.below {
+        display:none;
+        @include small {
+          display:block !important;
+        }
+        float:none;
+        clear:both;
         width:590px;
         position:relative;
         margin-top:1em;
         padding:20px 25px;
         border: 1px solid;
-      }
-      @include smaller {
-        width:auto;
+
+        @include smaller {
+          width:auto;
+        }
       }
 
       .index-list {
@@ -336,6 +342,7 @@ $medim-width: 1200px;
 #intro {
   .artwork {
     margin-bottom:3em;
+
   }
   .logos {
     padding-top:110px;
@@ -576,13 +583,11 @@ $medim-width: 1200px;
     position:absolute;
     left:50%;
     bottom:25px;
-    transform: translate(-50%, 0);
-    -webkit-transform: translate(-50%, 0);
     transition: 0.2s opacity;
     h1 {
-      // width:720px;
+      width:620px;
       font-size: 22px;
-      margin:0 auto -10px auto;
+      margin:0 0 -10px -310px;
       padding:10px 0 20px 0;
       text-align: center;
       text-shadow:
@@ -592,6 +597,16 @@ $medim-width: 1200px;
         1px  1px 0px #fff;
         line-height: 1em;
         border-radius: 2px;
+      @include small {
+        width:360px;
+        margin:0 0 -10px -160px;
+        font-size: 19px;
+      }
+      @include smaller {
+        // width:300px;
+        // margin:0 0 -10px -150px;
+        // font-size: 16px;
+      }
     }    
     &:hover {
       opacity: 0.5;
@@ -619,6 +634,9 @@ $medim-width: 1200px;
       opacity: 0.5;
       border:none;
     } 
+    @include phone {
+      display:none;
+    }
   }
 
   &.btn-tj {
@@ -632,6 +650,9 @@ $medim-width: 1200px;
       opacity: 0.5;
       border:none;
     } 
+    @include phone {
+      display:none;
+    }
   }
 }
 
