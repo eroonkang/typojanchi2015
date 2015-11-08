@@ -1,28 +1,28 @@
 <?
 
 include 'route.php';
-// require_once "spyc.php";
+require_once "spyc.php";
 
 $route = new Route();
 $locale = 'ko';
 $permalink = '';
 $home_url = "/typojanchi2015";
-// $browser_locale_detect_needed = true;
+$browser_locale_detect_needed = true;
 
 $route->add('/', function() {
-  // global $browser_locale_detect_needed;
+  global $browser_locale_detect_needed;
 
-  // $browser_locale_detect_needed = true;
+  $browser_locale_detect_needed = true;
 });
 
 $route->add('/ko', function() {
-  // global $browser_locale_detect_needed;
-  // $browser_locale_detect_needed = false;
+  global $browser_locale_detect_needed;
+  $browser_locale_detect_needed = false;
 });
 
 $route->add('/en', function() {
-  global $locale;//, $browser_locale_detect_needed;
-  // $browser_locale_detect_needed = false;
+  global $locale, $browser_locale_detect_needed;
+  $browser_locale_detect_needed = false;
   $locale = "en";
 });
 
@@ -30,8 +30,8 @@ $route->add('/en', function() {
 
 $route->add('/ko/.+', function($name) {
   global $locale, $permalink;
-  // global $browser_locale_detect_needed;
-  // $browser_locale_detect_needed = false;
+  global $browser_locale_detect_needed;
+  $browser_locale_detect_needed = false;
 
   $locale = "ko";
   $permalink = $name;
@@ -39,8 +39,8 @@ $route->add('/ko/.+', function($name) {
 
 $route->add('/en/.+', function($name) {
   global $locale, $permalink;
-  // global $browser_locale_detect_needed;
-  // $browser_locale_detect_needed = false;
+  global $browser_locale_detect_needed;
+  $browser_locale_detect_needed = false;
 
   $locale = "en";
   $permalink = $name;
@@ -50,52 +50,52 @@ $route->submit();
 
 
 
-// if ($browser_locale_detect_needed){
-//   $langs = array();
+if ($browser_locale_detect_needed){
+  $langs = array();
 
-//   if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-//       // break up string into pieces (languages and q factors)
-//       preg_match_all('/([a-z]{1,8}(-[a-z]{1,8})?)\s*(;\s*q\s*=\s*(1|0\.[0-9]+))?/i', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $lang_parse);
+  if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
+      // break up string into pieces (languages and q factors)
+      preg_match_all('/([a-z]{1,8}(-[a-z]{1,8})?)\s*(;\s*q\s*=\s*(1|0\.[0-9]+))?/i', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $lang_parse);
 
-//       if (count($lang_parse[1])) {
-//           // create a list like "en" => 0.8
-//           $langs = array_combine($lang_parse[1], $lang_parse[4]);
+      if (count($lang_parse[1])) {
+          // create a list like "en" => 0.8
+          $langs = array_combine($lang_parse[1], $lang_parse[4]);
         
-//           // set default to 1 for any without q factor
-//           foreach ($langs as $lang => $val) {
-//               if ($val === '') $langs[$lang] = 1;
-//           }
+          // set default to 1 for any without q factor
+          foreach ($langs as $lang => $val) {
+              if ($val === '') $langs[$lang] = 1;
+          }
 
-//           // sort list based on value 
-//           arsort($langs, SORT_NUMERIC);
-//       }
-//   }
+          // sort list based on value 
+          arsort($langs, SORT_NUMERIC);
+      }
+  }
 
-//   // look through sorted list and use first one that matches our languages
-//   foreach ($langs as $lang => $val) {
-//     if (strpos($lang, 'ko') === 0) {
-//       $locale = "ko";
-//     } else if (strpos($lang, 'en') === 0) {
-//       $locale = "en";
-//     } 
-//   }
+  // look through sorted list and use first one that matches our languages
+  foreach ($langs as $lang => $val) {
+    if (strpos($lang, 'ko') === 0) {
+      $locale = "ko";
+    } else if (strpos($lang, 'en') === 0) {
+      $locale = "en";
+    } 
+  }
 
-// }
+}
 
-// $title = "";
+$title = "";
 
-// if ($permalink == "about"){
-//   $title = "About /";
-// } else if (split("-", $permalink[0]) == "city") {
-//   $title = split("-", $permalink[1]);
-// } else {
-//   $yaml_data = Spyc::YAMLLoad('./projects/artworks/'.$permalink.'.yml');
-//    if ($yaml_data["type"] == "Project") {
-//     $title = $yaml_data["project_name_".$locale]." / ";
-//   } else {
-//     $title = $yaml_data["full_name_".$locale]." / ";
-//   } 
-// }
+if ($permalink == "about"){
+  $title = "About /";
+} else if (split("-", $permalink[0]) == "city") {
+  $title = split("-", $permalink[1]);
+} else {
+  $yaml_data = Spyc::YAMLLoad('./projects/artworks/'.$permalink.'.yml');
+   if ($yaml_data["type"] == "Project") {
+    $title = $yaml_data["project_name_".$locale]." / ";
+  } else {
+    $title = $yaml_data["full_name_".$locale]." / ";
+  } 
+}
 
 
 
