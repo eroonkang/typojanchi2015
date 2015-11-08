@@ -168,7 +168,7 @@ if ($permalink == "about"){
           <? if ($locale == 'en') { echo "About (Typojanchi 2015)"; } ?>
         </a>
       </h2>
-      <div id="index-left"><a href="<? echo $home_url; ?>/en">EN</a> / <a href="<? echo $home_url; ?>/ko"><span lang="ko">한글</a></div>
+      <div id="index-left"><a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>"">EN</a> / <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>""><span lang="ko">한글</a></div>
       <div id="index-right" class="close_index"><a href="javascript:void(0);" class="no-underline"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABnElEQVRoQ+3Z4U3DMBAF4NcJYBQ2ACYpTABsAhvABB0BRmAU2AA91EhRlMjnu/fUqrJ/tokv353VnN0dLmTsLsSBATm3So6KjIqYMjCWlimx6Wl7KnIDYA/gJR2t78ZXAO8AviO3RSFEfAK4Pk7+GJm8cA0BTNoPgPsIJgphdp5mD8ZALsyEmMK9AXhuJSUK4TzLAA7MMsYHgIcWgt/3QNyYNCIDcWFKiCxEjSkjKhAVRoKoQqoYGUIByWKkCBWkFyNHKCFRjAWhhrQwNoQDsoXh5/M3dPiNHXmruyBrmPnzyBFOyBbGgnBC2O4fANwtloaj0fwP0ds0RpYsEdy7cA+zNiwYNWQNweXEwY3SNOQYJWQLMf1aWfczKkgLMa+EpTIKSBRhxVQhvQgbpgLJIiyYLKSKkGMyEBVCiumFqBEyTA/EhZBgohA3ooyJQr4A3M5aDFsXu3KiKT0yZQNIzBUAJ2JZmd9jB908kY9WhAGIYd/UPFCOtMiBayx/KwTinvaSnoqc9kkb0Qfk3MozKjIqYsrAWFqmxKan/QOGW3YzGVri7gAAAABJRU5ErkJggg==" width="24" height="24"></a></div>
     </div>
     <div id="section-cities">
@@ -283,12 +283,6 @@ if ($permalink == "about"){
       <div id="content">
       </div>
       <div id="footer">
-        <h2>
-          <a href="<? echo $home_url; ?>/<? echo $locale; ?>" lang="<? echo $locale; ?>">
-            <? if ($locale == 'ko') { echo "© 타이포잔치 2015"; } ?>
-            <? if ($locale == 'en') { echo "© Typojanchi 2015"; } ?>
-          </a>
-        </h2>
         <ul>
           <li>
             <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
@@ -321,6 +315,16 @@ if ($permalink == "about"){
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" data-permalink="16-newsletter-project" class="footer_btn" lang="<? echo $locale; ?>">(16)</a></li>
           <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-archiving-app" data-permalink="17-archiving-app" class="footer_btn" lang="<? echo $locale; ?>">(17)</a></li>
         </ul>
+
+        <h2>
+          © <br>
+          <a href="<? echo $home_url; ?>/<? echo $locale; ?>" lang="<? echo $locale; ?>">
+            <? if ($locale == 'ko') { echo "타이포잔치 2015"; } ?>
+            <? if ($locale == 'en') { echo "Typojanchi 2015"; } ?>
+          </a><br>
+          (<a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>"" lang="en">EN</a> / <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>"" lang="ko">한글</a>)
+        </h2>
+
       </div>
     </div>
   </div>

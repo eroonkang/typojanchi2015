@@ -4,7 +4,7 @@ projects:
 -
 
   idx: 1
-  project_name_en: Main Exhibition
+  project_name_en: MAIN EXHIBITION
   project_name_ko: 본전시
 
   curator_name_en: Kyungsun Kymn
@@ -132,7 +132,7 @@ projects:
 
 -
   idx: 2
-  project_name_en: Six images. Six texts.
+  project_name_en: SIX IMAGES. SIX TEXTS.
   project_name_ko: 여섯 개의 이미지와 여섯 개의 텍스트
 
   curator_name_en: Adrian Shaughnessy
@@ -217,7 +217,7 @@ projects:
 
 -
   idx: 3
-  project_name_en: Asia City Text/ure
+  project_name_en: ASIA CITY TEXT/URE
   project_name_ko: 아시아 도시 텍스트/쳐
 
   curator_name_en: Tetsuya Goto
@@ -689,7 +689,8 @@ projects:
 -
   idx: 6
   project_name_en: >
-  JONGNO (   ) GA: THE STREET AS MEDIUM
+   JONGNO (   ) GA: The street as Medium
+  
   project_name_ko: >
    종로 (  ) 가: 매체로서의 거리
 
@@ -788,7 +789,7 @@ projects:
 
 -
   idx: 7
-  project_name_en: Book Bricks
+  project_name_en: BOOK BRICKS
   project_name_ko: 책 벽돌
 
 
@@ -1101,7 +1102,7 @@ projects:
 
 -
   idx: 12
-  project_name_en: Exhibition Space
+  project_name_en: EXHIBITION SPACE
   project_name_ko: 전시공간 프로젝트
 
   curator_name_en: 
@@ -1131,7 +1132,7 @@ projects:
 
 -
   idx: 13
-  project_name_en: Website
+  project_name_en: WEBSITE
   project_name_ko: 웹사이트프로젝트 
 
   curator_name_en: 
@@ -1162,7 +1163,7 @@ projects:
 
 -
   idx: 14
-  project_name_en: Docent + Video projects
+  project_name_en: DOCENT + VIDEO PROJECTS
   project_name_ko: 도슨트 프로젝트
 
   curator_name_en: 
@@ -1194,7 +1195,7 @@ projects:
 
 -
   idx: 15
-  project_name_en: Opening Performance
+  project_name_en: OPENING PERFORMANCE
   project_name_ko: 개막식 공연 프로젝트
 
   curator_name_en: 
@@ -1225,7 +1226,7 @@ projects:
 
 -
   idx: 16
-  project_name_en: Newsletter Project
+  project_name_en: NEWSLETTER PROJECT
   project_name_ko: 뉴스레터 프로젝트
 
   curator_name_en: 
@@ -1256,7 +1257,7 @@ projects:
 
 -
   idx: 17
-  project_name_en: Archiving App
+  project_name_en: ARCHIVING APP
   project_name_ko: 아카이빙앱 프로젝트
 
   curator_name_en: rebel9
