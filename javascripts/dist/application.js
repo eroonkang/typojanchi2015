@@ -23177,7 +23177,7 @@ WY.views.welcome_view = (function(){
         $(window).scrollTop(0);
       }
 
-      map_manager.set_map_height(WY.constants.screen_height * 0.5);
+      map_manager.set_map_height(WY.constants.screen_height * 0.75);
       // $('.map-overlays').hide();
       $('#content-outer').css({
         visibility: "visible",
@@ -23270,6 +23270,15 @@ WY.views.welcome_view = (function(){
     $('#index').css("top", '-' + index_height);    
     console.log ("index_height:" + index_height);
   }
+
+  // function set_footer_pos(){
+  //   var content_height = $('#content').css("height");
+  //   var nav_height = $('.left-nav').css("height");
+  //   if (content_height < nav_height) {
+  //     $('#content').css("height", nav_height);    
+  //   }
+  //   // console.log ("content_height:" + content_height + " nav_height:" + nav_height);
+  // }
 
   function show_index(){
     if (!index_opened){
