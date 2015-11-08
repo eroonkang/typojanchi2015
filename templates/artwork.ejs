@@ -9,10 +9,11 @@
           <p class="description">
             <span lang="<%= WY.constants.locale %>"><%= simple_format(work["artwork_desc_" + WY.constants.locale]) %></span>
           </p>
-          <p class="venue">
-            <a href="#"><span lang="<%= WY.constants.locale %>"><%= detail["venue_name_" + WY.constants.locale] %>, <%= detail["venue_city_" + WY.constants.locale] %>, <%= detail["venue_country_" + WY.constants.locale] %></span></a>
-          </p>
+          
       <% }); %>
+      <p class="venue">
+        <a href="#"><span lang="<%= WY.constants.locale %>"><%= detail["venue_name_" + WY.constants.locale] %>, <%= detail["venue_city_" + WY.constants.locale] %>, <%= detail["venue_country_" + WY.constants.locale] %></span></a>
+      </p>
     </div>
     <div class="cols single">
       — <br/>

@@ -22,8 +22,8 @@ artworks:
   artwork_name_en: CT Code Series
   artwork_name_ko: CT 코드 연작
   artwork_year: 2015
-  artwork_medium_en: Offset printing, 8 pieces, each 70*100cm
-  artwork_medium_ko: 옵셋 인쇄, 8점, 각 70*100cm
+  artwork_medium_en: Offset printing, 8 pieces, each 70x100cm
+  artwork_medium_ko: 옵셋 인쇄, 8점, 각 70x100cm
   artwork_desc_en: >
    Hyoun Youl Joe picks up flyers on his office floor every morning and gathers in one place. Repeating this, he starts to observe flyers and banners of loan, delivery foods, selling apartments and officetels, chauffeur service very closely. They are cheap, repeating, flashy and wild. Watching these, he feels uncomfortable but finds something interesting in their combinations. The combination works as a tool of communities and people's desire. For the artist, they are recognized as colors and forms before meaning as words. He extracts the letters from the flyers and banners, concentrates on making new combinations with these signs, colors, and forms. This would be the exploration of new compositions with repeating forms and color patterns in the flyers and banners of this city where the letters disappeared.
 
@@ -33,28 +33,43 @@ artworks:
 -
   artwork_name_en: 1. CT3220806
   artwork_name_ko: 1. CT3220806
+  artwork_desc_en: ""
+  artwork_desc_ko: ""
 -
   artwork_name_en: 1. CT3657714
   artwork_name_ko: 1. CT3657714
+  artwork_desc_en: ""
+  artwork_desc_ko: ""
 -
   artwork_name_en: 1. CT245140324210648
   artwork_name_ko: 1. CT245140324210648
+  artwork_desc_en: ""
+  artwork_desc_ko: ""
 -
   artwork_name_en: 1. CT2550416009605
   artwork_name_ko: 1. CT2550416009605
+  artwork_desc_en: ""
+  artwork_desc_ko: "" 
 -
   artwork_name_en: 1. CT01097817891
   artwork_name_ko: 1. CT01097817891
+  artwork_desc_en: ""
+  artwork_desc_ko: ""
 -
   artwork_name_en: 1. CT031448595901053361200
   artwork_name_ko: 1. CT031448595901053361200
+  artwork_desc_en: ""
+  artwork_desc_ko: ""  
 -
   artwork_name_en: 1. CT01094669924
   artwork_name_ko: 1. CT01094669924
+  artwork_desc_en: ""
+  artwork_desc_ko: ""
 -
   artwork_name_en: 1. CT5001044768010
   artwork_name_ko: 1. CT5001044768010
-
+  artwork_desc_en: ""
+  artwork_desc_ko: ""
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역 서울 284
