@@ -84,7 +84,9 @@ if ($browser_locale_detect_needed){
 
 $title = "";
 
-if ($permalink == "about"){
+if ($permalink == "") {
+  $title = "";
+} else if ($permalink == "about"){
   $title = "About /";
 } else if (split("-", $permalink[0]) == "city") {
   $title = split("-", $permalink[1]);
@@ -104,7 +106,7 @@ if ($permalink == "about"){
 <!DOCTYPE html>
 <head>
 
-  <title>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
+  <title><? echo $title; ?> Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
   <meta charset="utf-8"></meta>
 
 

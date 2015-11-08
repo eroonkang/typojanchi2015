@@ -7,6 +7,7 @@ WY.views.welcome_view = (function(){
       cities_manager,
       permalink,
       index_height,
+      collapsed = true,
       cities_appended = false,
       index_opened = false,
       content_opened = false;
@@ -38,7 +39,15 @@ WY.views.welcome_view = (function(){
 
   function init_btn_events(){
 
-    $('.btn-menu').click(show_index);
+    $('.btn-menu').click(function(e){
+      if (collapsed) {
+        show_index();
+      } else {
+        hide_index();        
+      }
+      collapsed = !collapsed;
+    });
+
     $('.close_index').click(hide_index);
 
     $('.footer-participants').click(function(){
@@ -147,7 +156,7 @@ WY.views.welcome_view = (function(){
       $(".home_btn").click(function(e){
         e.preventDefault();
 
-
+        hide_index();
         map_manager.reset();
         detail_page_manager.hide();
 
@@ -172,7 +181,11 @@ WY.views.welcome_view = (function(){
         $(window).scrollTop(0);
       }
 
-      map_manager.set_map_height(WY.constants.screen_height * 0.65);
+      if (detail_page_manager.permalink == "about") {
+        map_manager.set_map_height(WY.constants.screen_height * 0.5);
+      } else {
+        map_manager.set_map_height(WY.constants.screen_height * 0.65);
+      }
       // $('.map-overlays').hide();
       $('#content-outer').css({
         visibility: "visible",
@@ -202,7 +215,7 @@ WY.views.welcome_view = (function(){
   }
 
   function ko_type_adjust(){
-    var rex = new RegExp("([A-Za-z0-9,.\"():&-;]+)(?![^<>&]*>)", "gm");
+    var rex = new RegExp("([A-Za-z0-9,.():&-;]+)(?![^<>&]*>)", "gm");
 
     $(":lang(ko)").each(function(){
         var $this = $(this);
@@ -239,7 +252,7 @@ WY.views.welcome_view = (function(){
             break;
           case "about":
             map_manager.set_detail(false);
-            map_manager.set_map_height(WY.constants.screen_height * 0.65);
+            map_manager.set_map_height(WY.constants.screen_height * 0.5);
             detail_page_manager.update(permalink);
             break;
           default:

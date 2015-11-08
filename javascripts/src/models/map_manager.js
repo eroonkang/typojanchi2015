@@ -796,9 +796,10 @@ WY.models.MapManager = (function(){
         if ((source.data.properties.type == "Artwork" && target.data.properties.type == "Artist") || 
             (source.data.properties.type == "Artist" && target.data.properties.type == "Artwork")) {
           link.data.line.setStyle({
-            opacity: 0.1,
+            opacity: 0,
             weight:1
           });
+
         } else {
           link.data.line.setStyle({
             opacity: 1,

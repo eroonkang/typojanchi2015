@@ -127,7 +127,7 @@ WY.models.DetailPageManager = (function(){
     },
 
     ko_type_adjust: function(){
-      var rex = new RegExp("([\u00FCA-Za-z0-9,.\"():&-;]+)(?![^<>&]*>)", "gm");
+      var rex = new RegExp("([\u00FCA-Za-z0-9,.():&-;]+)(?![^<>&]*>)", "gm");
 
       this.el.find("#content").find(":lang(ko)").each(function(){
         var $this = $(this);

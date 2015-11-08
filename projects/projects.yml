@@ -714,16 +714,23 @@ projects:
     full_name_en: Team Thursday
     full_name_ko: 팀 서즈데이
     url: /projects/artworks/8-team-thursday.yml
-
   - 
     full_name_en: Daeki Shim
     full_name_ko: 심대기
     url: /projects/artworks/8-daeki-shim.yml
-
   - 
     full_name_en: Choongho Lee
     full_name_ko: 이충호
     url: /projects/artworks/8-choongho-lee.yml
+  -
+    full_name_en: Nils Clauss
+    full_name_ko: 닐스 클라우스
+    url: /projects/artworks/8-clauss-nils.yml  
+  - 
+    full_name_en: Hyun Cho + Nils Clauss
+    full_name_ko: 조현 + 닐스 클라우스
+    url: /projects/artworks/8-hyun-cho-n-clauss-nils.yml
+
 
 
 # PROJECT -----------------------------------------
