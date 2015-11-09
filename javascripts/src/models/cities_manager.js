@@ -3,6 +3,10 @@ WY.constants.cities_locations = {
     latlng: [37.5665350,126.9779690],
     zoom: 13
   },
+  moscow: {
+    latlng: [55.7494733, 37.3523199],
+    zoom: 13
+  },
   london: { 
     latlng: [51.5073510,-0.1277580],
     zoom: 13
@@ -19,7 +23,7 @@ WY.constants.cities_locations = {
   tokyo: { latlng: [35.6894870,139.6917060],
     zoom: 13
   },
-  osaka: { latlng: [34.6937380,135.5021650],
+  osaka: { latlng: [34.69519093525217,135.49249649047852],
     zoom: 13
   },
   berlin: { latlng: [52.49835418534738,13.436965942382812],
@@ -90,7 +94,20 @@ WY.constants.cities_locations = {
   },
   ghent: { latlng: [51.0543420,3.7174240],
     zoom: 13
+  },
+  gwacheon: {
+    latlng: [37.429246,126.987445],
+    zoom: 13
+  },
+  gwangju: {
+    latlng: [37.417141,127.256141],
+    zoom: 13
+  },
+  kyoto: {
+    latlng: [35.011636, 135.768029],
+    zoom: 13
   }
+
 }
 
 WY.models.CitiesManager = (function(){
@@ -103,7 +120,9 @@ WY.models.CitiesManager = (function(){
 
   CitiesManager.prototype = {
     init: function(){
-      this.el.find(".city_btn").click(this.city_btn_click_handler);
+      // this.el.find(".city_btn").click(this.city_btn_click_handler);
+      
+      $("body").on("click", ".city_btn", this.city_btn_click_handler);
     },
 
     city_btn_click_handler: function(e){

@@ -21692,7 +21692,7 @@ function randomBetween(low, high) {
       d_p: 0.007,
       d_pv: 0.002,
       d_ap: 0.002,
-      d_a: 0.0022
+      d_a: 0.003
     },
     15: {
       upper_force: new THREE.Vector2(r, 37.579),
@@ -21728,6 +21728,10 @@ WY.constants.cities_locations = {
     latlng: [37.5665350,126.9779690],
     zoom: 13
   },
+  moscow: {
+    latlng: [55.7494733, 37.3523199],
+    zoom: 13
+  },
   london: { 
     latlng: [51.5073510,-0.1277580],
     zoom: 13
@@ -21744,7 +21748,7 @@ WY.constants.cities_locations = {
   tokyo: { latlng: [35.6894870,139.6917060],
     zoom: 13
   },
-  osaka: { latlng: [34.6937380,135.5021650],
+  osaka: { latlng: [34.69519093525217,135.49249649047852],
     zoom: 13
   },
   berlin: { latlng: [52.49835418534738,13.436965942382812],
@@ -21815,7 +21819,20 @@ WY.constants.cities_locations = {
   },
   ghent: { latlng: [51.0543420,3.7174240],
     zoom: 13
+  },
+  gwacheon: {
+    latlng: [37.429246,126.987445],
+    zoom: 13
+  },
+  gwangju: {
+    latlng: [37.417141,127.256141],
+    zoom: 13
+  },
+  kyoto: {
+    latlng: [35.011636, 135.768029],
+    zoom: 13
   }
+
 }
 
 WY.models.CitiesManager = (function(){
@@ -21828,7 +21845,9 @@ WY.models.CitiesManager = (function(){
 
   CitiesManager.prototype = {
     init: function(){
-      this.el.find(".city_btn").click(this.city_btn_click_handler);
+      // this.el.find(".city_btn").click(this.city_btn_click_handler);
+      
+      $("body").on("click", ".city_btn", this.city_btn_click_handler);
     },
 
     city_btn_click_handler: function(e){
@@ -21860,6 +21879,15 @@ WY.models.CitiesManager = (function(){
   return CitiesManager;
 })();
 
+WY.constants.single_projects_routes = {
+  "12-exhibition-space": "12-zero-lab",
+  "13-website-project": "13-eroonkang",
+  "14-docent-video-projects": "14-nolgong",
+  "15-opening-performance": "15-dappertutto",
+  "16-newsletter-project": "16-mediabus-shinshin",
+  "17-archiving-app": "17-rebel9",
+  "7-book-bricks": "7-pati"
+}
 WY.models.DetailPageManager = (function(){
   function DetailPageManager(params){
     this.el = params.el;
@@ -21888,6 +21916,15 @@ WY.models.DetailPageManager = (function(){
 
       if (this.permalink == '' || _.isUndefined(this.permalink)) { 
         return false; 
+      } else {
+        if (!_.isUndefined(WY.constants.single_projects_routes[this.permalink])){
+          var redirect_permalink = WY.constants.single_projects_routes[this.permalink];
+
+          History.pushState({
+            permalink: redirect_permalink
+          }, "Loading...", WY.constants.home_url + "/" + WY.constants.locale + "/" + redirect_permalink);
+          return false;
+        }
       }
 
       this.el.show();
@@ -21911,6 +21948,7 @@ WY.models.DetailPageManager = (function(){
     update_detail_page: function(){
       this.project_id = Number(this.permalink.split("-")[0]);
 
+  
       $.ajax({
         type: 'GET',
         url: WY.constants.home_url + '/projects/artworks/' + this.permalink + ".yml",
@@ -22492,12 +22530,15 @@ WY.models.MapManager = (function(){
       }
 
 
-      $('#map-container, #map-outer').animate({
-        height: height
-      }, 400, _.bind(function(e){
+      $('#map-container, #map-outer').height(height);
+      this.map.invalidateSize();
+      
+      // $('#map-container, #map-outer').animate({
+      //   height: height
+      // }, 400, _.bind(function(e){
 
-        this.map.invalidateSize();
-      }, this)); 
+      //   this.map.invalidateSize();
+      // }, this)); 
 
     },
 

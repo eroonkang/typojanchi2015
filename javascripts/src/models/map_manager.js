@@ -485,12 +485,15 @@ WY.models.MapManager = (function(){
       }
 
 
-      $('#map-container, #map-outer').animate({
-        height: height
-      }, 400, _.bind(function(e){
+      $('#map-container, #map-outer').height(height);
+      this.map.invalidateSize();
+      
+      // $('#map-container, #map-outer').animate({
+      //   height: height
+      // }, 400, _.bind(function(e){
 
-        this.map.invalidateSize();
-      }, this)); 
+      //   this.map.invalidateSize();
+      // }, this)); 
 
     },
 
