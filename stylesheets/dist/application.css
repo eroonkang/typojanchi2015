@@ -1176,7 +1176,6 @@ a.no-underline:hover {
 #footer ul {
   position: absolute;
   margin-left: 240px;
-  margin-top: 2.6em;
 }
 @media (max-width: 960px) {
   #footer ul {
@@ -1188,6 +1187,10 @@ a.no-underline:hover {
   list-style-type: none;
   display: inline-block;
   margin-right: 1em;
+}
+#footer ul .footer-group {
+  display: inline-block;
+  margin-top: 1.3em;
 }
 
 /*# sourceMappingURL=style.css.map */
