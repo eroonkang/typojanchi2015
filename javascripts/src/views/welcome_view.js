@@ -7,7 +7,6 @@ WY.views.welcome_view = (function(){
       cities_manager,
       permalink,
       index_height,
-      collapsed = true,
       cities_appended = false,
       index_opened = false,
       content_opened = false;
@@ -29,9 +28,7 @@ WY.views.welcome_view = (function(){
     $(window).resize(function(e){
       WY.constants.screen_width = $(window).width();
       WY.constants.screen_height = $(window).height();
-      // map_manager.set_map_height(permalink.length == 0 ? WY.constants.screen_height : WY.constants.screen_height * 0.5);
-      // set_index_pos();
-      // $('#map-outer').css('top','index_height');
+      
     });
 
     $(window).trigger('resize');
@@ -40,12 +37,12 @@ WY.views.welcome_view = (function(){
   function init_btn_events(){
 
     $('.btn-menu').click(function(e){
-      if (collapsed) {
+      if (!index_opened) {
         show_index();
       } else {
-        hide_index();        
+        hide_index(); 
+        $(window).scrollTop(0);       
       }
-      collapsed = !collapsed;
     });
 
     $('.close_index').click(hide_index);
@@ -120,9 +117,13 @@ WY.views.welcome_view = (function(){
 
       
       participants_manager.append_dom();
+      participants_manager.on('columnize_complete', columnize_complete_handler);
+
       projects_manager.append_dom();
+      projects_manager.on('columnize_complete', columnize_complete_handler);
+
       if (!cities_appended) {
-        $('#section-cities').columnize({ width:200, lastNeverTallest: true});
+        $('#section-cities').columnize({ doneFunc: columnize_complete_handler, width:200, lastNeverTallest: true});
         cities_appended = true;
       }
 
@@ -217,6 +218,20 @@ WY.views.welcome_view = (function(){
 
   }
 
+  function columnize_complete_handler(e){
+    index_height = $('#index').height();
+
+    if (index_opened) {
+      $("#map-outer").css({
+        top: index_height
+      });
+      $(window).scrollTop(0);
+
+    }
+
+  }
+
+
   function ko_type_adjust(){
     var rex = new RegExp("([A-Za-z0-9,.():&-;]+)(?![^<>&]*>)", "gm");
 
@@ -277,8 +292,8 @@ WY.views.welcome_view = (function(){
   }
 
   function set_index_pos(){
-    index_height = $('#index').css("height");
-    $('#index').css("top", '-' + index_height);    
+    index_height = $('#index').height();
+    $('#index').css("top", -index_height);    
     console.log ("index_height:" + index_height);
   }
 

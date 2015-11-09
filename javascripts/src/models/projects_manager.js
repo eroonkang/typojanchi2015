@@ -7,7 +7,7 @@ WY.models.ProjectsManager = (function(){
     this.appended;
 
     _.extend(this, Backbone.Events);
-    _.bindAll(this, "load_complete_handler", "project_btn_click_handler");
+    _.bindAll(this, "columnize_complete_handler", "load_complete_handler", "project_btn_click_handler");
   }
 
   ProjectsManager.prototype = {
@@ -33,10 +33,18 @@ WY.models.ProjectsManager = (function(){
       this.inner_dom = $(this.tmpl(this.data));
     },
 
+
+    columnize_complete_handler: function(e){
+      this.trigger('columnize_complete');
+    },
+    // recolumnize: function(){
+    //   this.el.columnize({ buildOnce: true, width:400, lastNeverTallest: true});  
+    // },
+
     append_dom: function(){
       if (!_.isUndefined(this.inner_dom) && !this.appended){
         this.el.append(this.inner_dom);
-        this.el.columnize({ width:400, lastNeverTallest: true});    
+        this.el.columnize({ doneFunc: this.columnize_complete_handler, width:400, lastNeverTallest: true});    
         this.appended = true;
       }
 
