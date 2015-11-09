@@ -57,10 +57,17 @@ a.no-underline:hover {
    clear: both;
 }
 
+$small-phone-width: 320px;
 $phone-width: 539px;
 $smaller-width: 700px;
 $small-width: 960px;
 $medim-width: 1200px;
+
+@mixin small-phone {
+  @media (max-width: #{$small-phone-width}) {
+    @content;
+  }
+}
 
 @mixin phone {
   @media (max-width: #{$phone-width}) {
@@ -101,11 +108,24 @@ $medim-width: 1200px;
   width:50%;
   text-align: center;
   margin: 15px auto 0 auto;
+  @include phone {
+    text-align: center;
+    width:75%;
+    margin: 15px auto 0 auto;
+  }
+  @include small-phone {
+    text-align: left;
+    width:75%;
+    margin: 15px 0 0 30px;
+  }
 }
 #index-left {
   position:absolute;
   top: 15px;
   left:30px;
+  @include phone {
+    display: none;
+  }
 }
 #index-right {
   position:absolute;
@@ -599,13 +619,13 @@ $medim-width: 1200px;
         border-radius: 2px;
       @include small {
         width:360px;
-        margin:0 0 -10px -160px;
-        font-size: 19px;
+        margin:0 0 -10px -180px;
+        font-size: 18px;
       }
-      @include smaller {
-        // width:300px;
-        // margin:0 0 -10px -150px;
-        // font-size: 16px;
+      @include small-phone {
+        width:300px;
+        margin:0 0 -10px -150px;
+        font-size: 16px;
       }
     }    
     &:hover {
