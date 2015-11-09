@@ -21672,50 +21672,57 @@ function randomBetween(low, high) {
   return Math.random() * diff + low;
 }
 
-    WY.constants.balloon_by_zoom = {
-      13: {
-        upper_force: new THREE.Vector2(126.9716173, 37.597),
-        d_p: 0.015,
-        d_pv: 0.003,
-        d_ap: 0.0022,
-        d_a: 0.002
-      },
-      14: {
-        upper_force: new THREE.Vector2(126.9716173, 37.59),
-        d_p: 0.007,
-        d_pv: 0.002,
-        d_ap: 0.002,
-        d_a: 0.0022
-      },
-      15: {
-        upper_force: new THREE.Vector2(126.9716173, 37.579),
-        d_p: 0.007,
-        d_pv: 0.002,
-        d_ap: 0.002,
-        d_a: 0.003
-      },
-      16: {
-        upper_force: new THREE.Vector2(126.9716173, 37.574),
-        d_p: 0.007,
-        d_pv: 0.002,
-        d_ap: 0.002,
-        d_a: 0.003
-      },
-      17: {
-        upper_force: new THREE.Vector2(126.9716173, 37.579),
-        d_p: 0.007,
-        d_pv: 0.002,
-        d_ap: 0.002,
-        d_a: 0.003
-      },
-      18: {
-        upper_force: new THREE.Vector2(126.9716173, 37.579),
-        d_p: 0.007,
-        d_pv: 0.002,
-        d_ap: 0.002,
-        d_a: 0.003
-      },
-    };
+  var f_t = 126.9716173;
+  var r = getRandom(f_t - 0.015, f_t + 0.015);
+
+  function getRandom(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  WY.constants.balloon_by_zoom = {
+    13: {
+      upper_force: new THREE.Vector2(r, 37.597),
+      d_p: 0.015,
+      d_pv: 0.003,
+      d_ap: 0.0022,
+      d_a: 0.002
+    },
+    14: {
+      upper_force: new THREE.Vector2(r, 37.59),
+      d_p: 0.007,
+      d_pv: 0.002,
+      d_ap: 0.002,
+      d_a: 0.0022
+    },
+    15: {
+      upper_force: new THREE.Vector2(r, 37.579),
+      d_p: 0.007,
+      d_pv: 0.002,
+      d_ap: 0.002,
+      d_a: 0.003
+    },
+    16: {
+      upper_force: new THREE.Vector2(r, 37.574),
+      d_p: 0.007,
+      d_pv: 0.002,
+      d_ap: 0.002,
+      d_a: 0.003
+    },
+    17: {
+      upper_force: new THREE.Vector2(r, 37.579),
+      d_p: 0.007,
+      d_pv: 0.002,
+      d_ap: 0.002,
+      d_a: 0.003
+    },
+    18: {
+      upper_force: new THREE.Vector2(r, 37.579),
+      d_p: 0.007,
+      d_pv: 0.002,
+      d_ap: 0.002,
+      d_a: 0.003
+    },
+  };
 WY.constants.cities_locations = {
   seoul: { 
     latlng: [37.5665350,126.9779690],
@@ -22188,7 +22195,6 @@ WY.models.MapManager = (function(){
         var g_node = this.graph.addNode(node.properties.id, marker_node);
 
         this.map.addLayer(marker);
-
         
         marker.on('mouseover', _.bind(function(e){
           this.hide_all_popups();
@@ -22485,10 +22491,14 @@ WY.models.MapManager = (function(){
         $("#map-expander").show();
       }
 
-      $('#map-container, #map-outer').height(height);
-      
 
-      this.map.invalidateSize();
+      $('#map-container, #map-outer').animate({
+        height: height
+      }, 400, _.bind(function(e){
+
+        this.map.invalidateSize();
+      }, this)); 
+
     },
 
     show_all_popups: function(){
@@ -22884,6 +22894,9 @@ WY.models.ParticipantsManager = (function(){
     this.inner_dom;
     this.data;
     this.appended = false;
+
+    _.extend(this, Backbone.Events);
+    _.bindAll(this, "columnize_complete_handler");
   }
 
   ParticipantsManager.prototype = {
@@ -22899,10 +22912,18 @@ WY.models.ParticipantsManager = (function(){
       this.inner_dom = $(this.tmpl(this.data))
     },
 
+    columnize_complete_handler: function(e){
+      this.trigger('columnize_complete');
+    },
+
+    // recolumnize: function(){
+    //   this.el.columnize({ buildOnce: true, width:200, lastNeverTallest: true});
+    // },
+
     append_dom: function(){
       if (!_.isUndefined(this.inner_dom) && !this.appended){
         this.el.append(this.inner_dom);
-        this.el.columnize({ width:200, lastNeverTallest: true});
+        this.el.columnize({ doneFunc: this.columnize_complete_handler, width:200, lastNeverTallest: true});
         this.appended = true;
       }
 
@@ -22928,7 +22949,7 @@ WY.models.ProjectsManager = (function(){
     this.appended;
 
     _.extend(this, Backbone.Events);
-    _.bindAll(this, "load_complete_handler", "project_btn_click_handler");
+    _.bindAll(this, "columnize_complete_handler", "load_complete_handler", "project_btn_click_handler");
   }
 
   ProjectsManager.prototype = {
@@ -22954,10 +22975,18 @@ WY.models.ProjectsManager = (function(){
       this.inner_dom = $(this.tmpl(this.data));
     },
 
+
+    columnize_complete_handler: function(e){
+      this.trigger('columnize_complete');
+    },
+    // recolumnize: function(){
+    //   this.el.columnize({ buildOnce: true, width:400, lastNeverTallest: true});  
+    // },
+
     append_dom: function(){
       if (!_.isUndefined(this.inner_dom) && !this.appended){
         this.el.append(this.inner_dom);
-        this.el.columnize({ width:400, lastNeverTallest: true});    
+        this.el.columnize({ doneFunc: this.columnize_complete_handler, width:400, lastNeverTallest: true});    
         this.appended = true;
       }
 
@@ -23029,7 +23058,6 @@ WY.views.welcome_view = (function(){
       cities_manager,
       permalink,
       index_height,
-      collapsed = true,
       cities_appended = false,
       index_opened = false,
       content_opened = false;
@@ -23051,9 +23079,7 @@ WY.views.welcome_view = (function(){
     $(window).resize(function(e){
       WY.constants.screen_width = $(window).width();
       WY.constants.screen_height = $(window).height();
-      // map_manager.set_map_height(permalink.length == 0 ? WY.constants.screen_height : WY.constants.screen_height * 0.5);
-      // set_index_pos();
-      // $('#map-outer').css('top','index_height');
+      
     });
 
     $(window).trigger('resize');
@@ -23062,12 +23088,12 @@ WY.views.welcome_view = (function(){
   function init_btn_events(){
 
     $('.btn-menu').click(function(e){
-      if (collapsed) {
+      if (!index_opened) {
         show_index();
       } else {
-        hide_index();        
+        hide_index(); 
+        $(window).scrollTop(0);       
       }
-      collapsed = !collapsed;
     });
 
     $('.close_index').click(hide_index);
@@ -23142,9 +23168,13 @@ WY.views.welcome_view = (function(){
 
       
       participants_manager.append_dom();
+      participants_manager.on('columnize_complete', columnize_complete_handler);
+
       projects_manager.append_dom();
+      projects_manager.on('columnize_complete', columnize_complete_handler);
+
       if (!cities_appended) {
-        $('#section-cities').columnize({ width:200, lastNeverTallest: true});
+        $('#section-cities').columnize({ doneFunc: columnize_complete_handler, width:200, lastNeverTallest: true});
         cities_appended = true;
       }
 
@@ -23239,6 +23269,20 @@ WY.views.welcome_view = (function(){
 
   }
 
+  function columnize_complete_handler(e){
+    index_height = $('#index').height();
+
+    if (index_opened) {
+      $("#map-outer").css({
+        top: index_height
+      });
+      $(window).scrollTop(0);
+
+    }
+
+  }
+
+
   function ko_type_adjust(){
     var rex = new RegExp("([A-Za-z0-9,.():&-;]+)(?![^<>&]*>)", "gm");
 
@@ -23299,8 +23343,8 @@ WY.views.welcome_view = (function(){
   }
 
   function set_index_pos(){
-    index_height = $('#index').css("height");
-    $('#index').css("top", '-' + index_height);    
+    index_height = $('#index').height();
+    $('#index').css("top", -index_height);    
     console.log ("index_height:" + index_height);
   }
 

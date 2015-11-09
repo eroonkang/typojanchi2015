@@ -188,7 +188,6 @@ WY.models.MapManager = (function(){
         var g_node = this.graph.addNode(node.properties.id, marker_node);
 
         this.map.addLayer(marker);
-
         
         marker.on('mouseover', _.bind(function(e){
           this.hide_all_popups();
