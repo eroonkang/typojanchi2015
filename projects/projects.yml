@@ -25,7 +25,7 @@ projects:
     url: /projects/artworks/1-catherine-griffiths.yml
   - 
     full_name_en: Dainippon Type Organization
-    full_name_ko: 다이니폰 타
+    full_name_ko: 다이니폰 타입
     url: /projects/artworks/1-dainippon.yml
   - 
     full_name_en: Daniel Eatock
@@ -132,8 +132,8 @@ projects:
 
 -
   idx: 2
-  project_name_en: SIX IMAGES. SIX TEXTS.
-  project_name_ko: 여섯 개의 이미지와 여섯 개의 텍스트
+  project_name_en: Six Images, Six Texts, One Remix
+  project_name_ko: 여섯 이미지, 여섯 텍스트, 그리고 리믹스
 
   curator_name_en: >
    Directed by Adrian Shaughnessy
@@ -148,31 +148,31 @@ projects:
   project_artists: 
   - 
     full_name_en: Andrew Brash
-    full_name_ko: 앤드류 브라쉬
+    full_name_ko: 앤드루 브래시
     url: /projects/artworks/2-andrew-brash.yml
   - 
     full_name_en: Jonas Berthod
-    full_name_ko: 요나스 베르도
+    full_name_ko: 요나스 베르토트
     url: /projects/artworks/2-jonas-berthod.yml
   - 
     full_name_en: Jörg Schwerteger
-    full_name_ko: 요르그 슈베트페거
+    full_name_ko: 외르크 슈베르트페거
     url: /projects/artworks/2-jorg-schwerteger.yml
   - 
     full_name_en: Kyuha Shim
     full_name_ko: 심규하
     url: /projects/artworks/2-kyuha-shim.yml
   - 
-    full_name_en: Laura Joan
-    full_name_ko: 로라 조앙
-    url: /projects/artworks/2-laura-joan.yml
+    full_name_en: Laura Jouan
+    full_name_ko: 로라 주앙
+    url: /projects/artworks/2-laura-jouan.yml
   - 
     full_name_en: Sebastian Koseda
-    full_name_ko: 세바스찬 코세다
+    full_name_ko: 서배스천 코세다
     url: /projects/artworks/2-sebastian-koseda.yml
   - 
     full_name_en: Summer Studio
-    full_name_ko: 썸머 스튜디오
+    full_name_ko: 서머 스튜디오(캐롤리아 달, 미나 사카리아)
     url: /projects/artworks/2-summer-studio.yml
 
 
@@ -210,16 +210,16 @@ projects:
 # CURATOR -----------------------------------------
 
   curator_bio_en: >
-   Adrian Shaughnessy is a designer and writer. In 1989, he co-founded the Intro design studio, and worked as an art director for fifteen years. After leaving the Intro, he now runs his own studio ShaughnessyWorks and does design, art-directing, editing, and consulting. He has authored many books including How to be a Graphic Designer Without Losing Your Soul and he co-founded Unit Editions which publishes book on design and design culture. He also writes for the design publications: Eye, Design Week, Creative Review, and design blog Design Observer and he also gives lectures all over the world.
+   Adrian Shaughnessy is a designer and writer. In 1989, he co-founded the Intro design studio, and worked as an art director for fifteen years. After leaving Intro, he now runs his own studio ShaughnessyWorks and does design, art-directing, editing, and consulting. He has authored many books including How to be a Graphic Designer Without Losing Your Soul and he co-founded Unit Editions which publishes book on design and design culture. He also writes for the design publications: Eye, Design Week, Creative Review, and design blog Design Observer and he also gives lectures all over the world.
 
 
-   Byung-hak Ahn is a graphic designer and a professor at Hongik University. He majored in Visual Communication Design at Hongik University. He received his masters degree in Typography from Hongik University and Visual Communication degree from Royal College of Art. He operated studio Designsai, and currently is working as an independent designer.
+   Byung-hak Ahn studied Visual Communication and typography in graduate school at Hongik University. He has gained experience as a graphic designer and started to run his own studio, ‘DesignSAI’, in 2002 experimenting numerous posters, books, magazines, visual identity and websites for major companies, public institutions and galleries. After graduation from MA course in Visual Communication at the Royal College of Art, London, he explores relevant issues that are reshaping the role of graphic design and its relationship with society, and culture for the future teaching typography and graphic design at Hongik University, Seoul.
 
   curator_bio_ko: >
-    안병학-홍익대학교에서 시각디자인을 전공하고, 동 대학원에서 타이포그래피로, 영국 왕립예술학교에서 비주얼커뮤니케이션으로 석사 학위를 받았다. 디자인사이를 운영했으며 현재는 홍익대학교 교수로 재직하며 독립 디자이너로 활동하고 있다.
-    
-    
-    에이드리언 쇼너시-디자이너이자 저술가. 1989년 디자인 스튜디오 인트로를 공동 설립해 15년 동안 아트 디렉터로 일했다. 현재는 인트로를 떠나 쇼네시웍스를 운영하며 디자인과 아트 디렉팅, 편집에 대한 컨설팅을 하고 있다. 『영혼을 잃지 않는 디자이너 되기』를 비롯해 다수의 책을 썼으며, 직접 디자인과 시각문화에 대한 책을 내는 유니트 에디션스를 공동 설립하기도 했다. 디자인 잡지 《아이》, 《디자인 위크》, 《크리에이티브 리뷰》, 《디자인 옵서버》 등에 글을 쓰고 세계 곳곳을 돌아다니며 강연을 하고 있다.
+   에이드리언 쇼너시: 디자이너이자 저술가. 1989년 디자인 스튜디오 인트로를 공동 설립해 15년 동안 아트 디렉터로 일했다. 현재는 인트로를 떠나 쇼네시웍스를 운영하며 디자인과 아트 디렉팅, 편집에 대한 컨설팅을 하고 있다. 『영혼을 잃지 않는 디자이너 되기』를 비롯해 다수의 책을 썼으며, 직접 디자인과 시각문화에 대한 책을 내는 유니트 에디션스를 공동 설립하기도 했다. 디자인 잡지 《아이》, 《디자인 위크》, 《크리에이티브 리뷰》, 《디자인 옵서버》 등에 글을 쓰고 세계 곳곳을 돌아다니며 강연을 하고 있다.
+
+
+   안병학: 안병학은 홍익대학교에서 시각디자인을 전공하고, 동 대학원에서 타이포그래피를 공부했다. 그는 그래픽 디자이너로서 다양한 경험을 쌓아 왔고, 2002년부터는 자신의 스튜디오 ‘디자인사이’를 운영하며 주요 회사, 공공기관, 갤러리 등을 위한 포스터, 책, 시각 아이덴티티, 웹사이트 등의 분야에서 다양한 실험을 해왔다. 영국 왕립예술학교에서 시각커뮤니케이션을 공부한 후부터는 현재 홍익대학교에서 타이포그라피와 그래픽 디자인을 가르치며 사회문화적 측면에서 그래픽 디자인의 역할을 다시 만드는 시의성 있는 이슈들을 탐험하고 있다.  
 
 
 -
@@ -439,7 +439,7 @@ projects:
    이 프로젝트는 동네 서점의 현황과 가능성을 보여줌과 동시에 도시를 대표하는 엽서와 지도라는 매체를 통해 일상 속에서 ‘도시와 타이포그래피’라는 올해 타이포잔치의 주제를 경험할 수 있는 가능성을 보여준다.
    
    
-   참여 서점: 
+   소개 서점: 
 
 
    1) 30년 이상 지역을 지켜온 서점
@@ -650,13 +650,22 @@ projects:
 # PROJECT -----------------------------------------
 
   project_desc_en: >
-   The people of Paju Book City make books. From the very first book which new-born babies meet, to the last book of one person’s life, many letters are edited, designed, and printed by the people here. As books are the majority of produced items here, similarly, books are the items that are the most thrown away. This is not just because they are misprinted but there exists a large amount of reasons for throwing them out. The Paju Typography Institute (PaTI) has been actively paying attention to the discarded books in this city. PaTI traced the books, talked with the people in Paju Book City, and they are involved in the moment when the letter’s meaning is banished, the identity is gone, and the process where they achieve value by itself. They gathered all of these books, remove the covers, soaked the books in water, put in additives, grinded them and made paste. They then put this paste into a mold and dried it, and eventually a single brick is the result of this process. These bricks with now illegible type will be built up. This can be considered a memorial monument perhaps of banished type, a placid grave or perhaps just a wall. After this exhibition, these bricks will be moved to Paju Book City again to be part of the PaTI building wall that is now under construction. This can be considered a cherished memory of the cast away books of a typographic city.
+   People in Paju Book City make books. From the very first book which newborn babies come in contact with to the last book in a person’s life, countless letters are edited, designed, and printed by people here. Just as books are quantitatively the biggest product made here, so too are they discarded more than any other item in Paju City. This is not just due to misprints but to numerous other reasons as well. 
+
+
+   The Paju Typography Institute (PaTI) has been closely following many of the books that are thrown away in this city. PaTI traced the lifeline of books—from their production to their being thrown away—talked with people in Paju Book City, and became involved from the moment when the meaning of a text is banished, the identity of a given book disappears, and the process where they achieve value is only determined based on their weight in recyclable paper. PaTI gathered some of these books, removed their covers, soaked the paper in water, put in some additives, grinded it all together, and ultimately made a type of paste. Afterwards, they put this paste into a mold and dried it. In the end, they were left with a single brick. These bricks can be seen as a banished memorial monument, a placid grave, or perhaps just bricks. After this exhibition, these bricks will be moved back to Paju Book City once again to be part of the PaTI building wall that is now under construction. In short, this can be viewed as an effort to preserve the memory of a typographic city’s castaway books.
+
+
+   Participants: Han Nuri, Hong Ji-sun, Kang Sim-ji, Kang So-i, Kim Do-i, Kim Geon-tae, Kim Ha-yeon, Kim So-yeon, Kwak Jihyeon, Lee Eun-jeong, Lee Jae-ok, Min Guhong Manufacturing, Shin Mideum
 
   project_desc_ko: >
    파주 출판도시 사람들은 책을 만든다. 아이가 세상에 태어나 처음 만나는 책에서부터 한 사람의 인생이 고스란히 담긴 마지막 책까지, 수많은 문자들이 출판도시 사람들에 의해 편집되고, 디자인되고, 인쇄된다. 한편 이곳에서 가장 많이 만들어지는 것이 책이듯, 가장 많이 버려지는 것 또한 책이다. 잘못 인쇄된 책뿐 아니라 멀쩡한 책들도 여러 이유로 인해 버려진다.
 
 
-   파주타이포그라피학교(이하 파티)는 수많은 문자들이 명멸하는 도시에서 버려지는 책들에 주목한다. 그들의 궤적을 추적하고, 출판도시 사람들을 만나 이야기를 나눈다. 문자의 의미가 사라지는 순간, 책으로서 정체성이 사라지고 온전히 그 무게로 가치가 매겨지는 과정에 개입한다. 이들을 모아 표지를 제거하고, 물에 불리고, 첨가제를 넣은 후 갈아서 반죽으로 만든다. 이 반죽을 다시 직접 제작한 틀에 넣고 말리면, 이윽고 하나의 벽돌이 만들어진다. 이 벽돌로 읽을 수 없는 문자들을 쌓는다. 이는 사라진 문자들의 기념비일 수도, 그저 덤덤한 무덤일 수도, 혹은 한갓 벽에 지나지 않을 수도 있다. 전시가 끝나면 벽돌들은 다시 출판도시로 옮겨지고, 현재 건축 중인 파티 건물 벽의 일부가 되어 문자의 도시에서 사라진 책들의 기억을 간직한다. 
+   파주타이포그라피학교(이하 파티)는 수많은 문자들이 명멸하는 도시에서 버려지는 책들에 주목한다. 그들의 궤적을 추적하고, 출판도시 사람들을 만나 이야기를 나눈다. 문자의 의미가 사라지는 순간, 책으로서 정체성이 사라지고 온전히 그 무게로 가치가 매겨지는 과정에 개입한다. 이들을 모아 표지를 제거하고, 물에 불리고, 첨가제를 넣은 후 갈아서 반죽으로 만든다. 이 반죽을 다시 직접 제작한 틀에 넣고 말리면, 이윽고 하나의 벽돌이 만들어진다. 이 벽돌들은 사라진 문자들의 기념비일 수도, 그저 덤덤한 무덤일 수도, 혹은 한갓 벽돌에 지나지 않을 수도 있다. 전시가 끝나면 벽돌들은 다시 출판도시로 옮겨지고, 현재 건축 중인 파티 건물 벽의 일부가 되어 문자의 도시에서 사라진 책들의 기억을 간직한다. 
+
+   참여 작가: 강소이, 강심지, 곽지현, 김건태, 김도이, 김소연, 김하연, 민구홍 매뉴팩처링, 신믿음, 이은정, 이재옥, 한누리, 홍지선
+
 
 # CURATOR -----------------------------------------
 
