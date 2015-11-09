@@ -51,34 +51,12 @@ $route->submit();
 
 
 if ($browser_locale_detect_needed){
-  $langs = array();
 
-  if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-      // break up string into pieces (languages and q factors)
-      preg_match_all('/([a-z]{1,8}(-[a-z]{1,8})?)\s*(;\s*q\s*=\s*(1|0\.[0-9]+))?/i', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $lang_parse);
-
-      if (count($lang_parse[1])) {
-          // create a list like "en" => 0.8
-          $langs = array_combine($lang_parse[1], $lang_parse[4]);
-        
-          // set default to 1 for any without q factor
-          foreach ($langs as $lang => $val) {
-              if ($val === '') $langs[$lang] = 1;
-          }
-
-          // sort list based on value 
-          arsort($langs, SORT_NUMERIC);
-      }
-  }
-
-  // look through sorted list and use first one that matches our languages
-  foreach ($langs as $lang => $val) {
-    if (strpos($lang, 'ko') === 0) {
-      $locale = "ko";
-    } else if (strpos($lang, 'en') === 0) {
-      $locale = "en";
-    } 
-  }
+  if (strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], 'ko') === 0) {
+    $locale = "ko";
+  } else {
+    $locale = "en";
+  } 
 
 }
 
@@ -173,6 +151,7 @@ if ($permalink == "") {
       <div id="index-right" class="close_index"><a href="javascript:void(0);" class="no-underline"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABnElEQVRoQ+3Z4U3DMBAF4NcJYBQ2ACYpTABsAhvABB0BRmAU2AA91EhRlMjnu/fUqrJ/tokv353VnN0dLmTsLsSBATm3So6KjIqYMjCWlimx6Wl7KnIDYA/gJR2t78ZXAO8AviO3RSFEfAK4Pk7+GJm8cA0BTNoPgPsIJgphdp5mD8ZALsyEmMK9AXhuJSUK4TzLAA7MMsYHgIcWgt/3QNyYNCIDcWFKiCxEjSkjKhAVRoKoQqoYGUIByWKkCBWkFyNHKCFRjAWhhrQwNoQDsoXh5/M3dPiNHXmruyBrmPnzyBFOyBbGgnBC2O4fANwtloaj0fwP0ds0RpYsEdy7cA+zNiwYNWQNweXEwY3SNOQYJWQLMf1aWfczKkgLMa+EpTIKSBRhxVQhvQgbpgLJIiyYLKSKkGMyEBVCiumFqBEyTA/EhZBgohA3ooyJQr4A3M5aDFsXu3KiKT0yZQNIzBUAJ2JZmd9jB908kY9WhAGIYd/UPFCOtMiBayx/KwTinvaSnoqc9kkb0Qfk3MozKjIqYsrAWFqmxKan/QOGW3YzGVri7gAAAABJRU5ErkJggg==" width="24" height="24"></a></div>
     </div>
     <div id="section-cities">
+      <? echo $langs; ?>
       <ul class="index-list">
         <? if ($locale == 'ko') { ?>
           <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-amsterdam" class="city_btn" data-permalink="city-amsterdam">암스테르담, 네덜란드</a></li>
