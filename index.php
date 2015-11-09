@@ -171,6 +171,7 @@ if ($permalink == "") {
           <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-kyoto" class="city_btn" data-permalink="city-kyoto">교토, 일본</a></li>
           <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-london" class="city_btn" data-permalink="city-london">런던, 영국</a></li>
           <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-montreuil" class="city_btn" data-permalink="city-montreuil">몽트뢰유, 프랑스</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-moscow" class="city_btn" data-permalink="city-moscow">모스크바, 러시아</a></li>
           <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-haven" class="city_btn" data-permalink="city-new-haven">뉴헤이븐, 미국</a></li>
           <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-york" class="city_btn" data-permalink="city-new-york">뉴욕, 미국</a></li>
           <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-osaka" class="city_btn" data-permalink="city-osaka">오사카, 일본</a></li>
@@ -201,6 +202,7 @@ if ($permalink == "") {
           <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-kyoto" class="city_btn" data-permalink="city-kyoto">Kyoto, JP</a></li>
           <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-london" class="city_btn" data-permalink="city-london">London, UK</a></li>
           <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-montreuil" class="city_btn" data-permalink="city-montreuil">Montreuil, FR</a></li>
+          <li><a lang="ko" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-moscow" class="city_btn" data-permalink="city-moscow">Moscow, RU</a></li>
           <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-haven" class="city_btn" data-permalink="city-new-haven">New Haven, US</a></li>
           <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-new-york" class="city_btn" data-permalink="city-new-york">New York, US</a></li>
           <li><a lang="en" href="<? echo $home_url; ?>/<? echo $locale; ?>/city-osaka" class="city_btn" data-permalink="city-osaka">Osaka, JP</a></li>

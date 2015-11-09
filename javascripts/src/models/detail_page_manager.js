@@ -1,3 +1,12 @@
+WY.constants.single_projects_routes = {
+  "12-exhibition-space": "12-zero-lab",
+  "13-website-project": "13-eroonkang",
+  "14-docent-video-projects": "14-nolgong",
+  "15-opening-performance": "15-dappertutto",
+  "16-newsletter-project": "16-mediabus-shinshin",
+  "17-archiving-app": "17-rebel9",
+  "7-book-bricks": "7-pati"
+}
 WY.models.DetailPageManager = (function(){
   function DetailPageManager(params){
     this.el = params.el;
@@ -26,6 +35,15 @@ WY.models.DetailPageManager = (function(){
 
       if (this.permalink == '' || _.isUndefined(this.permalink)) { 
         return false; 
+      } else {
+        if (!_.isUndefined(WY.constants.single_projects_routes[this.permalink])){
+          var redirect_permalink = WY.constants.single_projects_routes[this.permalink];
+
+          History.pushState({
+            permalink: redirect_permalink
+          }, "Loading...", WY.constants.home_url + "/" + WY.constants.locale + "/" + redirect_permalink);
+          return false;
+        }
       }
 
       this.el.show();
@@ -49,6 +67,7 @@ WY.models.DetailPageManager = (function(){
     update_detail_page: function(){
       this.project_id = Number(this.permalink.split("-")[0]);
 
+  
       $.ajax({
         type: 'GET',
         url: WY.constants.home_url + '/projects/artworks/' + this.permalink + ".yml",
