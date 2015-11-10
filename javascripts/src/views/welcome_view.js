@@ -282,8 +282,8 @@ WY.views.welcome_view = (function(){
         }
       }
   
-      $(".btn-ko").attr('href', WY.constants.home_url + "/ko/" + permalink);
-      $(".btn-en").attr('href', WY.constants.home_url + "/en/" + permalink);
+      $(".btn-ko-with-permalink").attr('href', WY.constants.home_url + "/ko/" + permalink);
+      $(".btn-en-with-permalink").attr('href', WY.constants.home_url + "/en/" + permalink);
 
 
       

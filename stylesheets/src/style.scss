@@ -695,7 +695,6 @@ $medim-width: 1200px;
   ul{
     position: absolute;
     margin-left:240px;
-    margin-top: 2.6em;
 
     @include small {
       position: relative;
@@ -705,6 +704,11 @@ $medim-width: 1200px;
       list-style-type: none;
       display: inline-block;
       margin-right: 1em;
+    }
+    .footer-group {
+      // float:left;
+      display: inline-block;
+      margin-top: 1.3em;
     }
   }
 }

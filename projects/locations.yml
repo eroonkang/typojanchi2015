@@ -632,7 +632,7 @@ artists:
   origin_lng: 126.99507
   url: "/projects/artworks/9-baemin-kathleen-kye.yml"
 artworks:
-- venue_name_en: Culture Station Seoul 284
+  - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Formular Typeface
   artwork_name_ko: "포뮬러"

@@ -22027,7 +22027,7 @@ WY.models.DetailPageManager = (function(){
     },
 
     ko_type_adjust: function(){
-      var rex = new RegExp("([\u00FCA-Za-z0-9,.():&-;]+)(?![^<>&]*>)", "gm");
+      var rex = new RegExp("([\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF“””‘’A-Za-z0-9,.():&-;]+)(?![^<>&]*>)", "gm");
 
       this.el.find("#content").find(":lang(ko)").each(function(){
         var $this = $(this);
@@ -22187,6 +22187,7 @@ WY.models.MapManager = (function(){
           concentric_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-concentric-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-concentric-w@2x.png'});
           scircle_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-b@2x.png'});
           scircle_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-w@2x.png'});
+          x_icon = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-x.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-x@2x.png'});
 
       _.each(this.data.nodes.features, _.bind(function (node) {
         var marker;
@@ -23325,7 +23326,7 @@ WY.views.welcome_view = (function(){
 
 
   function ko_type_adjust(){
-    var rex = new RegExp("([A-Za-z0-9,.():&-;]+)(?![^<>&]*>)", "gm");
+    var rex = new RegExp("([\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF“””‘’A-Za-z0-9,.():&-;]+)(?![^<>&]*>)", "gm");
 
     $(":lang(ko)").each(function(){
         var $this = $(this);
@@ -23374,8 +23375,8 @@ WY.views.welcome_view = (function(){
         }
       }
   
-      $(".btn-ko").attr('href', WY.constants.home_url + "/ko/" + permalink);
-      $(".btn-en").attr('href', WY.constants.home_url + "/en/" + permalink);
+      $(".btn-ko-with-permalink").attr('href', WY.constants.home_url + "/ko/" + permalink);
+      $(".btn-en-with-permalink").attr('href', WY.constants.home_url + "/en/" + permalink);
 
 
       

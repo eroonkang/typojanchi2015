@@ -19,17 +19,17 @@ participant_bio_ko: >
 
 
 artworks:
--
-  artwork_name_en: The Comedy Carpet Blackpool
-  artwork_name_ko: 코미디 카펫 블랙풀
-  artwork_year: 2015
-  artwork_medium_en: Coloured vinyl (1000*800cm) and book (208pages, 25.1x2.9x29.8cm) and offcuts
-  artwork_medium_ko: 시트지(1000*800cm), 책(208쪽, 25.1x2.9x29.8cm), 화강암 조각
-  artwork_desc_en: >
-   The Comedy Carpet is a monument to the history of British comedy. It gives visual form to jokes, songs and catchphrases. Sited in front of Blackpool Tower, the 2,200m2 (which is approximately half the size of the Seoul Station square) work of art contains over 160,000 granite letters embedded into concrete, pushing the boundaries of public art and typography to their limits. Created by artist Gordon Young, and designed in collaboration with Why Not Associates, this celebration of comedy in an extraordinary scale is an homage to those who have made the British nation laugh, it’s also a stage for popular entertainment that celebrates entertainment itself. In the process of presenting such work at Culture Station Seoul 284, more research had to be done so as to build a stronger connection between the work and the venue. With the findings from the study, carefully chosen designs from the original carpet were amended to appropriate the work to a new city, Seoul. Notably, this work illustrates a Korean version of the Laughing Policeman (Charles Penrose 1922), by a Korean comedian Seo Young Choon (1970).
-   
-  artwork_desc_ko: >
-   코미디 카펫은 영국인이 사랑하는 1000명 이상의 코미디언과 그들의 유머, 농담, 노래와 어록에 시각적 형태를 제공한 작업으로 영국 코미디의 역사에 기념비적 존재로 남아 있다. 영국의 블랙풀 타워 앞에 위치한 이 작업은 서울역 광장의 절반 정도인 2200제곱미터 넓이의 콘크리트 바닥에 설치된 16만 개 이상의 화강암 문자 작업을 통해 공공 예술과 타이포그래피의 한계를 시험한다. 작가 고든 영과 와이 낫 어소시에이츠가 협업한 이 거대한 작업은 영국 전역에 웃음을 안겨준 이들에게 바치는 오마주이자, 영국 오락 문화의 본고장 블랙풀의 문화 자체를 기념하는 무대이기도 하다. <코미디 카펫 블랙풀>은 문화역서울 284와 블랙풀 사이의 흥미로운 접점을 찾아내 원래의 코미디 카펫에서 서울이라는 도시에 적합한 부분을 엄선한 결과물이다. 특히 이 작품에는 찰스 펜로즈의 <웃는 경찰관>(1922)의 한국어 버전이라 할 수 있는 서영춘의 <서울 구경>(1970)이 포함되어 있다.
+  -
+    artwork_name_en: The Comedy Carpet Blackpool
+    artwork_name_ko: 코미디 카펫 블랙풀
+    artwork_year: 2015
+    artwork_medium_en: Coloured vinyl (1000*800cm) and book (208pages, 25.1x2.9x29.8cm) and offcuts
+    artwork_medium_ko: 시트지(1000*800cm), 책(208쪽, 25.1x2.9x29.8cm), 화강암 조각
+    artwork_desc_en: >
+     The Comedy Carpet is a monument to the history of British comedy. It gives visual form to jokes, songs and catchphrases. Sited in front of Blackpool Tower, the 2,200m2 (which is approximately half the size of the Seoul Station square) work of art contains over 160,000 granite letters embedded into concrete, pushing the boundaries of public art and typography to their limits. Created by artist Gordon Young, and designed in collaboration with Why Not Associates, this celebration of comedy in an extraordinary scale is an homage to those who have made the British nation laugh, it’s also a stage for popular entertainment that celebrates entertainment itself. In the process of presenting such work at Culture Station Seoul 284, more research had to be done so as to build a stronger connection between the work and the venue. With the findings from the study, carefully chosen designs from the original carpet were amended to appropriate the work to a new city, Seoul. Notably, this work illustrates a Korean version of the Laughing Policeman (Charles Penrose 1922), by a Korean comedian Seo Young Choon (1970).
+     
+    artwork_desc_ko: >
+     코미디 카펫은 영국인이 사랑하는 1000명 이상의 코미디언과 그들의 유머, 농담, 노래와 어록에 시각적 형태를 제공한 작업으로 영국 코미디의 역사에 기념비적 존재로 남아 있다. 영국의 블랙풀 타워 앞에 위치한 이 작업은 서울역 광장의 절반 정도인 2200제곱미터 넓이의 콘크리트 바닥에 설치된 16만 개 이상의 화강암 문자 작업을 통해 공공 예술과 타이포그래피의 한계를 시험한다. 작가 고든 영과 와이 낫 어소시에이츠가 협업한 이 거대한 작업은 영국 전역에 웃음을 안겨준 이들에게 바치는 오마주이자, 영국 오락 문화의 본고장 블랙풀의 문화 자체를 기념하는 무대이기도 하다. <코미디 카펫 블랙풀>은 문화역서울 284와 블랙풀 사이의 흥미로운 접점을 찾아내 원래의 코미디 카펫에서 서울이라는 도시에 적합한 부분을 엄선한 결과물이다. 특히 이 작품에는 찰스 펜로즈의 <웃는 경찰관>(1922)의 한국어 버전이라 할 수 있는 서영춘의 <서울 구경>(1970)이 포함되어 있다.
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역 서울 284

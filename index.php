@@ -1,7 +1,7 @@
 <?
 
 include 'route.php';
-require_once "spyc.php";
+require_once "Spyc.php";
 
 $route = new Route();
 $locale = 'ko';
@@ -61,6 +61,7 @@ if ($browser_locale_detect_needed){
 }
 
 $title = "";
+$description = "Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레";
 
 if ($permalink == "") {
   $title = "";
@@ -69,11 +70,27 @@ if ($permalink == "") {
 } else if (split("-", $permalink[0]) == "city") {
   $title = split("-", $permalink[1]);
 } else {
-  $yaml_data = Spyc::YAMLLoad('./projects/artworks/'.$permalink.'.yml');
-   if ($yaml_data["type"] == "Project") {
+  $yaml_data = spyc_load_file('./projects/artworks/'.$permalink.'.yml');
+  
+  if ($yaml_data["type"] == "Project") {
+    
     $title = $yaml_data["project_name_".$locale]." / ";
+    $description = $yaml_data["project_desc_".$locale];
+
+  } else if ($yaml_data["type"] == "Venue") {
+  
+    $title = $yaml_data["venue_name_".$locale]." / ";
+    $description = $yaml_data["artwork_desc_".$locale];
+  
   } else {
-    $title = $yaml_data["full_name_".$locale]." / ";
+    $artwork_first = $yaml_data["artworks"][0];
+    $title = $yaml_data["full_name_".$locale]." / ".$artwork_first["artwork_name_".$locale]." / ";
+    
+    $description = $artwork_first["artwork_desc_".$locale];
+    if (strlen($description) == 0) {
+      $description = $yaml_data["participant_bio_".$locale];
+    }
+  
   } 
 }
 
@@ -84,21 +101,26 @@ if ($permalink == "") {
 <!DOCTYPE html>
 <head>
 
-  <title><? echo $title; ?> Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
+  <title><? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
   <meta charset="utf-8"></meta>
 
 
-  <meta property="og:site_name" content="<? echo $title; ?>Typojanchi 2015"/> 
-  <meta property="og:description" content="Typojanchi 2015"/> 
-  <meta name="description" content="Typojanchi 2015" />
+  <meta property="og:site_name" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/> 
+  <meta property="og:description" content="<? echo substr($description, 0, 300)."..."; ?>"/> 
+  <meta name="description" content="<? echo substr($description, 0, 300)."..."; ?>" />
 
-  <meta name="title" content="<? echo $title; ?>Typojanchi 2015"/>
-  <meta property="og:title" content="<? echo $title; ?>Typojanchi 2015"/>
+  <meta name="title" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/>
+  <meta property="og:title" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/>
 
-  <link rel="canonical" href="http://typojanchi.org/2015/<? echo $locale; ?>/<? echo $permalink; ?>">
-  <meta property="og:url" content="http://typojanchi.org/2015/<? echo $locale; ?>/<? echo $permalink; ?>">
+  <link rel="canonical" href="http://typojanchi.org/<? echo $locale; ?>/<? echo $permalink; ?>">
+  <meta property="og:url" content="http://typojanchi.org/<? echo $locale; ?>/<? echo $permalink; ?>">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
+  <? if ($locale == "ko"){ ?>
+    <meta property="og:locale" content="ko_KR">
+  <? } else { ?>    
+    <meta property="og:locale" content="en_US">
+  <? } ?> 
+
 
     
   <link rel="stylesheet" media="all" href="<? echo $home_url; ?>/stylesheets/dist/application.css"></link>
@@ -141,7 +163,6 @@ if ($permalink == "") {
     <div id="section-header">
       <h2>
 
-  <? //echo $yaml_data; ?>
         <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
           <? if ($locale == 'ko') { echo "(타이포잔치 2015) 소개"; } ?>
           <? if ($locale == 'en') { echo "About (Typojanchi 2015)"; } ?>
@@ -258,44 +279,47 @@ if ($permalink == "") {
       </a>
     </div>
     <div id="lang-control">
-      <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>" class="btn-ko"><span lang="ko">한</a>
-      <a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>" class="btn-en">EN</a>
+      <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>" class="btn-ko btn-ko-with-permalink"><span lang="ko">한</a>
+      <a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>" class="btn-en btn-en-with-permalink">EN</a>
     </div>
     <div id="content-outer">
       <div id="content">
       </div>
       <div id="footer">
         <ul>
-          <li>
-            <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
-              <? if ($locale == 'ko') { echo "소개"; } ?>
-              <? if ($locale == 'en') { echo "About"; } ?>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0);" lang="<? echo $locale; ?>" class="footer-participants">
-              <? if ($locale == 'ko') { echo "참여작가"; } ?>
-              <? if ($locale == 'en') { echo "Participants"; } ?>
-            </a>
-          </li>
-
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/1-main-exhibition" data-permalink="1-main-exhibition" class="footer_btn" lang="<? echo $locale; ?>">(1)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/2-six-images-six-texts" data-permalink="2-six-images-six-texts" class="footer_btn" lang="<? echo $locale; ?>">(2)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/3-asia-city-texture" data-permalink="3-asia-city-texture" class="footer_btn" lang="<? echo $locale; ?>">(3)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/4--on-the-walls" data-permalink="4--on-the-walls" class="footer_btn" lang="<? echo $locale; ?>">(4)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-seoul-soul-the-bookstores-of-seoul" data-permalink="5-seoul-soul-the-bookstores-of-seoul" class="footer_btn" lang="<? echo $locale; ?>">(5)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga-the-street-as-medium" data-permalink="6-jongno-ga-the-street-as-medium" class="footer_btn" lang="<? echo $locale; ?>">(6)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/7-book-bricks" data-permalink="7-book-bricks" class="footer_btn" lang="<? echo $locale; ?>">(7)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-city-welcomes-you" data-permalink="8-city-welcomes-you" class="footer_btn" lang="<? echo $locale; ?>">(8)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-urban-wordplay" data-permalink="9-urban-wordplay" class="footer_btn" lang="<? echo $locale; ?>">(9)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-a-city-without-" data-permalink="10-a-city-without-" class="footer_btn" lang="<? echo $locale; ?>">(10)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-typography-reportage" data-permalink="11-city-typography-reportage" class="footer_btn" lang="<? echo $locale; ?>">(11)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/12-exhibition-space" data-permalink="12-exhibition-space" class="footer_btn" lang="<? echo $locale; ?>">(12)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-website-project" data-permalink="13-website-project" class="footer_btn" lang="<? echo $locale; ?>">(13)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/14-docent-video-projects" data-permalink="14-docent-video-projects" class="footer_btn" lang="<? echo $locale; ?>">(14)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/15-opening-performance" data-permalink="15-opening-performance" class="footer_btn" lang="<? echo $locale; ?>">(15)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" data-permalink="16-newsletter-project" class="footer_btn" lang="<? echo $locale; ?>">(16)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-archiving-app" data-permalink="17-archiving-app" class="footer_btn" lang="<? echo $locale; ?>">(17)</a></li>
+          <div class="footer-group">
+            <li>
+              <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
+                <? if ($locale == 'ko') { echo "소개"; } ?>
+                <? if ($locale == 'en') { echo "About"; } ?>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" lang="<? echo $locale; ?>" class="footer-participants">
+                <? if ($locale == 'ko') { echo "참여작가목록"; } ?>
+                <? if ($locale == 'en') { echo "Participants"; } ?>
+              </a>
+            </li>
+          </div>
+          <div class="footer-group project-number">
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/1-main-exhibition" data-permalink="1-main-exhibition" class="footer_btn" lang="<? echo $locale; ?>">(1)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/2-six-images-six-texts-one-remix" data-permalink="2-six-images-six-texts-one-remix" class="footer_btn" lang="<? echo $locale; ?>">(2)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/3-asia-city-texture" data-permalink="3-asia-city-texture" class="footer_btn" lang="<? echo $locale; ?>">(3)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/4--on-the-walls" data-permalink="4--on-the-walls" class="footer_btn" lang="<? echo $locale; ?>">(4)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-seoul-soul-the-bookstores-of-seoul" data-permalink="5-seoul-soul-the-bookstores-of-seoul" class="footer_btn" lang="<? echo $locale; ?>">(5)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga-the-street-as-medium" data-permalink="6-jongno-ga-the-street-as-medium" class="footer_btn" lang="<? echo $locale; ?>">(6)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/7-book-bricks" data-permalink="7-book-bricks" class="footer_btn" lang="<? echo $locale; ?>">(7)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-city-welcomes-you" data-permalink="8-city-welcomes-you" class="footer_btn" lang="<? echo $locale; ?>">(8)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-urban-wordplay" data-permalink="9-urban-wordplay" class="footer_btn" lang="<? echo $locale; ?>">(9)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-a-city-without-" data-permalink="10-a-city-without-" class="footer_btn" lang="<? echo $locale; ?>">(10)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-typography-reportage" data-permalink="11-city-typography-reportage" class="footer_btn" lang="<? echo $locale; ?>">(11)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/12-exhibition-space" data-permalink="12-exhibition-space" class="footer_btn" lang="<? echo $locale; ?>">(12)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-website-project" data-permalink="13-website-project" class="footer_btn" lang="<? echo $locale; ?>">(13)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/14-docent-video-projects" data-permalink="14-docent-video-projects" class="footer_btn" lang="<? echo $locale; ?>">(14)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/15-opening-performance" data-permalink="15-opening-performance" class="footer_btn" lang="<? echo $locale; ?>">(15)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" data-permalink="16-newsletter-project" class="footer_btn" lang="<? echo $locale; ?>">(16)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-archiving-app" data-permalink="17-archiving-app" class="footer_btn" lang="<? echo $locale; ?>">(17)</a></li>
+          </div>
         </ul>
 
         <h2>
@@ -304,7 +328,7 @@ if ($permalink == "") {
             <? if ($locale == 'ko') { echo "타이포잔치 2015"; } ?>
             <? if ($locale == 'en') { echo "Typojanchi 2015"; } ?>
           </a><br>
-          (<a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>"" lang="en">EN</a> / <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>"" lang="ko">한글</a>)
+          (<a class="btn-en-with-permalink" href="<? echo $home_url; ?>/en/<? echo $permalink; ?>"" lang="en">EN</a> / <a class="btn-ko-with-permalink" href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>"" lang="ko">한글</a>)
         </h2>
 
       </div>

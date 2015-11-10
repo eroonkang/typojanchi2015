@@ -14,14 +14,14 @@ participant_bio_ko: >
  제로랩은 김동훈, 장태훈, 김도현으로 이뤄진 디자인 그룹으로 제품 디자인, 그래픽디자인 외에도 전방위 문화 활동과 다양한 창작 활동을 통해 실험적 디자인과 상업적 디자인, 그리고 디자인이 가진 현실적인 문제 사이의 격차를 줄이는 협의점을 찾고자 한다. 다양한 축제나 전시의 그래픽 디자인 개발, 가구/집/공간의 개발 및 제작, 워크숍, 전시 등 폭넓은 영역에서 활동하고 있다.
 
 artworks:
--
-  artwork_name_en: Exhibition Space
-  artwork_name_ko: 전시공간 프로젝트
-  artwork_year: 2015
-  artwork_medium_en:
-  artwork_medium_ko: 
-  artwork_desc_en: >
-  artwork_desc_ko: >
+  -
+    artwork_name_en: Exhibition Space
+    artwork_name_ko: 전시공간 프로젝트
+    artwork_year: 2015
+    artwork_medium_en:
+    artwork_medium_ko: 
+    artwork_desc_en: >
+    artwork_desc_ko: >
 
 
 venue_name_en: Culture Station Seoul 284
