@@ -114,6 +114,7 @@ if ($permalink == "") {
 
   <link rel="canonical" href="http://typojanchi.org/<? echo $locale; ?>/<? echo $permalink; ?>">
   <meta property="og:url" content="http://typojanchi.org/<? echo $locale; ?>/<? echo $permalink; ?>">
+  <meta property="og:image" content="<? echo $home_url; ?>/images/og-image.png" />
   <meta property="og:type" content="website">
   <? if ($locale == "ko"){ ?>
     <meta property="og:locale" content="ko_KR">
