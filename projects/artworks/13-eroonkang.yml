@@ -8,10 +8,10 @@ origin_lat: 40.735665
 origin_lng: -73.9914328
 
 participant_bio_en: >
- E Roon Kang lives and works in New York, where he operates Math Practice—an interdisciplinary design and research studio, with interest in studying, evaluating, and criticizing complex systems and its pursuit of efficiency. E Roon is a TED Fellow, was previously a research fellow at SENSEable City Laboratory of MIT, and received a Young Guns award from the Art Director's Club. His work was selected as an inaugural project of LACMA's Art + Technology Lab, received a NSF Science and Engineering Visualization Challenge, and shown in places including the Museum of Modern Arts (MoMA), Seattle Public Library, and the Architectural League of New York. He gave talks and lectures at MIT, TED Conferences and Cannes Int'l Festival of Creativity, among others, and taught courses at Bauhaus-University Weimar, SUNY Purchase, NYU ITP, and Rutgers University. He holds an MFA in graphic design from Yale.
+ E Roon Kang lives and works in New York, where he operates Math Practice—an interdisciplinary design and research studio. E Roon is a TED Fellow, was previously a research fellow at SENSEable City Laboratory of MIT. He gave talks and lectures at MIT, TED Conferences and Cannes Int'l Festival of Creativity, among others, and taught courses at Bauhaus-University Weimar, NYU ITP. He current teaches at Parsons School of Design and  holds an MFA in graphic design from Yale.
 
 participant_bio_ko: >
- 뉴욕 스쿨 오브 비주얼 아트와 예일 대학교에서 그래픽 디자인을 공부하고, MIT의 도시 계획과 산하 센서블 시티 연구소에서 특별 연구원으로 일했다. TED 펠로우로 활동하며 미국 TED 콘퍼런스와 칸라이언즈 국제 크레이이티비티 페스티벌 등에서 강연했으며 바이마르 바우하우스 대학교, 뉴욕 주립대학교 퍼체이스, 뉴욕 대학교 ITP, 러트거스 대학교 등에서 학생들을 가르쳤다. 현재 뉴욕에서 학제간 디자인 및 리서치 스튜디오 매스 프랙티스를 운영하고 있다.
+ 뉴욕 스쿨 오브 비주얼 아트와 예일 대학교에서 그래픽 디자인을 공부하고, MIT의 도시 계획과 산하 센서블 시티 연구소에서 특별 연구원으로 일했다. TED 펠로우로 활동하며 미국 TED 콘퍼런스와 칸라이언즈 국제 크레이이티비티 페스티벌 등에서 강연했고, 독일 바우하우스 바이마르 대학교, 뉴욕 대학교 ITP 등에서 강의했다. 현재 파슨스 스쿨 오브 디자인에서 학생들을 가르치고 있으며, 뉴욕에서 학제간 디자인 및 리서치 스튜디오 매스 프랙티스를 운영하고 있다.
 
 artworks:
 -
@@ -21,9 +21,10 @@ artworks:
   artwork_medium_en:
   artwork_medium_ko: 
   artwork_desc_en: >
-   The Typojanchi Website suggests various ways to experience the exhibition by weaving a conceptual relationship with visual flow and linking positional relationships with natural moving lines. The online map is helpfully used to apply to daily living methods for searching: it makes a way for new city experiences. The Typojanchi Website was established by using this interface's Application Programming Interface (API) and it is composed of a frontend user interface using API where each project's information, image, and the database includes location information.
+   The Typojanchi Website maps each of the participating projects with their contextual relationship and associated geographic locations. By appropriating the familiar user interface of online maps, the website suggests a unique vantage point in experiencing the exhibition. The base map is constructed with the data from OpenStreetMap, and the website is realized with help of Wonyoung So.
+
   artwork_desc_ko: >
-   <타이포잔치 웹 사이트>는 각 프로젝트들의 위치에 따라 생겨나는 이웃 관계를 자연스러운 동선으로 연결하고, 또한 개념적 이웃 관계를 시각적 흐름으로 엮어 전시를 경험하는 다양한 방식을 제안한다. 온라인 지도는 일상의 길 찾기에서 유용하게 활용되며 현대의 도시를 경험하는 방식을 구성해왔다. <타이포잔치 2015 웹 사이트>는 이 익숙한 인터페이스들의 API(응용 프로그램 인터페이스)를 활용하여 제작되며, 해당 지도 API를 활용한 프론트엔드 유저 인터페이스와 각 프로젝트들의 설명, 이미지, 그리고 위치 정보를 포함한 데이터베이스로 구성된다.
+   온라인 지도의 익숙한 형식을 빌어 제작된 <타이포잔치 웹사이트>는 각 프로젝트 들의 개념적 이웃관계와 각자 관련된 지리적 위치들을 지도로 엮어, 타이포잔치의 전시를 경험하는 새로운 관점을 제시한다. 이 온라인 지도는 오픈스트리트맵의 데이터를 바탕으로, 디자이너이자 개발자인 소원영의 도움을 받아 제작 하였다.
 
 
 

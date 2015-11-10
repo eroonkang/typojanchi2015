@@ -266,36 +266,39 @@ if ($permalink == "") {
       </div>
       <div id="footer">
         <ul>
-          <li>
-            <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
-              <? if ($locale == 'ko') { echo "소개"; } ?>
-              <? if ($locale == 'en') { echo "About"; } ?>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0);" lang="<? echo $locale; ?>" class="footer-participants">
-              <? if ($locale == 'ko') { echo "참여작가"; } ?>
-              <? if ($locale == 'en') { echo "Participants"; } ?>
-            </a>
-          </li>
-
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/1-main-exhibition" data-permalink="1-main-exhibition" class="footer_btn" lang="<? echo $locale; ?>">(1)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/2-six-images-six-texts" data-permalink="2-six-images-six-texts" class="footer_btn" lang="<? echo $locale; ?>">(2)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/3-asia-city-texture" data-permalink="3-asia-city-texture" class="footer_btn" lang="<? echo $locale; ?>">(3)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/4--on-the-walls" data-permalink="4--on-the-walls" class="footer_btn" lang="<? echo $locale; ?>">(4)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-seoul-soul-the-bookstores-of-seoul" data-permalink="5-seoul-soul-the-bookstores-of-seoul" class="footer_btn" lang="<? echo $locale; ?>">(5)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga-the-street-as-medium" data-permalink="6-jongno-ga-the-street-as-medium" class="footer_btn" lang="<? echo $locale; ?>">(6)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/7-book-bricks" data-permalink="7-book-bricks" class="footer_btn" lang="<? echo $locale; ?>">(7)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-city-welcomes-you" data-permalink="8-city-welcomes-you" class="footer_btn" lang="<? echo $locale; ?>">(8)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-urban-wordplay" data-permalink="9-urban-wordplay" class="footer_btn" lang="<? echo $locale; ?>">(9)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-a-city-without-" data-permalink="10-a-city-without-" class="footer_btn" lang="<? echo $locale; ?>">(10)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-typography-reportage" data-permalink="11-city-typography-reportage" class="footer_btn" lang="<? echo $locale; ?>">(11)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/12-exhibition-space" data-permalink="12-exhibition-space" class="footer_btn" lang="<? echo $locale; ?>">(12)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-website-project" data-permalink="13-website-project" class="footer_btn" lang="<? echo $locale; ?>">(13)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/14-docent-video-projects" data-permalink="14-docent-video-projects" class="footer_btn" lang="<? echo $locale; ?>">(14)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/15-opening-performance" data-permalink="15-opening-performance" class="footer_btn" lang="<? echo $locale; ?>">(15)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" data-permalink="16-newsletter-project" class="footer_btn" lang="<? echo $locale; ?>">(16)</a></li>
-          <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-archiving-app" data-permalink="17-archiving-app" class="footer_btn" lang="<? echo $locale; ?>">(17)</a></li>
+          <div class="footer-group">
+            <li>
+              <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
+                <? if ($locale == 'ko') { echo "소개"; } ?>
+                <? if ($locale == 'en') { echo "About"; } ?>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" lang="<? echo $locale; ?>" class="footer-participants">
+                <? if ($locale == 'ko') { echo "참여작가목록"; } ?>
+                <? if ($locale == 'en') { echo "Participants"; } ?>
+              </a>
+            </li>
+          </div>
+          <div class="footer-group project-number">
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/1-main-exhibition" data-permalink="1-main-exhibition" class="footer_btn" lang="<? echo $locale; ?>">(1)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/2-six-images-six-texts" data-permalink="2-six-images-six-texts" class="footer_btn" lang="<? echo $locale; ?>">(2)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/3-asia-city-texture" data-permalink="3-asia-city-texture" class="footer_btn" lang="<? echo $locale; ?>">(3)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/4--on-the-walls" data-permalink="4--on-the-walls" class="footer_btn" lang="<? echo $locale; ?>">(4)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-seoul-soul-the-bookstores-of-seoul" data-permalink="5-seoul-soul-the-bookstores-of-seoul" class="footer_btn" lang="<? echo $locale; ?>">(5)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga-the-street-as-medium" data-permalink="6-jongno-ga-the-street-as-medium" class="footer_btn" lang="<? echo $locale; ?>">(6)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/7-book-bricks" data-permalink="7-book-bricks" class="footer_btn" lang="<? echo $locale; ?>">(7)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-city-welcomes-you" data-permalink="8-city-welcomes-you" class="footer_btn" lang="<? echo $locale; ?>">(8)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-urban-wordplay" data-permalink="9-urban-wordplay" class="footer_btn" lang="<? echo $locale; ?>">(9)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-a-city-without-" data-permalink="10-a-city-without-" class="footer_btn" lang="<? echo $locale; ?>">(10)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-typography-reportage" data-permalink="11-city-typography-reportage" class="footer_btn" lang="<? echo $locale; ?>">(11)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/12-exhibition-space" data-permalink="12-exhibition-space" class="footer_btn" lang="<? echo $locale; ?>">(12)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-website-project" data-permalink="13-website-project" class="footer_btn" lang="<? echo $locale; ?>">(13)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/14-docent-video-projects" data-permalink="14-docent-video-projects" class="footer_btn" lang="<? echo $locale; ?>">(14)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/15-opening-performance" data-permalink="15-opening-performance" class="footer_btn" lang="<? echo $locale; ?>">(15)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" data-permalink="16-newsletter-project" class="footer_btn" lang="<? echo $locale; ?>">(16)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-archiving-app" data-permalink="17-archiving-app" class="footer_btn" lang="<? echo $locale; ?>">(17)</a></li>
+          </div>
         </ul>
 
         <h2>
