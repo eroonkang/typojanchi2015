@@ -390,11 +390,11 @@ WY.models.MapManager = (function(){
 
             layer.on({
               mouseover: function(e){
-                _this.hide_all_popups();
+                // _this.hide_all_popups();
                 var latlng = e.target._latlng;
                 popup.setLatLng(latlng);
                 _this.map.addLayer(popup);
-                _this.active_popups.push(popup);
+                // _this.active_popups.push(popup);
               }          
             });
           }
