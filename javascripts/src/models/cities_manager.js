@@ -9,7 +9,7 @@ WY.constants.cities_locations = {
   },
   london: { 
     latlng: [51.5073510,-0.1277580],
-    zoom: 13
+    zoom: 12
   },
   auckland: { latlng: [-36.97677533356128, 174.49172973632812],
     zoom: 12
@@ -50,10 +50,10 @@ WY.constants.cities_locations = {
   los_angeles: { latlng: [34.0522340,-118.2436850],
     zoom: 13
   },
-  mexico_city: { latlng: [19.4326080,-99.1332080],
+  mexico_city: { latlng: [19.432608,-99.133209],
     zoom: 13
   },
-  chicago: { latlng: [41.8781140,-87.6297980],
+  chicago: { latlng: [41.881832,-87.623177],
     zoom: 13
   },
   hong_kong: { latlng: [22.2878416,114.1469555],
@@ -83,7 +83,7 @@ WY.constants.cities_locations = {
   daegu: { latlng: [35.81549,128.5138],
     zoom: 13
   },
-  new_york: { latlng: [40.7127840,-74.0059410],
+  new_york: { latlng: [40.730610,-73.935242],
     zoom: 13
   },
   paju: { latlng: [37.709967257014945,126.68592453002928],
