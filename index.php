@@ -122,7 +122,7 @@ if ($permalink == "") {
   <? } ?> 
 
 
-    
+  <link rel="icon" href="<? echo $home_url; ?>/images/favicon.png" type="image/x-icon" />    
   <link rel="stylesheet" media="all" href="<? echo $home_url; ?>/stylesheets/dist/application.css"></link>
 
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"></meta>
