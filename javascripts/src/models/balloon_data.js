@@ -101,15 +101,15 @@ WY.constants.custom_markers_geojson = {
       "type": "Feature",
       "properties": {
         "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로1가",
-        "title_en": "Jongno 1-ga",
+        "title_ko": "종로",
+        "title_en": "Jongno",
         "type": "Artwork"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.980223,
-          37.570180
+          126.976950,
+          37.570120
         ]
       }
     },
@@ -117,66 +117,15 @@ WY.constants.custom_markers_geojson = {
       "type": "Feature",
       "properties": {
         "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로2가",
-        "title_en": "Jongno 2-ga",
+        "title_ko": "종로",
+        "title_en": "Jongno",
         "type": "Artwork"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.985352,
-          37.570154
-        ]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로3가",
-        "title_en": "Jongno 3-ga",
-        "type": "Artwork"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.989778,
-          37.570291
-        ]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로4가",
-        "title_en": "Jongno 4-ga",
-        "type": "Artwork"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.995068,
-          37.570537
-        ]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로5가",
-        "title_en": "Jongno 5-ga",
-        "type": "Artwork"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.999896,
-          37.570869
+          127.009046,
+          37.571240 
         ]
       }
     },
@@ -184,23 +133,7 @@ WY.constants.custom_markers_geojson = {
       "type": "Feature",
       "properties": {
         "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로6가",
-        "title_en": "Jongno 6-ga",
-        "type": "Artwork"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.005668,
-          37.571030
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로1-2",
+        "title_ko": "종로1-6",
         "title_en": "Jongno1",
         "type": "Artwork"
       },
@@ -208,100 +141,12 @@ WY.constants.custom_markers_geojson = {
         "type": "LineString",
         "coordinates": [
           [
-            126.980223,
-            37.570180
+            126.976950,
+            37.570120
           ],
           [
-            126.985352,
-            37.570154
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로2-3",
-        "title_en": "Jongno1",
-        "type": "Artwork"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            126.985352,
-            37.570154
-          ],
-          [
-            126.989778,
-            37.570291
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로3-4",
-        "title_en": "종로3-4",
-        "type": "Artwork"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            126.989778,
-            37.570291
-          ],
-          [
-            126.995068,
-            37.570537
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로4-5",
-        "title_en": "종로4-5",
-        "type": "Artwork"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            126.995068,
-            37.570537
-          ],
-          [
-            126.999896,
-            37.570869
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로5-6",
-        "title_en": "종로5-6",
-        "type": "Artwork"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            126.999896,
-            37.570869
-          ],
-          [
-            127.005668,
-            37.571030
+            127.009046,
+            37.571240 
           ]
         ]
       }
