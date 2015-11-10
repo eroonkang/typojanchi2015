@@ -35,8 +35,6 @@ module.exports = function(grunt) {
             'javascripts/src/vendor/rAF.js',
             'javascripts/src/vendor/vector2.js',
             'javascripts/src/vendor/jquery.history.js',
-            'javascripts/src/vendor/kerning.js',
-            'javascripts/src/vendor/jquery.word-break-keep-all.js',
             'javascripts/src/WY.js',
             'javascripts/src/utils.js',
             'javascripts/src/models/*.js',
@@ -53,7 +51,7 @@ module.exports = function(grunt) {
 
     uglify: {
       my_target: {
-      files: {ㅣㅛ
+      files: {
           'javascripts/dist/application.min.js': ['javascripts/dist/application.js']
         }
       }

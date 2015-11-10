@@ -108,8 +108,8 @@ WY.constants.custom_markers_geojson = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.976908,
-          37.57013
+          126.976950,
+          37.570120
         ]
       }
     },
@@ -124,8 +124,8 @@ WY.constants.custom_markers_geojson = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.009117,
-          37.571158
+          127.009046,
+          37.571240 
         ]
       }
     },
@@ -133,20 +133,20 @@ WY.constants.custom_markers_geojson = {
       "type": "Feature",
       "properties": {
         "permalink": "6-jongno-ga-the-street-as-medium",
-        "title_ko": "종로",
-        "title_en": "Jongno",
+        "title_ko": "종로1-6",
+        "title_en": "Jongno1",
         "type": "Artwork"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            126.976908,
-            37.57013
+            126.976950,
+            37.570120
           ],
           [
-            127.009117,
-            37.571158
+            127.009046,
+            37.571240 
           ]
         ]
       }
