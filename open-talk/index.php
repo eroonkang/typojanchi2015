@@ -52,12 +52,13 @@
       <div class="notice">
         <h2 lang="ko">타이포잔치2015<br>오픈토크</h2>
         <p class="description" lang="ko">
-          NHN 그린팩토리<br>
-          커넥트 홀<br>
+          네이버 그린팩토리<br>
+          2층 커넥트홀<br>
           11/12(목) – 11/13(금)<br>
           3–6pm
         </p>
         <a href="https://docs.google.com/forms/d/19u3Rx1UzZBZLn8kLCKjFE_-n1lbRbQNnt15VZkGN4Ow/viewform?embedded=true" class="btn-wrapper fancybox fancybox.iframe"><div class="btn" lang="ko">오픈토크 참가신청</div></a>
+        <p class="small" lang="ko">*<br>사무국에서 확인 후 참석 확정<br>되는 점 양해 부탁드립니다. </p>
         <h3 lang="ko">11월 12일</h3>
         <p class="description" lang="ko">
           에이드리언 쇼너시, 영국<br>
@@ -77,7 +78,8 @@
       <div class="notice">
         <h2 lang="ko">Typojanchi 2015<br>Open Talk</h2>
         <p class="description" lang="ko">
-          NHN Green factory Connect Hall<br>
+          Naver Green factory<br>
+          2F, Connect Hall<br>
           November 12 – 13<br>
           3–6pm
         </p>
@@ -86,6 +88,7 @@
             Reserve a seat
           </div>
         </a>
+        <p class="small" lang="ko">*<br>Please note that attendance <br>is only admitted upon confirmation by the secretariat.</p>
         <h3 lang="ko">November 12</h3>
         <p class="description" lang="ko">
           Adrian Shaughnessy, UK<br>
