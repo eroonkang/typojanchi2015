@@ -1,7 +1,7 @@
 <?
 
 include 'route.php';
-require_once "spyc.php";
+require_once "Spyc.php";
 
 $route = new Route();
 $locale = 'ko';
@@ -61,6 +61,7 @@ if ($browser_locale_detect_needed){
 }
 
 $title = "";
+$description = "Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레";
 
 if ($permalink == "") {
   $title = "";
@@ -69,11 +70,16 @@ if ($permalink == "") {
 } else if (split("-", $permalink[0]) == "city") {
   $title = split("-", $permalink[1]);
 } else {
-  $yaml_data = Spyc::YAMLLoad('./projects/artworks/'.$permalink.'.yml');
+  $yaml_data = spyc_load_file('./projects/artworks/'.$permalink.'.yml');
    if ($yaml_data["type"] == "Project") {
     $title = $yaml_data["project_name_".$locale]." / ";
+    $description = $yaml_data["project_desc_".$locale];
+  } else if ($yaml_data["type"] == "Venue") {
+    $title = $yaml_data["venue_name_".$locale]." / ";
+    $description = $yaml_data["artwork_desc_".$locale];
   } else {
     $title = $yaml_data["full_name_".$locale]." / ";
+    $description = $yaml_data["participant_bio_".$locale];
   } 
 }
 
@@ -89,16 +95,21 @@ if ($permalink == "") {
 
 
   <meta property="og:site_name" content="<? echo $title; ?>Typojanchi 2015"/> 
-  <meta property="og:description" content="Typojanchi 2015"/> 
-  <meta name="description" content="Typojanchi 2015" />
+  <meta property="og:description" content="<? echo $description; ?>"/> 
+  <meta name="description" content="<? echo $description; ?>" />
 
   <meta name="title" content="<? echo $title; ?>Typojanchi 2015"/>
   <meta property="og:title" content="<? echo $title; ?>Typojanchi 2015"/>
 
-  <link rel="canonical" href="http://typojanchi.org/2015/<? echo $locale; ?>/<? echo $permalink; ?>">
-  <meta property="og:url" content="http://typojanchi.org/2015/<? echo $locale; ?>/<? echo $permalink; ?>">
+  <link rel="canonical" href="http://typojanchi.org/<? echo $locale; ?>/<? echo $permalink; ?>">
+  <meta property="og:url" content="http://typojanchi.org/<? echo $locale; ?>/<? echo $permalink; ?>">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
+  <? if ($locale == "ko"){ ?>
+    <meta property="og:locale" content="ko_KR">
+  <? } else { ?>    
+    <meta property="og:locale" content="en_US">
+  <? } ?> 
+
 
     
   <link rel="stylesheet" media="all" href="<? echo $home_url; ?>/stylesheets/dist/application.css"></link>
