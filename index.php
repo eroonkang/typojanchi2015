@@ -258,8 +258,8 @@ if ($permalink == "") {
       </a>
     </div>
     <div id="lang-control">
-      <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>" class="btn-ko"><span lang="ko">한</a>
-      <a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>" class="btn-en">EN</a>
+      <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>" class="btn-ko btn-ko-with-permalink"><span lang="ko">한</a>
+      <a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>" class="btn-en btn-en-with-permalink">EN</a>
     </div>
     <div id="content-outer">
       <div id="content">
@@ -304,7 +304,7 @@ if ($permalink == "") {
             <? if ($locale == 'ko') { echo "타이포잔치 2015"; } ?>
             <? if ($locale == 'en') { echo "Typojanchi 2015"; } ?>
           </a><br>
-          (<a href="<? echo $home_url; ?>/en/<? echo $permalink; ?>"" lang="en">EN</a> / <a href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>"" lang="ko">한글</a>)
+          (<a class="btn-en-with-permalink" href="<? echo $home_url; ?>/en/<? echo $permalink; ?>"" lang="en">EN</a> / <a class="btn-ko-with-permalink" href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>"" lang="ko">한글</a>)
         </h2>
 
       </div>
