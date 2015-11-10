@@ -353,13 +353,14 @@ WY.models.MapManager = (function(){
     init_custom_marker: function(){
       var customIcon = L.Icon.extend({
         options: {
-            iconSize:     [40, 40],
-            iconAnchor:   [20, 20],
-            popupAnchor:  [0, -20],
+            iconSize:     [23, 23],
+            iconAnchor:   [11, 11],
+            popupAnchor:  [0, -11],
         }
       });
 
-      var x_icon = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-x.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-x@2x.png'});
+      var x_icon = new customIcon({
+        iconUrl: WY.constants.home_url + '/images/icon-x.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-x@2x.png'});
       var _this = this;
 
       L.geoJson(WY.constants.custom_markers_geojson, {
