@@ -128,10 +128,17 @@ a:hover {
     p {
       margin:1em 0;
       padding-right: 0;
+
+      &.small{
+        font-size: 14px;
+        line-height: 1.3em;
+        height: 170px;
+        color: gray;
+      }
     }
     .btn-wrapper {
       display: block;
-      padding: 1em 0 5em 0;
+      padding: 1em 0 5px 0;
       &:hover {
         border-bottom: none;
       }
@@ -163,7 +170,7 @@ a:hover {
       position:relative;
       width:60px;
       height:auto;
-      top: 470px;
+      top: 440px;
       margin-left:50px;
     }
   }
