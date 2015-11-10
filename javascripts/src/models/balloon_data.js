@@ -206,15 +206,15 @@ WY.constants.custom_markers_geojson = {
       },
       "geometry": {
         "type": "LineString",
-        "coordinates": [[
+        "coordinates": [
           [
-            126.976908,
-            37.57013
+            126.980223,
+            37.570180
           ],
           [
-            127.009117,
-            37.571158
-          ]]
+            126.985352,
+            37.570154
+          ]
         ]
       }
     },
@@ -228,15 +228,15 @@ WY.constants.custom_markers_geojson = {
       },
       "geometry": {
         "type": "LineString",
-        "coordinates": [[
+        "coordinates": [
           [
-            126.976908,
-            37.57013
+            126.985352,
+            37.570154
           ],
           [
-            127.009117,
-            37.571158
-          ]]
+            126.989778,
+            37.570291
+          ]
         ]
       }
     },
@@ -250,15 +250,15 @@ WY.constants.custom_markers_geojson = {
       },
       "geometry": {
         "type": "LineString",
-        "coordinates": [[
+        "coordinates": [
           [
-            126.976908,
-            37.57013
+            126.989778,
+            37.570291
           ],
           [
-            127.009117,
-            37.571158
-          ]]
+            126.995068,
+            37.570537
+          ]
         ]
       }
     },
@@ -272,15 +272,37 @@ WY.constants.custom_markers_geojson = {
       },
       "geometry": {
         "type": "LineString",
-        "coordinates": [[
+        "coordinates": [
           [
-            126.976908,
-            37.57013
+            126.995068,
+            37.570537
           ],
           [
-            127.009117,
-            37.571158
-          ]]
+            126.999896,
+            37.570869
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "permalink": "6-jongno-ga-the-street-as-medium",
+        "title_ko": "종로5-6",
+        "title_en": "종로5-6",
+        "type": "Artwork"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.999896,
+            37.570869
+          ],
+          [
+            127.005668,
+            37.571030
+          ]
         ]
       }
     }
