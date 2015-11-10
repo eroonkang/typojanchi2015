@@ -6,7 +6,8 @@ WY.constants.custom_markers_geojson = {
       "properties": {
         "permalink": "2-andrew-brash",
         "title_ko": "뉴욕",
-        "title_en": "New York"
+        "title_en": "New York",
+        "type": "Artwork"
       },
       "geometry": {
         "type": "Point",
@@ -21,7 +22,8 @@ WY.constants.custom_markers_geojson = {
       "properties": {
         "permalink": "2-jonas-berthod",
         "title_ko": "도쿄",
-        "title_en": "Tokyo"
+        "title_en": "Tokyo",
+        "type": "Artwork"
       },
       "geometry": {
         "type": "Point",
@@ -36,7 +38,8 @@ WY.constants.custom_markers_geojson = {
       "properties": {
         "permalink": "2-jorg-schwerteger",
         "title_ko": "런던",
-        "title_en": "London"
+        "title_en": "London",
+        "type": "Artwork"
       },
       "geometry": {
         "type": "Point",
@@ -51,7 +54,8 @@ WY.constants.custom_markers_geojson = {
       "properties": {
         "permalink": "2-laura-joan",
         "title_ko": "로스앤젤레스",
-        "title_en": "Los Angeles"
+        "title_en": "Los Angeles",
+        "type": "Artwork"
       },
       "geometry": {
         "type": "Point",
@@ -66,7 +70,8 @@ WY.constants.custom_markers_geojson = {
       "properties": {
         "permalink": "2-sebastian-koseda",
         "title_ko": "시카고",
-        "title_en": "Chicago"
+        "title_en": "Chicago",
+        "type": "Artwork"
       },
       "geometry": {
         "type": "Point",
@@ -81,7 +86,8 @@ WY.constants.custom_markers_geojson = {
       "properties": {
         "permalink": "2-summer-studio",
         "title_ko": "멕시코 시티",
-        "title_en": "Mexico City"
+        "title_en": "Mexico City",
+        "type": "Artwork"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +102,8 @@ WY.constants.custom_markers_geojson = {
       "properties": {
         "permalink": "6-jongno-ga-the-street-as-medium",
         "title_ko": "종로",
-        "title_en": "Jongno"
+        "title_en": "Jongno",
+        "type": "Project"
       },
       "geometry": {
         "type": "Point",
@@ -111,7 +118,8 @@ WY.constants.custom_markers_geojson = {
       "properties": {
         "permalink": "6-jongno-ga-the-street-as-medium",
         "title_ko": "종로",
-        "title_en": "Jongno"
+        "title_en": "Jongno",
+        "type": "Project"
       },
       "geometry": {
         "type": "Point",
@@ -126,7 +134,8 @@ WY.constants.custom_markers_geojson = {
       "properties": {
         "permalink": "6-jongno-ga-the-street-as-medium",
         "title_ko": "종로",
-        "title_en": "Jongno"
+        "title_en": "Jongno",
+        "type": "Project"
       },
       "geometry": {
         "type": "LineString",

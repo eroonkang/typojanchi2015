@@ -80,6 +80,8 @@ WY.models.MapManager = (function(){
       }, this));
 
       this.popup_tmpl = {
+        'CustomArtwork': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= title_' + WY.constants.locale + ' %></a>'),
+        'CustomProject': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= title_' + WY.constants.locale + ' %></a>'),
         'Artist': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= full_name_' + WY.constants.locale + ' %></a>'),
         'Artwork': _.template('<span data-link="<%= url_from_permalink(permalink) %>" data-permalink="<%= permalink %>" class="popup_btn"><%= artwork_name_' + WY.constants.locale + ' %></a>'),
         'Project': _.template('<span data-link="<%= url_from_project_name(idx, project_name_en) %>" data-permalink="<%= idx + "-" + conv_to_slug(project_name_en) %>" class="popup_btn"><%= "(" + idx + ") "+ project_name_' + WY.constants.locale + ' %></a>'),
@@ -138,11 +140,11 @@ WY.models.MapManager = (function(){
 
       var circle_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-circle-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-circle-w@2x.png'}),
           diamond_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-diamond-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-diamond-w@2x.png'}),
-          diamond_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-diamond-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-diamond-b@2x.png'});
-          concentric_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-concentric-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-concentric-w@2x.png'});
-          scircle_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-b@2x.png'});
+          diamond_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-diamond-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-diamond-b@2x.png'}),
+          concentric_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-concentric-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-concentric-w@2x.png'}),
+          scircle_b = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-b.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-b@2x.png'}),
           scircle_w = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-scircle-w.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-scircle-w@2x.png'});
-          x_icon = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-x.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-x@2x.png'});
+  
 
       _.each(this.data.nodes.features, _.bind(function (node) {
         var marker;
@@ -349,8 +351,54 @@ WY.models.MapManager = (function(){
     },
 
     init_custom_marker: function(){
+      var customIcon = L.Icon.extend({
+        options: {
+            iconSize:     [40, 40],
+            iconAnchor:   [20, 20],
+            popupAnchor:  [0, -20],
+        }
+      });
 
-    }
+      var x_icon = new customIcon({iconUrl: WY.constants.home_url + '/images/icon-x.png', iconRetinaUrl: WY.constants.home_url + '/images/icon-x@2x.png'});
+      var _this = this;
+
+      L.geoJson(WY.constants.custom_markers_geojson, {
+        pointToLayer: function (feature, latlng) {
+          return L.marker(latlng, {
+            icon: x_icon,
+            riseOnHover: true
+          });
+        },
+        style: {
+          color: '#000',
+          weight: 1,
+          opacity: 1
+        },
+        onEachFeature: function(feature, layer){
+
+          if (feature.geometry.type == "Point") {
+
+            var content = _this.popup_tmpl["Custom" + feature.properties.type](feature.properties);
+
+            var popup = L.popup({
+              closeOnCilck: true,
+              autoPan: false,
+              className: "mouse-interact-popup popup-" + feature.properties.type.toLowerCase(),
+              offset: L.point([0, _this.popup_offset_by_type[feature.properties.type.toLowerCase()]])
+            }).setContent(content);
+
+            layer.on({
+              mouseover: function(e){
+                var latlng = e.target._latlng;
+                popup.setLatLng(latlng);
+                _this.map.addLayer(popup);
+              }            
+            });
+          }
+
+        }
+      }).addTo(this.map);
+    },
     
     stop_animate: function(){
       cancelAnimationFrame(this.req_id);
