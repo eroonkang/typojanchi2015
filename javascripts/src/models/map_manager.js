@@ -395,10 +395,7 @@ WY.models.MapManager = (function(){
                 popup.setLatLng(latlng);
                 _this.map.addLayer(popup);
                 _this.active_popups.push(popup);
-              },
-              mouseout: function(e){
-                _this.show_all_popups();
-              }            
+              }          
             });
           }
 
