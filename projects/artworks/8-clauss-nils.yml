@@ -21,14 +21,14 @@ participant_bio_ko: >
  영화감독이자 사진작가. 독일, 오스트리아, 홍콩에서 시각문화와 그래픽디자인, 영화 제작을 공부한 후 중앙대학교 첨단영상대학원에서 시네마토그래피로 석사 학위를 받았다. 다양한 문화권에서의 경험을 살려 폭넓은 시각과 명료한 스타일을 선보이고 있는 그의 뮤직비디오, 단편영화, 다큐멘터리들은 여러 국제 페스티벌에서 수상한 바 있으며 온라인을 통해 많은 사람들에게 알려졌다. 주요 작품으로 아일랜드 영화감독 닐 다울링과 협업한 M83의 <문차일드>, 노르웨이 밴드 뢰위크소프의 <시니어 리빙> 뮤직비디오 등이 있다.
 
 artworks:
--
-  artwork_name_en: 웰커머
-  artwork_name_ko: Welcomer
-  artwork_year: 2015
-  artwork_medium_en: Book, 16pages
-  artwork_medium_ko: 책, 16쪽
-  artwork_desc_en: >
-  artwork_desc_ko: >
+  -
+    artwork_name_en: 웰커머
+    artwork_name_ko: Welcomer
+    artwork_year: 2015
+    artwork_medium_en: Book, 16pages
+    artwork_medium_ko: 책, 16쪽
+    artwork_desc_en: >
+    artwork_desc_ko: >
   
 
 

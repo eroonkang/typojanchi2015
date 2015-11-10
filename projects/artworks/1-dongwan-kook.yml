@@ -14,52 +14,52 @@ participant_bio_ko: >
  서울대학교에서 시각디자인을 전공하고 영국 캠버웰 칼리지 오브 아트에서 북아트로 석사 학위를 받았다. 꿈의 기록을 작업의 주요 소재로 삼으면서 글자의 정확하면서도 모호한 성질을 책 작업, 드로잉, 조각, 설치, 영상에 이르는 다양한 매체로 시각화하고 있다. 2008년, 런던 예술대학의 ‘베스트 12 기대주’에 선정되어 《미래의 지도 ’08》전시에 참여했으며 2011년에는 갤러리 팩토리의 ‘떠오르는 작가 쇼’ 작가로 초대되어 첫 번째 개인전을 가졌다. 2012년에는 스코틀랜드의 글렌피딕 아티스트 레지던시에 최초의 한국 대표로 선정됐다.
 
 artworks:
--
-  artwork_name_en: Society With No Answer
-  artwork_name_ko: 대답 없는 사회 
-  artwork_year: 2015
-  artwork_medium_en: Colored pencil, 77x52cm,
-  artwork_medium_ko: 종이에 색연필, 77x52cm,
-  artwork_desc_en: >
-   Dongwan Kook's “Letter Drawing” is a work which finds an instant image made with hands by following, ignoring, or modifying letter forms. Some landscapes which are attached to the surface of text, mixed with the inner and outer side of the artist, shows something unexpected. This piece is based on the lyrics from Kim Mokin's second album piece, Society With No Answer. It begins with, “People who haven’t received to the answer are on the street / To receive to the answer even in the cold weather.” We would see a different scene of the plaza with this.
-   
-  artwork_desc_ko: > 
-    국동완의 ‘글자 드로잉’은 글자의 형태를 따르거나 무시 혹은 변형하면서 손이 즉각적으로 그려내는 심상을 발견하는 작업이다. 텍스트의 표피에 들러붙어 작가의 내면과 외부가 곤죽이 된 채 드러내는 어떤 풍경들은 늘 뻔한 예상을 빗나간다. 이 작품은 가수 김목인의 2집 수록곡 <대답 없는 사회>에서 발췌한 가사를 바탕으로 한다. “대답을 못 들은 사람들이 길 위에 나와 있네 / 추운 날씨에도 대답을 들으러”로 시작되는 노랫말이 드러내줄 또 다른 광장의 풍경을 기대한다.
--
-  artwork_name_en: "Around #1"
-  artwork_name_ko: "Around #1"
-  artwork_year: 2015
-  artwork_medium_en: Colored pencil, 75x52cm
-  artwork_medium_ko: 종이에 색연필, 75x52cm
-  artwork_desc_en: >
-  artwork_desc_ko: >
+  -
+    artwork_name_en: Society With No Answer
+    artwork_name_ko: 대답 없는 사회 
+    artwork_year: 2015
+    artwork_medium_en: Colored pencil, 77x52cm,
+    artwork_medium_ko: 종이에 색연필, 77x52cm,
+    artwork_desc_en: >
+     Dongwan Kook's “Letter Drawing” is a work which finds an instant image made with hands by following, ignoring, or modifying letter forms. Some landscapes which are attached to the surface of text, mixed with the inner and outer side of the artist, shows something unexpected. This piece is based on the lyrics from Kim Mokin's second album piece, Society With No Answer. It begins with, “People who haven’t received to the answer are on the street / To receive to the answer even in the cold weather.” We would see a different scene of the plaza with this.
+     
+    artwork_desc_ko: > 
+      국동완의 ‘글자 드로잉’은 글자의 형태를 따르거나 무시 혹은 변형하면서 손이 즉각적으로 그려내는 심상을 발견하는 작업이다. 텍스트의 표피에 들러붙어 작가의 내면과 외부가 곤죽이 된 채 드러내는 어떤 풍경들은 늘 뻔한 예상을 빗나간다. 이 작품은 가수 김목인의 2집 수록곡 <대답 없는 사회>에서 발췌한 가사를 바탕으로 한다. “대답을 못 들은 사람들이 길 위에 나와 있네 / 추운 날씨에도 대답을 들으러”로 시작되는 노랫말이 드러내줄 또 다른 광장의 풍경을 기대한다.
+  -
+    artwork_name_en: "Around #1"
+    artwork_name_ko: "Around #1"
+    artwork_year: 2015
+    artwork_medium_en: Colored pencil, 75x52cm
+    artwork_medium_ko: 종이에 색연필, 75x52cm
+    artwork_desc_en: >
+    artwork_desc_ko: >
 
--
-  artwork_name_en: Korean Showergown
-  artwork_name_ko: 한복 같은 샤워 가운
-  artwork_year: 2015
-  artwork_medium_en: Graphite on hanji, 41x37cm
-  artwork_medium_ko: 한지에 흑연, 41x37cm
-  artwork_desc_en: >
-  artwork_desc_ko: >
+  -
+    artwork_name_en: Korean Showergown
+    artwork_name_ko: 한복 같은 샤워 가운
+    artwork_year: 2015
+    artwork_medium_en: Graphite on hanji, 41x37cm
+    artwork_medium_ko: 한지에 흑연, 41x37cm
+    artwork_desc_en: >
+    artwork_desc_ko: >
 
--
-  artwork_name_en: Vinyl Notice
-  artwork_name_ko: Vinyl Notice
-  artwork_year: 2015
-  artwork_medium_en: Graphite on hanji, 46x38cm
-  artwork_medium_ko: 한지에 흑연, 46x38cm
-  artwork_desc_en: >
-  artwork_desc_ko: >
+  -
+    artwork_name_en: Vinyl Notice
+    artwork_name_ko: Vinyl Notice
+    artwork_year: 2015
+    artwork_medium_en: Graphite on hanji, 46x38cm
+    artwork_medium_ko: 한지에 흑연, 46x38cm
+    artwork_desc_en: >
+    artwork_desc_ko: >
 
--
-  artwork_name_en: Mindful Document
-  artwork_name_ko: Mindful Document
-  artwork_year: 2015
-  artwork_medium_en: Graphite on hanji, 100x196cm
-  artwork_medium_ko: 한지에 흑연, 100x196cm
-  artwork_desc_en: >
-  artwork_desc_ko: >
+  -
+    artwork_name_en: Mindful Document
+    artwork_name_ko: Mindful Document
+    artwork_year: 2015
+    artwork_medium_en: Graphite on hanji, 100x196cm
+    artwork_medium_ko: 한지에 흑연, 100x196cm
+    artwork_desc_en: >
+    artwork_desc_ko: >
 
 
 

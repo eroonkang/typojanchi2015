@@ -71,15 +71,26 @@ if ($permalink == "") {
   $title = split("-", $permalink[1]);
 } else {
   $yaml_data = spyc_load_file('./projects/artworks/'.$permalink.'.yml');
-   if ($yaml_data["type"] == "Project") {
+  
+  if ($yaml_data["type"] == "Project") {
+    
     $title = $yaml_data["project_name_".$locale]." / ";
     $description = $yaml_data["project_desc_".$locale];
+
   } else if ($yaml_data["type"] == "Venue") {
+  
     $title = $yaml_data["venue_name_".$locale]." / ";
     $description = $yaml_data["artwork_desc_".$locale];
+  
   } else {
-    $title = $yaml_data["full_name_".$locale]." / ";
-    $description = $yaml_data["participant_bio_".$locale];
+    $artwork_first = $yaml_data["artworks"][0];
+    $title = $yaml_data["full_name_".$locale]." / ".$artwork_first["artwork_name_".$locale]." / ";
+    
+    $description = $artwork_first["artwork_desc_".$locale];
+    if (strlen($description) == 0) {
+      $description = $yaml_data["participant_bio_".$locale];
+    }
+  
   } 
 }
 
@@ -90,16 +101,16 @@ if ($permalink == "") {
 <!DOCTYPE html>
 <head>
 
-  <title><? echo $title; ?> Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
+  <title><? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
   <meta charset="utf-8"></meta>
 
 
-  <meta property="og:site_name" content="<? echo $title; ?>Typojanchi 2015"/> 
-  <meta property="og:description" content="<? echo $description; ?>"/> 
-  <meta name="description" content="<? echo $description; ?>" />
+  <meta property="og:site_name" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/> 
+  <meta property="og:description" content="<? echo substr($description, 0, 300)."..."; ?>"/> 
+  <meta name="description" content="<? echo substr($description, 0, 300)."..."; ?>" />
 
-  <meta name="title" content="<? echo $title; ?>Typojanchi 2015"/>
-  <meta property="og:title" content="<? echo $title; ?>Typojanchi 2015"/>
+  <meta name="title" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/>
+  <meta property="og:title" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/>
 
   <link rel="canonical" href="http://typojanchi.org/<? echo $locale; ?>/<? echo $permalink; ?>">
   <meta property="og:url" content="http://typojanchi.org/<? echo $locale; ?>/<? echo $permalink; ?>">
@@ -152,7 +163,6 @@ if ($permalink == "") {
     <div id="section-header">
       <h2>
 
-  <? //echo $yaml_data; ?>
         <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
           <? if ($locale == 'ko') { echo "(타이포잔치 2015) 소개"; } ?>
           <? if ($locale == 'en') { echo "About (Typojanchi 2015)"; } ?>
@@ -293,7 +303,7 @@ if ($permalink == "") {
           </div>
           <div class="footer-group project-number">
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/1-main-exhibition" data-permalink="1-main-exhibition" class="footer_btn" lang="<? echo $locale; ?>">(1)</a></li>
-            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/2-six-images-six-texts" data-permalink="2-six-images-six-texts" class="footer_btn" lang="<? echo $locale; ?>">(2)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/2-six-images-six-texts-one-remix" data-permalink="2-six-images-six-texts-one-remix" class="footer_btn" lang="<? echo $locale; ?>">(2)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/3-asia-city-texture" data-permalink="3-asia-city-texture" class="footer_btn" lang="<? echo $locale; ?>">(3)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/4--on-the-walls" data-permalink="4--on-the-walls" class="footer_btn" lang="<? echo $locale; ?>">(4)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-seoul-soul-the-bookstores-of-seoul" data-permalink="5-seoul-soul-the-bookstores-of-seoul" class="footer_btn" lang="<? echo $locale; ?>">(5)</a></li>

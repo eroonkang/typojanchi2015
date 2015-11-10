@@ -14,15 +14,15 @@ participant_bio_ko: >
  1996년 헤릿 리트벌트 아카데미를 졸업한 리카르트 니선은 암스테르담을 기반으로 그가 ‘타이포그래피 쌓기’라 명명한 작업 활동을 하고 있다. 사인과 심벌, 장식물이 긴밀하게 혼합된 이 수공예적 작업은 주로 비선형적 구조물 형태를 취하는데, 이러한 혼합적인 그래픽 디자인 접근법은 그의 프로젝트에 일관되고 배타적인 어법을 부여한다. 제니퍼 티, 아트 더용, 코브라 미술관, 암스테르담 시립미술관 등과 작업하는 한편, <잭>, <1:1:1> 등과 같은 개인 작업을 펼치며 다른 디자이너 및 작가들과 실험적인 전시와 협업을 병행하고 있다. 개인전으로 《TM 시티》(2007), 《타이포그래피 쌓기의 밀폐된 개요》(2014)을 열었으며 2007년부터 에스테르 더프리스와 함께 작업실을 운영하고 있다
 
 artworks:
--
-  artwork_name_en: Typojanchi 2015
-  artwork_name_ko: 타이포잔치 2015
-  artwork_year: 2015
-  artwork_medium_en: Silkscreen on paper, 106.7x160cm
-  artwork_medium_ko: 실크스크린, 160x106.7cm
-  artwork_desc_en: >
-   By being a mixture of traffic signs,  wayfinding signs and festoons this poster refers to the party and celebration (Janchi) and this years theme City & Typography. The poster is silkscreen printed in 3 overlapping, fluorescend colors.
-  artwork_desc_ko: >
+  -
+    artwork_name_en: Typojanchi 2015
+    artwork_name_ko: 타이포잔치 2015
+    artwork_year: 2015
+    artwork_medium_en: Silkscreen on paper, 106.7x160cm
+    artwork_medium_ko: 실크스크린, 160x106.7cm
+    artwork_desc_en: >
+      By being a mixture of traffic signs,  wayfinding signs and festoons this poster refers to the party and celebration (Janchi) and this years theme City & Typography. The poster is silkscreen printed in 3 overlapping, fluorescend colors.
+    artwork_desc_ko: >
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역 서울 284

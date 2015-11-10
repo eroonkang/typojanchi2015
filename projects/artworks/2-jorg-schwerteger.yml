@@ -14,16 +14,16 @@ participant_bio_ko: >
  외르크 슈베르트페거는 인쇄물(주로 책)과 시각 아이덴티티 작업에 주력하는 그래픽 디자이너이다. 스위스 취리히를 기반으로 다양한 규모 및 범위의 문화적, 상업적 작업을 하고 있으며 영국 왕립예술학교에 다니면서 시작한 포토 다큐멘터리에 관한 잡지 《리-포트》 창간을 준비 중이다.
 
 artworks:
--
-  artwork_name_en: L. London
-  artwork_name_ko: L. 런던
-  artwork_year: 2015
-  artwork_medium_en: Banner, 350x150cm
-  artwork_medium_ko: 배너, 350x150cm
-  artwork_desc_en: >
-   Google maps features billions of addresses. If you focus, you will find a story behind every façade. This is Tony, 218 Ridley Road, Dalston, London, UK. Concept & Design: Jörg Schwertfeger, Zurich. Text & Large Format Photography: Tamara Rabea, London
+  -
+    artwork_name_en: L. London
+    artwork_name_ko: L. 런던
+    artwork_year: 2015
+    artwork_medium_en: Banner, 350x150cm
+    artwork_medium_ko: 배너, 350x150cm
+    artwork_desc_en: >
+      Google maps features billions of addresses. If you focus, you will find a story behind every façade. This is Tony, 218 Ridley Road, Dalston, London, UK. Concept & Design: Jörg Schwertfeger, Zurich. Text & Large Format Photography: Tamara Rabea, London
 
-  artwork_desc_ko: >
+    artwork_desc_ko: >
 
 
 venue_name_en: Culture Station Seoul 284

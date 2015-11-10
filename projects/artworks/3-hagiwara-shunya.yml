@@ -15,14 +15,14 @@ participant_bio_ko: >
  도쿄를 기반으로 작업하는 그래픽 디자이너이자 웹 개발자로서 온라인과 오프라인을 오가며 활동하고 있다. 세미트랜스퍼런트 디자인에서 일했으며 2012년 독립한 이후 웹 디자인, 넷 아트 분야를 중심으로 폭넓게 작품을 발표하고 있다. 디자인 편집 그룹 ‘cooked.jp’,  ‘플리퍼3’의 회원이다. 타마 미술대학교에서 학생들을 가르치고 있으며 일본 문화청이 주관한 미디어아트페스티벌에서 신인상을 수상했다.
 
 artworks:
--
-  artwork_name_en: 
-  artwork_name_ko: 
-  artwork_year: 
-  artwork_medium_en:
-  artwork_medium_ko: 
-  artwork_desc_en: >
-  artwork_desc_ko: >
+  -
+    artwork_name_en: 
+    artwork_name_ko: 
+    artwork_year: 
+    artwork_medium_en:
+    artwork_medium_ko: 
+    artwork_desc_en: >
+    artwork_desc_ko: >
 
 
 venue_name_en: Culture Station Seoul 284

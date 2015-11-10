@@ -16,18 +16,18 @@ participant_bio_ko: >
 
 
 artworks:
--
-  artwork_name_en: memoria technica
-  artwork_name_ko: 메모리아 테크니카
-  artwork_year: 2015
-  artwork_medium_en: Mixed media, 180x87x250cm
-  artwork_medium_ko: 혼합 매체, 180x87x250cm
-  artwork_desc_en: >
-   Byungil Choi’s machine repeats precise motion and makes irregularity. Typeface over the mirror leaves a trace and includes the surroundings ceaselessly, it is not the perfect form. The city typographies are generated and disappear in a similar way.
+  -
+    artwork_name_en: memoria technica
+    artwork_name_ko: 메모리아 테크니카
+    artwork_year: 2015
+    artwork_medium_en: Mixed media, 180x87x250cm
+    artwork_medium_ko: 혼합 매체, 180x87x250cm
+    artwork_desc_en: >
+     Byungil Choi’s machine repeats precise motion and makes irregularity. Typeface over the mirror leaves a trace and includes the surroundings ceaselessly, it is not the perfect form. The city typographies are generated and disappear in a similar way.
 
 
-  artwork_desc_ko: >
-   최병일이 만든 기계는 정밀한 움직임을 반복하며 불규칙함을 생성해낸다. 거울 위의 글자들은 흔적을 남기며 주변을 끊임없이 담아내고는 있지만 온전한 모습은 아니다. 사람들이 일상생활을 영위하는 도시의 글자들도 유사한 방법으로 생성되고 사라져간다.
+    artwork_desc_ko: >
+     최병일이 만든 기계는 정밀한 움직임을 반복하며 불규칙함을 생성해낸다. 거울 위의 글자들은 흔적을 남기며 주변을 끊임없이 담아내고는 있지만 온전한 모습은 아니다. 사람들이 일상생활을 영위하는 도시의 글자들도 유사한 방법으로 생성되고 사라져간다.
 
 
 venue_name_en: Culture Station Seoul 284

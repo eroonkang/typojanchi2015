@@ -21,29 +21,29 @@ participant_bio_ko: >
 
 
 artworks:
--
-  artwork_name_en: 1. F 13 FF 
-  artwork_name_ko: 1. 4 13 44
-  artwork_year: 2015
-  artwork_medium_en: Book (16pages, 23.5x16.5cm) and light (23.5x57x12cm)
-  artwork_medium_ko: 책(16쪽, 23.5x16.5cm), 조명(23.5x57x12cm)
-  artwork_desc_en: >
+  -
+    artwork_name_en: 1. F 13 FF 
+    artwork_name_ko: 1. 4 13 44
+    artwork_year: 2015
+    artwork_medium_en: Book (16pages, 23.5x16.5cm) and light (23.5x57x12cm)
+    artwork_medium_ko: 책(16쪽, 23.5x16.5cm), 조명(23.5x57x12cm)
+    artwork_desc_en: >
    At Incheon International Airport, the representative gateway to Seoul, “boarding gates 4, 13, and 44 do not exist” is a frequently spoken saying. This may seem like a rumor, but it is true. “Please come and visit us again.”
 
-  artwork_desc_ko: >
+    artwork_desc_ko: >
    서울의 대표적인 관문 인천국제공항에는 “4, 13, 44번 탑승구가 존재하지 않는다”는 말이 떠돈다. 그러나 이 뜬소문 같은 말은 사실이다. “다음에 꼭 다시 방문해주세요.”
 
 -
-  artwork_name_en: 2. Virtual and Actual
-  artwork_name_ko: 2. 가상과 실재
-  artwork_year: 2015
-  artwork_medium_en: Book, 16pages, 23.5x16.5cm
-  artwork_medium_ko: 책, 16쪽, 23.5x16.5cm
-  artwork_desc_en: > 
+    artwork_name_en: 2. Virtual and Actual
+    artwork_name_ko: 2. 가상과 실재
+    artwork_year: 2015
+    artwork_medium_en: Book, 16pages, 23.5x16.5cm
+    artwork_medium_ko: 책, 16쪽, 23.5x16.5cm
+    artwork_desc_en: > 
    Through the everyday medium of social networking, we experience “experienced experiences.” However, these experiences are not repeated in the same manner every time. This project is a collaboration with designer Hyojun Shim.
    
 
-  artwork_desc_ko: > 
+    artwork_desc_ko: > 
    우리는 일반적으로 SNS라는 매체를 통해서 ‘경험된 경험’을 경험한다. 하지만 그 경험들은 결코 동일하게 반복되지 않는다. 본 작업은 디자이너 심효준과의 공동 작업이다.
 
 

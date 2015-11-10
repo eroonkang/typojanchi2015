@@ -26,18 +26,17 @@ participant_bio_ko: >
 
  조현 - 경원대학교를 졸업하고 예일 대학교에서 그래픽 디자인으로 석사 학위를 받았다. 2004년 서울을 기반으로 한 자신의 스튜디오 ‘S/O 프로젝트(Subject and Object Project in everyday life)’를 설립한 후, 스튜디오 이름에서 드러나듯 일상과 일상 사물에 대한 관점을 다양한 미디어에 접목하고, 확장하며, 타이포그래피로 표현하는 실험적 작업을 계속해오고 있다. 현재 한국종합예술학교에서 학생들을 가르치고 있다.
 artworks:
--
-  artwork_name_en: 플라스틱 웰커머
-  artwork_name_ko: Plastic Welcomer
-  artwork_year: 2015
-  artwork_medium_en: Book, 16pages
-  artwork_medium_ko: 책, 16쪽
-  artwork_desc_en: >
-   In the city, plastic welcomers and welcomers co-exist: plastic welcomers who silently play equivalent roles widely in the city, and welcomers who are unknown even to the citizens. They all work to deliver a message of welcome with exaggerated gestures and forms. These two types of welcomers take a certain place of their own, and carry out their work (given or chosen by themselves) solemnly and fully. As they take similar forms with the uniformed city itself, they reinforce the city’s impression and its way of welcome.
+  -
+    artwork_name_en: 플라스틱 웰커머
+    artwork_name_ko: Plastic Welcomer
+    artwork_year: 2015
+    artwork_medium_en: Book, 16pages
+    artwork_medium_ko: 책, 16쪽
+    artwork_desc_en: >
+      In the city, plastic welcomers and welcomers co-exist: plastic welcomers who silently play equivalent roles widely in the city, and welcomers who are unknown even to the citizens. They all work to deliver a message of welcome with exaggerated gestures and forms. These two types of welcomers take a certain place of their own, and carry out their work (given or chosen by themselves) solemnly and fully. As they take similar forms with the uniformed city itself, they reinforce the city’s impression and its way of welcome.
 
-  artwork_desc_ko: >
-   도시에는 도시환영인(都市幻影人)과 도시환영인(都市歡迎人)이 균일하게 공존하고 있다. 존재감을 드러내진 않지만 폭넓게 공통된 역할을 담당하며 도시에 분포하고 있는 도시환영인(都市幻影人), 도시 거주자들에게도 낯선 또 다른 도시환영인(都市歡迎人), 이 모두가 누구에게나 과장된 제스처와 형상으로 환영의 메시지를 전달한다. 일정한 거점을 확보하고 있는 두 가지의 도시환영자 유형은 자신의 자리에서 스스로 부여한, 또는 부여된 역할을 충실히 수행한다. 이들의 모습은 흡사 도시가 입고 있는 유니폼의 패턴과 닮아서 도시의 인상과 도시가 이방인을 환영하는 방법을 각인시킨다.
-  
+    artwork_desc_ko: >
+      도시에는 도시환영인(都市幻影人)과 도시환영인(都市歡迎人)이 균일하게 공존하고 있다. 존재감을 드러내진 않지만 폭넓게 공통된 역할을 담당하며 도시에 분포하고 있는 도시환영인(都市幻影人), 도시 거주자들에게도 낯선 또 다른 도시환영인(都市歡迎人), 이 모두가 누구에게나 과장된 제스처와 형상으로 환영의 메시지를 전달한다. 일정한 거점을 확보하고 있는 두 가지의 도시환영자 유형은 자신의 자리에서 스스로 부여한, 또는 부여된 역할을 충실히 수행한다. 이들의 모습은 흡사 도시가 입고 있는 유니폼의 패턴과 닮아서 도시의 인상과 도시가 이방인을 환영하는 방법을 각인시킨다.
 
 
 venue_name_en: Culture Station Seoul 284
