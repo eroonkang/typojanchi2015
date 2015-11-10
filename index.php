@@ -106,8 +106,13 @@ if ($permalink == "") {
 
 
   <meta property="og:site_name" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/> 
-  <meta property="og:description" content="<? echo substr($description, 0, 300)."..."; ?>"/> 
-  <meta name="description" content="<? echo substr($description, 0, 300)."..."; ?>" />
+  <? if (strlen($description) > 300) { ?>
+    <meta property="og:description" content="<? echo substr($description, 0, 300)."..."; ?>"/> 
+    <meta name="description" content="<? echo substr($description, 0, 300)."..."; ?>" />
+  <? } else { ?>
+    <meta property="og:description" content="<? echo substr($description, 0, 300); ?>"/> 
+    <meta name="description" content="<? echo substr($description, 0, 300); ?>" />
+  <? } ?>
 
   <meta name="title" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/>
   <meta property="og:title" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/>
