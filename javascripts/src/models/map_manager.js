@@ -343,7 +343,13 @@ WY.models.MapManager = (function(){
         }
       }, this), 5000);
 
+      this.init_custom_marker();
+
     },
+
+    init_custom_marker: function(){
+
+    }
     
     stop_animate: function(){
       cancelAnimationFrame(this.req_id);
