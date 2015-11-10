@@ -22124,7 +22124,7 @@ WY.models.CitiesManager = (function(){
     city_pan: function(permalink){
       var dict_name = this.slug_underscore(permalink);
       var latlng = L.latLng(WY.constants.cities_locations[dict_name].latlng);
-      $("title").text(this.el.find(".city_btn[data-permalink=" + permalink + "]").text() + " :: Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
+      $("title").text(this.el.find(".city_btn[data-permalink=" + permalink + "]").text() + " / 타이포잔치 2015 — Typojanchi 2015");
 
       // debugger;
       this.trigger('city_pan_to', {latlng: latlng, zoom: WY.constants.cities_locations[dict_name].zoom});
@@ -22227,7 +22227,7 @@ WY.models.DetailPageManager = (function(){
       this.trigger('load_complete');
 
       this.add_events();
-      ga('set', { page: location.path, title: "About / Typojanchi 2015" });
+      ga('set', { page: location.path, title: "About / 타이포잔치 2015 — Typojanchi 2015" });
       ga('send', 'pageview');
 
     },
@@ -22258,7 +22258,7 @@ WY.models.DetailPageManager = (function(){
         this.title = this.data["venue_name_" + WY.constants.locale];
       }
 
-      this.title += " / Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레";
+      this.title += " / 타이포잔치 2015 — Typojanchi 2015";
 
       ga('set', { page: location.path, title: this.title });
       ga('send', 'pageview');
@@ -23670,8 +23670,8 @@ WY.views.welcome_view = (function(){
             map_manager.set_detail(false);
             map_manager.reset();
 
-            $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
-            ga('set', { page: location.path, title: "Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레" });
+            $("title").text("타이포잔치 2015 — Typojanchi 2015");
+            ga('set', { page: location.path, title: "타이포잔치 2015 — Typojanchi 2015" });
             ga('send', 'pageview');
         
             $('#content-outer').css({

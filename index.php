@@ -61,14 +61,15 @@ if ($browser_locale_detect_needed){
 }
 
 $title = "";
-$description = "Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레";
+$description = "타이포잔치 2015 — Typojanchi 2015";
 
 if ($permalink == "") {
   $title = "";
 } else if ($permalink == "about"){
   $title = "About /";
-} else if (split("-", $permalink[0]) == "city") {
-  $title = split("-", $permalink[1]);
+} else if (explode("-", $permalink)[0] == "city") {
+  $title = "";//ucfirst(explode("-", $permalink)[1])." / ";
+
 } else {
   $yaml_data = spyc_load_file('./projects/artworks/'.$permalink.'.yml');
   
@@ -101,11 +102,11 @@ if ($permalink == "") {
 <!DOCTYPE html>
 <head>
 
-  <title><? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
+  <title><? echo $title; ?>타이포잔치 2015 — Typojanchi 2015</title>
   <meta charset="utf-8"></meta>
 
 
-  <meta property="og:site_name" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/> 
+  <meta property="og:site_name" content="<? echo $title; ?>타이포잔치 2015 — Typojanchi 2015"/> 
   <? if (strlen($description) > 300) { ?>
     <meta property="og:description" content="<? echo substr($description, 0, 300)."..."; ?>"/> 
     <meta name="description" content="<? echo substr($description, 0, 300)."..."; ?>" />
@@ -114,12 +115,14 @@ if ($permalink == "") {
     <meta name="description" content="<? echo substr($description, 0, 300); ?>" />
   <? } ?>
 
-  <meta name="title" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/>
-  <meta property="og:title" content="<? echo $title; ?>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레"/>
+  <meta name="title" content="<? echo $title; ?>타이포잔치 2015 — Typojanchi 2015"/>
+  <meta property="og:title" content="<? echo $title; ?>타이포잔치 2015 — Typojanchi 2015"/>
 
-  <link rel="canonical" href="http://typojanchi.org/<? echo $locale; ?>/<? echo $permalink; ?>">
-  <meta property="og:url" content="http://typojanchi.org/<? echo $locale; ?>/<? echo $permalink; ?>">
-  <meta property="og:image" content="<? echo $home_url; ?>/images/og-image.png" />
+  <link rel="canonical" href="http://typojanchi.org<? echo $home_url; ?>/<? echo $locale; ?>/<? echo $permalink; ?>">
+  <meta property="og:url" content="http://typojanchi.org<? echo $home_url; ?>/<? echo $locale; ?>/<? echo $permalink; ?>">
+  <meta property="og:image" content="http://typojanchi.org<? echo $home_url; ?>/images/og-image.png" />
+  <meta property="og:image:type" content="image/png">
+
   <meta property="og:type" content="website">
   <? if ($locale == "ko"){ ?>
     <meta property="og:locale" content="ko_KR">
@@ -341,6 +344,7 @@ if ($permalink == "") {
 
   </script>
 </body>
+</html>
 
 
 

@@ -258,8 +258,8 @@ WY.views.welcome_view = (function(){
             map_manager.set_detail(false);
             map_manager.reset();
 
-            $("title").text("Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
-            ga('set', { page: location.path, title: "Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레" });
+            $("title").text("타이포잔치 2015 — Typojanchi 2015");
+            ga('set', { page: location.path, title: "타이포잔치 2015 — Typojanchi 2015" });
             ga('send', 'pageview');
         
             $('#content-outer').css({

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 
-  <title>Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레</title>
+  <title>타이포잔치 2015 — Typojanchi 2015</title>
   <meta charset="utf-8"></meta>
 
 
@@ -108,5 +108,5 @@
       <div style="clear:both"></div>
     </div>
     <div class="footer" lang="ko">
-          © 타이포잔치 2015 / Typojanchi 2015
+          © 타이포잔치 2015 — Typojanchi 2015
     </div>

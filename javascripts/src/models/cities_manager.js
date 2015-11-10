@@ -137,7 +137,7 @@ WY.models.CitiesManager = (function(){
     city_pan: function(permalink){
       var dict_name = this.slug_underscore(permalink);
       var latlng = L.latLng(WY.constants.cities_locations[dict_name].latlng);
-      $("title").text(this.el.find(".city_btn[data-permalink=" + permalink + "]").text() + " / Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레");
+      $("title").text(this.el.find(".city_btn[data-permalink=" + permalink + "]").text() + " / 타이포잔치 2015 — Typojanchi 2015");
 
       // debugger;
       this.trigger('city_pan_to', {latlng: latlng, zoom: WY.constants.cities_locations[dict_name].zoom});

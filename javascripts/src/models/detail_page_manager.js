@@ -84,7 +84,7 @@ WY.models.DetailPageManager = (function(){
       this.trigger('load_complete');
 
       this.add_events();
-      ga('set', { page: location.path, title: "About / Typojanchi 2015" });
+      ga('set', { page: location.path, title: "About / 타이포잔치 2015 — Typojanchi 2015" });
       ga('send', 'pageview');
 
     },
@@ -115,7 +115,7 @@ WY.models.DetailPageManager = (function(){
         this.title = this.data["venue_name_" + WY.constants.locale];
       }
 
-      this.title += " / Typojanchi 2015 / 4회 국제 타이포그래피 비엔날레";
+      this.title += " / 타이포잔치 2015 — Typojanchi 2015";
 
       ga('set', { page: location.path, title: this.title });
       ga('send', 'pageview');
