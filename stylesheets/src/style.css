@@ -549,14 +549,12 @@ a.no-underline:hover {
   .map-overlays.btn-logo h1 {
     width: 360px;
     margin: 0 0 -10px -180px;
-    font-size: 18px;
+    font-size: 19px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 539px) {
   .map-overlays.btn-logo h1 {
-    width: 300px;
-    margin: 0 0 -10px -150px;
-    font-size: 16px;
+    display: none;
   }
 }
 .map-overlays.btn-logo:hover {
@@ -583,11 +581,6 @@ a.no-underline:hover {
   opacity: 0.5;
   border: none;
 }
-@media (max-width: 539px) {
-  .map-overlays.btn-ct {
-    display: none;
-  }
-}
 .map-overlays.btn-tj {
   width: 50px;
   height: auto;
@@ -599,11 +592,6 @@ a.no-underline:hover {
 .map-overlays.btn-tj:hover {
   opacity: 0.5;
   border: none;
-}
-@media (max-width: 539px) {
-  .map-overlays.btn-tj {
-    display: none;
-  }
 }
 
 /* ---------------------------------------------- */
