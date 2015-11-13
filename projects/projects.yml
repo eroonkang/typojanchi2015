@@ -104,7 +104,7 @@ projects:
     full_name_ko: 우 판
     url: /projects/artworks/1-wu-fan.yml
   - 
-    full_name_en: Yuma Harada,Shohei Iida
+    full_name_en: Yuma Harada, Shohei Iida
     full_name_ko: 유마 하라다,쇼헤이 이다
     url: /projects/artworks/1-yuma-harada-n-shohei-iida.yml
 
@@ -250,7 +250,7 @@ projects:
   - 
     full_name_en: Liu Jingsha + Li Saobo
     full_name_ko: 류징샤 + 리샤오보
-    url: /projects/artworks/3-li-shaobo.yml
+    url: /projects/artworks/3-liu-jingsha-li-shaobo.yml
   -
     full_name_en: Morimura Makoto
     full_name_ko: 모리무라 마코토
@@ -318,15 +318,15 @@ projects:
     url: /projects/artworks/4-keetra-deandixon.yml
   - 
     full_name_en: Ludovic Balland
-    full_name_ko: 루도빅 발랑
+    full_name_ko: 루도비크 발란트
     url: /projects/artworks/4-ludovic-balland.yml
   -
     full_name_en: Richard Niessen
-    full_name_ko: 리하르트 니선
+    full_name_ko: 리카르트 니선
     url: /projects/artworks/4-richard-niessen.yml
   - 
     full_name_en: Siggi Eggertsson
-    full_name_ko: 지기 에거슨
+    full_name_ko: 시기 에게르트손
     url: /projects/artworks/4-siggi-eggertsson.yml
 
 
@@ -360,9 +360,9 @@ projects:
 -
   idx: 5
   project_name_en: >
-   SEOUL (  ) SOUL: The Bookstores of Seoul
+   SEOUL (  ) SOUL
   project_name_ko: >
-   SEOUL (  ) SOUL: 서울의 동네 서점
+   SEOUL (  ) SOUL
 
   curator_name_en: Kiseob Lee
   curator_name_ko: 이기섭
@@ -531,10 +531,10 @@ projects:
 -
   idx: 6
   project_name_en: >
-   JONGNO (   ) GA: The street as Medium
+   JONGNO (   ) GA
   
   project_name_ko: >
-   종로 (  ) 가: 매체로서의 거리
+   종로 (  ) 가
 
   curator_name_en: Chris Ro
   curator_name_ko: 크리스 로
@@ -701,7 +701,7 @@ projects:
     url: /projects/artworks/8-clark-corp.yml
   - 
     full_name_en: Design Methods
-    full_name_ko: 디자인 메소드
+    full_name_ko: 디자인 메소즈
     url: /projects/artworks/8-design-methods.yml
   -
     full_name_en: Doosungpaper Design Lab

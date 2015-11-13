@@ -1,5 +1,5 @@
 full_name_en: Design Methods
-full_name_ko: 디자인 메소드
+full_name_ko: 디자인 메소즈
 origin_city_en: Seoul
 origin_city_ko: 서울
 origin_country_en: South Korea
@@ -15,13 +15,39 @@ participant_bio_ko: >
 
 artworks:
   -
-    artwork_name_en: 
-    artwork_name_ko: 
-    artwork_year: 
-    artwork_medium_en:
-    artwork_medium_ko: 
-    artwork_desc_en: >
-    artwork_desc_ko: >
+    artwork_name_en:  Welcome Leading Light
+    artwork_name_ko: 환영 유도등
+    artwork_year: 2015
+    artwork_medium_en: Mixed-Media Installation(Three-Channel Video, Three Smartphones), Dimensions Variable
+    artwork_medium_ko: 복합 매체 설치(3채널 비디오, 스마트폰 3대), 크기 가변
+    artwork_desc_en: |
+      When visitors enter the hotel, the leading light turns on with a welcome message, ‘It’s right here.’
+
+      In architectural terms, an leading light is a beacon light to help people find the right evacuation direction. As many kinds of leading lights have different roles and meanings according to their purposes, this sensor-type leading light installed at the hotel entrance ‘welcomes’ hotel visitors. As the leading light says, ‘it’s right here,’ it tells visitors that this is the place they’ve been looking for.
+    artwork_desc_ko: |
+      호텔을 예약하면 안내 메일과 함께 3개의 영상 자료를 받게 될 것이다.
+      다른 나라를 처음 방문했을 때를 기억해보라.
+      목적에 따라 계획을 세우고 웹사이트를 통해 비행기와 호텔을 예약할 것이다.
+      아마도 출국하기 전 이메일이나 전화로 예약 확인도 할 것이다.
+      그리고 출국 당일 집에서 공항으로 이동, 비행기를 타고 목적지에 도착해 자신에게 맞는 교통수단을 선택해 호텔에 도착할 것이다. 이러한 여행 과정에서 호텔이 방문객에게 환영의 메시지를 보낼 수 있는 방법(매체)은 홈페이지, 이메일, 전화다. 이중에서도 이메일은 방문객이 호텔 예약과 동시에 가장 먼저 받게 되는 환영의 인사일 것이다. 그래서 우리는 이메일을 통해 방문객이 가장 많이 문의하고 필요로 하는 정보인 공항에서 호텔까지 도착하는 이동 경로를 정보 서비스로 제공하기로 했다.
+      지하철, 버스, 택시 세가지 대중교통으로 공항에서 호텔까지 이동 경로를 안내 표지판을 중심으로 주변 환경과 함께 영상으로 편집했다. 대부분의 여행객이 수많은 안내표지판의 기호와 문자에 의존해 길을 찾는데, 처음 방문한 도시의 낯선 환경에 조금이나마 빨리 적응할 수 있도록 하기 위해서다. 영상을 통해 도시를 간접 경험했기 때문에 직접 마주하게 될 다양한 도시의 모습에 더욱 집중할 수 있을 것이라 생각한다.
+  -
+    artwork_name_en: Public Transportation Guide
+    artwork_name_ko: 대중교통 이용 안내
+    artwork_year: 2015
+    artwork_medium_en: Mixed-Media Installation(Three-Channel Video, Three Smartphones), Dimensions Variable
+    artwork_medium_ko: 복합 매체 설치(3채널 비디오, 스마트폰 3대), 크기 가변
+    artwork_desc_en: |
+      When customers make a reservation for the hotel, they will receive a confirmation e mail with three short films.
+
+      If you are visiting a country for the first time. You may plan a travel schedule and then book plane tickets and a hotel room on the Internet. You will probably confirm your reservation via e mail or make a phone call before you leave. On the first day of your trip, you may leave your home for the airport, take a flight to the destination, choose any local transportation you want, and then finally arrive at the hotel. Throughout your journey, your hotel can send you a welcome message via an e-mail, phone call, and its website. Among them, the first greeting right after you make a reservation might be a confirmation e-mail. Therefore, we chose an e mail as a way to provide information on the most frequently asked question by travelers: ‘How can I get to the hotel from the local airport?’ The film explains about three different routes from the local airport to the hotel depending on public transportation(subway, bus, and taxi) with road signs and photos. Most travelers rely on street signs, symbols, and letters when they visit a place for the first time. We expect our films to help travelers feel comfortable easily and quickly in the new circumstances. As travelers can experience their destination city in advance through a film, we believe they can fully enjoy the charm of their various destinations after actually arriving there.
+    artwork_desc_ko: |
+      호텔을 예약하면 안내 메일과 함께 3개의 영상 자료를 받게 될 것이다.
+      다른 나라를 처음 방문했을 때를 기억해보라.
+      목적에 따라 계획을 세우고 웹사이트를 통해 비행기와 호텔을 예약할 것이다.
+      아마도 출국하기 전 이메일이나 전화로 예약 확인도 할 것이다.
+      그리고 출국 당일 집에서 공항으로 이동, 비행기를 타고 목적지에 도착해 자신에게 맞는 교통수단을 선택해 호텔에 도착할 것이다. 이러한 여행 과정에서 호텔이 방문객에게 환영의 메시지를 보낼 수 있는 방법(매체)은 홈페이지, 이메일, 전화다. 이중에서도 이메일은 방문객이 호텔 예약과 동시에 가장 먼저 받게 되는 환영의 인사일 것이다. 그래서 우리는 이메일을 통해 방문객이 가장 많이 문의하고 필요로 하는 정보인 공항에서 호텔까지 도착하는 이동 경로를 정보 서비스로 제공하기로 했다.
+      지하철, 버스, 택시 세가지 대중교통으로 공항에서 호텔까지 이동 경로를 안내 표지판을 중심으로 주변 환경과 함께 영상으로 편집했다. 대부분의 여행객이 수많은 안내표지판의 기호와 문자에 의존해 길을 찾는데, 처음 방문한 도시의 낯선 환경에 조금이나마 빨리 적응할 수 있도록 하기 위해서다. 영상을 통해 도시를 간접 경험했기 때문에 직접 마주하게 될 다양한 도시의 모습에 더욱 집중할 수 있을 것이라 생각한다.
 
 
 venue_name_en: Culture Station Seoul 284

@@ -115,7 +115,7 @@ artists:
   origin_lat: 39.9813129
   origin_lng: 116.4664164
   url: "/projects/artworks/1-wu-fan.yml"
-- full_name_en: Yuma Harada,Shohei Iida
+- full_name_en: Yuma Harada, Shohei Iida
   full_name_ko: "유마 하라다,쇼헤이 이다"
   origin_lat: 34.6903772
   origin_lng: 135.5121698
@@ -224,7 +224,7 @@ artists:
   full_name_ko: "류징샤 + 리샤오보"
   origin_lat: 39.984369
   origin_lng: 116.465065
-  url: "/projects/artworks/3-li-shaobo.yml"
+  url: "/projects/artworks/3-liu-jingsha-li-shaobo.yml"
 - full_name_en: Morimura Makoto
   full_name_ko: "모리무라 마코토"
   origin_lat: 34.684731
@@ -266,17 +266,17 @@ artists:
   origin_lng: -151.43849
   url: "/projects/artworks/4-keetra-deandixon.yml"
 - full_name_en: Ludovic Balland
-  full_name_ko: "루도빅 발랑"
+  full_name_ko: "루도비크 발란트"
   origin_lat: 47.55436
   origin_lng: 7.58397
   url: "/projects/artworks/4-ludovic-balland.yml"
 - full_name_en: Richard Niessen
-  full_name_ko: "리하르트 니선"
+  full_name_ko: "리카르트 니선"
   origin_lat: 52.35703
   origin_lng: 4.90692
   url: "/projects/artworks/4-richard-niessen.yml"
 - full_name_en: Siggi Eggertsson
-  full_name_ko: "지기 에거슨"
+  full_name_ko: "시기 에게르트손"
   origin_lat: 52.51251
   origin_lng: 13.45141
   url: "/projects/artworks/4-siggi-eggertsson.yml"
@@ -537,7 +537,7 @@ artists:
   origin_lng: -73.9753
   url: "/projects/artworks/8-clark-corp.yml"
 - full_name_en: Design Methods
-  full_name_ko: "디자인 메소드"
+  full_name_ko: "디자인 메소즈"
   origin_lat: 37.53437
   origin_lng: 127.00646
   url: "/projects/artworks/8-design-methods.yml"
@@ -985,7 +985,7 @@ artworks:
   artwork_name_ko: "타입 시티"
   venue_lat: 37.5558393
   venue_lng: 126.9716173
-  url: "/projects/artworks/3-li-shaobo.yml"
+  url: "/projects/artworks/3-liu-jingsha-li-shaobo.yml"
 - venue_name_en: Culture Station Seoul 284
   venue_name_ko: "문화역서울284"
   artwork_name_en: Townpage (Osaka-City Upstate)
