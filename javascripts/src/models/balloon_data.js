@@ -100,7 +100,7 @@ WY.constants.custom_markers_geojson = {
     {
       "type": "Feature",
       "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
+        "permalink": "6-jongno-ga",
         "title_ko": "종로",
         "title_en": "Jongno",
         "type": "Artwork"
@@ -116,7 +116,7 @@ WY.constants.custom_markers_geojson = {
     {
       "type": "Feature",
       "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
+        "permalink": "6-jongno-ga",
         "title_ko": "종로",
         "title_en": "Jongno",
         "type": "Artwork"
@@ -132,7 +132,7 @@ WY.constants.custom_markers_geojson = {
     {
       "type": "Feature",
       "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
+        "permalink": "6-jongno-ga",
         "title_ko": "종로1-6",
         "title_en": "Jongno1",
         "type": "Artwork"
