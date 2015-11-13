@@ -80,8 +80,8 @@ projects:
     full_name_ko: 레얀느 달 벨로
     url: /projects/artworks/1-rejane-dal-bello.yml
   - 
-    name_ko: 로만 빌헬름
-    name_en: Roman Wilhelm
+    full_name_ko: 로만 빌헬름
+    full_name_en: Roman Wilhelm
     url: /projects/artworks/1-roman-wilhelm.yml
   - 
     full_name_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
@@ -692,9 +692,9 @@ projects:
     full_name_ko: 송봉규
     url: /projects/artworks/8-bongkyu-song.yml
   - 
-    full_name_en: Burger + Stadel + Wal
+    full_name_en: berger + stadel + walsh
     full_name_ko: 부르게르 + 슈타델 + 월시
-    url: /projects/artworks/8-burger-stadel-wal.yml
+    url: /projects/artworks/8-berger-stadel-walsh.yml
   - 
     full_name_en: Clark Corp
     full_name_ko: 클라크 코프
