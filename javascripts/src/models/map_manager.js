@@ -532,6 +532,9 @@ WY.models.MapManager = (function(){
     city_pan_to: function(latlng, zoom) {
       // console.log(latlng);
       this.map.panTo(latlng);
+      this.map.getBounds();
+      debugger;
+
       this.map.setZoom(zoom);
     },
 
