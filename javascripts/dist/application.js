@@ -21879,7 +21879,7 @@ WY.constants.custom_markers_geojson = {
     {
       "type": "Feature",
       "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
+        "permalink": "6-jongno-ga",
         "title_ko": "종로",
         "title_en": "Jongno",
         "type": "Artwork"
@@ -21895,7 +21895,7 @@ WY.constants.custom_markers_geojson = {
     {
       "type": "Feature",
       "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
+        "permalink": "6-jongno-ga",
         "title_ko": "종로",
         "title_en": "Jongno",
         "type": "Artwork"
@@ -21911,7 +21911,7 @@ WY.constants.custom_markers_geojson = {
     {
       "type": "Feature",
       "properties": {
-        "permalink": "6-jongno-ga-the-street-as-medium",
+        "permalink": "6-jongno-ga",
         "title_ko": "종로1-6",
         "title_en": "Jongno1",
         "type": "Artwork"
@@ -22839,6 +22839,12 @@ WY.models.MapManager = (function(){
     city_pan_to: function(latlng, zoom) {
       // console.log(latlng);
       this.map.panTo(latlng);
+      var bound = this.map.getBounds();
+      var bbox_polygon = turf.bboxPolygon([bound._northEast.lng, bound._northEast.lat, bound._southWest.lng, bound._southWest.lat]);
+      // debugger;
+      // bbox_polygon
+      // var within_nodes = turf.within(this.data.nodes.features, bbox_polygon);
+      // debugger;
       this.map.setZoom(zoom);
     },
 
