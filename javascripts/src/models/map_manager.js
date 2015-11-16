@@ -533,7 +533,7 @@ WY.models.MapManager = (function(){
       // console.log(latlng);
       this.map.panTo(latlng);
       this.map.getBounds();
-      debugger;
+      // debugger;
 
       this.map.setZoom(zoom);
     },
