@@ -1139,7 +1139,11 @@ projects:
   curator_name_en: Powered by Doosung Paper
   curator_name_ko: 두성종이
 
-  project_artists: []
+  project_artists: 
+    - 
+      full_name_en: Doosung Paper
+      full_name_ko: 두성종이
+      url: /projects/artworks/18-doosung.yml
 
 
 # PROJECT -----------------------------------------

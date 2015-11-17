@@ -5,6 +5,7 @@ WY.constants.single_projects_routes = {
   "15-opening-performance": "15-dappertutto",
   "16-newsletter-project": "16-mediabus-shinshin",
   "17-archiving-app": "17-rebel9",
+  "18-report-on-the-composition-of-a-city": "18-doosung",
   "7-book-bricks": "7-pati"
 }
 WY.models.DetailPageManager = (function(){

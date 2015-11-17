@@ -102,7 +102,7 @@ WY.models.MapManager = (function(){
 
       var project_icons = {};
 
-      _.each(_.range(1, 18), function(i){
+      _.each(_.range(1, 19), function(i){
 
         var project_icon = L.divIcon({
           className: 'project_icon',

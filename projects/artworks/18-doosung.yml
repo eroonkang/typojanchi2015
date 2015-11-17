@@ -15,23 +15,22 @@ participant_bio_ko: >
 
 artworks:
   -
-    artwork_name_en: Extra Charge 
-    artwork_name_ko: 추가요금
+    artwork_name_en: Report On The Composition Of A City
+    artwork_name_ko: 도시 구성 리포트
     artwork_year: 2015
-    artwork_medium_en:
-    artwork_medium_ko: 
-    artwork_desc_en: >
-      City Welcomes You. Hotels in the cities where we're visiting as a stranger always "WELCOME" you, but it's just "THAT MUCH" of welcoming. Suites-provided depending on the amount of your payment. "You and me" seem to share its entrance, but definitely enjoy "DIFFERENT" things and services. If you want better service, you need to pay more. You could enjoy more and better if you pay more. It's quite obvious in the capitalist society we're living in. Familiar, but not delightful experience, our "WELCOME" just starts at this point of experience. Welcome to "the city". Please pay more if you want us to "WELCOME" you. We "WELCOME" you as much as you pay. We are welcoming you!
-    artwork_desc_ko: >
-      City Welcomes You. 이방인이 되어 방문한 도시에서 경험하는 호텔은 우리를 “환영”하고 있지만 내가 지불하는 만큼 ‘그 정도’의 환영이었다. 지불 금액에 따라 차등 배정되는 객실. 호텔의 입구만 같을 뿐 ‘너와 나’는 ‘다른 것’을 제공받고 있다. 더 나은 더 높은 더 좋은 서비스를 원한다면 그만큼의 추가요금이 필요하다. 지불하는 만큼 더 누릴 수 있다. 이러한 상호작용은 자본주의 사회에서 우리가 경험할 수 있는 ‘흔한 것’이다. 흔하지만 반갑지 않은 경험, 그 경험에서 우리의 WELCOME이 시작 되었다. 도시에 방문한 당신을 환영합니다.더 “환영” 받고 싶다면 조금 더 지불하면 됩니다. 당신이 지불하는 만큼 우리는 당신을 환영합니다. 
+    artwork_medium_en: ""
+    artwork_medium_ko: ""
+    artwork_desc_en: |
+      Of the many aspects that constitute a city, there are some things which always function on their own, but are not visible present – Rules that we all must abide by, such as morals, ethics, obligation of tax as a citizen, endless reproduction of new words, traffic safety laws, were all graphically visualized. As such, there are countless numbers components in the city that do not reveal itself, but is always around us. It is like air that we breathe every day. We don’t notice them because it’s taken for granted.
 
-
+    artwork_desc_ko: |
+      도시를 구성하는 여러 요소들 중 눈에 보이진 않지만 항상 작동하고 있는 도덕과 규율, 즉 시민의 대표적 의무인 세금, 끊임없이 생성되는 신조어, 도로교통법처럼 모두가 지켜야 하는 약속과 질서 등을 그래픽 작업으로 시각화했다. 우리가 사는 도시에는 이처럼 겉으로 드러나진 않아도 늘 곁에 있는 것들이 무수히 많다. 매순간 숨 쉬며 살지만 너무 당연해 그 존재를 인식하지 않는 공기처럼 말이다.
 
 
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: 문화역 서울 284
-venue_detail_en: 
-venue_detail_ko: 
+venue_detail_en:  3F
+venue_detail_ko:  3층
 venue_city_en: Seoul
 venue_city_ko: 서울
 venue_country_en: KR
@@ -43,8 +42,3 @@ venue_lng: 126.9716173
 # - image1.jpg 
 # - image2.jpg 
 # - image3.jpg 
-
-
-
-
-

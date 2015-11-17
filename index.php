@@ -332,6 +332,7 @@ if ($permalink == "") {
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/15-opening-performance" data-permalink="15-opening-performance" class="footer_btn" lang="<? echo $locale; ?>">(15)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" data-permalink="16-newsletter-project" class="footer_btn" lang="<? echo $locale; ?>">(16)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-archiving-app" data-permalink="17-archiving-app" class="footer_btn" lang="<? echo $locale; ?>">(17)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/18-report-on-the-composition-of-a-city" data-permalink="18-report-on-the-composition-of-a-city" class="footer_btn" lang="<? echo $locale; ?>">(18)</a></li>
           </div>
         </ul>
 
