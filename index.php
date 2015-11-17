@@ -136,33 +136,8 @@ if ($permalink == "") {
 
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"></meta>
 
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.js"></script> 
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/underscore-min.js"></script> 
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/backbone-min.js"></script> 
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.columnizer.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/js-yaml.min.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/retina.min.js"></script>  
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/leaflet-src.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/ngraph.graph.js"></script> 
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/turf.min.js"></script>   
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/rAF.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/vector2.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.history.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/WY.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>
-
-  <!-- models -->
-  <script src="<? echo $home_url; ?>/javascripts/src/models/template_loader.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/models/balloon_data.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/models/participants_manager.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/models/projects_manager.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/models/detail_page_manager.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/models/marker_node.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/models/map_manager.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/models/cities_manager.js"></script>
-
-  <!-- views -->
-  <script src="<? echo $home_url; ?>/javascripts/src/views/welcome_view.js"></script>
+  
+  <script src="<? echo $home_url; ?>/javascripts/dist/application.min.js"></script>
 
 </head>
 <body>
