@@ -532,12 +532,18 @@ WY.models.MapManager = (function(){
     city_pan_to: function(latlng, zoom) {
       // console.log(latlng);
       this.map.panTo(latlng);
-      var bound = this.map.getBounds();
-      var bbox_polygon = turf.bboxPolygon([bound._northEast.lng, bound._northEast.lat, bound._southWest.lng, bound._southWest.lat]);
-      // debugger;
-      // bbox_polygon
-      // var within_nodes = turf.within(this.data.nodes.features, bbox_polygon);
-      // debugger;
+// <<<<<<< HEAD
+//       var bound = this.map.getBounds();
+//       var bbox_polygon = turf.bboxPolygon([bound._northEast.lng, bound._northEast.lat, bound._southWest.lng, bound._southWest.lat]);
+//       // debugger;
+//       // bbox_polygon
+//       // var within_nodes = turf.within(this.data.nodes.features, bbox_polygon);
+//       // debugger;
+// =======
+//       this.map.getBounds();
+//       // debugger;
+
+// >>>>>>> production
       this.map.setZoom(zoom);
     },
 

@@ -135,19 +135,7 @@ if ($permalink == "") {
   <link rel="stylesheet" media="all" href="<? echo $home_url; ?>/stylesheets/dist/application.css"></link>
 
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"></meta>
-           <!--   'javascripts/src/vendor/jquery.js',
-            'javascripts/src/vendor/underscore-min.js',
-            'javascripts/src/vendor/backbone-min.js',
-            'javascripts/src/vendor/jquery.columnizer.js',
-            'javascripts/src/vendor/js-yaml.min.js',
-            'javascripts/src/vendor/retina.min.js',  
-            'javascripts/src/vendor/leaflet-src.js',
-            'javascripts/src/vendor/ngraph.graph.js', 
-            'javascripts/src/vendor/turf.min.js',   
-            'javascripts/src/vendor/rAF.js',
-            'javascripts/src/vendor/vector2.js',
-            'javascripts/src/vendor/jquery.history.js',
-             -->
+
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.js"></script> 
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/underscore-min.js"></script> 
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/backbone-min.js"></script> 
