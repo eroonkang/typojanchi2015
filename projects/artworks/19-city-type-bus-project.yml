@@ -1,0 +1,32 @@
+---
+idx: 19
+project_name_en: CITY TYPE BUS PROJECT
+project_name_ko: 도시문자버스 프로젝트
+
+curator_name_en: Chae Lee
+curator_name_ko: 이재원
+
+project_artists: 
+  - 
+    full_name_en: Chae Lee
+    full_name_ko: 이재원
+    url: /projects/artworks/19-chae-lee.yml
+
+
+# PROJECT -----------------------------------------
+
+project_desc_en: |
+  The bus wears the road signages and texts which indicate for moving.
+  This communicates a somewhat ambiguity in its subject and object.
+
+project_desc_ko: |
+  도시의 이동을 가능케하는 지시 수단인 도로 기호와 텍스트를 이동의 주체인 버스가 흡수하여 도시를 래핑한다.
+
+# CURATOR -----------------------------------------
+
+curator_bio_en: | 
+  Chae Lee
+
+curator_bio_ko: |
+  이재원
+type: Project

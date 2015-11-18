@@ -11,7 +11,7 @@ end
 projects_name_yaml = YAML.load_file("./projects/projects.yml")
 
 projects_ymls = projects_name_yaml["projects"].map {|project| "./projects/artworks/" + project["idx"].to_s + "-" + project["project_name_en"].downcase.gsub(/[^\w ]+/, '').gsub(/ +/, '-') + ".yml" }
-
+# byebug
 locations = {
   nodes: { 
     type: "FeatureCollection",
@@ -27,7 +27,8 @@ idx = 0
   #
   # Venues Node Creation Start
   # 
-  
+  # 
+
   venue_info = {
     type: "Feature",
     properties: {
@@ -104,7 +105,7 @@ idx = 0
     # 
 
 
-    if conv_to_permalink(filename).split("-")[0].to_i < 12 || conv_to_permalink(filename).split("-")[0].to_i == 7
+    if conv_to_permalink(filename).split("-")[0].to_i < 11 || conv_to_permalink(filename).split("-")[0].to_i == 7
       # puts conv_to_permalink(filename)
       
 
@@ -177,7 +178,7 @@ projects_yaml["projects"].each do |project|
 
   # connecting project and artwork
   # 
-  if project["idx"].to_i >= 12 || project["idx"].to_i == 7
+  if project["idx"].to_i >= 11 || project["idx"].to_i == 7
     puts project["project_name_ko"]
     tp = "Artist"
   else

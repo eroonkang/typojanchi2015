@@ -1,8 +1,5 @@
-
 projects:
-
 -
-
   idx: 1
   project_name_en: MAIN EXHIBITION
   project_name_ko: 본전시
@@ -756,49 +753,14 @@ projects:
 
 # PROJECT -----------------------------------------
 
-  project_desc_en: |
-    For a stranger who travels cities, the city talks with letters and  welcomes with typography. The word welcome exceeds typography and is more symbolic  and live as a cognitive symbol in all cities. From the very beginning moment to  arrive in a city, to the last minute when one leaves, these illusive letters appear  differently in every moment but stay together all the time as if they were shadows  of visitors. “Welcome/Welcome/Welcome/Welcome/Welcome/Welcome/Welcome/Welcome…Welcome!”  The subject of welcome is a city and the object of it would be a visitor of that city. From the airport terminal roof which is seen when the airplane arrives  in the airport, immigration check points, welcome signs, public transportation,  highway tollgates, hotel front mats, check-ins, welcome kits, free water, souvenirs,  tourist guide fliers, restaurant front doors, and to the hotel front door, giant  city spaces and programs all welcome strangers. These various welcomes’ indication  and communication is very repeatedly and seamlessly planned with a form of typography.  Whether the heart is real or not, all the public space in a city seamlessly speaks  and directs. It more and more obsessively coincides to a stranger’s trace in a city. In the ruthless and repetitive city typographic environment, there is an only place,  an original residence, to serve stable feelings like home. The hotel. It is a tentatively contracted residential private space but it has the same methods to talk as a city  with a small voice, polite or personal tone. However, it is not so different from  the contents and the emotion of a city’s way of speaking. This repetitive and formal environment and program brainwashes and trains a stranger’s oblivion. We would like  to document and experiment on the typography’s action which controls humans in society,  and possibilities, whether the typography can intervene the speaking way instead  of a city. Document the conventional welcome impressions and the ways for the unspecified  masses which is like the uncontrollable wrinkles on a forehead in the city's public  space. Moreover, we would love to experiment and deliver the planned welcome  experience in various ways for the each person in the hotel, a private space. CITY  WELCOMES YOU, WELCOME WELCOMES YOU.
-  project_desc_ko: |
-    도시를 여행하는 이방인에게 도시는 문자로 말을 걸고, 문자로 환영한다. 환영(歡迎)의 단어는 문자를 넘어서 보다 상징적이며 인지적 심벌의 형태로 모든 도시에 존재한다. 이방인이 도시에 도착하는 최초의 순간부터, 도시를 떠나는 마지막 순간까지 이 환영(幻影) 문자는 매 순간 조금씩 다른 모습으로 등장하지만 늘 방문객의 그림자처럼 함께한다.
-
-
-      “환영/환영/환영/환영/환영/환영/환영/환영…환영합니다!” 환영(歡迎)의 주체는 도시이며 아마도 대상은 도시의 방문객일 것이다. 공항에 도착한 비행기 창문으로 보이는 공항 청사의 지붕을 시작으로 출입국 심사대, 환영 피켓, 대중교통 수단, 공용도로 톨게이트, 호텔 정문 발받침, 체크인, 웰콤 키트, 프리 워터, 기념품, 관광지 안내 지라시, 음식점 정문, 호텔 정문 등 거대한 도시의 공간과 프로그램이 이방인을 맞이한다. 이렇게 다양한 환영(歡迎)을 지시하고 소통하는 행위는 문자라는 형식을 통하여 매우 반복적으로 도시에 균일하게 설계되어 있다. 그 마음이 진심이건 겉치장이건 위장막이건 도시에서의 모든 공적 공간은 빈틈을 주지 않고 쉼 없이 말하고 지시한다. 이방인에게는 더더욱 집요하게 그들의 도시 속 행적과 일치한다. 
-
-
-     불안하리만큼 무자비하고 반복적 도시 문자 환경에서 유일하게 원형적인 주거지, 즉 집 같은 안정감을 제공하는 곳이 있다. ‘호텔’. 이 역시 한시적 기거를 위해 계약한 사적 공간이지만 도시와 같은 말하기 방식을 취하고 있다. 작은 소리로 대단히 공손하고 개인적인 음성으로. 그러나 그 역시 도시가 하는 말의 내용이나 감정과는 크게 다르지 않다. 이런 반복적이고 형식적인 환경과 프로그램은 이방인의 망각을 세뇌하고 길들인다. 
-
-
-     우리는 문자가 도시에서 인간을 제어하는 행위와, 문자가 도시를 대신하여 말하는 방식에 개입할 수 있는 가능성에 대해 기록하고 실험하고자 한다. 이마의 주름과도 같이 제어하기 힘든 도시의 공적 공간에서 이루어지는 불특정 다수를 위한 관습적인 환영의 인상과 방법을 기록하고, 호텔 방이라는 사적 공간 안에서 개개인을 정조준한 계획된 환영의 경험을 다양한 방식으로 실험하고 전달하고자 한다.
-
-
-     환영(歡迎)의 메시지를 환영(幻影)의 주체로 하여금
-
-
-     CITY WELCOMES YOU, WELCOME WELCOMES YOU
+  project_desc_en: ""
+  project_desc_ko: ""
 
 
 # CURATOR -----------------------------------------
 
-curator_bio_en: |
-  Cho Hyun 
-  Between 2001 and 2002, the designer Cho Hyun was deeply absorbed with trash. In 2002, he and Choi Sung-min developed the FF Tronic typeface based on the rules of objects encountered in daily life, and this led to his work as a registered font designer with FSI (Font Shop International, Germany). That same year, he earned a Master of Fine Arts degree in graphic design from Yale University, and in 2004 he established his S/O Project studio in Seoul. With a name meaning “Subject and Object Project in everyday life,” this effort sees him making continued attempts at work incorporating perspectives on daily life and everyday objects into typographic expression. In particular, the studio’s efforts are focused on combining and expanding the relationship of subject and object into different media. This design methodology has led him to produce unique and experimental results even when cooperating with very commercial enterprises, and his various media and communication approaches, which represent a departure from established methods, have met with considerable praise, including honors from the Red Dot Awards, TDC New York, TDC Tokyo, ADC, and the ARC Awards. Cho’s experiments with the subject/object in everyday existence are also realized in the field of education, and the results of his work with students based on everyday themes and areas of interest have been honored by the Red Dot Awards.
-
-  Dae Ki Shim
-  Dae Ki Shim is a co-founder and graphic designer at D. A & Company. He received a bachelor degree in graphic design from Central Saint Martins, University of the Arts London and a masters degree in the department of anthropology from University College London (UCL), University of London. His design works have been shown at the Fold Gallery, Slade School of Fine Art, Shoreditch Town Hall, Left Bank, UCL Quad, Round House London, London Design Festival and the PS 35 Gallery as well as the Zero One Design Center, Seoul Citizens Hall, Sejong Art Center, π Room Gallery and among others. Recently, his work titled “Now & Here” was invited to the 2015 Asia Next which is a Poster Experimental Design Exhibition in China, Taiwan and Korea. Moreover, he also curated and directed several design exhibitions such as How is it going?, Between the First Show and Between #2. His works were selected in the Korea Design Awards, Red Dot Awards among others. He currently teaches at Seoul Women’s University.
-
-  Choong Ho Lee
-  Choong Ho Lee is an art director and graphic designer graduated from Central Saint Martin’s College of Art and Design in London with a BA (Hons) in graphic design. He also received an MA in graphic design from London College of Communication. He founded his own graphic design studio SW20 which works on a wide range of projects across a variety of media. He currently teaches at Korea National University of Arts, University of Seoul and Ewha Womans University. His works were awarded by multiple awards including New York Art Directors Club, New York Type Directors Club, Tokyo Type Directors Club etc. His works have been exhibited and published in magazines and books across the world.
-
-curator_bio_ko: |
-  조현
-  경원대학교를 졸업하고 예일 대학교에서 그래픽 디자인으로 석사 학위를 받았다. 2004년 서울을 기반으로 한 자신의 스튜디오 ‘S/O 프로젝트(Subject and Object Project in everyday life)’를 설립한 후, 스튜디오 이름에서 드러나듯 일상과 일상 사물에 대한 관점을 다양한 미디어에 접목하고, 확장하며, 타이포그래피로 표현하는 실험적 작업을 계속해오고 있다. 현재 한국종합예술학교에서 학생들을 가르치고 있다.
-
-  심대기
-  디에이앤컴퍼니의 공동 창립자이자 그래픽 디자이너 심대기는 런던 센트럴 세인트 마틴스 대학교에서 그래픽디자인을 공부하고, 런던대학교 유니버시티 칼리지 런던(UCL)에서 인류학 석사 학위를 받았다. 폴드 갤러리, 슬레이드 미술학교, 쇼어디치 타운 홀, 레프트 뱅크, 라운재드 하우스 런던, 런던 디자인 페스티벌, 뉴욕 PS 35 갤러리, 제로원 디자인센터, 서울 시청, 세종문화회관 등에서 디자인 작업을 선보였으며, 최근 작업 <지금 & 여기>는 중국, 대만, 한국에서 열린 실험적인 포스터 전시회 ‘2015 아시아 넥스트’에 초대되었다. 또한 《어떠세요?》, 《첫 번째 공연 사이》, 《사이 #2》 등의 디자인 전시를 큐레이팅하기도 했다. 그의 작업은 코리아 디자인 어워드, 레드닷 어워드 등에 선정되었으며, 2015년 제10회 한국 타이포그라피학회 전시에서 그랑프리를 차지했다. 현재 서울여자대학교에서 학생들을 가르치고 있다.
-
-  이충호
-  아트 디렉터이자 그래픽 디자이너인 이충호는 런던 센트럴 세인트 마틴스 대학교에서 그래픽디자인으로 학사 학위를, 런던 칼리지 오브 커뮤니케이션에서 같은 전공으로 석사 학위를 받았다. SW20을 운영하며 그래픽디자인 전반에 걸친 다양한 작업을 하고 있으며 한국예술종합학교, 서울시립대학교, 이화여자대학교 등에서 학생들을 가르치고 있다. 그의 작업은 뉴욕 ADC, 뉴욕 TDC, 도쿄 TDC 등 국제 디자인 공모전에서 여러 차례 수상하였으며 국내외 잡지를 비롯한 여러 매체에 소개되었다.
-
+  curator_bio_en: ""
+  curator_bio_ko: ""
 
 -
   idx: 9
@@ -926,7 +888,7 @@ curator_bio_ko: |
       Gute Form, Jiwon Yu
     full_name_ko: |
       구트폼, 유지원
-    url: /projects/artworks/11-guteform-jiwonyu.yml
+    url: /projects/artworks/11-guteform-jiwon-yu.yml
 
 # PROJECT -----------------------------------------
 
@@ -1179,7 +1141,7 @@ curator_bio_ko: |
 
 -
   idx: 19
-  project_name_en: REPORT ON THE COMPOSITION OF A CITY
+  project_name_en: CITY TYPE BUS PROJECT
   project_name_ko: 도시문자버스 프로젝트
 
   curator_name_en: 

@@ -101,7 +101,6 @@ if ($permalink == "") {
 
 <!DOCTYPE html>
 <head>
-
   <title><? echo $title; ?>타이포잔치 2015 — Typojanchi 2015</title>
   <meta charset="utf-8"></meta>
 
@@ -319,8 +318,8 @@ if ($permalink == "") {
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/2-six-images-six-texts-one-remix" data-permalink="2-six-images-six-texts-one-remix" class="footer_btn" lang="<? echo $locale; ?>">(2)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/3-asia-city-texture" data-permalink="3-asia-city-texture" class="footer_btn" lang="<? echo $locale; ?>">(3)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/4--on-the-walls" data-permalink="4--on-the-walls" class="footer_btn" lang="<? echo $locale; ?>">(4)</a></li>
-            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-seoul-soul-the-bookstores-of-seoul" data-permalink="5-seoul-soul-the-bookstores-of-seoul" class="footer_btn" lang="<? echo $locale; ?>">(5)</a></li>
-            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga-the-street-as-medium" data-permalink="6-jongno-ga-the-street-as-medium" class="footer_btn" lang="<? echo $locale; ?>">(6)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/5-seoul-soul" data-permalink="5-seoul-soul" class="footer_btn" lang="<? echo $locale; ?>">(5)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/6-jongno-ga" data-permalink="6-jongno-ga" class="footer_btn" lang="<? echo $locale; ?>">(6)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/7-book-bricks" data-permalink="7-book-bricks" class="footer_btn" lang="<? echo $locale; ?>">(7)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/8-city-welcomes-you" data-permalink="8-city-welcomes-you" class="footer_btn" lang="<? echo $locale; ?>">(8)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-urban-wordplay" data-permalink="9-urban-wordplay" class="footer_btn" lang="<? echo $locale; ?>">(9)</a></li>
@@ -333,6 +332,7 @@ if ($permalink == "") {
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" data-permalink="16-newsletter-project" class="footer_btn" lang="<? echo $locale; ?>">(16)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-archiving-app" data-permalink="17-archiving-app" class="footer_btn" lang="<? echo $locale; ?>">(17)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/18-report-on-the-composition-of-a-city" data-permalink="18-report-on-the-composition-of-a-city" class="footer_btn" lang="<? echo $locale; ?>">(18)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/19-city-type-bus-project" data-permalink="19-city-type-bus-project" class="footer_btn" lang="<? echo $locale; ?>">(19)</a></li>
           </div>
         </ul>
 

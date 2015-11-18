@@ -102,7 +102,7 @@ WY.models.MapManager = (function(){
 
       var project_icons = {};
 
-      _.each(_.range(1, 19), function(i){
+      _.each(_.range(1, 20), function(i){
 
         var project_icon = L.divIcon({
           className: 'project_icon',
@@ -622,7 +622,7 @@ WY.models.MapManager = (function(){
         case "Project":
           var linked_node_type;
 
-          if (node.data.properties.idx >= 12 ||  node.data.properties.idx == 7) { 
+          if (node.data.properties.idx >= 11 ||  node.data.properties.idx == 7) { 
             linked_node_type = "Artist"; 
           } else if (node.data.properties.idx == 5){
             linked_node_type = "Venue";
