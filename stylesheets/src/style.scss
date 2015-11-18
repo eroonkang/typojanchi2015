@@ -204,6 +204,17 @@ $medim-width: 1200px;
         padding: 1em 0 0 0;
         @include small_type;
       }
+      p.venue {
+        @include small_type;
+        padding-right: 2em;
+        .underline {
+          border-bottom: 1px solid;
+        }
+      }
+      .divider {
+        border-top: 1px solid;
+        margin: 40px 30px 40px 0;
+      }
     }
 
     .cols {
@@ -336,7 +347,7 @@ $medim-width: 1200px;
     }
 
     .credit {
-      // @include small_type;
+      @include small_type;
       // min-height:170px;
       @include phone {
         width:100% !important ;
@@ -365,8 +376,8 @@ $medim-width: 1200px;
 
   }
   .logos {
-    padding-top:110px;
-    height: 200px;
+    padding-top:60px;
+    // height: 200px;
     text-align: center;
     img.ct {
       width:70px;
