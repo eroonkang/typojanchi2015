@@ -22142,6 +22142,7 @@ WY.models.CitiesManager = (function(){
 })();
 
 WY.constants.single_projects_routes = {
+  "11-city-typography-reportage": "11-guteform-jiwon-yu",
   "12-exhibition-space": "12-zero-lab",
   "13-website-project": "13-eroonkang",
   "14-docent-video-projects": "14-nolgong",
@@ -22149,6 +22150,7 @@ WY.constants.single_projects_routes = {
   "16-newsletter-project": "16-mediabus-shinshin",
   "17-archiving-app": "17-rebel9",
   "18-report-on-the-composition-of-a-city": "18-doosung",
+  "19-city-type-bus-project": "19-chae-lee",
   "7-book-bricks": "7-pati"
 }
 WY.models.DetailPageManager = (function(){
@@ -22410,7 +22412,7 @@ WY.models.MapManager = (function(){
 
       var project_icons = {};
 
-      _.each(_.range(1, 19), function(i){
+      _.each(_.range(1, 20), function(i){
 
         var project_icon = L.divIcon({
           className: 'project_icon',
@@ -22930,7 +22932,7 @@ WY.models.MapManager = (function(){
         case "Project":
           var linked_node_type;
 
-          if (node.data.properties.idx >= 12 ||  node.data.properties.idx == 7) { 
+          if (node.data.properties.idx >= 11 ||  node.data.properties.idx == 7) { 
             linked_node_type = "Artist"; 
           } else if (node.data.properties.idx == 5){
             linked_node_type = "Venue";
