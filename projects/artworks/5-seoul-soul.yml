@@ -5,8 +5,10 @@ project_name_en: |
   SEOUL (  ) SOUL
 project_name_ko: |
   SEOUL (  ) SOUL
-curator_name_en: Kiseob Lee
-curator_name_ko: "이기섭"
+curator_name_en: |
+  Curated by Kiseob Lee
+curator_name_ko: |
+  큐레이터: 이기섭
 project_desc_en: |
   SEOUL (  ) SOUL: The Neighborhood Bookstores of the Seoul
 

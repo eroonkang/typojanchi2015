@@ -15,10 +15,10 @@ projects_yaml["projects"].each do |project|
   project_info["project_name_ko"] =  project["project_name_ko"]
   project_info["curator_name_en"] =  project["curator_name_en"]
   project_info["curator_name_ko"] =  project["curator_name_ko"]
-  project_info["project_desc_en"] =  project["project_desc_en"]
-  project_info["project_desc_ko"] =  project["project_desc_ko"]
-  project_info["curator_bio_en"] = project["curator_bio_en"]
-  project_info["curator_bio_ko"] = project["curator_bio_ko"]
+  # project_info["project_desc_en"] =  project["project_desc_en"]
+  # project_info["project_desc_ko"] =  project["project_desc_ko"]
+  # project_info["curator_bio_en"] = project["curator_bio_en"]
+  # project_info["curator_bio_ko"] = project["curator_bio_ko"]
   project_info["type"] = "Project"
 
 
