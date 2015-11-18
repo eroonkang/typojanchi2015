@@ -22148,6 +22148,7 @@ WY.constants.single_projects_routes = {
   "15-opening-performance": "15-dappertutto",
   "16-newsletter-project": "16-mediabus-shinshin",
   "17-archiving-app": "17-rebel9",
+  "18-report-on-the-composition-of-a-city": "18-doosung",
   "7-book-bricks": "7-pati"
 }
 WY.models.DetailPageManager = (function(){
@@ -22409,7 +22410,7 @@ WY.models.MapManager = (function(){
 
       var project_icons = {};
 
-      _.each(_.range(1, 18), function(i){
+      _.each(_.range(1, 19), function(i){
 
         var project_icon = L.divIcon({
           className: 'project_icon',
@@ -22839,12 +22840,18 @@ WY.models.MapManager = (function(){
     city_pan_to: function(latlng, zoom) {
       // console.log(latlng);
       this.map.panTo(latlng);
-      var bound = this.map.getBounds();
-      var bbox_polygon = turf.bboxPolygon([bound._northEast.lng, bound._northEast.lat, bound._southWest.lng, bound._southWest.lat]);
-      // debugger;
-      // bbox_polygon
-      // var within_nodes = turf.within(this.data.nodes.features, bbox_polygon);
-      // debugger;
+// <<<<<<< HEAD
+//       var bound = this.map.getBounds();
+//       var bbox_polygon = turf.bboxPolygon([bound._northEast.lng, bound._northEast.lat, bound._southWest.lng, bound._southWest.lat]);
+//       // debugger;
+//       // bbox_polygon
+//       // var within_nodes = turf.within(this.data.nodes.features, bbox_polygon);
+//       // debugger;
+// =======
+//       this.map.getBounds();
+//       // debugger;
+
+// >>>>>>> production
       this.map.setZoom(zoom);
     },
 
