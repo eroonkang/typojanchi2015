@@ -17,207 +17,615 @@ curator_bio_ko: |
   디지털 폰트까지》(2010)가 있다.
 type: Project
 photos:
-- "./images/exhibitions/1-brownfox-1.jpg"
-- "./images/exhibitions/1-brownfox-2.jpg"
-- "./images/exhibitions/1-brownfox-3.jpg"
-- "./images/exhibitions/1-brownfox-4.jpg"
-- "./images/exhibitions/1-brownfox-5.jpg"
-- "./images/exhibitions/1-byoungil-choi-1.jpg"
-- "./images/exhibitions/1-byoungil-choi-10.jpg"
-- "./images/exhibitions/1-byoungil-choi-11.jpg"
-- "./images/exhibitions/1-byoungil-choi-12.jpg"
-- "./images/exhibitions/1-byoungil-choi-13.jpg"
-- "./images/exhibitions/1-byoungil-choi-14.jpg"
-- "./images/exhibitions/1-byoungil-choi-15.jpg"
-- "./images/exhibitions/1-byoungil-choi-16.jpg"
-- "./images/exhibitions/1-byoungil-choi-17.jpg"
-- "./images/exhibitions/1-byoungil-choi-18.jpg"
-- "./images/exhibitions/1-byoungil-choi-2.jpg"
-- "./images/exhibitions/1-byoungil-choi-3.jpg"
-- "./images/exhibitions/1-byoungil-choi-4.jpg"
-- "./images/exhibitions/1-byoungil-choi-5.jpg"
-- "./images/exhibitions/1-byoungil-choi-6.jpg"
-- "./images/exhibitions/1-byoungil-choi-7.jpg"
-- "./images/exhibitions/1-byoungil-choi-8.jpg"
-- "./images/exhibitions/1-byoungil-choi-9.jpg"
-- "./images/exhibitions/1-catherine-griffiths-1.jpg"
-- "./images/exhibitions/1-catherine-griffiths-2.jpg"
-- "./images/exhibitions/1-catherine-griffiths-3.jpg"
-- "./images/exhibitions/1-catherine-griffiths-4.jpg"
-- "./images/exhibitions/1-catherine-griffiths-5.jpg"
-- "./images/exhibitions/1-catherine-griffiths-6.jpg"
-- "./images/exhibitions/1-catherine-griffiths-7.jpg"
-- "./images/exhibitions/1-catherine-griffiths-8.jpg"
-- "./images/exhibitions/1-dainippon-1.jpg"
-- "./images/exhibitions/1-dainippon-2.jpg"
-- "./images/exhibitions/1-dainippon-3.jpg"
-- "./images/exhibitions/1-dainippon-4.jpg"
-- "./images/exhibitions/1-dainippon-5.jpg"
-- "./images/exhibitions/1-dainippon-6.jpg"
-- "./images/exhibitions/1-dainippon-7.jpg"
-- "./images/exhibitions/1-daniel-eatock-1.jpg"
-- "./images/exhibitions/1-dongwan-kook-1.jpg"
-- "./images/exhibitions/1-dongwan-kook-2.jpg"
-- "./images/exhibitions/1-doosup-kim-1.jpg"
-- "./images/exhibitions/1-doosup-kim-2.jpg"
-- "./images/exhibitions/1-doosup-kim-3.jpg"
-- "./images/exhibitions/1-doosup-kim-4.jpg"
-- "./images/exhibitions/1-doosup-kim-5.jpg"
-- "./images/exhibitions/1-doosup-kim-6.jpg"
-- "./images/exhibitions/1-doosup-kim-7.jpg"
-- "./images/exhibitions/1-elodie-boyer-1.jpg"
-- "./images/exhibitions/1-elodie-boyer-10.jpg"
-- "./images/exhibitions/1-elodie-boyer-11.jpg"
-- "./images/exhibitions/1-elodie-boyer-12.jpg"
-- "./images/exhibitions/1-elodie-boyer-13.jpg"
-- "./images/exhibitions/1-elodie-boyer-14.jpg"
-- "./images/exhibitions/1-elodie-boyer-15.jpg"
-- "./images/exhibitions/1-elodie-boyer-16.jpg"
-- "./images/exhibitions/1-elodie-boyer-17.jpg"
-- "./images/exhibitions/1-elodie-boyer-2.jpg"
-- "./images/exhibitions/1-elodie-boyer-3.jpg"
-- "./images/exhibitions/1-elodie-boyer-4.jpg"
-- "./images/exhibitions/1-elodie-boyer-5.jpg"
-- "./images/exhibitions/1-elodie-boyer-6.jpg"
-- "./images/exhibitions/1-elodie-boyer-7.jpg"
-- "./images/exhibitions/1-elodie-boyer-8.jpg"
-- "./images/exhibitions/1-elodie-boyer-9.jpg"
-- "./images/exhibitions/1-hyounyoul-joe-1.jpg"
-- "./images/exhibitions/1-hyounyoul-joe-2.jpg"
-- "./images/exhibitions/1-hyounyoul-joe-3.jpg"
-- "./images/exhibitions/1-hyounyoul-joe-4.jpg"
-- "./images/exhibitions/1-jisung-yi-1.jpg"
-- "./images/exhibitions/1-jisung-yi-2.jpg"
-- "./images/exhibitions/1-jisung-yi-3.jpg"
-- "./images/exhibitions/1-jisung-yi-4.jpg"
-- "./images/exhibitions/1-jisung-yi-5.jpg"
-- "./images/exhibitions/1-jisung-yi-6.jpg"
-- "./images/exhibitions/1-kota-iguchi-1.jpg"
-- "./images/exhibitions/1-kota-iguchi-2.jpg"
-- "./images/exhibitions/1-kota-iguchi-3.jpg"
-- "./images/exhibitions/1-kota-iguchi-4.jpg"
-- "./images/exhibitions/1-kota-iguchi-5.jpg"
-- "./images/exhibitions/1-kota-iguchi-6.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-1.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-10.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-11.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-12.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-2.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-3.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-4.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-5.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-6.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-7.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-8.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-9.jpg"
-- "./images/exhibitions/1-leslie-david-1.jpg"
-- "./images/exhibitions/1-leslie-david-2.jpg"
-- "./images/exhibitions/1-r2-1.jpg"
-- "./images/exhibitions/1-r2-2.jpg"
-- "./images/exhibitions/1-research-n-development-1.jpg"
-- "./images/exhibitions/1-research-n-development-10.jpg"
-- "./images/exhibitions/1-research-n-development-11.jpg"
-- "./images/exhibitions/1-research-n-development-12.jpg"
-- "./images/exhibitions/1-research-n-development-13.jpg"
-- "./images/exhibitions/1-research-n-development-14.jpg"
-- "./images/exhibitions/1-research-n-development-2.jpg"
-- "./images/exhibitions/1-research-n-development-3.jpg"
-- "./images/exhibitions/1-research-n-development-4.jpg"
-- "./images/exhibitions/1-research-n-development-5.jpg"
-- "./images/exhibitions/1-research-n-development-6.jpg"
-- "./images/exhibitions/1-research-n-development-7.jpg"
-- "./images/exhibitions/1-research-n-development-8.jpg"
-- "./images/exhibitions/1-research-n-development-9.jpg"
-- "./images/exhibitions/1-roman-wilhelm-1.jpg"
-- "./images/exhibitions/1-roman-wilhelm-2.jpg"
-- "./images/exhibitions/1-roman-wilhelm-3.jpg"
-- "./images/exhibitions/1-roman-wilhelm-4.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-1.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-2.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-3.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-4.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-5.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-6.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-7.jpg"
-- "./images/exhibitions/1-studio-spass-1.jpg"
-- "./images/exhibitions/1-studio-spass-2.jpg"
-- "./images/exhibitions/1-studio-spass-3.jpg"
-- "./images/exhibitions/1-studio-spass-4.jpg"
-- "./images/exhibitions/1-studio-spass-5.jpg"
-- "./images/exhibitions/1-studio-spass-6.jpg"
-- "./images/exhibitions/1-till-wiedeck-1.jpg"
-- "./images/exhibitions/1-till-wiedeck-2.jpg"
-- "./images/exhibitions/1-till-wiedeck-3.jpg"
-- "./images/exhibitions/1-till-wiedeck-4.jpg"
-- "./images/exhibitions/1-till-wiedeck-5.jpg"
-- "./images/exhibitions/1-till-wiedeck-6.jpg"
-- "./images/exhibitions/1-till-wiedeck-7.jpg"
-- "./images/exhibitions/1-wang-ziyuan-1.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-1.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-10.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-11.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-12.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-13.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-14.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-15.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-16.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-17.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-18.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-19.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-2.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-20.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-21.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-22.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-23.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-24.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-25.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-26.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-27.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-28.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-29.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-3.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-30.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-31.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-32.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-33.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-34.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-35.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-36.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-37.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-38.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-39.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-4.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-40.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-41.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-42.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-43.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-44.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-45.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-46.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-47.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-48.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-49.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-5.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-50.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-51.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-52.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-53.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-54.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-55.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-6.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-7.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-8.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young-9.jpg"
-- "./images/exhibitions/1-wu-fan-1.jpg"
-- "./images/exhibitions/1-wu-fan-2.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-1.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-10.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-11.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-2.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-3.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-4.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-5.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-6.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-7.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-8.jpg"
-- "./images/exhibitions/1-yuma-harada-n-shohei-iida-9.jpg"
+- url: "./images/exhibitions/1-brownfox-1.jpg"
+  title_ko: "브라운폭스"
+  title_en: Brownfox
+- url: "./images/exhibitions/1-brownfox-2.jpg"
+  title_ko: "브라운폭스"
+  title_en: Brownfox
+- url: "./images/exhibitions/1-brownfox-3.jpg"
+  title_ko: "브라운폭스"
+  title_en: Brownfox
+- url: "./images/exhibitions/1-brownfox-4.jpg"
+  title_ko: "브라운폭스"
+  title_en: Brownfox
+- url: "./images/exhibitions/1-brownfox-5.jpg"
+  title_ko: "브라운폭스"
+  title_en: Brownfox
+- url: "./images/exhibitions/1-byoungil-choi-1.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-10.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-11.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-12.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-13.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-14.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-15.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-16.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-17.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-18.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-2.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-3.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-4.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-5.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-6.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-7.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-8.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-byoungil-choi-9.jpg"
+  title_ko: "최병일"
+  title_en: Byoungil Choi
+- url: "./images/exhibitions/1-catherine-griffiths-1.jpg"
+  title_ko: "캐서린 그리피스"
+  title_en: Catherine Griffiths
+- url: "./images/exhibitions/1-catherine-griffiths-2.jpg"
+  title_ko: "캐서린 그리피스"
+  title_en: Catherine Griffiths
+- url: "./images/exhibitions/1-catherine-griffiths-3.jpg"
+  title_ko: "캐서린 그리피스"
+  title_en: Catherine Griffiths
+- url: "./images/exhibitions/1-catherine-griffiths-4.jpg"
+  title_ko: "캐서린 그리피스"
+  title_en: Catherine Griffiths
+- url: "./images/exhibitions/1-catherine-griffiths-5.jpg"
+  title_ko: "캐서린 그리피스"
+  title_en: Catherine Griffiths
+- url: "./images/exhibitions/1-catherine-griffiths-6.jpg"
+  title_ko: "캐서린 그리피스"
+  title_en: Catherine Griffiths
+- url: "./images/exhibitions/1-catherine-griffiths-7.jpg"
+  title_ko: "캐서린 그리피스"
+  title_en: Catherine Griffiths
+- url: "./images/exhibitions/1-catherine-griffiths-8.jpg"
+  title_ko: "캐서린 그리피스"
+  title_en: Catherine Griffiths
+- url: "./images/exhibitions/1-dainippon-1.jpg"
+  title_ko: "다이니폰 타입"
+  title_en: Dainippon Type Organization
+- url: "./images/exhibitions/1-dainippon-2.jpg"
+  title_ko: "다이니폰 타입"
+  title_en: Dainippon Type Organization
+- url: "./images/exhibitions/1-dainippon-3.jpg"
+  title_ko: "다이니폰 타입"
+  title_en: Dainippon Type Organization
+- url: "./images/exhibitions/1-dainippon-4.jpg"
+  title_ko: "다이니폰 타입"
+  title_en: Dainippon Type Organization
+- url: "./images/exhibitions/1-dainippon-5.jpg"
+  title_ko: "다이니폰 타입"
+  title_en: Dainippon Type Organization
+- url: "./images/exhibitions/1-dainippon-6.jpg"
+  title_ko: "다이니폰 타입"
+  title_en: Dainippon Type Organization
+- url: "./images/exhibitions/1-dainippon-7.jpg"
+  title_ko: "다이니폰 타입"
+  title_en: Dainippon Type Organization
+- url: "./images/exhibitions/1-daniel-eatock-1.jpg"
+  title_ko: "다니엘 이톡"
+  title_en: Daniel Eatock
+- url: "./images/exhibitions/1-dongwan-kook-1.jpg"
+  title_ko: "국동완"
+  title_en: Dongwan Kook
+- url: "./images/exhibitions/1-dongwan-kook-2.jpg"
+  title_ko: "국동완"
+  title_en: Dongwan Kook
+- url: "./images/exhibitions/1-doosup-kim-1.jpg"
+  title_ko: "김두섭"
+  title_en: Doosup Kim
+- url: "./images/exhibitions/1-doosup-kim-2.jpg"
+  title_ko: "김두섭"
+  title_en: Doosup Kim
+- url: "./images/exhibitions/1-doosup-kim-3.jpg"
+  title_ko: "김두섭"
+  title_en: Doosup Kim
+- url: "./images/exhibitions/1-doosup-kim-4.jpg"
+  title_ko: "김두섭"
+  title_en: Doosup Kim
+- url: "./images/exhibitions/1-doosup-kim-5.jpg"
+  title_ko: "김두섭"
+  title_en: Doosup Kim
+- url: "./images/exhibitions/1-doosup-kim-6.jpg"
+  title_ko: "김두섭"
+  title_en: Doosup Kim
+- url: "./images/exhibitions/1-doosup-kim-7.jpg"
+  title_ko: "김두섭"
+  title_en: Doosup Kim
+- url: "./images/exhibitions/1-elodie-boyer-1.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-10.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-11.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-12.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-13.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-14.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-15.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-16.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-17.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-2.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-3.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-4.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-5.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-6.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-7.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-8.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-elodie-boyer-9.jpg"
+  title_ko: "엘로디 보이어"
+  title_en: Elodie Boyer
+- url: "./images/exhibitions/1-hyounyoul-joe-1.jpg"
+  title_ko: "조현열"
+  title_en: Hyoun Youl Joe
+- url: "./images/exhibitions/1-hyounyoul-joe-2.jpg"
+  title_ko: "조현열"
+  title_en: Hyoun Youl Joe
+- url: "./images/exhibitions/1-hyounyoul-joe-3.jpg"
+  title_ko: "조현열"
+  title_en: Hyoun Youl Joe
+- url: "./images/exhibitions/1-hyounyoul-joe-4.jpg"
+  title_ko: "조현열"
+  title_en: Hyoun Youl Joe
+- url: "./images/exhibitions/1-jisung-yi-1.jpg"
+  title_ko: "이지성"
+  title_en: Jisung Yi
+- url: "./images/exhibitions/1-jisung-yi-2.jpg"
+  title_ko: "이지성"
+  title_en: Jisung Yi
+- url: "./images/exhibitions/1-jisung-yi-3.jpg"
+  title_ko: "이지성"
+  title_en: Jisung Yi
+- url: "./images/exhibitions/1-jisung-yi-4.jpg"
+  title_ko: "이지성"
+  title_en: Jisung Yi
+- url: "./images/exhibitions/1-jisung-yi-5.jpg"
+  title_ko: "이지성"
+  title_en: Jisung Yi
+- url: "./images/exhibitions/1-jisung-yi-6.jpg"
+  title_ko: "이지성"
+  title_en: Jisung Yi
+- url: "./images/exhibitions/1-kota-iguchi-1.jpg"
+  title_ko: "코타 이구치(티모테/세카이)"
+  title_en: Kota Iguchi (TYMOTE / CEKAI)
+- url: "./images/exhibitions/1-kota-iguchi-2.jpg"
+  title_ko: "코타 이구치(티모테/세카이)"
+  title_en: Kota Iguchi (TYMOTE / CEKAI)
+- url: "./images/exhibitions/1-kota-iguchi-3.jpg"
+  title_ko: "코타 이구치(티모테/세카이)"
+  title_en: Kota Iguchi (TYMOTE / CEKAI)
+- url: "./images/exhibitions/1-kota-iguchi-4.jpg"
+  title_ko: "코타 이구치(티모테/세카이)"
+  title_en: Kota Iguchi (TYMOTE / CEKAI)
+- url: "./images/exhibitions/1-kota-iguchi-5.jpg"
+  title_ko: "코타 이구치(티모테/세카이)"
+  title_en: Kota Iguchi (TYMOTE / CEKAI)
+- url: "./images/exhibitions/1-kota-iguchi-6.jpg"
+  title_ko: "코타 이구치(티모테/세카이)"
+  title_en: Kota Iguchi (TYMOTE / CEKAI)
+- url: "./images/exhibitions/1-kyuhyung-cho-1.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-10.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-11.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-12.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-2.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-3.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-4.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-5.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-6.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-7.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-8.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-kyuhyung-cho-9.jpg"
+  title_ko: "조규형"
+  title_en: Kyuhyung Cho
+- url: "./images/exhibitions/1-leslie-david-1.jpg"
+  title_ko: "레슬리 데이비드"
+  title_en: Leslie David
+- url: "./images/exhibitions/1-leslie-david-2.jpg"
+  title_ko: "레슬리 데이비드"
+  title_en: Leslie David
+- url: "./images/exhibitions/1-r2-1.jpg"
+  title_ko: R2
+  title_en: R2
+- url: "./images/exhibitions/1-r2-2.jpg"
+  title_ko: R2
+  title_en: R2
+- url: "./images/exhibitions/1-research-n-development-1.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-10.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-11.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-12.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-13.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-14.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-2.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-3.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-4.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-5.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-6.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-7.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-8.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-research-n-development-9.jpg"
+  title_ko: "리서치 앤 디벨롭먼트"
+  title_en: Research and Development
+- url: "./images/exhibitions/1-roman-wilhelm-1.jpg"
+  title_ko: "로만 빌헬름"
+  title_en: Roman Wilhelm
+- url: "./images/exhibitions/1-roman-wilhelm-2.jpg"
+  title_ko: "로만 빌헬름"
+  title_en: Roman Wilhelm
+- url: "./images/exhibitions/1-roman-wilhelm-3.jpg"
+  title_ko: "로만 빌헬름"
+  title_en: Roman Wilhelm
+- url: "./images/exhibitions/1-roman-wilhelm-4.jpg"
+  title_ko: "로만 빌헬름"
+  title_en: Roman Wilhelm
+- url: "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-1.jpg"
+  title_ko: "산드라 카세나르 + 바르트 더바에츠, 토마스 라르"
+  title_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
+- url: "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-2.jpg"
+  title_ko: "산드라 카세나르 + 바르트 더바에츠, 토마스 라르"
+  title_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
+- url: "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-3.jpg"
+  title_ko: "산드라 카세나르 + 바르트 더바에츠, 토마스 라르"
+  title_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
+- url: "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-4.jpg"
+  title_ko: "산드라 카세나르 + 바르트 더바에츠, 토마스 라르"
+  title_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
+- url: "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-5.jpg"
+  title_ko: "산드라 카세나르 + 바르트 더바에츠, 토마스 라르"
+  title_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
+- url: "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-6.jpg"
+  title_ko: "산드라 카세나르 + 바르트 더바에츠, 토마스 라르"
+  title_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
+- url: "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-7.jpg"
+  title_ko: "산드라 카세나르 + 바르트 더바에츠, 토마스 라르"
+  title_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
+- url: "./images/exhibitions/1-studio-spass-1.jpg"
+  title_ko: "스튜디오 스파스"
+  title_en: StudioSpass
+- url: "./images/exhibitions/1-studio-spass-2.jpg"
+  title_ko: "스튜디오 스파스"
+  title_en: StudioSpass
+- url: "./images/exhibitions/1-studio-spass-3.jpg"
+  title_ko: "스튜디오 스파스"
+  title_en: StudioSpass
+- url: "./images/exhibitions/1-studio-spass-4.jpg"
+  title_ko: "스튜디오 스파스"
+  title_en: StudioSpass
+- url: "./images/exhibitions/1-studio-spass-5.jpg"
+  title_ko: "스튜디오 스파스"
+  title_en: StudioSpass
+- url: "./images/exhibitions/1-studio-spass-6.jpg"
+  title_ko: "스튜디오 스파스"
+  title_en: StudioSpass
+- url: "./images/exhibitions/1-till-wiedeck-1.jpg"
+  title_ko: "헬로우미 (틸 비데크)"
+  title_en: HelloMe (Till Wiedeck)
+- url: "./images/exhibitions/1-till-wiedeck-2.jpg"
+  title_ko: "헬로우미 (틸 비데크)"
+  title_en: HelloMe (Till Wiedeck)
+- url: "./images/exhibitions/1-till-wiedeck-3.jpg"
+  title_ko: "헬로우미 (틸 비데크)"
+  title_en: HelloMe (Till Wiedeck)
+- url: "./images/exhibitions/1-till-wiedeck-4.jpg"
+  title_ko: "헬로우미 (틸 비데크)"
+  title_en: HelloMe (Till Wiedeck)
+- url: "./images/exhibitions/1-till-wiedeck-5.jpg"
+  title_ko: "헬로우미 (틸 비데크)"
+  title_en: HelloMe (Till Wiedeck)
+- url: "./images/exhibitions/1-till-wiedeck-6.jpg"
+  title_ko: "헬로우미 (틸 비데크)"
+  title_en: HelloMe (Till Wiedeck)
+- url: "./images/exhibitions/1-till-wiedeck-7.jpg"
+  title_ko: "헬로우미 (틸 비데크)"
+  title_en: HelloMe (Till Wiedeck)
+- url: "./images/exhibitions/1-wang-ziyuan-1.jpg"
+  title_ko: "왕쯔위안"
+  title_en: Wang Ziyuan
+- url: "./images/exhibitions/1-why-not-n-gordon-young-1.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-10.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-11.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-12.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-13.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-14.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-15.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-16.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-17.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-18.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-19.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-2.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-20.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-21.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-22.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-23.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-24.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-25.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-26.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-27.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-28.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-29.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-3.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-30.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-31.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-32.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-33.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-34.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-35.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-36.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-37.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-38.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-39.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-4.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-40.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-41.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-42.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-43.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-44.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-45.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-46.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-47.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-48.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-49.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-5.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-50.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-51.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-52.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-53.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-54.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-55.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-6.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-7.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-8.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-why-not-n-gordon-young-9.jpg"
+  title_ko: "와이 낫 어소시에이츠 + 고든 영"
+  title_en: Why Not Associates + Gordon Young
+- url: "./images/exhibitions/1-wu-fan-1.jpg"
+  title_ko: "우 판"
+  title_en: Wu Fan
+- url: "./images/exhibitions/1-wu-fan-2.jpg"
+  title_ko: "우 판"
+  title_en: Wu Fan
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-1.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-10.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-11.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-2.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-3.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-4.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-5.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-6.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-7.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-8.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida
+- url: "./images/exhibitions/1-yuma-harada-n-shohei-iida-9.jpg"
+  title_ko: "유마 하라다, 쇼헤이 이다"
+  title_en: Yuma Harada, Shohei Iida

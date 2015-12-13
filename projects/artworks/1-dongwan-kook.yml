@@ -21,34 +21,34 @@ artworks:
       Dongwan Kook's “Letter Drawing” is a work which finds an instant image made with hands by following, ignoring, or modifying letter forms. Some landscapes which are attached to the surface of text, mixed with the inner and outer side of the artist, shows something unexpected. This piece is based on the lyrics from Kim Mokin's second album piece, Society With No Answer. It begins with, “People who haven’t received the answer are on the street / To receive the answer even in the cold weather.” We would see a different scene of the plaza with this.
     artwork_desc_ko: |
       국동완의 ‘글자 드로잉’은 글자의 형태를 따르거나 무시 혹은 변형하면서 손이 즉각적으로 그려내는 심상을 발견하는 작업이다. 텍스트의 표피에 들러붙어 작가의 내면과 외부가 곤죽이 된 채 드러내는 어떤 풍경들은 늘 뻔한 예상을 빗나간다. 이 작품은 가수 김목인의 2집 수록곡 <대답 없는 사회>에서 발췌한 가사를 바탕으로 한다. “대답을 못 들은 사람들이 길 위에 나와 있네 / 추운 날씨에도 대답을 들으러”로 시작되는 노랫말이 드러내줄 또 다른 광장의 풍경을 기대한다.
-- artwork_name_en: 'Around #1'
-  artwork_name_ko: 'Around #1'
-  artwork_year: 2015
-  artwork_medium_en: Colored pencil, 75x52cm
-  artwork_medium_ko: "종이에 색연필, 75x52cm"
-  artwork_desc_en: ''
-  artwork_desc_ko: ''
-- artwork_name_en: Korean Showergown
-  artwork_name_ko: "한복 같은 샤워 가운"
-  artwork_year: 2015
-  artwork_medium_en: Graphite on hanji, 41x37cm
-  artwork_medium_ko: "한지에 흑연, 41x37cm"
-  artwork_desc_en: ''
-  artwork_desc_ko: ''
-- artwork_name_en: Vinyl Notice
-  artwork_name_ko: Vinyl Notice
-  artwork_year: 2015
-  artwork_medium_en: Graphite on hanji, 46x38cm
-  artwork_medium_ko: "한지에 흑연, 46x38cm"
-  artwork_desc_en: ''
-  artwork_desc_ko: ''
-- artwork_name_en: Mindful Document
-  artwork_name_ko: Mindful Document
-  artwork_year: 2015
-  artwork_medium_en: Graphite on hanji, 100x196cm
-  artwork_medium_ko: "한지에 흑연, 100x196cm"
-  artwork_desc_en: ''
-  artwork_desc_ko: ''
+  - artwork_name_en: 'Around #1'
+    artwork_name_ko: 'Around #1'
+    artwork_year: 2015
+    artwork_medium_en: Colored pencil, 75x52cm
+    artwork_medium_ko: "종이에 색연필, 75x52cm"
+    artwork_desc_en: ''
+    artwork_desc_ko: ''
+  - artwork_name_en: Korean Showergown
+    artwork_name_ko: "한복 같은 샤워 가운"
+    artwork_year: 2015
+    artwork_medium_en: Graphite on hanji, 41x37cm
+    artwork_medium_ko: "한지에 흑연, 41x37cm"
+    artwork_desc_en: ''
+    artwork_desc_ko: ''
+  - artwork_name_en: Vinyl Notice
+    artwork_name_ko: Vinyl Notice
+    artwork_year: 2015
+    artwork_medium_en: Graphite on hanji, 46x38cm
+    artwork_medium_ko: "한지에 흑연, 46x38cm"
+    artwork_desc_en: ''
+    artwork_desc_ko: ''
+  - artwork_name_en: Mindful Document
+    artwork_name_ko: Mindful Document
+    artwork_year: 2015
+    artwork_medium_en: Graphite on hanji, 100x196cm
+    artwork_medium_ko: "한지에 흑연, 100x196cm"
+    artwork_desc_en: ''
+    artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F

@@ -38,42 +38,120 @@ curator_bio_ko: |
   그래픽 디자이너. 홍익대학교 시각디자인과를 졸업하고 무사시노 미술대학교에서 석사 학위를 받았다. 안그라픽스 디자이너, 눈디자인 디자인 디렉터로 일했으며 진달래 동인이다. 현재 서울여자대학교 시각디자인과 교수로 학생들을 가르치며 한글의 모습을 현대적, 입체적으로 표현하는 디자인 작업을 하고 있다. 옮긴 책으로   &lt;디자인의 디자인 &gt; (2007)이 있다.
 type: Project
 photos:
-- "./images/exhibitions/10-a-city-without-1.jpg"
-- "./images/exhibitions/10-a-city-without-10.jpg"
-- "./images/exhibitions/10-a-city-without-11.jpg"
-- "./images/exhibitions/10-a-city-without-12.jpg"
-- "./images/exhibitions/10-a-city-without-13.jpg"
-- "./images/exhibitions/10-a-city-without-14.jpg"
-- "./images/exhibitions/10-a-city-without-15.jpg"
-- "./images/exhibitions/10-a-city-without-16.jpg"
-- "./images/exhibitions/10-a-city-without-17.jpg"
-- "./images/exhibitions/10-a-city-without-18.jpg"
-- "./images/exhibitions/10-a-city-without-19.jpg"
-- "./images/exhibitions/10-a-city-without-2.jpg"
-- "./images/exhibitions/10-a-city-without-20.jpg"
-- "./images/exhibitions/10-a-city-without-21.jpg"
-- "./images/exhibitions/10-a-city-without-22.jpg"
-- "./images/exhibitions/10-a-city-without-23.jpg"
-- "./images/exhibitions/10-a-city-without-24.jpg"
-- "./images/exhibitions/10-a-city-without-25.jpg"
-- "./images/exhibitions/10-a-city-without-26.jpg"
-- "./images/exhibitions/10-a-city-without-27.jpg"
-- "./images/exhibitions/10-a-city-without-28.jpg"
-- "./images/exhibitions/10-a-city-without-29.jpg"
-- "./images/exhibitions/10-a-city-without-3.jpg"
-- "./images/exhibitions/10-a-city-without-30.jpg"
-- "./images/exhibitions/10-a-city-without-31.jpg"
-- "./images/exhibitions/10-a-city-without-32.jpg"
-- "./images/exhibitions/10-a-city-without-33.jpg"
-- "./images/exhibitions/10-a-city-without-34.jpg"
-- "./images/exhibitions/10-a-city-without-35.jpg"
-- "./images/exhibitions/10-a-city-without-36.jpg"
-- "./images/exhibitions/10-a-city-without-37.jpg"
-- "./images/exhibitions/10-a-city-without-38.jpg"
-- "./images/exhibitions/10-a-city-without-39.jpg"
-- "./images/exhibitions/10-a-city-without-4.jpg"
-- "./images/exhibitions/10-a-city-without-5.jpg"
-- "./images/exhibitions/10-a-city-without-6.jpg"
-- "./images/exhibitions/10-a-city-without-7.jpg"
-- "./images/exhibitions/10-a-city-without-8.jpg"
-- "./images/exhibitions/10-a-city-without-9.jpg"
+- url: "./images/exhibitions/10-a-city-without--1.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--10.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--11.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--12.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--13.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--14.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--15.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--16.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--17.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--18.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--19.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--2.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--20.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--21.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--22.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--23.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--24.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--25.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--26.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--27.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--28.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--29.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--3.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--30.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--31.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--32.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--33.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--34.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--35.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--36.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--37.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--38.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--39.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--4.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--5.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--6.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--7.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--8.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/10-a-city-without--9.jpg"
+  title_ko: 
+  title_en: 

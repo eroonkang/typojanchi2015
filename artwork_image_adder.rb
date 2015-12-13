@@ -6,6 +6,10 @@ def conv_to_permalink(filename)
   /^(.+\/)*(.+)\.(.+)$/.match(filename)[2].downcase
 end
 
+def conv_to_permalink_jpg(filename)
+  /^(.+\/)*(.+)\.(.+)$/.match(filename)[2].downcase.gsub(/-[0-9]*$/, "")
+end
+
 
 # 아트워크를 조사한다
 # 아트워크를 조사하여 퍼머링크를 추출한다
@@ -25,25 +29,33 @@ Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
     
     Dir["./images/exhibitions/*.jpg"].each_with_index do |jpg_name, i|
       # byebug
-      if conv_to_permalink(jpg_name).split("-")[0].to_i == idx
-        artwork_yaml["photos"] << jpg_name
+      permalink = conv_to_permalink_jpg(jpg_name)
+      info = YAML.load_file("./projects/artworks/#{permalink}.yml")
+
+      if permalink.split("-")[0].to_i == idx
+        photo_info = {}
+        photo_info["url"] = jpg_name
+        photo_info["title_ko"] = info["full_name_ko"]# == nil ? info["full_name_ko"] :  
+        photo_info["title_en"] = info["full_name_en"]# == nil ?
+
+        artwork_yaml["photos"] << photo_info
       end
     end
     File.open(filename, 'w') {|f| f.write artwork_yaml.to_yaml(:indent => 4) } #Store
 
   else
-    #아트워크임 
-    permalink = conv_to_permalink(filename)
-    artwork_yaml["photos"] = []
+    # #아트워크임 
+    # permalink = conv_to_permalink(filename)
+    # artwork_yaml["photos"] = []
     
 
-    Dir["./images/exhibitions/*.jpg"].each_with_index do |jpg_name, i|
-      unless jpg_name.index(permalink) == nil
-        artwork_yaml["photos"] << jpg_name
-      end
-    end
+    # Dir["./images/exhibitions/*.jpg"].each_with_index do |jpg_name, i|
+    #   unless jpg_name.index(permalink) == nil
+    #     artwork_yaml["photos"] << jpg_name
+    #   end
+    # end
     
-    File.open(filename, 'w') {|f| f.write artwork_yaml.to_yaml } 
+    # File.open(filename, 'w') {|f| f.write artwork_yaml.to_yaml } 
     
   end
 end

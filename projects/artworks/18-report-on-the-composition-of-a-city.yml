@@ -16,16 +16,42 @@ curator_bio_en: |
 curator_bio_ko: "두성종이 \n"
 type: Project
 photos:
-- "./images/exhibitions/18-doosung-1.jpg"
-- "./images/exhibitions/18-doosung-10.jpg"
-- "./images/exhibitions/18-doosung-11.jpg"
-- "./images/exhibitions/18-doosung-12.jpg"
-- "./images/exhibitions/18-doosung-13.jpg"
-- "./images/exhibitions/18-doosung-2.jpg"
-- "./images/exhibitions/18-doosung-3.jpg"
-- "./images/exhibitions/18-doosung-4.jpg"
-- "./images/exhibitions/18-doosung-5.jpg"
-- "./images/exhibitions/18-doosung-6.jpg"
-- "./images/exhibitions/18-doosung-7.jpg"
-- "./images/exhibitions/18-doosung-8.jpg"
-- "./images/exhibitions/18-doosung-9.jpg"
+- url: "./images/exhibitions/18-doosung-1.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-10.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-11.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-12.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-13.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-2.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-3.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-4.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-5.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-6.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-7.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-8.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/18-doosung-9.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab

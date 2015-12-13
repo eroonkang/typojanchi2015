@@ -100,68 +100,198 @@ curator_bio_ko: |
   아트 디렉터이자 그래픽 디자이너인 이충호는 런던 센트럴 세인트 마틴스 대학교에서 그래픽디자인으로 학사 학위를, 런던 칼리지 오브 커뮤니케이션에서 같은 전공으로 석사 학위를 받았다. SW20을 운영하며 그래픽디자인 전반에 걸친 다양한 작업을 하고 있으며 한국예술종합학교, 서울시립대학교, 이화여자대학교 등에서 학생들을 가르치고 있다. 그의 작업은 뉴욕 ADC, 뉴욕 TDC, 도쿄 TDC 등 국제 디자인 공모전에서 여러 차례 수상하였으며 국내외 잡지를 비롯한 여러 매체에 소개되었다.
 type: Project
 photos:
-- "./images/exhibitions/8-akiko-masunaga-1.jpg"
-- "./images/exhibitions/8-berger-stadel-walsh-1.jpg"
-- "./images/exhibitions/8-berger-stadel-walsh-2.jpg"
-- "./images/exhibitions/8-berger-stadel-walsh-3.jpg"
-- "./images/exhibitions/8-berger-stadel-walsh-4.jpg"
-- "./images/exhibitions/8-berger-stadel-walsh-5.jpg"
-- "./images/exhibitions/8-bongkyu-song-1.jpg"
-- "./images/exhibitions/8-bongkyu-song-2.jpg"
-- "./images/exhibitions/8-bongkyu-song-3.jpg"
-- "./images/exhibitions/8-choongho-lee-1.jpg"
-- "./images/exhibitions/8-choongho-lee-2.jpg"
-- "./images/exhibitions/8-choongho-lee-3.jpg"
-- "./images/exhibitions/8-choongho-lee-4.jpg"
-- "./images/exhibitions/8-city-welcomes-you-1.jpg"
-- "./images/exhibitions/8-city-welcomes-you-13.jpg"
-- "./images/exhibitions/8-city-welcomes-you-14.jpg"
-- "./images/exhibitions/8-city-welcomes-you-2.jpg"
-- "./images/exhibitions/8-city-welcomes-you-3.jpg"
-- "./images/exhibitions/8-clark-corp-1.jpg"
-- "./images/exhibitions/8-clark-corp-2.jpg"
-- "./images/exhibitions/8-clark-corp-3.jpg"
-- "./images/exhibitions/8-clauss-nils-1.jpg"
-- "./images/exhibitions/8-clauss-nils-2.jpg"
-- "./images/exhibitions/8-clauss-nils-3.jpg"
-- "./images/exhibitions/8-clauss-nils-4.jpg"
-- "./images/exhibitions/8-daeki-shim-1.jpg"
-- "./images/exhibitions/8-daeki-shim-2.jpg"
-- "./images/exhibitions/8-daeki-shim-3.jpg"
-- "./images/exhibitions/8-daeki-shim-4.jpg"
-- "./images/exhibitions/8-daeki-shim-5.jpg"
-- "./images/exhibitions/8-daeki-shim-6.jpg"
-- "./images/exhibitions/8-daeki-shim-7.jpg"
-- "./images/exhibitions/8-design-methods-1.jpg"
-- "./images/exhibitions/8-design-methods-2.jpg"
-- "./images/exhibitions/8-doosung-1.jpg"
-- "./images/exhibitions/8-doosung-2.jpg"
-- "./images/exhibitions/8-doosung-3.jpg"
-- "./images/exhibitions/8-doosung-4.jpg"
-- "./images/exhibitions/8-doosung-5.jpg"
-- "./images/exhibitions/8-doosung-6.jpg"
-- "./images/exhibitions/8-gang-moonsick-1.jpg"
-- "./images/exhibitions/8-gang-moonsick-2.jpg"
-- "./images/exhibitions/8-gang-moonsick-3.jpg"
-- "./images/exhibitions/8-gang-moonsick-4.jpg"
-- "./images/exhibitions/8-gang-moonsick-5.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-1.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-10.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-2.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-3.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-4.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-5.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-6.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-7.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-8.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-9.jpg"
-- "./images/exhibitions/8-mathew-kneebone-1.jpg"
-- "./images/exhibitions/8-team-thursday-1.jpg"
-- "./images/exhibitions/8-team-thursday-2.jpg"
-- "./images/exhibitions/8-team-thursday-3.jpg"
-- "./images/exhibitions/8-team-thursday-4.jpg"
-- "./images/exhibitions/8-team-thursday-5.jpg"
-- "./images/exhibitions/8-team-thursday-6.jpg"
-- "./images/exhibitions/8-team-thursday-7.jpg"
-- "./images/exhibitions/8-team-thursday-8.jpg"
-- "./images/exhibitions/8-team-thursday-9.jpg"
+- url: "./images/exhibitions/8-akiko-masunaga-1.jpg"
+  title_ko: "마수나가 아키코"
+  title_en: Akiko Masunaga
+- url: "./images/exhibitions/8-berger-stadel-walsh-1.jpg"
+  title_ko: "부르게르 + 슈타델 + 월시"
+  title_en: berger + stadel + walsh
+- url: "./images/exhibitions/8-berger-stadel-walsh-2.jpg"
+  title_ko: "부르게르 + 슈타델 + 월시"
+  title_en: berger + stadel + walsh
+- url: "./images/exhibitions/8-berger-stadel-walsh-3.jpg"
+  title_ko: "부르게르 + 슈타델 + 월시"
+  title_en: berger + stadel + walsh
+- url: "./images/exhibitions/8-berger-stadel-walsh-4.jpg"
+  title_ko: "부르게르 + 슈타델 + 월시"
+  title_en: berger + stadel + walsh
+- url: "./images/exhibitions/8-berger-stadel-walsh-5.jpg"
+  title_ko: "부르게르 + 슈타델 + 월시"
+  title_en: berger + stadel + walsh
+- url: "./images/exhibitions/8-bongkyu-song-1.jpg"
+  title_ko: "송봉규"
+  title_en: Bongkyu Song
+- url: "./images/exhibitions/8-bongkyu-song-2.jpg"
+  title_ko: "송봉규"
+  title_en: Bongkyu Song
+- url: "./images/exhibitions/8-bongkyu-song-3.jpg"
+  title_ko: "송봉규"
+  title_en: Bongkyu Song
+- url: "./images/exhibitions/8-choongho-lee-1.jpg"
+  title_ko: "이충호"
+  title_en: Choongho Lee
+- url: "./images/exhibitions/8-choongho-lee-2.jpg"
+  title_ko: "이충호"
+  title_en: Choongho Lee
+- url: "./images/exhibitions/8-choongho-lee-3.jpg"
+  title_ko: "이충호"
+  title_en: Choongho Lee
+- url: "./images/exhibitions/8-choongho-lee-4.jpg"
+  title_ko: "이충호"
+  title_en: Choongho Lee
+- url: "./images/exhibitions/8-city-welcomes-you-1.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/8-city-welcomes-you-13.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/8-city-welcomes-you-14.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/8-city-welcomes-you-2.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/8-city-welcomes-you-3.jpg"
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/8-clark-corp-1.jpg"
+  title_ko: "클라크 코프"
+  title_en: Clark Corp
+- url: "./images/exhibitions/8-clark-corp-2.jpg"
+  title_ko: "클라크 코프"
+  title_en: Clark Corp
+- url: "./images/exhibitions/8-clark-corp-3.jpg"
+  title_ko: "클라크 코프"
+  title_en: Clark Corp
+- url: "./images/exhibitions/8-clauss-nils-1.jpg"
+  title_ko: "닐스 클라우스"
+  title_en: Nils Clauss
+- url: "./images/exhibitions/8-clauss-nils-2.jpg"
+  title_ko: "닐스 클라우스"
+  title_en: Nils Clauss
+- url: "./images/exhibitions/8-clauss-nils-3.jpg"
+  title_ko: "닐스 클라우스"
+  title_en: Nils Clauss
+- url: "./images/exhibitions/8-clauss-nils-4.jpg"
+  title_ko: "닐스 클라우스"
+  title_en: Nils Clauss
+- url: "./images/exhibitions/8-daeki-shim-1.jpg"
+  title_ko: "심대기"
+  title_en: Dae Ki Shim
+- url: "./images/exhibitions/8-daeki-shim-2.jpg"
+  title_ko: "심대기"
+  title_en: Dae Ki Shim
+- url: "./images/exhibitions/8-daeki-shim-3.jpg"
+  title_ko: "심대기"
+  title_en: Dae Ki Shim
+- url: "./images/exhibitions/8-daeki-shim-4.jpg"
+  title_ko: "심대기"
+  title_en: Dae Ki Shim
+- url: "./images/exhibitions/8-daeki-shim-5.jpg"
+  title_ko: "심대기"
+  title_en: Dae Ki Shim
+- url: "./images/exhibitions/8-daeki-shim-6.jpg"
+  title_ko: "심대기"
+  title_en: Dae Ki Shim
+- url: "./images/exhibitions/8-daeki-shim-7.jpg"
+  title_ko: "심대기"
+  title_en: Dae Ki Shim
+- url: "./images/exhibitions/8-design-methods-1.jpg"
+  title_ko: "디자인 메소즈"
+  title_en: Design Methods
+- url: "./images/exhibitions/8-design-methods-2.jpg"
+  title_ko: "디자인 메소즈"
+  title_en: Design Methods
+- url: "./images/exhibitions/8-doosung-1.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/8-doosung-2.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/8-doosung-3.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/8-doosung-4.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/8-doosung-5.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/8-doosung-6.jpg"
+  title_ko: "두성종이 디자인연구소"
+  title_en: Doosungpaper Design Lab
+- url: "./images/exhibitions/8-gang-moonsick-1.jpg"
+  title_ko: "강문식"
+  title_en: Gang Moonsick
+- url: "./images/exhibitions/8-gang-moonsick-2.jpg"
+  title_ko: "강문식"
+  title_en: Gang Moonsick
+- url: "./images/exhibitions/8-gang-moonsick-3.jpg"
+  title_ko: "강문식"
+  title_en: Gang Moonsick
+- url: "./images/exhibitions/8-gang-moonsick-4.jpg"
+  title_ko: "강문식"
+  title_en: Gang Moonsick
+- url: "./images/exhibitions/8-gang-moonsick-5.jpg"
+  title_ko: "강문식"
+  title_en: Gang Moonsick
+- url: "./images/exhibitions/8-hyojun-shim-n-wong-1.jpg"
+  title_ko: "심효준 + 키이스 웡"
+  title_en: Hyojun Shim + Keith Wong
+- url: "./images/exhibitions/8-hyojun-shim-n-wong-10.jpg"
+  title_ko: "심효준 + 키이스 웡"
+  title_en: Hyojun Shim + Keith Wong
+- url: "./images/exhibitions/8-hyojun-shim-n-wong-2.jpg"
+  title_ko: "심효준 + 키이스 웡"
+  title_en: Hyojun Shim + Keith Wong
+- url: "./images/exhibitions/8-hyojun-shim-n-wong-3.jpg"
+  title_ko: "심효준 + 키이스 웡"
+  title_en: Hyojun Shim + Keith Wong
+- url: "./images/exhibitions/8-hyojun-shim-n-wong-4.jpg"
+  title_ko: "심효준 + 키이스 웡"
+  title_en: Hyojun Shim + Keith Wong
+- url: "./images/exhibitions/8-hyojun-shim-n-wong-5.jpg"
+  title_ko: "심효준 + 키이스 웡"
+  title_en: Hyojun Shim + Keith Wong
+- url: "./images/exhibitions/8-hyojun-shim-n-wong-6.jpg"
+  title_ko: "심효준 + 키이스 웡"
+  title_en: Hyojun Shim + Keith Wong
+- url: "./images/exhibitions/8-hyojun-shim-n-wong-7.jpg"
+  title_ko: "심효준 + 키이스 웡"
+  title_en: Hyojun Shim + Keith Wong
+- url: "./images/exhibitions/8-hyojun-shim-n-wong-8.jpg"
+  title_ko: "심효준 + 키이스 웡"
+  title_en: Hyojun Shim + Keith Wong
+- url: "./images/exhibitions/8-hyojun-shim-n-wong-9.jpg"
+  title_ko: "심효준 + 키이스 웡"
+  title_en: Hyojun Shim + Keith Wong
+- url: "./images/exhibitions/8-mathew-kneebone-1.jpg"
+  title_ko: "매슈 니본"
+  title_en: Mathew Kneebone
+- url: "./images/exhibitions/8-team-thursday-1.jpg"
+  title_ko: "팀 서즈데이"
+  title_en: Team Thursday
+- url: "./images/exhibitions/8-team-thursday-2.jpg"
+  title_ko: "팀 서즈데이"
+  title_en: Team Thursday
+- url: "./images/exhibitions/8-team-thursday-3.jpg"
+  title_ko: "팀 서즈데이"
+  title_en: Team Thursday
+- url: "./images/exhibitions/8-team-thursday-4.jpg"
+  title_ko: "팀 서즈데이"
+  title_en: Team Thursday
+- url: "./images/exhibitions/8-team-thursday-5.jpg"
+  title_ko: "팀 서즈데이"
+  title_en: Team Thursday
+- url: "./images/exhibitions/8-team-thursday-6.jpg"
+  title_ko: "팀 서즈데이"
+  title_en: Team Thursday
+- url: "./images/exhibitions/8-team-thursday-7.jpg"
+  title_ko: "팀 서즈데이"
+  title_en: Team Thursday
+- url: "./images/exhibitions/8-team-thursday-8.jpg"
+  title_ko: "팀 서즈데이"
+  title_en: Team Thursday
+- url: "./images/exhibitions/8-team-thursday-9.jpg"
+  title_ko: "팀 서즈데이"
+  title_en: Team Thursday
