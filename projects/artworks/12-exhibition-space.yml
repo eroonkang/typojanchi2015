@@ -10,3 +10,13 @@ project_desc_ko: ''
 curator_bio_en: ''
 curator_bio_ko: ''
 type: Project
+photos:
+- "./images/exhibitions/12-zero-lab-1.jpg"
+- "./images/exhibitions/12-zero-lab-2.jpg"
+- "./images/exhibitions/12-zero-lab-3.jpg"
+- "./images/exhibitions/12-zero-lab-4.jpg"
+- "./images/exhibitions/12-zero-lab-5.jpg"
+- "./images/exhibitions/12-zero-lab-6.jpg"
+- "./images/exhibitions/12-zero-lab-7.jpg"
+- "./images/exhibitions/12-zero-lab-8.jpg"
+- "./images/exhibitions/12-zero-lab-9.jpg"

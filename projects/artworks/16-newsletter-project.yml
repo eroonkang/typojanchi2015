@@ -10,3 +10,5 @@ project_desc_ko: ''
 curator_bio_en: ''
 curator_bio_ko: ''
 type: Project
+photos:
+- "./images/exhibitions/16-mediabus-shinshin-1.jpg"

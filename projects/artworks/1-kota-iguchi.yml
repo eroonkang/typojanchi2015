@@ -1,49 +1,41 @@
+---
 full_name_en: Kota Iguchi (TYMOTE / CEKAI)
-full_name_ko: 코타 이구치(티모테/세카이)
+full_name_ko: "코타 이구치(티모테/세카이)"
 origin_city_en: Kyoto-shi
-origin_city_ko: 교토
+origin_city_ko: "교토"
 origin_country_en: Japan
-origin_country_ko: 일본
+origin_country_ko: "일본"
 origin_lat: 35.011636
 origin_lng: 135.768029
-
-participant_bio_en: >
- Kota Iguchi is a designer based on Kyoto and Tokyo. He graduated from the Science in Design Department at Musashino Art University. He founded TYMOTE in 2008 and CEKAI in 2012. In 2014, he won a D&AD Award and in 2015 a New York ADC Award. He teaches at Kyoto Seika University and Kyoto University of Art and Design.
-
-
-participant_bio_ko: >
- 코타 이구치는 교토와 도쿄를 기반으로 활동하는 디자이너이다. 무사시노 미술대학교에서 디자인 과학을 공부했으며 2008년에 티모테를, 2012년에 세카이를 설립해 운영해오고 있다. 2014년 영국 D&AD 어워드, 뉴욕 ADC 어워드 등에서 수상했으며, 교토 세카이 대학교와 교토 미술디자인대학교에서 학생들을 가르친다. 
-
+participant_bio_en: |
+  Kota Iguchi is a designer based on Kyoto and Tokyo. He graduated from the Science in Design Department at Musashino Art University. He founded TYMOTE in 2008 and CEKAI in 2012. In 2014, he won a D&AD Award and in 2015 a New York ADC Award. He teaches at Kyoto Seika University and Kyoto University of Art and Design.
+participant_bio_ko: "코타 이구치는 교토와 도쿄를 기반으로 활동하는 디자이너이다. 무사시노 미술대학교에서 디자인 과학을 공부했으며
+  2008년에 티모테를, 2012년에 세카이를 설립해 운영해오고 있다. 2014년 영국 D&AD 어워드, 뉴욕 ADC 어워드 등에서 수상했으며,
+  교토 세카이 대학교와 교토 미술디자인대학교에서 학생들을 가르친다. \n"
 artworks:
-  -
-    artwork_name_en: Kanji city
-    artwork_name_ko: 간지 도시
+  - artwork_name_en: Kanji city
+    artwork_name_ko: "간지 도시"
     artwork_year: 2012
     artwork_medium_en: Video Installation, 4min
-    artwork_medium_ko: 비디오 설치, 4분
-    artwork_desc_en: >
-     Kanji City is a video piece that expresses the landscape  with The kanji (the logographic Chinese characters that are used in the modern Japanese) The city of Kyoto is shown with various animations of kanji such as tree, river, temple and gate.Push pedals of a bicycle, also  move in conjunction with the image.Three screens will allow for more spatial images.
-
-    artwork_desc_ko: >
-     <간지 도시>는 현재 일본에서 사용하는 중국 문자를 가지고 교토 풍경을 보여주는 비디오 작품이다. 나무, 강, 절, 문과 같은 사물을 다양한 한자 애니메이션을 활용해 형상화하며, 자전거 페달에 따라 이미지가 움직인다. 세 개의 스크린은 비디오 작품에 공간감을 부여한다.
-
-
-
-
-
+    artwork_medium_ko: "비디오 설치, 4분"
+    artwork_desc_en: |
+      Kanji City is a video piece that expresses the landscape  with The kanji (the logographic Chinese characters that are used in the modern Japanese) The city of Kyoto is shown with various animations of kanji such as tree, river, temple and gate.Push pedals of a bicycle, also  move in conjunction with the image.Three screens will allow for more spatial images.
+    artwork_desc_ko: |
+      <간지 도시>는 현재 일본에서 사용하는 중국 문자를 가지고 교토 풍경을 보여주는 비디오 작품이다. 나무, 강, 절, 문과 같은 사물을 다양한 한자 애니메이션을 활용해 형상화하며, 자전거 페달에 따라 이미지가 움직인다. 세 개의 스크린은 비디오 작품에 공간감을 부여한다.
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
 venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
+photos:
+- "./images/exhibitions/1-kota-iguchi-1.jpg"
+- "./images/exhibitions/1-kota-iguchi-2.jpg"
+- "./images/exhibitions/1-kota-iguchi-3.jpg"
+- "./images/exhibitions/1-kota-iguchi-4.jpg"
+- "./images/exhibitions/1-kota-iguchi-5.jpg"
+- "./images/exhibitions/1-kota-iguchi-6.jpg"

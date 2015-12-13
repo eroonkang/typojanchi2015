@@ -1,51 +1,38 @@
+---
 full_name_en: Liu Jingsha + Li Saobo
-full_name_ko: 류징샤 + 리샤오보
+full_name_ko: "류징샤 + 리샤오보"
 origin_city_en: Beijing
-origin_city_ko: 베이징
+origin_city_ko: "베이징"
 origin_country_en: China
-origin_country_ko: 중국
+origin_country_ko: "중국"
 origin_lat: 39.984369
 origin_lng: 116.465065
+participant_bio_en: |
+  Liu Jingsha graduated from Fine Arts Academy of Hunan Normal University in 1998. She became a lecturer of the same university after graduation, and received her master degree in 2009. Now, she is a senior lecturer of the school, and the Deputy Secretary of Design Committee of Hunan Packaging Federation, working in the fonts design, graphic design and relevant research areas.
 
-participant_bio_en: >
- Liu Jingsha graduated from Fine Arts Academy of Hunan Normal University in 1998. She became a lecturer of the same university after graduation, and received her master degree in 2009. Now, she is a senior lecturer of the school, and the Deputy Secretary of Design Committee of Hunan Packaging Federation, working in the fonts design, graphic design and relevant research areas.
+  Li Shaobo is a Chinese designer, his area of work includes CI, packaging, fonts etc. He is the Vice Dean of the Fine Arts Academy of Hunan Normal University and Visiting Professor in Guangzhou Academy of Fine Arts, Senior Lecturer and Researcher in Central Academy of Fine Arts, member of the academic committee of Center for Chinese Font Design and Research. Aside from that, he also works as a design consultant for the two largest Chinese font foundries: Foundertype and Sinotype. In recent years, Li has been invited to numerous international conferences to introduce his design and ideas, and has presided over many design activities, he is the winner of more than 50 international design awards, and he has also served as judge for the China Trademark Design Competition.
+participant_bio_ko: |
+  류징샤는 1998년 후난 사범대학교 순수미술학교를 졸업하고 같은 학교에서 강사로 일하며 2009년 박사 학위를 받았다. 현재 후난 사범대학교 조교수이자 후난포장연합 디자인 위원회 부위원장으로 활동하며 폰트 디자인, 그래픽 디자인, 그리고 관련 연구를 수행하고 있다.
 
- 
- Li Shaobo is a Chinese designer, his area of work includes CI, packaging, fonts etc. He is the Vice Dean of the Fine Arts Academy of Hunan Normal University and Visiting Professor in Guangzhou Academy of Fine Arts, Senior Lecturer and Researcher in Central Academy of Fine Arts, member of the academic committee of Center for Chinese Font Design and Research. Aside from that, he also works as a design consultant for the two largest Chinese font foundries: Foundertype and Sinotype. In recent years, Li has been invited to numerous international conferences to introduce his design and ideas, and has presided over many design activities, he is the winner of more than 50 international design awards, and he has also served as judge for the China Trademark Design Competition.
-
-
-participant_bio_ko: >
- 류징샤는 1998년 후난 사범대학교 순수미술학교를 졸업하고 같은 학교에서 강사로 일하며 2009년 박사 학위를 받았다. 현재 후난 사범대학교 조교수이자 후난포장연합 디자인 위원회 부위원장으로 활동하며 폰트 디자인, 그래픽 디자인, 그리고 관련 연구를 수행하고 있다.
-
- 
- 리 샤오보는 중국의 그래픽 디자이너이다. 후난 사범대학교 순수미술학원 부학장, 광저우 순수미술학원 방문 교수, 중앙미술학교 부교수 및 연구원이며 중국 폰트 디자인 및 연구 센터 학술위원회 위원으로 활동하고 있다. 또한 중국에서 가장 큰 두 폰트 회사 펀더리타입과 시노타입의 디자인 자문과 중국 트레이드마크 디자인 경연 심사위원을 맡고 있다. 50개 이상의 국제 디자인 어워드에서 수상했으며, 여러 국제 컨퍼런스에 초청되어 디자인에 대한 그의 생각을 들려주고 있다.
-
+  리 샤오보는 중국의 그래픽 디자이너이다. 후난 사범대학교 순수미술학원 부학장, 광저우 순수미술학원 방문 교수, 중앙미술학교 부교수 및 연구원이며 중국 폰트 디자인 및 연구 센터 학술위원회 위원으로 활동하고 있다. 또한 중국에서 가장 큰 두 폰트 회사 펀더리타입과 시노타입의 디자인 자문과 중국 트레이드마크 디자인 경연 심사위원을 맡고 있다. 50개 이상의 국제 디자인 어워드에서 수상했으며, 여러 국제 컨퍼런스에 초청되어 디자인에 대한 그의 생각을 들려주고 있다.
 artworks:
-  -
-    artwork_name_en: Type City
-    artwork_name_ko: 타입 시티
+  - artwork_name_en: Type City
+    artwork_name_ko: "타입 시티"
     artwork_year: 2015
-    artwork_medium_en:
+    artwork_medium_en: 
     artwork_medium_ko: 
-    artwork_desc_en: >
+    artwork_desc_en: |
       The project starts from 2005, with three researching teams based in Beijing, Chongqing, and Changsha. With a broad sociological perspective, this visual culture project aims to record objectively changes happening to types in specific time and spaces through field work.
-    artwork_desc_ko: >
+    artwork_desc_ko: |
       ‘타입 시티는’ 베이징, 충칭, 창사에 거주하는 세 명의 리서치 팀이 2005년부터 시작한 프로젝트이다. 폭넓은 사회학적 관점에서 도시의 특정 시공간을 대상으로 일어난 글자의 변화를 조사했다. 중국 문자의 시공간적 차이를 통해 경제, 사회, 문화적 맥락과 문자가 어떤 영향을 주고받으며 진화하는지 이해할 수 있다.
-
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
 venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
+photos: []

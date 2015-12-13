@@ -1,45 +1,44 @@
+---
 full_name_en: Park Chan Shin
-full_name_ko: 박찬신
+full_name_ko: "박찬신"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.56339
 origin_lng: 126.91836
-
-participant_bio_en: >
- Park Chanshin is a graphic designer. He received his BFA and MFA from Hongik University with Visual Communication Design. Working as a graphic designer, he teaches typography and editorial design. 
-
-participant_bio_ko: >
- 그래픽 디자이너. 홍익대학교 시각디자인과를 졸업하고 같은 학교 시각디자인 석사 과정을 마쳤다. 그래픽 디자이너로 일하며 대학에서 타이포그래피와 편집디자인을 가르친다. 
-
+participant_bio_en: "Park Chanshin is a graphic designer. He received his BFA and
+  MFA from Hongik University with Visual Communication Design. Working as a graphic
+  designer, he teaches typography and editorial design. \n"
+participant_bio_ko: "그래픽 디자이너. 홍익대학교 시각디자인과를 졸업하고 같은 학교 시각디자인 석사 과정을 마쳤다. 그래픽 디자이너로
+  일하며 대학에서 타이포그래피와 편집디자인을 가르친다. \n"
 artworks:
-  -
-    artwork_name_en: Touting 
-    artwork_name_ko: 호객 중 
+  - artwork_name_en: Touting
+    artwork_name_ko: "호객 중"
     artwork_year: 2015
     artwork_medium_en: Mixed media
-    artwork_medium_ko: 혼합 매체
-    artwork_desc_en: >
+    artwork_medium_ko: "혼합 매체"
+    artwork_desc_en: |
       Touting works with many “Tout Machines.” Tout Machine is an equipment made with lumber and paint. It makes people feel déjà vu by letting them meet similar forms and materials repeatedly. Tout Machine looks like it has no function by itself. However, it is spread here and there in the darkness like a scalper, once someone notices that the existence or passes by, it starts the operation. After the audience sees the whole exhibition, they would not know it worked. It's still just “touting.”
-
-    artwork_desc_ko: >
+    artwork_desc_ko: |
       ‘호객중’은 다수의 ‘호객기’로 작동한다. 나무 판재와 도료로 만들어진 ‘호객기’는 반복해서 비슷한 형태와 물질을 마주치게해 일종의 기시감을 조장하기 위해 만들어진 장치다. ‘호객기’ 스스로는 아무 기능을 가지고 있지 않아보인다. 마치 암표상처럼 어둑한 곳에 산개해있다가  누군가 그 존재를 알아차리는 순간(혹은 그저 지나치는 순간)부터 작동을 시작한다. 전시를 모두 본 뒤에도 ‘호객기’가 작동했다는 사실을 모를 수 있다. 다만 여전히 ‘호객중’이다.
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
+photos:
+- "./images/exhibitions/6-park-chanshin-1.jpg"
+- "./images/exhibitions/6-park-chanshin-2.jpg"
+- "./images/exhibitions/6-park-chanshin-3.jpg"
+- "./images/exhibitions/6-park-chanshin-4.jpg"
+- "./images/exhibitions/6-park-chanshin-5.jpg"
+- "./images/exhibitions/6-park-chanshin-6.jpg"
+- "./images/exhibitions/6-park-chanshin-7.jpg"
+- "./images/exhibitions/6-park-chanshin-8.jpg"
+- "./images/exhibitions/6-park-chanshin-9.jpg"

@@ -1,44 +1,33 @@
+---
 full_name_en: Everyday Practice
-full_name_ko: 일상의실천 
+full_name_ko: "일상의실천"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: KR
-origin_country_ko: 한국
+origin_country_ko: "한국"
 origin_lat: 37.53844
 origin_lng: 126.99032
-
-participant_bio_en: >
- Everyday Practice is a graphic studio founded by Kwon Joonho, Kim Kyung-chul, Kim Eojin and a small community which is thinking about the role of design and how design acts in reality. Based in graphic design, they do not restrict themselves to strictly two-dimensional design. They research various design methods and make it happen.
-
-participant_bio_ko: >
- 일상의실천은 권준호, 김경철, 김어진이 운영하는 그래픽디자인 스튜디오로, 오늘날 우리가 살아가는 현실에서 디자인이 어떤 역할을 해야 하며, 또한 무엇을 할 수 있는가를 고민하는 소규모 공동체다. 그래픽디자인을 기반으로 하지만 평면 작업에만 머무르지 않는 다양한 디자인 방법론을 탐구하고 있다. 
-
+participant_bio_en: |
+  Everyday Practice is a graphic studio founded by Kwon Joonho, Kim Kyung-chul, Kim Eojin and a small community which is thinking about the role of design and how design acts in reality. Based in graphic design, they do not restrict themselves to strictly two-dimensional design. They research various design methods and make it happen.
+participant_bio_ko: "일상의실천은 권준호, 김경철, 김어진이 운영하는 그래픽디자인 스튜디오로, 오늘날 우리가 살아가는 현실에서 디자인이
+  어떤 역할을 해야 하며, 또한 무엇을 할 수 있는가를 고민하는 소규모 공동체다. 그래픽디자인을 기반으로 하지만 평면 작업에만 머무르지 않는 다양한
+  디자인 방법론을 탐구하고 있다. \n"
 artworks:
-  -
-    artwork_name_en: "Workshop: A City without (   )"
-    artwork_name_ko: 결여의 도시
+  - artwork_name_en: 'Workshop: A City without (   )'
+    artwork_name_ko: "결여의 도시"
     artwork_year: 2015
-    artwork_medium_en:
+    artwork_medium_en: 
     artwork_medium_ko: 
-    artwork_desc_en: >
-    artwork_desc_ko: >
-
-
-
+    artwork_desc_en: ''
+    artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
+photos: []

@@ -1,47 +1,38 @@
+---
 full_name_en: MYKC
-full_name_ko: 마이케이씨
+full_name_ko: "마이케이씨"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: KR
-origin_country_ko: 한국
+origin_country_ko: "한국"
 origin_lat: 37.58209
 origin_lng: 126.97276
-
-participant_bio_en: >
- MYKC is a graphic design studio run by Kimoon Kim and Yongchan Kim who share the same last name. They met at SADI (Samsung Art & Design Institute) and started their own studio in 2010 upon graduation. They do a range of work from editorial design, package design, branding, illustration really everything. In 2011, they were elected as Super Rookie of Design Net, SPOTLIGHT 2011. Their main works are the Future Memories (Leeum, 2010), Magazine B, Paper B, and Sparkling Secrets (Daelim Museum, 2012) among others.
-
-participant_bio_ko: >
- 김기문, 김용찬 김씨 성을 가진 두 명의 디자이너가 SADI(Samsung Art & Design Institute)에서 만나 2010년 졸업과 동시에 함께 시작한 그래픽 디 자인 스튜디오다. 편집디자인, 패키지, 브랜딩, 일러스트레이션 등 흥미로운 작 업이라면 특정한 영역 구분없이 진행한다. 타이포그라피를 좋아하고, 디자인을 잘 하여, 멋지게 쓰고 싶어한다.
- 2011년 <디자인네트>, SPOTLIGHT 2011 주목해야 할 신진디자이너에 선 정되었으며, SADI ‘Information Design’ 강의에 출강(2012)한 바 있다. 디자인 작업물로는 <미래의 기억들> 전시(리움, 2010), 매거진B(창간 및 편 집디자인, ~2013), 페이퍼B(창간 및 편집디자인, ~2013), <스와로브스키 그 빛나는 환상> 전시(대림미술관, 2012), 리움 뉴스레터(2014~현재), KT 멤버십 다이어리(2014), SK그룹 캘린더(2014), GLAD호텔(어플리케이션 디자인, 2014) 등이 있다.
- 참고로 스튜디오 명칭은 엠와이케이씨, 마이케이씨 어느 것으로 불러도 관계 없다.
-
+participant_bio_en: |
+  MYKC is a graphic design studio run by Kimoon Kim and Yongchan Kim who share the same last name. They met at SADI (Samsung Art & Design Institute) and started their own studio in 2010 upon graduation. They do a range of work from editorial design, package design, branding, illustration really everything. In 2011, they were elected as Super Rookie of Design Net, SPOTLIGHT 2011. Their main works are the Future Memories (Leeum, 2010), Magazine B, Paper B, and Sparkling Secrets (Daelim Museum, 2012) among others.
+participant_bio_ko: |
+  김기문, 김용찬 김씨 성을 가진 두 명의 디자이너가 SADI(Samsung Art & Design Institute)에서 만나 2010년 졸업과 동시에 함께 시작한 그래픽 디 자인 스튜디오다. 편집디자인, 패키지, 브랜딩, 일러스트레이션 등 흥미로운 작 업이라면 특정한 영역 구분없이 진행한다. 타이포그라피를 좋아하고, 디자인을 잘 하여, 멋지게 쓰고 싶어한다. 2011년 <디자인네트>, SPOTLIGHT 2011 주목해야 할 신진디자이너에 선 정되었으며, SADI ‘Information Design’ 강의에 출강(2012)한 바 있다. 디자인 작업물로는 <미래의 기억들> 전시(리움, 2010), 매거진B(창간 및 편 집디자인, ~2013), 페이퍼B(창간 및 편집디자인, ~2013), <스와로브스키 그 빛나는 환상> 전시(대림미술관, 2012), 리움 뉴스레터(2014~현재), KT 멤버십 다이어리(2014), SK그룹 캘린더(2014), GLAD호텔(어플리케이션 디자인, 2014) 등이 있다. 참고로 스튜디오 명칭은 엠와이케이씨, 마이케이씨 어느 것으로 불러도 관계 없다.
 artworks:
-  -
-    artwork_name_en: The Chronicle of City's Desire
-    artwork_name_ko: 도시 욕망 연대기
+  - artwork_name_en: The Chronicle of City's Desire
+    artwork_name_ko: "도시 욕망 연대기"
     artwork_year: 2015
     artwork_medium_en: Plastic bag, 6 types, 270~320x120~150cm
-    artwork_medium_ko: 비닐봉지, 270(~320)x120(150)cm
-    artwork_desc_en: >
+    artwork_medium_ko: "비닐봉지, 270(~320)x120(150)cm"
+    artwork_desc_en: |
       There are ghosts in the city. When they are needed, they are consumed, when they are not, they’re abandoned and discarded. The silent observers of the city; plastic bags. Plastic bags which put the consumption products to hide and reveal and a visual object to put the city's desires in. This work shows the symbolic works of Seoul's desire through projected on plastic bags.
-    artwork_desc_ko: >
+    artwork_desc_ko: |
       도시에 떠도는 유령 같은 존재들이 있다. 필요할 때는 유용하게 쓰다가 필요 없어지면 내팽개쳐 버려지는 존재, 도시인의 묵시적 관찰자들, 바로 비닐봉지다. 소비의 결과물을 담는 비닐봉지는 가리거나 드러내고 싶은 그 무언가를 담아내는 매체이면서, 시간이 지나면서 도시가 지닌 욕망을 기꺼이 담아내는 도시의 시각물이 되었다. 이런 비닐봉지에 서울이 지닌 욕망과 그것을 상징적으로 드러내는 언어를 담아 보여준다.
-
-
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
+photos:
+- "./images/exhibitions/9-mykc-1.jpg"
+- "./images/exhibitions/9-mykc-2.jpg"
+- "./images/exhibitions/9-mykc-3.jpg"
+- "./images/exhibitions/9-mykc-4.jpg"

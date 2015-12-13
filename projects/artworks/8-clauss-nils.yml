@@ -1,49 +1,40 @@
+---
 full_name_en: Nils Clauss
-full_name_ko: 닐스 클라우스
+full_name_ko: "닐스 클라우스"
 origin_city_en: Berlin
-origin_city_ko: 베를린
+origin_city_ko: "베를린"
 origin_country_en: Germany
-origin_country_ko: 독일
+origin_country_ko: "독일"
 origin_lat: 52.4835
 origin_lng: 13.4314
+participant_bio_en: |
+  Nils brings a clean style and clear point of view to his work. His strong sense of visual storytelling is driven by the fact that he found his way into directing through cinematography and photography.
 
-participant_bio_en: >
- Nils brings a clean style and clear point of view to his work. His strong sense of visual storytelling is driven by the fact that he found his way into directing through cinematography and photography.
- 
+  Based in Seoul, South Korea, Nils has shot, directed and edited a number of award-winning music videos, short, feature and documentary films, which have been screened at various international festivals or went viral online. He often collaborates with Irish filmmaker Neil Dowling to develop concepts and the duo have created a number of hit music videos like Moonchild for M83, as well as Senior Living for the Norwegian band Röyksopp which was selected for the prestigious Saatchi & Saatchi’s New Directors’ Showcase at Cannes in 2011 and received a nomination at the UK Music Video Awards the same year.
 
- Based in Seoul, South Korea, Nils has shot, directed and edited a number of award-winning music videos, short, feature and documentary films, which have been screened at various international festivals or went viral online. He often collaborates with Irish filmmaker Neil Dowling to develop concepts and the duo have created a number of hit music videos like Moonchild for M83, as well as Senior Living for the Norwegian band Röyksopp which was selected for the prestigious Saatchi & Saatchi’s New Directors’ Showcase at Cannes in 2011 and received a nomination at the UK Music Video Awards the same year.
- 
-
- After studying in Germany, Australia and Hong Kong, Nils honed his technical skills and fierce work ethic by completing his MFA in Cinematography at the Graduate School of Advanced Imaging Science, Multimedia and Film at Chungang University in Seoul. Born and raised in Germany, Nils has been living in South Korea since the end of 2005. This gave him a unique world perspective and has liberated his views from any form of ethnocentrism. Nils is steadfast in his quest to experience the authenticity of all walks of life and to work within challenging and diverse environments.
-
-
-participant_bio_ko: >
- 영화감독이자 사진작가. 독일, 오스트리아, 홍콩에서 시각문화와 그래픽디자인, 영화 제작을 공부한 후 중앙대학교 첨단영상대학원에서 시네마토그래피로 석사 학위를 받았다. 다양한 문화권에서의 경험을 살려 폭넓은 시각과 명료한 스타일을 선보이고 있는 그의 뮤직비디오, 단편영화, 다큐멘터리들은 여러 국제 페스티벌에서 수상한 바 있으며 온라인을 통해 많은 사람들에게 알려졌다. 주요 작품으로 아일랜드 영화감독 닐 다울링과 협업한 M83의 <문차일드>, 노르웨이 밴드 뢰위크소프의 <시니어 리빙> 뮤직비디오 등이 있다.
-
+  After studying in Germany, Australia and Hong Kong, Nils honed his technical skills and fierce work ethic by completing his MFA in Cinematography at the Graduate School of Advanced Imaging Science, Multimedia and Film at Chungang University in Seoul. Born and raised in Germany, Nils has been living in South Korea since the end of 2005. This gave him a unique world perspective and has liberated his views from any form of ethnocentrism. Nils is steadfast in his quest to experience the authenticity of all walks of life and to work within challenging and diverse environments.
+participant_bio_ko: |
+  영화감독이자 사진작가. 독일, 오스트리아, 홍콩에서 시각문화와 그래픽디자인, 영화 제작을 공부한 후 중앙대학교 첨단영상대학원에서 시네마토그래피로 석사 학위를 받았다. 다양한 문화권에서의 경험을 살려 폭넓은 시각과 명료한 스타일을 선보이고 있는 그의 뮤직비디오, 단편영화, 다큐멘터리들은 여러 국제 페스티벌에서 수상한 바 있으며 온라인을 통해 많은 사람들에게 알려졌다. 주요 작품으로 아일랜드 영화감독 닐 다울링과 협업한 M83의 <문차일드>, 노르웨이 밴드 뢰위크소프의 <시니어 리빙> 뮤직비디오 등이 있다.
 artworks:
-  -
-    artwork_name_en: 웰커머
+  - artwork_name_en: "웰커머"
     artwork_name_ko: Welcomer
     artwork_year: 2015
     artwork_medium_en: Book, 16pages
-    artwork_medium_ko: 책, 16쪽
-    artwork_desc_en: >
-    artwork_desc_ko: >
-  
-
-
+    artwork_medium_ko: "책, 16쪽"
+    artwork_desc_en: ''
+    artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
+photos:
+- "./images/exhibitions/8-clauss-nils-1.jpg"
+- "./images/exhibitions/8-clauss-nils-2.jpg"
+- "./images/exhibitions/8-clauss-nils-3.jpg"
+- "./images/exhibitions/8-clauss-nils-4.jpg"

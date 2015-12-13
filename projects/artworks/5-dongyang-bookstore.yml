@@ -1,38 +1,26 @@
+---
 full_name_en: Dongyang Books
-full_name_ko: 동양서림
+full_name_ko: "동양서림"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.5855405
 origin_lng: 126.9918079
-
 artworks: []
-
-
 venue_name_en: Dongyang Bookstore
-venue_name_ko: 동양서림
+venue_name_ko: "동양서림"
 venue_detail_en: 
-venue_detail_ko: 종로구 창경궁로 271-1
+venue_detail_ko: "종로구 창경궁로 271-1"
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5855405
 venue_lng: 126.9918079
-
-
-type: "Venue"
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-artwork_desc_en: >
- 
-
-artwork_desc_ko: >
- 30년 이상 지역을 지켜온 서점
-
- 영화 <바보들의 행진>에서 주인공이 카뮈의 《이방인》을 사러 이곳에 들른다. 1953년에 창업한 동양서림은 70년대 영화 속 모습 그대로 쭉 혜화로터리를 지키고 있는 서점이다. 서점 양 옆의 문구점, 약국, 중식집 또한 혜화로터리를 지켜온 동지들로 이제는 서점 자체가 하나의 역사가 되어가는 곳이다.
+type: Venue
+artwork_desc_en: ''
+artwork_desc_ko: |
+  30년 이상 지역을 지켜온 서점
+  영화 <바보들의 행진>에서 주인공이 카뮈의 《이방인》을 사러 이곳에 들른다. 1953년에 창업한 동양서림은 70년대 영화 속 모습 그대로 쭉 혜화로터리를 지키고 있는 서점이다. 서점 양 옆의 문구점, 약국, 중식집 또한 혜화로터리를 지켜온 동지들로 이제는 서점 자체가 하나의 역사가 되어가는 곳이다.
+photos: []

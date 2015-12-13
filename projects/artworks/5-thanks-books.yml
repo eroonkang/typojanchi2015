@@ -1,38 +1,27 @@
+---
 full_name_en: Thanks Books
-full_name_ko: 땡스북스
+full_name_ko: "땡스북스"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.5511222
 origin_lng: 126.917981
-
 artworks: []
-
-
 venue_name_en: Thanks Books
-venue_name_ko: 땡스북스
+venue_name_ko: "땡스북스"
 venue_detail_en: 
-venue_detail_ko: 마포구 잔다리로28
+venue_detail_ko: "마포구 잔다리로28"
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5511222
 venue_lng: 126.917981
-
-
-type: "Venue"
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-artwork_desc_en: >
- 
-
-artwork_desc_ko: >
- 전시가 있는 서점
-
- 홍대 앞이라는 동네 특성을 고려해서 선별한 책들을 갖춘 친근한 동네서점이다. 한 달에 한 번 출판사와 함께 주제가 있는 기획전시를 통해 다양한 책을 소개하고 있다. 홍대 앞 사람들에게 동네 사랑방 역할을 하며 함께 성장한다는 목표를 가지고 있다.
+type: Venue
+artwork_desc_en: ''
+artwork_desc_ko: |
+  전시가 있는 서점
+  홍대 앞이라는 동네 특성을 고려해서 선별한 책들을 갖춘 친근한 동네서점이다. 한 달에 한 번 출판사와 함께 주제가 있는 기획전시를 통해 다양한 책을 소개하고 있다. 홍대 앞 사람들에게 동네 사랑방 역할을 하며 함께 성장한다는 목표를 가지고 있다.
+photos:
+- "./images/exhibitions/5-thanks-books-1.jpg"

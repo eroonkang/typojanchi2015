@@ -1,38 +1,27 @@
+---
 full_name_en: Book by Book
-full_name_ko: 북바이북
+full_name_ko: "북바이북"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.5765095
 origin_lng: 126.8867736
-
 artworks: []
-
-
 venue_name_en: Book by Book
-venue_name_ko: 북바이북
+venue_name_ko: "북바이북"
 venue_detail_en: 
-venue_detail_ko: 마포구 월드컵북로44길 32
+venue_detail_ko: "마포구 월드컵북로44길 32"
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5765095
 venue_lng: 126.8867736
-
-
-type: "Venue"
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-artwork_desc_en: >
- 
-
-artwork_desc_ko: >
- 술이 있는 서점
- 
- ‘책맥’이라는 신조어를 탄생시킨 서점답게 이곳에선 커피는 물론 맥주와 함께 책을 즐길 수 있다. 본점과 소설점으로 분리하여 전문성을 강화했으며 다달이 꽉 차 있는 강좌와 책꼬리 문화, 다독왕 시상 등을 통해 독서를 장려하고 있다.
+type: Venue
+artwork_desc_en: ''
+artwork_desc_ko: |-
+  술이 있는 서점
+  ‘책맥’이라는 신조어를 탄생시킨 서점답게 이곳에선 커피는 물론 맥주와 함께 책을 즐길 수 있다. 본점과 소설점으로 분리하여 전문성을 강화했으며 다달이 꽉 차 있는 강좌와 책꼬리 문화, 다독왕 시상 등을 통해 독서를 장려하고 있다.
+photos:
+- "./images/exhibitions/5-book-by-book-1.jpg"

@@ -1,48 +1,45 @@
+---
 full_name_en: Bongkyu Song
-full_name_ko: 송봉규
-origin_city_en: Seoul	
-origin_city_ko: 서울
+full_name_ko: "송봉규"
+origin_city_en: Seoul
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.55277
 origin_lng: 126.92078
-
-participant_bio_en: >
- Bongkyu Song graduated from Kookmin University and majored in Industrial Design. He worked for the Samsung Electronics Mobile Communication Division as a product designer. In 2008, he established the design studio, SDESIGNUNIT and mainly designed product, lighting, furniture design and also conducted research about the interaction between the object and the environment. He directed and exhibited design projects including, “the undesigned objects- UNDESIGNED.” He has been working with renowned clients like Amore Pacific, BMW, Audi, Samsung Electronics, Siemens, Kimberly-Clark Professional, Dell and etc. He received several awards from various international design competitions including IF, Red dot, IDEA and Good design Japan. Moreover, his works are introduced at exhibitions and posted in media in Italy (Super Studio), Germany (Cebit), Japan (100% Tokyo), U.K. (TENT London) and France (Masion & Objet including the KCDF and Musée des arts décoratifs de Paris), ICFF (Singapore Design Fair). Currently, he is leading SWBK and Matter & Matter as a co-founder. Mainly consulting on product concept development to brand design strategy and leading consulting for the service design sector as well. Currently he is teaching students in the industrial design major at Kookmin University and Hongik University.
-
-
-participant_bio_ko: >
- 국민대학교 공업디자인과를 졸업하고, 산업디자인을 기반으로 한 디자인 스튜디오 SWBK를 설립했다. iF, IDEA, 레드닷 등의 디자인 어워드에서 수상하였으며, 차세대 디자인 리더(KIDP), 대한민국 대표 K-디자이너 10인(중앙일보), 대한민국을 이끌 젊은 리더(포브스 코리아) 등에 선정되었다. 현재 SWBK와 가구를 기반으로 한 라이프스타일 브랜드 ‘매터 앤드 매터(Matter&Matter)’ 공동 대표로서 산업디자인 및 브랜드 디자인 전략, 서비스 디자인 분야의 컨설팅을 수행하며 국민대학교와 홍익대학교에서 산업디자인 및 디자인 방법론을 가르치고 있다.
-
+participant_bio_en: |
+  Bongkyu Song graduated from Kookmin University and majored in Industrial Design. He worked for the Samsung Electronics Mobile Communication Division as a product designer. In 2008, he established the design studio, SDESIGNUNIT and mainly designed product, lighting, furniture design and also conducted research about the interaction between the object and the environment. He directed and exhibited design projects including, “the undesigned objects- UNDESIGNED.” He has been working with renowned clients like Amore Pacific, BMW, Audi, Samsung Electronics, Siemens, Kimberly-Clark Professional, Dell and etc. He received several awards from various international design competitions including IF, Red dot, IDEA and Good design Japan. Moreover, his works are introduced at exhibitions and posted in media in Italy (Super Studio), Germany (Cebit), Japan (100% Tokyo), U.K. (TENT London) and France (Masion & Objet including the KCDF and Musée des arts décoratifs de Paris), ICFF (Singapore Design Fair). Currently, he is leading SWBK and Matter & Matter as a co-founder. Mainly consulting on product concept development to brand design strategy and leading consulting for the service design sector as well. Currently he is teaching students in the industrial design major at Kookmin University and Hongik University.
+participant_bio_ko: |
+  국민대학교 공업디자인과를 졸업하고, 산업디자인을 기반으로 한 디자인 스튜디오 SWBK를 설립했다. iF, IDEA, 레드닷 등의 디자인 어워드에서 수상하였으며, 차세대 디자인 리더(KIDP), 대한민국 대표 K-디자이너 10인(중앙일보), 대한민국을 이끌 젊은 리더(포브스 코리아) 등에 선정되었다. 현재 SWBK와 가구를 기반으로 한 라이프스타일 브랜드 ‘매터 앤드 매터(Matter&Matter)’ 공동 대표로서 산업디자인 및 브랜드 디자인 전략, 서비스 디자인 분야의 컨설팅을 수행하며 국민대학교와 홍익대학교에서 산업디자인 및 디자인 방법론을 가르치고 있다.
 artworks:
-  -
-    artwork_name_en: 모듈러
-    artwork_name_ko: The Modular 
+- artwork_name_en: "모듈러"
+    artwork_name_ko: The Modular
     artwork_year: 2014
     artwork_medium_en: Plastic (ABS)
-    artwork_medium_ko: 플라스틱(ABS)
-    artwork_desc_en: >
-      The modular is made for universal uses for daily uses. the modular is structured like typographic idea. Almost languages, especially Hangul is made by vowel & consonant like puzzle. We can make every sound and letter with 19 vowel & 21 consonant. that is very smart way to make and build various letter and word. We are need to file almost small thing on the desk, on the kitchen, the living room and everywhere. the modular can be various trey for the every single need in daily life. from small bar type modular can be used as very simple way to organize small object. and mid triangle modular can be very unique way to manage small object on it. the biggest diamond modular is not only the base of other modular - but also used as a biggest system for organize big things. 
-
-    artwork_desc_ko: >
+    artwork_medium_ko: "플라스틱(ABS)"
+    artwork_desc_en: "The modular is made for universal uses for daily uses. the modular
+      is structured like typographic idea. Almost languages, especially Hangul is made
+      by vowel & consonant like puzzle. We can make every sound and letter with 19 vowel
+      & 21 consonant. that is very smart way to make and build various letter and word.
+      We are need to file almost small thing on the desk, on the kitchen, the living
+      room and everywhere. the modular can be various trey for the every single need
+      in daily life. from small bar type modular can be used as very simple way to organize
+      small object. and mid triangle modular can be very unique way to manage small
+      object on it. the biggest diamond modular is not only the base of other modular
+      - but also used as a biggest system for organize big things. \n"
+    artwork_desc_ko: |
       호텔은 물론 집이나 회사 등 일상에서 다양하게 사용할 수 있는 모듈러는 글자가 만들어지는 구조와 원리를 이용해 제작되었다. 19개의 모음과 21개의 자음으로 모든 소리를 만들어낼 수 있는 한글처럼, 모듈러는 몇 가지 기본 모듈을 통해 다양한 구성을 만들어낼 수 있다. 가장 기본적인 도형인 원, 일자형, 삼각형, 정사각형, 마름모, 평행사변형으로 구성된 모듈들을 어디에, 어떻게 활용할지는 사용자 마음에 달렸다.
-
-
-
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
+photos:
+- "./images/exhibitions/8-bongkyu-song-1.jpg"
+- "./images/exhibitions/8-bongkyu-song-2.jpg"
+- "./images/exhibitions/8-bongkyu-song-3.jpg"

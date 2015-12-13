@@ -1,55 +1,47 @@
+---
 full_name_en: Yuma Harada, Shohei Iida
-full_name_ko: 유마 하라다, 쇼헤이 이다
+full_name_ko: "유마 하라다, 쇼헤이 이다"
 origin_city_en: Osaka
-origin_city_ko: 오사카
+origin_city_ko: "오사카"
 origin_country_en: Japan
-origin_country_ko: 일본
+origin_country_ko: "일본"
 origin_lat: 34.6903772
 origin_lng: 135.5121698
-
-
-participant_bio_en: >
- Yuma Harada was born in 1979 in Osaka. He enrolled as an architecture major in the design course of Kyoto Seika University's art department after graduating from Shusei Architectural Academy in 2000. He also enrolled as part of the seventh batch of students at the Inter Medium Institute (IMI) after finishing university in 2002, remaining there for 4 years. Yuma launched the creative unit Archventer in 2003 with Shin-ichiro Masui. In 2007, he established UMA / design farm, designing books, graphics, exhibitions and so on. He began working as a part-time lecturer at Kyoto University of Art and Design in 2005, and also acts as director of CRITICAL DESIGN LAB from 2008 to 2012, DESIGNEAST director from 2009, GALLERY 9.5. from 2011, design studio ZZZ, and Setouchi Triennale 2013 (Hishio no Sato and Sakate Port Project) from 2013, Art Shodoshima Teshima 2014 (Hishio no Sato and Sakate Port Project). Yuma is a guest professor at the Department of Spatial Design, Kyoto University of Art and Design, and advisor of Good Job! Center from 2015. He also a co-author of Relational Tourism (Seibundo Shinkosha, 2014).
- 
- Shohei Iida was born in 1988 in Chiba, Japan. Now, he lives and works in Tokyo. He studied at Musashino Art University. As a freelancer designer, he is working in a broad areas including a book, magazine, exhibition and space design. He is between a city and the sea, grills mackerel pike and bakes sweet potato as a side job in the fall. He publishes a column named, “Can and Gym” serially in the magazine, CYAN.
-
-participant_bio_ko: >
- 1979년 오사카에서 태어난 유마 하라다는 슈세이 건축 아카데미를 졸업하고 교토 세이카 대학 예술학부에서 건축을 전공했다. 이후 인터미디엄 연구소(IMI)에서 4년간 연구소에서 일한 그는 2003년 신이치로 마스이와 크리에이티브 유닛 아크벤터를, 2007년에는 UMA/디자인 팜을 설립하고 책과 그래픽, 전시 디자인 등의 일을 하고 있다. 2005년부터 교토 예술디자인 대학에서 초청 교수로 학생들을 가르치고 있다. 공저로 《관계적 투어리즘》(세이분도 신코샤, 2014)이 있다.
- 
- 1988년 지바 현에서 태어난 쇼헤이 이다는 무사시노 미술대학교에서 공부했다. 현재 프리랜서 디자이너로 일하며 책, 잡지, 전시를 비롯해 공간 디자인까지 폭넓은 영역에서 활동하고 있다. 바다와 도시를 오가며 가을에는 부업으로 꽁치를 굽거나 군고구마 집에서 일을 배우기도 한다. 잡지 『CYAN』에 「통조림과 체조」라는 제목으로 글을 연재하고 있다.
-
+participant_bio_en: |
+  Yuma Harada was born in 1979 in Osaka. He enrolled as an architecture major in the design course of Kyoto Seika University's art department after graduating from Shusei Architectural Academy in 2000. He also enrolled as part of the seventh batch of students at the Inter Medium Institute (IMI) after finishing university in 2002, remaining there for 4 years. Yuma launched the creative unit Archventer in 2003 with Shin-ichiro Masui. In 2007, he established UMA / design farm, designing books, graphics, exhibitions and so on. He began working as a part-time lecturer at Kyoto University of Art and Design in 2005, and also acts as director of CRITICAL DESIGN LAB from 2008 to 2012, DESIGNEAST director from 2009, GALLERY 9.5. from 2011, design studio ZZZ, and Setouchi Triennale 2013 (Hishio no Sato and Sakate Port Project) from 2013, Art Shodoshima Teshima 2014 (Hishio no Sato and Sakate Port Project). Yuma is a guest professor at the Department of Spatial Design, Kyoto University of Art and Design, and advisor of Good Job! Center from 2015. He also a co-author of Relational Tourism (Seibundo Shinkosha, 2014).
+  Shohei Iida was born in 1988 in Chiba, Japan. Now, he lives and works in Tokyo. He studied at Musashino Art University. As a freelancer designer, he is working in a broad areas including a book, magazine, exhibition and space design. He is between a city and the sea, grills mackerel pike and bakes sweet potato as a side job in the fall. He publishes a column named, “Can and Gym” serially in the magazine, CYAN.
+participant_bio_ko: |
+  1979년 오사카에서 태어난 유마 하라다는 슈세이 건축 아카데미를 졸업하고 교토 세이카 대학 예술학부에서 건축을 전공했다. 이후 인터미디엄 연구소(IMI)에서 4년간 연구소에서 일한 그는 2003년 신이치로 마스이와 크리에이티브 유닛 아크벤터를, 2007년에는 UMA/디자인 팜을 설립하고 책과 그래픽, 전시 디자인 등의 일을 하고 있다. 2005년부터 교토 예술디자인 대학에서 초청 교수로 학생들을 가르치고 있다. 공저로 《관계적 투어리즘》(세이분도 신코샤, 2014)이 있다.
+  1988년 지바 현에서 태어난 쇼헤이 이다는 무사시노 미술대학교에서 공부했다. 현재 프리랜서 디자이너로 일하며 책, 잡지, 전시를 비롯해 공간 디자인까지 폭넓은 영역에서 활동하고 있다. 바다와 도시를 오가며 가을에는 부업으로 꽁치를 굽거나 군고구마 집에서 일을 배우기도 한다. 잡지 『CYAN』에 「통조림과 체조」라는 제목으로 글을 연재하고 있다.
 artworks:
-  -
-    artwork_name_en: Dialogue with “heccéité”
-    artwork_name_ko: ‘개성원리’와의 대화
+  - artwork_name_en: Dialogue with “heccéité”
+    artwork_name_ko: "‘개성원리’와의 대화"
     artwork_year: 2015
-    artwork_medium_en:
+    artwork_medium_en: 
     artwork_medium_ko: 
-    artwork_desc_en: >
-     Yuma Harada and Shohei Iida focus on the designs created as the result of a city and the phenomenon that seems to connect their surrounding environment, then display the process they have experimented repeatedly. In a city, there is always something being planned, distributed, being maintained then gradually fading away. Such circulation is occurring sporadically. they observe that space between a city and an environment, also before and after each process. Then they admire the last-minute figure before it becomes a certain form and the things that probably used to have a shape, and believe that shedding a light on them would make something that has been overlooked to rise up again. they are trying to converse with an approachable city by picking up and exchanging exactly “what we have now” hiding in our daily lives.
-
-    artwork_desc_ko: >
-     도시에서는 무언가 계획되고, 유통되고, 지속되고, 점차 사라지는 순환 현상이 지속적으로 발생한다. 유마 하라다와 쇼헤이 이다는 도시와 도시를 둘러싼 환경 사이에 생기는 틈새에서 산발적으로 발생하는 순환의 과정을 관찰하여 특정 형태가 되기 직전의 모습, 평소에는 간과하기 쉬운 것들을 관람객들에게 제시한다. 익숙한 일상 속에 숨어 있는, 바로 “지금 우리가 가진 것”들을 골라내 이를 교환함으로써 도시와의 대화를 시도한다.
-
-
-
+    artwork_desc_en: |
+      Yuma Harada and Shohei Iida focus on the designs created as the result of a city and the phenomenon that seems to connect their surrounding environment, then display the process they have experimented repeatedly. In a city, there is always something being planned, distributed, being maintained then gradually fading away. Such circulation is occurring sporadically. they observe that space between a city and an environment, also before and after each process. Then they admire the last-minute figure before it becomes a certain form and the things that probably used to have a shape, and believe that shedding a light on them would make something that has been overlooked to rise up again. they are trying to converse with an approachable city by picking up and exchanging exactly “what we have now” hiding in our daily lives.
+    artwork_desc_ko: |
+      도시에서는 무언가 계획되고, 유통되고, 지속되고, 점차 사라지는 순환 현상이 지속적으로 발생한다. 유마 하라다와 쇼헤이 이다는 도시와 도시를 둘러싼 환경 사이에 생기는 틈새에서 산발적으로 발생하는 순환의 과정을 관찰하여 특정 형태가 되기 직전의 모습, 평소에는 간과하기 쉬운 것들을 관람객들에게 제시한다. 익숙한 일상 속에 숨어 있는, 바로 “지금 우리가 가진 것”들을 골라내 이를 교환함으로써 도시와의 대화를 시도한다.
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
 venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
-
-
-# PARTICIPANT -----------------------------------------------
+photos:
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-1.jpg"
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-10.jpg"
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-11.jpg"
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-2.jpg"
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-3.jpg"
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-4.jpg"
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-5.jpg"
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-6.jpg"
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-7.jpg"
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-8.jpg"
+- "./images/exhibitions/1-yuma-harada-n-shohei-iida-9.jpg"

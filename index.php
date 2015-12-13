@@ -101,6 +101,7 @@ if ($permalink == "") {
 
 <!DOCTYPE html>
 <head>
+
   <title><? echo $title; ?>타이포잔치 2015 — Typojanchi 2015</title>
   <meta charset="utf-8"></meta>
 

@@ -1,51 +1,50 @@
+---
 full_name_en: Lara Lee + Oui Kim
-full_name_ko: 이송은 + 김성욱
+full_name_ko: "이송은 + 김성욱"
 origin_city_en: Daegu
-origin_city_ko: 대구광역시
+origin_city_ko: "대구광역시"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 35.8154583
 origin_lng: 128.5116234
-
-participant_bio_en: >
- Lara Lee graduated from the Department of Graphic Design, Kookmin University and earned her master degree at Royal College of Arts with Animation. She is actively working as an animator, illustrator, and a director under the name of "Lara Lee.” She has won the New York Art Director's Club Award, and Victoria and Albert Museum Illustration Award.
- Oui Kim runs OUI studio based in Seoul, directs music videos, projection mapping and animation. Oui's latest works are music videos for Hyukoh's Ohio, Warigari, Primary's Don't be Shy, the vaporwave-formed 3D animation, Island, and experimental media art works like Put My Hands on You.
-
-
-participant_bio_ko: >
- 이송은은 국민대학교 시각디자인학과를 졸업하고 영국 왕립예술학교에서 애니메이션으로 석사 학위를 받았다. ‘라라 리’라는 이름으로 애니메이터, 일러스트레이터, 감독 활동을 하고 있다. 뉴욕 아트디렉터즈 클럽 어워드, 빅토리아앨버트 미술관 일러스트레이션 어워드 등을 수상했다.
- 김성욱은 서울을 기반으로 OUI 스튜디오를 운영하며 뮤직비디오, 프로젝션 맵핑, 애니메이션 등을 연출하고 있다. 최근 작업으로 2015년 혁오의 <ohio>, <와리가리>, 프라이머리의 <아끼지 마> 뮤직비디오와 베이퍼웨이브 형식의 3D 애니메이션으로 제작된 <섬>, <풋 마이 핸즈 온 유> 같은 실험적인 영상들이 있다.
-
+participant_bio_en: |
+  Lara Lee graduated from the Department of Graphic Design, Kookmin University and earned her master degree at Royal College of Arts with Animation. She is actively working as an animator, illustrator, and a director under the name of "Lara Lee.” She has won the New York Art Director's Club Award, and Victoria and Albert Museum Illustration Award. Oui Kim runs OUI studio based in Seoul, directs music videos, projection mapping and animation. Oui's latest works are music videos for Hyukoh's Ohio, Warigari, Primary's Don't be Shy, the vaporwave-formed 3D animation, Island, and experimental media art works like Put My Hands on You.
+participant_bio_ko: |
+  이송은은 국민대학교 시각디자인학과를 졸업하고 영국 왕립예술학교에서 애니메이션으로 석사 학위를 받았다. ‘라라 리’라는 이름으로 애니메이터, 일러스트레이터, 감독 활동을 하고 있다. 뉴욕 아트디렉터즈 클럽 어워드, 빅토리아앨버트 미술관 일러스트레이션 어워드 등을 수상했다. 김성욱은 서울을 기반으로 OUI 스튜디오를 운영하며 뮤직비디오, 프로젝션 맵핑, 애니메이션 등을 연출하고 있다. 최근 작업으로 2015년 혁오의 <ohio>, <와리가리>, 프라이머리의 <아끼지 마> 뮤직비디오와 베이퍼웨이브 형식의 3D 애니메이션으로 제작된 <섬>, <풋 마이 핸즈 온 유> 같은 실험적인 영상들이 있다.
 artworks:
-  -
-    artwork_name_en: Signage 13
-    artwork_name_ko: 간판 13 
+  - artwork_name_en: Signage 13
+    artwork_name_ko: "간판 13"
     artwork_year: 2015
     artwork_medium_en: Video loop (approx. 60sec), Projection (130x50cm)
-    artwork_medium_ko: 비디오(약 60초), 프로젝션(130x50cm)
-    artwork_desc_en: >
-      Texts on signage in the street shout out to no one in particular and become an empty echo when there's no one around. It is the same when there is no good reason for anybody to read the text on the signage because it is out of context. In the particular environment that Jongno (  ) Ga exhibition creates, there is signage but it has no commercial functionality. The gallery is a space full of symbols, words and signs but the bodies that they belonged to, or were connected to, are absent, left behind somewhere. 
-       What happens to a piece of street furniture when it is hijacked from where it used to belong and placed in a sterile gallery space as if it were exhibited in a future museum of antiquities from the contemporary world? What might decontextualised symbols and signage evoke to this ‘future’ audience?
-       These loud and one-directional voices, which were once intended to be immediate and commercial, might initiate a different kind of conversation with the audience, if indeed they can ever actually generate any dialogue.
-    artwork_desc_ko: >
-       인적 없는 새벽 거리에서, 간판 위의 텍스트는 텅 빈 메아리 같은 외침이 된다. 이는 텍스트를 읽을 이유가 부재하는 경우도 마찬가지다. 종로 ( )가 전시 공간에는 가게가 없다. 몸체는 두고 부품(기호)만 떼어 온 공간이다. 따라서 이 작업은 종로 거리에서 흔히 접하는 상업용 간판의 어지럽고 일방적인 목소리를 갤러리로 탈바꿈한 오랜 서울역사에 고립시킴으로써 제가 살던 거리와 가게에서 떨어져 나온 간판이 어떤 물건이 되는지 탐색하려는 의도를 품는다. 간판이 길거리에서 외치던 흔한 단어-그러나 전시장의 관객들에게는 실제적 의미가 없어진 단어-를 골라, 아무것도 프린트되지 않은 회전 입간판 위로 그 상(像)을 띄운다. 영상은 처음과 끝의 경계가 없이 반복되며, 무한히 제자리를 떠돈다. 투사된 이미지는 3차원 공간에 흩어져 존재하는 글자들이며, 이는 입간판 위로 완전히 달라붙기를 거부한다. 현재의 삶에 바로 맞닿아 있던 입간판들을 정돈된 전시장 안에 위치시키는 순간, 이 작은 공간은 어느 미래에 존재하는 가상의 박물관이 될 수도 있다. 끊어진 맥락 속에 있는 이 ‘과거’의 물건은 ‘미래’의 관객들에게 무엇을 환기하며, 어떻게 대화하는가?
-
-
+    artwork_medium_ko: "비디오(약 60초), 프로젝션(130x50cm)"
+    artwork_desc_en: "Texts on signage in the street shout out to no one in particular
+      and become an empty echo when there's no one around. It is the same when there
+      is no good reason for anybody to read the text on the signage because it is out
+      of context. In the particular environment that Jongno (  ) Ga exhibition creates,
+      there is signage but it has no commercial functionality. The gallery is a space
+      full of symbols, words and signs but the bodies that they belonged to, or were
+      connected to, are absent, left behind somewhere. \n What happens to a piece of
+      street furniture when it is hijacked from where it used to belong and placed in
+      a sterile gallery space as if it were exhibited in a future museum of antiquities
+      from the contemporary world? What might decontextualised symbols and signage evoke
+      to this ‘future’ audience?\n These loud and one-directional voices, which were
+      once intended to be immediate and commercial, might initiate a different kind
+      of conversation with the audience, if indeed they can ever actually generate any
+      dialogue.\n"
+    artwork_desc_ko: |
+      인적 없는 새벽 거리에서, 간판 위의 텍스트는 텅 빈 메아리 같은 외침이 된다. 이는 텍스트를 읽을 이유가 부재하는 경우도 마찬가지다. 종로 ( )가 전시 공간에는 가게가 없다. 몸체는 두고 부품(기호)만 떼어 온 공간이다. 따라서 이 작업은 종로 거리에서 흔히 접하는 상업용 간판의 어지럽고 일방적인 목소리를 갤러리로 탈바꿈한 오랜 서울역사에 고립시킴으로써 제가 살던 거리와 가게에서 떨어져 나온 간판이 어떤 물건이 되는지 탐색하려는 의도를 품는다. 간판이 길거리에서 외치던 흔한 단어-그러나 전시장의 관객들에게는 실제적 의미가 없어진 단어-를 골라, 아무것도 프린트되지 않은 회전 입간판 위로 그 상(像)을 띄운다. 영상은 처음과 끝의 경계가 없이 반복되며, 무한히 제자리를 떠돈다. 투사된 이미지는 3차원 공간에 흩어져 존재하는 글자들이며, 이는 입간판 위로 완전히 달라붙기를 거부한다. 현재의 삶에 바로 맞닿아 있던 입간판들을 정돈된 전시장 안에 위치시키는 순간, 이 작은 공간은 어느 미래에 존재하는 가상의 박물관이 될 수도 있다. 끊어진 맥락 속에 있는 이 ‘과거’의 물건은 ‘미래’의 관객들에게 무엇을 환기하며, 어떻게 대화하는가?
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
-
+photos:
+- "./images/exhibitions/6-lara-lee-n-oui-kim-1.jpg"
+- "./images/exhibitions/6-lara-lee-n-oui-kim-2.jpg"
+- "./images/exhibitions/6-lara-lee-n-oui-kim-3.jpg"
+- "./images/exhibitions/6-lara-lee-n-oui-kim-4.jpg"

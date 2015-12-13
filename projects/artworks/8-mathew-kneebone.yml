@@ -1,47 +1,35 @@
+---
 full_name_en: Mathew Kneebone
-full_name_ko: 매슈 니본
+full_name_ko: "매슈 니본"
 origin_city_en: Ghent
-origin_city_ko: 겐트
+origin_city_ko: "겐트"
 origin_country_en: Belgium
-origin_country_ko: 벨기에
+origin_country_ko: "벨기에"
 origin_lat: 51.05434
 origin_lng: 3.71742
-
-participant_bio_en: >
- Mathew Kneebone is an artist making work in a range of media, including drawing, electronics, sound, and performance. Kneebone is interested in the historical development of electrical technology created by engineers for end-users. His work addresses this relationship through examples of innovation, planned obsolescence, black boxing, and user level anxieties, of which manifest as both real and superstitious. His tracing and re-invention of these technologies often bring to light a disturbing conflation of technological histories and theories. Kneebone has recently exhibited his first solo show, Faith in Machines at 019 in Ghent, which looks at the history of the gremlin as an example of how superstition has been used to account for unexplained technical problems. He has a forthcoming exhibition at Sitterwerk in St. Gallen (CH), where for the occasion a collection of his drawings will be published through Dent De Leone (UK).
-
-participant_bio_ko: >
- 매슈 니본은 드로잉, 전자 장치, 사운드, 퍼포먼스 등 다양한 매체를 활용하는 작가이다. 기술자들이 창조한 전기 기술의 역사에 관심을 갖고 있는 그의 작업은 기술의 혁신은 물론 의도된 노후화, 블랙박스 같은 성질, 사용자들이 갖는 불안 사이의 관계를 다룬다. 이러한 기술들을 추적하고 재발명하는 작업은 종종 역사적, 이론적으로 충격적인 융합물의 탄생으로 이어기지도 한다. 최근 열린 첫 번째 개인전 《기계 안의 믿음》은 그렘린의 역사를 통해 예기치 못한 기술적 문제를 설명하는 데 미신이 어떻게 활용되는지 보여준다.
-
+participant_bio_en: |
+  Mathew Kneebone is an artist making work in a range of media, including drawing, electronics, sound, and performance. Kneebone is interested in the historical development of electrical technology created by engineers for end-users. His work addresses this relationship through examples of innovation, planned obsolescence, black boxing, and user level anxieties, of which manifest as both real and superstitious. His tracing and re-invention of these technologies often bring to light a disturbing conflation of technological histories and theories. Kneebone has recently exhibited his first solo show, Faith in Machines at 019 in Ghent, which looks at the history of the gremlin as an example of how superstition has been used to account for unexplained technical problems. He has a forthcoming exhibition at Sitterwerk in St. Gallen (CH), where for the occasion a collection of his drawings will be published through Dent De Leone (UK).
+participant_bio_ko: |
+  매슈 니본은 드로잉, 전자 장치, 사운드, 퍼포먼스 등 다양한 매체를 활용하는 작가이다. 기술자들이 창조한 전기 기술의 역사에 관심을 갖고 있는 그의 작업은 기술의 혁신은 물론 의도된 노후화, 블랙박스 같은 성질, 사용자들이 갖는 불안 사이의 관계를 다룬다. 이러한 기술들을 추적하고 재발명하는 작업은 종종 역사적, 이론적으로 충격적인 융합물의 탄생으로 이어기지도 한다. 최근 열린 첫 번째 개인전 《기계 안의 믿음》은 그렘린의 역사를 통해 예기치 못한 기술적 문제를 설명하는 데 미신이 어떻게 활용되는지 보여준다.
 artworks:
-  -
-    artwork_name_en: Mechanical Systems Drawing
-    artwork_name_ko: 기계 시스템 드로잉
+  - artwork_name_en: Mechanical Systems Drawing
+    artwork_name_ko: "기계 시스템 드로잉"
     artwork_year: 2015
     artwork_medium_en: Pencil on paper, 5pieces, 29x21cm
-    artwork_medium_ko: 종이에 연필, 5점, 29x21cm
-    artwork_desc_en: >
+    artwork_medium_ko: "종이에 연필, 5점, 29x21cm"
+    artwork_desc_en: |
       Mechanical Systems Drawing is an ongoing project that investigates how we acquire knowledge through the language of technical drawing. The project is a collection of pencil drawings that visualises my research into the history of electricity, whilst also questioning our ability to formally analyse the conventions of technical drawing which are often used to explain and build technology. Similar to built technology, instructional drawing serves as a means to an end, falling in line with the concept of black-boxing, as defined by Bruno Latour who states that “technical work is made invisible by its own success [because when] a machine runs efficiently, when a matter of fact is settled, one need focus only on its inputs and outputs and not on its internal complexity." To show a relationship between domestic technology and the city, the drawings made for Typojanchi 2015 will depict common devices found in hotel rooms (including lighting, television, and fans) as well as culturally specific technologies around the city of Seoul.
-
-    artwork_desc_ko: >
+    artwork_desc_ko: |
       〈기계 시스템 드로잉〉은 드로잉 기법의 언어를 통해 우리가 어떻게 지식을 획득하는지 살피는 작품이다. 이는 전기의 역사에 대한 작가의 리서치가 시각화된 드로잉 연작으로서, 기술을 설명하거나 개발할 때 종종 사용되는 기술적 드로잉에 내재한 관습과 이를 분석하는 우리의 능력에 의문을 던진다. “기술적 작업을 안 보이게 하는 것은 바로 그것의 성공이다. 기계가 효율적으로 가동되거나 문제가 해결되었을 때, 우리의 관심은 내부의 복잡성이 아니라 오직 입출력에 쏠린다”는 브뤼노 라투르의 말처럼, 기계 장치를 설명하는 드로잉은 종종 블랙박스와 같은 개념을 공유하는 듯 보인다.
-
-
-
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
+photos:
+- "./images/exhibitions/8-mathew-kneebone-1.jpg"

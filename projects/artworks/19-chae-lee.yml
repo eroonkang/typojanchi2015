@@ -1,42 +1,34 @@
+---
 full_name_en: Chae Lee
-full_name_ko: 이재원
+full_name_ko: "이재원"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.629222
 origin_lng: 127.090551
-
-participant_bio_en: |
-
+participant_bio_en: ''
 participant_bio_ko: |
   이재원 (Chae Lee)은 예일대학(Yale University)에서 석사를 마친 후, 워커아트센터(Walker Art Center)와 에스오 프로젝트(S/O Project)를 거쳐 현재 서울여자대학교 미술대학 시각디자인학과 교수로 재직 중이다. 그래픽 디자인 연구를 넘어선 정보 디자인으로 응용범위를 넓혀가고 있다.
-
 artworks:
-  -
-    artwork_name_en: City Type Bus Project
-    artwork_name_ko: 도시문자버스 프로젝트
+  - artwork_name_en: City Type Bus Project
+    artwork_name_ko: "도시문자버스 프로젝트"
     artwork_year: 2014
-    artwork_medium_en: ""
-    artwork_medium_ko: ""
+    artwork_medium_en: ''
+    artwork_medium_ko: ''
     artwork_desc_en: |
       The bus wears the road signages and texts which indicate for moving.
       This communicates a somewhat ambiguity in its subject and object.
     artwork_desc_ko: |
       도시의 이동을 가능케하는 지시 수단인 도로 기호와 텍스트를 이동의 주체인 버스가 흡수하여 도시를 래핑한다.
-    
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
-venue_detail_en: ""
-venue_detail_ko: ""
+venue_name_ko: "문화역 서울 284"
+venue_detail_en: ''
+venue_detail_ko: ''
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
+photos: []

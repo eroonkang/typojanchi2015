@@ -1,44 +1,32 @@
+---
 full_name_en: Ludovic Balland
-full_name_ko: 루도비크 발란트
+full_name_ko: "루도비크 발란트"
 origin_city_en: Basel
-origin_city_ko: 바젤
+origin_city_ko: "바젤"
 origin_country_en: Switzerland
-origin_country_ko: 스위스
+origin_country_ko: "스위스"
 origin_lat: 47.55436
 origin_lng: 7.58397
-
-participant_bio_en: >
- Born in 1973, Ludovic Balland studied graphic design at the University of Art and Design in Basel. In 2002 he co-founded the studio, The Remingtons Studio and in 2006 Balland founded his own studio, Ludovic Balland Typography Cabinet that focuses on book design and more generally in editorial design and new visual identities for international brands and cultural institutions. He teaches at the University of Art and Design in Lausanne (ECAL) and has held several workshops across Europe and the US, including: Swiss Institute, California Institute of the Arts, Zuercher Hochschule der Kuenste, Universitaet der Kuenste, etc. In 2009, He held solo exhibitions at Museum of Modern Art, Warsaw.
-
-
-participant_bio_ko: >
- 1973년 출생한 루도비크 발란트는 바젤 디자인학교에서 그래픽디자인을 공부했다. 2002년 레밍턴스 스튜디오를 공동 설립했으며, 2006년에는 타이포그래피와 편집 디자인 작업에 주력하는 디자인 스튜디오 ‘루도비크 발란트 타이포그래피 캐비닛’을 설립했다. 2003년 스위스 연방 디자인 어워드를 시작으로 최근까지 수많은 디자인 어워드에서 수상했으며, 2009년 바르샤바 현대미술관에서 개인전을 가졌다. 로잔 국립예술대학교에서 학생들을 가르치고 있으며 취리히, 바젤, 베를린, 라이프치히, 오스트리아 등지에서 타이포그래피 워크숍을 진행해오고 있다.
-
+participant_bio_en: |
+  Born in 1973, Ludovic Balland studied graphic design at the University of Art and Design in Basel. In 2002 he co-founded the studio, The Remingtons Studio and in 2006 Balland founded his own studio, Ludovic Balland Typography Cabinet that focuses on book design and more generally in editorial design and new visual identities for international brands and cultural institutions. He teaches at the University of Art and Design in Lausanne (ECAL) and has held several workshops across Europe and the US, including: Swiss Institute, California Institute of the Arts, Zuercher Hochschule der Kuenste, Universitaet der Kuenste, etc. In 2009, He held solo exhibitions at Museum of Modern Art, Warsaw.
+participant_bio_ko: |
+  1973년 출생한 루도비크 발란트는 바젤 디자인학교에서 그래픽디자인을 공부했다. 2002년 레밍턴스 스튜디오를 공동 설립했으며, 2006년에는 타이포그래피와 편집 디자인 작업에 주력하는 디자인 스튜디오 ‘루도비크 발란트 타이포그래피 캐비닛’을 설립했다. 2003년 스위스 연방 디자인 어워드를 시작으로 최근까지 수많은 디자인 어워드에서 수상했으며, 2009년 바르샤바 현대미술관에서 개인전을 가졌다. 로잔 국립예술대학교에서 학생들을 가르치고 있으며 취리히, 바젤, 베를린, 라이프치히, 오스트리아 등지에서 타이포그래피 워크숍을 진행해오고 있다.
 artworks:
-  -
-    artwork_name_en: Basel, Warsaw, Venice
-    artwork_name_ko: 바젤, 바르샤바, 베니스
+  - artwork_name_en: Basel, Warsaw, Venice
+    artwork_name_ko: "바젤, 바르샤바, 베니스"
     artwork_year: 2015
     artwork_medium_en: Poster, 160x106.7cm
-    artwork_medium_ko: 포스터, 160x106.7cm
-    artwork_desc_en: >
-    artwork_desc_ko: >
-
-
+    artwork_medium_ko: "포스터, 160x106.7cm"
+    artwork_desc_en: ''
+    artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
 venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
+photos: []

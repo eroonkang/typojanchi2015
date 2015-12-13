@@ -1,59 +1,47 @@
+---
 full_name_en: Choongho Lee
-full_name_ko: 이충호
+full_name_ko: "이충호"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.55277
 origin_lng: 126.92078
-
-participant_bio_en: >
- Choong Ho Lee is an art director and graphic designer graduated from Central Saint Martin’s College of Art and Design in London with a BA (Hons) in graphic design. He also received an MA in graphic design from London College of Communication. He founded his own graphic design studio SW20 which works on a wide range of projects across a variety of media. He currently teaches at Korea National University of Arts, University of Seoul and Ewha Womans University. His works were awarded by multiple awards including New York Art Directors Club, New York Type Directors Club, Tokyo Type Directors Club etc. His works have been exhibited and published in magazines and books across the world.
-
-participant_bio_ko: >
- 아트 디렉터이자 그래픽 디자이너인 이충호는 런던 센트럴 세인트 마틴스 대학교에서 그래픽디자인으로 학사 학위를, 런던 칼리지 오브 커뮤니케이션에서 같은 전공으로 석사 학위를 받았다. SW20을 운영하며 그래픽디자인 전반에 걸친 다양한 작업을 하고 있으며 한국예술종합학교, 서울시립대학교, 이화여자대학교 등에서 학생들을 가르치고 있다. 그의 작업은 뉴욕 ADC, 뉴욕 TDC, 도쿄 TDC 등 국제 디자인 공모전에서 여러 차례 수상하였으며 국내외 잡지를 비롯한 여러 매체에 소개되었다.
-
+participant_bio_en: |
+  Choong Ho Lee is an art director and graphic designer graduated from Central Saint Martin’s College of Art and Design in London with a BA (Hons) in graphic design. He also received an MA in graphic design from London College of Communication. He founded his own graphic design studio SW20 which works on a wide range of projects across a variety of media. He currently teaches at Korea National University of Arts, University of Seoul and Ewha Womans University. His works were awarded by multiple awards including New York Art Directors Club, New York Type Directors Club, Tokyo Type Directors Club etc. His works have been exhibited and published in magazines and books across the world.
+participant_bio_ko: |
+  아트 디렉터이자 그래픽 디자이너인 이충호는 런던 센트럴 세인트 마틴스 대학교에서 그래픽디자인으로 학사 학위를, 런던 칼리지 오브 커뮤니케이션에서 같은 전공으로 석사 학위를 받았다. SW20을 운영하며 그래픽디자인 전반에 걸친 다양한 작업을 하고 있으며 한국예술종합학교, 서울시립대학교, 이화여자대학교 등에서 학생들을 가르치고 있다. 그의 작업은 뉴욕 ADC, 뉴욕 TDC, 도쿄 TDC 등 국제 디자인 공모전에서 여러 차례 수상하였으며 국내외 잡지를 비롯한 여러 매체에 소개되었다.
 artworks:
-  -
-    artwork_name_en: 1. Today’s Arrivals
+  - artwork_name_en: 1. Today’s Arrivals
     artwork_name_ko: 1. 금일 도착편
     artwork_year: 2015
     artwork_medium_en: Book, 23.5x16.5cm
-    artwork_medium_ko: 책, 23.5x16.5cm
-    artwork_desc_en: >
+    artwork_medium_ko: "책, 23.5x16.5cm"
+    artwork_desc_en: |
       Whichever city you visit, if you enter it through the airport, the very first welcome greeting from the city will be heard on in-flight announcements once you touch down on the runway of your destination airport. To arrive in Seoul by airplane from abroad, people can come in through Incheon International Airport or Gimpo International Airport and most of the international flights are operated at Incheon International Airport. In 2014, Incheon International Airport was connecting to 54 countries and 195 cities through 83 airlines and the number of passengers reached 45,512,099 while its annual operating number of flights was 290,043. The number of immigration on October 13, 2015 from 00:00 to 24:00 goes to show how many visitors were welcomed by the city of Seoul.
-  
-    artwork_desc_ko: >
+    artwork_desc_ko: |
       어느 도시를 방문하든 공항을 통하여 들어간다고 했을 때 그 도시에서 가장 먼저 듣는 환영 인사는 목적지 공항 활주로에 도착하여 듣는 기내 방송일 것이다. 해외에서 항공편으로 서울에 들어오기 위해서는 인천국제공항이나 김포국제공항을 통하여 들어오게 되는데 그중 대부분의 국제선이 인천국제공항에서 운항된다. 2014년 기준으로, 인천국제공항은 83개 항공사를 통하여 54개국 195개 도시와 연결되어 있으며 연간 운항은 29만 43편, 이용 승객은 4551만 2099명에 달한다. 24시간 운영되는 인천국제공항의 2015년 10월 13일 0시부터 24시까지 하루 동안의 모든 입국 상황은 서울이라는 도시가 얼마나 많은 방문객을 맞이하고 있는지 그 규모를 짐작할 수 있게 해준다.
-
-
-  -
-    artwork_name_en: 2. How Do You Like Seoul?
+  - artwork_name_en: 2. How Do You Like Seoul?
     artwork_name_ko: 2. 서울은 어떻습니까?
     artwork_year: 2015
     artwork_medium_en: Book, 23.5x16.5cm
-    artwork_medium_ko: 책, 23.5x16.5cm
-    artwork_desc_en: >
+    artwork_medium_ko: "책, 23.5x16.5cm"
+    artwork_desc_en: |
       The impression of the space called city is built in a variety of ways. Various images on cities can be easily browsed on the Internet and this gives an effect to determine the impression of a particular city. Urban landscapes of Seoul experienced online may differ significantly depending on the differences of a search term. As long as an image is not present independently, it functions with the contents of text in general and for that reason, a difference occurs in the image seen in the results, though you find the same area. To focus on the text where an image is included and the source rather than the Seoul image itself offers an opportunity to explore how the impression of Seoul is formed on the internet.
-  
-    artwork_desc_ko: >
+    artwork_desc_ko: |
       도시라는 공간에 대한 인상은 여러 가지 방법에 의해 만들어진다. 그중 인터넷은 어렵지 않게 도시에 관한 다양한 이미지를 찾아볼 수 있으며 이것은 특정한 도시의 인상을 결정짓는데 영향을 준다. 온라인에서 경험하는 서울의 모습은 검색어의 차이에 따라 상당히 다를 수 있다. 이미지가 독립적으로 존재하지 않는 한 보통 글의 내용과 함께 기능을 하기 때문에 같은 지역을 검색한다 해도 결과에서 보이는 이미지에는 차이가 발생한다. 서울에 대한 이미지 자체보다 이것이 포함된 글과 출처에 대한 주목은 인터넷 공간에서 서울의 인상이 어떻게 형성되는지 탐구할 수 있는 기회를 제공한다.
-
-
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
+photos:
+- "./images/exhibitions/8-choongho-lee-1.jpg"
+- "./images/exhibitions/8-choongho-lee-2.jpg"
+- "./images/exhibitions/8-choongho-lee-3.jpg"
+- "./images/exhibitions/8-choongho-lee-4.jpg"

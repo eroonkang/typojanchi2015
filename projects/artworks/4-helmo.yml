@@ -1,48 +1,33 @@
+---
 full_name_en: Helmo
-full_name_ko: 엘모
+full_name_ko: "엘모"
 origin_city_en: Montreuil
-origin_city_ko: 몽트뢰유
+origin_city_ko: "몽트뢰유"
 origin_country_en: France
-origin_country_ko: 프랑스
+origin_country_ko: "프랑스"
 origin_lat: 48.85661
 origin_lng: 2.43646
-
-participant_bio_en: >
- Thomas & Clement met in 1997 during their studies in Besancon, France. Both took their own way in 1999. In Paris, Clement studied typography for 2 years (DSAA typographie in Ecole Estienne), then worked with TV graphic studio Gedeon. Thomas first worked with studios for 2 years (Malte Martin, H5) before becoming a freelance graphic designer. In 2003, with T. Dimetto, they founded “La Bonne Merveille,” graphic design studio. The group split in 2007, and Thomas & Clement continued their collaboration as a duo under the name “Helmo.”
- They work in various fields of graphic design, mainly for cultural institutions or festivals in France. Their body of work plays with concepts like variation, mutation, randomness, and combination... Helmo studio is based in Montreuil, near Paris, France. Thomas & Clement are AGI Members since 2014.
-
-participant_bio_ko: >
- 엘모는 프랑스 출신의 디자이너 토마 쿠데르와 클레망 보셰가 설립한 디자인 스튜디오이다. 둘은 1997년 프랑스 동부 도시 브장송에서 공부하며 처음 만났다. 졸업 후 클레망은 파리의 에콜 에스티엔느에서 2년간 타이포그래피를 공부하고 텔레비전 그래픽 스튜디오 기드온에서 일했으며, 토마는 2년간 디자인 스튜디오에 다니다 독립해 프리랜서 그래픽 디자이너로 일했다. 이들은 2003년부터 함께 일하기 시작했으며 2007년부터 엘모라는 이름으로 활동하며 주로 문화예술 기관이나 축제를 위한 디자인 작업을 하고 있다.
-
+participant_bio_en: |
+  Thomas & Clement met in 1997 during their studies in Besancon, France. Both took their own way in 1999. In Paris, Clement studied typography for 2 years (DSAA typographie in Ecole Estienne), then worked with TV graphic studio Gedeon. Thomas first worked with studios for 2 years (Malte Martin, H5) before becoming a freelance graphic designer. In 2003, with T. Dimetto, they founded “La Bonne Merveille,” graphic design studio. The group split in 2007, and Thomas & Clement continued their collaboration as a duo under the name “Helmo.” They work in various fields of graphic design, mainly for cultural institutions or festivals in France. Their body of work plays with concepts like variation, mutation, randomness, and combination... Helmo studio is based in Montreuil, near Paris, France. Thomas & Clement are AGI Members since 2014.
+participant_bio_ko: |
+  엘모는 프랑스 출신의 디자이너 토마 쿠데르와 클레망 보셰가 설립한 디자인 스튜디오이다. 둘은 1997년 프랑스 동부 도시 브장송에서 공부하며 처음 만났다. 졸업 후 클레망은 파리의 에콜 에스티엔느에서 2년간 타이포그래피를 공부하고 텔레비전 그래픽 스튜디오 기드온에서 일했으며, 토마는 2년간 디자인 스튜디오에 다니다 독립해 프리랜서 그래픽 디자이너로 일했다. 이들은 2003년부터 함께 일하기 시작했으며 2007년부터 엘모라는 이름으로 활동하며 주로 문화예술 기관이나 축제를 위한 디자인 작업을 하고 있다.
 artworks:
-  -
-    artwork_name_en: TYPOJANCHI 2015
-    artwork_name_ko: 타이포잔치 2015
+  - artwork_name_en: TYPOJANCHI 2015
+    artwork_name_ko: "타이포잔치 2015"
     artwork_year: 2015
     artwork_medium_en: Poster, 2 pieces, each 160x106.7cm
-    artwork_medium_ko: 오프셋 인쇄, 2개, 각 160x106.7cm
-    artwork_desc_en: >
+    artwork_medium_ko: "오프셋 인쇄, 2개, 각 160x106.7cm"
+    artwork_desc_en: |
       Evocation of a city, using text only (official informations to promote the Biennale). The poster represents our relation to typography in the city, somewhere between fascination for its complexity and nauseous saturation. We designed the 2 typefaces used in the poster : the main one, "Grand Rue", is inspired by city reclined letters painted on road's  asphalt in France ; the second one, "Palais", is a variation of a dot typeface we've designed for Palais de Tokyo visual identity (museum of contemporary arts in Paris).
-
-    artwork_desc_ko: >
-
-
-
+    artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
 venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
-
+photos: []

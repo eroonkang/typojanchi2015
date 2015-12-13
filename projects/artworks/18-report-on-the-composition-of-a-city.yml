@@ -2,7 +2,7 @@
 idx: 18
 permalink: 18-report-on-the-composition-of-a-city
 project_name_en: REPORT ON THE COMPOSITION OF A CITY
-project_name_ko: 도시 구성 리포트
+project_name_ko: "도시 구성 리포트"
 curator_name_en: |
   Curated by Doosung Paper
 curator_name_ko: |
@@ -13,6 +13,19 @@ project_desc_ko: |
   도시를 구성하는 여러 요소들 중 눈에 보이진 않지만 항상 작동하고 있는 도덕과 규율, 즉 시민의 대표적 의무인 세금, 끊임없이 생성되는 신조어, 도로교통법처럼 모두가 지켜야 하는 약속과 질서 등을 그래픽 작업으로 시각화했다. 우리가 사는 도시에는 이처럼 겉으로 드러나진 않아도 늘 곁에 있는 것들이 무수히 많다. 매순간 숨 쉬며 살지만 너무 당연해 그 존재를 인식하지 않는 공기처럼 말이다.
 curator_bio_en: |
   Powered by Doosung Paper
-curator_bio_ko: |
-  두성종이 
+curator_bio_ko: "두성종이 \n"
 type: Project
+photos:
+- "./images/exhibitions/18-doosung-1.jpg"
+- "./images/exhibitions/18-doosung-10.jpg"
+- "./images/exhibitions/18-doosung-11.jpg"
+- "./images/exhibitions/18-doosung-12.jpg"
+- "./images/exhibitions/18-doosung-13.jpg"
+- "./images/exhibitions/18-doosung-2.jpg"
+- "./images/exhibitions/18-doosung-3.jpg"
+- "./images/exhibitions/18-doosung-4.jpg"
+- "./images/exhibitions/18-doosung-5.jpg"
+- "./images/exhibitions/18-doosung-6.jpg"
+- "./images/exhibitions/18-doosung-7.jpg"
+- "./images/exhibitions/18-doosung-8.jpg"
+- "./images/exhibitions/18-doosung-9.jpg"

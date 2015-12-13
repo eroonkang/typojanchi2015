@@ -1,47 +1,40 @@
+---
 full_name_en: StudioSpass
-full_name_ko: 스튜디오 스파스
+full_name_ko: "스튜디오 스파스"
 origin_city_en: Rotterdam
-origin_city_ko: 로테르담
+origin_city_ko: "로테르담"
 origin_country_en: Netherlands
-origin_country_ko: 네덜란드
+origin_country_ko: "네덜란드"
 origin_lat: 51.91487
 origin_lng: 4.4763308
-
-participant_bio_en: >
- Studio Spass is a Rotterdam-based agency that works across print, branding, web and spatial design projects as well as animation and photography. Founded by Jaron Korvinus and Daan Mens in 2008, the studio combines a rigorous, considered and intelligent approach with a playful sensibility. 
- They understand that powerful and effective visual communication needs both original ideas and faultless execution, and the team prides itself on its perfectionist eye for the little details as well as its innovative conceptual thinking.  Jaron and Daan continue to oversee the studio’s output and have built a diverse team of specialists as well as a wider network of creatives on which they can draw.   
- Studio Spass works closely with clients and believes in genuine collaboration to develop the best visual solutions possible but that doesn’t mean slavishly following a brief – rather they like to challenge their clients and make sure their designs are answering the right questions.
-
-participant_bio_ko: >
- 스튜디오 스파스는 로테르담에 위치한 디자인 에이전시로 인쇄, 브랜딩, 웹, 공간 디자인은 물론 애니메이션과 사진 작업을 아우른다. 야론 코르비뉘스와 단 멘스가 2008년 설립한 이 스튜디오는 엄격하고, 사려 깊고, 지적인 접근법을 유희적인 감성과 결합한다. 강력하고 효과적인 시각 커뮤니케이션이 독창적인 아이디어와 결점 없는 실행 둘 모두를 요구한다는 사실을 잘 이해하는 이들은 혁신적인 개념적 사고뿐 아니라 아주 작은 세부까지 놓치지 않는 완벽주의자의 눈에 자부심을 갖고 있다.
-
+participant_bio_en: |
+  Studio Spass is a Rotterdam-based agency that works across print, branding, web and spatial design projects as well as animation and photography. Founded by Jaron Korvinus and Daan Mens in 2008, the studio combines a rigorous, considered and intelligent approach with a playful sensibility.  They understand that powerful and effective visual communication needs both original ideas and faultless execution, and the team prides itself on its perfectionist eye for the little details as well as its innovative conceptual thinking.  Jaron and Daan continue to oversee the studio’s output and have built a diverse team of specialists as well as a wider network of creatives on which they can draw.    Studio Spass works closely with clients and believes in genuine collaboration to develop the best visual solutions possible but that doesn’t mean slavishly following a brief – rather they like to challenge their clients and make sure their designs are answering the right questions.
+participant_bio_ko: |
+  스튜디오 스파스는 로테르담에 위치한 디자인 에이전시로 인쇄, 브랜딩, 웹, 공간 디자인은 물론 애니메이션과 사진 작업을 아우른다. 야론 코르비뉘스와 단 멘스가 2008년 설립한 이 스튜디오는 엄격하고, 사려 깊고, 지적인 접근법을 유희적인 감성과 결합한다. 강력하고 효과적인 시각 커뮤니케이션이 독창적인 아이디어와 결점 없는 실행 둘 모두를 요구한다는 사실을 잘 이해하는 이들은 혁신적인 개념적 사고뿐 아니라 아주 작은 세부까지 놓치지 않는 완벽주의자의 눈에 자부심을 갖고 있다.
 artworks:
-  -
-    artwork_name_en: C (  ) T (  ) Sculpture
-    artwork_name_ko: ㄷ (  ) ㅅ (  ) 조각
+  - artwork_name_en: C (  ) T (  ) Sculpture
+    artwork_name_ko: "ㄷ (  ) ㅅ (  ) 조각"
     artwork_year: 2015
     artwork_medium_en: Installation and scale models (500x800cm)
-    artwork_medium_ko: 설치, 축적 모형(500x800cm)
-    artwork_desc_en: >
-     StudioSpass made an installation that plays and interacts with the neoclassical architectural elements of the building and its visitors. C (  ) T (  ) Sculpture is a large scale typographic installation based on the title and the theme of the biennale. The typographic elements of the installation serve as a skin for a selection of reflecting statements on the subjects city, street and public space, selected in collaboration with director Kyungsun Kymn. This project is a visual follow up to the studio’s previously made Street sculptures as part of “De Wereld van Witte de With ’12” identity. A selection of the Street sculptures scale models are presented as a visual introduction to the studio’s latest installation.
-    artwork_desc_ko: >
-     스튜디오 스파스는 타이포잔치의 제목과 주제를 활용해 1925년 세워진 문화역서울 284의 근대건축 양식과 관람객에게 반응하는 거대한 타이포그래피 설치 작업을 선보인다. 여기서 타이포그래피 요소들은 도시와 거리, 공적 공간에 대한 발언들을 위한 표피 역할을 수행한다. 작업에 쓰인 글은 타이포잔치 2015의 총감독 김경선과 협업해 구성되었다. 이번 프로젝트는 스튜디오 스파스의 이전 작업인 네덜란드 로테르담에서 열린 예술 축제 ‘비테 더 빗의 세계 2012’ 아이덴티티 중 <도시의 조각들>과 연작 개념에서 이루어졌으며, <도시의 조각들> 가운데 선별한 축적 모형을 함께 전시하여 스튜디오의 신작을 소개한다.
-
-
+    artwork_medium_ko: "설치, 축적 모형(500x800cm)"
+    artwork_desc_en: |
+      StudioSpass made an installation that plays and interacts with the neoclassical architectural elements of the building and its visitors. C (  ) T (  ) Sculpture is a large scale typographic installation based on the title and the theme of the biennale. The typographic elements of the installation serve as a skin for a selection of reflecting statements on the subjects city, street and public space, selected in collaboration with director Kyungsun Kymn. This project is a visual follow up to the studio’s previously made Street sculptures as part of “De Wereld van Witte de With ’12” identity. A selection of the Street sculptures scale models are presented as a visual introduction to the studio’s latest installation.
+    artwork_desc_ko: |
+      스튜디오 스파스는 타이포잔치의 제목과 주제를 활용해 1925년 세워진 문화역서울 284의 근대건축 양식과 관람객에게 반응하는 거대한 타이포그래피 설치 작업을 선보인다. 여기서 타이포그래피 요소들은 도시와 거리, 공적 공간에 대한 발언들을 위한 표피 역할을 수행한다. 작업에 쓰인 글은 타이포잔치 2015의 총감독 김경선과 협업해 구성되었다. 이번 프로젝트는 스튜디오 스파스의 이전 작업인 네덜란드 로테르담에서 열린 예술 축제 ‘비테 더 빗의 세계 2012’ 아이덴티티 중 <도시의 조각들>과 연작 개념에서 이루어졌으며, <도시의 조각들> 가운데 선별한 축적 모형을 함께 전시하여 스튜디오의 신작을 소개한다.
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
 venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
+photos:
+- "./images/exhibitions/1-studio-spass-1.jpg"
+- "./images/exhibitions/1-studio-spass-2.jpg"
+- "./images/exhibitions/1-studio-spass-3.jpg"
+- "./images/exhibitions/1-studio-spass-4.jpg"
+- "./images/exhibitions/1-studio-spass-5.jpg"
+- "./images/exhibitions/1-studio-spass-6.jpg"

@@ -1,45 +1,37 @@
+---
 full_name_en: Mano Ahn
-full_name_ko: 안마노
+full_name_ko: "안마노"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.57389
 origin_lng: 126.93525
-
-participant_bio_en: >
- Mano Ahn is a graphic designer. He studied graphic design in Hongik University and the Basel School of Design. Currently he works for Ahn Graphics as a book designer and creates independent works with like-minded people. 
-
-participant_bio_ko: >
- 그래픽 디자이너. 홍익대학교와 바젤 디자인학교에서 그래픽디자인을 공부했다. 현재 안그라픽스에서 책 만드는 일을 하며, 뜻 맞는 이들과 독립적인 창작 활동을 하고 있다.
-
+participant_bio_en: "Mano Ahn is a graphic designer. He studied graphic design in
+  Hongik University and the Basel School of Design. Currently he works for Ahn Graphics
+  as a book designer and creates independent works with like-minded people. \n"
+participant_bio_ko: |
+  그래픽 디자이너. 홍익대학교와 바젤 디자인학교에서 그래픽디자인을 공부했다. 현재 안그라픽스에서 책 만드는 일을 하며, 뜻 맞는 이들과 독립적인 창작 활동을 하고 있다.
 artworks:
-  -
-    artwork_name_en: Silhouette
-    artwork_name_ko: 실루엣
+  - artwork_name_en: Silhouette
+    artwork_name_ko: "실루엣"
     artwork_year: 2015
     artwork_medium_en: Vinyl laser cutting on acrylic
-    artwork_medium_ko: 아크릴에 비닐 레이저 커팅
-    artwork_desc_en: >
+    artwork_medium_ko: "아크릴에 비닐 레이저 커팅"
+    artwork_desc_en: |
       Mano Ahn explores the traditional graphic design techniques of sillouetting and vectorizing which is the essential factor for laser cutting sheets and experiments with them. With this, he researches the problem which a designer has to face to when they deal with signage as a medium, and its expressive possibility beyond the simplification and information delivery.
-    artwork_desc_ko: >
+    artwork_desc_ko: |
       안마노는 전통적인 그래픽디자인 기법인 실루엣팅(Sillouetting)과 레이저 커팅 시트를 위한 필수조건인 벡터라이징(Vectorizing)을 활용한 조형적 실험을 통해 디자이너가 간판이라는 매체를 다룰 때 직면할 수밖에 없는 과제, 즉 단순화와 정보 전달을 넘어선 표현적 가능성을 탐구한다.
-
-
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
+photos:
+- "./images/exhibitions/6-mano-ahn-1.jpg"
+- "./images/exhibitions/6-mano-ahn-2.jpg"

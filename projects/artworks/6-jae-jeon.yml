@@ -1,45 +1,47 @@
+---
 full_name_en: Jae Jeon
-full_name_ko: 전재운
+full_name_ko: "전재운"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.5527
 origin_lng: 126.92503
-
-
-participant_bio_en: >
- Jae Jeon is a graphic designer and an educator. He majored in Graphic Design from Art Center College of Design and received his master degree from Rhode Island School of Design. Now, he is an Assistant Professor at Hongik University and teaching Visual Communication Design and Advertisement Design.
-
-
-participant_bio_ko: >
- 그래픽 디자이너. 홍익대학교 시각디자인과 조교수. 아트 센터 칼리지 오브 디자인에서 시각디자인을 전공하고, 로드아일랜드 디자인학교에서 그래픽디자인으로 석사 학위를 받았다. 현재 홍익대학교에서 시각디자인과 광고 디자인을 가르치고 있다.
-
+participant_bio_en: |
+  Jae Jeon is a graphic designer and an educator. He majored in Graphic Design from Art Center College of Design and received his master degree from Rhode Island School of Design. Now, he is an Assistant Professor at Hongik University and teaching Visual Communication Design and Advertisement Design.
+participant_bio_ko: |
+  그래픽 디자이너. 홍익대학교 시각디자인과 조교수. 아트 센터 칼리지 오브 디자인에서 시각디자인을 전공하고, 로드아일랜드 디자인학교에서 그래픽디자인으로 석사 학위를 받았다. 현재 홍익대학교에서 시각디자인과 광고 디자인을 가르치고 있다.
 artworks:
-  -
-    artwork_name_en: as found
-    artwork_name_ko: 발견된
+  - artwork_name_en: as found
+    artwork_name_ko: "발견된"
     artwork_year: 2015
     artwork_medium_en: X-banner, 180x60cm
     artwork_medium_ko: X 배너, 80x60cm
-    artwork_desc_en: >
+    artwork_desc_en: |
       ‘As Found’ responds to the typographic cultural aspects of the city, Seoul Jongro. The site Jongro inspired a search for objects, texts, and materials that arrives “as found”. These groupings and gatherings construct an alternative knowledge or secondary narrative of the city and typographic culture. Selected images, texts and objects are then brought back to Seoul Station 284. Recurring representation of the texts often found in LED signs of the city encourages us to remember alternate side of the city, 'b-side’, constructing a form of ‘counter-memory’. This project suggests alternate way of recreating and remembering the city we live in.
-    artwork_desc_ko: >
+    artwork_desc_ko: |
       ‘As Found’는 자유로운 작업 조건 내에서 유일한 제약 중 하나인 종로라는 장소성과 도시 속에 존재하는 문자 문화를 다룬다. 종로 거리에서 발견된 소재와 기록들의 재결합을 통해서 도시의 새로운 관점과 이차적인 서술을 만들어내는 데에 그 접근법을 두고 있다. 종로 길에서 발견된 서술적 조각들을 현존하는 인쇄소와 간판 제작소에 작업을 의례하고 이들과 협업을 이루게 된다. 이렇게 구성된 도시 속에 존재하는 문자와 수집된 형태들의 잔재들이 서울역 284 뒤편에 위치한 가상의 종로( )가로 되돌아온다. 도시의 밤은 ‘b-side’ 즉 도시의 뒷면과도 같다. 연속성과 반복성이 강한 도시의 문자 문화는 우리로 하여금 도시의 정체성을 조금씩 잊게 만들고 단절시킨다. 도시의 문자 문화에서 볼 수 있는 허구성과 제도화된 기억 속에서 비공식적 수집과 시퀀싱을 통해 도시의 반기억 (counter-memory), 또 다른 의미를 제시한다. 도시의 기억과 형태를 흐리는 다양한 형광등과 발광디이오드 (LED)는 밝지만 어두움의 내면을 비춰주는듯하다. 반복적인 LED 그리드 위로 도시의 문자는 불안전한 형태로 우리에게 도시의 또 다른 기억을 만든다.
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
+photos:
+- "./images/exhibitions/6-jae-jeon-1.jpg"
+- "./images/exhibitions/6-jae-jeon-10.jpg"
+- "./images/exhibitions/6-jae-jeon-11.jpg"
+- "./images/exhibitions/6-jae-jeon-12.jpg"
+- "./images/exhibitions/6-jae-jeon-13.jpg"
+- "./images/exhibitions/6-jae-jeon-2.jpg"
+- "./images/exhibitions/6-jae-jeon-3.jpg"
+- "./images/exhibitions/6-jae-jeon-4.jpg"
+- "./images/exhibitions/6-jae-jeon-5.jpg"
+- "./images/exhibitions/6-jae-jeon-6.jpg"
+- "./images/exhibitions/6-jae-jeon-7.jpg"
+- "./images/exhibitions/6-jae-jeon-8.jpg"
+- "./images/exhibitions/6-jae-jeon-9.jpg"

@@ -1,45 +1,32 @@
+---
 full_name_en: Sebastian Koseda
-full_name_ko: 서배스천 코세다
+full_name_ko: "서배스천 코세다"
 origin_city_en: London
-origin_city_ko: 런던
+origin_city_ko: "런던"
 origin_country_en: UK
-origin_country_ko: 영국
+origin_country_ko: "영국"
 origin_lat: 51.5011441
 origin_lng: -0.1792847
-
-participant_bio_en: >
- Sebastian Koseda is a London based graphic designer focusing on speculative works that deal with themes of ethics, authorship & identity. In his practice, he aims to merge graphic design with the satirical interrogation of contemporary culture. He has just graduated from the RCA and is working as an Art Director at the Digital Studio FEED in London.
-
-
-
-participant_bio_ko: >
- 런던에서 활동하는 그래픽 디자이너. 영국 왕립예술학교를 졸업하고 디지털 스튜디오 피드의 아트 디렉터로 일하고 있다. 윤리학, 저자성, 정체성을 주제로 다루는 조각적 작업에 초점을 맞추고 있으며 그래픽디자인을 동시대 문화에 대한 풍자적 질문과 뒤섞으려는 시도를 하고 있다.
-
+participant_bio_en: |
+  Sebastian Koseda is a London based graphic designer focusing on speculative works that deal with themes of ethics, authorship & identity. In his practice, he aims to merge graphic design with the satirical interrogation of contemporary culture. He has just graduated from the RCA and is working as an Art Director at the Digital Studio FEED in London.
+participant_bio_ko: |
+  런던에서 활동하는 그래픽 디자이너. 영국 왕립예술학교를 졸업하고 디지털 스튜디오 피드의 아트 디렉터로 일하고 있다. 윤리학, 저자성, 정체성을 주제로 다루는 조각적 작업에 초점을 맞추고 있으며 그래픽디자인을 동시대 문화에 대한 풍자적 질문과 뒤섞으려는 시도를 하고 있다.
 artworks:
-  -
-    artwork_name_en: C. Chicago
+  - artwork_name_en: C. Chicago
     artwork_name_ko: C. 시카고
     artwork_year: 2015
     artwork_medium_en: Banner, 350x150cm
-    artwork_medium_ko: 배너, 350x150cm
-    artwork_desc_en: >
-    
-    artwork_desc_ko: >
-
-
-
+    artwork_medium_ko: "배너, 350x150cm"
+    artwork_desc_en: ''
+    artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
 venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
+photos: []

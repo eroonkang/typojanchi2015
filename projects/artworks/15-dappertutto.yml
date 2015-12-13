@@ -1,53 +1,43 @@
+---
 full_name_en: Dappertutto Studio
-full_name_ko: 다페르튜토 스튜디오
+full_name_ko: "다페르튜토 스튜디오"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: KR
-origin_country_ko: 한국
+origin_country_ko: "한국"
 origin_lat: 37.5558393
 origin_lng: 126.9716173
-
-
-participant_bio_en: >
- Dappertutto, which means "everywhere, flowing anywhere," is also the stage name of a contemporary experimental performer. Named after the artist, Dappertutto Studio is a theater group that produces a variety of collaborative projects in experimental theater including dance and musical plays, led by Zuck-geuk.
-
-participant_bio_ko: >
- 다페르튜토 스튜디오는 이탈리아어로 '어디서나, 어디에나 흐르는'이라는 뜻으로 탈 장소성을 의미하는 '다페르튜토'와 장소 특정성을 의미하는 '스튜디오'의 합성어이다. 팀 명이자 공연명인 ‘다페르튜토 스튜디오’는 연출가 적극이 이끌고 있으며, 연극의 내용과 형식을 고민, 다양한 장르의 작가와 협업하여 ‘무용적 연극’, ‘음악적 연극’이라는 대안을 모색해왔다.
-
-
+participant_bio_en: |
+  Dappertutto, which means "everywhere, flowing anywhere," is also the stage name of a contemporary experimental performer. Named after the artist, Dappertutto Studio is a theater group that produces a variety of collaborative projects in experimental theater including dance and musical plays, led by Zuck-geuk.
+participant_bio_ko: |
+  다페르튜토 스튜디오는 이탈리아어로 '어디서나, 어디에나 흐르는'이라는 뜻으로 탈 장소성을 의미하는 '다페르튜토'와 장소 특정성을 의미하는 '스튜디오'의 합성어이다. 팀 명이자 공연명인 ‘다페르튜토 스튜디오’는 연출가 적극이 이끌고 있으며, 연극의 내용과 형식을 고민, 다양한 장르의 작가와 협업하여 ‘무용적 연극’, ‘음악적 연극’이라는 대안을 모색해왔다.
 artworks:
-  -
-    artwork_name_en: Opening Performance
-    artwork_name_ko: 개막식 공연 프로젝트
+  - artwork_name_en: Opening Performance
+    artwork_name_ko: "개막식 공연 프로젝트"
     artwork_year: 2015
-    artwork_medium_en:
+    artwork_medium_en: 
     artwork_medium_ko: 
-    artwork_desc_en: |
-       Typographic Theater: Three Cancer Cell Brothers
-
-       The typographic theater, Three Cancer Cell Brothers has been developed with a “traditional Korean gut(exorcism) theatrical—a performance for elder men” motif. However, in this performance, singing, dancing and jokes are not the main contents as was with original “Korean gut theatricals.” Traditionally, typographic characters were used outside of the performance for documentation, but now take center stage as the main element for this performance. During the performance, in real time, subtitles and typographic characters will at first determine the direction of the performance. For the rest of the performance all of the remaining elements will follow this format. It is normal destiny for the playwright to disappear when the performance transitions to stage. Even though the playwright disappears, the typographic characters do not disappear but they remain to conflict, co-exist and play together with the other elements.
-
-
-       Typographic characters construct the instant landscape of the city and these letterforms describe human life. But going beyond this description of human life, the typographic characters often co-exist with that which we cannot easily describe and through this performance we re-examine the very essence of these typographic characters. 
-
-       Time: November 11, 2015, 5 p.m.
-
-
-       Venue: Culture Station Seoul 284
-
-
-       Running Time: 13 minutes
-
-
-       Production: Dappertutto Studio
-
-
-       Directer: Zuck-Geuk
-
-
-       Performers: Park Neong Cool, Park Han Kyul, Lee Mun Young et al.
-
-    artwork_desc_ko: >
+    artwork_desc_en: "Typographic Theater: Three Cancer Cell Brothers\n\nThe typographic
+      theater, Three Cancer Cell Brothers has been developed with a “traditional Korean
+      gut(exorcism) theatrical—a performance for elder men” motif. However, in this
+      performance, singing, dancing and jokes are not the main contents as was with
+      original “Korean gut theatricals.” Traditionally, typographic characters were
+      used outside of the performance for documentation, but now take center stage as
+      the main element for this performance. During the performance, in real time, subtitles
+      and typographic characters will at first determine the direction of the performance.
+      For the rest of the performance all of the remaining elements will follow this
+      format. It is normal destiny for the playwright to disappear when the performance
+      transitions to stage. Even though the playwright disappears, the typographic characters
+      do not disappear but they remain to conflict, co-exist and play together with
+      the other elements.\n\n\nTypographic characters construct the instant landscape
+      of the city and these letterforms describe human life. But going beyond this description
+      of human life, the typographic characters often co-exist with that which we cannot
+      easily describe and through this performance we re-examine the very essence of
+      these typographic characters. \n\nTime: November 11, 2015, 5 p.m.\n\n\nVenue:
+      Culture Station Seoul 284\n\n\nRunning Time: 13 minutes\n\n\nProduction: Dappertutto
+      Studio\n\n\nDirecter: Zuck-Geuk\n\n\nPerformers: Park Neong Cool, Park Han Kyul,
+      Lee Mun Young et al.\n"
+    artwork_desc_ko: |
       타이포그래피 연극: 암세포 삼 형제
 
 
@@ -69,23 +59,14 @@ artworks:
 
 
        출연: 밝넝쿨, 박한결, 이문영 외
-
-
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
+photos: []

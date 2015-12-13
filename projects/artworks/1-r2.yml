@@ -1,47 +1,36 @@
+---
 full_name_en: R2
 full_name_ko: R2
 origin_city_en: Porto
-origin_city_ko: 포르토
+origin_city_ko: "포르토"
 origin_country_en: Portugal
-origin_country_ko: 포르투갈
+origin_country_ko: "포르투갈"
 origin_lat: 41.167137
 origin_lng: -8.6690546
-
-participant_bio_en: >
+participant_bio_en: |
   R2 is a design studio based in Porto, Portugal, founded in 1995 by Lizá Defossez Ramalho and Artur Rebelo. R2’s work spans the areas of editorial design, visual identity, signage systems, posters, new media, video, exhibition design, and interventions in public spaces and buildings. The essence of R2’s work lies in a dynamic creative process in which both designers equally engage from the initial stages through to the execution of a project. This complementary dialogue draws on thoughtful research and experimentation surrounding a given content for an ultimately concept-driven approach that lends form to a final product in which typography plays a fundamental role. R2 explores static, sequential and interactive formats—through media as diverse as paper, concrete or digital—and embraces collaborative ventures with other disciplines such as architecture, engineering, photography, writing or programming.
-
-participant_bio_ko: >
+participant_bio_ko: |
   R2는 포르투갈의 포르토에 위치한 디자인 스튜디오로 1995년 리자 데포세스 라말오와 아르투르 레벨로가 설립했다. 이들의 작업은 편집 디자인부터 시각 아이덴티티, 사이니지 시스템, 포스터, 뉴 미디어, 비디오, 전시 디자인, 공공 공간 및 건물에 대한 개입까지 다양하다. 이들의 작업의 본질은 프로젝트 시작부터 끝까지 모든 디자인 과정에 두 디자이너가 똑같이 역동적으로 참여하는 데 있다. 이들의 상호 보완적인 시각은 주어진 과제를 둘러싼 사려 깊은 연구와 실험으로 이어지며, 이는 타이포그래피가 근본 역할을 하는 최종 결과물에 형태를 부여해준다. 또한 종이에서부터 디지털까지 다양한 미디어를 다루며 정적인, 연속적인, 때론 상호작용하는 포맷을 탐구하며 건축, 엔지니어, 사진, 글쓰기, 혹은 프로그래밍과 같은 다른 분과와 협업하는 모험을 마다하지 않는다.
-
 artworks:
-  -
-    artwork_name_en: Futuro
-    artwork_name_ko: 푸투로
+  - artwork_name_en: Futuro
+    artwork_name_ko: "푸투로"
     artwork_year: 2015
     artwork_medium_en: Poster (offset printing, 70x50cm) and installation (mixed media)
-    artwork_medium_ko: 포스터(옵셋 인쇄, 70x50cm), 설치(혼합 매체, 207x280cm)
-    artwork_desc_en: >  
-     Our graphic approach was based on several concepts that came from our experience of urbanity. Our proposal makes a parallel between architecture and typography. Not only its final form but also the process of making it, translates a series of concepts and contrasts that we find interesting: complexity in between spaces, structures, perspectives, urban voids and fulfillness. 
-     We used a portuguese word “Futuro” (“Future,” in English) that allow us to avoid redundancy, opening the possible readings. With this typographic approach we manage to make a direct connection with the theme.
-
-    artwork_desc_ko: >
-     알투는 도시성에 대한 몇몇 경험적 개념들을 기반으로 건축과 타이포그래피를 평행선상에 놓은 작품을 선보인다. 최종 결과물뿐 아니라 제작 과정 전반에 걸쳐 적용된 이러한 개념들은 이들의 관심사, 즉 도시의 공간과 구조, 관점, 혹은 도시의 빈 공간과 채워진 공간들 사이에 존재하는 복잡성과 대비를 이룬다.
-
-
+    artwork_medium_ko: "포스터(옵셋 인쇄, 70x50cm), 설치(혼합 매체, 207x280cm)"
+    artwork_desc_en: |
+      Our graphic approach was based on several concepts that came from our experience of urbanity. Our proposal makes a parallel between architecture and typography. Not only its final form but also the process of making it, translates a series of concepts and contrasts that we find interesting: complexity in between spaces, structures, perspectives, urban voids and fulfillness.  We used a portuguese word “Futuro” (“Future,” in English) that allow us to avoid redundancy, opening the possible readings. With this typographic approach we manage to make a direct connection with the theme.
+    artwork_desc_ko: |
+      알투는 도시성에 대한 몇몇 경험적 개념들을 기반으로 건축과 타이포그래피를 평행선상에 놓은 작품을 선보인다. 최종 결과물뿐 아니라 제작 과정 전반에 걸쳐 적용된 이러한 개념들은 이들의 관심사, 즉 도시의 공간과 구조, 관점, 혹은 도시의 빈 공간과 채워진 공간들 사이에 존재하는 복잡성과 대비를 이룬다.
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
 venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
+photos:
+- "./images/exhibitions/1-r2-1.jpg"
+- "./images/exhibitions/1-r2-2.jpg"

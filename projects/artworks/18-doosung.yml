@@ -1,44 +1,47 @@
+---
 full_name_en: Doosungpaper Design Lab
-full_name_ko: 두성종이 디자인연구소
+full_name_ko: "두성종이 디자인연구소"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.49218
 origin_lng: 127.02034
-
-participant_bio_en: >
+participant_bio_en: |
   Doosung Paper's design lab is an attachment institution of Doosung Paper. Established in 2009, it researches and develops the design system and identity of Doosung Paper, Korean traditional color tones as well as modern color tones, develops surface finishing of specialty papers, and develops paper stationery. It consists of graphic design research team, online communication design team, and design consortium team. By performing variety of activities such as designing the overall color and space of the Doosung Paper building, businesses related to designs and hosting consortiums with other design firms, designing paper products such as the Paper Goods series, participating various domestics and overseas exhibitions, and hosting in-house design seminars, they take an important role in transforming and innovating Doosung Paper.
-
-participant_bio_ko: >
+participant_bio_ko: |
   두성종이 부설 디자인연구소는 두성종이의 디자인 체계와 정체성 확립을 위한 연구 개발과 한국전통색상과 모던색상의 연구개발, 특수지의 표면가공 연구, 종이제품 개발 등을 위해 2009년 설립되었습니다. 그래픽디자인연구파트, 온라인 커뮤니케이션디자인파트, 디자인컨소시엄파트로 구성되어있으며 두성종이의 전체적인 공간 및 컬러디자인, 디자인관련 외부기업 및 단체와의 컨소시엄을 통한 디자인사업 진행, 페이퍼 굿즈 시리즈 등 종이상품 디자인, 국내·외 전시 및 박람회 참여, 사내 디자인교육 등의 활동을 통해 두성종이의 변화와 혁신을 주도하고 있습니다.
-
 artworks:
-  -
-    artwork_name_en: Report On The Composition Of A City
-    artwork_name_ko: 도시 구성 리포트
+  - artwork_name_en: Report On The Composition Of A City
+    artwork_name_ko: "도시 구성 리포트"
     artwork_year: 2015
-    artwork_medium_en: ""
-    artwork_medium_ko: ""
+    artwork_medium_en: ''
+    artwork_medium_ko: ''
     artwork_desc_en: |
       Of the many aspects that constitute a city, there are some things which always function on their own, but are not visible present – Rules that we all must abide by, such as morals, ethics, obligation of tax as a citizen, endless reproduction of new words, traffic safety laws, were all graphically visualized. As such, there are countless numbers components in the city that do not reveal itself, but is always around us. It is like air that we breathe every day. We don’t notice them because it’s taken for granted.
-
     artwork_desc_ko: |
       도시를 구성하는 여러 요소들 중 눈에 보이진 않지만 항상 작동하고 있는 도덕과 규율, 즉 시민의 대표적 의무인 세금, 끊임없이 생성되는 신조어, 도로교통법처럼 모두가 지켜야 하는 약속과 질서 등을 그래픽 작업으로 시각화했다. 우리가 사는 도시에는 이처럼 겉으로 드러나진 않아도 늘 곁에 있는 것들이 무수히 많다. 매순간 숨 쉬며 살지만 너무 당연해 그 존재를 인식하지 않는 공기처럼 말이다.
-
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
-venue_detail_en:  3F
-venue_detail_ko:  3층
+venue_name_ko: "문화역 서울 284"
+venue_detail_en: 3F
+venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
+photos:
+- "./images/exhibitions/18-doosung-1.jpg"
+- "./images/exhibitions/18-doosung-10.jpg"
+- "./images/exhibitions/18-doosung-11.jpg"
+- "./images/exhibitions/18-doosung-12.jpg"
+- "./images/exhibitions/18-doosung-13.jpg"
+- "./images/exhibitions/18-doosung-2.jpg"
+- "./images/exhibitions/18-doosung-3.jpg"
+- "./images/exhibitions/18-doosung-4.jpg"
+- "./images/exhibitions/18-doosung-5.jpg"
+- "./images/exhibitions/18-doosung-6.jpg"
+- "./images/exhibitions/18-doosung-7.jpg"
+- "./images/exhibitions/18-doosung-8.jpg"
+- "./images/exhibitions/18-doosung-9.jpg"

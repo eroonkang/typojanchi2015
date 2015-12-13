@@ -1,48 +1,41 @@
+---
 full_name_en: HelloMe (Till Wiedeck)
-full_name_ko: 헬로우미 (틸 비데크)
+full_name_ko: "헬로우미 (틸 비데크)"
 origin_city_en: Berlin
-origin_city_ko: 베를린
+origin_city_ko: "베를린"
 origin_country_en: Germany
-origin_country_ko: 독일
+origin_country_ko: "독일"
 origin_lat: 52.4944016
 origin_lng: 13.4373723
-
-participant_bio_en: >
- HelloMe is headed by Till Wiedeck who founded the studio in 2008. Prior to establishing HelloMe, he worked for several renowned studios including Bureau Mario Lombardo and Fons Hickmann m23. Till Wiedeck has taught at various universities and institutions including Bauhaus Universität Weimar (DE) and ECAL / Ecole cantonale d’art de Lausanne (CH) where he has been a Visiting Professor. HelloMe works in various fields of design and develops big & small solutions for a wide range of media from offline to online.
-
-participant_bio_ko: >
- 틸 비데크는 베를린에서 활동하는 그래픽 디자이너이다. 독일 뮌스터 대학교에서 그래픽 디자인을 공부한 그는 이후 마리오 롬바르도 사무실과 폰스 히크만 M23 등의 스튜디오를 거쳐 2008년 디자인 스튜디오 헬로우미를 설립했다. 헬로우미는 온오프라인을 넘나들며 폭넓은 영역의 프로젝트를 수행하고 있으며, 네트워크에 기반한 협업 팀을 구성해 다양한 요구에 대응한다. 또한 틸 비데크는 바이마르의 바우하우스 대학 및 로잔 주립미술대학 등에서 학생들을 가르쳤다.
-
-
+participant_bio_en: |
+  HelloMe is headed by Till Wiedeck who founded the studio in 2008. Prior to establishing HelloMe, he worked for several renowned studios including Bureau Mario Lombardo and Fons Hickmann m23. Till Wiedeck has taught at various universities and institutions including Bauhaus Universität Weimar (DE) and ECAL / Ecole cantonale d’art de Lausanne (CH) where he has been a Visiting Professor. HelloMe works in various fields of design and develops big & small solutions for a wide range of media from offline to online.
+participant_bio_ko: |
+  틸 비데크는 베를린에서 활동하는 그래픽 디자이너이다. 독일 뮌스터 대학교에서 그래픽 디자인을 공부한 그는 이후 마리오 롬바르도 사무실과 폰스 히크만 M23 등의 스튜디오를 거쳐 2008년 디자인 스튜디오 헬로우미를 설립했다. 헬로우미는 온오프라인을 넘나들며 폭넓은 영역의 프로젝트를 수행하고 있으며, 네트워크에 기반한 협업 팀을 구성해 다양한 요구에 대응한다. 또한 틸 비데크는 바이마르의 바우하우스 대학 및 로잔 주립미술대학 등에서 학생들을 가르쳤다.
 artworks:
-  -
-    artwork_name_en: Ten Structural Elements
-    artwork_name_ko: 열 개의 구축적 요소
+  - artwork_name_en: Ten Structural Elements
+    artwork_name_ko: "열 개의 구축적 요소"
     artwork_year: 2015
     artwork_medium_en: Drywall and Poster (offset printing), 594x841(poster A1), 257.5x122x244cm(installation)
-    artwork_medium_ko: 석고판, 포스터(오프셋 인쇄), 84.1x59.4cm(포스터), 257.5x122x244cm(설치물)
-    artwork_desc_en: >
-     The installation by HelloMe explores the spatial potentials of typography. Ten black walls of equal width are set at equal distances from each other, dividing the space into empty and filled areas. As walls are both the main structuring and socially dividing elements within a city, the installation explores the relationship between private and public spaces and comments on the dense feeling of large cities. The strict repetition of the walls and the alignment of the installation are informed by both architectural and typographic rules which eventually brings it back to the idea of design. Alongside the spatial structure the studio created a bespoke giveaway poster going hand in hand with the installation. It transfers the three dimensional piece back onto a flat surface.
-
-    artwork_desc_ko: >
-     헬로우미는 동일한 간격을 두고 세워진 10개의 검은 벽을 통해 타이포그래피가 지닌 공간적 잠재력을 탐구한다. 벽은 도시를 구조적으로, 또 사회적으로 분할하는 기본 단위임과 동시에 사적 영역과 공적 영역 사이의 관계를 형성하는 기재이다. 일정한 공간을 분할하며 엄격한 규칙에 따라 반복 배열된 이 벽들은 건축과 타이포그래피 양쪽 모두에서 따라야 하는 규칙을 암시함과 동시에 ‘디자인’의 개념을 상기시킨다. 또한 관람객에게는 삼차원 설치를 평면화한 포스터가 증정된다.
-
-
-
+    artwork_medium_ko: "석고판, 포스터(오프셋 인쇄), 84.1x59.4cm(포스터), 257.5x122x244cm(설치물)"
+    artwork_desc_en: |
+      The installation by HelloMe explores the spatial potentials of typography. Ten black walls of equal width are set at equal distances from each other, dividing the space into empty and filled areas. As walls are both the main structuring and socially dividing elements within a city, the installation explores the relationship between private and public spaces and comments on the dense feeling of large cities. The strict repetition of the walls and the alignment of the installation are informed by both architectural and typographic rules which eventually brings it back to the idea of design. Alongside the spatial structure the studio created a bespoke giveaway poster going hand in hand with the installation. It transfers the three dimensional piece back onto a flat surface.
+    artwork_desc_ko: |
+      헬로우미는 동일한 간격을 두고 세워진 10개의 검은 벽을 통해 타이포그래피가 지닌 공간적 잠재력을 탐구한다. 벽은 도시를 구조적으로, 또 사회적으로 분할하는 기본 단위임과 동시에 사적 영역과 공적 영역 사이의 관계를 형성하는 기재이다. 일정한 공간을 분할하며 엄격한 규칙에 따라 반복 배열된 이 벽들은 건축과 타이포그래피 양쪽 모두에서 따라야 하는 규칙을 암시함과 동시에 ‘디자인’의 개념을 상기시킨다. 또한 관람객에게는 삼차원 설치를 평면화한 포스터가 증정된다.
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
 venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
+photos:
+- "./images/exhibitions/1-till-wiedeck-1.jpg"
+- "./images/exhibitions/1-till-wiedeck-2.jpg"
+- "./images/exhibitions/1-till-wiedeck-3.jpg"
+- "./images/exhibitions/1-till-wiedeck-4.jpg"
+- "./images/exhibitions/1-till-wiedeck-5.jpg"
+- "./images/exhibitions/1-till-wiedeck-6.jpg"
+- "./images/exhibitions/1-till-wiedeck-7.jpg"

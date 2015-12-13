@@ -1,43 +1,41 @@
+---
 full_name_en: Zero Lab
-full_name_ko: 제로랩
+full_name_ko: "제로랩"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: KR
-origin_country_ko: 한국
+origin_country_ko: "한국"
 origin_lat: 37.54564
 origin_lng: 126.98544
-
-participant_bio_en: >
- Zero Lab is a design group, composed of Kim Donghoon, Jang Taehoon and Kim Dohyun. The studio specializes in product design, graphic design, and many arts and cultural activities. They explore both experimental and commercial design, and try to find the balance between reality and ideal practice in the design world. They not only participate in many festivals and exhibitions as a graphic and space designers but also as artists. Zero Lab designs and makes furniture and spaces by themselves and do many workshops as well.
-
-participant_bio_ko: >
- 제로랩은 김동훈, 장태훈, 김도현으로 이뤄진 디자인 그룹으로 제품 디자인, 그래픽디자인 외에도 전방위 문화 활동과 다양한 창작 활동을 통해 실험적 디자인과 상업적 디자인, 그리고 디자인이 가진 현실적인 문제 사이의 격차를 줄이는 협의점을 찾고자 한다. 다양한 축제나 전시의 그래픽 디자인 개발, 가구/집/공간의 개발 및 제작, 워크숍, 전시 등 폭넓은 영역에서 활동하고 있다.
-
+participant_bio_en: |
+  Zero Lab is a design group, composed of Kim Donghoon, Jang Taehoon and Kim Dohyun. The studio specializes in product design, graphic design, and many arts and cultural activities. They explore both experimental and commercial design, and try to find the balance between reality and ideal practice in the design world. They not only participate in many festivals and exhibitions as a graphic and space designers but also as artists. Zero Lab designs and makes furniture and spaces by themselves and do many workshops as well.
+participant_bio_ko: |
+  제로랩은 김동훈, 장태훈, 김도현으로 이뤄진 디자인 그룹으로 제품 디자인, 그래픽디자인 외에도 전방위 문화 활동과 다양한 창작 활동을 통해 실험적 디자인과 상업적 디자인, 그리고 디자인이 가진 현실적인 문제 사이의 격차를 줄이는 협의점을 찾고자 한다. 다양한 축제나 전시의 그래픽 디자인 개발, 가구/집/공간의 개발 및 제작, 워크숍, 전시 등 폭넓은 영역에서 활동하고 있다.
 artworks:
-  -
-    artwork_name_en: Exhibition Space
-    artwork_name_ko: 전시공간 프로젝트
+  - artwork_name_en: Exhibition Space
+    artwork_name_ko: "전시공간 프로젝트"
     artwork_year: 2015
-    artwork_medium_en:
+    artwork_medium_en: 
     artwork_medium_ko: 
-    artwork_desc_en: >
-    artwork_desc_ko: >
-
-
+    artwork_desc_en: ''
+    artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
+photos:
+- "./images/exhibitions/12-zero-lab-1.jpg"
+- "./images/exhibitions/12-zero-lab-2.jpg"
+- "./images/exhibitions/12-zero-lab-3.jpg"
+- "./images/exhibitions/12-zero-lab-4.jpg"
+- "./images/exhibitions/12-zero-lab-5.jpg"
+- "./images/exhibitions/12-zero-lab-6.jpg"
+- "./images/exhibitions/12-zero-lab-7.jpg"
+- "./images/exhibitions/12-zero-lab-8.jpg"
+- "./images/exhibitions/12-zero-lab-9.jpg"

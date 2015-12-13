@@ -1,47 +1,49 @@
+---
 full_name_en: Team Thursday
-full_name_ko: 팀 서즈데이
+full_name_ko: "팀 서즈데이"
 origin_city_en: Rotterdam
-origin_city_ko: 로테르담 
+origin_city_ko: "로테르담"
 origin_country_en: Netherlands
-origin_country_ko: 네덜란드
+origin_country_ko: "네덜란드"
 origin_lat: 51.91606
 origin_lng: 4.4653
-
-participant_bio_en: >
- Team Thursday is a Rotterdam based graphic design studio founded in 2010 by Loes van Esch and Simone Trum. Our work ranges from print to spatial design, with a conceptual and energetic approach and a strong visual language. We focus on the design of identities in the broad sense: from corporate identities to overall design concepts for cultural events. The process (or action) action plays an important role in our work. This translates into a special interest for tactility and analog printing techniques, but can also evolve in a spatial design or an activity. 
-
-participant_bio_ko: >
- 팀 서즈데이는 루스 판에스와 시모너 트륌이 2010년에 로테르담에 설립한 그래픽 디자인 스튜디오이다. 전통적인 인쇄 기법의 아날로그적 촉감에 특별한 관심을 가진 이들의 작업은 개념적 접근방식에 기반한 강렬한 시각언어를 선보인다. 기업 아이데티티부터 문화 행사 전반의 디자인 개념에 이르는 다양한 작업을 하는 한편, 아른험의 아르테즈 미술대학교, 로스앤젤레스의 오티스 미술디자인대학 등에서 워크숍과 세미나를 진행해오고 있다.
-
+participant_bio_en: "Team Thursday is a Rotterdam based graphic design studio founded
+  in 2010 by Loes van Esch and Simone Trum. Our work ranges from print to spatial
+  design, with a conceptual and energetic approach and a strong visual language. We
+  focus on the design of identities in the broad sense: from corporate identities
+  to overall design concepts for cultural events. The process (or action) action plays
+  an important role in our work. This translates into a special interest for tactility
+  and analog printing techniques, but can also evolve in a spatial design or an activity.
+  \n"
+participant_bio_ko: |
+  팀 서즈데이는 루스 판에스와 시모너 트륌이 2010년에 로테르담에 설립한 그래픽 디자인 스튜디오이다. 전통적인 인쇄 기법의 아날로그적 촉감에 특별한 관심을 가진 이들의 작업은 개념적 접근방식에 기반한 강렬한 시각언어를 선보인다. 기업 아이데티티부터 문화 행사 전반의 디자인 개념에 이르는 다양한 작업을 하는 한편, 아른험의 아르테즈 미술대학교, 로스앤젤레스의 오티스 미술디자인대학 등에서 워크숍과 세미나를 진행해오고 있다.
 artworks:
-  -
-    artwork_name_en: Bed Wrap
-    artwork_name_ko: 베드 랩
+  - artwork_name_en: Bed Wrap
+    artwork_name_ko: "베드 랩"
     artwork_year: 2015
     artwork_medium_en: Printed cotton cloth and wooden stick, 250x250cm
-    artwork_medium_ko: 광목에 날염, 나무막대, 250x250cm
-    artwork_desc_en: >
+    artwork_medium_ko: "광목에 날염, 나무막대, 250x250cm"
+    artwork_desc_en: |
       Arriving in a foreign city can make you feel a bit lost. Overwhelmed by all the new impressions and searching for a proper way to move in this new place, a hotel room becomes a safe haven where you can calm your head surrounded by your personal belongings. The bed wrap, inspired by the Korean “Bojagi” cloths, is made for those moments. By simply putting a stick in the middle (we all did this when we were a child) and crawling next to it, you make a personal tent where no one can find you. The typographic specimen printed on it, using the grid of folding a cloth and stating “I SPY WITH MY LITTLE EYE” if you look closely, emphasizes this idea of hiding and playing.
-   
-    artwork_desc_ko: >
+    artwork_desc_ko: |
       낯선 도시에 도착하면 누구나 조금은 길을 잃은 듯한 느낌을 받게 된다. 새로운 환경에 허둥대고, 원하는 길을 찾기 위해 고군분투하는 이들에게, 호텔 방은 자신의 소지품들로 둘러싸인 포근한 공간이 되어준다. 한국의 보자기에서 영감을 받은 <베드 랩>은 이렇게 휴식이 필요한 순간을 위해 만들어졌다. 한 가운데 막대기를 세우고, 그 옆으로 기어들기만 하면 아무도 볼 수 없는 개인 천막이 만들어진다. 천 위에 쓰인 문구는 어디든 기어들어가 숨어서 놀던 어린 시절의 놀이를 떠올리게 한다.
-
-
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
-
+photos:
+- "./images/exhibitions/8-team-thursday-1.jpg"
+- "./images/exhibitions/8-team-thursday-2.jpg"
+- "./images/exhibitions/8-team-thursday-3.jpg"
+- "./images/exhibitions/8-team-thursday-4.jpg"
+- "./images/exhibitions/8-team-thursday-5.jpg"
+- "./images/exhibitions/8-team-thursday-6.jpg"
+- "./images/exhibitions/8-team-thursday-7.jpg"
+- "./images/exhibitions/8-team-thursday-8.jpg"
+- "./images/exhibitions/8-team-thursday-9.jpg"

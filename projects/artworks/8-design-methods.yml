@@ -1,25 +1,23 @@
+---
 full_name_en: Design Methods
-full_name_ko: 디자인 메소즈
+full_name_ko: "디자인 메소즈"
 origin_city_en: Seoul
-origin_city_ko: 서울
+origin_city_ko: "서울"
 origin_country_en: South Korea
-origin_country_ko: 대한민국
+origin_country_ko: "대한민국"
 origin_lat: 37.53437
 origin_lng: 127.00646
-
-participant_bio_en: >
- DESIGN METHODS is a creative design studio in Seoul, comprised of two industrial designers and two graphic designers, approaching to the context of wider aspects. The studio is working on diverse range of industrial fields including product, furniture, space, digital media and brands. The design attitude and process are strongly focused on continuos exploring and embraces new archetype, materiality, technology and simplicity.
-
-participant_bio_ko: >
- 2012년 설립된 디자인 메소즈는 탐구적 접근과 실험적 프로세스를 통해 새로운 유형의 디자인 결과물을 생산하고자 디자인 전반에서 활동하는 네 명의 디자이너(김기현, 문석진, 이상필, 남정모)가 모여 설립한 산업디자인 스튜디오이다. 영국 런던 디자인 뮤지엄의 ‘올해의 디자인(Design of Year)’, 100% 디자인 런던 ‘블루프린트 어워드(Blueprint Awards)’, 미국 산업디자인협회 ‘IDEA’, 독일 디자인협회 ‘퓨어 탤런트 콘테스트(Pure Talents Contest)’, 한국 ‘코리아 디자인 어워드(Korea Design Awards)’ 등 세계적인 디자인 어워드에서 수상했으며, 현재 제품, 가구, 공간, 디지털 미디어, 브랜딩 등 다양한 분야에서 활동하고 있다.
-
+participant_bio_en: |
+  DESIGN METHODS is a creative design studio in Seoul, comprised of two industrial designers and two graphic designers, approaching to the context of wider aspects. The studio is working on diverse range of industrial fields including product, furniture, space, digital media and brands. The design attitude and process are strongly focused on continuos exploring and embraces new archetype, materiality, technology and simplicity.
+participant_bio_ko: |
+  2012년 설립된 디자인 메소즈는 탐구적 접근과 실험적 프로세스를 통해 새로운 유형의 디자인 결과물을 생산하고자 디자인 전반에서 활동하는 네 명의 디자이너(김기현, 문석진, 이상필, 남정모)가 모여 설립한 산업디자인 스튜디오이다. 영국 런던 디자인 뮤지엄의 ‘올해의 디자인(Design of Year)’, 100% 디자인 런던 ‘블루프린트 어워드(Blueprint Awards)’, 미국 산업디자인협회 ‘IDEA’, 독일 디자인협회 ‘퓨어 탤런트 콘테스트(Pure Talents Contest)’, 한국 ‘코리아 디자인 어워드(Korea Design Awards)’ 등 세계적인 디자인 어워드에서 수상했으며, 현재 제품, 가구, 공간, 디지털 미디어, 브랜딩 등 다양한 분야에서 활동하고 있다.
 artworks:
-  -
-    artwork_name_en:  Welcome Leading Light
-    artwork_name_ko: 환영 유도등
+  - artwork_name_en: Welcome Leading Light
+    artwork_name_ko: "환영 유도등"
     artwork_year: 2015
-    artwork_medium_en: Mixed-Media Installation(Three-Channel Video, Three Smartphones), Dimensions Variable
-    artwork_medium_ko: 복합 매체 설치(3채널 비디오, 스마트폰 3대), 크기 가변
+    artwork_medium_en: Mixed-Media Installation(Three-Channel Video, Three Smartphones),
+      Dimensions Variable
+    artwork_medium_ko: "복합 매체 설치(3채널 비디오, 스마트폰 3대), 크기 가변"
     artwork_desc_en: |
       When visitors enter the hotel, the leading light turns on with a welcome message, ‘It’s right here.’
 
@@ -31,12 +29,12 @@ artworks:
       아마도 출국하기 전 이메일이나 전화로 예약 확인도 할 것이다.
       그리고 출국 당일 집에서 공항으로 이동, 비행기를 타고 목적지에 도착해 자신에게 맞는 교통수단을 선택해 호텔에 도착할 것이다. 이러한 여행 과정에서 호텔이 방문객에게 환영의 메시지를 보낼 수 있는 방법(매체)은 홈페이지, 이메일, 전화다. 이중에서도 이메일은 방문객이 호텔 예약과 동시에 가장 먼저 받게 되는 환영의 인사일 것이다. 그래서 우리는 이메일을 통해 방문객이 가장 많이 문의하고 필요로 하는 정보인 공항에서 호텔까지 도착하는 이동 경로를 정보 서비스로 제공하기로 했다.
       지하철, 버스, 택시 세가지 대중교통으로 공항에서 호텔까지 이동 경로를 안내 표지판을 중심으로 주변 환경과 함께 영상으로 편집했다. 대부분의 여행객이 수많은 안내표지판의 기호와 문자에 의존해 길을 찾는데, 처음 방문한 도시의 낯선 환경에 조금이나마 빨리 적응할 수 있도록 하기 위해서다. 영상을 통해 도시를 간접 경험했기 때문에 직접 마주하게 될 다양한 도시의 모습에 더욱 집중할 수 있을 것이라 생각한다.
-  -
-    artwork_name_en: Public Transportation Guide
-    artwork_name_ko: 대중교통 이용 안내
+  - artwork_name_en: Public Transportation Guide
+    artwork_name_ko: "대중교통 이용 안내"
     artwork_year: 2015
-    artwork_medium_en: Mixed-Media Installation(Three-Channel Video, Three Smartphones), Dimensions Variable
-    artwork_medium_ko: 복합 매체 설치(3채널 비디오, 스마트폰 3대), 크기 가변
+    artwork_medium_en: Mixed-Media Installation(Three-Channel Video, Three Smartphones),
+      Dimensions Variable
+    artwork_medium_ko: "복합 매체 설치(3채널 비디오, 스마트폰 3대), 크기 가변"
     artwork_desc_en: |
       When customers make a reservation for the hotel, they will receive a confirmation e mail with three short films.
 
@@ -48,21 +46,16 @@ artworks:
       아마도 출국하기 전 이메일이나 전화로 예약 확인도 할 것이다.
       그리고 출국 당일 집에서 공항으로 이동, 비행기를 타고 목적지에 도착해 자신에게 맞는 교통수단을 선택해 호텔에 도착할 것이다. 이러한 여행 과정에서 호텔이 방문객에게 환영의 메시지를 보낼 수 있는 방법(매체)은 홈페이지, 이메일, 전화다. 이중에서도 이메일은 방문객이 호텔 예약과 동시에 가장 먼저 받게 되는 환영의 인사일 것이다. 그래서 우리는 이메일을 통해 방문객이 가장 많이 문의하고 필요로 하는 정보인 공항에서 호텔까지 도착하는 이동 경로를 정보 서비스로 제공하기로 했다.
       지하철, 버스, 택시 세가지 대중교통으로 공항에서 호텔까지 이동 경로를 안내 표지판을 중심으로 주변 환경과 함께 영상으로 편집했다. 대부분의 여행객이 수많은 안내표지판의 기호와 문자에 의존해 길을 찾는데, 처음 방문한 도시의 낯선 환경에 조금이나마 빨리 적응할 수 있도록 하기 위해서다. 영상을 통해 도시를 간접 경험했기 때문에 직접 마주하게 될 다양한 도시의 모습에 더욱 집중할 수 있을 것이라 생각한다.
-
-
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
 venue_detail_ko: 
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
+photos:
+- "./images/exhibitions/8-design-methods-1.jpg"
+- "./images/exhibitions/8-design-methods-2.jpg"

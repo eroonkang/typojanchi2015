@@ -1,63 +1,51 @@
+---
 full_name_en: Roman Wilhelm
-full_name_ko: 로만 빌헬름
+full_name_ko: "로만 빌헬름"
 origin_city_en: Berlin
-origin_city_ko: 베를린
+origin_city_ko: "베를린"
 origin_country_en: Germany
-origin_country_ko: 독일
+origin_country_ko: "독일"
 origin_lat: 52.4835
 origin_lng: 13.4314
-
-participant_bio_en: >
- Roman Wilhelm was born in 1976, Germany. He studied visual communication at Burg Giebichenstein University of Art and Design Halle, and under Prof. Fred Smeijers (typeface design master class) at the Academy of Visual Arts in Leipzig, Germany. Since 2005 he has been an art director for INSIDE A Communications AG, Berlin & Beijing. He has been teaching and conducting workshops at diverse art and design institutions in Germany, Italy, Poland, China and Korea. From 2008 to 2013, he was a member of the Multilingual Typography Research Group (general lead: Prof. Dr. Ruedi Baur) at the Zurich University of the Arts, later at HEAD Geneva, Switzerland. He was an artist in residence at the Hong Kong Baptist University, Academy of Visual Arts in 2015. His first digital Chinese typeface “Laowai Sung (老外宋)” has been published by Arphic (文鼎), Taiwan, in 2015. Being a fluent Chinese speaker, Roman uses his language skills as much as possible during his frequent teaching and research stays in China. In 2008, he became a founding member of “Shanghai Flaneur”, a walking think-tank in the city of Shanghai, where he has been developing guided city labs on Shanghai’s role in the history and present of Asian typography and media, leading him to curate and edit a special issue of the Germany Typotopografie magazine exclusively focusing on Shanghai.
-
-
-participant_bio_ko: >
- 1976년 독일에서 태어난 로만 빌헬름은 할레 미술디자인 대학에서 시각 커뮤니케이션을 공부했으며 라이프니치 시각예술 아카데미에서 프레트 스메이여르스의 지도하에 글꼴 디자인 마스터 과정을 마쳤다. 2005년부터 베를린과 베이징에 있는 인사이드 에이의 아트 디렉터로 일하고 있으며 독일, 이탈리아, 폴란드, 중국, 한국 등의 여러 예술 및 디자인 기관에서 워크숍을 진행했다. 능숙한 중국어를 기반으로 중국에서 강의와 리서치를 진행하는 그는 2008년 아시아 타이포그래피와 미디어의 역사 속에서 상하이라는 도시의 역할을 연구 개발하는 ‘상하이 산책자’를 공동 창립했다. 2015년 외국인으로서는 처음으로 ‘외국인체(老外宋)’(2015)라는 중국어 글꼴을 타이완에서 출시했다.
-
+participant_bio_en: |
+  Roman Wilhelm was born in 1976, Germany. He studied visual communication at Burg Giebichenstein University of Art and Design Halle, and under Prof. Fred Smeijers (typeface design master class) at the Academy of Visual Arts in Leipzig, Germany. Since 2005 he has been an art director for INSIDE A Communications AG, Berlin & Beijing. He has been teaching and conducting workshops at diverse art and design institutions in Germany, Italy, Poland, China and Korea. From 2008 to 2013, he was a member of the Multilingual Typography Research Group (general lead: Prof. Dr. Ruedi Baur) at the Zurich University of the Arts, later at HEAD Geneva, Switzerland. He was an artist in residence at the Hong Kong Baptist University, Academy of Visual Arts in 2015. His first digital Chinese typeface “Laowai Sung (老外宋)” has been published by Arphic (文鼎), Taiwan, in 2015. Being a fluent Chinese speaker, Roman uses his language skills as much as possible during his frequent teaching and research stays in China. In 2008, he became a founding member of “Shanghai Flaneur”, a walking think-tank in the city of Shanghai, where he has been developing guided city labs on Shanghai’s role in the history and present of Asian typography and media, leading him to curate and edit a special issue of the Germany Typotopografie magazine exclusively focusing on Shanghai.
+participant_bio_ko: |
+  1976년 독일에서 태어난 로만 빌헬름은 할레 미술디자인 대학에서 시각 커뮤니케이션을 공부했으며 라이프니치 시각예술 아카데미에서 프레트 스메이여르스의 지도하에 글꼴 디자인 마스터 과정을 마쳤다. 2005년부터 베를린과 베이징에 있는 인사이드 에이의 아트 디렉터로 일하고 있으며 독일, 이탈리아, 폴란드, 중국, 한국 등의 여러 예술 및 디자인 기관에서 워크숍을 진행했다. 능숙한 중국어를 기반으로 중국에서 강의와 리서치를 진행하는 그는 2008년 아시아 타이포그래피와 미디어의 역사 속에서 상하이라는 도시의 역할을 연구 개발하는 ‘상하이 산책자’를 공동 창립했다. 2015년 외국인으로서는 처음으로 ‘외국인체(老外宋)’(2015)라는 중국어 글꼴을 타이완에서 출시했다.
 artworks:
-  -
-    artwork_name_en: Typographic Entanglement (Berlinistanbulhongkongshanghaibeijing…)
-    artwork_name_ko: 타이포그래피 직조망(베를린이스탄불홍콩상하이베이징...)
+  - artwork_name_en: Typographic Entanglement (Berlinistanbulhongkongshanghaibeijing…)
+    artwork_name_ko: "타이포그래피 직조망(베를린이스탄불홍콩상하이베이징...)"
     artwork_year: 2015
-    artwork_medium_en: Wall poster (6pieces, each 80x80cm) and booklet (16 pages, 29.7x42 cm)
-    artwork_medium_ko: 월 포스터(6개, 각 80x80cm), 소책자(16쪽, 29.7x42cm)
-    artwork_desc_en: >
-     In history, different writing systems evolved alongside the languages they used to visualize, in cultural contexts connected to certain geographic spaces. But parallel to that development, expansion politics also brought writing systems to new places, where they too continued to evolve. The metropolis of the 20th and 21st century brings about a very different idea of culture space, re-contextualizing all sorts of languages and scripts on signboards alongside each other, making this transcultural mix more defining for the perception of the city than alleged “native” elements of visual culture.
-     
+    artwork_medium_en: Wall poster (6pieces, each 80x80cm) and booklet (16 pages, 29.7x42
+      cm)
+    artwork_medium_ko: "월 포스터(6개, 각 80x80cm), 소책자(16쪽, 29.7x42cm)"
+    artwork_desc_en: |
+      In history, different writing systems evolved alongside the languages they used to visualize, in cultural contexts connected to certain geographic spaces. But parallel to that development, expansion politics also brought writing systems to new places, where they too continued to evolve. The metropolis of the 20th and 21st century brings about a very different idea of culture space, re-contextualizing all sorts of languages and scripts on signboards alongside each other, making this transcultural mix more defining for the perception of the city than alleged “native” elements of visual culture.
 
-     In Berlin, the multitude of Turkish and Arabic shops and restaurants in Neukölln district make you feel a bit like in Istanbul or Jerusalem, but alongside other signals of visual culture, they define that specific part of Berlin, attracting tourists from all over the world. Urban typography seems to warp geographic space. If typographic signals in urban space were voices, then how would these voices sound together?
+      In Berlin, the multitude of Turkish and Arabic shops and restaurants in Neukölln district make you feel a bit like in Istanbul or Jerusalem, but alongside other signals of visual culture, they define that specific part of Berlin, attracting tourists from all over the world. Urban typography seems to warp geographic space. If typographic signals in urban space were voices, then how would these voices sound together?
 
+      This visual investigation starts at Berlin’s Oranienstraße in Kreuzberg district, where German shopfronts and letterings coexist with the Turkish. The nearby “Hong Kong Shop” is not run by Chinese, same for the “China Box” noodle store. However, these little visual hints trigger a reflection on the visual culture of Chinese cities where I frequently stay-Hong Kong, Shanghai and Beijing. The samples shown here reflect recent visual researches I did in the context of different art and design projects, all reflecting political or cultural urban space, or the cultural universe of writing and type.
 
-     This visual investigation starts at Berlin’s Oranienstraße in Kreuzberg district, where German shopfronts and letterings coexist with the Turkish. The nearby “Hong Kong Shop” is not run by Chinese, same for the “China Box” noodle store. However, these little visual hints trigger a reflection on the visual culture of Chinese cities where I frequently stay-Hong Kong, Shanghai and Beijing. The samples shown here reflect recent visual researches I did in the context of different art and design projects, all reflecting political or cultural urban space, or the cultural universe of writing and type.
+      A booklet shaped like a musical notation provides more information and translations of the respective content. The adjacent musical piece Typomuzak consists of five parts, in analogy to the cities mentioned. The music is based on on-site recordings of urban noise (Muzak) and is meant to lift the visual experience on a more real-time basis.
+    artwork_desc_ko: |
+      역사적으로 각 문화권의 문자 체계는 특정한 지리적 공간 및 문화적 맥락과 결부되어 진화해왔다. 하지만 이와 동시에 지리적 팽창과 개발은 문자 체계를 새로운 공간으로 이끌며 끊임없이 진화를 부추겼다. 오늘날 20세기와 21세기의 메트로폴리스에서는 다양한 종류의 언어와 문자 체계가 같은 공간에서 뒤섞이고 서로를 재맥락화하며 도시에 대한 인식 자체를 다시 규정하고 있다.
 
+      가령 터키와 아랍 가게들이 밀집해 있는 베를린의 노이쾰른 지구에서 당신은 이스탄불이나 예루살렘에 온 듯한 느낌을 받을 수 있다. 그러나 거리의 다른 시각문화 기호들과 결부되어 그 간판들은 베를린의 특정 구역의 성격을 형성하고, 전 세계에서 관광객을 불러모은다. 도시의 타이포그래피는 마치 지리학적 공간을 뒤트는 듯하다. 만약 도시의 타이포그래피 기호들이 목소리를 가진다면, 이들의 합창은 어떻게 들릴까?
 
-     A booklet shaped like a musical notation provides more information and translations of the respective content. The adjacent musical piece Typomuzak consists of five parts, in analogy to the cities mentioned. The music is based on on-site recordings of urban noise (Muzak) and is meant to lift the visual experience on a more real-time basis.
-    artwork_desc_ko: >
-     역사적으로 각 문화권의 문자 체계는 특정한 지리적 공간 및 문화적 맥락과 결부되어 진화해왔다. 하지만 이와 동시에 지리적 팽창과 개발은 문자 체계를 새로운 공간으로 이끌며 끊임없이 진화를 부추겼다. 오늘날 20세기와 21세기의 메트로폴리스에서는 다양한 종류의 언어와 문자 체계가 같은 공간에서 뒤섞이고 서로를 재맥락화하며 도시에 대한 인식 자체를 다시 규정하고 있다.
+      이 작업은 독일과 터키 상점들이 공존하는 베를린의 크로이베르크 지구 오라니엔 거리에서 시작되었다. 여기에서 ‘홍콩 숍’이나 ‘차이나 박스’ 같은 가게 이름들은 중국어로 쓰여 있진 않지만, 홍콩이나 상하이, 베이징처럼 내가 자주 머물렀던 중국 도시에 대한 기억을 불러일으킨다. 여기에 선보이는 사례들은 모두 최근에 수행한 시각 리서치에서 나온 결과물로, 모두 도시의 정치문화적 공간, 혹은 글쓰기와 문자의 문화적 보편성을 반영하고 있다.
 
-
-     가령 터키와 아랍 가게들이 밀집해 있는 베를린의 노이쾰른 지구에서 당신은 이스탄불이나 예루살렘에 온 듯한 느낌을 받을 수 있다. 그러나 거리의 다른 시각문화 기호들과 결부되어 그 간판들은 베를린의 특정 구역의 성격을 형성하고, 전 세계에서 관광객을 불러모은다. 도시의 타이포그래피는 마치 지리학적 공간을 뒤트는 듯하다. 만약 도시의 타이포그래피 기호들이 목소리를 가진다면, 이들의 합창은 어떻게 들릴까?
-
-
-     이 작업은 독일과 터키 상점들이 공존하는 베를린의 크로이베르크 지구 오라니엔 거리에서 시작되었다. 여기에서 ‘홍콩 숍’이나 ‘차이나 박스’ 같은 가게 이름들은 중국어로 쓰여 있진 않지만, 홍콩이나 상하이, 베이징처럼 내가 자주 머물렀던 중국 도시에 대한 기억을 불러일으킨다. 여기에 선보이는 사례들은 모두 최근에 수행한 시각 리서치에서 나온 결과물로, 모두 도시의 정치문화적 공간, 혹은 글쓰기와 문자의 문화적 보편성을 반영하고 있다.
-
-
-     함께 전시된 소책자는 각 포스터의 내용에 대한 더 많은 정보를 제공하며, 현장에서 녹음한 도시 소음에 기반해 다섯 부분으로 구성한 사운드 작품 <튀포무작크>는 이러한 시각 경험에 현장감을 더해줄 것이다.
-
-
+      함께 전시된 소책자는 각 포스터의 내용에 대한 더 많은 정보를 제공하며, 현장에서 녹음한 도시 소음에 기반해 다섯 부분으로 구성한 사운드 작품 <튀포무작크>는 이러한 시각 경험에 현장감을 더해줄 것이다.
 venue_name_en: Culture Station Seoul 284
-venue_name_ko: 문화역 서울 284
+venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
 venue_detail_ko: 3층
 venue_city_en: Seoul
-venue_city_ko: 서울
+venue_city_ko: "서울"
 venue_country_en: KR
-venue_country_ko: 한국
+venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-
-# photos: 
-# - image1.jpg 
-# - image2.jpg 
-# - image3.jpg 
-
+photos:
+- "./images/exhibitions/1-roman-wilhelm-1.jpg"
+- "./images/exhibitions/1-roman-wilhelm-2.jpg"
+- "./images/exhibitions/1-roman-wilhelm-3.jpg"
+- "./images/exhibitions/1-roman-wilhelm-4.jpg"
