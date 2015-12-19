@@ -73,6 +73,10 @@ WY.views.welcome_view = (function(){
           url: WY.constants.home_url + "/templates/project.ejs"
         },
         {
+          name: 'project_carousel',
+          url: WY.constants.home_url + "/templates/project_carousel.ejs"
+        },
+        {
           name: 'venue',
           url: WY.constants.home_url + "/templates/venue.ejs"
         }
@@ -207,7 +211,8 @@ WY.views.welcome_view = (function(){
       detail_page_manager.init_tmpl({
         artwork: e.tmpl.artwork, 
         project: e.tmpl.project,
-        venue: e.tmpl.venue
+        venue: e.tmpl.venue,
+        project_carousel: e.tmpl.project_carousel
       });
 
       projects_manager.load();

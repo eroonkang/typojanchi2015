@@ -1,0 +1,5 @@
+<% _.each(project.photos, function(photo){ %>
+<a href="javascript:void(0);" class="project_carousel--image">
+  <img src="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.length) %>" />
+</a>
+<% }); %>

@@ -133,6 +133,8 @@ if ($permalink == "") {
 
   <link rel="icon" href="<? echo $home_url; ?>/images/favicon.png" type="image/x-icon" />    
   <link rel="stylesheet" media="all" href="<? echo $home_url; ?>/stylesheets/dist/application.css"></link>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css"/>
 
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"></meta>
 
@@ -147,7 +149,8 @@ if ($permalink == "") {
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/turf.min.js"></script>   
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/rAF.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/vector2.js"></script>
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.history.js"></script>
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.history.js"></script> 
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/slick.min.js"></script> 
   <script src="<? echo $home_url; ?>/javascripts/src/WY.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>
 
@@ -296,6 +299,8 @@ if ($permalink == "") {
     </div>
     <div id="content-outer">
       <div id="content">
+      </div>
+      <div id="project_carousel">
       </div>
       <div id="footer">
         <ul>

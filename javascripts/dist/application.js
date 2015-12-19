@@ -22151,7 +22151,7 @@ WY.constants.single_projects_routes = {
   "17-archiving-app": "17-rebel9",
   "18-report-on-the-composition-of-a-city": "18-doosung",
   "19-city-type-bus-project": "19-chae-lee",
-  "7-book-bricks": "7-pati"
+  "7-pati": "7-book-bricks"
 }
 WY.models.DetailPageManager = (function(){
   function DetailPageManager(params){
@@ -22251,8 +22251,7 @@ WY.models.DetailPageManager = (function(){
     detail_load_complete_handler: function(data){
 
       this.data = jsyaml.load(data);
-      // debugger;
-   
+    
       if (_.isUndefined(this.data.type)){
         this.title = this.data["full_name_" + WY.constants.locale];
       } else if (this.data.type == "Project") {
@@ -22270,11 +22269,13 @@ WY.models.DetailPageManager = (function(){
       // debugger;
       var type = _.isUndefined(this.data.type) ? "artwork" : this.data.type.toLowerCase();
       // debugger;
+      this.init_project_carousel();
       this.el.find("#content").empty().append($(this.tmpl[type]({
         detail: this.data,
         permalink: this.permalink,
         project: WY.constants.projects_data.projects[this.project_id - 1]
       })));
+
 
       this.el.find("#content .participant_change_btn").click(function(e){
         e.preventDefault();
@@ -22289,6 +22290,40 @@ WY.models.DetailPageManager = (function(){
       this.add_events();
       this.ko_type_adjust();
       this.trigger('load_complete');
+    },
+
+    init_project_carousel: function(){
+      if (WY.constants.projects_data.projects[this.project_id - 1].photos.length > 0){
+
+        try{
+          this.el.find("#project_carousel").slick('unslick');
+          
+        } catch(e){
+
+        }
+        this.el.find("#project_carousel").height(900);
+        this.el.find("#project_carousel").empty().append($(this.tmpl.project_carousel({
+          project: WY.constants.projects_data.projects[this.project_id - 1]
+        })));
+
+        this.el.find("#project_carousel a").width(WY.constants.screen_width);
+        this.el.find("#project_carousel").slick({
+          centerMode: true, 
+          variableWidth: true,
+          centerPadding: '40px',
+          dots: false,
+          arrows: true
+        }); 
+      } else {
+         try{
+          this.el.find("#project_carousel").slick('unslick');
+          this.el.find("#project_carousel").height(0);
+          
+        } catch(e){
+
+        }
+      }
+      
     },
 
     ko_type_adjust: function(){
@@ -23500,6 +23535,10 @@ WY.views.welcome_view = (function(){
           url: WY.constants.home_url + "/templates/project.ejs"
         },
         {
+          name: 'project_carousel',
+          url: WY.constants.home_url + "/templates/project_carousel.ejs"
+        },
+        {
           name: 'venue',
           url: WY.constants.home_url + "/templates/venue.ejs"
         }
@@ -23634,7 +23673,8 @@ WY.views.welcome_view = (function(){
       detail_page_manager.init_tmpl({
         artwork: e.tmpl.artwork, 
         project: e.tmpl.project,
-        venue: e.tmpl.venue
+        venue: e.tmpl.venue,
+        project_carousel: e.tmpl.project_carousel
       });
 
       projects_manager.load();

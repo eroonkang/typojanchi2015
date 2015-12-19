@@ -616,6 +616,33 @@ a.no-underline:hover {
   border: none;
 }
 
+#project_carousel {
+  position: relative;
+  overflow: hidden;
+}
+#project_carousel a.project_carousel--image {
+  position: relative;
+  height: 900px;
+}
+#project_carousel a.project_carousel--image img {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#project_carousel .slick-dots {
+  bottom: 40px;
+}
+#project_carousel .slick-prev {
+  left: 25px;
+  z-index: 2;
+}
+#project_carousel .slick-next {
+  right: 25px;
+  z-index: 2;
+}
+
 /* ---------------------------------------------- */
 /* footer */
 /* ---------------------------------------------- */

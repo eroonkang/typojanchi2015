@@ -616,6 +616,7 @@ $medim-width: 1200px;
   }
 }
 
+
 .map-overlays {
 
   &.btn-logo  {
@@ -693,6 +694,42 @@ $medim-width: 1200px;
     @include phone {
       //display:none;
     }
+  }
+}
+
+#project_carousel {
+  // width:100%;
+  
+  position:relative;
+
+  overflow:hidden;
+  a.project_carousel--image {
+    // width:100%;
+    position:relative;
+    height:900px;
+    // display:block;
+    img {
+      position:absolute;
+      width:100%; 
+      left:50%;
+      top:50%;
+      transform:translate(-50%, -50%);
+    }
+    
+  }
+
+  .slick-dots {
+    bottom: 40px;
+  }
+
+  .slick-prev {
+    left: 25px;
+    z-index:2;
+  }
+
+  .slick-next {
+    right: 25px;
+    z-index:2;
   }
 }
 

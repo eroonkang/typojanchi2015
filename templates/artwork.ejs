@@ -44,22 +44,15 @@
       <a href="<%= WY.constants.home_url %>/<%= WY.constants.locale %>/city-<%= conv_to_slug(detail["origin_city_en"]) %>" data-permalink="city-<%= conv_to_slug(detail["origin_city_en"]) %>" class="city_btn"><span lang="<%= WY.constants.locale %>"><%= detail["origin_city_" + WY.constants.locale] %>, <%= detail["origin_country_" + WY.constants.locale] %></span></a>
     </div>
 
+    <% _.each(detail.photos, function(photo){ %>
 
-<!--     <div class="cols triple artwork-photo">
-      <figure>
-        <img src="<%= WY.constants.home_url %>/images/img.jpg">
-      </figure>
-    </div>
-    <div class="cols triple artwork-photo">
-      <figure>
-        <img src="<%= WY.constants.home_url %>/images/img.jpg">
-      </figure>
-    </div>
-    <div class="cols triple artwork-photo">
-      <figure>
-        <img src="<%= WY.constants.home_url %>/images/img.jpg">
-      </figure>
-    </div> -->
+      <div class="cols triple artwork-photo">
+        <figure>
+          <img src="<%= WY.constants.home_url %><%= photo.substring(1, photo.length) %>">
+        </figure>
+      </div>
+
+    <% }); %>
 
     <div class="cols double">  
       <p class="description bio">
