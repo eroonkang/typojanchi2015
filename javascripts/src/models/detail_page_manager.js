@@ -8,7 +8,7 @@ WY.constants.single_projects_routes = {
   "17-archiving-app": "17-rebel9",
   "18-report-on-the-composition-of-a-city": "18-doosung",
   "19-city-type-bus-project": "19-chae-lee",
-  "7-book-bricks": "7-pati"
+  "7-pati": "7-book-bricks"
 }
 WY.models.DetailPageManager = (function(){
   function DetailPageManager(params){
