@@ -257,7 +257,6 @@ a.no-underline:hover {
 #content-outer #content .artwork-photo figure img, #content-outer #content .project-photo figure img {
   width: 640px;
   display: block;
-  opacity: 0;
   transition: 0.3s opacity;
 }
 #content-outer #content .artwork-photo figure img:hover, #content-outer #content .project-photo figure img:hover {
@@ -617,6 +616,8 @@ a.no-underline:hover {
 }
 
 #project_carousel {
+  margin-top: 30px;
+  border-top: 1px solid #000;
   position: relative;
   overflow: hidden;
 }
@@ -641,6 +642,10 @@ a.no-underline:hover {
 #project_carousel .slick-next {
   right: 25px;
   z-index: 2;
+}
+
+.slick-slider {
+  margin-bottom: 0px !important;
 }
 
 /* ---------------------------------------------- */

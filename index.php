@@ -300,8 +300,6 @@ if ($permalink == "") {
     <div id="content-outer">
       <div id="content">
       </div>
-      <div id="project_carousel">
-      </div>
       <div id="footer">
         <ul>
           <div class="footer-group">
@@ -350,6 +348,8 @@ if ($permalink == "") {
           (<a class="btn-en-with-permalink" href="<? echo $home_url; ?>/en/<? echo $permalink; ?>"" lang="en">EN</a> / <a class="btn-ko-with-permalink" href="<? echo $home_url; ?>/ko/<? echo $permalink; ?>"" lang="ko">한글</a>)
         </h2>
 
+      </div>
+      <div id="project_carousel">
       </div>
     </div>
   </div>

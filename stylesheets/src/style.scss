@@ -286,7 +286,7 @@ $medim-width: 1200px;
         img {
           width:640px;
           display: block;
-          opacity: 0;
+          // opacity: 0;
           //min-height: 480px;
           transition: 0.3s opacity;
           &:hover{
@@ -699,7 +699,8 @@ $medim-width: 1200px;
 
 #project_carousel {
   // width:100%;
-  
+  margin-top:30px;
+  border-top: 1px solid #000;
   position:relative;
 
   overflow:hidden;
@@ -731,6 +732,9 @@ $medim-width: 1200px;
     right: 25px;
     z-index:2;
   }
+}
+.slick-slider {
+  margin-bottom: 0px !important;
 }
 
 /* ---------------------------------------------- */
