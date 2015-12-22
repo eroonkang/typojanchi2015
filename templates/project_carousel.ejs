@@ -1,5 +1,11 @@
 <% _.each(project.photos, function(photo){ %>
 <a href="javascript:void(0);" class="project_carousel--image">
   <img src="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.length) %>" />
+  <div class="caption">
+    <h2>(2) SIX IMAGES, SIX TEXTS, ONE REMIX</h2>
+    <h3>Dainippon Type Organization</h3>
+  </div>
+  <div class="overlay-left"></div>
+  <div class="overlay-right"></div>
 </a>
 <% }); %>

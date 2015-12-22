@@ -805,7 +805,8 @@ a.no-underline:hover {
 #content-outer #content .artwork-photo figure img, #content-outer #content .project-photo figure img {
   width: 640px;
   display: block;
-  transition: 0.3s opacity;
+  opacity: 0.9;
+  transition: 0.2s opacity;
 }
 #content-outer #content .artwork-photo figure img:hover, #content-outer #content .project-photo figure img:hover {
   opacity: 1;
@@ -1179,17 +1180,54 @@ a.no-underline:hover {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  opacity: 0.9;
+  transition: 0.2s opacity;
+}
+#project_carousel a.project_carousel--image img:hover {
+  opacity: 1;
+}
+#project_carousel a.project_carousel--image .caption {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
 }
 #project_carousel .slick-dots {
   bottom: 40px;
 }
-#project_carousel .slick-prev {
-  left: 25px;
+#project_carousel .slick-prev, #project_carousel .slick-next {
   z-index: 2;
+  width: 60px;
+  height: 60px;
+  top: 20px;
+}
+#project_carousel .slick-prev:before, #project_carousel .slick-next:before {
+  color: #000;
+}
+#project_carousel .slick-prev {
+  left: 15px;
+  background-image: url("../../images/carousel-btn-prev.png");
+}
+#project_carousel .slick-prev:before {
+  content: '';
 }
 #project_carousel .slick-next {
-  right: 25px;
-  z-index: 2;
+  right: 15px;
+  background-image: url("../../images/carousel-btn-next.png");
+}
+#project_carousel .slick-next:before {
+  content: '';
+}
+#project_carousel .overlay-left {
+  position: absolute;
+  height: 900px;
+  width: 50%;
+}
+#project_carousel .overlay-right {
+  position: absolute;
+  height: 900px;
+  width: 50%;
+  left: 50%;
 }
 
 .slick-slider {
