@@ -12,22 +12,22 @@ participant_bio_en: |
 participant_bio_ko: "파리에서 활동하고 있는 그래픽 디자이너. 스트라스부르 장식예술학교를 졸업하고 2009년 자신의 스튜디오를 설립했다.
   패션, 예술, 음악 등 다양한 영역에서 인쇄물 및 글로벌 브랜딩 작업을 하고 있다. \n"
 artworks:
-  - artwork_name_en: Moulures 1
-    artwork_name_ko: "쇠시리 1"
-    artwork_year: 2014
-    artwork_medium_en: Offset printing, 70x50cm,
-    artwork_medium_ko: "오프셋 인쇄, 70x50cm"
-    artwork_desc_en: ''
-    artwork_desc_ko: ''
-  - artwork_name_en: Moulures 2
-    artwork_name_ko: "쇠시리 2"
-    artwork_year: 2014
-    artwork_medium_en: Offset printing, 50x40cm
-    artwork_medium_ko: "오프셋 인쇄, 50x40cm"
-    artwork_desc_en: |
-      Moulures are a symbol of real parisian flats. They bring life and beauty to walls and ceillings. The moulure in these artworks have their own life, they they reveal new rythms and patternon the walls.
-    artwork_desc_ko: |
-      벽과 천정을 장식하며 공간에 생기와 아름다움을 부여하는 쇠시리는 ‘진짜’ 파리 아파트의 상징과도 같다. 콜라주로 구성된 두 개의 포스터에서 쇠시리는 자체적인 생명력을 뽐내며 새로운 리듬과 패턴을 드러낸다.
+- artwork_name_en: Moulures 1
+  artwork_name_ko: "쇠시리 1"
+  artwork_year: 2014
+  artwork_medium_en: Offset printing, 70x50cm,
+  artwork_medium_ko: "오프셋 인쇄, 70x50cm"
+  artwork_desc_en: ''
+  artwork_desc_ko: ''
+- artwork_name_en: Moulures 2
+  artwork_name_ko: "쇠시리 2"
+  artwork_year: 2014
+  artwork_medium_en: Offset printing, 50x40cm
+  artwork_medium_ko: "오프셋 인쇄, 50x40cm"
+  artwork_desc_en: |
+    Moulures are a symbol of real parisian flats. They bring life and beauty to walls and ceillings. The moulure in these artworks have their own life, they they reveal new rythms and patternon the walls.
+  artwork_desc_ko: |
+    벽과 천정을 장식하며 공간에 생기와 아름다움을 부여하는 쇠시리는 ‘진짜’ 파리 아파트의 상징과도 같다. 콜라주로 구성된 두 개의 포스터에서 쇠시리는 자체적인 생명력을 뽐내며 새로운 리듬과 패턴을 드러낸다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
@@ -39,5 +39,4 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/1-leslie-david-1.jpg"
-- "./images/exhibitions/1-leslie-david-2.jpg"
+- "./images/exhibitions/1-leslie-david__1.jpg"

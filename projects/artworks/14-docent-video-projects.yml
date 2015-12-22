@@ -11,9 +11,10 @@ curator_bio_en: ''
 curator_bio_ko: ''
 type: Project
 photos:
-- url: "./images/exhibitions/14-nolgong-1.jpg"
-  title_ko: "놀공발전소"
-  title_en: Nolgong
-- url: "./images/exhibitions/14-nolgong-2.jpg"
+- url: "./images/exhibitions/14-nolgong__1.jpg"
+  permalink: 14-nolgong
+  idx: 14
+  project_name_ko: "도슨트 프로젝트"
+  project_name_en: DOCENT + VIDEO PROJECTS
   title_ko: "놀공발전소"
   title_en: Nolgong

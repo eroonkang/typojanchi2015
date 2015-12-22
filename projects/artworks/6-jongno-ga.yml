@@ -62,354 +62,390 @@ curator_bio_ko: |
   그래픽 디자이너. 홍익대학교 교수. 미국에서 태어나고 자란 교포 2세로, 버클리 대학교에서 건축을 전공하고 로드아일랜드 디자인학교에서 그래픽디자인으로 석사 학위를 받았다. 2010년부터 한국에 거주하며 디자인 글쓰기 및 타이포그래피 리서치 작업을 하는 한편 학생들과 함께 한국 시각문화를 탐구하는 ‘온돌’ 프로젝트를 진행해 오고 있다. '디자이너의 행복'과 '디지털 공예'라는 주제로 연구하고 작업해 오고 있다.
 type: Project
 photos:
-- url: "./images/exhibitions/6-ban-yoon-jung-1.jpg"
+- url: "./images/exhibitions/6-ban-yoon-jung__1.jpg"
+  permalink: 6-ban-yoon-jung
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "홍단"
   title_en: Hongdan
-- url: "./images/exhibitions/6-ban-yoon-jung-2.jpg"
+- url: "./images/exhibitions/6-ban-yoon-jung__2.jpg"
+  permalink: 6-ban-yoon-jung
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "홍단"
   title_en: Hongdan
-- url: "./images/exhibitions/6-ban-yoon-jung-3.jpg"
-  title_ko: "홍단"
-  title_en: Hongdan
-- url: "./images/exhibitions/6-com-1.jpg"
+- url: "./images/exhibitions/6-com__1.jpg"
+  permalink: 6-com
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "한주원 + 김세중(COM)"
   title_en: Joowon Han + Sejoong Kim (COM)
-- url: "./images/exhibitions/6-com-2.jpg"
+- url: "./images/exhibitions/6-com__2.jpg"
+  permalink: 6-com
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "한주원 + 김세중(COM)"
   title_en: Joowon Han + Sejoong Kim (COM)
-- url: "./images/exhibitions/6-com-3.jpg"
+- url: "./images/exhibitions/6-com__3.jpg"
+  permalink: 6-com
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "한주원 + 김세중(COM)"
   title_en: Joowon Han + Sejoong Kim (COM)
-- url: "./images/exhibitions/6-corners-1.jpg"
+- url: "./images/exhibitions/6-corners__1.jpg"
+  permalink: 6-corners
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "코우너스"
   title_en: Corners
-- url: "./images/exhibitions/6-corners-2.jpg"
+- url: "./images/exhibitions/6-corners__2.jpg"
+  permalink: 6-corners
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "코우너스"
   title_en: Corners
-- url: "./images/exhibitions/6-corners-3.jpg"
-  title_ko: "코우너스"
-  title_en: Corners
-- url: "./images/exhibitions/6-corners-4.jpg"
-  title_ko: "코우너스"
-  title_en: Corners
-- url: "./images/exhibitions/6-dongwhan-kim-1.jpg"
+- url: "./images/exhibitions/6-dongwhan-kim__1.jpg"
+  permalink: 6-dongwhan-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "김동환"
   title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-10.jpg"
+- url: "./images/exhibitions/6-dongwhan-kim__2.jpg"
+  permalink: 6-dongwhan-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "김동환"
   title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-11.jpg"
+- url: "./images/exhibitions/6-dongwhan-kim__3.jpg"
+  permalink: 6-dongwhan-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "김동환"
   title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-12.jpg"
+- url: "./images/exhibitions/6-dongwhan-kim__4.jpg"
+  permalink: 6-dongwhan-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "김동환"
   title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-13.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-14.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-15.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-2.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-3.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-4.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-5.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-6.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-7.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-8.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-dongwhan-kim-9.jpg"
-  title_ko: "김동환"
-  title_en: Dongwhan Kim
-- url: "./images/exhibitions/6-hoon-kim-1.jpg"
+- url: "./images/exhibitions/6-hoon-kim__1.jpg"
+  permalink: 6-hoon-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "김정훈"
   title_en: Hoon Kim
-- url: "./images/exhibitions/6-hoon-kim-2.jpg"
+- url: "./images/exhibitions/6-hoon-kim__2.jpg"
+  permalink: 6-hoon-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "김정훈"
   title_en: Hoon Kim
-- url: "./images/exhibitions/6-hoon-kim-3.jpg"
-  title_ko: "김정훈"
-  title_en: Hoon Kim
-- url: "./images/exhibitions/6-hoon-kim-4.jpg"
-  title_ko: "김정훈"
-  title_en: Hoon Kim
-- url: "./images/exhibitions/6-hoon-kim-5.jpg"
-  title_ko: "김정훈"
-  title_en: Hoon Kim
-- url: "./images/exhibitions/6-jae-jeon-1.jpg"
+- url: "./images/exhibitions/6-jae-jeon__1.jpg"
+  permalink: 6-jae-jeon
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "전재운"
   title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-10.jpg"
+- url: "./images/exhibitions/6-jae-jeon__2.jpg"
+  permalink: 6-jae-jeon
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "전재운"
   title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-11.jpg"
+- url: "./images/exhibitions/6-jae-jeon__3.jpg"
+  permalink: 6-jae-jeon
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "전재운"
   title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-12.jpg"
+- url: "./images/exhibitions/6-jae-jeon__4.jpg"
+  permalink: 6-jae-jeon
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "전재운"
   title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-13.jpg"
+- url: "./images/exhibitions/6-jae-jeon__5.jpg"
+  permalink: 6-jae-jeon
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "전재운"
   title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-2.jpg"
-  title_ko: "전재운"
-  title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-3.jpg"
-  title_ko: "전재운"
-  title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-4.jpg"
-  title_ko: "전재운"
-  title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-5.jpg"
-  title_ko: "전재운"
-  title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-6.jpg"
-  title_ko: "전재운"
-  title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-7.jpg"
-  title_ko: "전재운"
-  title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-8.jpg"
-  title_ko: "전재운"
-  title_en: Jae Jeon
-- url: "./images/exhibitions/6-jae-jeon-9.jpg"
-  title_ko: "전재운"
-  title_en: Jae Jeon
-- url: "./images/exhibitions/6-jin-jung-1.jpg"
+- url: "./images/exhibitions/6-jin-jung__1.jpg"
+  permalink: 6-jin-jung
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "정진열"
   title_en: Jin Jung
-- url: "./images/exhibitions/6-jin-jung-2.jpg"
-  title_ko: "정진열"
-  title_en: Jin Jung
-- url: "./images/exhibitions/6-jin-jung-3.jpg"
-  title_ko: "정진열"
-  title_en: Jin Jung
-- url: "./images/exhibitions/6-jin-jung-4.jpg"
-  title_ko: "정진열"
-  title_en: Jin Jung
-- url: "./images/exhibitions/6-jin-jung-5.jpg"
-  title_ko: "정진열"
-  title_en: Jin Jung
-- url: "./images/exhibitions/6-jin-jung-6.jpg"
-  title_ko: "정진열"
-  title_en: Jin Jung
-- url: "./images/exhibitions/6-jin-jung-7.jpg"
-  title_ko: "정진열"
-  title_en: Jin Jung
-- url: "./images/exhibitions/6-jin-jung-8.jpg"
-  title_ko: "정진열"
-  title_en: Jin Jung
-- url: "./images/exhibitions/6-jin-jung-9.jpg"
-  title_ko: "정진열"
-  title_en: Jin Jung
-- url: "./images/exhibitions/6-jongno-ga-1.jpg"
+- url: "./images/exhibitions/6-jongno-ga__1.jpg"
+  permalink: 6-jongno-ga
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/6-jongno-ga-2.jpg"
+- url: "./images/exhibitions/6-jongno-ga__2.jpg"
+  permalink: 6-jongno-ga
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/6-jongno-ga-3.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/6-jongno-ga-4.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/6-jongno-ga-5.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/6-jongno-ga-6.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/6-jongno-ga-7.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/6-jongno-ga-8.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/6-lara-lee-n-oui-kim-1.jpg"
+- url: "./images/exhibitions/6-lara-lee-n-oui-kim__1.jpg"
+  permalink: 6-lara-lee-n-oui-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "이송은 + 김성욱"
   title_en: Lara Lee + Oui Kim
-- url: "./images/exhibitions/6-lara-lee-n-oui-kim-2.jpg"
+- url: "./images/exhibitions/6-lara-lee-n-oui-kim__2.jpg"
+  permalink: 6-lara-lee-n-oui-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "이송은 + 김성욱"
   title_en: Lara Lee + Oui Kim
-- url: "./images/exhibitions/6-lara-lee-n-oui-kim-3.jpg"
-  title_ko: "이송은 + 김성욱"
-  title_en: Lara Lee + Oui Kim
-- url: "./images/exhibitions/6-lara-lee-n-oui-kim-4.jpg"
-  title_ko: "이송은 + 김성욱"
-  title_en: Lara Lee + Oui Kim
-- url: "./images/exhibitions/6-mano-ahn-1.jpg"
+- url: "./images/exhibitions/6-mano-ahn__1.jpg"
+  permalink: 6-mano-ahn
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "안마노"
   title_en: Mano Ahn
-- url: "./images/exhibitions/6-mano-ahn-2.jpg"
+- url: "./images/exhibitions/6-mano-ahn__2.jpg"
+  permalink: 6-mano-ahn
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "안마노"
   title_en: Mano Ahn
-- url: "./images/exhibitions/6-marvin-lee-n-eli-park-1.jpg"
+- url: "./images/exhibitions/6-marvin-lee-n-eli-park__1.jpg"
+  permalink: 6-marvin-lee-n-eli-park
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "이마빈 + 일리 박 소렌슨"
   title_en: Marvin Lee + Eli Park Sorensen
-- url: "./images/exhibitions/6-marvin-lee-n-eli-park-2.jpg"
+- url: "./images/exhibitions/6-marvin-lee-n-eli-park__2.jpg"
+  permalink: 6-marvin-lee-n-eli-park
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "이마빈 + 일리 박 소렌슨"
   title_en: Marvin Lee + Eli Park Sorensen
-- url: "./images/exhibitions/6-marvin-lee-n-eli-park-3.jpg"
+- url: "./images/exhibitions/6-marvin-lee-n-eli-park__3.jpg"
+  permalink: 6-marvin-lee-n-eli-park
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "이마빈 + 일리 박 소렌슨"
   title_en: Marvin Lee + Eli Park Sorensen
-- url: "./images/exhibitions/6-marvin-lee-n-eli-park-4.jpg"
-  title_ko: "이마빈 + 일리 박 소렌슨"
-  title_en: Marvin Lee + Eli Park Sorensen
-- url: "./images/exhibitions/6-marvin-lee-n-eli-park-5.jpg"
-  title_ko: "이마빈 + 일리 박 소렌슨"
-  title_en: Marvin Lee + Eli Park Sorensen
-- url: "./images/exhibitions/6-marvin-lee-n-eli-park-6.jpg"
-  title_ko: "이마빈 + 일리 박 소렌슨"
-  title_en: Marvin Lee + Eli Park Sorensen
-- url: "./images/exhibitions/6-mingoo-yoon-1.jpg"
+- url: "./images/exhibitions/6-mingoo-yoon__1.jpg"
+  permalink: 6-mingoo-yoon
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "윤민구"
   title_en: Mingoo Yoon
-- url: "./images/exhibitions/6-mingoo-yoon-2.jpg"
+- url: "./images/exhibitions/6-mingoo-yoon__2.jpg"
+  permalink: 6-mingoo-yoon
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "윤민구"
   title_en: Mingoo Yoon
-- url: "./images/exhibitions/6-mingoo-yoon-3.jpg"
+- url: "./images/exhibitions/6-mingoo-yoon__3.jpg"
+  permalink: 6-mingoo-yoon
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "윤민구"
   title_en: Mingoo Yoon
-- url: "./images/exhibitions/6-mingoo-yoon-4.jpg"
-  title_ko: "윤민구"
-  title_en: Mingoo Yoon
-- url: "./images/exhibitions/6-mingoo-yoon-5.jpg"
-  title_ko: "윤민구"
-  title_en: Mingoo Yoon
-- url: "./images/exhibitions/6-mingoo-yoon-6.jpg"
-  title_ko: "윤민구"
-  title_en: Mingoo Yoon
-- url: "./images/exhibitions/6-moon-jang-1.jpg"
+- url: "./images/exhibitions/6-moon-jang__1.jpg"
+  permalink: 6-moon-jang
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "장문정"
   title_en: Moon Jang
-- url: "./images/exhibitions/6-moon-jang-2.jpg"
+- url: "./images/exhibitions/6-moon-jang__2.jpg"
+  permalink: 6-moon-jang
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "장문정"
   title_en: Moon Jang
-- url: "./images/exhibitions/6-moon-jang-3.jpg"
-  title_ko: "장문정"
-  title_en: Moon Jang
-- url: "./images/exhibitions/6-moon-jang-4.jpg"
-  title_ko: "장문정"
-  title_en: Moon Jang
-- url: "./images/exhibitions/6-ordinary-people-1.jpg"
+- url: "./images/exhibitions/6-ordinary-people__1.jpg"
+  permalink: 6-ordinary-people
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "오디너리 피플"
   title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-10.jpg"
+- url: "./images/exhibitions/6-ordinary-people__2.jpg"
+  permalink: 6-ordinary-people
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "오디너리 피플"
   title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-11.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-12.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-13.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-14.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-15.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-2.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-3.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-4.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-5.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-6.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-7.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-8.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-ordinary-people-9.jpg"
-  title_ko: "오디너리 피플"
-  title_en: Ordinary people
-- url: "./images/exhibitions/6-park-chanshin-1.jpg"
+- url: "./images/exhibitions/6-park-chanshin__1.jpg"
+  permalink: 6-park-chanshin
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "박찬신"
   title_en: Park Chan Shin
-- url: "./images/exhibitions/6-park-chanshin-2.jpg"
+- url: "./images/exhibitions/6-park-chanshin__2.jpg"
+  permalink: 6-park-chanshin
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "박찬신"
   title_en: Park Chan Shin
-- url: "./images/exhibitions/6-park-chanshin-3.jpg"
+- url: "./images/exhibitions/6-park-chanshin__3.jpg"
+  permalink: 6-park-chanshin
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "박찬신"
   title_en: Park Chan Shin
-- url: "./images/exhibitions/6-park-chanshin-4.jpg"
-  title_ko: "박찬신"
-  title_en: Park Chan Shin
-- url: "./images/exhibitions/6-park-chanshin-5.jpg"
-  title_ko: "박찬신"
-  title_en: Park Chan Shin
-- url: "./images/exhibitions/6-park-chanshin-6.jpg"
-  title_ko: "박찬신"
-  title_en: Park Chan Shin
-- url: "./images/exhibitions/6-park-chanshin-7.jpg"
-  title_ko: "박찬신"
-  title_en: Park Chan Shin
-- url: "./images/exhibitions/6-park-chanshin-8.jpg"
-  title_ko: "박찬신"
-  title_en: Park Chan Shin
-- url: "./images/exhibitions/6-park-chanshin-9.jpg"
-  title_ko: "박찬신"
-  title_en: Park Chan Shin
-- url: "./images/exhibitions/6-shin-dockho-1.jpg"
+- url: "./images/exhibitions/6-shin-dockho__1.jpg"
+  permalink: 6-shin-dockho
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "신덕호"
   title_en: Shin Dokho
-- url: "./images/exhibitions/6-shin-dockho-2.jpg"
+- url: "./images/exhibitions/6-shin-dockho__2.jpg"
+  permalink: 6-shin-dockho
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "신덕호"
   title_en: Shin Dokho
-- url: "./images/exhibitions/6-shin-dockho-3.jpg"
-  title_ko: "신덕호"
-  title_en: Shin Dokho
-- url: "./images/exhibitions/6-shin-dockho-4.jpg"
-  title_ko: "신덕호"
-  title_en: Shin Dokho
-- url: "./images/exhibitions/6-shin-dockho-5.jpg"
-  title_ko: "신덕호"
-  title_en: Shin Dokho
-- url: "./images/exhibitions/6-uk-kim-1.jpg"
+- url: "./images/exhibitions/6-uk-kim__1.jpg"
+  permalink: 6-uk-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "김욱"
   title_en: Uk Kim
-- url: "./images/exhibitions/6-uk-kim-2.jpg"
+- url: "./images/exhibitions/6-uk-kim__2.jpg"
+  permalink: 6-uk-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "김욱"
   title_en: Uk Kim
-- url: "./images/exhibitions/6-uk-kim-3.jpg"
-  title_ko: "김욱"
-  title_en: Uk Kim
-- url: "./images/exhibitions/6-uk-kim-4.jpg"
-  title_ko: "김욱"
-  title_en: Uk Kim
-- url: "./images/exhibitions/6-uk-kim-5.jpg"
-  title_ko: "김욱"
-  title_en: Uk Kim
-- url: "./images/exhibitions/6-uk-kim-6.jpg"
+- url: "./images/exhibitions/6-uk-kim__3.jpg"
+  permalink: 6-uk-kim
+  idx: 6
+  project_name_ko: |
+    종로 (  ) 가
+  project_name_en: |
+    JONGNO (   ) GA
   title_ko: "김욱"
   title_en: Uk Kim

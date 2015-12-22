@@ -12,24 +12,24 @@ participant_bio_en: |
 participant_bio_ko: |
   1986년생. 계원예술대학교, 네덜란드 암스테르담의 헤릿 리트벌트 아카데미를 졸었했으며, 현재 예일대학교 미술대학원에서 그래픽디자인을 전공하고 있다. 2012, 2014 브르노 비엔날레, 타이포잔치 2013에 참여했다.
 artworks:
-  - artwork_name_en: "."
-    artwork_name_ko: "."
-    artwork_year: 2015
-    artwork_medium_en: Door hanger, 22x9.5cm
-    artwork_medium_ko: "문걸이, 22x9.5cm"
-    artwork_desc_en: |
-      “.” assures the “moment” of “…” to hang on the door handle.
-    artwork_desc_ko: |
-      <.>은 하나의 점, 혹은 마침표로 문 앞에 걸어 놓음으로써 <...>의 ‘순간’을 보장한다.
-  - artwork_name_en: "..."
-    artwork_name_ko: "..."
-    artwork_year: 2015
-    artwork_medium_en: Chocolate and eye mask, 12.5x125cm
-    artwork_medium_ko: "초콜릿, 아이 마스크, 12.5x125cm"
-    artwork_desc_en: |
-      “…” is about providing the “moment” for each visitor as three dots or three chocolates, or Ellipses. (Each of three chocolates contains a Korean alcohol based “whisky bonbon,” made for this project.
-    artwork_desc_ko: |
-      <...>은 세 개의 점, 혹은 세 개의 초콜릿 또는 줄임표로서 방문자에게 어떠한 ‘순간’을 제공한다. (세 개의 초콜릿은 이번 프로젝트를 위해 위스키 봉봉의 제작 방식을 기초로 각 초콜릿마다 다른 한국 술을 넣어 제작되었다.)
+- artwork_name_en: "."
+  artwork_name_ko: "."
+  artwork_year: 2015
+  artwork_medium_en: Door hanger, 22x9.5cm
+  artwork_medium_ko: "문걸이, 22x9.5cm"
+  artwork_desc_en: |
+    “.” assures the “moment” of “…” to hang on the door handle.
+  artwork_desc_ko: |
+    <.>은 하나의 점, 혹은 마침표로 문 앞에 걸어 놓음으로써 <...>의 ‘순간’을 보장한다.
+- artwork_name_en: "..."
+  artwork_name_ko: "..."
+  artwork_year: 2015
+  artwork_medium_en: Chocolate and eye mask, 12.5x125cm
+  artwork_medium_ko: "초콜릿, 아이 마스크, 12.5x125cm"
+  artwork_desc_en: |
+    “…” is about providing the “moment” for each visitor as three dots or three chocolates, or Ellipses. (Each of three chocolates contains a Korean alcohol based “whisky bonbon,” made for this project.
+  artwork_desc_ko: |
+    <...>은 세 개의 점, 혹은 세 개의 초콜릿 또는 줄임표로서 방문자에게 어떠한 ‘순간’을 제공한다. (세 개의 초콜릿은 이번 프로젝트를 위해 위스키 봉봉의 제작 방식을 기초로 각 초콜릿마다 다른 한국 술을 넣어 제작되었다.)
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
@@ -41,8 +41,6 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/8-gang-moonsick-1.jpg"
-- "./images/exhibitions/8-gang-moonsick-2.jpg"
-- "./images/exhibitions/8-gang-moonsick-3.jpg"
-- "./images/exhibitions/8-gang-moonsick-4.jpg"
-- "./images/exhibitions/8-gang-moonsick-5.jpg"
+- "./images/exhibitions/8-gang-moonsick__1.jpg"
+- "./images/exhibitions/8-gang-moonsick__2.jpg"
+- "./images/exhibitions/8-gang-moonsick__3.jpg"

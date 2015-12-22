@@ -19,14 +19,14 @@ participant_bio_en: "Jonas Berthod lives and works between London and Switzerlan
 participant_bio_ko: |
   스위스의 로잔 주립미술대학교와 영국 왕립예술학교를 졸업한 요나스 베르토트는 디자인과 리서치, 그리고 강의를 하며 런던과 스위스를 기반으로 활동하고 있다. 수직적 조직이 아닌 느슨한 협업에 기초한 유동적인 체계를 모델로 한 스튜디오를 운영하며 자기 주도 디자인 프로젝트, 워크숍, 그리고 글쓰기를 병행한다. 로잔 주립미술대학에서 비평적 디자인사를 가르치고 있으며 현재 ‘오늘날 런던에 거주하기’라는 주제를 중심으로 한 사회정치적 문제에 관심을 갖고 작업하고 있다.
 artworks:
-  - artwork_name_en: T. Tokyo
-    artwork_name_ko: T. 도쿄
-    artwork_year: 2015
-    artwork_medium_en: Banner, 350x150cm
-    artwork_medium_ko: "배너, 350x150cm"
-    artwork_desc_en: |
-      The starting point of this work is a store front in Shinjuku. Its sign set in a calligraphic font reads like a dadaist poem – Hermès Louis Vuitton Rolex Cartier Bvlgari Chanel – a mantra made of brands that have become stronger than the impersonal objects they produce. The empty slogan provides absolution through consumerism. With its patterns lifted from luxury goods and its simplified messages in Japanese, this banner works like an oversized banknote for empty dreams.
-    artwork_desc_ko: ''
+- artwork_name_en: T. Tokyo
+  artwork_name_ko: T. 도쿄
+  artwork_year: 2015
+  artwork_medium_en: Banner, 350x150cm
+  artwork_medium_ko: "배너, 350x150cm"
+  artwork_desc_en: |
+    The starting point of this work is a store front in Shinjuku. Its sign set in a calligraphic font reads like a dadaist poem – Hermès Louis Vuitton Rolex Cartier Bvlgari Chanel – a mantra made of brands that have become stronger than the impersonal objects they produce. The empty slogan provides absolution through consumerism. With its patterns lifted from luxury goods and its simplified messages in Japanese, this banner works like an oversized banknote for empty dreams.
+  artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F

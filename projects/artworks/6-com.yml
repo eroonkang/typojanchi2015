@@ -13,15 +13,15 @@ participant_bio_ko: "COM은 2015년 실내 디자인을 전공한 김세중과 �
   공간 디자인을 기반으로, 필요에 따라 그래픽 작업과 가구 제작을 겸하며 다양한 프로젝트를 수행하고 있다. 《도서관 독립 출판 열람실》, 《시의
   집》, 《28》, 《크리스마스 과자전》, 《프린팅 스튜디오 쇼》, 《파빌리온 씨》, 《아시안 뮤직 파티》, 《51+》, 《이음》 등의 전시에 참여했다.\t\n"
 artworks:
-  - artwork_name_en: Jongro Tower
-    artwork_name_ko: "종로 타워"
-    artwork_year: 2015
-    artwork_medium_en: Electric sign
-    artwork_medium_ko: "전기 간판"
-    artwork_desc_en: |
-      COM build an imaginary tower at Jongno (  ) ga. This tower facade follows the floor signboard form, each floor is made with LED electronic signage. During exhibition period, COM becomes a building owner by themselves, rent each floor. A tenant pays for the fixed expenses and has the right to use the floor. This building's main goal for use is advertisement. The tenants rent this tower to advertise specific information compulsively and effectively. COM received the necessary information from the tenant, and produces signage, borrowed in method and form from LED electronic signage and played repeatedly during the exhibition.
-    artwork_desc_ko: |
-      COM은 종로 (  )가에 가상의 타워를 세운다. 이 타워의 파사드는 층별 안내판 형식을 따르며, 각 층은 LED 전광판으로 이루어져 있다. COM은 스스로 건물주가 되어 전시 기간 동안 실제로 각 층을 원하는 이에게 임대한다. 임차인은 정해진 비용을 지불하고 계약 기간 동안 선택한 층을 사용할 권리를 가진다. 이 건물의 주요 목적은 광고이다. 임차인은, 전시 동안 찾아오는 다수의 관객들에게 자신들이 원하는 특정 정보를 강제적이고 효과적으로 각인시키기 위해 이 가상의 타워를 임대하게 된다. COM은 임차인에게 필요한 정보를 받은 뒤 기존 LED 광고판이 가진 문법과 형식을 차용하여 광고문을 제작 후 전시 기간 동안 반복 재생한다.
+- artwork_name_en: Jongro Tower
+  artwork_name_ko: "종로 타워"
+  artwork_year: 2015
+  artwork_medium_en: Electric sign
+  artwork_medium_ko: "전기 간판"
+  artwork_desc_en: |
+    COM build an imaginary tower at Jongno (  ) ga. This tower facade follows the floor signboard form, each floor is made with LED electronic signage. During exhibition period, COM becomes a building owner by themselves, rent each floor. A tenant pays for the fixed expenses and has the right to use the floor. This building's main goal for use is advertisement. The tenants rent this tower to advertise specific information compulsively and effectively. COM received the necessary information from the tenant, and produces signage, borrowed in method and form from LED electronic signage and played repeatedly during the exhibition.
+  artwork_desc_ko: |
+    COM은 종로 (  )가에 가상의 타워를 세운다. 이 타워의 파사드는 층별 안내판 형식을 따르며, 각 층은 LED 전광판으로 이루어져 있다. COM은 스스로 건물주가 되어 전시 기간 동안 실제로 각 층을 원하는 이에게 임대한다. 임차인은 정해진 비용을 지불하고 계약 기간 동안 선택한 층을 사용할 권리를 가진다. 이 건물의 주요 목적은 광고이다. 임차인은, 전시 동안 찾아오는 다수의 관객들에게 자신들이 원하는 특정 정보를 강제적이고 효과적으로 각인시키기 위해 이 가상의 타워를 임대하게 된다. COM은 임차인에게 필요한 정보를 받은 뒤 기존 LED 광고판이 가진 문법과 형식을 차용하여 광고문을 제작 후 전시 기간 동안 반복 재생한다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
@@ -33,6 +33,6 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/6-com-1.jpg"
-- "./images/exhibitions/6-com-2.jpg"
-- "./images/exhibitions/6-com-3.jpg"
+- "./images/exhibitions/6-com__1.jpg"
+- "./images/exhibitions/6-com__2.jpg"
+- "./images/exhibitions/6-com__3.jpg"

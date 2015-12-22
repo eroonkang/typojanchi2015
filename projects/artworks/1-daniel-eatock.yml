@@ -12,15 +12,15 @@ participant_bio_en: |
 participant_bio_ko: |
   다니엘 이톡은 런던에 거주하며 작업하는 작가이자 그래픽 디자이너이다. 영국 왕립예술학교를 나와 잠시 미니애폴리스에 있는 워커아트센터에서 일한 그는 1999년 영국으로 돌아와 ‘파운데이션33’을 설립했다. 2004년부터 독립적으로 활동하고 있으며 2006년 제프리 바스카와 함께 표준 웹 어플리케이션인 인덱스히빗을 만들었다. 2008년 프린스턴 아키텍처 프레스에서 첫 모노그래프 《임프린트》가 출간되었다.
 artworks:
-  - artwork_name_en: Caption Poster
-    artwork_name_ko: "캡션 포스터"
-    artwork_year: 2015
-    artwork_medium_en: Poster, 118.9x84.1cm
-    artwork_medium_ko: "포스터, 118.9x84.1cm"
-    artwork_desc_en: |
-      Daniel Eatock's Caption Poster shows one strategically adaptable example not in the language of fine art but in the context of graphic design, where a graphic designer steps inside the white cube. He collected all of the Typojanchi participant artist’s information including names, titles, materials, sizes and made one poster with them. He then crossed out all of the other information except for his own caption information. Therefore, this project as the title implies itself, is a poster as well as a caption of the work.
-    artwork_desc_ko: |
-      대니얼 이톡의 <캡션 포스터>는 그래픽 디자이너가 화이트 큐브 안으로 들어갈 때 미술의 언어가 아닌 그래픽 디자인의 맥락에서 채택할 수 있는 전략의 한 예를 보여준다. 이번 타이포잔치에 참여하는 모든 작가들의 이름과 작품 제목, 재료, 크기 등의 정보를 모아 한 장의 포스터로 만든 뒤 자신의 정보를 제외한 다른 정보를 지워버린 이 작업은 제목 그대로 작품에 대한 캡션이자, 하나의 포스터인 셈이다.
+- artwork_name_en: Caption Poster
+  artwork_name_ko: "캡션 포스터"
+  artwork_year: 2015
+  artwork_medium_en: Poster, 118.9x84.1cm
+  artwork_medium_ko: "포스터, 118.9x84.1cm"
+  artwork_desc_en: |
+    Daniel Eatock's Caption Poster shows one strategically adaptable example not in the language of fine art but in the context of graphic design, where a graphic designer steps inside the white cube. He collected all of the Typojanchi participant artist’s information including names, titles, materials, sizes and made one poster with them. He then crossed out all of the other information except for his own caption information. Therefore, this project as the title implies itself, is a poster as well as a caption of the work.
+  artwork_desc_ko: |
+    대니얼 이톡의 <캡션 포스터>는 그래픽 디자이너가 화이트 큐브 안으로 들어갈 때 미술의 언어가 아닌 그래픽 디자인의 맥락에서 채택할 수 있는 전략의 한 예를 보여준다. 이번 타이포잔치에 참여하는 모든 작가들의 이름과 작품 제목, 재료, 크기 등의 정보를 모아 한 장의 포스터로 만든 뒤 자신의 정보를 제외한 다른 정보를 지워버린 이 작업은 제목 그대로 작품에 대한 캡션이자, 하나의 포스터인 셈이다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
@@ -32,4 +32,4 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/1-daniel-eatock-1.jpg"
+- "./images/exhibitions/1-daniel-eatock__1.jpg"

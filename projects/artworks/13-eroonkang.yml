@@ -12,15 +12,15 @@ participant_bio_en: |
 participant_bio_ko: |
   뉴욕 스쿨 오브 비주얼 아트와 예일 대학교에서 그래픽 디자인을 공부하고, MIT의 도시 계획과 산하 센서블 시티 연구소에서 특별 연구원으로 일했다. TED 펠로우로 활동하며 미국 TED 콘퍼런스와 칸라이언즈 국제 크레이이티비티 페스티벌 등에서 강연했고, 독일 바우하우스 바이마르 대학교, 뉴욕 대학교 ITP 등에서 강의했다. 현재 파슨스 스쿨 오브 디자인에서 학생들을 가르치고 있으며, 뉴욕에서 학제간 디자인 및 리서치 스튜디오 매스 프랙티스를 운영하고 있다.
 artworks:
-  - artwork_name_en: Typojanchi Website
-    artwork_name_ko: "타이포잔치 웹 사이트"
-    artwork_year: 2015
-    artwork_medium_en: 
-    artwork_medium_ko: 
-    artwork_desc_en: |
-      The Typojanchi Website maps each of the participating projects with their contextual relationship and associated geographic locations. By appropriating the familiar user interface of online maps, the website suggests a unique vantage point in experiencing the exhibition. The base map is constructed with the data from OpenStreetMap, and the website is realized with help of Wonyoung So.
-    artwork_desc_ko: |
-      온라인 지도의 익숙한 형식을 빌어 제작된 <타이포잔치 웹사이트>는 각 프로젝트 들의 개념적 이웃관계와 각자 관련된 지리적 위치들을 지도로 엮어, 타이포잔치의 전시를 경험하는 새로운 관점을 제시한다. 이 온라인 지도는 오픈스트리트맵의 데이터를 바탕으로, 디자이너이자 개발자인 소원영의 도움을 받아 제작 하였다.
+- artwork_name_en: Typojanchi Website
+  artwork_name_ko: "타이포잔치 웹 사이트"
+  artwork_year: 2015
+  artwork_medium_en: 
+  artwork_medium_ko: 
+  artwork_desc_en: |
+    The Typojanchi Website maps each of the participating projects with their contextual relationship and associated geographic locations. By appropriating the familiar user interface of online maps, the website suggests a unique vantage point in experiencing the exhibition. The base map is constructed with the data from OpenStreetMap, and the website is realized with help of Wonyoung So.
+  artwork_desc_ko: |
+    온라인 지도의 익숙한 형식을 빌어 제작된 <타이포잔치 웹사이트>는 각 프로젝트 들의 개념적 이웃관계와 각자 관련된 지리적 위치들을 지도로 엮어, 타이포잔치의 전시를 경험하는 새로운 관점을 제시한다. 이 온라인 지도는 오픈스트리트맵의 데이터를 바탕으로, 디자이너이자 개발자인 소원영의 도움을 받아 제작 하였다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 

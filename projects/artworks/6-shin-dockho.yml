@@ -12,15 +12,15 @@ participant_bio_en: |
 participant_bio_ko: |
   2012년 단국대학교 시각디자인과를 졸업하고 프리랜스 디자이너로 일하고 있다. 타이포그래피를 기반으로 다양한 작업자와 협업하는 것을 즐겨한다. 최근 작업으로는 ‘체르노빌 다크 투어리즘’, ‘도서관 독립출판 열람실’, 《'미스테리아(MYSTERIA)》 등 아이덴티티 디자인과 북 디자인을 진행했다.
 artworks:
-  - artwork_name_en: No Comment
-    artwork_name_ko: "노 코멘트"
-    artwork_year: 2015
-    artwork_medium_en: Banner (300x420cm) book (37x29.7cm)
-    artwork_medium_ko: "현수막(300x420cm), 책(37x29.7cm)"
-    artwork_desc_en: |
-      Shin Dokho searches for the signage and banner manufacturer that is making most of the city (Jongno) landscape. What he is interested in is the signage and banner manufacturer's templates. The templates without letters in the exhibition space look like a giant composition work. After he searches with the keyword, “Jongno banner,” he gets the list of manufacturers and he talks with them and gets the templates they use. In front of the banners, he put the booklets which gather their templates and in the end of the booklet, he puts the advertising copy in linearly.
-    artwork_desc_ko: |
-      신덕호는 실제로 대부분의 도시(종로) 풍경을 만들어내는 간판업체와 현수막업체를 찾아 나선다. 그가 관심을 갖는 것은 그중 현수막업체가 사용하는 템플릿이다. 전시장에 내걸린 글자 없는 템플릿들은 마치 대형 구성 작업(Composition Work)처럼 보인다. 현수막 앞에는 ‘종로 현수막’이라는 키워드로 검색된 업체들과 실제로 협의해 그들이 주로 사용하는 템플릿들을 망라한 책자가 배치되며, 책 뒤쪽에는 템플릿에 적용된 여러 광고 문구들을 연결시켜 보여준다.
+- artwork_name_en: No Comment
+  artwork_name_ko: "노 코멘트"
+  artwork_year: 2015
+  artwork_medium_en: Banner (300x420cm) book (37x29.7cm)
+  artwork_medium_ko: "현수막(300x420cm), 책(37x29.7cm)"
+  artwork_desc_en: |
+    Shin Dokho searches for the signage and banner manufacturer that is making most of the city (Jongno) landscape. What he is interested in is the signage and banner manufacturer's templates. The templates without letters in the exhibition space look like a giant composition work. After he searches with the keyword, “Jongno banner,” he gets the list of manufacturers and he talks with them and gets the templates they use. In front of the banners, he put the booklets which gather their templates and in the end of the booklet, he puts the advertising copy in linearly.
+  artwork_desc_ko: |
+    신덕호는 실제로 대부분의 도시(종로) 풍경을 만들어내는 간판업체와 현수막업체를 찾아 나선다. 그가 관심을 갖는 것은 그중 현수막업체가 사용하는 템플릿이다. 전시장에 내걸린 글자 없는 템플릿들은 마치 대형 구성 작업(Composition Work)처럼 보인다. 현수막 앞에는 ‘종로 현수막’이라는 키워드로 검색된 업체들과 실제로 협의해 그들이 주로 사용하는 템플릿들을 망라한 책자가 배치되며, 책 뒤쪽에는 템플릿에 적용된 여러 광고 문구들을 연결시켜 보여준다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
@@ -32,8 +32,5 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/6-shin-dockho-1.jpg"
-- "./images/exhibitions/6-shin-dockho-2.jpg"
-- "./images/exhibitions/6-shin-dockho-3.jpg"
-- "./images/exhibitions/6-shin-dockho-4.jpg"
-- "./images/exhibitions/6-shin-dockho-5.jpg"
+- "./images/exhibitions/6-shin-dockho__1.jpg"
+- "./images/exhibitions/6-shin-dockho__2.jpg"

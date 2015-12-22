@@ -23,36 +23,38 @@ curator_bio_ko: |
   그래픽 디자이너. 서울대학교를 졸업하고 2006년 스튜디오 fnt를 설립했다. 《Weltformat 15 Plakatfestival Luzern》, 《Korea Now! Craft, Design, Fashion and Graphic Design in Korea》, 《交, 향》, 《타이포잔치 2011》 등의 전시에 참여했으며 국립현대미술관, 서울시립미술관, 국립극단, 서울레코드페어 조직위원회 등의 클라이언트와 함께 다양한 문화 행사와 공연을 위한 작업을 해오고 있다. 2011년부터는 정림문화재단과 함께 건축, 문화, 예술 사이에서 교육, 포럼, 전시, 리서치 등을 아우르는 다양한 프로젝트들을 통해 건축의 사회적 역할과 도시, 주거 문제에 대해 고민하고 있다. 서울대학교, 서울시립대학교에서 시각 디자인을 가르치고 있다.
 type: Project
 photos:
-- url: "./images/exhibitions/4--on-the-walls-1.jpg"
+- url: "./images/exhibitions/4--on-the-walls__1.jpg"
+  permalink: 4--on-the-walls
+  idx: 4
+  project_name_ko: "도시문자 포스터전"
+  project_name_en: "( ) ON THE WALLS"
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/4--on-the-walls-10.jpg"
+- url: "./images/exhibitions/4--on-the-walls__2.jpg"
+  permalink: 4--on-the-walls
+  idx: 4
+  project_name_ko: "도시문자 포스터전"
+  project_name_en: "( ) ON THE WALLS"
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/4--on-the-walls-11.jpg"
+- url: "./images/exhibitions/4--on-the-walls__3.jpg"
+  permalink: 4--on-the-walls
+  idx: 4
+  project_name_ko: "도시문자 포스터전"
+  project_name_en: "( ) ON THE WALLS"
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/4--on-the-walls-2.jpg"
+- url: "./images/exhibitions/4--on-the-walls__4.jpg"
+  permalink: 4--on-the-walls
+  idx: 4
+  project_name_ko: "도시문자 포스터전"
+  project_name_en: "( ) ON THE WALLS"
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/4--on-the-walls-3.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/4--on-the-walls-4.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/4--on-the-walls-5.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/4--on-the-walls-6.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/4--on-the-walls-7.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/4--on-the-walls-8.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/4--on-the-walls-9.jpg"
+- url: "./images/exhibitions/4--on-the-walls__5.jpg"
+  permalink: 4--on-the-walls
+  idx: 4
+  project_name_ko: "도시문자 포스터전"
+  project_name_en: "( ) ON THE WALLS"
   title_ko: 
   title_en: 

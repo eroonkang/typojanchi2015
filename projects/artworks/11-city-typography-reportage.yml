@@ -55,11 +55,11 @@ curator_bio_ko: "유지원 - 책과 글자를 좋아하는 디자이너. 서울�
   가르치고 있다.\n"
 type: Project
 photos:
-- url: "./images/exhibitions/11-guteform-jiwon-yu-1.jpg"
-  title_ko: |
-    구트폼, 유지원
-  title_en: "Gute Form, Jiwon Yu \n"
-- url: "./images/exhibitions/11-guteform-jiwon-yu-2.jpg"
+- url: "./images/exhibitions/11-guteform-jiwon-yu__1.jpg"
+  permalink: 11-guteform-jiwon-yu
+  idx: 11
+  project_name_ko: "도시문자 르포르타주"
+  project_name_en: CITY TYPOGRAPHY REPORTAGE
   title_ko: |
     구트폼, 유지원
   title_en: "Gute Form, Jiwon Yu \n"

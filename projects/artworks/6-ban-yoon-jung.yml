@@ -12,15 +12,15 @@ participant_bio_en: |
 participant_bio_ko: |
   그래픽 디자이너. 단국대학교 조소과를 졸업하고 홍익대학교 대학원에서 광고 디자인을 공부했다. 《월간 미술》 아트 디렉터를 맡았으며 2004년 디자인 스튜디오 홍단을 설립해 운영해오고 있다.
 artworks:
-  - artwork_name_en: Saemikkeul
-    artwork_name_ko: "새미끌 새탁"
-    artwork_year: 2015
-    artwork_medium_en: Mixed media
-    artwork_medium_ko: "혼합 재료"
-    artwork_desc_en: |
-      “Saemikkeul” is a pure Korean word which means a space where people in the village wash clothes around a spring. Hongdan's member Ban Yoon Jung's hometown has this place, but there is no spring except a name. "Saemikkeul Laundry" includes a comforting message for ordinary people who live a daily life. This piece quotes lyrics of "Laundry" in the Han Seung Seok & Jung Jaeil's album Abandoned, cheers struggling people up sending a message, "It's okay,” and washes out the old dirt.
-    artwork_desc_ko: |
-      ‘새미끌’은 샘이 솟는 주변을 이용해 동네사람들이 빨래터로 이용하는 공간을 일컫는 우리말이다. 홍단의 멤버인 반윤정의 고향 마을 어귀에도 새미끌로 불리는 곳이 있었지만, 지금은 샘도 찾아볼 수 없고 이름만 남았다. ‘새미끌 세탁’은 일상을 살아가는 평범한 사람들에게 보내는 위로의 메시지를 담고 있다. 한승석과 정재일의 《바리abandoned》(배삼식 작사) 수록곡 중 ‘빨래’의 가사를 인용한 이 작업은 삶의 무게가 버거운 이들에게 ‘괜찮다’는 위로를 보내며 묵은 때를 깨끗이 빨아낸다.
+- artwork_name_en: Saemikkeul
+  artwork_name_ko: "새미끌 새탁"
+  artwork_year: 2015
+  artwork_medium_en: Mixed media
+  artwork_medium_ko: "혼합 재료"
+  artwork_desc_en: |
+    “Saemikkeul” is a pure Korean word which means a space where people in the village wash clothes around a spring. Hongdan's member Ban Yoon Jung's hometown has this place, but there is no spring except a name. "Saemikkeul Laundry" includes a comforting message for ordinary people who live a daily life. This piece quotes lyrics of "Laundry" in the Han Seung Seok & Jung Jaeil's album Abandoned, cheers struggling people up sending a message, "It's okay,” and washes out the old dirt.
+  artwork_desc_ko: |
+    ‘새미끌’은 샘이 솟는 주변을 이용해 동네사람들이 빨래터로 이용하는 공간을 일컫는 우리말이다. 홍단의 멤버인 반윤정의 고향 마을 어귀에도 새미끌로 불리는 곳이 있었지만, 지금은 샘도 찾아볼 수 없고 이름만 남았다. ‘새미끌 세탁’은 일상을 살아가는 평범한 사람들에게 보내는 위로의 메시지를 담고 있다. 한승석과 정재일의 《바리abandoned》(배삼식 작사) 수록곡 중 ‘빨래’의 가사를 인용한 이 작업은 삶의 무게가 버거운 이들에게 ‘괜찮다’는 위로를 보내며 묵은 때를 깨끗이 빨아낸다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
@@ -32,6 +32,5 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/6-ban-yoon-jung-1.jpg"
-- "./images/exhibitions/6-ban-yoon-jung-2.jpg"
-- "./images/exhibitions/6-ban-yoon-jung-3.jpg"
+- "./images/exhibitions/6-ban-yoon-jung__1.jpg"
+- "./images/exhibitions/6-ban-yoon-jung__2.jpg"

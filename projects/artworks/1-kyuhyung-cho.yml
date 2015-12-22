@@ -12,15 +12,15 @@ participant_bio_en: |
 participant_bio_ko: |
   스톡홀름에서 디자인 스튜디오를 운영하는 조규형은 타이포그래피와 일러스트레이션, 텍스타일과 가구 디자인 등 상업과 비상업을 가리지 않는 다양한 영역에서 활동한다. 타이포그래피적 접근과 동서양의 관점이 결합된 그의 디자인 결과물은 대중과 매체에서 큰 관심을 받고 있다. 그래픽 디자이너로서 그는 이러한 다학제적 프로젝트를 통해 그래픽 디자인 개념을 확장시킴과 동시에 다양성을 넓히는 데 긍정적인 자극을 주고자 한다.
 artworks:
-  - artwork_name_en: Happening (Pictograph Font in the city)
-    artwork_name_ko: "해프닝 (도시의 그림 서체)"
-    artwork_year: 2015
-    artwork_medium_en: Mixed media
-    artwork_medium_ko: "혼합 매체"
-    artwork_desc_en: |
-      Kyuhyung Cho wants to make “Happening” arise from the interaction between human and types while seeing CITY as a stage for performers in the present age. He introduces 100 different new Hangul pictograph fonts that are incorporated with the current lifestyle over the world. Moreover, he attempts to demonstrate the development of typography, from strictly being functional to being experienced, and experiments an interactive communication with the audience by encouraging the user to transform the shoe and composition of the fonts depending on one’s rhythm of typing on the keyboard. The exhibition space is constructed as a stage of a play, which adopts pictorial Hangul and Roman alphabet font letters as its characters. The typography is introduced through a live performance showing the various arrangements of the characters based on the speed of input, and each character is presented through 100 font specimen books. He will present 14 Hangul consonant-objects made of clay. The pictograph font project sheds a new light on Hangul and Roman alphabet through his unique approach to visualize typography, and offers an opportunity to perceive types as a pictographic character of an open development as well as a visual language embodying the culture of the city.
-    artwork_desc_ko: |
-      조규형은 도시를 동시대 객체 간의 사건을 위한 무대로 보고, 문자와 사용자의 상호작용이 만드는 해프닝을 시도한다. 그는 우리의 이야기와 모습을 담은 한글 그림 서체 100종과 로만 알파벳 50종을 공개하고, 키보드를 누르는 장단에 따라 문자의 형태와 조합이 ‘변신’하도록 사용자에게 역할을 부여함으로써 ‘기록하는’ 문자에서 ‘경험하는’ 문자로의 진화를 시도한다. ‘한글과 로만 알파벳’ 그림 서체를 등장인물로 하는 이 한 편의 연극 무대는 열린 가능성을 가진 그림문자로서, 그리고 현 도시의 문화를 담아내는 시각언어로서 문자를 인식할 수 있는 기회를 제공한다.
+- artwork_name_en: Happening (Pictograph Font in the city)
+  artwork_name_ko: "해프닝 (도시의 그림 서체)"
+  artwork_year: 2015
+  artwork_medium_en: Mixed media
+  artwork_medium_ko: "혼합 매체"
+  artwork_desc_en: |
+    Kyuhyung Cho wants to make “Happening” arise from the interaction between human and types while seeing CITY as a stage for performers in the present age. He introduces 100 different new Hangul pictograph fonts that are incorporated with the current lifestyle over the world. Moreover, he attempts to demonstrate the development of typography, from strictly being functional to being experienced, and experiments an interactive communication with the audience by encouraging the user to transform the shoe and composition of the fonts depending on one’s rhythm of typing on the keyboard. The exhibition space is constructed as a stage of a play, which adopts pictorial Hangul and Roman alphabet font letters as its characters. The typography is introduced through a live performance showing the various arrangements of the characters based on the speed of input, and each character is presented through 100 font specimen books. He will present 14 Hangul consonant-objects made of clay. The pictograph font project sheds a new light on Hangul and Roman alphabet through his unique approach to visualize typography, and offers an opportunity to perceive types as a pictographic character of an open development as well as a visual language embodying the culture of the city.
+  artwork_desc_ko: |
+    조규형은 도시를 동시대 객체 간의 사건을 위한 무대로 보고, 문자와 사용자의 상호작용이 만드는 해프닝을 시도한다. 그는 우리의 이야기와 모습을 담은 한글 그림 서체 100종과 로만 알파벳 50종을 공개하고, 키보드를 누르는 장단에 따라 문자의 형태와 조합이 ‘변신’하도록 사용자에게 역할을 부여함으로써 ‘기록하는’ 문자에서 ‘경험하는’ 문자로의 진화를 시도한다. ‘한글과 로만 알파벳’ 그림 서체를 등장인물로 하는 이 한 편의 연극 무대는 열린 가능성을 가진 그림문자로서, 그리고 현 도시의 문화를 담아내는 시각언어로서 문자를 인식할 수 있는 기회를 제공한다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
@@ -32,15 +32,6 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/1-kyuhyung-cho-1.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-10.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-11.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-12.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-2.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-3.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-4.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-5.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-6.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-7.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-8.jpg"
-- "./images/exhibitions/1-kyuhyung-cho-9.jpg"
+- "./images/exhibitions/1-kyuhyung-cho__1.jpg"
+- "./images/exhibitions/1-kyuhyung-cho__2.jpg"
+- "./images/exhibitions/1-kyuhyung-cho__3.jpg"

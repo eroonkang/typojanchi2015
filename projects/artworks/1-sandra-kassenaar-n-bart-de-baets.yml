@@ -20,25 +20,25 @@ participant_bio_ko: |
 
   토마스 라르는 네덜란드의 그래픽 디자이너이다. 열정적으로 동시대의 독창적인 시각적 해결책을 모색하는 그의 작업은 출판과 책, 시각 아이덴티티를 비롯한 다양한 인쇄물의 형태로 나타나곤 한다.
 artworks:
-  - artwork_name_en: A collection of examples and left-overs
-    artwork_name_ko: "사례 모음 그리고 남겨진 것들"
-    artwork_year: 2015
-    artwork_medium_en: Tarpaulin cut outs, dimensions variable
-    artwork_medium_ko: "방수포, 가변 크기"
-    artwork_desc_en: "Being surrounded by letters and images from existing graphic languages
-      makes that when visiting places the usual touristic sights aren’t our main priority.
-      Artists, designers—or just the two of us—look at the things around us and store
-      ‘em, in the hope they inspire our design and art work back home in the studio.
-      \n\nFor the exhibition we will take home a selection of these physical urban typographic
-      discoveries and make an attempt to lay them out on a white wall. What happens
-      when an idea leaves a designer’s computer and is printed on backs of trucks—for
-      example—is a question that inspired the piece we will present at the Typojanchi
-      2015. It’s a work in which the actual size of things stands for the sometimes
-      problematic relation with inspiration. Inspiration is confused with plain old
-      copying, the matter of finding ways of appropriating it, one way or the other
-      is an issue worth pondering over.\n"
-    artwork_desc_ko: |
-      하나의 아이디어가 디자이너의 컴퓨터를 떠나, 가령 트럭 뒤에 붙을 때 어떤 일이 벌어질까. 산드라 카세나르와 바르트 더바에츠는 그들이 발견한 도시의 타이포그래피를 집으로 가져간다. 여느 예술가나 디자이너들이 그러하듯, 그들로부터 영감을 얻길 바라면서 말이다. 그리고 그것들을 흰 벽에 이리저리 붙이며 레이아웃을 시도한다. 실제 크기와 똑같이 구현된 사물들은 때로 디자이너들에게 문제를 일으키는, ‘영감’과 이런저런 관계를 맺는다. 그것은 진부한 카피와 적절한 해결책 사이를 떠돌며 여러 방식으로 변주된다. 그런데 과연 영감이라는 게 뭘까?
+- artwork_name_en: A collection of examples and left-overs
+  artwork_name_ko: "사례 모음 그리고 남겨진 것들"
+  artwork_year: 2015
+  artwork_medium_en: Tarpaulin cut outs, dimensions variable
+  artwork_medium_ko: "방수포, 가변 크기"
+  artwork_desc_en: "Being surrounded by letters and images from existing graphic languages
+    makes that when visiting places the usual touristic sights aren’t our main priority.
+    Artists, designers—or just the two of us—look at the things around us and store
+    ‘em, in the hope they inspire our design and art work back home in the studio.
+    \n\nFor the exhibition we will take home a selection of these physical urban typographic
+    discoveries and make an attempt to lay them out on a white wall. What happens
+    when an idea leaves a designer’s computer and is printed on backs of trucks—for
+    example—is a question that inspired the piece we will present at the Typojanchi
+    2015. It’s a work in which the actual size of things stands for the sometimes
+    problematic relation with inspiration. Inspiration is confused with plain old
+    copying, the matter of finding ways of appropriating it, one way or the other
+    is an issue worth pondering over.\n"
+  artwork_desc_ko: |
+    하나의 아이디어가 디자이너의 컴퓨터를 떠나, 가령 트럭 뒤에 붙을 때 어떤 일이 벌어질까. 산드라 카세나르와 바르트 더바에츠는 그들이 발견한 도시의 타이포그래피를 집으로 가져간다. 여느 예술가나 디자이너들이 그러하듯, 그들로부터 영감을 얻길 바라면서 말이다. 그리고 그것들을 흰 벽에 이리저리 붙이며 레이아웃을 시도한다. 실제 크기와 똑같이 구현된 사물들은 때로 디자이너들에게 문제를 일으키는, ‘영감’과 이런저런 관계를 맺는다. 그것은 진부한 카피와 적절한 해결책 사이를 떠돌며 여러 방식으로 변주된다. 그런데 과연 영감이라는 게 뭘까?
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
@@ -50,10 +50,6 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-1.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-2.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-3.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-4.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-5.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-6.jpg"
-- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets-7.jpg"
+- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets__1.jpg"
+- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets__2.jpg"
+- "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets__3.jpg"

@@ -12,14 +12,14 @@ participant_bio_en: |
 participant_bio_ko: |
   디자이너이자 작가 키트라 딘 딕슨은 2014년 “나는 어느 곳에서든 일할 수 있다”는 말을 입증하기 위해 뉴욕에서 알래스카의 외진 곳으로 이주해 새로운 형태의 디자인 스튜디오를 실험하고 있다. 그녀의 작업은 레터링부터 조각, 제품 디자인을 아우르며, 더욱 독립적인 작업을 위해 실험적 디자인 디렉터로서 자신의 역할을 수행하고 있다. 그녀의 혼종적인 디자인은 새로 출현하는 테크놀로지와 제작 프로세스 등 불확실한 영역으로 그녀를 이끈다. 주요 클라이언트로 《뉴욕타임스》, 나이키, 폴크스바겐, 코치 등이 있으며 US 대통령상 등의 상을 수상했다. 그녀의 작품은 워커아트센터, 스미스소니언 쿠퍼휴잇 뮤지엄, 뉴욕 미술디자인 뮤지엄 등에 전시되었으며, SFMoMA에 영구 소장되어 있다.
 artworks:
-  - artwork_name_en: Typojanchi 2015
-    artwork_name_ko: "타이포잔치 2015"
-    artwork_year: 2015
-    artwork_medium_en: pigment print on paper, 160x106.7cm
-    artwork_medium_ko: "종이에 안료 날염, 160x106.7cm"
-    artwork_desc_en: |
-      Typography reflects the laying of culture flowing through the architecture of a city. Some messages are more ephemeral and had made, some systemized and executed with tremendous consideration, all building up one another to create a rich portrait of the people who dwell within a cities walls and move through it’s passage ways. Words stack up layer after layers, a quickly evolving communique that echoes the movement of life in a city.
-    artwork_desc_ko: ''
+- artwork_name_en: Typojanchi 2015
+  artwork_name_ko: "타이포잔치 2015"
+  artwork_year: 2015
+  artwork_medium_en: pigment print on paper, 160x106.7cm
+  artwork_medium_ko: "종이에 안료 날염, 160x106.7cm"
+  artwork_desc_en: |
+    Typography reflects the laying of culture flowing through the architecture of a city. Some messages are more ephemeral and had made, some systemized and executed with tremendous consideration, all building up one another to create a rich portrait of the people who dwell within a cities walls and move through it’s passage ways. Words stack up layer after layers, a quickly evolving communique that echoes the movement of life in a city.
+  artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F

@@ -12,15 +12,15 @@ participant_bio_en: |
 participant_bio_ko: |
   조현열은 서울에서 활동하는 그래픽 디자이너이다. 단국대학교와 예일대학교에서 그래픽 디자인을 공부했으며 2009년 헤이조 스튜디오를 설립했다. 작가와 출판사, 예술 기관 등과 함께 일하는 한편 대학교에서 그래픽 디자인과 타이포그래피를 가르치고 있다.
 artworks:
-  - artwork_name_en: CT Code Series
-    artwork_name_ko: CT 코드 연작
-    artwork_year: 2015
-    artwork_medium_en: Offset printing, 8 pieces, each 70x100cm
-    artwork_medium_ko: "옵셋 인쇄, 8점, 각 70x100cm"
-    artwork_desc_en: |
-      Hyoun Youl Joe picks up flyers on his office floor every morning and gathers in one place. Repeating this, he starts to observe flyers and banners of loan, delivery foods, selling apartments and officetels, chauffeur service very closely. They are cheap, repeating, flashy and wild. Watching these, he feels uncomfortable but finds something interesting in their combinations. The combination works as a tool of communities and people's desire. For the artist, they are recognized as colors and forms before meaning as words. He extracts the letters from the flyers and banners, concentrates on making new combinations with these signs, colors, and forms. This would be the exploration of new compositions with repeating forms and color patterns in the flyers and banners of this city where the letters disappeared.
-    artwork_desc_ko: |
-      조현열은 매일 아침 사무실 바닥에 떨어진 전단지를 줍고, 사무실 한곳에 모아둔다. 이런 행위가 아침마다 반복되면서 그는 그것들을 유심히 살펴보기 시작한다. 대출, 배달 음식, 아파트 오피스텔 분양, 대리 운전 등, 전단지와 현수막들. 그것들은 천박하고, 반복적이고, 요란하고 거칠다. 매일 쏟아져 나오는 거리를 둘러싼 전단지와 현수막의 언어와 기호, 색상을 보면서 인상을 찌푸리기도 하지만, 동시에 그것들의 조합에서 흥미로운 구성을 발견하게 된다. 그 구성은 집단과 개인의 욕망의 도구로 작동한다. 조현열에게 그것들은 언제나 언어가 전달되기 전 색상과 형태로 먼저 인식된다. 전단과 현수막에서 글자를 추출하고 기호와 색상 그리고 구성에 집중한 이 작업은 언어가 사라진 도시의 전단지와 현수막에서 반복되는 형태와 색상 패턴의 새로운 구성에 대한 탐구라 할 수 있다.
+- artwork_name_en: CT Code Series
+  artwork_name_ko: CT 코드 연작
+  artwork_year: 2015
+  artwork_medium_en: Offset printing, 8 pieces, each 70x100cm
+  artwork_medium_ko: "옵셋 인쇄, 8점, 각 70x100cm"
+  artwork_desc_en: |
+    Hyoun Youl Joe picks up flyers on his office floor every morning and gathers in one place. Repeating this, he starts to observe flyers and banners of loan, delivery foods, selling apartments and officetels, chauffeur service very closely. They are cheap, repeating, flashy and wild. Watching these, he feels uncomfortable but finds something interesting in their combinations. The combination works as a tool of communities and people's desire. For the artist, they are recognized as colors and forms before meaning as words. He extracts the letters from the flyers and banners, concentrates on making new combinations with these signs, colors, and forms. This would be the exploration of new compositions with repeating forms and color patterns in the flyers and banners of this city where the letters disappeared.
+  artwork_desc_ko: |
+    조현열은 매일 아침 사무실 바닥에 떨어진 전단지를 줍고, 사무실 한곳에 모아둔다. 이런 행위가 아침마다 반복되면서 그는 그것들을 유심히 살펴보기 시작한다. 대출, 배달 음식, 아파트 오피스텔 분양, 대리 운전 등, 전단지와 현수막들. 그것들은 천박하고, 반복적이고, 요란하고 거칠다. 매일 쏟아져 나오는 거리를 둘러싼 전단지와 현수막의 언어와 기호, 색상을 보면서 인상을 찌푸리기도 하지만, 동시에 그것들의 조합에서 흥미로운 구성을 발견하게 된다. 그 구성은 집단과 개인의 욕망의 도구로 작동한다. 조현열에게 그것들은 언제나 언어가 전달되기 전 색상과 형태로 먼저 인식된다. 전단과 현수막에서 글자를 추출하고 기호와 색상 그리고 구성에 집중한 이 작업은 언어가 사라진 도시의 전단지와 현수막에서 반복되는 형태와 색상 패턴의 새로운 구성에 대한 탐구라 할 수 있다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
@@ -32,7 +32,4 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/1-hyounyoul-joe-1.jpg"
-- "./images/exhibitions/1-hyounyoul-joe-2.jpg"
-- "./images/exhibitions/1-hyounyoul-joe-3.jpg"
-- "./images/exhibitions/1-hyounyoul-joe-4.jpg"
+- "./images/exhibitions/1-hyounyoul-joe__1.jpg"

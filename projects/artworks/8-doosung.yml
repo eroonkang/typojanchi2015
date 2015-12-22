@@ -12,18 +12,18 @@ participant_bio_en: |
 participant_bio_ko: |
   두성종이 부설 디자인연구소는 두성종이의 디자인 체계와 정체성 확립을 위한 연구 개발과 한국전통색상과 모던색상의 연구개발, 특수지의 표면가공 연구, 종이제품 개발 등을 위해 2009년 설립되었습니다. 그래픽디자인연구파트, 온라인 커뮤니케이션디자인파트, 디자인컨소시엄파트로 구성되어있으며 두성종이의 전체적인 공간 및 컬러디자인, 디자인관련 외부기업 및 단체와의 컨소시엄을 통한 디자인사업 진행, 페이퍼 굿즈 시리즈 등 종이상품 디자인, 국내·외 전시 및 박람회 참여, 사내 디자인교육 등의 활동을 통해 두성종이의 변화와 혁신을 주도하고 있습니다.
 artworks:
-  - artwork_name_en: Extra Charge
-    artwork_name_ko: "추가요금"
-    artwork_year: 2015
-    artwork_medium_en: 
-    artwork_medium_ko: 
-    artwork_desc_en: |
-      City Welcomes You. Hotels in the cities where we're visiting as a stranger always "WELCOME" you, but it's just "THAT MUCH" of welcoming. Suites-provided depending on the amount of your payment. "You and me" seem to share its entrance, but definitely enjoy "DIFFERENT" things and services. If you want better service, you need to pay more. You could enjoy more and better if you pay more. It's quite obvious in the capitalist society we're living in. Familiar, but not delightful experience, our "WELCOME" just starts at this point of experience. Welcome to "the city". Please pay more if you want us to "WELCOME" you. We "WELCOME" you as much as you pay. We are welcoming you!
-    artwork_desc_ko: "City Welcomes You. 이방인이 되어 방문한 도시에서 경험하는 호텔은 우리를 “환영”하고 있지만 내가
-      지불하는 만큼 ‘그 정도’의 환영이었다. 지불 금액에 따라 차등 배정되는 객실. 호텔의 입구만 같을 뿐 ‘너와 나’는 ‘다른 것’을 제공받고
-      있다. 더 나은 더 높은 더 좋은 서비스를 원한다면 그만큼의 추가요금이 필요하다. 지불하는 만큼 더 누릴 수 있다. 이러한 상호작용은 자본주의
-      사회에서 우리가 경험할 수 있는 ‘흔한 것’이다. 흔하지만 반갑지 않은 경험, 그 경험에서 우리의 WELCOME이 시작 되었다. 도시에 방문한
-      당신을 환영합니다.더 “환영” 받고 싶다면 조금 더 지불하면 됩니다. 당신이 지불하는 만큼 우리는 당신을 환영합니다. \n"
+- artwork_name_en: Extra Charge
+  artwork_name_ko: "추가요금"
+  artwork_year: 2015
+  artwork_medium_en: 
+  artwork_medium_ko: 
+  artwork_desc_en: |
+    City Welcomes You. Hotels in the cities where we're visiting as a stranger always "WELCOME" you, but it's just "THAT MUCH" of welcoming. Suites-provided depending on the amount of your payment. "You and me" seem to share its entrance, but definitely enjoy "DIFFERENT" things and services. If you want better service, you need to pay more. You could enjoy more and better if you pay more. It's quite obvious in the capitalist society we're living in. Familiar, but not delightful experience, our "WELCOME" just starts at this point of experience. Welcome to "the city". Please pay more if you want us to "WELCOME" you. We "WELCOME" you as much as you pay. We are welcoming you!
+  artwork_desc_ko: "City Welcomes You. 이방인이 되어 방문한 도시에서 경험하는 호텔은 우리를 “환영”하고 있지만 내가
+    지불하는 만큼 ‘그 정도’의 환영이었다. 지불 금액에 따라 차등 배정되는 객실. 호텔의 입구만 같을 뿐 ‘너와 나’는 ‘다른 것’을 제공받고
+    있다. 더 나은 더 높은 더 좋은 서비스를 원한다면 그만큼의 추가요금이 필요하다. 지불하는 만큼 더 누릴 수 있다. 이러한 상호작용은 자본주의
+    사회에서 우리가 경험할 수 있는 ‘흔한 것’이다. 흔하지만 반갑지 않은 경험, 그 경험에서 우리의 WELCOME이 시작 되었다. 도시에 방문한
+    당신을 환영합니다.더 “환영” 받고 싶다면 조금 더 지불하면 됩니다. 당신이 지불하는 만큼 우리는 당신을 환영합니다. \n"
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
@@ -35,22 +35,7 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/18-doosung-1.jpg"
-- "./images/exhibitions/18-doosung-10.jpg"
-- "./images/exhibitions/18-doosung-11.jpg"
-- "./images/exhibitions/18-doosung-12.jpg"
-- "./images/exhibitions/18-doosung-13.jpg"
-- "./images/exhibitions/18-doosung-2.jpg"
-- "./images/exhibitions/18-doosung-3.jpg"
-- "./images/exhibitions/18-doosung-4.jpg"
-- "./images/exhibitions/18-doosung-5.jpg"
-- "./images/exhibitions/18-doosung-6.jpg"
-- "./images/exhibitions/18-doosung-7.jpg"
-- "./images/exhibitions/18-doosung-8.jpg"
-- "./images/exhibitions/18-doosung-9.jpg"
-- "./images/exhibitions/8-doosung-1.jpg"
-- "./images/exhibitions/8-doosung-2.jpg"
-- "./images/exhibitions/8-doosung-3.jpg"
-- "./images/exhibitions/8-doosung-4.jpg"
-- "./images/exhibitions/8-doosung-5.jpg"
-- "./images/exhibitions/8-doosung-6.jpg"
+- "./images/exhibitions/18-doosung__1.jpg"
+- "./images/exhibitions/18-doosung__2.jpg"
+- "./images/exhibitions/8-doosung__1.jpg"
+- "./images/exhibitions/8-doosung__2.jpg"

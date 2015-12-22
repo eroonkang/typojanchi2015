@@ -150,7 +150,7 @@ WY.models.DetailPageManager = (function(){
     },
 
     init_project_carousel: function(){
-      if (WY.constants.projects_data.projects[this.project_id - 1].photos.length > 0){
+      if (WY.constants.projects_data.projects[this.project_id - 1].photos.length > 1){
 
         try{
           this.el.find("#project_carousel").slick('unslick');
@@ -169,8 +169,18 @@ WY.models.DetailPageManager = (function(){
           variableWidth: true,
           centerPadding: '40px',
           dots: false,
+          draggable: false,
           arrows: true
         }); 
+
+
+        this.el.find("#project_carousel a").click(function(e){
+          e.preventDefault();
+            History.pushState({
+          permalink: $(e.currentTarget).data('permalink')
+        }, "Loading...", $(e.currentTarget).attr('href'));
+        });
+
       } else {
          try{
           this.el.find("#project_carousel").slick('unslick');

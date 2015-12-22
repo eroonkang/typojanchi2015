@@ -12,15 +12,15 @@ participant_bio_en: |
 participant_bio_ko: |
   미디어버스는 2008년에 설립된 출판사이자 기획 집단으로 더 북 소사이어티라는 서점과 프로젝트 스페이스를 운영하고 있다. 신신은 신해옥과 신동혁으로 구성된 디자인 공동체로 주로 예술적 맥락 안에서 디자인적 실천을 보여주는 활동을 하고 있다. 미디어버스와 신신은 이번 타이포잔치 뉴스레터 프로젝트를 비롯해 《사물학 II: 제작자들의 도시》(2015), 《제록스 프로젝트》(2015)와 같은 전시와 책, 디자인 작업 등을 함께 진행하고 있다.
 artworks:
-  - artwork_name_en: Typojanchi Newletter A-Z, issue 1~5
-    artwork_name_ko: "타이포잔치 뉴스레터 《A-Z》, 1~5호"
-    artwork_year: 2015
-    artwork_medium_en: Rotary printing, 39x26.5cm
-    artwork_medium_ko: "윤전 인쇄, 39x26.5cm"
-    artwork_desc_en: |
-      The Typojanchi Newsletters regard the city as an archive of typography. A city is a residential community and a letter is a public communication method. These are both made and developed at almost the same time. The concept of typography as a culture of letters has the potential to achieve diversity and expansion in the city. It can become an effective medium which can approach a history of city and placeness. The participants are designers, critics, theorists, and architects who will discover letter archives that have deep layers “already” in the city with their own perspectives and methodologies.
-    artwork_desc_ko: |
-      타이포잔치 뉴스레터는 도시를 타이포그래피 아카이브로 간주한다. 집단 거주지인 도시와 집단 소통 방법인 문자는 거의 같은 시기에 만들어지고 발전되었다. 문자 문화로서 타이포그래피 개념은 도시 안에서 다양성을 획득하고 확장될 수 있었고, 도시의 역사성과 장소성에 접근하는 효과적인 도구가 되었다. 이 뉴스레터에 참여한 디자이너와 예술가, 비평가, 이론가, 건축가 등은 자신만의 관점과 방법론으로 도시와 문자, 타이포그래피를 가로지르며 이미 도시에 두텁게 쌓여 있는 문자 아카이브를 발굴한다.
+- artwork_name_en: Typojanchi Newletter A-Z, issue 1~5
+  artwork_name_ko: "타이포잔치 뉴스레터 《A-Z》, 1~5호"
+  artwork_year: 2015
+  artwork_medium_en: Rotary printing, 39x26.5cm
+  artwork_medium_ko: "윤전 인쇄, 39x26.5cm"
+  artwork_desc_en: |
+    The Typojanchi Newsletters regard the city as an archive of typography. A city is a residential community and a letter is a public communication method. These are both made and developed at almost the same time. The concept of typography as a culture of letters has the potential to achieve diversity and expansion in the city. It can become an effective medium which can approach a history of city and placeness. The participants are designers, critics, theorists, and architects who will discover letter archives that have deep layers “already” in the city with their own perspectives and methodologies.
+  artwork_desc_ko: |
+    타이포잔치 뉴스레터는 도시를 타이포그래피 아카이브로 간주한다. 집단 거주지인 도시와 집단 소통 방법인 문자는 거의 같은 시기에 만들어지고 발전되었다. 문자 문화로서 타이포그래피 개념은 도시 안에서 다양성을 획득하고 확장될 수 있었고, 도시의 역사성과 장소성에 접근하는 효과적인 도구가 되었다. 이 뉴스레터에 참여한 디자이너와 예술가, 비평가, 이론가, 건축가 등은 자신만의 관점과 방법론으로 도시와 문자, 타이포그래피를 가로지르며 이미 도시에 두텁게 쌓여 있는 문자 아카이브를 발굴한다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
@@ -32,4 +32,4 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/16-mediabus-shinshin-1.jpg"
+- "./images/exhibitions/16-mediabus-shinshin__1.jpg"

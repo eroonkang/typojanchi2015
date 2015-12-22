@@ -14,15 +14,15 @@ participant_bio_ko: "이지성은 서울대학교에서 조소 및 영상매체�
   선정되었다. 평소 익숙한 시각 자료를 작업의 소재로 삼아 본인의 관점으로 재현하는 일을 한다. 현재 군포시 인근에 작업실을 두고 조용히 활동하고
   있다. \n"
 artworks:
-  - artwork_name_en: Namsantown Apartment
-    artwork_name_ko: "남산타운 아파트"
-    artwork_year: 2014
-    artwork_medium_en: Styrofoam, putty and paint, 270x510x11cm
-    artwork_medium_ko: "스티로폼, 접착제, 페인트, 270x510x11cm"
-    artwork_desc_en: |
-      Namsan Town Apartment looks like it is taking the apartment's exterior appearance directly but it's still strange. Because, it is not just a reproductive sculpture but a gigantic painting at heart. Moreover, facing the big apartment building number “10” on the wall is uncommon. With this artificial concrete wall, the artist expects, the audience to refresh their routine eyes and have a chance to “know” more than just “see” the daily objects.
-    artwork_desc_ko: |
-      <남산타운아파트>(2014)는 실물의 외관을 그대로 옮겨온 것처럼 보이지만, 어쩐지 생경한 느낌을 지울 수 없다. 실물을 재현한 입체 작업이라는 설정 외에 거대한 캔버스를 염두에 둔 그림이기도 하기 때문이다. 게다가 거대한 아파트 벽면에서 동수를 알리는 숫자 '10'이 쓰인 부분이 코 앞에 놓이는 경험은 페인트공이 아니고서야 흔치 않을 것이다. 나는 눈앞에 놓인 인조 콘크리트 벽면을 통해 무심하게 바라보던 대상 혹은 일상을 환기시키며, 그동안 ‘본다’고만 여겼던 대상에 관해 조금 더 ‘안다’고 말할 수 있는 계기가 마련되길 기대한다.
+- artwork_name_en: Namsantown Apartment
+  artwork_name_ko: "남산타운 아파트"
+  artwork_year: 2014
+  artwork_medium_en: Styrofoam, putty and paint, 270x510x11cm
+  artwork_medium_ko: "스티로폼, 접착제, 페인트, 270x510x11cm"
+  artwork_desc_en: |
+    Namsan Town Apartment looks like it is taking the apartment's exterior appearance directly but it's still strange. Because, it is not just a reproductive sculpture but a gigantic painting at heart. Moreover, facing the big apartment building number “10” on the wall is uncommon. With this artificial concrete wall, the artist expects, the audience to refresh their routine eyes and have a chance to “know” more than just “see” the daily objects.
+  artwork_desc_ko: |
+    <남산타운아파트>(2014)는 실물의 외관을 그대로 옮겨온 것처럼 보이지만, 어쩐지 생경한 느낌을 지울 수 없다. 실물을 재현한 입체 작업이라는 설정 외에 거대한 캔버스를 염두에 둔 그림이기도 하기 때문이다. 게다가 거대한 아파트 벽면에서 동수를 알리는 숫자 '10'이 쓰인 부분이 코 앞에 놓이는 경험은 페인트공이 아니고서야 흔치 않을 것이다. 나는 눈앞에 놓인 인조 콘크리트 벽면을 통해 무심하게 바라보던 대상 혹은 일상을 환기시키며, 그동안 ‘본다’고만 여겼던 대상에 관해 조금 더 ‘안다’고 말할 수 있는 계기가 마련되길 기대한다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
@@ -34,9 +34,5 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/1-jisung-yi-1.jpg"
-- "./images/exhibitions/1-jisung-yi-2.jpg"
-- "./images/exhibitions/1-jisung-yi-3.jpg"
-- "./images/exhibitions/1-jisung-yi-4.jpg"
-- "./images/exhibitions/1-jisung-yi-5.jpg"
-- "./images/exhibitions/1-jisung-yi-6.jpg"
+- "./images/exhibitions/1-jisung-yi__1.jpg"
+- "./images/exhibitions/1-jisung-yi__5.jpg"

@@ -40,32 +40,32 @@ participant_bio_ko: "디에이앤컴퍼니의 공동 창립자이자 그래픽 �
   플랫폼 ‘앱포트폴리오’를 만든 그는 브랜드 컨설팅 회사인 세븐 센스의 디렉터로 활동하며 홍콩과 중국의 대학교에서 학생들을 가르치고 있다.\n\n심효준과
   키이스 웡은 2009년부터 몇몇 프로젝트를 함께 수행하며 서로 다른 창작 배경과 경험, 문화에 기인한 영향을 주고받고 있다.\n"
 artworks:
-  - artwork_name_en: Intersecting point between virtuality and actuality
-    artwork_name_ko: "가상과 실재의 교차점"
-    artwork_year: 2015
-    artwork_medium_en: Mirror, 59.4x84.1cm
-    artwork_medium_ko: "거울, 59.4x84.1cm"
-    artwork_desc_en: |
-      The first place to get the welcome message is the screen play. In this virtual world travelers get the information of the destination and make a plan for it. However, this virtuality is the virtuality itself and the reality as well. Travelers firstly experience the travel through the SNS and all on-line and then experience it again through real travel. That means, the travel happens in the intersecting point of virtuality and reality. Typography "V" and color gradation on the hotel mirror means the virtual experience through screen play, and the typography "A" means the real travelers and travel destination reflected on the mirror. Typography A and V’s visual cross is the experienced experience's intersecting point. If one sees this work online or on offline pages in the form of a book, one sees it as if one saw incomplete works. This work gets complete when one see oneself being reflected on the mirror and the spatial figure become one by directly looking into the actual mirror. This project is a collaboration with designer Dae Ki Shim.
-    artwork_desc_ko: "여행객이 가장 먼저 환영의 메시지를 받는 곳은 다름 아닌 액정 화면이다. 이 가상의 세계에서 여행객은 자신이 방문할
-      나라, 혹은 도시에 대한 정보를 얻고 여행 계획을 세운다. 그러나 이 가상은, 가상임과 동시에 실재이기도 하다. 여행객은 SNS를 비롯해 각종
-      온라인에서 경험한 여행을, 실제 여행을 통해 다시 한 번 경험하게 된다. 말하자면 그 여행은 가상과 실제의 교차점에서 이뤄지는 것이다. \n호텔에
-      비치된 거울에 표현된 타이포그래피 ‘V’와 컬러 그라데이션은 액정을 통한 가상 경험을, 타이포그래피 'A'는 거울에 비친 사실 그대로의 여행객과
-      여행지를 뜻한다. 타이포그래피 ‘A’와 ‘V’의 시각적 교차는 경험된 경험의 교차점이다. 누군가가 이 작업을 온라인이나 책과 같은 형태의 오프라인의
-      지면으로 본다면 미완성 작업을 보는 것과 같다. 본 작업의 완성은 대상자가 직접 실제 거울을 봄으로써 거울에 반사되는 자신과 공간의 모습이
-      하나가 될 때 비로소 완성되는 것이다. 본 작업은 디자이너 심대기와의 공동 작업이다.\n"
-  - artwork_name_en: Warm Welcome
-    artwork_name_ko: "따뜻한 환영"
-    artwork_year: 2015
-    artwork_medium_en: Towels, 35x77cm
-    artwork_medium_ko: "타월, 35x77cm"
-    artwork_desc_en: "Since the \"Good Morning Towel\" had sold in 1912, it became a
-      meaningful cultural element in China. Today, this towel is a symbolic, cultural
-      thing which reminds of the past for all Chinese people. The artist adds the typographic
-      and graphic welcome messages to this towel and set this up in the hotel of Seoul.
-      Understanding each other's culture is a good way to welcome visitors. \n"
-    artwork_desc_ko: |
-      ‘굿모닝 타월’은 1912년 시판된 이후 현재까지 중국의 의미 있는 문화적 요소로 자리를 잡았다. 오늘날 이 타월은 모든 중국 세대들에게 과거를 연상케 하는 상징적, 문화적 물건이다. 이 굿모닝 타월에 타이포그래피와 그래픽으로 환영 메시지를 추가하고 서울의 호텔에 비치한다. 서로의 문화를 이해하는 것이야말로 방문객을 환영하는 좋은 방법이다.
+- artwork_name_en: Intersecting point between virtuality and actuality
+  artwork_name_ko: "가상과 실재의 교차점"
+  artwork_year: 2015
+  artwork_medium_en: Mirror, 59.4x84.1cm
+  artwork_medium_ko: "거울, 59.4x84.1cm"
+  artwork_desc_en: |
+    The first place to get the welcome message is the screen play. In this virtual world travelers get the information of the destination and make a plan for it. However, this virtuality is the virtuality itself and the reality as well. Travelers firstly experience the travel through the SNS and all on-line and then experience it again through real travel. That means, the travel happens in the intersecting point of virtuality and reality. Typography "V" and color gradation on the hotel mirror means the virtual experience through screen play, and the typography "A" means the real travelers and travel destination reflected on the mirror. Typography A and V’s visual cross is the experienced experience's intersecting point. If one sees this work online or on offline pages in the form of a book, one sees it as if one saw incomplete works. This work gets complete when one see oneself being reflected on the mirror and the spatial figure become one by directly looking into the actual mirror. This project is a collaboration with designer Dae Ki Shim.
+  artwork_desc_ko: "여행객이 가장 먼저 환영의 메시지를 받는 곳은 다름 아닌 액정 화면이다. 이 가상의 세계에서 여행객은 자신이 방문할
+    나라, 혹은 도시에 대한 정보를 얻고 여행 계획을 세운다. 그러나 이 가상은, 가상임과 동시에 실재이기도 하다. 여행객은 SNS를 비롯해 각종
+    온라인에서 경험한 여행을, 실제 여행을 통해 다시 한 번 경험하게 된다. 말하자면 그 여행은 가상과 실제의 교차점에서 이뤄지는 것이다. \n호텔에
+    비치된 거울에 표현된 타이포그래피 ‘V’와 컬러 그라데이션은 액정을 통한 가상 경험을, 타이포그래피 'A'는 거울에 비친 사실 그대로의 여행객과
+    여행지를 뜻한다. 타이포그래피 ‘A’와 ‘V’의 시각적 교차는 경험된 경험의 교차점이다. 누군가가 이 작업을 온라인이나 책과 같은 형태의 오프라인의
+    지면으로 본다면 미완성 작업을 보는 것과 같다. 본 작업의 완성은 대상자가 직접 실제 거울을 봄으로써 거울에 반사되는 자신과 공간의 모습이
+    하나가 될 때 비로소 완성되는 것이다. 본 작업은 디자이너 심대기와의 공동 작업이다.\n"
+- artwork_name_en: Warm Welcome
+  artwork_name_ko: "따뜻한 환영"
+  artwork_year: 2015
+  artwork_medium_en: Towels, 35x77cm
+  artwork_medium_ko: "타월, 35x77cm"
+  artwork_desc_en: "Since the \"Good Morning Towel\" had sold in 1912, it became a
+    meaningful cultural element in China. Today, this towel is a symbolic, cultural
+    thing which reminds of the past for all Chinese people. The artist adds the typographic
+    and graphic welcome messages to this towel and set this up in the hotel of Seoul.
+    Understanding each other's culture is a good way to welcome visitors. \n"
+  artwork_desc_ko: |
+    ‘굿모닝 타월’은 1912년 시판된 이후 현재까지 중국의 의미 있는 문화적 요소로 자리를 잡았다. 오늘날 이 타월은 모든 중국 세대들에게 과거를 연상케 하는 상징적, 문화적 물건이다. 이 굿모닝 타월에 타이포그래피와 그래픽으로 환영 메시지를 추가하고 서울의 호텔에 비치한다. 서로의 문화를 이해하는 것이야말로 방문객을 환영하는 좋은 방법이다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
@@ -77,13 +77,5 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/8-hyojun-shim-n-wong-1.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-10.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-2.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-3.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-4.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-5.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-6.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-7.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-8.jpg"
-- "./images/exhibitions/8-hyojun-shim-n-wong-9.jpg"
+- "./images/exhibitions/8-hyojun-shim-n-wong__1.jpg"
+- "./images/exhibitions/8-hyojun-shim-n-wong__2.jpg"

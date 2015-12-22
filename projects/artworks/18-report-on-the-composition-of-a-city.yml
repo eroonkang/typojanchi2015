@@ -16,42 +16,17 @@ curator_bio_en: |
 curator_bio_ko: "두성종이 \n"
 type: Project
 photos:
-- url: "./images/exhibitions/18-doosung-1.jpg"
+- url: "./images/exhibitions/18-doosung__1.jpg"
+  permalink: 18-doosung
+  idx: 18
+  project_name_ko: "도시 구성 리포트"
+  project_name_en: REPORT ON THE COMPOSITION OF A CITY
   title_ko: "두성종이 디자인연구소"
   title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-10.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-11.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-12.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-13.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-2.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-3.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-4.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-5.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-6.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-7.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-8.jpg"
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/18-doosung-9.jpg"
+- url: "./images/exhibitions/18-doosung__2.jpg"
+  permalink: 18-doosung
+  idx: 18
+  project_name_ko: "도시 구성 리포트"
+  project_name_en: REPORT ON THE COMPOSITION OF A CITY
   title_ko: "두성종이 디자인연구소"
   title_en: Doosungpaper Design Lab

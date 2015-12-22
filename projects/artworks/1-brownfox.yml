@@ -12,15 +12,15 @@ participant_bio_en: |
 participant_bio_ko: |
   가야네 바그다사르얀과 뱌체슬라프 키릴렌코로 구성된 브라운폭스는 모스크바에 근거를 둔 독립 글꼴 회사이다. 라틴 및 키릴 폰트에 대한 새로운 관점을 제시해온 이들의 작업은 타이포그래피 전통에 확고히 뿌리를 두면서도 명백히 동시대적이다. 게르베라, 포뮬러, 지오메트리아 등 인쇄뿐 아니라 화면에 최적화된 글꼴들을 개발했으며 러시아에서 열린 국제 타이포그래피 컨퍼런스 ‘세레브로 나보라’를 조직하기도 했다.
 artworks:
-  - artwork_name_en: Formular Typeface
-    artwork_name_ko: "포뮬러"
-    artwork_year: 2015
-    artwork_medium_en: Print on fabric, 2 pieces, each 99x70cm
-    artwork_medium_ko: "천에 실사 출력, 2개, 각 99x70cm"
-    artwork_desc_en: |
-      “Formular” in Russian, German and some other languages means “blank,” “template,” “form" for documents to fill in some data. The form's grid should be flexible and functional. You can add any information into the gaps or simply leave them empty. There are two similar boxes in the centre of the posters: the one is filled with pictures of Soviet architecture and graphics; the box in the second poster is empty, just crossed off by a diagonal line, like you do when you have no requested information. The rest of the space includes information about the Formular typeface.
-    artwork_desc_ko: |
-      러시아어와 독일어, 그리고 다른 몇몇 언어에서 “포뮬러(Formular)”는 정보를 채워 넣기 위한 서류의 ‘빈칸’, ‘견본’, ‘서식’을 뜻한다. 이러한 서식의 그리드는 추가 정보를 끼워 넣거나 그대로 비워놓을 수 있게 유연하고 기능적이어야 한다. 두 개의 포스터는 유사하지만 가운데 상자 부분이 다르다. 하나는 옛 소련의 건축물과 그래픽으로 채워져 있고, 다른 하나는 비어 있다. 마치 서식을 작성할 때 정보 없음을 표시하는 것처럼 대각선으로 선이 그어져 있을 뿐이다. 포스터의 나머지 부분에 적힌 것은 브라운폭스가 만든 글꼴 ‘포뮬러’에 대한 정보이다.
+- artwork_name_en: Formular Typeface
+  artwork_name_ko: "포뮬러"
+  artwork_year: 2015
+  artwork_medium_en: Print on fabric, 2 pieces, each 99x70cm
+  artwork_medium_ko: "천에 실사 출력, 2개, 각 99x70cm"
+  artwork_desc_en: |
+    “Formular” in Russian, German and some other languages means “blank,” “template,” “form" for documents to fill in some data. The form's grid should be flexible and functional. You can add any information into the gaps or simply leave them empty. There are two similar boxes in the centre of the posters: the one is filled with pictures of Soviet architecture and graphics; the box in the second poster is empty, just crossed off by a diagonal line, like you do when you have no requested information. The rest of the space includes information about the Formular typeface.
+  artwork_desc_ko: |
+    러시아어와 독일어, 그리고 다른 몇몇 언어에서 “포뮬러(Formular)”는 정보를 채워 넣기 위한 서류의 ‘빈칸’, ‘견본’, ‘서식’을 뜻한다. 이러한 서식의 그리드는 추가 정보를 끼워 넣거나 그대로 비워놓을 수 있게 유연하고 기능적이어야 한다. 두 개의 포스터는 유사하지만 가운데 상자 부분이 다르다. 하나는 옛 소련의 건축물과 그래픽으로 채워져 있고, 다른 하나는 비어 있다. 마치 서식을 작성할 때 정보 없음을 표시하는 것처럼 대각선으로 선이 그어져 있을 뿐이다. 포스터의 나머지 부분에 적힌 것은 브라운폭스가 만든 글꼴 ‘포뮬러’에 대한 정보이다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
@@ -32,8 +32,5 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/1-brownfox-1.jpg"
-- "./images/exhibitions/1-brownfox-2.jpg"
-- "./images/exhibitions/1-brownfox-3.jpg"
-- "./images/exhibitions/1-brownfox-4.jpg"
-- "./images/exhibitions/1-brownfox-5.jpg"
+- "./images/exhibitions/1-brownfox__1.jpg"
+- "./images/exhibitions/1-brownfox__2.jpg"

@@ -12,15 +12,15 @@ participant_bio_en: |
 participant_bio_ko: |
   영화와 비디오 작업을 주로 선보여온 최병일은 2001년 크랜브룩 아카데미 오브 아트에서 현실과 가상의 경계에 관한 내용을 다룬 석사 논문 작업 이후 설치 작업에 중점을 두고 있다. 시각적인 대상 자체보다는 대상을 인지하는 과정에 관심을 두고 비디오, 프로그래밍, 기계, 거울 등을 주된 매체로 삼아 작업한다. 2004년부터 건국대학교 예술디자인대학 커뮤니케이션 디자인과 교수로 재직하고 있다.
 artworks:
-  - artwork_name_en: memoria technica
-    artwork_name_ko: "메모리아 테크니카"
-    artwork_year: 2015
-    artwork_medium_en: Mixed media, 180x87x250cm
-    artwork_medium_ko: "혼합 매체, 180x87x250cm"
-    artwork_desc_en: |
-      Byungil Choi’s machine repeats precise motion and makes irregularity. Typeface over the mirror leaves a trace and includes the surroundings ceaselessly, it is not the perfect form. The city typographies are generated and disappear in a similar way.
-    artwork_desc_ko: |
-      최병일이 만든 기계는 정밀한 움직임을 반복하며 불규칙함을 생성해낸다. 거울 위의 글자들은 흔적을 남기며 주변을 끊임없이 담아내고는 있지만 온전한 모습은 아니다. 사람들이 일상생활을 영위하는 도시의 글자들도 유사한 방법으로 생성되고 사라져간다.
+- artwork_name_en: memoria technica
+  artwork_name_ko: "메모리아 테크니카"
+  artwork_year: 2015
+  artwork_medium_en: Mixed media, 180x87x250cm
+  artwork_medium_ko: "혼합 매체, 180x87x250cm"
+  artwork_desc_en: |
+    Byungil Choi’s machine repeats precise motion and makes irregularity. Typeface over the mirror leaves a trace and includes the surroundings ceaselessly, it is not the perfect form. The city typographies are generated and disappear in a similar way.
+  artwork_desc_ko: |
+    최병일이 만든 기계는 정밀한 움직임을 반복하며 불규칙함을 생성해낸다. 거울 위의 글자들은 흔적을 남기며 주변을 끊임없이 담아내고는 있지만 온전한 모습은 아니다. 사람들이 일상생활을 영위하는 도시의 글자들도 유사한 방법으로 생성되고 사라져간다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
@@ -32,21 +32,7 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/1-byoungil-choi-1.jpg"
-- "./images/exhibitions/1-byoungil-choi-10.jpg"
-- "./images/exhibitions/1-byoungil-choi-11.jpg"
-- "./images/exhibitions/1-byoungil-choi-12.jpg"
-- "./images/exhibitions/1-byoungil-choi-13.jpg"
-- "./images/exhibitions/1-byoungil-choi-14.jpg"
-- "./images/exhibitions/1-byoungil-choi-15.jpg"
-- "./images/exhibitions/1-byoungil-choi-16.jpg"
-- "./images/exhibitions/1-byoungil-choi-17.jpg"
-- "./images/exhibitions/1-byoungil-choi-18.jpg"
-- "./images/exhibitions/1-byoungil-choi-2.jpg"
-- "./images/exhibitions/1-byoungil-choi-3.jpg"
-- "./images/exhibitions/1-byoungil-choi-4.jpg"
-- "./images/exhibitions/1-byoungil-choi-5.jpg"
-- "./images/exhibitions/1-byoungil-choi-6.jpg"
-- "./images/exhibitions/1-byoungil-choi-7.jpg"
-- "./images/exhibitions/1-byoungil-choi-8.jpg"
-- "./images/exhibitions/1-byoungil-choi-9.jpg"
+- "./images/exhibitions/1-byoungil-choi__1.jpg"
+- "./images/exhibitions/1-byoungil-choi__2.jpg"
+- "./images/exhibitions/1-byoungil-choi__3.jpg"
+- "./images/exhibitions/1-byoungil-choi__4.jpg"

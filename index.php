@@ -63,37 +63,37 @@ if ($browser_locale_detect_needed){
 $title = "";
 $description = "타이포잔치 2015 — Typojanchi 2015";
 
-if ($permalink == "") {
-  $title = "";
-} else if ($permalink == "about"){
-  $title = "About /";
-} else if (explode("-", $permalink)[0] == "city") {
-  $title = "";//ucfirst(explode("-", $permalink)[1])." / ";
+// if ($permalink == "") {
+//   $title = "";
+// } else if ($permalink == "about"){
+//   $title = "About /";
+// } else if (explode("-", $permalink)[0] == "city") {
+//   $title = "";//ucfirst(explode("-", $permalink)[1])." / ";
 
-} else {
-  $yaml_data = spyc_load_file('./projects/artworks/'.$permalink.'.yml');
+// } else {
+//   $yaml_data = spyc_load_file('./projects/artworks/'.$permalink.'.yml');
   
-  if ($yaml_data["type"] == "Project") {
+//   if ($yaml_data["type"] == "Project") {
     
-    $title = $yaml_data["project_name_".$locale]." / ";
-    $description = $yaml_data["project_desc_".$locale];
+//     $title = $yaml_data["project_name_".$locale]." / ";
+//     $description = $yaml_data["project_desc_".$locale];
 
-  } else if ($yaml_data["type"] == "Venue") {
+//   } else if ($yaml_data["type"] == "Venue") {
   
-    $title = $yaml_data["venue_name_".$locale]." / ";
-    $description = $yaml_data["artwork_desc_".$locale];
+//     $title = $yaml_data["venue_name_".$locale]." / ";
+//     $description = $yaml_data["artwork_desc_".$locale];
   
-  } else {
-    $artwork_first = $yaml_data["artworks"][0];
-    $title = $yaml_data["full_name_".$locale]." / ".$artwork_first["artwork_name_".$locale]." / ";
+//   } else {
+//     $artwork_first = $yaml_data["artworks"][0];
+//     $title = $yaml_data["full_name_".$locale]." / ".$artwork_first["artwork_name_".$locale]." / ";
     
-    $description = $artwork_first["artwork_desc_".$locale];
-    if (strlen($description) == 0) {
-      $description = $yaml_data["participant_bio_".$locale];
-    }
+//     $description = $artwork_first["artwork_desc_".$locale];
+//     if (strlen($description) == 0) {
+//       $description = $yaml_data["participant_bio_".$locale];
+//     }
   
-  } 
-}
+//   } 
+// }
 
 
 
@@ -106,17 +106,14 @@ if ($permalink == "") {
   <meta charset="utf-8"></meta>
 
 
-  <meta property="og:site_name" content="<? echo $title; ?>타이포잔치 2015 — Typojanchi 2015"/> 
-  <? if (strlen($description) > 300) { ?>
-    <meta property="og:description" content="<? echo substr($description, 0, 300)."..."; ?>"/> 
-    <meta name="description" content="<? echo substr($description, 0, 300)."..."; ?>" />
-  <? } else { ?>
-    <meta property="og:description" content="<? echo substr($description, 0, 300); ?>"/> 
-    <meta name="description" content="<? echo substr($description, 0, 300); ?>" />
-  <? } ?>
+  <meta property="og:site_name" content="타이포잔치 2015 — Typojanchi 201"/> 
 
-  <meta name="title" content="<? echo $title; ?>타이포잔치 2015 — Typojanchi 2015"/>
-  <meta property="og:title" content="<? echo $title; ?>타이포잔치 2015 — Typojanchi 2015"/>
+  <meta property="og:description" content="타이포잔치 2015 — Typojanchi 2015"/> 
+  <meta name="description" content="타이포잔치 2015 — Typojanchi 2015" />
+
+
+  <meta name="title" content="타이포잔치 2015 — Typojanchi 2015"/>
+  <meta property="og:title" content="타이포잔치 2015 — Typojanchi 2015"/>
 
   <link rel="canonical" href="http://typojanchi.org<? echo $home_url; ?>/<? echo $locale; ?>/<? echo $permalink; ?>">
   <meta property="og:url" content="http://typojanchi.org<? echo $home_url; ?>/<? echo $locale; ?>/<? echo $permalink; ?>">

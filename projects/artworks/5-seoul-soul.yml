@@ -39,45 +39,102 @@ curator_bio_ko: |
   그래픽 디자이너, 그림책 작가. 홍익대학교 미술대학 섬유미술학과를 졸업하고 홍디자인에서 디자이너로 일했다. 서울여자대학교 시각디자인과 겸임 교수로 학생들을 가르치고 있으며 2011년부터 동네서점 땡스북스를 운영해오고 있다. 저서로 &lt;스마일 서커스&gt;(2005), &lt;모두 웃어요&gt;(2006), &lt;인디자인, 편집 디자인&gt;(공저, 2009) 등이 있다.
 type: Project
 photos:
-- url: "./images/exhibitions/5-book-by-book-1.jpg"
+- url: "./images/exhibitions/5-book-by-book__6.jpg"
+  permalink: 5-book-by-book
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: "북바이북"
   title_en: Book by Book
-- url: "./images/exhibitions/5-hanyang-toonk-1.jpg"
+- url: "./images/exhibitions/5-hanyang-toonk__1.jpg"
+  permalink: 5-hanyang-toonk
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: "한양툰크"
   title_en: Hanyang Toonk
-- url: "./images/exhibitions/5-manil-books-1.jpg"
+- url: "./images/exhibitions/5-manil-books__1.jpg"
+  permalink: 5-manil-books
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: "책방 만일"
   title_en: Manil Books
-- url: "./images/exhibitions/5-pinocchio-1.jpg"
+- url: "./images/exhibitions/5-pinocchio__1.jpg"
+  permalink: 5-pinocchio
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: "책방 피노키오"
   title_en: Pinokio Books
-- url: "./images/exhibitions/5-post-poetics-1.jpg"
+- url: "./images/exhibitions/5-post-poetics__1.jpg"
+  permalink: 5-post-poetics
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: "포스트 포에틱스"
   title_en: Post Poetics
-- url: "./images/exhibitions/5-seoul-soul-1.jpg"
+- url: "./images/exhibitions/5-seoul-soul__1.jpg"
+  permalink: 5-seoul-soul
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/5-seoul-soul-2.jpg"
+- url: "./images/exhibitions/5-seoul-soul__2.jpg"
+  permalink: 5-seoul-soul
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/5-seoul-soul-3.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/5-seoul-soul-4.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/5-seoul-soul-5.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/5-thanks-books-1.jpg"
+- url: "./images/exhibitions/5-thanks-books__1.jpg"
+  permalink: 5-thanks-books
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: "땡스북스"
   title_en: Thanks Books
-- url: "./images/exhibitions/5-the-book-society-1.jpg"
+- url: "./images/exhibitions/5-the-book-society__1.jpg"
+  permalink: 5-the-book-society
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: "더북소사이어티"
   title_en: The Book Society
-- url: "./images/exhibitions/5-the-secondhand-bookstore-in-wonderland-1.jpg"
+- url: "./images/exhibitions/5-the-secondhand-bookstore-in-wonderland__1.jpg"
+  permalink: 5-the-secondhand-bookstore-in-wonderland
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: "이상한 나라의 헌책방"
   title_en: 2 Sang Books
-- url: "./images/exhibitions/5-your-mind-1.jpg"
+- url: "./images/exhibitions/5-your-mind__1.jpg"
+  permalink: 5-your-mind
+  idx: 5
+  project_name_ko: |
+    SEOUL (  ) SOUL
+  project_name_en: |
+    SEOUL (  ) SOUL
   title_ko: "유어마인드"
   title_en: Your Mind

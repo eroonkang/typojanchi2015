@@ -12,17 +12,17 @@ participant_bio_en: |
 participant_bio_ko: |
   박경식은 미국 위스콘신주 밀워키에서 커뮤니케이션 디자인 전공, 국제 디자인 전문대학원(IDAS)에서 디자인경영을 공부했다. 현재, 앤엔코라는 1일 그래픽 디자인 스튜디오 대표로 일하고 있으며, 타이포그래피 계간지 <ㅎ>의 편집장으로 일하고 있다. 또한, 삼성디자인학교와 건국대학교에서 각각 2008년, 2006년부터 줄곧 강의하고 있다. 여러 학회에서 논문 발표하였고, 최근 2012년홍콩에서 ATyPI 학회에 참여했다. 현재 한국 타이포그래피 학회 회원이며 학회지 <글자씨>에 기고하고 있다. 그는 현재 서울 동부 끝자락에서 아내와 아들 셋이서 작은 연립에 거주하고 있다. 여가로 산타기, 공포영화 관람, 미국 만화 수집 그리고 철인28호 피규어를 모은다.
 artworks:
-  - artwork_name_en: Super Gap
-    artwork_name_ko: "슈퍼갑"
-    artwork_year: 2015
-    artwork_medium_en: Mixed media
-    artwork_medium_ko: "혼합 매체"
-    artwork_desc_en: |
-      This work looks into, what is the quintessential word that defines Korea, circa 2015. Be it the government, chaebols, or customers at a department store all of us demand respect, and love to exert our authority upon others. The word, that stems from the numerous extensive cases found in Korean society, alludes to extreme cases of such abuse of authority. Taking that word and applying it to items such as a floor mat, for wiping your feet of dirt, to an ashtray that collects cigarette butts but also used to extinguish the cigarette itself implies the disdain and criticism the general public feel for such privileged classes. The artist strongly insists that the works be abused.
-    artwork_desc_ko: "2015년 현재 대한민국 사회를 아우르는 단어가 있다면 두말 없이 이 단어일 것이다. 정치권, 여객기 안, 백화점
-      주차장... 사회 각 계층에서 드러나는 관계에 대한 이야기 속에서 거론되지 않을 수 없다.  본 작업은 기득권층이나 상위에 있는 사람들의 횡포로
-      인해 만들어진 이 단어를 빌미로 삼아 남 보다 더 높은 곳에 있다고 착각하는 이들을 끌어내고자 한다. 즉, 길거리의 먼지를 털어내는 발판,
-      담배를 피운 후 불씨를 끄고 남은 꽁초를 버리는 재떨이 등 최하위의 서비스 매체에 적용하고자 한다. \n"
+- artwork_name_en: Super Gap
+  artwork_name_ko: "슈퍼갑"
+  artwork_year: 2015
+  artwork_medium_en: Mixed media
+  artwork_medium_ko: "혼합 매체"
+  artwork_desc_en: |
+    This work looks into, what is the quintessential word that defines Korea, circa 2015. Be it the government, chaebols, or customers at a department store all of us demand respect, and love to exert our authority upon others. The word, that stems from the numerous extensive cases found in Korean society, alludes to extreme cases of such abuse of authority. Taking that word and applying it to items such as a floor mat, for wiping your feet of dirt, to an ashtray that collects cigarette butts but also used to extinguish the cigarette itself implies the disdain and criticism the general public feel for such privileged classes. The artist strongly insists that the works be abused.
+  artwork_desc_ko: "2015년 현재 대한민국 사회를 아우르는 단어가 있다면 두말 없이 이 단어일 것이다. 정치권, 여객기 안, 백화점
+    주차장... 사회 각 계층에서 드러나는 관계에 대한 이야기 속에서 거론되지 않을 수 없다.  본 작업은 기득권층이나 상위에 있는 사람들의 횡포로
+    인해 만들어진 이 단어를 빌미로 삼아 남 보다 더 높은 곳에 있다고 착각하는 이들을 끌어내고자 한다. 즉, 길거리의 먼지를 털어내는 발판,
+    담배를 피운 후 불씨를 끄고 남은 꽁초를 버리는 재떨이 등 최하위의 서비스 매체에 적용하고자 한다. \n"
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
@@ -34,7 +34,5 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/9-fritz-park-1.jpg"
-- "./images/exhibitions/9-fritz-park-2.jpg"
-- "./images/exhibitions/9-fritz-park-3.jpg"
-- "./images/exhibitions/9-fritz-park-4.jpg"
+- "./images/exhibitions/9-fritz-park__1.jpg"
+- "./images/exhibitions/9-fritz-park__2.jpg"

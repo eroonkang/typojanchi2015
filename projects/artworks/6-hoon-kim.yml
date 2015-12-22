@@ -24,15 +24,15 @@ participant_bio_en: "Hoon Kim is a New York-based graphic designer, educator, cu
 participant_bio_ko: |
   디자이너, 교육자, 리서처로 활동 중인 김정훈은 뉴욕에 위치한 디자인 컨설팅 회사 와이낫스마일 대표다. 와이낫스마일은 예술, 건축, 문화, 패션 영역을 중심으로 인쇄물, 브랜딩, 전시 디자인, 웹 디자인을 진행하고 있다. 스튜디오 설립 이전에는 뉴욕 현대미술관 런던 프랙티스, 삼성디자인 멤버십, 서울 크로스포인트 등에서 일했다. 서울대학교와 미국 로드아일랜드 디자인학교를 졸업하고, 브라운 대학교에서 교수법을 이수했다. 파슨스, 하버드 대학교, 뉴욕 프랫 인스티튜트와 리즈디(RISD)에서 그래픽디자인을 가르쳐오고 있으며, 런던 왕립예술학교, 프린스턴 대학교 등에서 특강과 워크숍을 하고 있다. AIGA, 미국 아트 디렉터스 클럽, 체코 브르노 그래픽디자인 비엔날레, 프랑스 쇼몽 포스터 그래픽디자인, 미국 타입 디렉터스 클럽 등으로부터 수상했다.
 artworks:
-  - artwork_name_en: Eternal Exit
-    artwork_name_ko: "영원한 출구"
-    artwork_year: 2015
-    artwork_medium_en: Metal
-    artwork_medium_ko: "금속"
-    artwork_desc_en: |
-      “I experience myself in the city, and the city exists through my embodied experience. The city and my body supplement and define each other. I dwell in the city and the city dwells in me.”—Juhani Pallasmaa Eternal Exit investigates the relationships between the city space and pedestrians. This intervention encourages audiences to experience, re-observe, and re-shape space and environments through their own perspectives.
-    artwork_desc_ko: |
-      "나는 도시를 경험하고, 도시는 내 체화된 경험을 통해 존재한다. 도시와 내 몸은 서로를 보완하고 정의한다. 나는 도시 안에 거주하며 도시는 내 안에 거주한다." -유하니 팔라스마 ‘영원한 출구’는 도시 공간과 보행자 사이의 관계를 고찰하고, 개입을 통해 관객 본인만의 관점으로 공간과 환경을 경험하고, 재관찰하고, 재구성하도록 유도한다
+- artwork_name_en: Eternal Exit
+  artwork_name_ko: "영원한 출구"
+  artwork_year: 2015
+  artwork_medium_en: Metal
+  artwork_medium_ko: "금속"
+  artwork_desc_en: |
+    “I experience myself in the city, and the city exists through my embodied experience. The city and my body supplement and define each other. I dwell in the city and the city dwells in me.”—Juhani Pallasmaa Eternal Exit investigates the relationships between the city space and pedestrians. This intervention encourages audiences to experience, re-observe, and re-shape space and environments through their own perspectives.
+  artwork_desc_ko: |
+    "나는 도시를 경험하고, 도시는 내 체화된 경험을 통해 존재한다. 도시와 내 몸은 서로를 보완하고 정의한다. 나는 도시 안에 거주하며 도시는 내 안에 거주한다." -유하니 팔라스마 ‘영원한 출구’는 도시 공간과 보행자 사이의 관계를 고찰하고, 개입을 통해 관객 본인만의 관점으로 공간과 환경을 경험하고, 재관찰하고, 재구성하도록 유도한다
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
@@ -44,8 +44,5 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/6-hoon-kim-1.jpg"
-- "./images/exhibitions/6-hoon-kim-2.jpg"
-- "./images/exhibitions/6-hoon-kim-3.jpg"
-- "./images/exhibitions/6-hoon-kim-4.jpg"
-- "./images/exhibitions/6-hoon-kim-5.jpg"
+- "./images/exhibitions/6-hoon-kim__1.jpg"
+- "./images/exhibitions/6-hoon-kim__2.jpg"

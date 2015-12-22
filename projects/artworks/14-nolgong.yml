@@ -12,25 +12,25 @@ participant_bio_en: |
 participant_bio_ko: |
   2011년 설립된 놀공은 예술, 문화, 교육, 사회 공헌 분야에서 디지털과 아날로그를 접목한 게임 기반의 참여형 문화 교육 콘텐츠를 제작하는 크리에이티브 스튜디오다. 15~20년 경력을 가진 게임, 교육공학, 컴퓨터 개발 전문가들이 회사를 이끌며 주한 독일문화원, 유니세프, 세이브 더 칠드런, C Program, 하자센터, 삼성그룹, 두산그룹, 현대자동차 등 다양한 분야의 기업 및 기관과 함께 일하고 있다.
 artworks:
-  - artwork_name_en: C( ) T( ) Guide
-    artwork_name_ko: C( ) T( ) 가이드
-    artwork_year: 2015
-    artwork_medium_en: Experiential guide program, the 1st floor concourse and whole
-      exhibit hall, approx. 30min
-    artwork_medium_ko: "경험 가이드 프로그램, 1층 중앙 홀 및 전시관 전체, 약 30분"
-    artwork_desc_en: "Visitor A goes into C (  ) T (  ).  The only way to communicate
-      is with typography and symbols. \nVisitor A clears immigration and is in a simple
-      few processes able To be a citizen in this city.\nCitizen A makes the first step.
-      Exchanges glances with citizens who have all different signs Passing through (
-      \ )s.\nCitizen A uses his/her tools as a guide Gets questions by unknown people,
-      \ Desires or recollects the C (  ) T (  ).  Welcome to C (  ) T (  ) Now, it's
-      your turn.\n"
-    artwork_desc_ko: |
-      방문자 A는 C (  ) T (  )에 들어선다. 이곳의 소통 방법은 문자와 기호뿐이다.
-      방문자 A는 이 도시의 시민이 되기 위해 입국 심사와 몇 가지 간단한 절차를 밟는다.
-      도시에 첫발을 내디딘 시민 A. 저마다 다른 표식을 한 시민들과 시선이 오가고 도시의 (  )들을 통과한다.
-      시민 A는 자신이 가진 도구를 길잡이로 알 수 없는 상대로부터 질문을 받으며, C (  ) T (  )를 욕망하거나 추억한다.
-      Welcome to C (  ) T (  ) 이제 당신 차례.
+- artwork_name_en: C( ) T( ) Guide
+  artwork_name_ko: C( ) T( ) 가이드
+  artwork_year: 2015
+  artwork_medium_en: Experiential guide program, the 1st floor concourse and whole
+    exhibit hall, approx. 30min
+  artwork_medium_ko: "경험 가이드 프로그램, 1층 중앙 홀 및 전시관 전체, 약 30분"
+  artwork_desc_en: "Visitor A goes into C (  ) T (  ).  The only way to communicate
+    is with typography and symbols. \nVisitor A clears immigration and is in a simple
+    few processes able To be a citizen in this city.\nCitizen A makes the first step.
+    Exchanges glances with citizens who have all different signs Passing through (
+    \ )s.\nCitizen A uses his/her tools as a guide Gets questions by unknown people,
+    \ Desires or recollects the C (  ) T (  ).  Welcome to C (  ) T (  ) Now, it's
+    your turn.\n"
+  artwork_desc_ko: |
+    방문자 A는 C (  ) T (  )에 들어선다. 이곳의 소통 방법은 문자와 기호뿐이다.
+    방문자 A는 이 도시의 시민이 되기 위해 입국 심사와 몇 가지 간단한 절차를 밟는다.
+    도시에 첫발을 내디딘 시민 A. 저마다 다른 표식을 한 시민들과 시선이 오가고 도시의 (  )들을 통과한다.
+    시민 A는 자신이 가진 도구를 길잡이로 알 수 없는 상대로부터 질문을 받으며, C (  ) T (  )를 욕망하거나 추억한다.
+    Welcome to C (  ) T (  ) 이제 당신 차례.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 
@@ -42,5 +42,4 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/14-nolgong-1.jpg"
-- "./images/exhibitions/14-nolgong-2.jpg"
+- "./images/exhibitions/14-nolgong__1.jpg"

@@ -14,14 +14,14 @@ participant_bio_ko: "서머 스튜디오는 2014년 영국 왕립예술학교에
   브랜드 아이덴티티, 다양한 클라이언트들을 위한 인쇄물 및 출판 등의 작업을 한다. 타이포그래피와 콘셉트 디자인에서 시작하는 일관된 작업을 선보이며
   독단적인 신념에서 벗어난 참여적, 유희적 디자인을 추구한다.\t\n"
 artworks:
-  - artwork_name_en: M. Mexico Glitchy
-    artwork_name_ko: M. 멕시코 글리치
-    artwork_year: 2015
-    artwork_medium_en: Banner, 350x150cm
-    artwork_medium_ko: "배너, 350x150cm"
-    artwork_desc_en: |
-      Mexico Glitchy, a digitally fragmented, blurred and faulty experience of a place we have never been and do not understand.
-    artwork_desc_ko: ''
+- artwork_name_en: M. Mexico Glitchy
+  artwork_name_ko: M. 멕시코 글리치
+  artwork_year: 2015
+  artwork_medium_en: Banner, 350x150cm
+  artwork_medium_ko: "배너, 350x150cm"
+  artwork_desc_en: |
+    Mexico Glitchy, a digitally fragmented, blurred and faulty experience of a place we have never been and do not understand.
+  artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F

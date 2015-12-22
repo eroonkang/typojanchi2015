@@ -12,24 +12,24 @@ participant_bio_en: |
 participant_bio_ko: |
   2002년 다니엘 올손과 요나스 토포소가 공동 설립한 리서치 앤드 디벨럽먼트는 다양한 작가, 건축가, 큐레이터, 평론가, 미술관 및 문화 기관과 협업하고 있다. 대니얼 이톡의 말에 따르자면 그들은 “게으르진 않지만 그렇다고 너무 열심히 일하지도 않는다. 마치 떠벌리지 않고도 많은 말을 할 수 있는 교양 있는 사람처럼, 효율을 추구한다. 날카롭게 벼려진 연필로 스윽 직선을 긋듯, 설정된 목표를 위한 매우 정교하고 명쾌한 해법을 제시한다. 여러 톤의 빨간색과 회색이 섞여 있어도 그들은 항상 올바른 색을 골라낼 줄 안다. 물론 주관적인 판단이겠지만, 그 결과물은 무게감 있는 객관성으로 가득하기 때문에 보는 사람으로서는 옳은 판단이라고 믿을 수밖에 없다.”
 artworks:
-  - artwork_name_en: R&D-Project for Typojanchi
-    artwork_name_ko: R&D-타이포잔치를 위한 프로젝트
-    artwork_year: 2015
-    artwork_medium_en: Mixed media
-    artwork_medium_ko: "혼합 매체"
-    artwork_desc_en: |
-      The city is a structure whose character is shaped in tune with the needs and desires of its inhabitants. It never reaches a final form but is in constant change—a mix of the old and the new, of order and chaos, of things that work and things that don’t. In this environment of continuous transformation, citizens are in need of well-functioning systems in order to function efficiently, to work, and to feel secure.  Research and Development focused on the authoritative experience such as systems transmit in public places. By employing a familiar everyday object—the common and well-known queue management system—they wanted to challenge people’s habitual patterns which are so difficult to break. Most of us tend to follow instructions as prescribed. By installing the system in irrational formations, the visitors are encouraged to follow a playfully tracked path. Texts play a key role in directing the visitor beyond preconceived expectations. Through a careful play with semantics, they aim to put the visitor in awkward, paradoxical or seemingly meaningless kafkaesque situations that give rise to a kind of understated humor and awareness of the absurd. Strange, embarrassing or silly situations that arise from an impulsive behavior based on blind faith and obedience. The purpose of the intervention at Culture Station Seoul 284 is to invite the audience into a playful, performative, sculptural piece and give opportunity to reflect over their own automatical responses in authoritative public situations. This work's goal is to raise the audience awareness of the visual language of the city with use of an underlying laconic wit.
-    artwork_desc_ko: |
-      도시는 거주자들의 필요와 욕망이 반영된 구조물이다. 이는 결코 최종 형태에 도달할 수 없으며, 새로움과 낡음, 질서와 혼돈이 섞이며 끊임없이 변화한다. 사람들은 도시에 적응하기 위해 효율적으로 작동하는 시스템을 필요로 하며, 대개 그 시스템이 정한 지침에 순응하며 살아간다. 리서치 앤드 디벨럽먼트는 사람들에게 익숙한 대기 행렬 시스템을 활용해 이러한 체계에 개입한다. 전시장 곳곳에 놓인 설치물에서 관람객들은 익숙하지만, 어딘가 이상한 줄서기 행렬과 마주친다. 함께 설치된 텍스트들은 관객을 일견 무의미하고 부조리한 상황으로 이끌며, 맹신과 복종을 요구하는 권위적인 공공 시스템을 돌아보는 기회를 제공한다.
-  - artwork_name_en: Yesterday’s News
-    artwork_name_ko: "어제의 뉴스"
-    artwork_year: 2015
-    artwork_medium_en: Newspaper broadsheets, 37.5x52cm
-    artwork_medium_ko: "신문, 37.5x52cm"
-    artwork_desc_en: |
-      Yesterday’s News is an inventory of all books, booklets and catalogues designed by Research and Development ranging from June 2002 to October 2015. All the works are reproduced in actual size for Typojanchi 2015. To order your own copy, please visit Newspaper Club (www.newspaperclub.com).
-    artwork_desc_ko: |
-      <어제의 뉴스>는 2002년 6월부터 2015년 10월 사이 리서치 앤드 디벨럽먼트가 디자인한 모든 책과 카탈로그, 소책자가 실려 있는, 일종의 목록이다. 모든 작업은 이번 타이포잔치를 위해 실제 크기로 복제되었다. 원하는 사람은 뉴스페이퍼클럽(www.newspaperclub.com) 웹사이트에서 주문할 수 있다.
+- artwork_name_en: R&D-Project for Typojanchi
+  artwork_name_ko: R&D-타이포잔치를 위한 프로젝트
+  artwork_year: 2015
+  artwork_medium_en: Mixed media
+  artwork_medium_ko: "혼합 매체"
+  artwork_desc_en: |
+    The city is a structure whose character is shaped in tune with the needs and desires of its inhabitants. It never reaches a final form but is in constant change—a mix of the old and the new, of order and chaos, of things that work and things that don’t. In this environment of continuous transformation, citizens are in need of well-functioning systems in order to function efficiently, to work, and to feel secure.  Research and Development focused on the authoritative experience such as systems transmit in public places. By employing a familiar everyday object—the common and well-known queue management system—they wanted to challenge people’s habitual patterns which are so difficult to break. Most of us tend to follow instructions as prescribed. By installing the system in irrational formations, the visitors are encouraged to follow a playfully tracked path. Texts play a key role in directing the visitor beyond preconceived expectations. Through a careful play with semantics, they aim to put the visitor in awkward, paradoxical or seemingly meaningless kafkaesque situations that give rise to a kind of understated humor and awareness of the absurd. Strange, embarrassing or silly situations that arise from an impulsive behavior based on blind faith and obedience. The purpose of the intervention at Culture Station Seoul 284 is to invite the audience into a playful, performative, sculptural piece and give opportunity to reflect over their own automatical responses in authoritative public situations. This work's goal is to raise the audience awareness of the visual language of the city with use of an underlying laconic wit.
+  artwork_desc_ko: |
+    도시는 거주자들의 필요와 욕망이 반영된 구조물이다. 이는 결코 최종 형태에 도달할 수 없으며, 새로움과 낡음, 질서와 혼돈이 섞이며 끊임없이 변화한다. 사람들은 도시에 적응하기 위해 효율적으로 작동하는 시스템을 필요로 하며, 대개 그 시스템이 정한 지침에 순응하며 살아간다. 리서치 앤드 디벨럽먼트는 사람들에게 익숙한 대기 행렬 시스템을 활용해 이러한 체계에 개입한다. 전시장 곳곳에 놓인 설치물에서 관람객들은 익숙하지만, 어딘가 이상한 줄서기 행렬과 마주친다. 함께 설치된 텍스트들은 관객을 일견 무의미하고 부조리한 상황으로 이끌며, 맹신과 복종을 요구하는 권위적인 공공 시스템을 돌아보는 기회를 제공한다.
+- artwork_name_en: Yesterday’s News
+  artwork_name_ko: "어제의 뉴스"
+  artwork_year: 2015
+  artwork_medium_en: Newspaper broadsheets, 37.5x52cm
+  artwork_medium_ko: "신문, 37.5x52cm"
+  artwork_desc_en: |
+    Yesterday’s News is an inventory of all books, booklets and catalogues designed by Research and Development ranging from June 2002 to October 2015. All the works are reproduced in actual size for Typojanchi 2015. To order your own copy, please visit Newspaper Club (www.newspaperclub.com).
+  artwork_desc_ko: |
+    <어제의 뉴스>는 2002년 6월부터 2015년 10월 사이 리서치 앤드 디벨럽먼트가 디자인한 모든 책과 카탈로그, 소책자가 실려 있는, 일종의 목록이다. 모든 작업은 이번 타이포잔치를 위해 실제 크기로 복제되었다. 원하는 사람은 뉴스페이퍼클럽(www.newspaperclub.com) 웹사이트에서 주문할 수 있다.
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 3F
@@ -41,17 +41,8 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/1-research-n-development-1.jpg"
-- "./images/exhibitions/1-research-n-development-10.jpg"
-- "./images/exhibitions/1-research-n-development-11.jpg"
-- "./images/exhibitions/1-research-n-development-12.jpg"
-- "./images/exhibitions/1-research-n-development-13.jpg"
-- "./images/exhibitions/1-research-n-development-14.jpg"
-- "./images/exhibitions/1-research-n-development-2.jpg"
-- "./images/exhibitions/1-research-n-development-3.jpg"
-- "./images/exhibitions/1-research-n-development-4.jpg"
-- "./images/exhibitions/1-research-n-development-5.jpg"
-- "./images/exhibitions/1-research-n-development-6.jpg"
-- "./images/exhibitions/1-research-n-development-7.jpg"
-- "./images/exhibitions/1-research-n-development-8.jpg"
-- "./images/exhibitions/1-research-n-development-9.jpg"
+- "./images/exhibitions/1-research-n-development__1.jpg"
+- "./images/exhibitions/1-research-n-development__2.jpg"
+- "./images/exhibitions/1-research-n-development__3.jpg"
+- "./images/exhibitions/1-research-n-development__4.jpg"
+- "./images/exhibitions/1-research-n-development__5.jpg"

@@ -13,13 +13,13 @@ participant_bio_ko: "일상의실천은 권준호, 김경철, 김어진이 운�
   어떤 역할을 해야 하며, 또한 무엇을 할 수 있는가를 고민하는 소규모 공동체다. 그래픽디자인을 기반으로 하지만 평면 작업에만 머무르지 않는 다양한
   디자인 방법론을 탐구하고 있다. \n"
 artworks:
-  - artwork_name_en: 'Workshop: A City without (   )'
-    artwork_name_ko: "결여의 도시"
-    artwork_year: 2015
-    artwork_medium_en: 
-    artwork_medium_ko: 
-    artwork_desc_en: ''
-    artwork_desc_ko: ''
+- artwork_name_en: 'Workshop: A City without (   )'
+  artwork_name_ko: "결여의 도시"
+  artwork_year: 2015
+  artwork_medium_en: 
+  artwork_medium_ko: 
+  artwork_desc_en: ''
+  artwork_desc_ko: ''
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
 venue_detail_en: 

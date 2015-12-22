@@ -85,66 +85,52 @@ curator_bio_ko: "에이드리언 쇼너시: 디자이너이자 저술가. 1989�
   역할을 다시 만드는 시의성 있는 이슈들을 탐험하고 있다.  \n"
 type: Project
 photos:
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-1.jpg"
+- url: "./images/exhibitions/2-six-images-six-texts-one-remix__1.jpg"
+  permalink: 2-six-images-six-texts-one-remix
+  idx: 2
+  project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-10.jpg"
+- url: "./images/exhibitions/2-six-images-six-texts-one-remix__2.jpg"
+  permalink: 2-six-images-six-texts-one-remix
+  idx: 2
+  project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-11.jpg"
+- url: "./images/exhibitions/2-six-images-six-texts-one-remix__3.jpg"
+  permalink: 2-six-images-six-texts-one-remix
+  idx: 2
+  project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-12.jpg"
+- url: "./images/exhibitions/2-six-images-six-texts-one-remix__4.jpg"
+  permalink: 2-six-images-six-texts-one-remix
+  idx: 2
+  project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-13.jpg"
+- url: "./images/exhibitions/2-six-images-six-texts-one-remix__5.jpg"
+  permalink: 2-six-images-six-texts-one-remix
+  idx: 2
+  project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-15.jpg"
+- url: "./images/exhibitions/2-six-images-six-texts-one-remix__6.jpg"
+  permalink: 2-six-images-six-texts-one-remix
+  idx: 2
+  project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-16.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-17.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-18.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-19.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-2.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-20.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-21.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-22.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-3.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-4.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-5.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-6.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-7.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-8.jpg"
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/2-six-images-six-texts-one-remix-9.jpg"
+- url: "./images/exhibitions/2-six-images-six-texts-one-remix__7.jpg"
+  permalink: 2-six-images-six-texts-one-remix
+  idx: 2
+  project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
   title_ko: 
   title_en: 
