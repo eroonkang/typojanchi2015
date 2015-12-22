@@ -126,7 +126,7 @@ WY.models.DetailPageManager = (function(){
       // debugger;
       var type = _.isUndefined(this.data.type) ? "artwork" : this.data.type.toLowerCase();
       // debugger;
-      this.init_project_carousel();
+      // this.init_project_carousel();
       this.el.find("#content").empty().append($(this.tmpl[type]({
         detail: this.data,
         permalink: this.permalink,

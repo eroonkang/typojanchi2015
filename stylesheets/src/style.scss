@@ -172,6 +172,7 @@ $medim-width: 1200px;
     .artwork {
       margin-left: 0px;
       padding-left: 240px;
+      min-height: 920px;
       @include small {
         padding-left: 0px;
       }
@@ -271,26 +272,32 @@ $medim-width: 1200px;
     }
 
     .artwork-photo, .project-photo {
-      margin-top:2em;
+      margin-top:3.3em;
       @include small {
         margin-top:1em;
       }
 
       figure {
         display: inline-block;
-        border:1px solid #000;
+        //border:1px solid #000;
         &:hover {
-          border:1px solid #000;
+          //border:1px solid #000;
         }
 
         img {
           width:640px;
           display: block;
-          opacity: 0.9;
+          border-radius: 2px;
+          border: 1px solid rgba(0, 0, 0, .25);
+          opacity:.95;
           //min-height: 480px;
-          transition: 0.2s opacity;
+          // transition: 0.2s opacity;
+          -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
           &:hover{
-            opacity: 1;
+            opacity:1;
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
           }
           @include smaller {
             width:100%;
@@ -305,9 +312,9 @@ $medim-width: 1200px;
     }
 
     .left-nav {
-      // position:absolute;
+      position:absolute;
       width:210px;
-      float: left;
+      // float: left;
       @include small {
         display:none;
       }
@@ -715,10 +722,10 @@ $medim-width: 1200px;
       left:50%;
       top:50%;
       transform:translate(-50%, -50%);
-      opacity:0.9;
+      // opacity:0.9;
       transition: 0.2s opacity;
       &:hover {
-        opacity:1;
+        // opacity:1;
       }
     }
     .caption {

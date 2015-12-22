@@ -44,12 +44,12 @@
       <p class="description">
         <span lang="<%= WY.constants.locale %>"><%= simple_format(detail["project_desc_" + WY.constants.locale]) %></span>
       </p>
+      <div class="cols double">  
+        <p class="description bio">
+          <span lang="<%= WY.constants.locale %>"><%= simple_format(detail["curator_bio_" + WY.constants.locale]) %></span>
+        </p>
+      </div>
       <!-- <h3 class="participant" lang="<%= WY.constants.locale %>">(<%= project.idx %>) <%= detail["project_name_" + WY.constants.locale] %></h3> -->
-    </div>
-    <div class="cols double">  
-      <p class="description bio">
-        <span lang="<%= WY.constants.locale %>"><%= simple_format(detail["curator_bio_" + WY.constants.locale]) %></span>
-      </p>
     </div>
     <div style="clear: both;"></div>
   </div>

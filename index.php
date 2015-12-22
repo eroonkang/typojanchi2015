@@ -346,8 +346,8 @@ $description = "타이포잔치 2015 — Typojanchi 2015";
         </h2>
 
       </div>
-      <div id="project_carousel">
-      </div>
+<!--       <div id="project_carousel">
+      </div> -->
     </div>
   </div>
    
