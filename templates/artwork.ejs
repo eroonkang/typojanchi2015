@@ -55,7 +55,7 @@
     <% _.each(detail.photos, function(photo){ %>
       <div class="cols triple artwork-photo">
         <figure>
-          <img src="<%= WY.constants.home_url %><%= photo.substring(1, photo.length) %>">
+          <a href="<%= WY.constants.home_url %><%= photo.substring(1, photo.length) %>" data-lightbox="image"><img src="<%= WY.constants.home_url %><%= photo.substring(1, photo.length) %>"></a>
         </figure>
       </div>
     <% }); %>

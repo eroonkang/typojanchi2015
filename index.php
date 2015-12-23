@@ -350,8 +350,7 @@ $description = "타이포잔치 2015 — Typojanchi 2015";
       </div> -->
     </div>
   </div>
-   
-  
+
 
   <script>
     $(document).ready(function(e){
@@ -372,6 +371,8 @@ $description = "타이포잔치 2015 — Typojanchi 2015";
     ga('send', 'pageview');
 
   </script>
+  
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/lightbox.min.js"></script> 
 </body>
 </html>
 

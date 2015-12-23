@@ -127,6 +127,7 @@ WY.models.DetailPageManager = (function(){
       var type = _.isUndefined(this.data.type) ? "artwork" : this.data.type.toLowerCase();
       // debugger;
       // this.init_project_carousel();
+      // debugger;
       this.el.find("#content").empty().append($(this.tmpl[type]({
         detail: this.data,
         permalink: this.permalink,
@@ -194,7 +195,7 @@ WY.models.DetailPageManager = (function(){
     },
 
     ko_type_adjust: function(){
-      var rex = new RegExp("([\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF“””‘’A-Za-z0-9,.():&-;]+)(?![^<>&]*>)", "gm");
+      var rex = new RegExp("([\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF\?“””‘’A-Za-z0-9,.():&-;]+)(\?![^<>&]*>)", "gm");
 
       this.el.find("#content").find(":lang(ko)").each(function(){
         var $this = $(this);
