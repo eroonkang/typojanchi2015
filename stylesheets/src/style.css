@@ -270,13 +270,24 @@ a.no-underline:hover {
 }
 @media (max-width: 700px) {
   #content-outer #content .artwork-photo figure img, #content-outer #content .project-photo figure img {
+    opacity: 1;
     width: 100%;
     min-height: auto;
+    -webkit-filter: grayscale(0%);
   }
 }
 #content-outer #content .project-photo {
+  overflow: hidden;
   margin-top: 0.5em;
   margin-bottom: 2em;
+}
+#content-outer #content .project-photo figure {
+  overflow: hidden;
+}
+#content-outer #content .project-photo figure img {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
 }
 #content-outer #content .left-nav {
   position: absolute;
@@ -729,13 +740,71 @@ a.no-underline:hover {
 /* ---------------------------------------------- */
 /* lightbox override */
 /* ---------------------------------------------- */
-.lightboxOverlay {
-  background-color: #fff;
-  opacity: 1;
+.lb-outerContainer {
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.5);
+}
+.lb-outerContainer .lb-container {
+  padding: 0px;
+}
+.lb-outerContainer .lb-container .lb-nav a:hover {
+  border: 0;
+}
+.lb-outerContainer .lb-container .lb-nav a.lb-prev {
+  background: url(../../images/prev.png) left 48% no-repeat;
+}
+.lb-outerContainer .lb-container .lb-nav a.lb-next {
+  background: url(../../images/next.png) right 48% no-repeat;
 }
 
-.lb-details {
+.lb-dataContainer {
+  padding-top: 0px;
+}
+.lb-dataContainer .lb-data {
+  position: absolute;
+  margin: -10px 0 0 -30px;
+  width: inherit;
+  border-radius: 0 0 2px 2px;
+  -ms-transform: rotate(-90deg);
+  /* IE 9 */
+  -ms-transform-origin: 0% 0%;
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+  /* Chrome, Safari, Opera */
+  -webkit-transform-origin: 0% 0%;
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+  transform-origin: 0% 0%;
+}
+.lb-dataContainer .lb-data .lb-details {
+  text-align: left;
+}
+.lb-dataContainer .lb-data .lb-details .lb-caption, .lb-dataContainer .lb-data .lb-details .lb-number {
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.3em;
   color: #000;
+}
+.lb-dataContainer .lb-data .lb-details .lb-number {
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.lightboxOverlay {
+  background-color: #fff;
+  opacity: 0;
+}
+@media (max-width: 700px) {
+  .lightboxOverlay {
+    opacity: .7;
+  }
+}
+
+.lightbox .lb-image {
+  border-radius: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */

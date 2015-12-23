@@ -23,20 +23,6 @@
 
 
   <div class="artwork" class="clearfix">
-    <!-- images -->
-    <!-- <div class="cols triple project-photo">
-      <figure>
-        <img src="<%= WY.constants.home_url %>/images/img.jpg">
-      </figure>
-    </div>
-    <div class="cols triple project-photo">
-      <figure>
-        <img src="<%= WY.constants.home_url %>/images/img.jpg">
-      </figure>
-    </div> -->
-
-
-
     <div class="cols triple">  
       <h2 class="mobile"><a href="<%= url_from_project_name(project.idx, project.project_name_en) %>" data-permalink="<%= project.idx %>-<%= conv_to_slug(project.project_name_en) %>" class="participant_change_btn"><span lang="<%= WY.constants.locale %>">(<%= project.idx %>) <%= project["project_name_" + WY.constants.locale] %></span></a></h2>
 
@@ -45,22 +31,22 @@
       <p class="description">
         <span lang="<%= WY.constants.locale %>"><%= simple_format(detail["project_desc_" + WY.constants.locale]) %></span>
       </p>
-
-      <% _.each(project.photos, function(photo){ %>
-        <div class="cols triple artwork-photo">
-          <figure>
-            <a href="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>" data-lightbox="image-1"><img src="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>"></a>
-          </figure>
-        </div>
-      <% }); %>
     
       <div class="cols double">  
         <p class="description bio">
           <span lang="<%= WY.constants.locale %>"><%= simple_format(detail["curator_bio_" + WY.constants.locale]) %></span>
         </p>
       </div>
-      <!-- <h3 class="participant" lang="<%= WY.constants.locale %>">(<%= project.idx %>) <%= detail["project_name_" + WY.constants.locale] %></h3> -->
     </div>
+      <% _.each(project.photos, function(photo){ %>
+        <div class="cols double project-photo">
+          <figure>
+            <a href="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>" data-lightbox="image-1"><img src="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>"></a>
+          </figure>
+        </div>
+      <% }); %>
+      <!-- <h3 class="participant" lang="<%= WY.constants.locale %>">(<%= project.idx %>) <%= detail["project_name_" + WY.constants.locale] %></h3> -->
+
 
 
 

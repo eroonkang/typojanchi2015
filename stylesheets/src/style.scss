@@ -304,15 +304,26 @@ $medim-width: 1200px;
             filter: grayscale(0%);
           }
           @include smaller {
+            opacity:1;
             width:100%;
             min-height:auto;
+            -webkit-filter: grayscale(0%);
           }
         }
       }
     }
     .project-photo {
+      overflow: hidden;
       margin-top: 0.5em;
       margin-bottom: 2em;
+      figure {
+        overflow: hidden;
+        img {
+          width:360px;
+          height:360px;
+          border-radius: 50%;
+        }
+      }
     }
 
     .left-nav {
@@ -826,10 +837,70 @@ $medim-width: 1200px;
 /* ---------------------------------------------- */
 /* lightbox override */
 /* ---------------------------------------------- */
+.lb-outerContainer{
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0px 0px 50px rgba(255,255,255,.5);
+  .lb-container {
+    padding:0px;
+    // border: 1px solid #000;
+    .lb-nav{
+      a {
+        &:hover{
+          border: 0;
+        }
+      }
+      a.lb-prev{
+        background: url(../../images/prev.png) left 48% no-repeat;
+      }
+      a.lb-next{
+        background: url(../../images/next.png) right 48% no-repeat;
+      }
+    }
+  }
+}
+.lb-dataContainer {
+  padding-top: 0px;
+  .lb-data{
+    position: absolute;
+    margin: -10px 0 0 -30px;
+    width:inherit;
+    border-radius: 0 0 2px 2px;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -ms-transform-origin: 0% 0%; /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 0% 0%; /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+
+    .lb-details{
+      // margin-left: 20px;
+      // float:none;
+      text-align: left;
+
+      .lb-caption, .lb-number {
+        @include regular_type;
+        font-weight:normal;
+        @include small_type;
+        color:#000;
+        // text-shadow:
+        //  -1px -1px 0px rgba(255,255,255,.5),  
+        //   1px -1px 0px rgba(255,255,255,.5),
+        //  -1px  1px 0px rgba(255,255,255,.5),
+        //   1px  1px 0px rgba(255,255,255,.5);
+      }
+      .lb-number {
+        @include small_type;
+      }
+    }
+  }
+}
 .lightboxOverlay {
   background-color: #fff;
-  opacity:1;
+  opacity:0;
+  @include smaller {
+    opacity:.7;
+  }
 }
-.lb-details {
-  color:#000;
+.lightbox .lb-image  {
+  border-radius: 2px;
 }

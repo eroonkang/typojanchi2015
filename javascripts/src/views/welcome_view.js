@@ -220,6 +220,14 @@ WY.views.welcome_view = (function(){
 
     template_loader.load();
 
+    lightbox.option({
+      'resizeDuration': 0,
+      'fadeDuration': 100,
+      'wrapAround': true,
+      'disableScrolling': true,
+      'positionFromTop' : 50,
+      'showImageNumberLabel' : false
+    })
 
   }
 
