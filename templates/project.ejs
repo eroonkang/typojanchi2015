@@ -31,7 +31,6 @@
       <p class="description">
         <span lang="<%= WY.constants.locale %>"><%= simple_format(detail["project_desc_" + WY.constants.locale]) %></span>
       </p>
-    
       <div class="cols double">  
         <p class="description bio">
           <span lang="<%= WY.constants.locale %>"><%= simple_format(detail["curator_bio_" + WY.constants.locale]) %></span>
@@ -39,16 +38,13 @@
       </div>
     </div>
       <% _.each(project.photos, function(photo){ %>
-        <div class="cols double project-photo">
+        <div class="cols triple artwork-photo">
           <figure>
             <a href="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>" data-lightbox="image-1"><img src="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>"></a>
           </figure>
         </div>
       <% }); %>
       <!-- <h3 class="participant" lang="<%= WY.constants.locale %>">(<%= project.idx %>) <%= detail["project_name_" + WY.constants.locale] %></h3> -->
-
-
-
 
     <div style="clear: both;"></div>
   </div>
