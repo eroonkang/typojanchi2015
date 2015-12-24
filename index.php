@@ -169,7 +169,7 @@ $description = "타이포잔치 2015 — Typojanchi 2015";
     <div id="section-header">
       <h2>
 
-        <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about" data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
+        <a href="<? echo $home_url; ?>/<? echo $locale; ?>/about"e data-permalink="about" class="about_btn" lang="<? echo $locale; ?>">
           <? if ($locale == 'ko') { echo "(타이포잔치 2015) 소개"; } ?>
           <? if ($locale == 'en') { echo "About (Typojanchi 2015)"; } ?>
         </a>
@@ -372,7 +372,7 @@ $description = "타이포잔치 2015 — Typojanchi 2015";
 
   </script>
   
-  <script src="<? echo $home_url; ?>/javascripts/src/vendor/lightbox.min.js"></script> 
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/lightbox.js"></script> 
 </body>
 </html>
 

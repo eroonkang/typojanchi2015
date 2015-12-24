@@ -35,7 +35,6 @@ module.exports = function(grunt) {
             'javascripts/src/vendor/rAF.js',
             'javascripts/src/vendor/vector2.js',
             'javascripts/src/vendor/jquery.history.js',
-            'javascripts/src/vendor/lightbox.min.js',
             'javascripts/src/WY.js',
             'javascripts/src/utils.js',
             'javascripts/src/models/*.js',
