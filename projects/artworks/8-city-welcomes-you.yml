@@ -100,164 +100,31 @@ curator_bio_ko: |
   아트 디렉터이자 그래픽 디자이너인 이충호는 런던 센트럴 세인트 마틴스 대학교에서 그래픽디자인으로 학사 학위를, 런던 칼리지 오브 커뮤니케이션에서 같은 전공으로 석사 학위를 받았다. SW20을 운영하며 그래픽디자인 전반에 걸친 다양한 작업을 하고 있으며 한국예술종합학교, 서울시립대학교, 이화여자대학교 등에서 학생들을 가르치고 있다. 그의 작업은 뉴욕 ADC, 뉴욕 TDC, 도쿄 TDC 등 국제 디자인 공모전에서 여러 차례 수상하였으며 국내외 잡지를 비롯한 여러 매체에 소개되었다.
 type: Project
 photos:
-- url: "./images/exhibitions/640/8-berger-stadel-walsh__1.jpg"
-  permalink: 8-berger-stadel-walsh
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "부르게르 + 슈타델 + 월시"
-  title_en: berger + stadel + walsh
-- url: "./images/exhibitions/640/8-berger-stadel-walsh__2.jpg"
-  permalink: 8-berger-stadel-walsh
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "부르게르 + 슈타델 + 월시"
-  title_en: berger + stadel + walsh
-- url: "./images/exhibitions/640/8-bongkyu-song__1.jpg"
-  permalink: 8-bongkyu-song
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "송봉규"
-  title_en: Bongkyu Song
-- url: "./images/exhibitions/640/8-choongho-lee__1.jpg"
-  permalink: 8-choongho-lee
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "이충호"
-  title_en: Choongho Lee
-- url: "./images/exhibitions/640/8-choongho-lee__2.jpg"
-  permalink: 8-choongho-lee
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "이충호"
-  title_en: Choongho Lee
-- url: "./images/exhibitions/640/8-city-welcomes-you__1.jpg"
+- url: "./images/exhibitions/640/8-city-welcomes-you__01.jpg"
   permalink: 8-city-welcomes-you
   idx: 8
   project_name_ko: "도시 환영(幻影/歡迎) 문자"
   project_name_en: CITY WELCOMES YOU
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/640/8-city-welcomes-you__2.jpg"
+- url: "./images/exhibitions/640/8-city-welcomes-you__02.jpg"
   permalink: 8-city-welcomes-you
   idx: 8
   project_name_ko: "도시 환영(幻影/歡迎) 문자"
   project_name_en: CITY WELCOMES YOU
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/640/8-city-welcomes-you__3.jpg"
+- url: "./images/exhibitions/640/8-city-welcomes-you__03.jpg"
   permalink: 8-city-welcomes-you
   idx: 8
   project_name_ko: "도시 환영(幻影/歡迎) 문자"
   project_name_en: CITY WELCOMES YOU
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/640/8-city-welcomes-you__4.jpg"
+- url: "./images/exhibitions/640/8-city-welcomes-you__04.jpg"
   permalink: 8-city-welcomes-you
   idx: 8
   project_name_ko: "도시 환영(幻影/歡迎) 문자"
   project_name_en: CITY WELCOMES YOU
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/640/8-clark-corp__1.jpg"
-  permalink: 8-clark-corp
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "클라크 코프"
-  title_en: Clark Corp
-- url: "./images/exhibitions/640/8-clark-corp__2.jpg"
-  permalink: 8-clark-corp
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "클라크 코프"
-  title_en: Clark Corp
-- url: "./images/exhibitions/640/8-clauss-nils__1.jpg"
-  permalink: 8-clauss-nils
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "닐스 클라우스"
-  title_en: Nils Clauss
-- url: "./images/exhibitions/640/8-clauss-nils__2.jpg"
-  permalink: 8-clauss-nils
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "닐스 클라우스"
-  title_en: Nils Clauss
-- url: "./images/exhibitions/640/8-daeki-shim__1.jpg"
-  permalink: 8-daeki-shim
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "심대기"
-  title_en: Dae Ki Shim
-- url: "./images/exhibitions/640/8-doosung__1.jpg"
-  permalink: 8-doosung
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/640/8-doosung__2.jpg"
-  permalink: 8-doosung
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "두성종이 디자인연구소"
-  title_en: Doosungpaper Design Lab
-- url: "./images/exhibitions/640/8-gang-moonsick__1.jpg"
-  permalink: 8-gang-moonsick
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "강문식"
-  title_en: Gang Moonsick
-- url: "./images/exhibitions/640/8-gang-moonsick__2.jpg"
-  permalink: 8-gang-moonsick
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "강문식"
-  title_en: Gang Moonsick
-- url: "./images/exhibitions/640/8-hyojun-shim-n-wong__1.jpg"
-  permalink: 8-hyojun-shim-n-wong
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "심효준 + 키이스 웡"
-  title_en: Hyojun Shim + Keith Wong
-- url: "./images/exhibitions/640/8-hyojun-shim-n-wong__2.jpg"
-  permalink: 8-hyojun-shim-n-wong
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "심효준 + 키이스 웡"
-  title_en: Hyojun Shim + Keith Wong
-- url: "./images/exhibitions/640/8-hyojun-shim-n-wong__3.jpg"
-  permalink: 8-hyojun-shim-n-wong
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "심효준 + 키이스 웡"
-  title_en: Hyojun Shim + Keith Wong
-- url: "./images/exhibitions/640/8-team-thursday__1.jpg"
-  permalink: 8-team-thursday
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "팀 서즈데이"
-  title_en: Team Thursday
-- url: "./images/exhibitions/640/8-team-thursday__2.jpg"
-  permalink: 8-team-thursday
-  idx: 8
-  project_name_ko: "도시 환영(幻影/歡迎) 문자"
-  project_name_en: CITY WELCOMES YOU
-  title_ko: "팀 서즈데이"
-  title_en: Team Thursday

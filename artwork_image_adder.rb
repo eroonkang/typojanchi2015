@@ -25,16 +25,18 @@ Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
   unless artwork_yaml["project_name_en"] == nil
     #프로젝트임 
     #프로젝트면 1- 은 다 넣어야됨
-    idx = conv_to_permalink(filename).split("-")[0].to_i
+    project_permalink = conv_to_permalink(filename)
+    idx = project_permalink.split("-")[0].to_i
     artwork_yaml["photos"] = []
     # puts idx
     
     Dir["./images/exhibitions/640/*.jpg"].each_with_index do |jpg_name, i|
-      # byebug
       permalink = conv_to_permalink_jpg(jpg_name)
       info = YAML.load_file("./projects/artworks/#{permalink}.yml")
-
-      if permalink.split("-")[0].to_i == idx
+      
+      # byebug
+      
+      unless jpg_name.index(project_permalink) == nil
         photo_info = {}
         photo_info["url"] = jpg_name
         photo_info["permalink"] = permalink

@@ -54,12 +54,4 @@ curator_bio_ko: "유지원 - 책과 글자를 좋아하는 디자이너. 서울�
   쿤스트할레,  우영미, 요기요 등의 브랜딩 및 현대백화점, 국립현대무용단 캠페인 작업을 했다. 권오현은 2013년부터 홍익대학교에서 시각디자인을
   가르치고 있다.\n"
 type: Project
-photos:
-- url: "./images/exhibitions/640/11-guteform-jiwon-yu__1.jpg"
-  permalink: 11-guteform-jiwon-yu
-  idx: 11
-  project_name_ko: "도시문자 르포르타주"
-  project_name_en: CITY TYPOGRAPHY REPORTAGE
-  title_ko: |
-    구트폼, 유지원
-  title_en: "Gute Form, Jiwon Yu \n"
+photos: []

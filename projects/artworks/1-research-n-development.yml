@@ -41,8 +41,8 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/640/1-research-n-development__1.jpg"
-- "./images/exhibitions/640/1-research-n-development__2.jpg"
-- "./images/exhibitions/640/1-research-n-development__3.jpg"
-- "./images/exhibitions/640/1-research-n-development__4.jpg"
-- "./images/exhibitions/640/1-research-n-development__5.jpg"
+- "./images/exhibitions/640/1-research-n-development__01.jpg"
+- "./images/exhibitions/640/1-research-n-development__02.jpg"
+- "./images/exhibitions/640/1-research-n-development__03.jpg"
+- "./images/exhibitions/640/1-research-n-development__04.jpg"
+- "./images/exhibitions/640/1-research-n-development__05.jpg"

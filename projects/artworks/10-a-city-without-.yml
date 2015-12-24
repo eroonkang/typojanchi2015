@@ -22,7 +22,63 @@ curator_bio_ko: |
   그래픽 디자이너. 홍익대학교 시각디자인과를 졸업하고 무사시노 미술대학교에서 석사 학위를 받았다. 안그라픽스 디자이너, 눈디자인 디자인 디렉터로 일했으며 진달래 동인이다. 현재 서울여자대학교 시각디자인과 교수로 학생들을 가르치며 한글의 모습을 현대적, 입체적으로 표현하는 디자인 작업을 하고 있다. 옮긴 책으로   &lt;디자인의 디자인 &gt; (2007)이 있다.
 type: Project
 photos:
-- url: "./images/exhibitions/640/10-a-city-without-__1.jpg"
+- url: "./images/exhibitions/640/10-a-city-without-__01.jpg"
+  permalink: 10-a-city-without-
+  idx: 10
+  project_name_ko: "결여의 도시"
+  project_name_en: A CITY WITHOUT (   )
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/640/10-a-city-without-__02.jpg"
+  permalink: 10-a-city-without-
+  idx: 10
+  project_name_ko: "결여의 도시"
+  project_name_en: A CITY WITHOUT (   )
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/640/10-a-city-without-__03.jpg"
+  permalink: 10-a-city-without-
+  idx: 10
+  project_name_ko: "결여의 도시"
+  project_name_en: A CITY WITHOUT (   )
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/640/10-a-city-without-__04.jpg"
+  permalink: 10-a-city-without-
+  idx: 10
+  project_name_ko: "결여의 도시"
+  project_name_en: A CITY WITHOUT (   )
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/640/10-a-city-without-__05.jpg"
+  permalink: 10-a-city-without-
+  idx: 10
+  project_name_ko: "결여의 도시"
+  project_name_en: A CITY WITHOUT (   )
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/640/10-a-city-without-__06.jpg"
+  permalink: 10-a-city-without-
+  idx: 10
+  project_name_ko: "결여의 도시"
+  project_name_en: A CITY WITHOUT (   )
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/640/10-a-city-without-__07.jpg"
+  permalink: 10-a-city-without-
+  idx: 10
+  project_name_ko: "결여의 도시"
+  project_name_en: A CITY WITHOUT (   )
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/640/10-a-city-without-__08.jpg"
+  permalink: 10-a-city-without-
+  idx: 10
+  project_name_ko: "결여의 도시"
+  project_name_en: A CITY WITHOUT (   )
+  title_ko: 
+  title_en: 
+- url: "./images/exhibitions/640/10-a-city-without-__09.jpg"
   permalink: 10-a-city-without-
   idx: 10
   project_name_ko: "결여의 도시"
@@ -99,13 +155,6 @@ photos:
   project_name_en: A CITY WITHOUT (   )
   title_ko: 
   title_en: 
-- url: "./images/exhibitions/640/10-a-city-without-__2.jpg"
-  permalink: 10-a-city-without-
-  idx: 10
-  project_name_ko: "결여의 도시"
-  project_name_en: A CITY WITHOUT (   )
-  title_ko: 
-  title_en: 
 - url: "./images/exhibitions/640/10-a-city-without-__20.jpg"
   permalink: 10-a-city-without-
   idx: 10
@@ -121,55 +170,6 @@ photos:
   title_ko: 
   title_en: 
 - url: "./images/exhibitions/640/10-a-city-without-__22.jpg"
-  permalink: 10-a-city-without-
-  idx: 10
-  project_name_ko: "결여의 도시"
-  project_name_en: A CITY WITHOUT (   )
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/640/10-a-city-without-__3.jpg"
-  permalink: 10-a-city-without-
-  idx: 10
-  project_name_ko: "결여의 도시"
-  project_name_en: A CITY WITHOUT (   )
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/640/10-a-city-without-__4.jpg"
-  permalink: 10-a-city-without-
-  idx: 10
-  project_name_ko: "결여의 도시"
-  project_name_en: A CITY WITHOUT (   )
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/640/10-a-city-without-__5.jpg"
-  permalink: 10-a-city-without-
-  idx: 10
-  project_name_ko: "결여의 도시"
-  project_name_en: A CITY WITHOUT (   )
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/640/10-a-city-without-__6.jpg"
-  permalink: 10-a-city-without-
-  idx: 10
-  project_name_ko: "결여의 도시"
-  project_name_en: A CITY WITHOUT (   )
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/640/10-a-city-without-__7.jpg"
-  permalink: 10-a-city-without-
-  idx: 10
-  project_name_ko: "결여의 도시"
-  project_name_en: A CITY WITHOUT (   )
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/640/10-a-city-without-__8.jpg"
-  permalink: 10-a-city-without-
-  idx: 10
-  project_name_ko: "결여의 도시"
-  project_name_en: A CITY WITHOUT (   )
-  title_ko: 
-  title_en: 
-- url: "./images/exhibitions/640/10-a-city-without-__9.jpg"
   permalink: 10-a-city-without-
   idx: 10
   project_name_ko: "결여의 도시"
