@@ -54,6 +54,16 @@ WY.views.welcome_view = (function(){
   }
 
   function init(){
+
+    $("body").on('click', 'a[data-lightbox=image]', function(e) {
+      imagesLoaded($("#lightbox"), function(e){
+          
+        $('img').each(function(){
+          new RetinaImage(this);
+        });
+      });
+    });
+
     template_loader = new WY.models.TemplateLoader({
       lists: [
         {

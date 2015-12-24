@@ -11,7 +11,7 @@ curator_bio_en: ''
 curator_bio_ko: ''
 type: Project
 photos:
-- url: "./images/exhibitions/14-nolgong__1.jpg"
+- url: "./images/exhibitions/640/14-nolgong__1.jpg"
   permalink: 14-nolgong
   idx: 14
   project_name_ko: "도슨트 프로젝트"

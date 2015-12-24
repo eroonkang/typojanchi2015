@@ -91,406 +91,469 @@ projects:
     그래픽 디자이너 클럽 진달래 동인이며, 현재 서울대학교 미술대학 디자인학부에서 학생들을 가르치고 있다. 옮긴 책으로 《타이포그래피의 탄생-
     구텐베르크부터 디지털 폰트까지》(2010)가 있다. \n"
   photos:
-  - url: "./images/exhibitions/1-brownfox__1.jpg"
+  - url: "./images/exhibitions/640/1-brownfox__1.jpg"
     permalink: 1-brownfox
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "브라운폭스"
     title_en: Brownfox
-  - url: "./images/exhibitions/1-brownfox__2.jpg"
+  - url: "./images/exhibitions/640/1-brownfox__2.jpg"
     permalink: 1-brownfox
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "브라운폭스"
     title_en: Brownfox
-  - url: "./images/exhibitions/1-byoungil-choi__1.jpg"
+  - url: "./images/exhibitions/640/1-byoungil-choi__1.jpg"
     permalink: 1-byoungil-choi
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "최병일"
     title_en: Byoungil Choi
-  - url: "./images/exhibitions/1-byoungil-choi__2.jpg"
+  - url: "./images/exhibitions/640/1-byoungil-choi__2.jpg"
     permalink: 1-byoungil-choi
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "최병일"
     title_en: Byoungil Choi
-  - url: "./images/exhibitions/1-byoungil-choi__3.jpg"
+  - url: "./images/exhibitions/640/1-byoungil-choi__3.jpg"
     permalink: 1-byoungil-choi
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "최병일"
     title_en: Byoungil Choi
-  - url: "./images/exhibitions/1-byoungil-choi__4.jpg"
+  - url: "./images/exhibitions/640/1-byoungil-choi__4.jpg"
     permalink: 1-byoungil-choi
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "최병일"
     title_en: Byoungil Choi
-  - url: "./images/exhibitions/1-catherine-griffiths__1.jpg"
+  - url: "./images/exhibitions/640/1-byoungil-choi__5.jpg"
+    permalink: 1-byoungil-choi
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "최병일"
+    title_en: Byoungil Choi
+  - url: "./images/exhibitions/640/1-byoungil-choi__6.jpg"
+    permalink: 1-byoungil-choi
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "최병일"
+    title_en: Byoungil Choi
+  - url: "./images/exhibitions/640/1-byoungil-choi__7.jpg"
+    permalink: 1-byoungil-choi
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "최병일"
+    title_en: Byoungil Choi
+  - url: "./images/exhibitions/640/1-byoungil-choi__8.jpg"
+    permalink: 1-byoungil-choi
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "최병일"
+    title_en: Byoungil Choi
+  - url: "./images/exhibitions/640/1-catherine-griffiths__1.jpg"
     permalink: 1-catherine-griffiths
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "캐서린 그리피스"
     title_en: Catherine Griffiths
-  - url: "./images/exhibitions/1-catherine-griffiths__2.jpg"
+  - url: "./images/exhibitions/640/1-catherine-griffiths__2.jpg"
     permalink: 1-catherine-griffiths
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "캐서린 그리피스"
     title_en: Catherine Griffiths
-  - url: "./images/exhibitions/1-dainippon__1.jpg"
+  - url: "./images/exhibitions/640/1-catherine-griffiths__3.jpg"
+    permalink: 1-catherine-griffiths
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "캐서린 그리피스"
+    title_en: Catherine Griffiths
+  - url: "./images/exhibitions/640/1-dainippon__1.jpg"
     permalink: 1-dainippon
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "다이니폰 타입"
     title_en: Dainippon Type Organization
-  - url: "./images/exhibitions/1-daniel-eatock__1.jpg"
+  - url: "./images/exhibitions/640/1-daniel-eatock__1.jpg"
     permalink: 1-daniel-eatock
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "다니엘 이톡"
     title_en: Daniel Eatock
-  - url: "./images/exhibitions/1-dongwan-kook__1.jpg"
-    permalink: 1-dongwan-kook
+  - url: "./images/exhibitions/640/1-daniel-eatock__2.jpg"
+    permalink: 1-daniel-eatock
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
-    title_ko: "국동완"
-    title_en: Dongwan Kook
-  - url: "./images/exhibitions/1-doosup-kim__1.jpg"
+    title_ko: "다니엘 이톡"
+    title_en: Daniel Eatock
+  - url: "./images/exhibitions/640/1-doosup-kim__1.jpg"
     permalink: 1-doosup-kim
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "김두섭"
     title_en: Doosup Kim
-  - url: "./images/exhibitions/1-doosup-kim__2.jpg"
+  - url: "./images/exhibitions/640/1-doosup-kim__2.jpg"
     permalink: 1-doosup-kim
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "김두섭"
     title_en: Doosup Kim
-  - url: "./images/exhibitions/1-elodie-boyer__1.jpg"
+  - url: "./images/exhibitions/640/1-doosup-kim__3.jpg"
+    permalink: 1-doosup-kim
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "김두섭"
+    title_en: Doosup Kim
+  - url: "./images/exhibitions/640/1-elodie-boyer__1.jpg"
     permalink: 1-elodie-boyer
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "엘로디 보이어"
     title_en: Elodie Boyer
-  - url: "./images/exhibitions/1-elodie-boyer__2.jpg"
+  - url: "./images/exhibitions/640/1-elodie-boyer__2.jpg"
     permalink: 1-elodie-boyer
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "엘로디 보이어"
     title_en: Elodie Boyer
-  - url: "./images/exhibitions/1-elodie-boyer__3.jpg"
+  - url: "./images/exhibitions/640/1-elodie-boyer__3.jpg"
     permalink: 1-elodie-boyer
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "엘로디 보이어"
     title_en: Elodie Boyer
-  - url: "./images/exhibitions/1-elodie-boyer__4.jpg"
+  - url: "./images/exhibitions/640/1-elodie-boyer__4.jpg"
     permalink: 1-elodie-boyer
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "엘로디 보이어"
     title_en: Elodie Boyer
-  - url: "./images/exhibitions/1-elodie-boyer__5.jpg"
+  - url: "./images/exhibitions/640/1-elodie-boyer__5.jpg"
     permalink: 1-elodie-boyer
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "엘로디 보이어"
     title_en: Elodie Boyer
-  - url: "./images/exhibitions/1-elodie-boyer__6.jpg"
+  - url: "./images/exhibitions/640/1-elodie-boyer__6.jpg"
     permalink: 1-elodie-boyer
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "엘로디 보이어"
     title_en: Elodie Boyer
-  - url: "./images/exhibitions/1-hyounyoul-joe__1.jpg"
-    permalink: 1-hyounyoul-joe
+  - url: "./images/exhibitions/640/1-elodie-boyer__7.jpg"
+    permalink: 1-elodie-boyer
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
-    title_ko: "조현열"
-    title_en: Hyoun Youl Joe
-  - url: "./images/exhibitions/1-jisung-yi__1.jpg"
+    title_ko: "엘로디 보이어"
+    title_en: Elodie Boyer
+  - url: "./images/exhibitions/640/1-jisung-yi__1.jpg"
     permalink: 1-jisung-yi
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "이지성"
     title_en: Jisung Yi
-  - url: "./images/exhibitions/1-jisung-yi__5.jpg"
-    permalink: 1-jisung-yi
-    idx: 1
-    project_name_ko: "본전시"
-    project_name_en: MAIN EXHIBITION
-    title_ko: "이지성"
-    title_en: Jisung Yi
-  - url: "./images/exhibitions/1-kota-iguchi__1.jpg"
+  - url: "./images/exhibitions/640/1-kota-iguchi__1.jpg"
     permalink: 1-kota-iguchi
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "코타 이구치(티모테/세카이)"
     title_en: Kota Iguchi (TYMOTE / CEKAI)
-  - url: "./images/exhibitions/1-kota-iguchi__2.jpg"
+  - url: "./images/exhibitions/640/1-kota-iguchi__2.jpg"
     permalink: 1-kota-iguchi
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "코타 이구치(티모테/세카이)"
     title_en: Kota Iguchi (TYMOTE / CEKAI)
-  - url: "./images/exhibitions/1-kota-iguchi__3.jpg"
+  - url: "./images/exhibitions/640/1-kota-iguchi__3.jpg"
     permalink: 1-kota-iguchi
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "코타 이구치(티모테/세카이)"
     title_en: Kota Iguchi (TYMOTE / CEKAI)
-  - url: "./images/exhibitions/1-kyuhyung-cho__1.jpg"
+  - url: "./images/exhibitions/640/1-kyuhyung-cho__1.jpg"
     permalink: 1-kyuhyung-cho
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "조규형"
     title_en: Kyuhyung Cho
-  - url: "./images/exhibitions/1-kyuhyung-cho__2.jpg"
+  - url: "./images/exhibitions/640/1-kyuhyung-cho__2.jpg"
     permalink: 1-kyuhyung-cho
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "조규형"
     title_en: Kyuhyung Cho
-  - url: "./images/exhibitions/1-kyuhyung-cho__3.jpg"
+  - url: "./images/exhibitions/640/1-kyuhyung-cho__3.jpg"
     permalink: 1-kyuhyung-cho
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "조규형"
     title_en: Kyuhyung Cho
-  - url: "./images/exhibitions/1-leslie-david__1.jpg"
+  - url: "./images/exhibitions/640/1-kyuhyung-cho__4.jpg"
+    permalink: 1-kyuhyung-cho
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "조규형"
+    title_en: Kyuhyung Cho
+  - url: "./images/exhibitions/640/1-leslie-david__1.jpg"
     permalink: 1-leslie-david
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "레슬리 데이비드"
     title_en: Leslie David
-  - url: "./images/exhibitions/1-r2__1.jpg"
+  - url: "./images/exhibitions/640/1-r2__1.jpg"
     permalink: 1-r2
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: R2
     title_en: R2
-  - url: "./images/exhibitions/1-r2__2.jpg"
+  - url: "./images/exhibitions/640/1-r2__2.jpg"
     permalink: 1-r2
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: R2
     title_en: R2
-  - url: "./images/exhibitions/1-research-n-development__1.jpg"
+  - url: "./images/exhibitions/640/1-research-n-development__1.jpg"
     permalink: 1-research-n-development
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "리서치 앤 디벨롭먼트"
     title_en: Research and Development
-  - url: "./images/exhibitions/1-research-n-development__2.jpg"
+  - url: "./images/exhibitions/640/1-research-n-development__2.jpg"
     permalink: 1-research-n-development
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "리서치 앤 디벨롭먼트"
     title_en: Research and Development
-  - url: "./images/exhibitions/1-research-n-development__3.jpg"
+  - url: "./images/exhibitions/640/1-research-n-development__3.jpg"
     permalink: 1-research-n-development
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "리서치 앤 디벨롭먼트"
     title_en: Research and Development
-  - url: "./images/exhibitions/1-research-n-development__4.jpg"
+  - url: "./images/exhibitions/640/1-research-n-development__4.jpg"
     permalink: 1-research-n-development
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "리서치 앤 디벨롭먼트"
     title_en: Research and Development
-  - url: "./images/exhibitions/1-research-n-development__5.jpg"
+  - url: "./images/exhibitions/640/1-research-n-development__5.jpg"
     permalink: 1-research-n-development
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "리서치 앤 디벨롭먼트"
     title_en: Research and Development
-  - url: "./images/exhibitions/1-roman-wilhelm__1.jpg"
+  - url: "./images/exhibitions/640/1-roman-wilhelm__1..jpg"
     permalink: 1-roman-wilhelm
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "로만 빌헬름"
     title_en: Roman Wilhelm
-  - url: "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets__1.jpg"
+  - url: "./images/exhibitions/640/1-sandra-kassenaar-n-bart-de-baets__1.jpg"
     permalink: 1-sandra-kassenaar-n-bart-de-baets
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "산드라 카세나르 + 바르트 더바에츠, 토마스 라르"
     title_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
-  - url: "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets__2.jpg"
+  - url: "./images/exhibitions/640/1-sandra-kassenaar-n-bart-de-baets__2.jpg"
     permalink: 1-sandra-kassenaar-n-bart-de-baets
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "산드라 카세나르 + 바르트 더바에츠, 토마스 라르"
     title_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
-  - url: "./images/exhibitions/1-sandra-kassenaar-n-bart-de-baets__3.jpg"
+  - url: "./images/exhibitions/640/1-sandra-kassenaar-n-bart-de-baets__3.jpg"
     permalink: 1-sandra-kassenaar-n-bart-de-baets
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "산드라 카세나르 + 바르트 더바에츠, 토마스 라르"
     title_en: Sandra Kassenaar + Bart de Baets, with Tomas Laar
-  - url: "./images/exhibitions/1-studio-spass__1.jpg"
+  - url: "./images/exhibitions/640/1-studio-spass__1.jpg"
     permalink: 1-studio-spass
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "스튜디오 스파스"
     title_en: StudioSpass
-  - url: "./images/exhibitions/1-studio-spass__2.jpg"
+  - url: "./images/exhibitions/640/1-studio-spass__2.jpg"
     permalink: 1-studio-spass
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "스튜디오 스파스"
     title_en: StudioSpass
-  - url: "./images/exhibitions/1-studio-spass__3.jpg"
+  - url: "./images/exhibitions/640/1-studio-spass__3.jpg"
     permalink: 1-studio-spass
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "스튜디오 스파스"
     title_en: StudioSpass
-  - url: "./images/exhibitions/1-till-wiedeck__1.jpg"
+  - url: "./images/exhibitions/640/1-studio-spass__4.jpg"
+    permalink: 1-studio-spass
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "스튜디오 스파스"
+    title_en: StudioSpass
+  - url: "./images/exhibitions/640/1-till-wiedeck__1.jpg"
     permalink: 1-till-wiedeck
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "헬로우미 (틸 비데크)"
     title_en: HelloMe (Till Wiedeck)
-  - url: "./images/exhibitions/1-till-wiedeck__2.jpg"
+  - url: "./images/exhibitions/640/1-till-wiedeck__2.jpg"
     permalink: 1-till-wiedeck
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "헬로우미 (틸 비데크)"
     title_en: HelloMe (Till Wiedeck)
-  - url: "./images/exhibitions/1-wang-ziyuan__1.jpg"
+  - url: "./images/exhibitions/640/1-wang-ziyuan__1.jpg"
     permalink: 1-wang-ziyuan
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "왕쯔위안"
     title_en: Wang Ziyuan
-  - url: "./images/exhibitions/1-why-not-n-gordon-young__1.jpg"
+  - url: "./images/exhibitions/640/1-why-not-n-gordon-young__1.jpg"
     permalink: 1-why-not-n-gordon-young
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "와이 낫 어소시에이츠 + 고든 영"
     title_en: Why Not Associates + Gordon Young
-  - url: "./images/exhibitions/1-why-not-n-gordon-young__2.jpg"
+  - url: "./images/exhibitions/640/1-why-not-n-gordon-young__2.jpg"
     permalink: 1-why-not-n-gordon-young
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "와이 낫 어소시에이츠 + 고든 영"
     title_en: Why Not Associates + Gordon Young
-  - url: "./images/exhibitions/1-why-not-n-gordon-young__3.jpg"
+  - url: "./images/exhibitions/640/1-why-not-n-gordon-young__3.jpg"
     permalink: 1-why-not-n-gordon-young
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "와이 낫 어소시에이츠 + 고든 영"
     title_en: Why Not Associates + Gordon Young
-  - url: "./images/exhibitions/1-why-not-n-gordon-young__4.jpg"
-    permalink: 1-why-not-n-gordon-young
-    idx: 1
-    project_name_ko: "본전시"
-    project_name_en: MAIN EXHIBITION
-    title_ko: "와이 낫 어소시에이츠 + 고든 영"
-    title_en: Why Not Associates + Gordon Young
-  - url: "./images/exhibitions/1-wu-fan__1.jpg"
+  - url: "./images/exhibitions/640/1-wu-fan__1.jpg"
     permalink: 1-wu-fan
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "우 판"
     title_en: Wu Fan
-  - url: "./images/exhibitions/1-wu-fan__2.jpg"
+  - url: "./images/exhibitions/640/1-wu-fan__2.jpg"
     permalink: 1-wu-fan
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "우 판"
     title_en: Wu Fan
-  - url: "./images/exhibitions/1-yuma-harada-n-shohei-iida__1.jpg"
+  - url: "./images/exhibitions/640/1-yuma-harada-n-shohei-iida__1.jpg"
     permalink: 1-yuma-harada-n-shohei-iida
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "유마 하라다, 쇼헤이 이다"
     title_en: Yuma Harada, Shohei Iida
-  - url: "./images/exhibitions/1-yuma-harada-n-shohei-iida__2.jpg"
+  - url: "./images/exhibitions/640/1-yuma-harada-n-shohei-iida__2.jpg"
     permalink: 1-yuma-harada-n-shohei-iida
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "유마 하라다, 쇼헤이 이다"
     title_en: Yuma Harada, Shohei Iida
-  - url: "./images/exhibitions/1-yuma-harada-n-shohei-iida__3.jpg"
+  - url: "./images/exhibitions/640/1-yuma-harada-n-shohei-iida__3.jpg"
     permalink: 1-yuma-harada-n-shohei-iida
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "유마 하라다, 쇼헤이 이다"
     title_en: Yuma Harada, Shohei Iida
-  - url: "./images/exhibitions/1-yuma-harada-n-shohei-iida__4.jpg"
+  - url: "./images/exhibitions/640/1-yuma-harada-n-shohei-iida__4.jpg"
     permalink: 1-yuma-harada-n-shohei-iida
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "유마 하라다, 쇼헤이 이다"
     title_en: Yuma Harada, Shohei Iida
-  - url: "./images/exhibitions/1-yuma-harada-n-shohei-iida__5.jpg"
+  - url: "./images/exhibitions/640/1-yuma-harada-n-shohei-iida__5.jpg"
     permalink: 1-yuma-harada-n-shohei-iida
     idx: 1
     project_name_ko: "본전시"
     project_name_en: MAIN EXHIBITION
     title_ko: "유마 하라다, 쇼헤이 이다"
     title_en: Yuma Harada, Shohei Iida
-  - url: "./images/exhibitions/1-yuma-harada-n-shohei-iida__6.jpg"
+  - url: "./images/exhibitions/640/1-yuma-harada-n-shohei-iida__6.jpg"
+    permalink: 1-yuma-harada-n-shohei-iida
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "유마 하라다, 쇼헤이 이다"
+    title_en: Yuma Harada, Shohei Iida
+  - url: "./images/exhibitions/640/1-yuma-harada-n-shohei-iida__7.jpg"
+    permalink: 1-yuma-harada-n-shohei-iida
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "유마 하라다, 쇼헤이 이다"
+    title_en: Yuma Harada, Shohei Iida
+  - url: "./images/exhibitions/640/1-yuma-harada-n-shohei-iida__8.jpg"
+    permalink: 1-yuma-harada-n-shohei-iida
+    idx: 1
+    project_name_ko: "본전시"
+    project_name_en: MAIN EXHIBITION
+    title_ko: "유마 하라다, 쇼헤이 이다"
+    title_en: Yuma Harada, Shohei Iida
+  - url: "./images/exhibitions/640/1-yuma-harada-n-shohei-iida__9.jpg"
     permalink: 1-yuma-harada-n-shohei-iida
     idx: 1
     project_name_ko: "본전시"
@@ -603,49 +666,105 @@ projects:
     영국 왕립예술학교에서 시각커뮤니케이션을 공부한 후부터는 현재 홍익대학교에서 타이포그라피와 그래픽 디자인을 가르치며 사회문화적 측면에서 그래픽
     디자인의 역할을 다시 만드는 시의성 있는 이슈들을 탐험하고 있다.  \n"
   photos:
-  - url: "./images/exhibitions/2-six-images-six-texts-one-remix__1.jpg"
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__1.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
     project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/2-six-images-six-texts-one-remix__2.jpg"
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__10.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
     project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/2-six-images-six-texts-one-remix__3.jpg"
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__11.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
     project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/2-six-images-six-texts-one-remix__4.jpg"
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__12.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
     project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/2-six-images-six-texts-one-remix__5.jpg"
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__13.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
     project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/2-six-images-six-texts-one-remix__6.jpg"
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__14.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
     project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/2-six-images-six-texts-one-remix__7.jpg"
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__15.jpg"
+    permalink: 2-six-images-six-texts-one-remix
+    idx: 2
+    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__2.jpg"
+    permalink: 2-six-images-six-texts-one-remix
+    idx: 2
+    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__3.jpg"
+    permalink: 2-six-images-six-texts-one-remix
+    idx: 2
+    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__4.jpg"
+    permalink: 2-six-images-six-texts-one-remix
+    idx: 2
+    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__5.jpg"
+    permalink: 2-six-images-six-texts-one-remix
+    idx: 2
+    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__6.jpg"
+    permalink: 2-six-images-six-texts-one-remix
+    idx: 2
+    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__7.jpg"
+    permalink: 2-six-images-six-texts-one-remix
+    idx: 2
+    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__8.jpg"
+    permalink: 2-six-images-six-texts-one-remix
+    idx: 2
+    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__9.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
     project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
@@ -702,35 +821,56 @@ projects:
   curator_bio_ko: |
     고토 테츠야는 일본 오사카에 거주하는 그래픽 디자이너이다. 대안적 사무 공간 ‘OOO(아웃 오브 오피스)’와 다학제적 에이전시 ‘OOO 프로젝트’를 운영하고 있다. 그래픽 디자이너일 뿐만 아니라 편집자, 저술가, 큐레이터의 업무를 병행하고 있다. 일본 타이포그래피 학회지인 《타이포그래픽스 티아이:》 263호부터 270호까지 편집을 맡으며 아시아의 그래픽 디자인과 타이포그래피 풍경을 소개하는 글을 기고했다. 현재 긴키 대학교와 오사카 미술대학에서 학생들을 가르치며 일본 《아이디어》지에 ‘엘로우 페이지’라는 제목으로 아시아 그래픽 디자인 풍경을 소개하는 글을 정기적으로 기고하고 있다.
   photos:
-  - url: "./images/exhibitions/3-asia-city-texture__1.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__1.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/3-asia-city-texture__2.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__2.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/3-asia-city-texture__3.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__3.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/3-asia-city-texture__4.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__4.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/3-asia-city-texture__5.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__5.jpg"
+    permalink: 3-asia-city-texture
+    idx: 3
+    project_name_ko: "아시아 도시 텍스트/쳐"
+    project_name_en: ASIA CITY TEXT/URE
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/3-asia-city-texture__6.jpg"
+    permalink: 3-asia-city-texture
+    idx: 3
+    project_name_ko: "아시아 도시 텍스트/쳐"
+    project_name_en: ASIA CITY TEXT/URE
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/3-asia-city-texture__7.jpg"
+    permalink: 3-asia-city-texture
+    idx: 3
+    project_name_ko: "아시아 도시 텍스트/쳐"
+    project_name_en: ASIA CITY TEXT/URE
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/3-asia-city-texture__8.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
@@ -792,35 +932,28 @@ projects:
     2011년부터 정림문화재단과 함께 건축, 문화, 예술 사이에서 북 디자인뿐 아니라 교육, 포럼, 전시, 리서치 등을 포함하는 의미 있는 활동을
     하고 있다. 서울대학교, 서울시립대학교 등에서 그래픽 디자인을 가르치고 있다. \n"
   photos:
-  - url: "./images/exhibitions/4--on-the-walls__1.jpg"
+  - url: "./images/exhibitions/640/4--on-the-walls__1.jpg"
     permalink: 4--on-the-walls
     idx: 4
     project_name_ko: "도시문자 포스터전"
     project_name_en: "( ) ON THE WALLS"
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/4--on-the-walls__2.jpg"
+  - url: "./images/exhibitions/640/4--on-the-walls__2.jpg"
     permalink: 4--on-the-walls
     idx: 4
     project_name_ko: "도시문자 포스터전"
     project_name_en: "( ) ON THE WALLS"
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/4--on-the-walls__3.jpg"
+  - url: "./images/exhibitions/640/4--on-the-walls__3.jpg"
     permalink: 4--on-the-walls
     idx: 4
     project_name_ko: "도시문자 포스터전"
     project_name_en: "( ) ON THE WALLS"
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/4--on-the-walls__4.jpg"
-    permalink: 4--on-the-walls
-    idx: 4
-    project_name_ko: "도시문자 포스터전"
-    project_name_en: "( ) ON THE WALLS"
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/4--on-the-walls__5.jpg"
+  - url: "./images/exhibitions/640/4--on-the-walls__4.jpg"
     permalink: 4--on-the-walls
     idx: 4
     project_name_ko: "도시문자 포스터전"
@@ -904,7 +1037,7 @@ projects:
   curator_bio_ko: |
     그래픽 디자이너, 그림책 작가. 홍익대학교 미술대학 섬유미술학과를 졸업하고 홍디자인에서 디자이너로 일했다. 서울여자대학교 시각디자인과 겸임 교수로 학생들을 가르치고 있으며 2011년부터 동네서점 땡스북스를 운영해오고 있다. 저서로 &lt;스마일 서커스&gt;(2005), &lt;모두 웃어요&gt;(2006), &lt;인디자인, 편집 디자인&gt;(공저, 2009) 등이 있다.
   photos:
-  - url: "./images/exhibitions/5-book-by-book__6.jpg"
+  - url: "./images/exhibitions/640/5-book-by-book__1.jpg"
     permalink: 5-book-by-book
     idx: 5
     project_name_ko: |
@@ -913,7 +1046,7 @@ projects:
       SEOUL (  ) SOUL
     title_ko: "북바이북"
     title_en: Book by Book
-  - url: "./images/exhibitions/5-hanyang-toonk__1.jpg"
+  - url: "./images/exhibitions/640/5-hanyang-toonk__1.jpg"
     permalink: 5-hanyang-toonk
     idx: 5
     project_name_ko: |
@@ -922,16 +1055,7 @@ projects:
       SEOUL (  ) SOUL
     title_ko: "한양툰크"
     title_en: Hanyang Toonk
-  - url: "./images/exhibitions/5-manil-books__1.jpg"
-    permalink: 5-manil-books
-    idx: 5
-    project_name_ko: |
-      SEOUL (  ) SOUL
-    project_name_en: |
-      SEOUL (  ) SOUL
-    title_ko: "책방 만일"
-    title_en: Manil Books
-  - url: "./images/exhibitions/5-pinocchio__1.jpg"
+  - url: "./images/exhibitions/640/5-pinocchio__1.jpg"
     permalink: 5-pinocchio
     idx: 5
     project_name_ko: |
@@ -940,7 +1064,7 @@ projects:
       SEOUL (  ) SOUL
     title_ko: "책방 피노키오"
     title_en: Pinokio Books
-  - url: "./images/exhibitions/5-post-poetics__1.jpg"
+  - url: "./images/exhibitions/640/5-post-poetics__1.jpg"
     permalink: 5-post-poetics
     idx: 5
     project_name_ko: |
@@ -949,7 +1073,7 @@ projects:
       SEOUL (  ) SOUL
     title_ko: "포스트 포에틱스"
     title_en: Post Poetics
-  - url: "./images/exhibitions/5-seoul-soul__1.jpg"
+  - url: "./images/exhibitions/640/5-seoul-soul__1.jpg"
     permalink: 5-seoul-soul
     idx: 5
     project_name_ko: |
@@ -958,7 +1082,7 @@ projects:
       SEOUL (  ) SOUL
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/5-seoul-soul__2.jpg"
+  - url: "./images/exhibitions/640/5-seoul-soul__2.jpg"
     permalink: 5-seoul-soul
     idx: 5
     project_name_ko: |
@@ -967,7 +1091,16 @@ projects:
       SEOUL (  ) SOUL
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/5-thanks-books__1.jpg"
+  - url: "./images/exhibitions/640/5-seoul-soul__3.jpg"
+    permalink: 5-seoul-soul
+    idx: 5
+    project_name_ko: |
+      SEOUL (  ) SOUL
+    project_name_en: |
+      SEOUL (  ) SOUL
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/5-thanks-books__1.jpg"
     permalink: 5-thanks-books
     idx: 5
     project_name_ko: |
@@ -976,7 +1109,7 @@ projects:
       SEOUL (  ) SOUL
     title_ko: "땡스북스"
     title_en: Thanks Books
-  - url: "./images/exhibitions/5-the-book-society__1.jpg"
+  - url: "./images/exhibitions/640/5-the-book-society__1.jpg"
     permalink: 5-the-book-society
     idx: 5
     project_name_ko: |
@@ -985,7 +1118,7 @@ projects:
       SEOUL (  ) SOUL
     title_ko: "더북소사이어티"
     title_en: The Book Society
-  - url: "./images/exhibitions/5-the-secondhand-bookstore-in-wonderland__1.jpg"
+  - url: "./images/exhibitions/640/5-the-secondhand-bookstore-in-wonderland__1.jpg"
     permalink: 5-the-secondhand-bookstore-in-wonderland
     idx: 5
     project_name_ko: |
@@ -994,7 +1127,7 @@ projects:
       SEOUL (  ) SOUL
     title_ko: "이상한 나라의 헌책방"
     title_en: 2 Sang Books
-  - url: "./images/exhibitions/5-your-mind__1.jpg"
+  - url: "./images/exhibitions/640/5-your-mind__1.jpg"
     permalink: 5-your-mind
     idx: 5
     project_name_ko: |
@@ -1129,7 +1262,7 @@ projects:
   curator_bio_ko: |
     그래픽 디자이너. 홍익대학교 교수. 미국에서 태어나고 자란 교포 2세로, 버클리 대학교에서 건축을 전공하고 로드아일랜드 디자인학교에서 그래픽디자인으로 석사 학위를 받았다. 2010년부터 한국에 거주하며 디자인 글쓰기 및 타이포그래피 리서치 작업을 하는 한편 학생들과 함께 한국 시각문화를 탐구하는 ‘온돌’ 프로젝트를 진행해 오고 있다. '디자이너의 행복'과 '디지털 공예'라는 주제로 연구하고 작업해 오고 있다.
   photos:
-  - url: "./images/exhibitions/6-ban-yoon-jung__1.jpg"
+  - url: "./images/exhibitions/640/6-ban-yoon-jung__1.jpg"
     permalink: 6-ban-yoon-jung
     idx: 6
     project_name_ko: |
@@ -1138,7 +1271,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "홍단"
     title_en: Hongdan
-  - url: "./images/exhibitions/6-ban-yoon-jung__2.jpg"
+  - url: "./images/exhibitions/640/6-ban-yoon-jung__2.jpg"
     permalink: 6-ban-yoon-jung
     idx: 6
     project_name_ko: |
@@ -1147,7 +1280,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "홍단"
     title_en: Hongdan
-  - url: "./images/exhibitions/6-com__1.jpg"
+  - url: "./images/exhibitions/640/6-com__1.jpg"
     permalink: 6-com
     idx: 6
     project_name_ko: |
@@ -1156,7 +1289,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "한주원 + 김세중(COM)"
     title_en: Joowon Han + Sejoong Kim (COM)
-  - url: "./images/exhibitions/6-com__2.jpg"
+  - url: "./images/exhibitions/640/6-com__2.jpg"
     permalink: 6-com
     idx: 6
     project_name_ko: |
@@ -1165,16 +1298,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "한주원 + 김세중(COM)"
     title_en: Joowon Han + Sejoong Kim (COM)
-  - url: "./images/exhibitions/6-com__3.jpg"
-    permalink: 6-com
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: "한주원 + 김세중(COM)"
-    title_en: Joowon Han + Sejoong Kim (COM)
-  - url: "./images/exhibitions/6-corners__1.jpg"
+  - url: "./images/exhibitions/640/6-corners__1.jpg"
     permalink: 6-corners
     idx: 6
     project_name_ko: |
@@ -1183,7 +1307,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "코우너스"
     title_en: Corners
-  - url: "./images/exhibitions/6-corners__2.jpg"
+  - url: "./images/exhibitions/640/6-corners__2.jpg"
     permalink: 6-corners
     idx: 6
     project_name_ko: |
@@ -1192,7 +1316,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "코우너스"
     title_en: Corners
-  - url: "./images/exhibitions/6-dongwhan-kim__1.jpg"
+  - url: "./images/exhibitions/640/6-dongwhan-kim__1.jpg"
     permalink: 6-dongwhan-kim
     idx: 6
     project_name_ko: |
@@ -1201,7 +1325,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "김동환"
     title_en: Dongwhan Kim
-  - url: "./images/exhibitions/6-dongwhan-kim__2.jpg"
+  - url: "./images/exhibitions/640/6-dongwhan-kim__2.jpg"
     permalink: 6-dongwhan-kim
     idx: 6
     project_name_ko: |
@@ -1210,25 +1334,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "김동환"
     title_en: Dongwhan Kim
-  - url: "./images/exhibitions/6-dongwhan-kim__3.jpg"
-    permalink: 6-dongwhan-kim
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: "김동환"
-    title_en: Dongwhan Kim
-  - url: "./images/exhibitions/6-dongwhan-kim__4.jpg"
-    permalink: 6-dongwhan-kim
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: "김동환"
-    title_en: Dongwhan Kim
-  - url: "./images/exhibitions/6-hoon-kim__1.jpg"
+  - url: "./images/exhibitions/640/6-hoon-kim__1.jpg"
     permalink: 6-hoon-kim
     idx: 6
     project_name_ko: |
@@ -1237,7 +1343,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "김정훈"
     title_en: Hoon Kim
-  - url: "./images/exhibitions/6-hoon-kim__2.jpg"
+  - url: "./images/exhibitions/640/6-hoon-kim__2.jpg"
     permalink: 6-hoon-kim
     idx: 6
     project_name_ko: |
@@ -1246,7 +1352,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "김정훈"
     title_en: Hoon Kim
-  - url: "./images/exhibitions/6-jae-jeon__1.jpg"
+  - url: "./images/exhibitions/640/6-jae-jeon__1.jpg"
     permalink: 6-jae-jeon
     idx: 6
     project_name_ko: |
@@ -1255,7 +1361,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "전재운"
     title_en: Jae Jeon
-  - url: "./images/exhibitions/6-jae-jeon__2.jpg"
+  - url: "./images/exhibitions/640/6-jae-jeon__2.jpg"
     permalink: 6-jae-jeon
     idx: 6
     project_name_ko: |
@@ -1264,34 +1370,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "전재운"
     title_en: Jae Jeon
-  - url: "./images/exhibitions/6-jae-jeon__3.jpg"
-    permalink: 6-jae-jeon
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: "전재운"
-    title_en: Jae Jeon
-  - url: "./images/exhibitions/6-jae-jeon__4.jpg"
-    permalink: 6-jae-jeon
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: "전재운"
-    title_en: Jae Jeon
-  - url: "./images/exhibitions/6-jae-jeon__5.jpg"
-    permalink: 6-jae-jeon
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: "전재운"
-    title_en: Jae Jeon
-  - url: "./images/exhibitions/6-jin-jung__1.jpg"
+  - url: "./images/exhibitions/640/6-jin-jung__1.jpg"
     permalink: 6-jin-jung
     idx: 6
     project_name_ko: |
@@ -1300,25 +1379,16 @@ projects:
       JONGNO (   ) GA
     title_ko: "정진열"
     title_en: Jin Jung
-  - url: "./images/exhibitions/6-jongno-ga__1.jpg"
-    permalink: 6-jongno-ga
+  - url: "./images/exhibitions/640/6-jin-jung__2.jpg"
+    permalink: 6-jin-jung
     idx: 6
     project_name_ko: |
       종로 (  ) 가
     project_name_en: |
       JONGNO (   ) GA
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/6-jongno-ga__2.jpg"
-    permalink: 6-jongno-ga
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/6-lara-lee-n-oui-kim__1.jpg"
+    title_ko: "정진열"
+    title_en: Jin Jung
+  - url: "./images/exhibitions/640/6-lara-lee-n-oui-kim__1.jpg"
     permalink: 6-lara-lee-n-oui-kim
     idx: 6
     project_name_ko: |
@@ -1327,7 +1397,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "이송은 + 김성욱"
     title_en: Lara Lee + Oui Kim
-  - url: "./images/exhibitions/6-lara-lee-n-oui-kim__2.jpg"
+  - url: "./images/exhibitions/640/6-lara-lee-n-oui-kim__2.jpg"
     permalink: 6-lara-lee-n-oui-kim
     idx: 6
     project_name_ko: |
@@ -1336,7 +1406,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "이송은 + 김성욱"
     title_en: Lara Lee + Oui Kim
-  - url: "./images/exhibitions/6-mano-ahn__1.jpg"
+  - url: "./images/exhibitions/640/6-mano-ahn__1.jpg"
     permalink: 6-mano-ahn
     idx: 6
     project_name_ko: |
@@ -1345,7 +1415,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "안마노"
     title_en: Mano Ahn
-  - url: "./images/exhibitions/6-mano-ahn__2.jpg"
+  - url: "./images/exhibitions/640/6-mano-ahn__2.jpg"
     permalink: 6-mano-ahn
     idx: 6
     project_name_ko: |
@@ -1354,7 +1424,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "안마노"
     title_en: Mano Ahn
-  - url: "./images/exhibitions/6-marvin-lee-n-eli-park__1.jpg"
+  - url: "./images/exhibitions/640/6-marvin-lee-n-eli-park__1.jpg"
     permalink: 6-marvin-lee-n-eli-park
     idx: 6
     project_name_ko: |
@@ -1363,7 +1433,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "이마빈 + 일리 박 소렌슨"
     title_en: Marvin Lee + Eli Park Sorensen
-  - url: "./images/exhibitions/6-marvin-lee-n-eli-park__2.jpg"
+  - url: "./images/exhibitions/640/6-marvin-lee-n-eli-park__2.jpg"
     permalink: 6-marvin-lee-n-eli-park
     idx: 6
     project_name_ko: |
@@ -1372,16 +1442,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "이마빈 + 일리 박 소렌슨"
     title_en: Marvin Lee + Eli Park Sorensen
-  - url: "./images/exhibitions/6-marvin-lee-n-eli-park__3.jpg"
-    permalink: 6-marvin-lee-n-eli-park
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: "이마빈 + 일리 박 소렌슨"
-    title_en: Marvin Lee + Eli Park Sorensen
-  - url: "./images/exhibitions/6-mingoo-yoon__1.jpg"
+  - url: "./images/exhibitions/640/6-mingoo-yoon__1.jpg"
     permalink: 6-mingoo-yoon
     idx: 6
     project_name_ko: |
@@ -1390,7 +1451,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "윤민구"
     title_en: Mingoo Yoon
-  - url: "./images/exhibitions/6-mingoo-yoon__2.jpg"
+  - url: "./images/exhibitions/640/6-mingoo-yoon__2.jpg"
     permalink: 6-mingoo-yoon
     idx: 6
     project_name_ko: |
@@ -1399,16 +1460,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "윤민구"
     title_en: Mingoo Yoon
-  - url: "./images/exhibitions/6-mingoo-yoon__3.jpg"
-    permalink: 6-mingoo-yoon
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: "윤민구"
-    title_en: Mingoo Yoon
-  - url: "./images/exhibitions/6-moon-jang__1.jpg"
+  - url: "./images/exhibitions/640/6-moon-jang__1.jpg"
     permalink: 6-moon-jang
     idx: 6
     project_name_ko: |
@@ -1417,7 +1469,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "장문정"
     title_en: Moon Jang
-  - url: "./images/exhibitions/6-moon-jang__2.jpg"
+  - url: "./images/exhibitions/640/6-moon-jang__2.jpg"
     permalink: 6-moon-jang
     idx: 6
     project_name_ko: |
@@ -1426,7 +1478,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "장문정"
     title_en: Moon Jang
-  - url: "./images/exhibitions/6-ordinary-people__1.jpg"
+  - url: "./images/exhibitions/640/6-ordinary-people__1.jpg"
     permalink: 6-ordinary-people
     idx: 6
     project_name_ko: |
@@ -1435,7 +1487,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "오디너리 피플"
     title_en: Ordinary people
-  - url: "./images/exhibitions/6-ordinary-people__2.jpg"
+  - url: "./images/exhibitions/640/6-ordinary-people__10.jpg"
     permalink: 6-ordinary-people
     idx: 6
     project_name_ko: |
@@ -1444,7 +1496,79 @@ projects:
       JONGNO (   ) GA
     title_ko: "오디너리 피플"
     title_en: Ordinary people
-  - url: "./images/exhibitions/6-park-chanshin__1.jpg"
+  - url: "./images/exhibitions/640/6-ordinary-people__2.jpg"
+    permalink: 6-ordinary-people
+    idx: 6
+    project_name_ko: |
+      종로 (  ) 가
+    project_name_en: |
+      JONGNO (   ) GA
+    title_ko: "오디너리 피플"
+    title_en: Ordinary people
+  - url: "./images/exhibitions/640/6-ordinary-people__3.jpg"
+    permalink: 6-ordinary-people
+    idx: 6
+    project_name_ko: |
+      종로 (  ) 가
+    project_name_en: |
+      JONGNO (   ) GA
+    title_ko: "오디너리 피플"
+    title_en: Ordinary people
+  - url: "./images/exhibitions/640/6-ordinary-people__4.jpg"
+    permalink: 6-ordinary-people
+    idx: 6
+    project_name_ko: |
+      종로 (  ) 가
+    project_name_en: |
+      JONGNO (   ) GA
+    title_ko: "오디너리 피플"
+    title_en: Ordinary people
+  - url: "./images/exhibitions/640/6-ordinary-people__5.jpg"
+    permalink: 6-ordinary-people
+    idx: 6
+    project_name_ko: |
+      종로 (  ) 가
+    project_name_en: |
+      JONGNO (   ) GA
+    title_ko: "오디너리 피플"
+    title_en: Ordinary people
+  - url: "./images/exhibitions/640/6-ordinary-people__6.jpg"
+    permalink: 6-ordinary-people
+    idx: 6
+    project_name_ko: |
+      종로 (  ) 가
+    project_name_en: |
+      JONGNO (   ) GA
+    title_ko: "오디너리 피플"
+    title_en: Ordinary people
+  - url: "./images/exhibitions/640/6-ordinary-people__7.jpg"
+    permalink: 6-ordinary-people
+    idx: 6
+    project_name_ko: |
+      종로 (  ) 가
+    project_name_en: |
+      JONGNO (   ) GA
+    title_ko: "오디너리 피플"
+    title_en: Ordinary people
+  - url: "./images/exhibitions/640/6-ordinary-people__8.jpg"
+    permalink: 6-ordinary-people
+    idx: 6
+    project_name_ko: |
+      종로 (  ) 가
+    project_name_en: |
+      JONGNO (   ) GA
+    title_ko: "오디너리 피플"
+    title_en: Ordinary people
+  - url: "./images/exhibitions/640/6-ordinary-people__9.jpg"
+    permalink: 6-ordinary-people
+    idx: 6
+    project_name_ko: |
+      종로 (  ) 가
+    project_name_en: |
+      JONGNO (   ) GA
+    title_ko: "오디너리 피플"
+    title_en: Ordinary people
+  - url: "./images/exhibitions/640/6-park-chanshin__1.jpg"
     permalink: 6-park-chanshin
     idx: 6
     project_name_ko: |
@@ -1453,7 +1577,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "박찬신"
     title_en: Park Chan Shin
-  - url: "./images/exhibitions/6-park-chanshin__2.jpg"
+  - url: "./images/exhibitions/640/6-park-chanshin__2.jpg"
     permalink: 6-park-chanshin
     idx: 6
     project_name_ko: |
@@ -1462,16 +1586,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "박찬신"
     title_en: Park Chan Shin
-  - url: "./images/exhibitions/6-park-chanshin__3.jpg"
-    permalink: 6-park-chanshin
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: "박찬신"
-    title_en: Park Chan Shin
-  - url: "./images/exhibitions/6-shin-dockho__1.jpg"
+  - url: "./images/exhibitions/640/6-shin-dockho__1.jpg"
     permalink: 6-shin-dockho
     idx: 6
     project_name_ko: |
@@ -1480,7 +1595,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "신덕호"
     title_en: Shin Dokho
-  - url: "./images/exhibitions/6-shin-dockho__2.jpg"
+  - url: "./images/exhibitions/640/6-shin-dockho__2.jpg"
     permalink: 6-shin-dockho
     idx: 6
     project_name_ko: |
@@ -1489,7 +1604,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "신덕호"
     title_en: Shin Dokho
-  - url: "./images/exhibitions/6-uk-kim__1.jpg"
+  - url: "./images/exhibitions/640/6-uk-kim__1.jpg"
     permalink: 6-uk-kim
     idx: 6
     project_name_ko: |
@@ -1498,16 +1613,7 @@ projects:
       JONGNO (   ) GA
     title_ko: "김욱"
     title_en: Uk Kim
-  - url: "./images/exhibitions/6-uk-kim__2.jpg"
-    permalink: 6-uk-kim
-    idx: 6
-    project_name_ko: |
-      종로 (  ) 가
-    project_name_en: |
-      JONGNO (   ) GA
-    title_ko: "김욱"
-    title_en: Uk Kim
-  - url: "./images/exhibitions/6-uk-kim__3.jpg"
+  - url: "./images/exhibitions/640/6-uk-kim__2.jpg"
     permalink: 6-uk-kim
     idx: 6
     project_name_ko: |
@@ -1563,34 +1669,55 @@ projects:
   curator_bio_ko: |
     그래픽 디자이너. 로드아일랜드 디자인학교에서 그래픽디자인, 바젤 디자인학교에서 타이포그래피를 전공했다. 홍익대학교에서 연구원으로 일하며 『바젤 디자인학교 디자인 교육 연구』로 석사 논문을 썼다. 옮긴 책으로 《타이포그래피 교과서》(2010), 《당신이 읽는 동안》(2013)이 있다. 홍익대학교와 한국예술종합학교에서 타이포그래피를 가르쳤고, 현재 파주타이포그라피학교 스승으로 일하고 있다.
   photos:
-  - url: "./images/exhibitions/7-pati__1.jpg"
-    permalink: 7-pati
+  - url: "./images/exhibitions/640/7-book-bricks__1.jpg"
+    permalink: 7-book-bricks
     idx: 7
     project_name_ko: "책 벽돌"
     project_name_en: BOOK BRICKS
-    title_ko: "파주타이포그라피학교"
-    title_en: PaTi
-  - url: "./images/exhibitions/7-pati__2.jpg"
-    permalink: 7-pati
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/7-book-bricks__2.jpg"
+    permalink: 7-book-bricks
     idx: 7
     project_name_ko: "책 벽돌"
     project_name_en: BOOK BRICKS
-    title_ko: "파주타이포그라피학교"
-    title_en: PaTi
-  - url: "./images/exhibitions/7-pati__3.jpg"
-    permalink: 7-pati
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/7-book-bricks__3.jpg"
+    permalink: 7-book-bricks
     idx: 7
     project_name_ko: "책 벽돌"
     project_name_en: BOOK BRICKS
-    title_ko: "파주타이포그라피학교"
-    title_en: PaTi
-  - url: "./images/exhibitions/7-pati__4.jpg"
-    permalink: 7-pati
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/7-book-bricks__4.jpg"
+    permalink: 7-book-bricks
     idx: 7
     project_name_ko: "책 벽돌"
     project_name_en: BOOK BRICKS
-    title_ko: "파주타이포그라피학교"
-    title_en: PaTi
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/7-book-bricks__5.jpg"
+    permalink: 7-book-bricks
+    idx: 7
+    project_name_ko: "책 벽돌"
+    project_name_en: BOOK BRICKS
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/7-book-bricks__6.jpg"
+    permalink: 7-book-bricks
+    idx: 7
+    project_name_ko: "책 벽돌"
+    project_name_en: BOOK BRICKS
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/7-book-bricks__7.jpg"
+    permalink: 7-book-bricks
+    idx: 7
+    project_name_ko: "책 벽돌"
+    project_name_en: BOOK BRICKS
+    title_ko: 
+    title_en: 
 - idx: 8
   project_name_en: CITY WELCOMES YOU
   project_name_ko: "도시 환영(幻影/歡迎) 문자"
@@ -1642,224 +1769,161 @@ projects:
     full_name_ko: "조현 + 닐스 클라우스"
     url: "/projects/artworks/8-hyun-cho-n-clauss-nils.yml"
   photos:
-  - url: "./images/exhibitions/8-akiko-masunaga__1.jpg"
-    permalink: 8-akiko-masunaga
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "마수나가 아키코"
-    title_en: Akiko Masunaga
-  - url: "./images/exhibitions/8-berger-stadel-walsh__2.jpg"
+  - url: "./images/exhibitions/640/8-berger-stadel-walsh__1.jpg"
     permalink: 8-berger-stadel-walsh
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "부르게르 + 슈타델 + 월시"
     title_en: berger + stadel + walsh
-  - url: "./images/exhibitions/8-berger-stadel-walsh__3.jpg"
+  - url: "./images/exhibitions/640/8-berger-stadel-walsh__2.jpg"
     permalink: 8-berger-stadel-walsh
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "부르게르 + 슈타델 + 월시"
     title_en: berger + stadel + walsh
-  - url: "./images/exhibitions/8-bongkyu-song__1.jpg"
+  - url: "./images/exhibitions/640/8-bongkyu-song__1.jpg"
     permalink: 8-bongkyu-song
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "송봉규"
     title_en: Bongkyu Song
-  - url: "./images/exhibitions/8-bongkyu-song__2.jpg"
-    permalink: 8-bongkyu-song
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "송봉규"
-    title_en: Bongkyu Song
-  - url: "./images/exhibitions/8-choongho-lee__1.jpg"
+  - url: "./images/exhibitions/640/8-choongho-lee__1.jpg"
     permalink: 8-choongho-lee
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "이충호"
     title_en: Choongho Lee
-  - url: "./images/exhibitions/8-choongho-lee__2.jpg"
+  - url: "./images/exhibitions/640/8-choongho-lee__2.jpg"
     permalink: 8-choongho-lee
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "이충호"
     title_en: Choongho Lee
-  - url: "./images/exhibitions/8-city-welcomes-you__1.jpg"
+  - url: "./images/exhibitions/640/8-city-welcomes-you__1.jpg"
     permalink: 8-city-welcomes-you
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/8-city-welcomes-you__2.jpg"
+  - url: "./images/exhibitions/640/8-city-welcomes-you__2.jpg"
     permalink: 8-city-welcomes-you
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/8-clark-corp__1.jpg"
+  - url: "./images/exhibitions/640/8-city-welcomes-you__3.jpg"
+    permalink: 8-city-welcomes-you
+    idx: 8
+    project_name_ko: "도시 환영(幻影/歡迎) 문자"
+    project_name_en: CITY WELCOMES YOU
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/8-city-welcomes-you__4.jpg"
+    permalink: 8-city-welcomes-you
+    idx: 8
+    project_name_ko: "도시 환영(幻影/歡迎) 문자"
+    project_name_en: CITY WELCOMES YOU
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/8-clark-corp__1.jpg"
     permalink: 8-clark-corp
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "클라크 코프"
     title_en: Clark Corp
-  - url: "./images/exhibitions/8-clark-corp__2.jpg"
+  - url: "./images/exhibitions/640/8-clark-corp__2.jpg"
     permalink: 8-clark-corp
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "클라크 코프"
     title_en: Clark Corp
-  - url: "./images/exhibitions/8-clauss-nils__1.jpg"
+  - url: "./images/exhibitions/640/8-clauss-nils__1.jpg"
     permalink: 8-clauss-nils
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "닐스 클라우스"
     title_en: Nils Clauss
-  - url: "./images/exhibitions/8-clauss-nils__2.jpg"
+  - url: "./images/exhibitions/640/8-clauss-nils__2.jpg"
     permalink: 8-clauss-nils
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "닐스 클라우스"
     title_en: Nils Clauss
-  - url: "./images/exhibitions/8-clauss-nils__3.jpg"
-    permalink: 8-clauss-nils
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "닐스 클라우스"
-    title_en: Nils Clauss
-  - url: "./images/exhibitions/8-clauss-nils__4.jpg"
-    permalink: 8-clauss-nils
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "닐스 클라우스"
-    title_en: Nils Clauss
-  - url: "./images/exhibitions/8-daeki-shim__1.jpg"
+  - url: "./images/exhibitions/640/8-daeki-shim__1.jpg"
     permalink: 8-daeki-shim
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "심대기"
     title_en: Dae Ki Shim
-  - url: "./images/exhibitions/8-daeki-shim__2.jpg"
-    permalink: 8-daeki-shim
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "심대기"
-    title_en: Dae Ki Shim
-  - url: "./images/exhibitions/8-daeki-shim__3.jpg"
-    permalink: 8-daeki-shim
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "심대기"
-    title_en: Dae Ki Shim
-  - url: "./images/exhibitions/8-daeki-shim__4.jpg"
-    permalink: 8-daeki-shim
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "심대기"
-    title_en: Dae Ki Shim
-  - url: "./images/exhibitions/8-design-methods__1.jpg"
-    permalink: 8-design-methods
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "디자인 메소즈"
-    title_en: Design Methods
-  - url: "./images/exhibitions/8-design-methods__2.jpg"
-    permalink: 8-design-methods
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "디자인 메소즈"
-    title_en: Design Methods
-  - url: "./images/exhibitions/8-doosung__1.jpg"
+  - url: "./images/exhibitions/640/8-doosung__1.jpg"
     permalink: 8-doosung
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "두성종이 디자인연구소"
     title_en: Doosungpaper Design Lab
-  - url: "./images/exhibitions/8-doosung__2.jpg"
+  - url: "./images/exhibitions/640/8-doosung__2.jpg"
     permalink: 8-doosung
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "두성종이 디자인연구소"
     title_en: Doosungpaper Design Lab
-  - url: "./images/exhibitions/8-gang-moonsick__1.jpg"
+  - url: "./images/exhibitions/640/8-gang-moonsick__1.jpg"
     permalink: 8-gang-moonsick
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "강문식"
     title_en: Gang Moonsick
-  - url: "./images/exhibitions/8-gang-moonsick__2.jpg"
+  - url: "./images/exhibitions/640/8-gang-moonsick__2.jpg"
     permalink: 8-gang-moonsick
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "강문식"
     title_en: Gang Moonsick
-  - url: "./images/exhibitions/8-gang-moonsick__3.jpg"
-    permalink: 8-gang-moonsick
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "강문식"
-    title_en: Gang Moonsick
-  - url: "./images/exhibitions/8-hyojun-shim-n-wong__1.jpg"
+  - url: "./images/exhibitions/640/8-hyojun-shim-n-wong__1.jpg"
     permalink: 8-hyojun-shim-n-wong
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "심효준 + 키이스 웡"
     title_en: Hyojun Shim + Keith Wong
-  - url: "./images/exhibitions/8-hyojun-shim-n-wong__2.jpg"
+  - url: "./images/exhibitions/640/8-hyojun-shim-n-wong__2.jpg"
     permalink: 8-hyojun-shim-n-wong
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "심효준 + 키이스 웡"
     title_en: Hyojun Shim + Keith Wong
-  - url: "./images/exhibitions/8-mathew-kneebone__1.jpg"
-    permalink: 8-mathew-kneebone
+  - url: "./images/exhibitions/640/8-hyojun-shim-n-wong__3.jpg"
+    permalink: 8-hyojun-shim-n-wong
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
-    title_ko: "매슈 니본"
-    title_en: Mathew Kneebone
-  - url: "./images/exhibitions/8-team-thursday__1.jpg"
+    title_ko: "심효준 + 키이스 웡"
+    title_en: Hyojun Shim + Keith Wong
+  - url: "./images/exhibitions/640/8-team-thursday__1.jpg"
     permalink: 8-team-thursday
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
     project_name_en: CITY WELCOMES YOU
     title_ko: "팀 서즈데이"
     title_en: Team Thursday
-  - url: "./images/exhibitions/8-team-thursday__2.jpg"
-    permalink: 8-team-thursday
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: "팀 서즈데이"
-    title_en: Team Thursday
-  - url: "./images/exhibitions/8-team-thursday__3.jpg"
+  - url: "./images/exhibitions/640/8-team-thursday__2.jpg"
     permalink: 8-team-thursday
     idx: 8
     project_name_ko: "도시 환영(幻影/歡迎) 문자"
@@ -1914,119 +1978,119 @@ projects:
   curator_bio_ko: |
     박경식은 미국 위스콘신주 밀워키에서 커뮤니케이션 디자인 전공, 국제 디자인 전문대학원(IDAS)에서 디자인경영을 공부했다. 현재, 앤엔코라는 1일 그래픽 디자인 스튜디오 대표로 일하고 있으며, 타이포그래피 계간지 &lt;ㅎ&gt;의 편집장으로 일하고 있다. 또한, 삼성디자인학교와 건국대학교에서 각각 2008년, 2006년부터 줄곧 강의하고 있다. 여러 학회에서 논문 발표하였고, 최근 2012년홍콩에서 ATyPI 학회에 참여했다. 현재 한국 타이포그래피 학회 회원이며 학회지 &lt;글자씨&gt; 에 기고하고 있다. 그는 현재 서울 동부 끝자락에서 아내와 아들 셋이서 작은 연립에 거주하고 있다. 여가로 산타기, 공포영화 관람, 미국 만화 수집 그리고 철인28호 피규어를 모은다.
   photos:
-  - url: "./images/exhibitions/9-baemin-kathleen-kye__1.jpg"
+  - url: "./images/exhibitions/640/9-baemin-kathleen-kye__1.jpg"
     permalink: 9-baemin-kathleen-kye
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "배달의민족, 계한희"
     title_en: Baemin & Kathleen Kye
-  - url: "./images/exhibitions/9-baemin-kathleen-kye__2.jpg"
-    permalink: 9-baemin-kathleen-kye
-    idx: 9
-    project_name_ko: "도시언어유희"
-    project_name_en: URBAN WORDPLAY
-    title_ko: "배달의민족, 계한희"
-    title_en: Baemin & Kathleen Kye
-  - url: "./images/exhibitions/9-fritz-park__1.jpg"
+  - url: "./images/exhibitions/640/9-fritz-park__1.jpg"
     permalink: 9-fritz-park
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "박경식"
     title_en: Fritz K. Park
-  - url: "./images/exhibitions/9-fritz-park__2.jpg"
+  - url: "./images/exhibitions/640/9-fritz-park__2.jpg"
     permalink: 9-fritz-park
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "박경식"
     title_en: Fritz K. Park
-  - url: "./images/exhibitions/9-hyungchul-kim__1.jpg"
+  - url: "./images/exhibitions/640/9-hyungchul-kim__1.jpg"
     permalink: 9-hyungchul-kim
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "김형철"
     title_en: Hyung-chul Kim
-  - url: "./images/exhibitions/9-hyungchul-kim__2.jpg"
+  - url: "./images/exhibitions/640/9-hyungchul-kim__2.jpg"
     permalink: 9-hyungchul-kim
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "김형철"
     title_en: Hyung-chul Kim
-  - url: "./images/exhibitions/9-kimgarden-standard__1.jpg"
+  - url: "./images/exhibitions/640/9-kimgarden-standard__1.jpg"
     permalink: 9-kimgarden-standard
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "김가든 x 스탠다드스탠다드"
     title_en: kimgarden x Standardstandard
-  - url: "./images/exhibitions/9-kimgarden-standard__2.jpg"
+  - url: "./images/exhibitions/640/9-kimgarden-standard__2.jpg"
     permalink: 9-kimgarden-standard
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "김가든 x 스탠다드스탠다드"
     title_en: kimgarden x Standardstandard
-  - url: "./images/exhibitions/9-mykc__1.jpg"
+  - url: "./images/exhibitions/640/9-mykc__1.jpg"
     permalink: 9-mykc
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "마이케이씨"
     title_en: MYKC
-  - url: "./images/exhibitions/9-sparks-edition__1.jpg"
+  - url: "./images/exhibitions/640/9-mykc__2.jpg"
+    permalink: 9-mykc
+    idx: 9
+    project_name_ko: "도시언어유희"
+    project_name_en: URBAN WORDPLAY
+    title_ko: "마이케이씨"
+    title_en: MYKC
+  - url: "./images/exhibitions/640/9-sparks-edition__1.jpg"
     permalink: 9-sparks-edition
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "스팍스 에디션"
     title_en: Sparks Edition
-  - url: "./images/exhibitions/9-sparks-edition__2.jpg"
+  - url: "./images/exhibitions/640/9-sparks-edition__2.jpg"
     permalink: 9-sparks-edition
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "스팍스 에디션"
     title_en: Sparks Edition
-  - url: "./images/exhibitions/9-studio-jot__1.jpg"
+  - url: "./images/exhibitions/640/9-sparks-edition__3.jpg"
+    permalink: 9-sparks-edition
+    idx: 9
+    project_name_ko: "도시언어유희"
+    project_name_en: URBAN WORDPLAY
+    title_ko: "스팍스 에디션"
+    title_en: Sparks Edition
+  - url: "./images/exhibitions/640/9-studio-jot__1.jpg"
     permalink: 9-studio-jot
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "스튜디오 좋"
     title_en: Studio Jot
-  - url: "./images/exhibitions/9-studio-jot__2.jpg"
+  - url: "./images/exhibitions/640/9-studio-jot__2.jpg"
     permalink: 9-studio-jot
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "스튜디오 좋"
     title_en: Studio Jot
-  - url: "./images/exhibitions/9-works__1.jpg"
+  - url: "./images/exhibitions/640/9-works__1.jpg"
     permalink: 9-works
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "워크스"
     title_en: Works
-  - url: "./images/exhibitions/9-works__2.jpg"
-    permalink: 9-works
-    idx: 9
-    project_name_ko: "도시언어유희"
-    project_name_en: URBAN WORDPLAY
-    title_ko: "워크스"
-    title_en: Works
-  - url: "./images/exhibitions/9-youngha-park__1.jpg"
+  - url: "./images/exhibitions/640/9-youngha-park__1.jpg"
     permalink: 9-youngha-park
     idx: 9
     project_name_ko: "도시언어유희"
     project_name_en: URBAN WORDPLAY
     title_ko: "박영하"
     title_en: Youngha Park
-  - url: "./images/exhibitions/9-youngha-park__2.jpg"
+  - url: "./images/exhibitions/640/9-youngha-park__2.jpg"
     permalink: 9-youngha-park
     idx: 9
     project_name_ko: "도시언어유희"
@@ -2081,154 +2145,154 @@ projects:
   curator_bio_ko: |
     그래픽 디자이너. 홍익대학교 시각디자인과를 졸업하고 무사시노 미술대학교에서 석사 학위를 받았다. 안그라픽스 디자이너, 눈디자인 디자인 디렉터로 일했으며 진달래 동인이다. 현재 서울여자대학교 시각디자인과 교수로 학생들을 가르치며 한글의 모습을 현대적, 입체적으로 표현하는 디자인 작업을 하고 있다. 옮긴 책으로   &lt;디자인의 디자인 &gt; (2007)이 있다.
   photos:
-  - url: "./images/exhibitions/10-a-city-without-__1.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__1.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__10.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__10.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__11.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__11.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__12.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__12.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__13.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__13.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__14.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__14.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__15.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__15.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__16.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__16.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__17.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__17.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__18.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__18.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__19.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__19.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__2.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__2.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__20.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__20.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__21.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__21.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__22.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__22.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__3.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__3.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__4.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__4.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__5.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__5.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__6.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__6.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__7.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__7.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__8.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__8.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/10-a-city-without-__9.jpg"
+  - url: "./images/exhibitions/640/10-a-city-without-__9.jpg"
     permalink: 10-a-city-without-
     idx: 10
     project_name_ko: "결여의 도시"
@@ -2294,7 +2358,7 @@ projects:
     플래툰 쿤스트할레, 우영미, 요기요 등의 브랜딩 및 현대백화점, 국립현대무용단 캠페인 작업을 했다. 권오현은 2013년부터 홍익대학교에서 시각디자인을
     가르치고 있다.\n"
   photos:
-  - url: "./images/exhibitions/11-guteform-jiwon-yu__1.jpg"
+  - url: "./images/exhibitions/640/11-guteform-jiwon-yu__1.jpg"
     permalink: 11-guteform-jiwon-yu
     idx: 11
     project_name_ko: "도시문자 르포르타주"
@@ -2316,28 +2380,21 @@ projects:
   curator_bio_en: ''
   curator_bio_ko: ''
   photos:
-  - url: "./images/exhibitions/12-zero-lab__1.jpg"
+  - url: "./images/exhibitions/640/12-zero-lab__1.jpg"
     permalink: 12-zero-lab
     idx: 12
     project_name_ko: "전시공간 프로젝트"
     project_name_en: EXHIBITION SPACE
     title_ko: "제로랩"
     title_en: Zero Lab
-  - url: "./images/exhibitions/12-zero-lab__2.jpg"
+  - url: "./images/exhibitions/640/12-zero-lab__2.jpg"
     permalink: 12-zero-lab
     idx: 12
     project_name_ko: "전시공간 프로젝트"
     project_name_en: EXHIBITION SPACE
     title_ko: "제로랩"
     title_en: Zero Lab
-  - url: "./images/exhibitions/12-zero-lab__3.jpg"
-    permalink: 12-zero-lab
-    idx: 12
-    project_name_ko: "전시공간 프로젝트"
-    project_name_en: EXHIBITION SPACE
-    title_ko: "제로랩"
-    title_en: Zero Lab
-  - url: "./images/exhibitions/12-zero-lab__4.jpg"
+  - url: "./images/exhibitions/640/12-zero-lab__3.jpg"
     permalink: 12-zero-lab
     idx: 12
     project_name_ko: "전시공간 프로젝트"
@@ -2372,7 +2429,7 @@ projects:
   curator_bio_en: ''
   curator_bio_ko: ''
   photos:
-  - url: "./images/exhibitions/14-nolgong__1.jpg"
+  - url: "./images/exhibitions/640/14-nolgong__1.jpg"
     permalink: 14-nolgong
     idx: 14
     project_name_ko: "도슨트 프로젝트"
@@ -2392,7 +2449,105 @@ projects:
   project_desc_ko: ''
   curator_bio_en: ''
   curator_bio_ko: ''
-  photos: []
+  photos:
+  - url: "./images/exhibitions/640/15-dappertutto__1.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__10.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__11.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__12.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__13.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__14.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__2.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__3.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__4.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__5.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__6.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__7.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__8.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
+  - url: "./images/exhibitions/640/15-dappertutto__9.jpg"
+    permalink: 15-dappertutto
+    idx: 15
+    project_name_ko: "개막식 공연 프로젝트"
+    project_name_en: OPENING PERFORMANCE
+    title_ko: "다페르튜토 스튜디오"
+    title_en: Dappertutto Studio
 - idx: 16
   project_name_en: NEWSLETTER PROJECT
   project_name_ko: "뉴스레터 프로젝트"
@@ -2407,7 +2562,7 @@ projects:
   curator_bio_en: ''
   curator_bio_ko: ''
   photos:
-  - url: "./images/exhibitions/16-mediabus-shinshin__1.jpg"
+  - url: "./images/exhibitions/640/16-mediabus-shinshin__1.jpg"
     permalink: 16-mediabus-shinshin
     idx: 16
     project_name_ko: "뉴스레터 프로젝트"
@@ -2427,7 +2582,21 @@ projects:
   project_desc_ko: ''
   curator_bio_en: ''
   curator_bio_ko: ''
-  photos: []
+  photos:
+  - url: "./images/exhibitions/640/17-rebel9__1.jpg"
+    permalink: 17-rebel9
+    idx: 17
+    project_name_ko: "아카이빙앱 프로젝트"
+    project_name_en: ARCHIVING APP
+    title_ko: "레벨나인"
+    title_en: rebel9
+  - url: "./images/exhibitions/640/17-rebel9__2.jpg"
+    permalink: 17-rebel9
+    idx: 17
+    project_name_ko: "아카이빙앱 프로젝트"
+    project_name_en: ARCHIVING APP
+    title_ko: "레벨나인"
+    title_en: rebel9
 - idx: 18
   project_name_en: REPORT ON THE COMPOSITION OF A CITY
   project_name_ko: "도시 구성 리포트"
@@ -2445,14 +2614,28 @@ projects:
     Powered by Doosung Paper
   curator_bio_ko: "두성종이 \n"
   photos:
-  - url: "./images/exhibitions/18-doosung__1.jpg"
+  - url: "./images/exhibitions/640/18-doosung__1.jpg"
     permalink: 18-doosung
     idx: 18
     project_name_ko: "도시 구성 리포트"
     project_name_en: REPORT ON THE COMPOSITION OF A CITY
     title_ko: "두성종이 디자인연구소"
     title_en: Doosungpaper Design Lab
-  - url: "./images/exhibitions/18-doosung__2.jpg"
+  - url: "./images/exhibitions/640/18-doosung__2.jpg"
+    permalink: 18-doosung
+    idx: 18
+    project_name_ko: "도시 구성 리포트"
+    project_name_en: REPORT ON THE COMPOSITION OF A CITY
+    title_ko: "두성종이 디자인연구소"
+    title_en: Doosungpaper Design Lab
+  - url: "./images/exhibitions/640/18-doosung__3.jpg"
+    permalink: 18-doosung
+    idx: 18
+    project_name_ko: "도시 구성 리포트"
+    project_name_en: REPORT ON THE COMPOSITION OF A CITY
+    title_ko: "두성종이 디자인연구소"
+    title_en: Doosungpaper Design Lab
+  - url: "./images/exhibitions/640/18-doosung__4.jpg"
     permalink: 18-doosung
     idx: 18
     project_name_ko: "도시 구성 리포트"

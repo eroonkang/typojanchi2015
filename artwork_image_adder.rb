@@ -29,7 +29,7 @@ Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
     artwork_yaml["photos"] = []
     # puts idx
     
-    Dir["./images/exhibitions/*.jpg"].each_with_index do |jpg_name, i|
+    Dir["./images/exhibitions/640/*.jpg"].each_with_index do |jpg_name, i|
       # byebug
       permalink = conv_to_permalink_jpg(jpg_name)
       info = YAML.load_file("./projects/artworks/#{permalink}.yml")
@@ -57,7 +57,7 @@ Dir["./projects/artworks/*.yml"].each_with_index do |filename, i|
     artwork_yaml["photos"] = []
     
 
-    Dir["./images/exhibitions/*.jpg"].each_with_index do |jpg_name, i|
+    Dir["./images/exhibitions/640/*.jpg"].each_with_index do |jpg_name, i|
       unless jpg_name.index(permalink) == nil
         artwork_yaml["photos"] << jpg_name
       end

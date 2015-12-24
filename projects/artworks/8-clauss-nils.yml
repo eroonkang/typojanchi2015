@@ -34,7 +34,5 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/8-clauss-nils__1.jpg"
-- "./images/exhibitions/8-clauss-nils__2.jpg"
-- "./images/exhibitions/8-clauss-nils__3.jpg"
-- "./images/exhibitions/8-clauss-nils__4.jpg"
+- "./images/exhibitions/640/8-clauss-nils__1.jpg"
+- "./images/exhibitions/640/8-clauss-nils__2.jpg"

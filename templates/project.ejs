@@ -40,7 +40,7 @@
       <% _.each(project.photos, function(photo){ %>
         <div class="cols triple artwork-photo">
           <figure>
-            <a href="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>" data-lightbox="image-1"><img src="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>"></a>
+            <a href="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length).replace("640", "1600") %>" data-lightbox="image"><img src="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>"></a>
           </figure>
         </div>
       <% }); %>

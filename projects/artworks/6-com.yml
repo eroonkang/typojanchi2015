@@ -33,6 +33,5 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/6-com__1.jpg"
-- "./images/exhibitions/6-com__2.jpg"
-- "./images/exhibitions/6-com__3.jpg"
+- "./images/exhibitions/640/6-com__1.jpg"
+- "./images/exhibitions/640/6-com__2.jpg"

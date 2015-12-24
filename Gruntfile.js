@@ -31,6 +31,7 @@ module.exports = function(grunt) {
             'javascripts/src/vendor/retina.min.js',  
             'javascripts/src/vendor/leaflet-src.js',
             'javascripts/src/vendor/ngraph.graph.js', 
+            'javascripts/src/vendor/imagesloaded.pkgd.min.js', 
             'javascripts/src/vendor/turf.min.js',   
             'javascripts/src/vendor/rAF.js',
             'javascripts/src/vendor/vector2.js',

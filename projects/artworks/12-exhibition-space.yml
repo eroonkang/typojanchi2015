@@ -11,28 +11,21 @@ curator_bio_en: ''
 curator_bio_ko: ''
 type: Project
 photos:
-- url: "./images/exhibitions/12-zero-lab__1.jpg"
+- url: "./images/exhibitions/640/12-zero-lab__1.jpg"
   permalink: 12-zero-lab
   idx: 12
   project_name_ko: "전시공간 프로젝트"
   project_name_en: EXHIBITION SPACE
   title_ko: "제로랩"
   title_en: Zero Lab
-- url: "./images/exhibitions/12-zero-lab__2.jpg"
+- url: "./images/exhibitions/640/12-zero-lab__2.jpg"
   permalink: 12-zero-lab
   idx: 12
   project_name_ko: "전시공간 프로젝트"
   project_name_en: EXHIBITION SPACE
   title_ko: "제로랩"
   title_en: Zero Lab
-- url: "./images/exhibitions/12-zero-lab__3.jpg"
-  permalink: 12-zero-lab
-  idx: 12
-  project_name_ko: "전시공간 프로젝트"
-  project_name_en: EXHIBITION SPACE
-  title_ko: "제로랩"
-  title_en: Zero Lab
-- url: "./images/exhibitions/12-zero-lab__4.jpg"
+- url: "./images/exhibitions/640/12-zero-lab__3.jpg"
   permalink: 12-zero-lab
   idx: 12
   project_name_ko: "전시공간 프로젝트"

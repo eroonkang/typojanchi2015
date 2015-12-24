@@ -32,5 +32,6 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/9-sparks-edition__1.jpg"
-- "./images/exhibitions/9-sparks-edition__2.jpg"
+- "./images/exhibitions/640/9-sparks-edition__1.jpg"
+- "./images/exhibitions/640/9-sparks-edition__2.jpg"
+- "./images/exhibitions/640/9-sparks-edition__3.jpg"

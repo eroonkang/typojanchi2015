@@ -35,8 +35,4 @@ venue_country_en: KR
 venue_country_ko: "한국"
 venue_lat: 37.70824
 venue_lng: 126.68672
-photos:
-- "./images/exhibitions/7-pati__1.jpg"
-- "./images/exhibitions/7-pati__2.jpg"
-- "./images/exhibitions/7-pati__3.jpg"
-- "./images/exhibitions/7-pati__4.jpg"
+photos: []

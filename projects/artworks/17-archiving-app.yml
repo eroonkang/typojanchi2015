@@ -10,4 +10,18 @@ project_desc_ko: ''
 curator_bio_en: ''
 curator_bio_ko: ''
 type: Project
-photos: []
+photos:
+- url: "./images/exhibitions/640/17-rebel9__1.jpg"
+  permalink: 17-rebel9
+  idx: 17
+  project_name_ko: "아카이빙앱 프로젝트"
+  project_name_en: ARCHIVING APP
+  title_ko: "레벨나인"
+  title_en: rebel9
+- url: "./images/exhibitions/640/17-rebel9__2.jpg"
+  permalink: 17-rebel9
+  idx: 17
+  project_name_ko: "아카이빙앱 프로젝트"
+  project_name_en: ARCHIVING APP
+  title_ko: "레벨나인"
+  title_en: rebel9

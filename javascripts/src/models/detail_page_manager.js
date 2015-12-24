@@ -134,6 +134,9 @@ WY.models.DetailPageManager = (function(){
         project: WY.constants.projects_data.projects[this.project_id - 1]
       })));
 
+      $('img').each(function(){
+        new RetinaImage(this);
+      });
 
       this.el.find("#content .participant_change_btn").click(function(e){
         e.preventDefault();

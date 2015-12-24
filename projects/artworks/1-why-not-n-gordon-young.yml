@@ -33,7 +33,6 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-- "./images/exhibitions/1-why-not-n-gordon-young__1.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young__2.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young__3.jpg"
-- "./images/exhibitions/1-why-not-n-gordon-young__4.jpg"
+- "./images/exhibitions/640/1-why-not-n-gordon-young__1.jpg"
+- "./images/exhibitions/640/1-why-not-n-gordon-young__2.jpg"
+- "./images/exhibitions/640/1-why-not-n-gordon-young__3.jpg"

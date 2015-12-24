@@ -11,7 +11,7 @@ curator_bio_en: ''
 curator_bio_ko: ''
 type: Project
 photos:
-- url: "./images/exhibitions/16-mediabus-shinshin__1.jpg"
+- url: "./images/exhibitions/640/16-mediabus-shinshin__1.jpg"
   permalink: 16-mediabus-shinshin
   idx: 16
   project_name_ko: "뉴스레터 프로젝트"

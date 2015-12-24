@@ -17,119 +17,119 @@ curator_bio_ko: |
   박경식은 미국 위스콘신주 밀워키에서 커뮤니케이션 디자인 전공, 국제 디자인 전문대학원(IDAS)에서 디자인경영을 공부했다. 현재, 앤엔코라는 1일 그래픽 디자인 스튜디오 대표로 일하고 있으며, 타이포그래피 계간지 &lt;ㅎ&gt;의 편집장으로 일하고 있다. 또한, 삼성디자인학교와 건국대학교에서 각각 2008년, 2006년부터 줄곧 강의하고 있다. 여러 학회에서 논문 발표하였고, 최근 2012년홍콩에서 ATyPI 학회에 참여했다. 현재 한국 타이포그래피 학회 회원이며 학회지 &lt;글자씨&gt; 에 기고하고 있다. 그는 현재 서울 동부 끝자락에서 아내와 아들 셋이서 작은 연립에 거주하고 있다. 여가로 산타기, 공포영화 관람, 미국 만화 수집 그리고 철인28호 피규어를 모은다.
 type: Project
 photos:
-- url: "./images/exhibitions/9-baemin-kathleen-kye__1.jpg"
+- url: "./images/exhibitions/640/9-baemin-kathleen-kye__1.jpg"
   permalink: 9-baemin-kathleen-kye
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "배달의민족, 계한희"
   title_en: Baemin & Kathleen Kye
-- url: "./images/exhibitions/9-baemin-kathleen-kye__2.jpg"
-  permalink: 9-baemin-kathleen-kye
-  idx: 9
-  project_name_ko: "도시언어유희"
-  project_name_en: URBAN WORDPLAY
-  title_ko: "배달의민족, 계한희"
-  title_en: Baemin & Kathleen Kye
-- url: "./images/exhibitions/9-fritz-park__1.jpg"
+- url: "./images/exhibitions/640/9-fritz-park__1.jpg"
   permalink: 9-fritz-park
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "박경식"
   title_en: Fritz K. Park
-- url: "./images/exhibitions/9-fritz-park__2.jpg"
+- url: "./images/exhibitions/640/9-fritz-park__2.jpg"
   permalink: 9-fritz-park
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "박경식"
   title_en: Fritz K. Park
-- url: "./images/exhibitions/9-hyungchul-kim__1.jpg"
+- url: "./images/exhibitions/640/9-hyungchul-kim__1.jpg"
   permalink: 9-hyungchul-kim
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "김형철"
   title_en: Hyung-chul Kim
-- url: "./images/exhibitions/9-hyungchul-kim__2.jpg"
+- url: "./images/exhibitions/640/9-hyungchul-kim__2.jpg"
   permalink: 9-hyungchul-kim
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "김형철"
   title_en: Hyung-chul Kim
-- url: "./images/exhibitions/9-kimgarden-standard__1.jpg"
+- url: "./images/exhibitions/640/9-kimgarden-standard__1.jpg"
   permalink: 9-kimgarden-standard
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "김가든 x 스탠다드스탠다드"
   title_en: kimgarden x Standardstandard
-- url: "./images/exhibitions/9-kimgarden-standard__2.jpg"
+- url: "./images/exhibitions/640/9-kimgarden-standard__2.jpg"
   permalink: 9-kimgarden-standard
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "김가든 x 스탠다드스탠다드"
   title_en: kimgarden x Standardstandard
-- url: "./images/exhibitions/9-mykc__1.jpg"
+- url: "./images/exhibitions/640/9-mykc__1.jpg"
   permalink: 9-mykc
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "마이케이씨"
   title_en: MYKC
-- url: "./images/exhibitions/9-sparks-edition__1.jpg"
+- url: "./images/exhibitions/640/9-mykc__2.jpg"
+  permalink: 9-mykc
+  idx: 9
+  project_name_ko: "도시언어유희"
+  project_name_en: URBAN WORDPLAY
+  title_ko: "마이케이씨"
+  title_en: MYKC
+- url: "./images/exhibitions/640/9-sparks-edition__1.jpg"
   permalink: 9-sparks-edition
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "스팍스 에디션"
   title_en: Sparks Edition
-- url: "./images/exhibitions/9-sparks-edition__2.jpg"
+- url: "./images/exhibitions/640/9-sparks-edition__2.jpg"
   permalink: 9-sparks-edition
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "스팍스 에디션"
   title_en: Sparks Edition
-- url: "./images/exhibitions/9-studio-jot__1.jpg"
+- url: "./images/exhibitions/640/9-sparks-edition__3.jpg"
+  permalink: 9-sparks-edition
+  idx: 9
+  project_name_ko: "도시언어유희"
+  project_name_en: URBAN WORDPLAY
+  title_ko: "스팍스 에디션"
+  title_en: Sparks Edition
+- url: "./images/exhibitions/640/9-studio-jot__1.jpg"
   permalink: 9-studio-jot
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "스튜디오 좋"
   title_en: Studio Jot
-- url: "./images/exhibitions/9-studio-jot__2.jpg"
+- url: "./images/exhibitions/640/9-studio-jot__2.jpg"
   permalink: 9-studio-jot
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "스튜디오 좋"
   title_en: Studio Jot
-- url: "./images/exhibitions/9-works__1.jpg"
+- url: "./images/exhibitions/640/9-works__1.jpg"
   permalink: 9-works
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "워크스"
   title_en: Works
-- url: "./images/exhibitions/9-works__2.jpg"
-  permalink: 9-works
-  idx: 9
-  project_name_ko: "도시언어유희"
-  project_name_en: URBAN WORDPLAY
-  title_ko: "워크스"
-  title_en: Works
-- url: "./images/exhibitions/9-youngha-park__1.jpg"
+- url: "./images/exhibitions/640/9-youngha-park__1.jpg"
   permalink: 9-youngha-park
   idx: 9
   project_name_ko: "도시언어유희"
   project_name_en: URBAN WORDPLAY
   title_ko: "박영하"
   title_en: Youngha Park
-- url: "./images/exhibitions/9-youngha-park__2.jpg"
+- url: "./images/exhibitions/640/9-youngha-park__2.jpg"
   permalink: 9-youngha-park
   idx: 9
   project_name_ko: "도시언어유희"
