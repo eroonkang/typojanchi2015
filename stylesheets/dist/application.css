@@ -1557,7 +1557,7 @@ a.no-underline:hover {
 
 .lightboxOverlay {
   background-color: #fff;
-  opacity: 0;
+  opacity: 1;
 }
 @media (max-width: 700px) {
   .lightboxOverlay {
@@ -1567,6 +1567,7 @@ a.no-underline:hover {
 
 .lightbox .lb-image {
   border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /*# sourceMappingURL=style.css.map */
