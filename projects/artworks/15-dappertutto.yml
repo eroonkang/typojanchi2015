@@ -40,24 +40,13 @@ artworks:
   artwork_desc_ko: |
     타이포그래피 연극: 암세포 삼 형제
 
-
-      타이포그래피 연극 <암세포 삼 형제>는 ‘한국의 전통굿놀이—영감놀음’을 모티프로 제작되었다. 다만 이 공연은 애초의 굿놀이처럼 노래와 춤, 재담이 주를 이루지는 않는다. 그동안 놀이 바깥에서 놀이를 기록해왔던 문자가 이번 공연의 첫 번째 요소이다. 공연은 실시간 자막으로서의 문자가 최초의 공연 항로를 결정하면, 나머지 공연의 모든 총체들이 이를 뒤따르는 형식으로 전개된다. 일반적으로 무대화가 되면 사라지는 희곡의 운명과 달리, 사라지지 않는 문자는 문자 이외의 것들과 대립하고, 공존하고 함께 놀이를 벌인다. 문자가 이끄는 도시의 찰나적 풍경을 통해 인간의 삶을 진술하는 기능을 넘어 진술할 수 없는 것들과 공존하는 문자의 본질을 사유해보고자 한다.
+    타이포그래피 연극 <암세포 삼 형제>는 ‘한국의 전통굿놀이—영감놀음’을 모티프로 제작되었다. 다만 이 공연은 애초의 굿놀이처럼 노래와 춤, 재담이 주를 이루지는 않는다. 그동안 놀이 바깥에서 놀이를 기록해왔던 문자가 이번 공연의 첫 번째 요소이다. 공연은 실시간 자막으로서의 문자가 최초의 공연 항로를 결정하면, 나머지 공연의 모든 총체들이 이를 뒤따르는 형식으로 전개된다. 일반적으로 무대화가 되면 사라지는 희곡의 운명과 달리, 사라지지 않는 문자는 문자 이외의 것들과 대립하고, 공존하고 함께 놀이를 벌인다. 문자가 이끄는 도시의 찰나적 풍경을 통해 인간의 삶을 진술하는 기능을 넘어 진술할 수 없는 것들과 공존하는 문자의 본질을 사유해보고자 한다.
 
      시간: 2015년 11월 11일 17시
-
-
      장소: 문화역서울284
-
-
      공연 시간: 13분
-
-
      제작: 다페르튜토 스튜디오
-
-
      연출: 적극
-
-
      출연: 밝넝쿨, 박한결, 이문영 외
 venue_name_en: Culture Station Seoul 284
 venue_name_ko: "문화역 서울 284"
@@ -71,16 +60,16 @@ venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
 - "./images/exhibitions/640/15-dappertutto__01.jpg"
-- "./images/exhibitions/640/15-dappertutto__02.jpg"
+# - "./images/exhibitions/640/15-dappertutto__02.jpg"
 - "./images/exhibitions/640/15-dappertutto__03.jpg"
 - "./images/exhibitions/640/15-dappertutto__04.jpg"
 - "./images/exhibitions/640/15-dappertutto__05.jpg"
 - "./images/exhibitions/640/15-dappertutto__06.jpg"
-- "./images/exhibitions/640/15-dappertutto__07.jpg"
-- "./images/exhibitions/640/15-dappertutto__08.jpg"
-- "./images/exhibitions/640/15-dappertutto__09.jpg"
-- "./images/exhibitions/640/15-dappertutto__10.jpg"
-- "./images/exhibitions/640/15-dappertutto__11.jpg"
-- "./images/exhibitions/640/15-dappertutto__12.jpg"
-- "./images/exhibitions/640/15-dappertutto__13.jpg"
-- "./images/exhibitions/640/15-dappertutto__14.jpg"
+# - "./images/exhibitions/640/15-dappertutto__07.jpg"
+# - "./images/exhibitions/640/15-dappertutto__08.jpg"
+# - "./images/exhibitions/640/15-dappertutto__09.jpg"
+# - "./images/exhibitions/640/15-dappertutto__10.jpg"
+# - "./images/exhibitions/640/15-dappertutto__11.jpg"
+# - "./images/exhibitions/640/15-dappertutto__12.jpg"
+# - "./images/exhibitions/640/15-dappertutto__13.jpg"
+# - "./images/exhibitions/640/15-dappertutto__14.jpg"

@@ -204,21 +204,14 @@ projects:
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__02.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__02.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__03.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__04.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
     project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
@@ -232,6 +225,13 @@ projects:
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__04.jpg"
+    permalink: 2-six-images-six-texts-one-remix
+    idx: 2
+    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+    title_ko: 
+    title_en: 
   - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__06.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
@@ -239,13 +239,13 @@ projects:
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__07.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__07.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__08.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
@@ -260,48 +260,48 @@ projects:
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__10.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__11.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__12.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__13.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__14.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__15.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__10.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__11.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__12.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__13.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__14.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__15.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
 - idx: 3
   project_name_en: ASIA CITY TEXT/URE
   project_name_ko: "아시아 도시 텍스트/쳐"
@@ -352,20 +352,27 @@ projects:
   curator_bio_ko: |
     고토 테츠야는 일본 오사카에 거주하는 그래픽 디자이너이다. 대안적 사무 공간 ‘OOO(아웃 오브 오피스)’와 다학제적 에이전시 ‘OOO 프로젝트’를 운영하고 있다. 그래픽 디자이너일 뿐만 아니라 편집자, 저술가, 큐레이터의 업무를 병행하고 있다. 일본 타이포그래피 학회지인 《타이포그래픽스 티아이:》 263호부터 270호까지 편집을 맡으며 아시아의 그래픽 디자인과 타이포그래피 풍경을 소개하는 글을 기고했다. 현재 긴키 대학교와 오사카 미술대학에서 학생들을 가르치며 일본 《아이디어》지에 ‘엘로우 페이지’라는 제목으로 아시아 그래픽 디자인 풍경을 소개하는 글을 정기적으로 기고하고 있다.
   photos:
-  - url: "./images/exhibitions/640/3-asia-city-texture__01.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__06.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/3-asia-city-texture__02.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__07.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
+  # - url: "./images/exhibitions/640/3-asia-city-texture__08.jpg"
+  #   permalink: 3-asia-city-texture
+  #   idx: 3
+  #   project_name_ko: "아시아 도시 텍스트/쳐"
+  #   project_name_en: ASIA CITY TEXT/URE
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/3-asia-city-texture__03.jpg"
     permalink: 3-asia-city-texture
     idx: 3
@@ -387,21 +394,14 @@ projects:
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/3-asia-city-texture__06.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__01.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/3-asia-city-texture__07.jpg"
-    permalink: 3-asia-city-texture
-    idx: 3
-    project_name_ko: "아시아 도시 텍스트/쳐"
-    project_name_en: ASIA CITY TEXT/URE
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/3-asia-city-texture__08.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__02.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
@@ -577,15 +577,15 @@ projects:
       SEOUL (  ) SOUL
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/5-seoul-soul__02.jpg"
-    permalink: 5-seoul-soul
-    idx: 5
-    project_name_ko: |
-      SEOUL (  ) SOUL
-    project_name_en: |
-      SEOUL (  ) SOUL
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/5-seoul-soul__02.jpg"
+  #   permalink: 5-seoul-soul
+  #   idx: 5
+  #   project_name_ko: |
+  #     SEOUL (  ) SOUL
+  #   project_name_en: |
+  #     SEOUL (  ) SOUL
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/5-seoul-soul__03.jpg"
     permalink: 5-seoul-soul
     idx: 5
@@ -775,27 +775,27 @@ projects:
     project_name_en: BOOK BRICKS
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/7-book-bricks__02.jpg"
-    permalink: 7-book-bricks
-    idx: 7
-    project_name_ko: "책 벽돌"
-    project_name_en: BOOK BRICKS
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/7-book-bricks__03.jpg"
-    permalink: 7-book-bricks
-    idx: 7
-    project_name_ko: "책 벽돌"
-    project_name_en: BOOK BRICKS
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/7-book-bricks__04.jpg"
-    permalink: 7-book-bricks
-    idx: 7
-    project_name_ko: "책 벽돌"
-    project_name_en: BOOK BRICKS
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/7-book-bricks__02.jpg"
+  #   permalink: 7-book-bricks
+  #   idx: 7
+  #   project_name_ko: "책 벽돌"
+  #   project_name_en: BOOK BRICKS
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/7-book-bricks__03.jpg"
+  #   permalink: 7-book-bricks
+  #   idx: 7
+  #   project_name_ko: "책 벽돌"
+  #   project_name_en: BOOK BRICKS
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/7-book-bricks__04.jpg"
+  #   permalink: 7-book-bricks
+  #   idx: 7
+  #   project_name_ko: "책 벽돌"
+  #   project_name_en: BOOK BRICKS
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/7-book-bricks__05.jpg"
     permalink: 7-book-bricks
     idx: 7
@@ -803,14 +803,14 @@ projects:
     project_name_en: BOOK BRICKS
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/7-book-bricks__06.jpg"
+  - url: "./images/exhibitions/640/7-book-bricks__07.jpg"
     permalink: 7-book-bricks
     idx: 7
     project_name_ko: "책 벽돌"
     project_name_en: BOOK BRICKS
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/7-book-bricks__07.jpg"
+  - url: "./images/exhibitions/640/7-book-bricks__06.jpg"
     permalink: 7-book-bricks
     idx: 7
     project_name_ko: "책 벽돌"
@@ -868,13 +868,13 @@ projects:
     full_name_ko: "조현 + 닐스 클라우스"
     url: "/projects/artworks/8-hyun-cho-n-clauss-nils.yml"
   photos:
-  - url: "./images/exhibitions/640/8-city-welcomes-you__01.jpg"
-    permalink: 8-city-welcomes-you
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/8-city-welcomes-you__01.jpg"
+  #   permalink: 8-city-welcomes-you
+  #   idx: 8
+  #   project_name_ko: "도시 환영(幻影/歡迎) 문자"
+  #   project_name_en: CITY WELCOMES YOU
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/8-city-welcomes-you__02.jpg"
     permalink: 8-city-welcomes-you
     idx: 8
@@ -999,13 +999,13 @@ projects:
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/10-a-city-without-__02.jpg"
-    permalink: 10-a-city-without-
-    idx: 10
-    project_name_ko: "결여의 도시"
-    project_name_en: A CITY WITHOUT (   )
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/10-a-city-without-__02.jpg"
+  #   permalink: 10-a-city-without-
+  #   idx: 10
+  #   project_name_ko: "결여의 도시"
+  #   project_name_en: A CITY WITHOUT (   )
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/10-a-city-without-__03.jpg"
     permalink: 10-a-city-without-
     idx: 10
@@ -1083,13 +1083,13 @@ projects:
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/10-a-city-without-__14.jpg"
-    permalink: 10-a-city-without-
-    idx: 10
-    project_name_ko: "결여의 도시"
-    project_name_en: A CITY WITHOUT (   )
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/10-a-city-without-__14.jpg"
+  #   permalink: 10-a-city-without-
+  #   idx: 10
+  #   project_name_ko: "결여의 도시"
+  #   project_name_en: A CITY WITHOUT (   )
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/10-a-city-without-__15.jpg"
     permalink: 10-a-city-without-
     idx: 10
@@ -1097,13 +1097,13 @@ projects:
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/10-a-city-without-__16.jpg"
-    permalink: 10-a-city-without-
-    idx: 10
-    project_name_ko: "결여의 도시"
-    project_name_en: A CITY WITHOUT (   )
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/10-a-city-without-__16.jpg"
+  #   permalink: 10-a-city-without-
+  #   idx: 10
+  #   project_name_ko: "결여의 도시"
+  #   project_name_en: A CITY WITHOUT (   )
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/10-a-city-without-__17.jpg"
     permalink: 10-a-city-without-
     idx: 10
