@@ -138,6 +138,7 @@ WY.models.DetailPageManager = (function(){
         new RetinaImage(this);
       });
 
+      
       this.el.find("#content .participant_change_btn").click(function(e){
         e.preventDefault();
         // debugger;
