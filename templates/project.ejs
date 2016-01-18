@@ -40,7 +40,7 @@
       <% _.each(project.photos, function(photo){ %>
         <div class="cols triple artwork-photo">
           <figure>
-            <a href="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length).replace("640", "1600") %>" data-lightbox="image"><img src="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>"></a>
+            <a href="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length).replace("640", "1600") %>" data-lightbox="image" data-title="<a href='<%= url_from_project_name(project.idx, project.project_name_en) %>' lang='<%= WY.constants.locale %>'>(<%= project.idx %>) <%= project["project_name_" + WY.constants.locale] %></a>"><img src="<%= WY.constants.home_url %><%= photo.url.substring(1, photo.url.length) %>"></a>
           </figure>
         </div>
       <% }); %>
