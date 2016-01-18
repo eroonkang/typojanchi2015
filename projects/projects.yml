@@ -1210,107 +1210,20 @@ projects:
     가르치고 있다.\n"
   photos: []
 - idx: 12
-  project_name_en: EXHIBITION SPACE
-  project_name_ko: "전시공간 프로젝트"
+  project_name_en: "WELCOME TO SEOUL: CITY TYPE EXPLORATION"
+  project_name_ko: "웰컴 투 서울 : 도시 문자 탐사"
   curator_name_en: 
   curator_name_ko: 
   project_artists:
-  - full_name_en: Zero Lab
-    full_name_ko: "제로랩"
-    url: "/projects/artworks/12-zero-lab.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
+  - full_name_en: City Type Exploration
+    full_name_ko: "도시 문자 탐사단"
+    url: "/projects/artworks/12-city-type-exploration.yml"
+  project_desc_en:
+  project_desc_ko:
+  curator_bio_en: 
+  curator_bio_ko: 
   photos: []
 - idx: 13
-  project_name_en: WEBSITE PROJECT
-  project_name_ko: "웹사이트프로젝트"
-  curator_name_en: 
-  curator_name_ko: 
-  project_artists:
-  - full_name_en: E Roon Kang
-    full_name_ko: "강이룬"
-    url: "/projects/artworks/13-eroonkang.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
-  photos: []
-- idx: 14
-  project_name_en: DOCENT + VIDEO PROJECTS
-  project_name_ko: "도슨트 프로젝트"
-  curator_name_en: 
-  curator_name_ko: 
-  project_artists:
-  - full_name_en: Nolgong
-    full_name_ko: "놀공발전소"
-    url: "/projects/artworks/14-nolgong.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
-  photos: []
-- idx: 15
-  project_name_en: OPENING PERFORMANCE
-  project_name_ko: "개막식 공연 프로젝트"
-  curator_name_en: 
-  curator_name_ko: 
-  project_artists:
-  - full_name_en: Dappertutto Studio
-    full_name_ko: "다페르튜토 스튜디오"
-    url: "/projects/artworks/15-dappertutto.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
-  photos: []
-- idx: 16
-  project_name_en: NEWSLETTER PROJECT
-  project_name_ko: "뉴스레터 프로젝트"
-  curator_name_en: 
-  curator_name_ko: 
-  project_artists:
-  - full_name_en: Mediabus x Shinshin
-    full_name_ko: "미디어버스 x 신신"
-    url: "/projects/artworks/16-mediabus-shinshin.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
-  photos: []
-- idx: 17
-  project_name_en: ARCHIVING APP
-  project_name_ko: "아카이빙앱 프로젝트"
-  curator_name_en: rebel9
-  curator_name_ko: "레벨나인"
-  project_artists:
-  - full_name_en: rebel9
-    full_name_ko: "레벨나인"
-    url: "/projects/artworks/17-rebel9.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
-  photos: []
-- idx: 18
-  project_name_en: REPORT ON THE COMPOSITION OF A CITY
-  project_name_ko: "도시 구성 리포트"
-  curator_name_en: Powered by Doosung Paper
-  curator_name_ko: "두성종이"
-  project_artists:
-  - full_name_en: Doosung Paper
-    full_name_ko: "두성종이"
-    url: "/projects/artworks/18-doosung.yml"
-  project_desc_en: |
-    Of the many aspects that constitute a city, there are some things which always function on their own, but are not visible present – Rules that we all must abide by, such as morals, ethics, obligation of tax as a citizen, endless reproduction of new words, traffic safety laws, were all graphically visualized. As such, there are countless numbers components in the city that do not reveal itself, but is always around us. It is like air that we breathe every day. We don’t notice them because it’s taken for granted.
-  project_desc_ko: |
-    도시를 구성하는 여러 요소들 중 눈에 보이진 않지만 항상 작동하고 있는 도덕과 규율, 즉 시민의 대표적 의무인 세금, 끊임없이 생성되는 신조어, 도로교통법처럼 모두가 지켜야 하는 약속과 질서 등을 그래픽 작업으로 시각화했다. 우리가 사는 도시에는 이처럼 겉으로 드러나진 않아도 늘 곁에 있는 것들이 무수히 많다. 매순간 숨 쉬며 살지만 너무 당연해 그 존재를 인식하지 않는 공기처럼 말이다.
-  curator_bio_en: |
-    Powered by Doosung Paper
-  curator_bio_ko: "두성종이 \n"
-  photos: []
-- idx: 19
   project_name_en: CITY TYPE BUS PROJECT
   project_name_ko: "도시문자버스 프로젝트"
   curator_name_en: 
@@ -1318,7 +1231,7 @@ projects:
   project_artists:
   - full_name_en: Chae Lee
     full_name_ko: "이재원"
-    url: "/projects/artworks/19-chae-lee.yml"
+    url: "/projects/artworks/13-chae-lee.yml"
   project_desc_en: |
     The bus wears the road signages and texts which indicate for moving.
     This communicates a somewhat ambiguity in its subject and object.
@@ -1328,4 +1241,147 @@ projects:
     Chae Lee
   curator_bio_ko: |
     이재원
+  photos: []
+- idx: 14
+  project_name_en: TYPOJANCHI PRE-BIENNALE POSTER
+  project_name_ko: "타이포잔치 프리비엔날레 사이사이 포스터"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Plat
+    full_name_ko: "플랏"
+    url: "/projects/artworks/14-plat.yml"
+  project_desc_en: |
+  project_desc_ko: |
+  curator_bio_en: |
+  curator_bio_ko: |
+  photos: []
+- idx: 15
+  project_name_en: COMMUNICATION POSTER FOR TYPOJANCHI 2015
+  project_name_ko: "타이포잔치 2015 커뮤니케이션 포스터"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Lee Jaemin
+    full_name_ko: "이재민"
+    url: "/projects/artworks/15-lee-jaemin.yml"
+  project_desc_en: |
+  project_desc_ko: |
+  curator_bio_en: |
+  curator_bio_ko: |
+  photos: []
+- idx: 16
+  project_name_en: OPENING PERFORMANCE
+  project_name_ko: "개막식 공연 프로젝트"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Dappertutto Studio
+    full_name_ko: "다페르튜토 스튜디오"
+    url: "/projects/artworks/16-dappertutto.yml"
+- idx: 17
+  project_name_en: EXHIBITION SPACE
+  project_name_ko: "전시공간 프로젝트"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Zero Lab
+    full_name_ko: "제로랩"
+    url: "/projects/artworks/17-zero-lab.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+- idx: 18
+  project_name_en: WEBSITE PROJECT
+  project_name_ko: "웹사이트프로젝트"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: E Roon Kang
+    full_name_ko: "강이룬"
+    url: "/projects/artworks/18-eroonkang.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+- idx: 19
+  project_name_en: DOCENT + VIDEO PROJECTS
+  project_name_ko: "도슨트 프로젝트"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Nolgong
+    full_name_ko: "놀공발전소"
+    url: "/projects/artworks/19-nolgong.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+- idx: 20
+  project_name_en: TYPOJANCHI NEWSLETTER A–Z
+  project_name_ko: "타이포잔치 뉴스레터 A–Z"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Mediabus x Shinshin
+    full_name_ko: "미디어버스 x 신신"
+    url: "/projects/artworks/20-mediabus-shinshin.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+- idx: 21
+  project_name_en: REPORT ON THE COMPOSITION OF A CITY
+  project_name_ko: "도시 구성 리포트"
+  curator_name_en: Powered by Doosung Paper
+  curator_name_ko: "두성종이"
+  project_artists:
+  - full_name_en: Doosung Paper
+    full_name_ko: "두성종이"
+    url: "/projects/artworks/21-doosung.yml"
+  project_desc_en: |
+    Of the many aspects that constitute a city, there are some things which always function on their own, but are not visible present – Rules that we all must abide by, such as morals, ethics, obligation of tax as a citizen, endless reproduction of new words, traffic safety laws, were all graphically visualized. As such, there are countless numbers components in the city that do not reveal itself, but is always around us. It is like air that we breathe every day. We don’t notice them because it’s taken for granted.
+  project_desc_ko: |
+    도시를 구성하는 여러 요소들 중 눈에 보이진 않지만 항상 작동하고 있는 도덕과 규율, 즉 시민의 대표적 의무인 세금, 끊임없이 생성되는 신조어, 도로교통법처럼 모두가 지켜야 하는 약속과 질서 등을 그래픽 작업으로 시각화했다. 우리가 사는 도시에는 이처럼 겉으로 드러나진 않아도 늘 곁에 있는 것들이 무수히 많다. 매순간 숨 쉬며 살지만 너무 당연해 그 존재를 인식하지 않는 공기처럼 말이다.
+  curator_bio_en: |
+    Powered by Doosung Paper
+  curator_bio_ko: "두성종이 \n"
+  photos: []
+- idx: 22
+  project_name_en: ARCHIVING APP
+  project_name_ko: "아카이빙앱 프로젝트"
+  curator_name_en: rebel9
+  curator_name_ko: "레벨나인"
+  project_artists:
+  - full_name_en: rebel9
+    full_name_ko: "레벨나인"
+    url: "/projects/artworks/22-rebel9.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+- idx: 23
+  project_name_en: C()T() TALK PROGRAM
+  project_name_ko: "C()T() 토크 프로그램"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: C()T() Talk Program
+    full_name_ko: "C()T() 토크 프로그램"
+    url: "/projects/artworks/23-c-t-talk-program.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
   photos: []

@@ -1,13 +1,17 @@
 WY.constants.single_projects_routes = {
   "11-city-typography-reportage": "11-guteform-jiwon-yu",
-  "12-exhibition-space": "12-zero-lab",
-  "13-website-project": "13-eroonkang",
-  "14-docent-video-projects": "14-nolgong",
-  "15-opening-performance": "15-dappertutto",
-  "16-newsletter-project": "16-mediabus-shinshin",
-  "17-archiving-app": "17-rebel9",
-  "18-report-on-the-composition-of-a-city": "18-doosung",
-  "19-city-type-bus-project": "19-chae-lee",
+  "12-welcome-to-seoul-city-type-exploration": "12-city-type-exploration",
+  "13-city-type-bus-project": "13-chae-lee",
+  "14-typojanchi-prebiennale-poster": "14-plat",
+  "15-communication-poster-for-typojanchi-2015": "15-lee-jaemin",
+  "16-opening-performance": "16-dappertutto",
+  "17-exhibition-space": "17-zero-lab",
+  "18-website-project": "18-eroonkang",
+  "19-docent-video-projects": "19-nolgong",
+  "20-typojanchi-newsletter-az": "20-mediabus-shinshin",
+  "21-report-on-the-composition-of-a-city": "21-doosung",
+  "22-archiving-app": "22-rebel9",
+  "23-ct-talk-program": "23-c-t-talk-program",
   "7-pati": "7-book-bricks"
 }
 WY.models.DetailPageManager = (function(){

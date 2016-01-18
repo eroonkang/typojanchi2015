@@ -29,6 +29,7 @@ idx = 0
   # 
   # 
 
+
   venue_info = {
     type: "Feature",
     properties: {
@@ -41,6 +42,8 @@ idx = 0
       coordinates: [artwork_yaml["venue_lng"], artwork_yaml["venue_lat"]]
     }    
   }
+
+  # byebug if idx == 126
 
   if conv_to_permalink(filename)[0] == "5" || conv_to_permalink(filename)[0] == "7" 
     venue_info[:properties][:permalink] = conv_to_permalink(filename)
@@ -55,7 +58,7 @@ idx = 0
   else
 
     results = locations[:nodes][:features].select { |node| node[:properties][:type] == "Venue" && node[:properties][:venue_name_ko] == venue_info[:venue_name_ko].to_s }
-
+    # byebug if artwork_yaml["venue_name_ko"] == "파주타이포그라피학교"
     unless results.size > 0 
       venue_info[:properties][:id] = idx
       idx = idx + 1
@@ -64,16 +67,6 @@ idx = 0
     end
 
   end
-
-  #
-  # Venues Node Creation End
-  # 
-  
-
-  #
-  # Artist Node Creation Start 
-  # 
-  
 
   unless conv_to_permalink(filename)[0] == "5"  # 엽서전은 아티스트, 아트웍 없음 
 
@@ -205,7 +198,7 @@ projects_yaml["projects"].each do |project|
       artwork_yaml = YAML.load_file("." + artwork['url'])
 
       venue_node = locations[:nodes][:features].select { |node| (node[:properties][:type] == "Venue") && node[:properties][:venue_name_ko] == artwork_yaml['venue_name_ko'] }
-      byebug if venue_node.size == 0
+      # byebug if venue_node.size == 0
       venue_node_id = venue_node.first[:properties][:id]
 
       locations[:links] << {

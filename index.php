@@ -326,6 +326,37 @@ $description = "타이포잔치 2015 — Typojanchi 2015";
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/9-urban-wordplay" data-permalink="9-urban-wordplay" class="footer_btn" lang="<? echo $locale; ?>">(9)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/10-a-city-without-" data-permalink="10-a-city-without-" class="footer_btn" lang="<? echo $locale; ?>">(10)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/11-city-typography-reportage" data-permalink="11-city-typography-reportage" class="footer_btn" lang="<? echo $locale; ?>">(11)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/12-city-type-exploration" data-permalink="12-city-type-exploration" class="footer_btn" lang="<? echo $locale; ?>">(12)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-chae-lee" data-permalink="13-chae-lee" class="footer_btn" lang="<? echo $locale; ?>">(13)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/14-plat" data-permalink="14-plat" class="footer_btn" lang="<? echo $locale; ?>">(14)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/15-lee-jaemin" data-permalink="15-lee-jaemin" class="footer_btn" lang="<? echo $locale; ?>">(15)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-dappertutto" data-permalink="16-dappertutto" class="footer_btn" lang="<? echo $locale; ?>">(16)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-zero-lab" data-permalink="17-zero-lab" class="footer_btn" lang="<? echo $locale; ?>">(17)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/18-eroonkang" data-permalink="18-eroonkang" class="footer_btn" lang="<? echo $locale; ?>">(18)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/19-nolgong" data-permalink="19-nolgong" class="footer_btn" lang="<? echo $locale; ?>">(19)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/20-mediabus-shinshin" data-permalink="20-mediabus-shinshin" class="footer_btn" lang="<? echo $locale; ?>">(20)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/21-doosung" data-permalink="21-doosung" class="footer_btn" lang="<? echo $locale; ?>">(21)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/22-rebel9" data-permalink="22-rebel9" class="footer_btn" lang="<? echo $locale; ?>">(22)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/23-c-t-talk-program" data-permalink="23-c-t-talk-program" class="footer_btn" lang="<? echo $locale; ?>">(23)</a></li>
+
+
+
+
+            <!-- 
+            
+              "12-welcome-to-seoul-city-type-exploration": "12-city-type-exploration",
+  "13-city-type-bus-project": "13-chae-lee",
+  "14-typojanchi-prebiennale-poster": "14-plat",
+  "15-communication-poster-for-typojanchi-2015": "15-lee-jaemin",
+  "16-opening-performance": "16-dappertutto",
+  "17-exhibition-space": "17-zero-lab",
+  "18-website-project": "18-eroonkang",
+  "19-docent-video-projects": "19-nolgong",
+  "20-typojanchi-newsletter-az": "20-mediabus-shinshin",
+  "21-report-on-the-composition-of-a-city": "21-doosung",
+  "22-archiving-app": "22-rebel9",
+  "23-c-t-talk-program-projects": "23-c-t-talk-program",
+
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/12-exhibition-space" data-permalink="12-exhibition-space" class="footer_btn" lang="<? echo $locale; ?>">(12)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/13-website-project" data-permalink="13-website-project" class="footer_btn" lang="<? echo $locale; ?>">(13)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/14-docent-video-projects" data-permalink="14-docent-video-projects" class="footer_btn" lang="<? echo $locale; ?>">(14)</a></li>
@@ -333,7 +364,7 @@ $description = "타이포잔치 2015 — Typojanchi 2015";
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/16-newsletter-project" data-permalink="16-newsletter-project" class="footer_btn" lang="<? echo $locale; ?>">(16)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/17-archiving-app" data-permalink="17-archiving-app" class="footer_btn" lang="<? echo $locale; ?>">(17)</a></li>
             <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/18-report-on-the-composition-of-a-city" data-permalink="18-report-on-the-composition-of-a-city" class="footer_btn" lang="<? echo $locale; ?>">(18)</a></li>
-            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/19-city-type-bus-project" data-permalink="19-city-type-bus-project" class="footer_btn" lang="<? echo $locale; ?>">(19)</a></li>
+            <li><a href="<? echo $home_url; ?>/<? echo $locale; ?>/19-city-type-bus-project" data-permalink="19-city-type-bus-project" class="footer_btn" lang="<? echo $locale; ?>">(19)</a></li> -->
           </div>
         </ul>
 
