@@ -852,7 +852,8 @@ $medim-width: 1200px;
 }
 .lb-outerContainer{
   border-radius: 2px 2px 0 0;
-  box-shadow: 0px 0px 50px rgba(255,255,255,.5);
+  // box-shadow: 0px 0px 50px rgba(255,255,255,.5);
+  background-color: #000;
   .lb-container {
     padding:0px;
     // border: 1px solid #000;
@@ -894,7 +895,10 @@ $medim-width: 1200px;
         @include regular_type;
         font-weight:normal;
         @include small_type;
-        color:#000;
+        color:#fff;
+        a {
+          color:#fff;
+        }
         // text-shadow:
         //  -1px -1px 0px rgba(255,255,255,.5),  
         //   1px -1px 0px rgba(255,255,255,.5),
@@ -908,7 +912,7 @@ $medim-width: 1200px;
   }
 }
 .lightboxOverlay {
-  background-color: #fff;
+  background-color: #000;
   opacity:1;
   @include smaller {
     opacity:.7;
@@ -916,5 +920,4 @@ $medim-width: 1200px;
 }
 .lightbox .lb-image  {
   border-radius: 2px;
-  border: 1px solid rgba(0,0,0,0.1);
 }
