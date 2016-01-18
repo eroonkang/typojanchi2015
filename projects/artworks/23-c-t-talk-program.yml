@@ -1,6 +1,6 @@
 ---
-full_name_en: C ( ) T ( ) Talk Program
-full_name_ko: C ( ) T ( ) 토크 프로그램
+full_name_en: Talk Program
+full_name_ko: 토크 프로그램
 origin_city_en: Seoul
 origin_city_ko: "서울"
 origin_country_en: KR
@@ -10,8 +10,8 @@ origin_lng: 126.9716173
 participant_bio_en: |
 participant_bio_ko: |
 artworks:
-- artwork_name_en: C ( ) T ( ) Talk Program
-  artwork_name_ko: C ( ) T ( ) 토크 프로그램
+- artwork_name_en: Talk Program
+  artwork_name_ko: 토크 프로그램
   artwork_year: 2015
   artwork_medium_en: 
   artwork_medium_ko: 

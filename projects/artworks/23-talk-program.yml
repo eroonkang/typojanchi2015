@@ -1,13 +1,13 @@
 ---
 idx: 23
-permalink: 23-ct-talk-program
-project_name_en: C()T() TALK PROGRAM
-project_name_ko: "C()T() 토크 프로그램"
+permalink: 23-talk-program
+project_name_en: TALK PROGRAM
+project_name_ko: "토크 프로그램"
 curator_name_en: 
 curator_name_ko: 
 project_artists:
-- full_name_en: C()T() Talk Program
-  full_name_ko: "C()T() 토크 프로그램"
+- full_name_en: Talk Program
+  full_name_ko: "토크 프로그램"
   url: "/projects/artworks/23-c-t-talk-program.yml"
 project_desc_en: ''
 project_desc_ko: ''
