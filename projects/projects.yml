@@ -1243,8 +1243,8 @@ projects:
     이재원
   photos: []
 - idx: 14
-  project_name_en: TYPOJANCHI PRE-BIENNALE POSTER
-  project_name_ko: "타이포잔치 프리비엔날레 사이사이 포스터"
+  project_name_en: PRE-BIENNALE POSTER
+  project_name_ko: "프리비엔날레 사이사이 포스터"
   curator_name_en: 
   curator_name_ko: 
   project_artists:
@@ -1257,8 +1257,8 @@ projects:
   curator_bio_ko: |
   photos: []
 - idx: 15
-  project_name_en: COMMUNICATION POSTER FOR TYPOJANCHI 2015
-  project_name_ko: "타이포잔치 2015 커뮤니케이션 포스터"
+  project_name_en: COMMUNICATION POSTERS
+  project_name_ko: "커뮤니케이션 포스터"
   curator_name_en: 
   curator_name_ko: 
   project_artists:
@@ -1372,13 +1372,13 @@ projects:
   curator_bio_ko: ''
   photos: []
 - idx: 23
-  project_name_en: C()T() TALK PROGRAM
-  project_name_ko: "C()T() 토크 프로그램"
+  project_name_en: TALK PROGRAM
+  project_name_ko: "토크 프로그램"
   curator_name_en: 
   curator_name_ko: 
   project_artists:
-  - full_name_en: C()T() Talk Program
-    full_name_ko: "C()T() 토크 프로그램"
+  - full_name_en: Talk Program
+    full_name_ko: "토크 프로그램"
     url: "/projects/artworks/23-c-t-talk-program.yml"
   project_desc_en: ''
   project_desc_ko: ''
