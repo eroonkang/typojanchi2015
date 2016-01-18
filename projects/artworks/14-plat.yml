@@ -1,0 +1,34 @@
+---
+full_name_en: Plat
+full_name_ko: "플랏"
+origin_city_en: Seoul
+origin_city_ko: "서울"
+origin_country_en: South Korea
+origin_country_ko: "대한민국"
+origin_lat: 37.629222
+origin_lng: 127.090551
+participant_bio_en: |
+  Plat is a graphic design studio established in Jan 2014 by Lim Eunji, Lee Hwayoung, Cho Hyungseuk, and Hwang Sangjoon. They have been working on various projects including printed matters, exhibitions, webs, identities, installations. They are interested in producing narratives from versatile perspective, and offering solutions for a diverse range of projects ranging from those in small local cooperation to large scale commercial work.
+participant_bio_ko: |
+  플랏은 서울에 위치한 그래픽디자인 스튜디오이다. 대학에서 만난 이화영, 임은지, 조형석, 황상준이 2014년부터 함께 작업하고 있다. 인쇄물을 중심으로 전시, 웹, 아이덴티티, 설치 등의 분야에서의 프로젝트를 진행 중이다. 다각적이고 다층적인 시각에서 이야기를 생산하며, 지역 기반의 작은 협업에서부터 넓은 영역의 미해결 문제에 이르기까지 대안을 모색하고 만드는 데에 관심이 있다.
+artworks:
+- artwork_name_en: Typojanchi Pre-Biennale Poster
+  artwork_name_ko: "타이포잔치 프리비엔날레 사이사이 포스터"
+  artwork_year: 2014
+  artwork_medium_en: ''
+  artwork_medium_ko: ''
+  artwork_desc_en: |
+    The Typojanchi Pre-Biennale Poster has a role in promoting the pre-biennale event between Typojanchi. By dividing and mixing an image of space consists of colors and surfaces, the poster suggests a transitional feature of the event.
+  artwork_desc_ko: |
+    타이포잔치 사이사이 행사의 포스터는 2년 주기로 열리는 타이포잔치 본 행사 사이에 열리는 사이사이 행사를 알리는 역할을 한다. 행사의 과도기적 특성을 색과 면으로만 구성된 공간의 분리와 혼합을 통해 제시한다.
+venue_name_en: Culture Station Seoul 284
+venue_name_ko: "문화역 서울 284"
+venue_detail_en: ''
+venue_detail_ko: ''
+venue_city_en: Seoul
+venue_city_ko: "서울"
+venue_country_en: KR
+venue_country_ko: "한국"
+venue_lat: 37.5558393
+venue_lng: 126.9716173
+photos: []

@@ -52,7 +52,7 @@ WY.constants.custom_markers_geojson = {
     {
       "type": "Feature",
       "properties": {
-        "permalink": "2-laura-joan",
+        "permalink": "2-laura-jouan",
         "title_ko": "로스앤젤레스",
         "title_en": "Los Angeles",
         "type": "Artwork"

@@ -749,7 +749,7 @@ a.no-underline:hover {
 /* ---------------------------------------------- */
 .lb-outerContainer {
   border-radius: 2px 2px 0 0;
-  box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.5);
+  background-color: #000;
 }
 .lb-outerContainer .lb-container {
   padding: 0px;
@@ -793,7 +793,10 @@ a.no-underline:hover {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.3em;
-  color: #000;
+  color: #fff;
+}
+.lb-dataContainer .lb-data .lb-details .lb-caption a, .lb-dataContainer .lb-data .lb-details .lb-number a {
+  color: #fff;
 }
 .lb-dataContainer .lb-data .lb-details .lb-number {
   font-size: 16px;
@@ -801,7 +804,7 @@ a.no-underline:hover {
 }
 
 .lightboxOverlay {
-  background-color: #fff;
+  background-color: #000;
   opacity: 1;
 }
 @media (max-width: 700px) {

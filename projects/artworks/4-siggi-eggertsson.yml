@@ -1,5 +1,5 @@
 ---
-full_name_en: Siggi Eggertsson
+full_name_en: "Siggi Eggertsson"
 full_name_ko: "시기 에게르트손"
 origin_city_en: Berlin
 origin_city_ko: "베를린"
@@ -30,4 +30,5 @@ venue_country_en: KR
 venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-photos: []
+photos:
+- "./images/exhibitions/640/4-siggi-eggertsson__01.png"

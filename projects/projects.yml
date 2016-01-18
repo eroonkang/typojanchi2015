@@ -204,21 +204,14 @@ projects:
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__02.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__02.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__03.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__04.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
     project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
@@ -232,6 +225,13 @@ projects:
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
+  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__04.jpg"
+    permalink: 2-six-images-six-texts-one-remix
+    idx: 2
+    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+    title_ko: 
+    title_en: 
   - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__06.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
@@ -239,13 +239,13 @@ projects:
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__07.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__07.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__08.jpg"
     permalink: 2-six-images-six-texts-one-remix
     idx: 2
@@ -260,48 +260,48 @@ projects:
     project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__10.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__11.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__12.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__13.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__14.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__15.jpg"
-    permalink: 2-six-images-six-texts-one-remix
-    idx: 2
-    project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
-    project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__10.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__11.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__12.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__13.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__14.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/2-six-images-six-texts-one-remix__15.jpg"
+  #   permalink: 2-six-images-six-texts-one-remix
+  #   idx: 2
+  #   project_name_ko: "여섯 이미지, 여섯 텍스트, 그리고 리믹스"
+  #   project_name_en: SIX IMAGES, SIX TEXTS, ONE REMIX
+  #   title_ko: 
+  #   title_en: 
 - idx: 3
   project_name_en: ASIA CITY TEXT/URE
   project_name_ko: "아시아 도시 텍스트/쳐"
@@ -352,20 +352,27 @@ projects:
   curator_bio_ko: |
     고토 테츠야는 일본 오사카에 거주하는 그래픽 디자이너이다. 대안적 사무 공간 ‘OOO(아웃 오브 오피스)’와 다학제적 에이전시 ‘OOO 프로젝트’를 운영하고 있다. 그래픽 디자이너일 뿐만 아니라 편집자, 저술가, 큐레이터의 업무를 병행하고 있다. 일본 타이포그래피 학회지인 《타이포그래픽스 티아이:》 263호부터 270호까지 편집을 맡으며 아시아의 그래픽 디자인과 타이포그래피 풍경을 소개하는 글을 기고했다. 현재 긴키 대학교와 오사카 미술대학에서 학생들을 가르치며 일본 《아이디어》지에 ‘엘로우 페이지’라는 제목으로 아시아 그래픽 디자인 풍경을 소개하는 글을 정기적으로 기고하고 있다.
   photos:
-  - url: "./images/exhibitions/640/3-asia-city-texture__01.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__06.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/3-asia-city-texture__02.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__07.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
+  # - url: "./images/exhibitions/640/3-asia-city-texture__08.jpg"
+  #   permalink: 3-asia-city-texture
+  #   idx: 3
+  #   project_name_ko: "아시아 도시 텍스트/쳐"
+  #   project_name_en: ASIA CITY TEXT/URE
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/3-asia-city-texture__03.jpg"
     permalink: 3-asia-city-texture
     idx: 3
@@ -387,21 +394,14 @@ projects:
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/3-asia-city-texture__06.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__01.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
     project_name_en: ASIA CITY TEXT/URE
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/3-asia-city-texture__07.jpg"
-    permalink: 3-asia-city-texture
-    idx: 3
-    project_name_ko: "아시아 도시 텍스트/쳐"
-    project_name_en: ASIA CITY TEXT/URE
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/3-asia-city-texture__08.jpg"
+  - url: "./images/exhibitions/640/3-asia-city-texture__02.jpg"
     permalink: 3-asia-city-texture
     idx: 3
     project_name_ko: "아시아 도시 텍스트/쳐"
@@ -410,7 +410,7 @@ projects:
     title_en: 
 - idx: 4
   project_name_en: "( ) ON THE WALLS"
-  project_name_ko: "도시문자 포스터전"
+  project_name_ko: "( ) ON THE WALLS"
   curator_name_en: |
     Curated by Jaemin Lee
   curator_name_ko: |
@@ -437,6 +437,10 @@ projects:
   - full_name_en: Siggi Eggertsson
     full_name_ko: "시기 에게르트손"
     url: "/projects/artworks/4-siggi-eggertsson.yml"
+  - full_name_en: "INNOIZ"
+    full_name_ko: "이노이즈"
+    url: "/projects/artworks/4-innoiz.yml"
+
   project_desc_en: |
     The poster is a historic and traditional visual communication medium. It was born in cities and lived together with them. This is why we concentrate on this medium, “the poster”. It is true that the poster has undergone much change in terms of communication with the ups and downs in media. It is even these days implanted in kiosks and screens. The “(   ) on the Walls” project shows how artists who live and work in different cities can present their various thoughts and experiences of cities through the medium of the poster. I selected seven graphic designers who have been actively working and dealing with media such as posters, postcards, and magazines for this exhibition. The commission was for these designers to design the “Typojanchi 2015” official poster with their own interpretation. The designers are from multi-ethnic cities to relatively small and unknown towns and work in different regions like Europe, Asia, North America, etc.
 
@@ -577,15 +581,15 @@ projects:
       SEOUL (  ) SOUL
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/5-seoul-soul__02.jpg"
-    permalink: 5-seoul-soul
-    idx: 5
-    project_name_ko: |
-      SEOUL (  ) SOUL
-    project_name_en: |
-      SEOUL (  ) SOUL
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/5-seoul-soul__02.jpg"
+  #   permalink: 5-seoul-soul
+  #   idx: 5
+  #   project_name_ko: |
+  #     SEOUL (  ) SOUL
+  #   project_name_en: |
+  #     SEOUL (  ) SOUL
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/5-seoul-soul__03.jpg"
     permalink: 5-seoul-soul
     idx: 5
@@ -775,27 +779,27 @@ projects:
     project_name_en: BOOK BRICKS
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/7-book-bricks__02.jpg"
-    permalink: 7-book-bricks
-    idx: 7
-    project_name_ko: "책 벽돌"
-    project_name_en: BOOK BRICKS
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/7-book-bricks__03.jpg"
-    permalink: 7-book-bricks
-    idx: 7
-    project_name_ko: "책 벽돌"
-    project_name_en: BOOK BRICKS
-    title_ko: 
-    title_en: 
-  - url: "./images/exhibitions/640/7-book-bricks__04.jpg"
-    permalink: 7-book-bricks
-    idx: 7
-    project_name_ko: "책 벽돌"
-    project_name_en: BOOK BRICKS
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/7-book-bricks__02.jpg"
+  #   permalink: 7-book-bricks
+  #   idx: 7
+  #   project_name_ko: "책 벽돌"
+  #   project_name_en: BOOK BRICKS
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/7-book-bricks__03.jpg"
+  #   permalink: 7-book-bricks
+  #   idx: 7
+  #   project_name_ko: "책 벽돌"
+  #   project_name_en: BOOK BRICKS
+  #   title_ko: 
+  #   title_en: 
+  # - url: "./images/exhibitions/640/7-book-bricks__04.jpg"
+  #   permalink: 7-book-bricks
+  #   idx: 7
+  #   project_name_ko: "책 벽돌"
+  #   project_name_en: BOOK BRICKS
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/7-book-bricks__05.jpg"
     permalink: 7-book-bricks
     idx: 7
@@ -803,14 +807,14 @@ projects:
     project_name_en: BOOK BRICKS
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/7-book-bricks__06.jpg"
+  - url: "./images/exhibitions/640/7-book-bricks__07.jpg"
     permalink: 7-book-bricks
     idx: 7
     project_name_ko: "책 벽돌"
     project_name_en: BOOK BRICKS
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/7-book-bricks__07.jpg"
+  - url: "./images/exhibitions/640/7-book-bricks__06.jpg"
     permalink: 7-book-bricks
     idx: 7
     project_name_ko: "책 벽돌"
@@ -868,13 +872,13 @@ projects:
     full_name_ko: "조현 + 닐스 클라우스"
     url: "/projects/artworks/8-hyun-cho-n-clauss-nils.yml"
   photos:
-  - url: "./images/exhibitions/640/8-city-welcomes-you__01.jpg"
-    permalink: 8-city-welcomes-you
-    idx: 8
-    project_name_ko: "도시 환영(幻影/歡迎) 문자"
-    project_name_en: CITY WELCOMES YOU
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/8-city-welcomes-you__01.jpg"
+  #   permalink: 8-city-welcomes-you
+  #   idx: 8
+  #   project_name_ko: "도시 환영(幻影/歡迎) 문자"
+  #   project_name_en: CITY WELCOMES YOU
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/8-city-welcomes-you__02.jpg"
     permalink: 8-city-welcomes-you
     idx: 8
@@ -999,13 +1003,13 @@ projects:
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/10-a-city-without-__02.jpg"
-    permalink: 10-a-city-without-
-    idx: 10
-    project_name_ko: "결여의 도시"
-    project_name_en: A CITY WITHOUT (   )
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/10-a-city-without-__02.jpg"
+  #   permalink: 10-a-city-without-
+  #   idx: 10
+  #   project_name_ko: "결여의 도시"
+  #   project_name_en: A CITY WITHOUT (   )
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/10-a-city-without-__03.jpg"
     permalink: 10-a-city-without-
     idx: 10
@@ -1083,13 +1087,13 @@ projects:
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/10-a-city-without-__14.jpg"
-    permalink: 10-a-city-without-
-    idx: 10
-    project_name_ko: "결여의 도시"
-    project_name_en: A CITY WITHOUT (   )
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/10-a-city-without-__14.jpg"
+  #   permalink: 10-a-city-without-
+  #   idx: 10
+  #   project_name_ko: "결여의 도시"
+  #   project_name_en: A CITY WITHOUT (   )
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/10-a-city-without-__15.jpg"
     permalink: 10-a-city-without-
     idx: 10
@@ -1097,13 +1101,13 @@ projects:
     project_name_en: A CITY WITHOUT (   )
     title_ko: 
     title_en: 
-  - url: "./images/exhibitions/640/10-a-city-without-__16.jpg"
-    permalink: 10-a-city-without-
-    idx: 10
-    project_name_ko: "결여의 도시"
-    project_name_en: A CITY WITHOUT (   )
-    title_ko: 
-    title_en: 
+  # - url: "./images/exhibitions/640/10-a-city-without-__16.jpg"
+  #   permalink: 10-a-city-without-
+  #   idx: 10
+  #   project_name_ko: "결여의 도시"
+  #   project_name_en: A CITY WITHOUT (   )
+  #   title_ko: 
+  #   title_en: 
   - url: "./images/exhibitions/640/10-a-city-without-__17.jpg"
     permalink: 10-a-city-without-
     idx: 10
@@ -1206,107 +1210,20 @@ projects:
     가르치고 있다.\n"
   photos: []
 - idx: 12
-  project_name_en: EXHIBITION SPACE
-  project_name_ko: "전시공간 프로젝트"
+  project_name_en: "WELCOME TO SEOUL: CITY TYPE EXPLORATION"
+  project_name_ko: "웰컴 투 서울 : 도시 문자 탐사"
   curator_name_en: 
   curator_name_ko: 
   project_artists:
-  - full_name_en: Zero Lab
-    full_name_ko: "제로랩"
-    url: "/projects/artworks/12-zero-lab.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
+  - full_name_en: City Type Exploration
+    full_name_ko: "도시 문자 탐사단"
+    url: "/projects/artworks/12-city-type-exploration.yml"
+  project_desc_en:
+  project_desc_ko:
+  curator_bio_en: 
+  curator_bio_ko: 
   photos: []
 - idx: 13
-  project_name_en: WEBSITE PROJECT
-  project_name_ko: "웹사이트프로젝트"
-  curator_name_en: 
-  curator_name_ko: 
-  project_artists:
-  - full_name_en: E Roon Kang
-    full_name_ko: "강이룬"
-    url: "/projects/artworks/13-eroonkang.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
-  photos: []
-- idx: 14
-  project_name_en: DOCENT + VIDEO PROJECTS
-  project_name_ko: "도슨트 프로젝트"
-  curator_name_en: 
-  curator_name_ko: 
-  project_artists:
-  - full_name_en: Nolgong
-    full_name_ko: "놀공발전소"
-    url: "/projects/artworks/14-nolgong.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
-  photos: []
-- idx: 15
-  project_name_en: OPENING PERFORMANCE
-  project_name_ko: "개막식 공연 프로젝트"
-  curator_name_en: 
-  curator_name_ko: 
-  project_artists:
-  - full_name_en: Dappertutto Studio
-    full_name_ko: "다페르튜토 스튜디오"
-    url: "/projects/artworks/15-dappertutto.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
-  photos: []
-- idx: 16
-  project_name_en: NEWSLETTER PROJECT
-  project_name_ko: "뉴스레터 프로젝트"
-  curator_name_en: 
-  curator_name_ko: 
-  project_artists:
-  - full_name_en: Mediabus x Shinshin
-    full_name_ko: "미디어버스 x 신신"
-    url: "/projects/artworks/16-mediabus-shinshin.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
-  photos: []
-- idx: 17
-  project_name_en: ARCHIVING APP
-  project_name_ko: "아카이빙앱 프로젝트"
-  curator_name_en: rebel9
-  curator_name_ko: "레벨나인"
-  project_artists:
-  - full_name_en: rebel9
-    full_name_ko: "레벨나인"
-    url: "/projects/artworks/17-rebel9.yml"
-  project_desc_en: ''
-  project_desc_ko: ''
-  curator_bio_en: ''
-  curator_bio_ko: ''
-  photos: []
-- idx: 18
-  project_name_en: REPORT ON THE COMPOSITION OF A CITY
-  project_name_ko: "도시 구성 리포트"
-  curator_name_en: Powered by Doosung Paper
-  curator_name_ko: "두성종이"
-  project_artists:
-  - full_name_en: Doosung Paper
-    full_name_ko: "두성종이"
-    url: "/projects/artworks/18-doosung.yml"
-  project_desc_en: |
-    Of the many aspects that constitute a city, there are some things which always function on their own, but are not visible present – Rules that we all must abide by, such as morals, ethics, obligation of tax as a citizen, endless reproduction of new words, traffic safety laws, were all graphically visualized. As such, there are countless numbers components in the city that do not reveal itself, but is always around us. It is like air that we breathe every day. We don’t notice them because it’s taken for granted.
-  project_desc_ko: |
-    도시를 구성하는 여러 요소들 중 눈에 보이진 않지만 항상 작동하고 있는 도덕과 규율, 즉 시민의 대표적 의무인 세금, 끊임없이 생성되는 신조어, 도로교통법처럼 모두가 지켜야 하는 약속과 질서 등을 그래픽 작업으로 시각화했다. 우리가 사는 도시에는 이처럼 겉으로 드러나진 않아도 늘 곁에 있는 것들이 무수히 많다. 매순간 숨 쉬며 살지만 너무 당연해 그 존재를 인식하지 않는 공기처럼 말이다.
-  curator_bio_en: |
-    Powered by Doosung Paper
-  curator_bio_ko: "두성종이 \n"
-  photos: []
-- idx: 19
   project_name_en: CITY TYPE BUS PROJECT
   project_name_ko: "도시문자버스 프로젝트"
   curator_name_en: 
@@ -1314,7 +1231,7 @@ projects:
   project_artists:
   - full_name_en: Chae Lee
     full_name_ko: "이재원"
-    url: "/projects/artworks/19-chae-lee.yml"
+    url: "/projects/artworks/13-chae-lee.yml"
   project_desc_en: |
     The bus wears the road signages and texts which indicate for moving.
     This communicates a somewhat ambiguity in its subject and object.
@@ -1324,4 +1241,147 @@ projects:
     Chae Lee
   curator_bio_ko: |
     이재원
+  photos: []
+- idx: 14
+  project_name_en: TYPOJANCHI PRE-BIENNALE POSTER
+  project_name_ko: "타이포잔치 프리비엔날레 사이사이 포스터"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Plat
+    full_name_ko: "플랏"
+    url: "/projects/artworks/14-plat.yml"
+  project_desc_en: |
+  project_desc_ko: |
+  curator_bio_en: |
+  curator_bio_ko: |
+  photos: []
+- idx: 15
+  project_name_en: COMMUNICATION POSTER FOR TYPOJANCHI 2015
+  project_name_ko: "타이포잔치 2015 커뮤니케이션 포스터"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Lee Jaemin
+    full_name_ko: "이재민"
+    url: "/projects/artworks/15-lee-jaemin.yml"
+  project_desc_en: |
+  project_desc_ko: |
+  curator_bio_en: |
+  curator_bio_ko: |
+  photos: []
+- idx: 16
+  project_name_en: OPENING PERFORMANCE
+  project_name_ko: "개막식 공연 프로젝트"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Dappertutto Studio
+    full_name_ko: "다페르튜토 스튜디오"
+    url: "/projects/artworks/16-dappertutto.yml"
+- idx: 17
+  project_name_en: EXHIBITION SPACE
+  project_name_ko: "전시공간 프로젝트"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Zero Lab
+    full_name_ko: "제로랩"
+    url: "/projects/artworks/17-zero-lab.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+- idx: 18
+  project_name_en: WEBSITE PROJECT
+  project_name_ko: "웹사이트프로젝트"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: E Roon Kang
+    full_name_ko: "강이룬"
+    url: "/projects/artworks/18-eroonkang.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+- idx: 19
+  project_name_en: DOCENT + VIDEO PROJECTS
+  project_name_ko: "도슨트 프로젝트"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Nolgong
+    full_name_ko: "놀공발전소"
+    url: "/projects/artworks/19-nolgong.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+- idx: 20
+  project_name_en: TYPOJANCHI NEWSLETTER A–Z
+  project_name_ko: "타이포잔치 뉴스레터 A–Z"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: Mediabus x Shinshin
+    full_name_ko: "미디어버스 x 신신"
+    url: "/projects/artworks/20-mediabus-shinshin.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+- idx: 21
+  project_name_en: REPORT ON THE COMPOSITION OF A CITY
+  project_name_ko: "도시 구성 리포트"
+  curator_name_en: Powered by Doosung Paper
+  curator_name_ko: "두성종이"
+  project_artists:
+  - full_name_en: Doosung Paper
+    full_name_ko: "두성종이"
+    url: "/projects/artworks/21-doosung.yml"
+  project_desc_en: |
+    Of the many aspects that constitute a city, there are some things which always function on their own, but are not visible present – Rules that we all must abide by, such as morals, ethics, obligation of tax as a citizen, endless reproduction of new words, traffic safety laws, were all graphically visualized. As such, there are countless numbers components in the city that do not reveal itself, but is always around us. It is like air that we breathe every day. We don’t notice them because it’s taken for granted.
+  project_desc_ko: |
+    도시를 구성하는 여러 요소들 중 눈에 보이진 않지만 항상 작동하고 있는 도덕과 규율, 즉 시민의 대표적 의무인 세금, 끊임없이 생성되는 신조어, 도로교통법처럼 모두가 지켜야 하는 약속과 질서 등을 그래픽 작업으로 시각화했다. 우리가 사는 도시에는 이처럼 겉으로 드러나진 않아도 늘 곁에 있는 것들이 무수히 많다. 매순간 숨 쉬며 살지만 너무 당연해 그 존재를 인식하지 않는 공기처럼 말이다.
+  curator_bio_en: |
+    Powered by Doosung Paper
+  curator_bio_ko: "두성종이 \n"
+  photos: []
+- idx: 22
+  project_name_en: ARCHIVING APP
+  project_name_ko: "아카이빙앱 프로젝트"
+  curator_name_en: rebel9
+  curator_name_ko: "레벨나인"
+  project_artists:
+  - full_name_en: rebel9
+    full_name_ko: "레벨나인"
+    url: "/projects/artworks/22-rebel9.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
+  photos: []
+- idx: 23
+  project_name_en: C()T() TALK PROGRAM
+  project_name_ko: "C()T() 토크 프로그램"
+  curator_name_en: 
+  curator_name_ko: 
+  project_artists:
+  - full_name_en: C()T() Talk Program
+    full_name_ko: "C()T() 토크 프로그램"
+    url: "/projects/artworks/23-c-t-talk-program.yml"
+  project_desc_en: ''
+  project_desc_ko: ''
+  curator_bio_en: ''
+  curator_bio_ko: ''
   photos: []
