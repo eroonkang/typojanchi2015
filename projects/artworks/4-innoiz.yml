@@ -1,10 +1,10 @@
 ---
-full_name_en: "Siggi Eggertsson"
-full_name_ko: "시기 에게르트손"
-origin_city_en: Berlin
-origin_city_ko: "베를린"
-origin_country_en: Germany
-origin_country_ko: "독일"
+full_name_en: INNOIZ
+full_name_ko: "이노이즈"
+origin_city_en: Seoul
+origin_city_ko: "서울"
+origin_country_en: Korea
+origin_country_ko: "대한민국"
 origin_lat: 52.51251
 origin_lng: 13.45141
 participant_bio_en: |
@@ -30,5 +30,4 @@ venue_country_en: KR
 venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-photos:
-- "./images/exhibitions/640/4-siggi-eggertsson__01.png"
+photos: []
