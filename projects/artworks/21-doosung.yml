@@ -32,7 +32,9 @@ venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
 photos:
-# - "./images/exhibitions/640/18-doosung__01.jpg"
-# - "./images/exhibitions/640/18-doosung__02.jpg"
+- "./images/exhibitions/640/18-doosung__01.jpg"
+- "./images/exhibitions/640/18-doosung__02.jpg"
 - "./images/exhibitions/640/18-doosung__03.jpg"
 - "./images/exhibitions/640/18-doosung__04.jpg"
+- "./images/exhibitions/640/21-doosung__04.jpg"
+- "./images/exhibitions/640/21-doosung__05.jpg"
