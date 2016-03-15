@@ -19,4 +19,13 @@ curator_bio_en: |
 curator_bio_ko: |
   이재원
 type: Project
-photos: []
+photos:
+- "./images/exhibitions/640/12-city-type-exploration__01.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__02.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__03.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__04.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__05.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__06.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__07.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__08.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__09.jpg"

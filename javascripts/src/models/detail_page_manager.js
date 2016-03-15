@@ -142,6 +142,11 @@ WY.models.DetailPageManager = (function(){
         new RetinaImage(this);
       });
 
+      // $('.artwork').masonry({
+      //   // options
+      //   itemSelector: '.triple',
+      //   columnWidth: 200
+      // });
       
       this.el.find("#content .participant_change_btn").click(function(e){
         e.preventDefault();

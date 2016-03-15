@@ -63,7 +63,6 @@ WY.views.welcome_view = (function(){
         });
       });
     });
-
     template_loader = new WY.models.TemplateLoader({
       lists: [
         {

@@ -149,6 +149,7 @@ $description = "타이포잔치 2015 — Typojanchi 2015";
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/vector2.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/jquery.history.js"></script> 
   <script src="<? echo $home_url; ?>/javascripts/src/vendor/slick.min.js"></script> 
+  <script src="<? echo $home_url; ?>/javascripts/src/vendor/masonry.pkgd.min.js"></script> 
   <script src="<? echo $home_url; ?>/javascripts/src/WY.js"></script>
   <script src="<? echo $home_url; ?>/javascripts/src/utils.js"></script>
 

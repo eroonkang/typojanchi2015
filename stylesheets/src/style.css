@@ -1,66 +1,820 @@
-/*
-Error: Invalid CSS after "...     color:#fff": expected "{", was ";"
-        on line 904 of stylesheets/src/style.scss
+@charset "UTF-8";
+body {
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 19px;
+  line-height: 1.3em;
+  background-color: #FFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-899: <<<<<<< HEAD
-900:         a {
-901: =======
-902:         a{
-903: >>>>>>> 594f8ce4bd3eb980a0f10657f05a3134d07a6c9c
-904:           color:#fff;
-905:         }
-906:         // text-shadow:
-907:         //  -1px -1px 0px rgba(255,255,255,.5),  
-908:         //   1px -1px 0px rgba(255,255,255,.5),
-909:         //  -1px  1px 0px rgba(255,255,255,.5),
+:lang(ko) {
+  font-size: 0.88em;
+  letter-spacing: -0.0125em;
+  word-break: keep-all;
+}
 
-Backtrace:
-stylesheets/src/style.scss:904
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1162:in `expected'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1098:in `expected'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1093:in `tok!'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:638:in `block'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:647:in `block_contents'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:647:in `block_contents'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:632:in `ruleset'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:657:in `block_child'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:42:in `parse'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/engine.rb:403:in `_to_tree'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/exec/sass_scss.rb:410:in `run'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/exec/base.rb:52:in `parse'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/lib/sass/exec/base.rb:19:in `parse!'
-/Users/eroonkang/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.16/bin/sass:13:in `<top (required)>'
-/Users/eroonkang/.rbenv/versions/2.2.0/bin/sass:23:in `load'
-/Users/eroonkang/.rbenv/versions/2.2.0/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...     color:#fff\": expected \"{\", was \";\"\A         on line 904 of stylesheets/src/style.scss\A \A 899: <<<<<<< HEAD\A 900:         a {\A 901: =======\A 902:         a{\A 903: >>>>>>> 594f8ce4bd3eb980a0f10657f05a3134d07a6c9c\A 904:           color:#fff;\A 905:         }\A 906:         // text-shadow:\A 907:         //  -1px -1px 0px rgba(255,255,255,.5),  \A 908:         //   1px -1px 0px rgba(255,255,255,.5),\A 909:         //  -1px  1px 0px rgba(255,255,255,.5),"; }
+.en-within-ko {
+  font-size: 1.13em;
+  letter-spacing: 0em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+a.no-underline:hover {
+  border-bottom: none;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* ---------------------------------------------- */
+/* list */
+/* ---------------------------------------------- */
+#index {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  visibility: hidden;
+}
+
+#section-header h2 {
+  width: 50%;
+  text-align: center;
+  margin: 15px auto 0 auto;
+}
+@media (max-width: 539px) {
+  #section-header h2 {
+    text-align: center;
+    width: 75%;
+    margin: 15px auto 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  #section-header h2 {
+    text-align: left;
+    width: 75%;
+    margin: 15px 0 0 30px;
+  }
+}
+
+#index-left {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+@media (max-width: 539px) {
+  #index-left {
+    display: none;
+  }
+}
+
+#index-right {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+
+#section-header {
+  padding: 0 0 0.5em 0;
+}
+
+#section-cities, #section-participants, #section-projects {
+  margin: 0 30px;
+  padding: 0.5em 0;
+  border-top: 1px solid;
+}
+
+.index-list li {
+  margin-left: 1em;
+  text-indent: -1em;
+  padding-right: 1em;
+  list-style-type: none;
+}
+
+/* ---------------------------------------------- */
+/* content */
+/* ---------------------------------------------- */
+#content-outer {
+  position: absolute;
+  width: 100%;
+  top: -10px;
+  visibility: hidden;
+  border-top: 1px solid;
+}
+#content-outer #content {
+  color: #000;
+  padding: 30px;
+}
+#content-outer #content a {
+  color: #000;
+}
+#content-outer #content .artwork {
+  margin-left: 0px;
+  padding-left: 240px;
+  min-height: 920px;
+}
+@media (max-width: 960px) {
+  #content-outer #content .artwork {
+    padding-left: 0px;
+  }
+}
+#content-outer #content .artwork h2.mobile-title {
+  display: none;
+}
+@media (max-width: 960px) {
+  #content-outer #content .artwork h2.mobile-title {
+    display: block;
+  }
+}
+#content-outer #content .artwork h3 {
+  padding-right: 4em;
+}
+#content-outer #content .artwork .participant {
+  text-transform: uppercase;
+}
+#content-outer #content .artwork .project-participants h3 {
+  margin-bottom: 1em;
+}
+#content-outer #content .artwork p.description {
+  margin: 1em 0;
+  padding-right: 4em;
+}
+@media (max-width: 700px) {
+  #content-outer #content .artwork p.description {
+    padding-right: 0em;
+  }
+}
+#content-outer #content .artwork p.bio {
+  border-top: 1px solid;
+  margin: 3em 0 1em 0;
+  padding: 1em 0 0 0;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+#content-outer #content .artwork p.venue {
+  font-size: 16px;
+  line-height: 1.3em;
+  padding-right: 2em;
+}
+#content-outer #content .artwork p.venue .underline {
+  border-bottom: 1px solid;
+}
+#content-outer #content .artwork .divider {
+  border-top: 1px solid;
+  margin: 40px 30px 40px 0;
+}
+#content-outer #content .artwork-short {
+  min-height: initial;
+}
+#content-outer #content .cols {
+  float: left;
+  margin: 0 30px 0 0;
+}
+#content-outer #content .cols.single {
+  width: 210px;
+}
+#content-outer #content .cols.single-wider {
+  width: 345px;
+}
+#content-outer #content .cols.double {
+  width: 450px;
+}
+@media (max-width: 700px) {
+  #content-outer #content .cols.double {
+    width: 100%;
+  }
+}
+#content-outer #content .cols.triple {
+  width: 690px;
+}
+@media (max-width: 700px) {
+  #content-outer #content .cols.triple {
+    width: 100%;
+  }
+}
+#content-outer #content .cols.quadruple {
+  width: 930px;
+}
+@media (max-width: 1200px) {
+  #content-outer #content .cols.quadruple {
+    width: 100%;
+  }
+}
+#content-outer #content .cols .notice {
+  font-size: 16px;
+  line-height: 1.3em;
+  margin-top: 4em;
+  border: 1px solid;
+  padding: 15px 20px 20px 20px;
+}
+#content-outer #content .cols .notice h2, #content-outer #content .cols .notice h3 {
+  display: inline;
+  border-bottom: 1px solid;
+  padding-right: 0;
+}
+#content-outer #content .cols .notice p {
+  padding-right: 0;
+}
+#content-outer #content .cols .notice .btn {
+  display: inline-block;
+  border: 1px solid;
+  padding: 0.25em 0.7em;
+}
+#content-outer #content .cols .notice .btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+#content-outer #content .artwork-photo, #content-outer #content .project-photo, #content-outer #content .about-photo {
+  margin-top: 3.3em;
+}
+@media (max-width: 960px) {
+  #content-outer #content .artwork-photo, #content-outer #content .project-photo, #content-outer #content .about-photo {
+    margin-top: 1em;
+  }
+}
+#content-outer #content .artwork-photo figure, #content-outer #content .project-photo figure, #content-outer #content .about-photo figure {
+  display: inline-block;
+}
+#content-outer #content .artwork-photo figure img, #content-outer #content .project-photo figure img, #content-outer #content .about-photo figure img {
+  width: auto;
+  height: auto;
+  max-width: 640px;
+  max-height: 640px;
+  display: block;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  opacity: .95;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#content-outer #content .artwork-photo figure img:hover, #content-outer #content .project-photo figure img:hover, #content-outer #content .about-photo figure img:hover {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+@media (max-width: 700px) {
+  #content-outer #content .artwork-photo figure img, #content-outer #content .project-photo figure img, #content-outer #content .about-photo figure img {
+    opacity: 1;
+    width: 100%;
+    min-height: auto;
+    -webkit-filter: grayscale(0%);
+  }
+}
+#content-outer #content .project-photo {
+  overflow: hidden;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+#content-outer #content .project-photo figure {
+  overflow: hidden;
+}
+#content-outer #content .project-photo figure img {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+}
+#content-outer #content .about-photo figure img {
+  max-width: 920px;
+  max-height: 920px;
+}
+#content-outer #content .left-nav {
+  position: absolute;
+  width: 210px;
+}
+@media (max-width: 960px) {
+  #content-outer #content .left-nav {
+    display: none;
+  }
+}
+#content-outer #content .left-nav.below {
+  display: none;
+  float: none;
+  clear: both;
+  width: 590px;
+  position: relative;
+  margin-top: 1em;
+  padding: 20px 25px;
+  border: 1px solid;
+}
+@media (max-width: 960px) {
+  #content-outer #content .left-nav.below {
+    display: block !important;
+  }
+}
+@media (max-width: 700px) {
+  #content-outer #content .left-nav.below {
+    width: auto;
+  }
+}
+#content-outer #content .left-nav .index-list h2 {
+  padding-right: 3em;
+}
+#content-outer #content .left-nav .index-list li {
+  padding-right: 3em;
+}
+#content-outer #content .left-nav .index-list li.current:before {
+  content: "—";
+}
+#content-outer #content .left-nav .index-list h2 {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+#content-outer #content .credit {
+  font-size: 16px;
+  line-height: 1.3em;
+}
+@media (max-width: 539px) {
+  #content-outer #content .credit {
+    width: 100% !important;
+  }
+}
+#content-outer #content .credit h2 {
+  margin: 0em 0 1.25em 0;
+}
+#content-outer #content .credit h3 {
+  margin-bottom: 1.25em;
+  margin-left: 1em;
+}
+#content-outer #content .credit h4 {
+  display: inline-block;
+  margin: 0 0 0 0;
+}
+#content-outer #content .credit h4 .underline {
+  border-bottom: 1px solid;
+}
+#content-outer #content .credit ul {
+  margin-bottom: 1.25em;
+}
+#content-outer #content .credit ul li {
+  margin-bottom: 0em;
+}
+
+#intro .artwork {
+  margin-bottom: 3em;
+}
+#intro .logos {
+  padding-top: 60px;
+  text-align: center;
+}
+#intro .logos img.ct {
+  width: 70px;
+  height: auto;
+}
+#intro .logos img.tj {
+  width: 60px;
+  height: auto;
+  margin-left: 100px;
+}
+
+.hr {
+  width: 930px;
+  margin: 2em 0 2em 250px;
+}
+
+/* ---------------------------------------------- */
+/* map area */
+/* ---------------------------------------------- */
+#map-expander {
+  position: fixed;
+  width: 100%;
+  height: 50%;
+  display: none;
+}
+#map-expander:hover {
+  border-bottom: none;
+}
+
+.leaflet-popup-content-wrapper {
+  cursor: pointer;
+}
+
+.project_icon {
+  background-color: white;
+  border-radius: 40px;
+  border: 2px solid black !important;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding-top: 8px;
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  transition: 0.2s background-color;
+}
+.project_icon:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.artwork_icon {
+  background-color: white;
+  border-radius: 40px;
+  border: 1px solid black !important;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  transition: 0.2s background-color;
+}
+.artwork_icon.selected {
+  border: 2px solid black !important;
+}
+.artwork_icon:hover {
+  border: 2px solid black !important;
+}
+
+.venue_icon {
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black !important;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  transition: 0.2s background-color;
+}
+.venue_icon:hover {
+  background-color: #000;
+}
+
+.artist_icon {
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black !important;
+  background-color: #000;
+  color: #000;
+  text-align: center;
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  transition: 0.2s background-color;
+}
+.artist_icon:hover {
+  background-color: #fff;
+}
+
+.popup-project {
+  z-index: 9999;
+}
+.popup-project .leaflet-popup-content-wrapper {
+  background: #000;
+  color: #fff;
+}
+.popup-project .leaflet-popup-content-wrapper:hover {
+  text-decoration: underline;
+}
+.popup-project .leaflet-popup-tip {
+  background: #000;
+}
+
+.leaflet-popup-content-wrapper a {
+  color: black;
+}
+.leaflet-popup-content-wrapper:hover a {
+  color: white;
+}
+
+.link {
+  stroke: #AAA;
+  stroke-opacity: .3;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+#map-outer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.map-down {
+  border-top: 1px solid;
+}
+
+#map-container {
+  width: 100%;
+  height: 0px;
+}
+
+#lang-control, #menu-control {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border: 2px solid;
+  border-radius: 2px;
+  background: #fff;
+}
+#lang-control#menu-control, #menu-control#menu-control {
+  top: 100px;
+  right: auto;
+  left: 25px;
+}
+#lang-control a, #menu-control a {
+  transition: 0.3s all;
+  display: block;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 16px;
+}
+#lang-control a:hover, #menu-control a:hover {
+  border-bottom: none;
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+}
+#lang-control a.btn-en, #menu-control a.btn-en {
+  border-top: 1px solid;
+}
+#lang-control a.btn-home svg, #menu-control a.btn-home svg {
+  margin-top: 3px;
+  width: 20px;
+  height: auto;
+}
+#lang-control a.btn-home:hover svg path, #menu-control a.btn-home:hover svg path {
+  fill: #FFF;
+}
+#lang-control a.btn-menu, #menu-control a.btn-menu {
+  border-top: 1px solid;
+}
+#lang-control a.btn-menu svg, #menu-control a.btn-menu svg {
+  margin-top: 3px;
+  width: 20px;
+  height: auto;
+}
+#lang-control a.btn-menu:hover svg path, #menu-control a.btn-menu:hover svg path {
+  fill: #FFF;
+}
+
+.map-overlays.btn-logo {
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  transition: 0.2s opacity;
+}
+.map-overlays.btn-logo h1 {
+  width: 620px;
+  font-size: 22px;
+  margin: 0 0 -10px -310px;
+  padding: 10px 0 20px 0;
+  text-align: center;
+  text-shadow: -1px -1px 0px #fff,   1px -1px 0px #fff, -1px  1px 0px #fff, 1px  1px 0px #fff;
+  line-height: 1em;
+  border-radius: 2px;
+}
+@media (max-width: 960px) {
+  .map-overlays.btn-logo h1 {
+    width: 360px;
+    margin: 0 0 -10px -180px;
+    font-size: 19px;
+  }
+}
+@media (max-width: 539px) {
+  .map-overlays.btn-logo h1 {
+    display: none;
+  }
+}
+.map-overlays.btn-logo:hover {
+  opacity: 0.5;
+  border: none;
+}
+.map-overlays.btn-logo img.title-ko {
+  width: 770px;
+  height: auto;
+}
+.map-overlays.btn-logo img.title-en {
+  width: 770px;
+  height: auto;
+}
+.map-overlays.btn-ct {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  left: 30px;
+  bottom: 30px;
+  transition: 0.2s opacity;
+}
+.map-overlays.btn-ct:hover {
+  opacity: 0.5;
+  border: none;
+}
+.map-overlays.btn-tj {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  transition: 0.2s opacity;
+}
+.map-overlays.btn-tj:hover {
+  opacity: 0.5;
+  border: none;
+}
+
+#project_carousel {
+  margin-top: 30px;
+  border-top: 1px solid #000;
+  position: relative;
+  overflow: hidden;
+}
+#project_carousel a.project_carousel--image {
+  position: relative;
+  height: 900px;
+}
+#project_carousel a.project_carousel--image img {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s opacity;
+}
+#project_carousel a.project_carousel--image .caption {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
+}
+#project_carousel .slick-dots {
+  bottom: 40px;
+}
+#project_carousel .slick-prev, #project_carousel .slick-next {
+  z-index: 2;
+  width: 60px;
+  height: 60px;
+  top: 20px;
+}
+#project_carousel .slick-prev:before, #project_carousel .slick-next:before {
+  color: #000;
+}
+#project_carousel .slick-prev {
+  left: 15px;
+  background-image: url("../../images/carousel-btn-prev.png");
+}
+#project_carousel .slick-prev:before {
+  content: '';
+}
+#project_carousel .slick-next {
+  right: 15px;
+  background-image: url("../../images/carousel-btn-next.png");
+}
+#project_carousel .slick-next:before {
+  content: '';
+}
+#project_carousel .overlay-left {
+  position: absolute;
+  height: 900px;
+  width: 50%;
+}
+#project_carousel .overlay-right {
+  position: absolute;
+  height: 900px;
+  width: 50%;
+  left: 50%;
+}
+
+.slick-slider {
+  margin-bottom: 0px !important;
+}
+
+/* ---------------------------------------------- */
+/* footer */
+/* ---------------------------------------------- */
+#footer {
+  padding: 30px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+#footer h2 {
+  position: absolute;
+  padding-bottom: 2em;
+}
+@media (max-width: 960px) {
+  #footer h2 {
+    position: relative;
+    margin-top: 2em;
+  }
+}
+#footer ul {
+  position: absolute;
+  margin-left: 240px;
+}
+@media (max-width: 960px) {
+  #footer ul {
+    position: relative;
+    margin-left: 0px;
+  }
+}
+#footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 1em;
+}
+#footer ul .footer-group {
+  display: inline-block;
+  margin-top: 1.3em;
+}
+
+/* ---------------------------------------------- */
+/* lightbox override */
+/* ---------------------------------------------- */
+.lb-outerContainer {
+  border-radius: 2px 2px 0 0;
+  background-color: #000;
+}
+.lb-outerContainer .lb-container {
+  padding: 0px;
+}
+.lb-outerContainer .lb-container .lb-nav a:hover {
+  border: 0;
+}
+.lb-outerContainer .lb-container .lb-nav a.lb-prev {
+  background: url(../../images/prev.png) left 48% no-repeat;
+}
+.lb-outerContainer .lb-container .lb-nav a.lb-next {
+  background: url(../../images/next.png) right 48% no-repeat;
+}
+
+.lb-dataContainer {
+  padding-top: 0px;
+}
+.lb-dataContainer .lb-data {
+  position: absolute;
+  margin: -10px 0 0 -30px;
+  width: inherit;
+  border-radius: 0 0 2px 2px;
+  -ms-transform: rotate(-90deg);
+  /* IE 9 */
+  -ms-transform-origin: 0% 0%;
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+  /* Chrome, Safari, Opera */
+  -webkit-transform-origin: 0% 0%;
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+  transform-origin: 0% 0%;
+}
+.lb-dataContainer .lb-data .lb-details {
+  text-align: left;
+}
+.lb-dataContainer .lb-data .lb-details .lb-caption, .lb-dataContainer .lb-data .lb-details .lb-number {
+  font-family: 'FoundersGroteskTextWeb', 'NotoSansCJKkr-Regular-2350', arial, sans-serif;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.3em;
+  color: #fff;
+}
+.lb-dataContainer .lb-data .lb-details .lb-caption a, .lb-dataContainer .lb-data .lb-details .lb-number a {
+  color: #fff;
+}
+.lb-dataContainer .lb-data .lb-details .lb-number {
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.lightboxOverlay {
+  background-color: #000;
+  opacity: 1;
+}
+@media (max-width: 700px) {
+  .lightboxOverlay {
+    opacity: .7;
+  }
+}
+
+.lightbox .lb-image {
+  border-radius: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */

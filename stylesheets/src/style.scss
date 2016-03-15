@@ -850,6 +850,7 @@ $medim-width: 1200px;
 .lightbox {
   // position:fixed;
 }
+
 .lb-outerContainer{
   border-radius: 2px 2px 0 0;
   // box-shadow: 0px 0px 50px rgba(255,255,255,.5);
@@ -896,11 +897,7 @@ $medim-width: 1200px;
         font-weight:normal;
         @include small_type;
         color:#fff;
-<<<<<<< HEAD
         a {
-=======
-        a{
->>>>>>> 594f8ce4bd3eb980a0f10657f05a3134d07a6c9c
           color:#fff;
         }
         // text-shadow:

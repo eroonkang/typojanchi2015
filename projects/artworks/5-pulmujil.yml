@@ -23,4 +23,5 @@ artwork_desc_en: ''
 artwork_desc_ko: |
   사회, 문화과학 서점
   성균관대 앞에서 사화과학서점의 명맥을 튼튼히 잇고 있는 서점이다. 보물을 찾는 기분으로 책을 둘러볼 수 있으며 ‘풀빵’이라 불리는 서점 안의 작은 공간에선 다양한 모임이 꾸준히 열리고 있다.
-photos: []
+photos:
+- "./images/exhibitions/640/5-pulmujil__01.jpg"

@@ -68,4 +68,13 @@ venue_country_en: KR
 venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-photos: []
+photos:
+- "./images/exhibitions/640/12-city-type-exploration__01.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__02.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__03.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__04.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__05.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__06.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__07.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__08.jpg"
+- "./images/exhibitions/640/12-city-type-exploration__09.jpg"

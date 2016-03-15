@@ -23,4 +23,5 @@ artwork_desc_en: ''
 artwork_desc_ko: |
   90년대 시작해 지금까지 독자들과 소통하는 서점
   망원동에 자리한 이곳은 ‘서점은 쉼터’라고 생각하는 대표의 생각이 눈에 띄는 곳이다. 서점 곳곳에 큰 테이블과 의자가 마련되어 있어 편안히 책을 읽고 즐길 수 있다.
-photos: []
+photos:
+- "./images/exhibitions/640/5-hankang-bookstore__01.jpg"

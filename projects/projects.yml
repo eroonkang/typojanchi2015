@@ -625,7 +625,25 @@ projects:
   #     SEOUL (  ) SOUL
   #   title_ko: 
   #   title_en: 
-  - url: "./images/exhibitions/640/5-seoul-soul__03.jpg"
+  - url: "./images/exhibitions/640/5-seoul-soul__04.jpg"
+    permalink: 5-seoul-soul
+    idx: 5
+    project_name_ko: |
+      SEOUL (  ) SOUL
+    project_name_en: |
+      SEOUL (  ) SOUL
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/5-seoul-soul__05.jpg"
+    permalink: 5-seoul-soul
+    idx: 5
+    project_name_ko: |
+      SEOUL (  ) SOUL
+    project_name_en: |
+      SEOUL (  ) SOUL
+    title_ko: 
+    title_en: 
+  - url: "./images/exhibitions/640/5-seoul-soul__06.jpg"
     permalink: 5-seoul-soul
     idx: 5
     project_name_ko: |
