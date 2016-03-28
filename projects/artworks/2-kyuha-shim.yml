@@ -32,4 +32,8 @@ venue_country_en: KR
 venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-photos: []
+photos:
+- "./images/exhibitions/640/2-kyuha-shim__1.jpg"
+- "./images/exhibitions/640/2-kyuha-shim__2.jpg"
+- "./images/exhibitions/640/2-kyuha-shim__3.jpg"
+- "./images/exhibitions/640/2-kyuha-shim__4.jpg"

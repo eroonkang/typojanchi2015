@@ -31,4 +31,6 @@ venue_country_en: KR
 venue_country_ko: "한국"
 venue_lat: 37.5558393
 venue_lng: 126.9716173
-photos: []
+photos: 
+- "./images/exhibitions/640/3-sean-kelvin-khoo__1.jpg"
+- "./images/exhibitions/640/3-sean-kelvin-khoo__2.jpg"
